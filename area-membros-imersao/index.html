@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Área de Membros — Imersão</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Tela de acesso -->
+  <section id="tela-login" class="login" hidden>
+    <form id="form-login" class="login-card">
+      <p class="eyebrow" data-subtitulo></p>
+      <h1 data-titulo></h1>
+      <label>Seu nome
+        <input id="login-nome" type="text" autocomplete="name" required>
+      </label>
+      <label>Código de acesso
+        <input id="login-codigo" type="password" autocomplete="off" required>
+      </label>
+      <p id="login-erro" class="erro" hidden>Código de acesso inválido.</p>
+      <button type="submit" class="btn">Entrar</button>
+    </form>
+  </section>
+
+  <!-- Área de membros -->
+  <div id="app" hidden>
+    <header class="topo">
+      <button id="btn-menu" class="btn-icone" aria-label="Abrir módulos">☰</button>
+      <a href="#/" class="marca"><span data-titulo></span> <small data-subtitulo></small></a>
+      <div class="topo-dir">
+        <span id="saudacao"></span>
+        <button id="btn-sair" class="btn-link">Sair</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside id="lateral" class="lateral">
+        <div class="progresso-geral">
+          <div class="progresso-rotulo"><span>Seu progresso</span><strong id="progresso-pct">0%</strong></div>
+          <div class="barra"><div id="progresso-barra"></div></div>
+        </div>
+        <nav id="nav-modulos"></nav>
+      </aside>
+
+      <main id="conteudo" class="conteudo" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <script src="conteudo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

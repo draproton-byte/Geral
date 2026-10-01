@@ -6,3 +6,5 @@ Alteradas (feed + story): 03, 04, 08, 10, 14, 15 (12x R$199,31) e 13 (menos de R
 As demais artes não tinham valor e não foram mexidas.
 
 Arte 08: "menos de R$100 por mês" trocado por "menos de R$200 por mês".
+
+Arte 12 (depoimento): print de depoimento inserido no quadro. Recorte apenas da bolha da mensagem, sem cabecalho, nome, foto de perfil ou telefone.

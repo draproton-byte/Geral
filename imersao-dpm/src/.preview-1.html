@@ -1,0 +1,124 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page{size:A4;margin:0}
+@page cheia{margin:0}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:#000211}
+body{font:400 10.8pt/1.6 Montserrat;color:#C9CEDD;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+main.flow{padding:30mm 20mm 22mm;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.fundo{position:fixed;top:0;left:0;width:210mm;height:297mm;z-index:-1;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.cab{position:fixed;top:0;left:0;width:210mm;height:24mm;padding:9mm 20mm 0;display:flex;justify-content:space-between;align-items:flex-start}
+.cab .lg{width:34mm;height:10mm;background:url('file:///home/user/Geral/imersao-dpm/assets/logo-h.png') no-repeat left center/contain}
+.cab::after{content:"";position:absolute;left:20mm;right:20mm;bottom:2mm;border-bottom:.2mm solid rgba(255,255,255,.12)}
+.rodf{position:fixed;bottom:0;left:0;width:210mm;padding:0 20mm 9mm;font:500 7pt Montserrat;color:rgba(255,255,255,.35)}
+.rodf::before{content:"";display:block;border-top:.2mm solid rgba(255,255,255,.12);margin-bottom:3mm}
+.flow .tag{break-after:avoid}
+.flow .sec > .tag + h2{break-before:avoid}
+.pg{page:cheia}
+.flow .sec{margin-bottom:12mm;position:relative}
+.flow .nova{break-before:page}
+.flow h2{break-after:avoid;break-inside:avoid}
+.flow .sec > :last-child{break-before:avoid}
+.flow p{orphans:3;widows:3}
+.flow .dest,.flow table,.flow .sec:has(> table:last-child),.flow .duas,.flow .passos div,.flow .cit,.flow .escala,.flow .horas{break-inside:avoid}
+.flow .rom{right:0;top:-4mm;font-size:54pt}
+.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:30mm 20mm 24mm;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.pg{z-index:10}
+.pg > *{position:relative}
+.pg .cab,.pg .rodf{position:absolute}
+.rod{display:none}
+.tag{display:inline-block;font:700 7pt Montserrat;letter-spacing:.24em;text-transform:uppercase;color:#F5D792;border:.35mm solid #F5D792;border-radius:99px;padding:1.2mm 3.4mm}
+mark{background:none;color:#F5D792}
+h2{font:700 24pt/1.15 Montserrat;margin:4mm 0 6mm;color:#fff;letter-spacing:-.3px}
+.rom{position:absolute;right:0;top:-4mm;font:800 54pt/1 Montserrat;color:rgba(245,215,146,.10)}
+p{margin:0 0 3.4mm}
+strong,b{color:#fff}
+.dest{background:#F5D792;color:#1a1a1a;padding:5mm 6mm;margin:4mm 0 6mm;border-radius:2.5mm;font-weight:500}
+.dest .tag{border-color:#1a1a1a;color:#1a1a1a;margin-bottom:2.5mm}
+.cit{font:700 16pt/1.3 Montserrat;color:#F5D792;margin:6mm 0;padding-left:5mm;border-left:1mm solid #F5D792}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:3mm 0 6mm;font-size:9.6pt;border:.3mm solid rgba(245,215,146,.35);border-radius:2.5mm;overflow:hidden}
+th{font:700 7pt Montserrat;letter-spacing:.2em;text-align:left;color:#F5D792;background:rgba(245,215,146,.08);padding:2.6mm 3mm}
+td{padding:2.6mm 3mm;border-top:.2mm solid rgba(255,255,255,.08);vertical-align:top}
+td:first-child{font-weight:700;color:#fff;width:36%}
+ul.l{list-style:none;margin:2mm 0 5mm}
+ul.l li{padding-left:7mm;position:relative;margin-bottom:2.2mm}
+ul.l li::before{content:"";position:absolute;left:0;top:1.2mm;width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm;background:linear-gradient(135deg,transparent 45%,#F5D792 45% 55%,transparent 55%)}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:3mm 0 6mm}
+.duas > div{background:#0B1230;border:.3mm solid rgba(245,215,146,.3);padding:4.5mm;border-radius:2.5mm}
+.duas .tag{margin-bottom:2.5mm;display:table}
+.dest .tag{display:table}
+.fluxo{display:flex;align-items:center;gap:2mm;margin:4mm 0 6mm;flex-wrap:wrap}
+.fluxo span{font:700 9.5pt Montserrat;background:#0B1230;border:.3mm solid #F5D792;color:#fff;padding:1.8mm 3.4mm;border-radius:99px}
+.fluxo i{font-style:normal;font-weight:800;color:#F5D792}
+.escala{display:flex;margin:4mm 0 2mm;border-radius:2mm;overflow:hidden}
+.escala span{flex:1;text-align:center;font:700 7.5pt Montserrat;padding:3mm 1mm;color:#fff}
+.passos{counter-reset:p;margin:4mm 0}
+.passos div{counter-increment:p;display:grid;grid-template-columns:12mm 1fr;gap:3mm;margin-bottom:3mm;align-items:center;background:#0B1230;border:.3mm solid rgba(245,215,146,.25);border-radius:2.5mm;padding:3.5mm 4mm}
+.passos div::before{content:counter(p);font:800 20pt/1 Montserrat;color:#F5D792}
+.linhas{margin:2mm 0 6mm}
+.linhas div{border-bottom:.25mm solid rgba(255,255,255,.18);height:9mm}
+.horas{display:grid;grid-template-columns:repeat(8,1fr);gap:2.5mm;margin-top:4mm}
+.horas div{border:.3mm solid rgba(245,215,146,.5);border-radius:1.5mm;padding:2mm;font:700 8.5pt Montserrat;color:#fff;display:flex;justify-content:space-between}
+.horas div::after{content:"";width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm}
+.codigo{font:800 46pt/1 Montserrat;text-align:center;margin:4mm 0 1mm;letter-spacing:.04em}
+.frase-g{font:700 15pt/1.35 Montserrat;color:#fff;margin:0 0 5mm;padding:5mm 6mm;background:#0B1230;border-left:1mm solid #F5D792;border-radius:0 2.5mm 2.5mm 0}
+.dest .codigo{color:#1a1a1a}
+</style></head><body><section class="pg" style="padding:0">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 45%, rgba(80,70,180,.35), transparent 70%)"></div>
+    <div style="position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:190mm;height:205mm;background:url('file:///home/user/Geral/imersao-dpm/assets/foto.png') no-repeat bottom center/contain;-webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent 97%)"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,2,17,.9) 0%, rgba(0,2,17,.2) 30%, transparent 50%, rgba(0,2,17,.6) 72%, #000211 92%)"></div>
+    <div style="position:absolute;left:0;right:0;top:20mm;text-align:center">
+      <div style="margin:0 auto;width:95mm;height:28mm;background:url('file:///home/user/Geral/imersao-dpm/assets/logo-h.png') no-repeat center/contain"></div>
+    </div>
+    <div style="position:absolute;right:9mm;top:20mm;writing-mode:vertical-rl;font:700 6.5pt Montserrat;letter-spacing:.3em;color:#F5D792;border:.3mm solid #F5D792;border-radius:99px;padding:3mm 1.6mm">RESUMO DA AULA</div>
+    <div style="position:absolute;left:20mm;right:20mm;bottom:24mm">
+      <span class="tag">Aula 01 · Noite 1 · 08/09</span>
+      <div style="font:800 30pt/1.1 Montserrat;color:#fff;margin:5mm 0 3mm">Por que a sua vida não dava certo</div>
+      <div style="font:600 13pt Montserrat;color:#F5D792">Quem escreveu as regras do seu jogo?</div>
+      <div style="display:flex;justify-content:space-between;margin-top:9mm;font:500 8pt Montserrat;color:rgba(255,255,255,.6)"><span>Dra. Próton</span><span>8, 9 e 10 de setembro · Material de apoio</span></div>
+    </div>
+  </section><section class="pg"><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite 1 · Dra. Próton</div>
+    <div class="tag">Antes de começar</div>
+    <h2>Como usar <mark>este manual</mark></h2>
+    <div class="cit" style="font-size:17pt">"Você não está vivendo a vida que você escolheu, e você sabe disso. Porque se estivesse, talvez nem estaria aqui. Eu vivi quase 30 anos dessa experiência humana numa vida que eu não queria, achando que não poderia viver uma vida diferente."</div>
+    <p style="font:700 8.5pt Inter;letter-spacing:.2em;margin-top:-3mm">DRA. PRÓTON · ABERTURA DA NOITE 1</p>
+    <div class="duas" style="grid-template-columns:1fr 1fr 1fr;margin-top:8mm">
+      <div><div class="tag">Caiu a ficha</div>Quando você entender algo novo.</div>
+      <div><div class="tag">Ai</div>Quando a palavra doer um pouquinho.</div>
+      <div><div class="tag">Arrepiei</div>Quando sentir que é verdade.</div>
+    </div>
+    <p>Durante a aula, a Dra. Próton pediu que você escrevesse essas palavras no chat. Faça o mesmo aqui: sublinhe, marque e escreva nas margens. Tenha sempre por perto papel e caneta.</p>
+    <div class="tag" style="margin-top:9mm">Neste manual</div>
+    <ul class="l" style="margin-top:3mm"><li>I. O jogo sem regras</li><li>II. Quem você é de verdade</li><li>III. Tudo é energia, e só existe uma</li><li>IV. O universo é um espelho</li><li>V. O cérebro não distingue o real do imaginado</li><li>VI. O CD em branco</li><li>Prática da noite</li><li>Modo Obcecado: a ativação de hora em hora</li><li>Frases para guardar</li><li>Minhas anotações</li></ul>
+    <div class="rod"><span>IMERSÃO · DESBLOQUEIE O PODER DA SUA MENTE · NOITE 01</span><span>02</span></div>
+  </section><main class="flow"><div class="fundo"></div><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite 1 · Dra. Próton</div><div class="sec nova"><div class="rom">I</div>
+      <div class="tag">Lição 1</div><h2>O jogo sem regras</h2>
+      <p>Imagine que alguém chega na sua casa com um jogo de tabuleiro cheio de cartas, entrega na sua mão e diz: "joga". Você procura o manual e ele não está lá. Por mais que tente adivinhar, não tem como vencer um jogo cujas regras você não conhece.</p><p>A vida é o jogo mais complexo que existe, e ninguém programou a sua mente com as regras dele. Você ouviu "estuda, acorda tal hora, põe tal roupa". Quando perguntava por que a família era pobre, ouvia que Deus quis. E quando não dava certo, ainda se culpava.</p><div class="dest"><div class="tag">CAIU A FICHA</div><div>Você não estava perdendo por falta de esforço ou de inteligência. Estava jogando sem as regras. As três noites da Imersão existem para te entregar o manual.</div></div></div><div class="sec"><div class="rom">II</div>
+      <div class="tag">Lição 2</div><h2>Quem você é de verdade</h2>
+      <p>Se alguém pergunta "quem é você?", a resposta automática é um nome, uma profissão ou um papel. Mas tudo isso são estados, com começo, meio e fim.</p><table><tr><th>O QUE VOCÊ ACHA</th><th>O QUE É VERDADE</th></tr><tr><td>"Eu sou a Joana."</td><td>"Eu estou Joana nesta experiência."</td></tr><tr><td>"Eu sou diretora."</td><td>"Eu estou diretora agora."</td></tr><tr><td>"Eu sou pobre."</td><td>"Eu estou em estado de pobreza."</td></tr></table><p>Amplie o corpo humano no microscópio: órgãos, células, moléculas, átomos, prótons, elétrons, nêutrons. Amplie mais uma vez e o que sobra é energia.</p><div class="cit">"Você é um ser de energia vivendo uma experiência humana."</div></div><div class="sec"><div class="rom">III</div>
+      <div class="tag">Lição 3</div><h2>Tudo é energia, e só existe uma</h2>
+      <p>A xícara, o celular, a chave do carro: no fim da ampliação, tudo é energia. E no universo existe um único tipo de energia. Você, as pessoas e as coisas são, no fundo, uma coisa só. Se você faz mal a alguém, nem que seja com um xingamento, faz o mesmo a si.</p><p>Se só existe uma energia, não há separação entre você e Deus. "Todos vós sois deuses, e todos vós filhos do Altíssimo" (Salmo 82). Por isso a pobreza é antinatural: tudo o que é de Deus é abundante, como a mata que cresce sem esforço.</p></div><div class="sec"><div class="rom">IV</div>
+      <div class="tag">Lição 4</div><h2>O universo é um espelho</h2>
+      <p>Energia é uma onda de informação. Tudo o que você pensa, sente, fala, escuta e escreve gera uma vibração. E o que você sente vibra cerca de 5.000 vezes mais forte do que o que você pensa.</p><div class="fluxo"><span>Pensamento</span><i>›</i><span>Emoção</span><i>›</i><span>Vibração</span><i>›</i><span>Universo</span><i>›</i><span>Realidade</span></div><p>O universo não é um homem numa poltrona decidindo quem vai ser feliz. É um campo que devolve o que você vibra, sem julgar. Não adianta brigar com o espelho por causa da ruga: ele só mostra o que está na frente dele.</p><div class="duas"><div><div class="tag">QUANDO VOCÊ VIBRA ÓDIO E DÍVIDA</div>"Boleto, conta, nada dá certo." O espelho devolve mais situações que alimentam exatamente isso.</div><div><div class="tag">QUANDO VOCÊ VIBRA AMOR</div>Por isso, apaixonada, tudo parece dar certo: a frequência subiu e só chega o que a nutre.</div></div></div><div class="sec"><div class="rom">V</div>
+      <div class="tag">Lição 5</div><h2>O cérebro não distingue o real do imaginado</h2>
+      <div class="duas"><div><div class="tag">EXPERIMENTO 1 · O PRATO</div>Arroz, feijão, bife e ovo. O cheiro, a primeira garfada… e na segunda, bichos no meio do arroz. A turma sentiu: nojo.</div><div><div class="tag">EXPERIMENTO 2 · A LIMUSINE</div>Uma limusine na sua porta, um abraço apertado, um brinde contando como a sua vida mudou. A turma sentiu: alegria e paz.</div></div><p>Nenhuma das cenas era real, e o corpo reagiu. Esse é o seu poder e a sua armadilha:</p><ul class="l"><li>Remoer quem te fez mal faz o cérebro viver aquilo agora.</li><li>Música de sofrência, traição e abandono é vivida como real.</li><li>Palavrão e reclamação o dia inteiro também. O cérebro não entende que era brincadeira.</li><li>Uma imagem positiva com emoção conecta você com a nova realidade.</li></ul><div class="dest"><div class="tag">O ANTIGO E O NOVO HUMANO</div><div>Só existe uma forma de mudar completamente de vida: trocar o antigo humano, que reclama, critica e fofoca, pelo novo humano, que vive em oração, gratidão e alegria. E entender com a mente consciente não basta: sem reprogramação, nada muda.</div></div></div><div class="sec"><div class="rom">VI</div>
+      <div class="tag">Lição 6</div><h2>O CD em branco</h2>
+      <p>Dentro da barriga da mãe, você era como um CD em branco. Tudo o que ela sentia gravava uma música nesse CD: amor e alegria, ou medo, abandono e dor.</p><table><tr><th>FASE</th><th>O QUE ACONTECE</th></tr><tr><td>Vida intrauterina</td><td>As emoções da mãe gravam as primeiras "músicas".</td></tr><tr><td>Infância (até ~7 anos)</td><td>Só existe a mente subconsciente. O que dizem para a criança vira verdade absoluta.</td></tr><tr><td>Vida adulta</td><td>O CD continua tocando as mesmas músicas e a mente se conecta com pessoas e situações da mesma frequência.</td></tr></table><p>Faculdade, mestrado ou doutorado sozinhos não resolvem: a programação continua negativa. A solução é reprogramar, e é isso que as próximas noites fazem.</p></div><div class="sec nova">
+    <div class="tag">Prática da noite</div><h2><mark>A Sala de Comando</mark></h2>
+    <p>Antes de começar, a Dra. Próton pediu permissão: "posso entrar no seu campo?". Nem o bem nem o mal entram sem que você permita.</p>
+    <div class="passos"><div><span>Feche os olhos, respire fundo pelo nariz e solte devagar pela boca. Solte braços, pernas e pescoço.</span></div><div><span>Imagine-se no topo de uma escada. Com a mão no corrimão, desça degrau por degrau, relaxando mais a cada passo.</span></div><div><span>No fim da escada há uma porta. Atrás dela, uma sala de comando com um telão.</span></div><div><span>No telão passam cenas da sua infância. Essa criança parece feliz ou triste? O que o pai e a mãe falam para ela?</span></div><div><span>Traga essa informação, abra os olhos e escreva o que viu. Se viu medo ou ausência, não se assuste: na Noite 2 você volta lá para resgatá-la.</span></div></div>
+    
+    <div class="tag" style="margin-top:6mm">O que eu vi na sala de comando</div><div class="linhas"><div></div><div></div><div></div><div></div><div></div></div></div><div class="sec nova">
+    <div class="tag">Exercício até a Noite 2</div><h2>Modo Obcecado: a ativação de hora em hora</h2>
+    <p>Uma sequência de Grigori Grabovoi para abundância financeira, repetida um minuto por hora para provar ao seu cérebro que você domina a sua mente.</p>
+    <div class="dest" style="text-align:center"><div class="tag">Repita mentalmente</div><div class="codigo" style="color:#f2c200">520 741 8</div><div style="font:600 13pt Inter">"Eu ativo 520 741 8. Ativado."</div></div>
+    <div class="passos"><div><span>Programe o alarme do celular de hora em hora, de quando acorda até quando dorme.</span></div><div><span>Quando tocar, pare por um minuto e feche os olhos.</span></div><div><span>Repita, em voz alta ou mentalmente: "Eu ativo 520 741 8. Ativado."</span></div><div><span>Visualize como se já estivesse acontecendo: vendas fechando, quem te deve pagando, dinheiro entrando.</span></div><div><span>Complete com o mantra de Grabovoi ao acordar e antes de dormir.</span></div></div>
+    
+    <div class="tag" style="margin-top:4mm">Marque cada ativação</div><div class="horas"><div>7h</div><div>8h</div><div>9h</div><div>10h</div><div>11h</div><div>12h</div><div>13h</div><div>14h</div><div>15h</div><div>16h</div><div>17h</div><div>18h</div><div>19h</div><div>20h</div><div>21h</div><div>22h</div></div>
+    </div><div class="sec nova">
+    <div class="tag">Para guardar</div><h2>As frases da <mark>Noite 1</mark></h2>
+    <div class="frase-g">"Você não pode ganhar um jogo cujas regras nunca te ensinaram."</div><div class="frase-g">"Você é um ser de energia vivendo uma experiência humana."</div><div class="frase-g">"O universo não julga. Ele devolve o que você vibra."</div><div class="frase-g">"O cérebro não sabe diferenciar o real do imaginado."</div>
+    <div class="dest" style="margin-top:8mm"><div class="tag">Próxima aula: Noite 2</div>Faça a ativação de hora em hora antes de assistir à Noite 2 e anote o que mudou no seu humor. A Noite 2 é a noite da Hipnose de Desbloqueio: assista num lugar tranquilo, com fones.</div></div><div class="sec nova">
+    <div class="tag">Minhas anotações</div><h2>Noite 1</h2>
+    <p style="font-weight:700;margin-top:3mm">Se alguém me perguntasse hoje "quem é você?", o que eu responderia?</p><div class="linhas"><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">O que eu mais penso, sinto, escuto e falo? Isso vibra alto ou baixo?</p><div class="linhas"><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">O que eu vi na sala de comando? Como estava a minha criança?</p><div class="linhas"><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">Que frases eu ouvia na infância e ainda repito para mim?</p><div class="linhas"><div></div><div></div><div></div><div></div></div></div></main></body></html>

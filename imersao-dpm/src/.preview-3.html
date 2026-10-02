@@ -1,0 +1,126 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page{size:A4;margin:0}
+@page cheia{margin:0}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:#000211}
+body{font:400 10.8pt/1.6 Montserrat;color:#C9CEDD;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+main.flow{padding:30mm 20mm 22mm;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.fundo{position:fixed;top:0;left:0;width:210mm;height:297mm;z-index:-1;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.cab{position:fixed;top:0;left:0;width:210mm;height:24mm;padding:9mm 20mm 0;display:flex;justify-content:space-between;align-items:flex-start}
+.cab .lg{width:34mm;height:10mm;background:url('file:///home/user/Geral/imersao-dpm/assets/logo-h.png') no-repeat left center/contain}
+.cab::after{content:"";position:absolute;left:20mm;right:20mm;bottom:2mm;border-bottom:.2mm solid rgba(255,255,255,.12)}
+.rodf{position:fixed;bottom:0;left:0;width:210mm;padding:0 20mm 9mm;font:500 7pt Montserrat;color:rgba(255,255,255,.35)}
+.rodf::before{content:"";display:block;border-top:.2mm solid rgba(255,255,255,.12);margin-bottom:3mm}
+.flow .tag{break-after:avoid}
+.flow .sec > .tag + h2{break-before:avoid}
+.pg{page:cheia}
+.flow .sec{margin-bottom:12mm;position:relative}
+.flow .nova{break-before:page}
+.flow h2{break-after:avoid;break-inside:avoid}
+.flow .sec > :last-child{break-before:avoid}
+.flow p{orphans:3;widows:3}
+.flow .dest,.flow table,.flow .sec:has(> table:last-child),.flow .duas,.flow .passos div,.flow .cit,.flow .escala,.flow .horas{break-inside:avoid}
+.flow .rom{right:0;top:-4mm;font-size:54pt}
+.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:30mm 20mm 24mm;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.pg{z-index:10}
+.pg > *{position:relative}
+.pg .cab,.pg .rodf{position:absolute}
+.rod{display:none}
+.tag{display:inline-block;font:700 7pt Montserrat;letter-spacing:.24em;text-transform:uppercase;color:#F5D792;border:.35mm solid #F5D792;border-radius:99px;padding:1.2mm 3.4mm}
+mark{background:none;color:#F5D792}
+h2{font:700 24pt/1.15 Montserrat;margin:4mm 0 6mm;color:#fff;letter-spacing:-.3px}
+.rom{position:absolute;right:0;top:-4mm;font:800 54pt/1 Montserrat;color:rgba(245,215,146,.10)}
+p{margin:0 0 3.4mm}
+strong,b{color:#fff}
+.dest{background:#F5D792;color:#1a1a1a;padding:5mm 6mm;margin:4mm 0 6mm;border-radius:2.5mm;font-weight:500}
+.dest .tag{border-color:#1a1a1a;color:#1a1a1a;margin-bottom:2.5mm}
+.cit{font:700 16pt/1.3 Montserrat;color:#F5D792;margin:6mm 0;padding-left:5mm;border-left:1mm solid #F5D792}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:3mm 0 6mm;font-size:9.6pt;border:.3mm solid rgba(245,215,146,.35);border-radius:2.5mm;overflow:hidden}
+th{font:700 7pt Montserrat;letter-spacing:.2em;text-align:left;color:#F5D792;background:rgba(245,215,146,.08);padding:2.6mm 3mm}
+td{padding:2.6mm 3mm;border-top:.2mm solid rgba(255,255,255,.08);vertical-align:top}
+td:first-child{font-weight:700;color:#fff;width:36%}
+ul.l{list-style:none;margin:2mm 0 5mm}
+ul.l li{padding-left:7mm;position:relative;margin-bottom:2.2mm}
+ul.l li::before{content:"";position:absolute;left:0;top:1.2mm;width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm;background:linear-gradient(135deg,transparent 45%,#F5D792 45% 55%,transparent 55%)}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:3mm 0 6mm}
+.duas > div{background:#0B1230;border:.3mm solid rgba(245,215,146,.3);padding:4.5mm;border-radius:2.5mm}
+.duas .tag{margin-bottom:2.5mm;display:table}
+.dest .tag{display:table}
+.fluxo{display:flex;align-items:center;gap:2mm;margin:4mm 0 6mm;flex-wrap:wrap}
+.fluxo span{font:700 9.5pt Montserrat;background:#0B1230;border:.3mm solid #F5D792;color:#fff;padding:1.8mm 3.4mm;border-radius:99px}
+.fluxo i{font-style:normal;font-weight:800;color:#F5D792}
+.escala{display:flex;margin:4mm 0 2mm;border-radius:2mm;overflow:hidden}
+.escala span{flex:1;text-align:center;font:700 7.5pt Montserrat;padding:3mm 1mm;color:#fff}
+.passos{counter-reset:p;margin:4mm 0}
+.passos div{counter-increment:p;display:grid;grid-template-columns:12mm 1fr;gap:3mm;margin-bottom:3mm;align-items:center;background:#0B1230;border:.3mm solid rgba(245,215,146,.25);border-radius:2.5mm;padding:3.5mm 4mm}
+.passos div::before{content:counter(p);font:800 20pt/1 Montserrat;color:#F5D792}
+.linhas{margin:2mm 0 6mm}
+.linhas div{border-bottom:.25mm solid rgba(255,255,255,.18);height:9mm}
+.horas{display:grid;grid-template-columns:repeat(8,1fr);gap:2.5mm;margin-top:4mm}
+.horas div{border:.3mm solid rgba(245,215,146,.5);border-radius:1.5mm;padding:2mm;font:700 8.5pt Montserrat;color:#fff;display:flex;justify-content:space-between}
+.horas div::after{content:"";width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm}
+.codigo{font:800 46pt/1 Montserrat;text-align:center;margin:4mm 0 1mm;letter-spacing:.04em}
+.frase-g{font:700 15pt/1.35 Montserrat;color:#fff;margin:0 0 5mm;padding:5mm 6mm;background:#0B1230;border-left:1mm solid #F5D792;border-radius:0 2.5mm 2.5mm 0}
+.dest .codigo{color:#1a1a1a}
+</style></head><body><section class="pg" style="padding:0">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 45%, rgba(80,70,180,.35), transparent 70%)"></div>
+    <div style="position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:190mm;height:205mm;background:url('file:///home/user/Geral/imersao-dpm/assets/foto.png') no-repeat bottom center/contain;-webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent 97%)"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,2,17,.9) 0%, rgba(0,2,17,.2) 30%, transparent 50%, rgba(0,2,17,.6) 72%, #000211 92%)"></div>
+    <div style="position:absolute;left:0;right:0;top:20mm;text-align:center">
+      <div style="margin:0 auto;width:95mm;height:28mm;background:url('file:///home/user/Geral/imersao-dpm/assets/logo-h.png') no-repeat center/contain"></div>
+    </div>
+    <div style="position:absolute;right:9mm;top:20mm;writing-mode:vertical-rl;font:700 6.5pt Montserrat;letter-spacing:.3em;color:#F5D792;border:.3mm solid #F5D792;border-radius:99px;padding:3mm 1.6mm">RESUMO DA AULA</div>
+    <div style="position:absolute;left:20mm;right:20mm;bottom:24mm">
+      <span class="tag">Aula 03 · Noite 3 · 10/09</span>
+      <div style="font:800 30pt/1.1 Montserrat;color:#fff;margin:5mm 0 3mm">Ative seu ímã de dinheiro, saúde e amor</div>
+      <div style="font:600 13pt Montserrat;color:#F5D792">O que você ainda está segurando?</div>
+      <div style="display:flex;justify-content:space-between;margin-top:9mm;font:500 8pt Montserrat;color:rgba(255,255,255,.6)"><span>Dra. Próton</span><span>8, 9 e 10 de setembro · Material de apoio</span></div>
+    </div>
+  </section><section class="pg"><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite 3 · Dra. Próton</div>
+    <div class="tag">Antes de começar</div>
+    <h2>Como usar <mark>este manual</mark></h2>
+    <div class="cit" style="font-size:17pt">"O que você ainda está segurando que, no fundo, você já sabe que deveria ter soltado?"</div>
+    <p style="font:700 8.5pt Inter;letter-spacing:.2em;margin-top:-3mm">DRA. PRÓTON · ABERTURA DA NOITE 3</p>
+    <div class="duas" style="grid-template-columns:1fr 1fr 1fr;margin-top:8mm">
+      <div><div class="tag">Caiu a ficha</div>Quando você entender algo novo.</div>
+      <div><div class="tag">Ai</div>Quando a palavra doer um pouquinho.</div>
+      <div><div class="tag">Arrepiei</div>Quando sentir que é verdade.</div>
+    </div>
+    <p>Durante a aula, a Dra. Próton pediu que você escrevesse essas palavras no chat. Faça o mesmo aqui: sublinhe, marque e escreva nas margens. Tenha sempre por perto papel e caneta.</p>
+    <div class="tag" style="margin-top:9mm">Neste manual</div>
+    <ul class="l" style="margin-top:3mm"><li>I. O chamado de Nicodemos</li><li>II. Um planeta de abundância</li><li>III. Exercício 1: do que você vai se despedir hoje</li><li>IV. Exercício 2: o que você vai conquistar em 12 meses</li><li>Prática da noite</li><li>Ho'oponopono do Amor Consciente</li><li>Riscar, com vontade</li><li>Frases para guardar</li><li>Minhas anotações</li></ul>
+    <div class="rod"><span>IMERSÃO · DESBLOQUEIE O PODER DA SUA MENTE · NOITE 03</span><span>02</span></div>
+  </section><main class="flow"><div class="fundo"></div><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite 3 · Dra. Próton</div><div class="sec nova"><div class="rom">I</div>
+      <div class="tag">Lição 1</div><h2>O chamado de Nicodemos</h2>
+      <p>Na série The Chosen, Nicodemos tinha riqueza, posição e reconhecia que Jesus vinha de Deus. Quando Jesus o chama ("siga-me e o senhor verá mais"), ele hesita. No dia da partida, fica escondido atrás de uma parede, chorando, vendo a vida que queria seguir sem ele.</p><div class="dest"><div class="tag">O PADRÃO MAIS SILENCIOSO</div><div>A pessoa sabe o que precisa fazer, sente, às vezes até pede. Mas na hora de largar o emprego que não serve, o relacionamento que já morreu ou a identidade que todos conhecem, fica atrás da parede. O conhecido tem uma segurança ilusória que o novo ainda não tem.</div></div></div><div class="sec"><div class="rom">II</div>
+      <div class="tag">Lição 2</div><h2>Um planeta de abundância</h2>
+      <p>Toda a população do planeta caberia dentro do território brasileiro, e ainda sobraria o resto do mundo, com toda a sua riqueza, intocado. Deus fez tudo em abundância; o que falta é enxergar.</p><p>Lembre a lição da Noite 2: você está sobrevivente, não é. Esta noite mostra como deixar de sobreviver e começar a conquistar, a ponto de ficar irreconhecível.</p></div><div class="sec"><div class="rom">III</div>
+      <div class="tag">Lição 3</div><h2>Exercício 1: do que você vai se despedir hoje</h2>
+      <p>Pegue uma folha em branco e escreva no topo: "Do que eu me despeço hoje". Faça uma lista longa, honesta, sem censura. A lista da própria Dra. Próton ocupou frente e verso.</p><table><tr><th>ÁREA</th><th>EXEMPLOS DA TURMA</th></tr><tr><td>Dinheiro</td><td>Escassez, dívidas, nome sujo, medo de cobrar, culpa de querer ganhar mais.</td></tr><tr><td>Mente e emoções</td><td>Medo, ansiedade, culpa, autossabotagem, procrastinação, vitimismo.</td></tr><tr><td>Corpo e saúde</td><td>Esgotamento, estresse, dores, vergonha do corpo, vícios.</td></tr><tr><td>Relacionamentos</td><td>Relações tóxicas, dificuldade de dizer não, se anular para não perder ninguém.</td></tr><tr><td>Família</td><td>Mágoas do pai e da mãe, a ferida do abandono, culpa com os filhos.</td></tr><tr><td>Trabalho e propósito</td><td>Profissão que não faz feliz, sonhos sem ação, se colocar em último lugar.</td></tr><tr><td>Espiritualidade</td><td>Falta de fé, desconexão de Deus e a falta de gratidão.</td></tr></table><p>Guarde essa folha. Conforme você mudar, volte a ela e risque item por item, até o dia em que puder amassar o papel e dizer: acabou.</p></div><div class="sec"><div class="rom">IV</div>
+      <div class="tag">Lição 4</div><h2>Exercício 2: o que você vai conquistar em 12 meses</h2>
+      <p>Em outra folha, escreva no topo: "Tudo o que eu vou conquistar nos próximos 12 meses". Escreva o contrário da primeira lista e seja específica: se o sonho é emagrecer, escreva o peso; se é dinheiro, "dinheiro sobrando todo mês".</p><ul class="l"><li>Abundância e liberdade financeira</li><li>Todas as dívidas pagas</li><li>Uma nova fonte de renda</li><li>Saúde perfeita e o corpo que desejo</li><li>Disciplina para concluir meus projetos</li><li>Autoestima inabalável e amor próprio</li><li>Uma nova versão de mim: próspera, amada, irreconhecível</li></ul></div><div class="sec nova">
+    <div class="tag">Prática da noite</div><h2><mark>O encontro com o seu eu do futuro</mark></h2>
+    <p>Faça com calma, de olhos fechados, depois de escrever as duas listas.</p>
+    <div class="passos"><div><span>Respire fundo e solte devagar. Relaxe braços, pernas e pescoço.</span></div><div><span>Escolha o item da primeira lista que mais te incomoda.</span></div><div><span>Imagine-se daqui a 30, 60 ou 90 dias dizendo: "Acabou. Eu risquei esse item." Repita: "Chega de migalhas. Eu não aceito mais essa frequência."</span></div><div><span>Deixe a mente te levar ao futuro próximo: a casa nova, os cômodos, as cores. Olhe o rosto de quem você ama, feliz porque você mudou.</span></div><div><span>Encontre o seu eu do futuro, segure as mãos dessa pessoa e pergunte: "O que nós fizemos de diferente?" Escute. Depois diga: "Está na hora de nos libertar."</span></div></div>
+    
+    </div><div class="sec">
+      <div class="tag">Prática</div><h2>Ho'oponopono do <mark>Amor Consciente</mark></h2>
+      <p>Prática havaiana de reconciliação e perdão, na versão do Amor Consciente, voltada para o autoperdão. Cada declaração segue a estrutura: "Eu me perdoo por… Eu sinto muito. Por favor, me perdoe. Eu te amo. Sou grata. De agora em diante e para sempre, eu escolho…"</p>
+      <table><tr><th>Eu me perdoo por…</th><th>De agora em diante eu escolho…</th></tr>
+      <tr><td style="font-weight:500">cada queda que levei até aqui</td><td>me curar e me amparar com amor</td></tr><tr><td style="font-weight:500">me criticar e me culpar de forma doentia</td><td>assumir 100% de responsabilidade com carinho</td></tr><tr><td style="font-weight:500">cuidar do outro sem regar o meu jardim</td><td>cuidar de mim antes de doar</td></tr><tr><td style="font-weight:500">me abandonar esperando alguém me salvar</td><td>nunca mais me abandonar</td></tr><tr><td style="font-weight:500">dizer sim quando queria dizer não</td><td>respeitar os meus limites</td></tr><tr><td style="font-weight:500">tentar corresponder à imagem que pintaram de mim</td><td>celebrar quem eu sou, sem precisar de aprovação</td></tr></table>
+      <div class="cit">"Eu permito ao amor divino me preencher. Eu me amo."</div></div><div class="sec nova">
+    <div class="tag">Exercício para os próximos 12 meses</div><h2>Riscar, com vontade</h2>
+    <p>Volte à primeira folha e, em voz alta, risque no imaginário: "Acabou. Acabou o medo governando a minha vida. Acabou a ansiedade me fazendo travar. Acabou a carência me fazendo aceitar migalhas."</p>
+    
+    <div class="passos"><div><span>Revise as duas listas uma vez por mês.</span></div><div><span>Risque o que já não pertence à pessoa que você está se tornando.</span></div><div><span>Anote o que conquistou.</span></div><div><span>Em 12 meses, compare quem entrou com quem você se tornou.</span></div></div>
+    
+    
+    <div class="tag" style="margin-top:4mm">Minhas duas listas estão guardadas em:</div><div class="linhas"><div></div><div></div></div></div><div class="sec nova">
+    <div class="tag">Para guardar</div><h2>As frases da <mark>Noite 3</mark></h2>
+    <div class="frase-g">"O universo só consegue te dar o novo quando você escolhe soltar o velho."</div><div class="frase-g">"Deus fez tudo em abundância. O que falta é enxergar."</div><div class="frase-g">"Eu ganhei a pessoa que eu nasci para ser."</div><div class="frase-g">"Frequência muda tudo."</div>
+    <div class="tag" style="margin-top:6mm">Seu protocolo diário pós-Imersão</div>
+      <table><tr><td>Ao acordar</td><td>Gratidão + mantra de Grabovoi da manhã</td></tr><tr><td>De hora em hora</td><td>Modo obcecado: "Eu ativo 520 741 8. Ativado."</td></tr><tr><td>Durante o dia</td><td>Vigiar a frequência: trocar reclamação por gratidão</td></tr><tr><td>Ao sentir o velho padrão</td><td>"Chega de migalhas. Eu não aceito mais essa frequência."</td></tr><tr><td>Antes de dormir</td><td>Mantra de Grabovoi da noite</td></tr><tr><td>Uma vez por semana</td><td>Ho'oponopono do Amor Consciente</td></tr><tr><td>Uma vez por mês</td><td>Revisar e riscar as duas listas</td></tr></table></div><div class="sec nova">
+    <div class="tag">Minhas anotações</div><h2>Noite 3</h2>
+    <p style="font-weight:700;margin-top:3mm">O que eu ainda estou segurando que já deveria ter soltado?</p><div class="linhas"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">O que o meu eu do futuro me respondeu?</p><div class="linhas"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></main></body></html>

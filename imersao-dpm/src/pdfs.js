@@ -4,6 +4,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 const noites = require('./noites');
+const { ASSETS } = require('./marca');
 const OUT = path.join(__dirname, '..', 'pdfs');
 
 const ROM = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
@@ -13,61 +14,69 @@ const RUIDO = `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/s
 const CSS = `
 @page{size:A4;margin:0}
 @page cheia{margin:0}
-html{background:#f1e7d1}
-main.flow{padding:20mm 20mm 20mm;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.fundo{position:fixed;top:0;left:0;width:210mm;height:297mm;background:radial-gradient(ellipse at 50% 40%, #f6efdf, #efe4cc 70%, #e6d6b6);z-index:-1}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:#000211}
+body{font:400 10.8pt/1.6 Montserrat;color:#C9CEDD;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+main.flow{padding:30mm 20mm 22mm;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.fundo{position:fixed;top:0;left:0;width:210mm;height:297mm;z-index:-1;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.cab{position:fixed;top:0;left:0;width:210mm;height:24mm;padding:9mm 20mm 0;display:flex;justify-content:space-between;align-items:flex-start}
+.cab .lg{width:34mm;height:10mm;background:url('${ASSETS}/logo-h.png') no-repeat left center/contain}
+.cab::after{content:"";position:absolute;left:20mm;right:20mm;bottom:2mm;border-bottom:.2mm solid rgba(255,255,255,.12)}
+.rodf{position:fixed;bottom:0;left:0;width:210mm;padding:0 20mm 9mm;font:500 7pt Montserrat;color:rgba(255,255,255,.35)}
+.rodf::before{content:"";display:block;border-top:.2mm solid rgba(255,255,255,.12);margin-bottom:3mm}
 .flow .tag{break-after:avoid}
 .flow .sec > .tag + h2{break-before:avoid}
 .pg{page:cheia}
-.flow .sec{margin-bottom:10mm}
+.flow .sec{margin-bottom:12mm;position:relative}
 .flow .nova{break-before:page}
 .flow h2{break-after:avoid;break-inside:avoid}
 .flow .sec > :last-child{break-before:avoid}
 .flow p{orphans:3;widows:3}
 .flow .dest,.flow table,.flow .sec:has(> table:last-child),.flow .duas,.flow .passos div,.flow .cit,.flow .escala,.flow .horas{break-inside:avoid}
-.flow .rom{right:0;top:-6mm;font-size:70pt}
-.flow .sec{position:relative}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font:400 11.2pt/1.55 Inter;color:#1a1712;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:22mm 20mm 24mm;
-  background:radial-gradient(ellipse at 50% 40%, #f6efdf, #efe4cc 70%, #e6d6b6);}
-.pg::before{content:none}
+.flow .rom{right:0;top:-4mm;font-size:54pt}
+.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:30mm 20mm 24mm;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.pg{z-index:10}
 .pg > *{position:relative}
-.rod{position:absolute;left:20mm;right:20mm;bottom:10mm;display:flex;justify-content:space-between;font:600 7.5pt Inter;letter-spacing:.22em;color:#5b4c33}
-.tag{font:800 8.5pt Inter;letter-spacing:.28em;text-transform:uppercase;color:#5b4c33}
-.anton{font-family:Anton;letter-spacing:-.3px;line-height:1.06}
-mark{background:linear-gradient(transparent 0 14%, #f2c200 14% 96%, transparent 96%);color:#111;padding:0 .06em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-h2{font:400 34pt/1.05 Anton;margin:4mm 0 7mm;color:#111}
-.rom{position:absolute;right:18mm;top:14mm;font:400 90pt/1 Anton;color:rgba(80,55,20,.12)}
-p{margin:0 0 3.6mm}
-.dest{background:#111;color:#f3ead6;padding:5mm 6mm;margin:4mm 0 5mm;border-radius:2mm}
-.dest .tag{color:#f2c200;margin-bottom:2mm}
-.cit{font:400 21pt/1.15 Anton;margin:6mm 0;padding-left:5mm;border-left:2.2mm solid #f2c200}
-table{width:100%;border-collapse:collapse;margin:3mm 0 5mm;font-size:10pt}
-th{font:800 8pt Inter;letter-spacing:.2em;text-align:left;border-bottom:.6mm solid #111;padding:2mm 2mm}
-td{padding:2.4mm 2mm;border-bottom:.2mm solid rgba(0,0,0,.2);vertical-align:top}
-td:first-child{font-weight:700;width:36%}
+.pg .cab,.pg .rodf{position:absolute}
+.rod{display:none}
+.tag{display:inline-block;font:700 7pt Montserrat;letter-spacing:.24em;text-transform:uppercase;color:#F5D792;border:.35mm solid #F5D792;border-radius:99px;padding:1.2mm 3.4mm}
+mark{background:none;color:#F5D792}
+h2{font:700 24pt/1.15 Montserrat;margin:4mm 0 6mm;color:#fff;letter-spacing:-.3px}
+.rom{position:absolute;right:0;top:-4mm;font:800 54pt/1 Montserrat;color:rgba(245,215,146,.10)}
+p{margin:0 0 3.4mm}
+strong,b{color:#fff}
+.dest{background:#F5D792;color:#1a1a1a;padding:5mm 6mm;margin:4mm 0 6mm;border-radius:2.5mm;font-weight:500}
+.dest .tag{border-color:#1a1a1a;color:#1a1a1a;margin-bottom:2.5mm}
+.cit{font:700 16pt/1.3 Montserrat;color:#F5D792;margin:6mm 0;padding-left:5mm;border-left:1mm solid #F5D792}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:3mm 0 6mm;font-size:9.6pt;border:.3mm solid rgba(245,215,146,.35);border-radius:2.5mm;overflow:hidden}
+th{font:700 7pt Montserrat;letter-spacing:.2em;text-align:left;color:#F5D792;background:rgba(245,215,146,.08);padding:2.6mm 3mm}
+td{padding:2.6mm 3mm;border-top:.2mm solid rgba(255,255,255,.08);vertical-align:top}
+td:first-child{font-weight:700;color:#fff;width:36%}
 ul.l{list-style:none;margin:2mm 0 5mm}
-ul.l li{padding-left:6mm;position:relative;margin-bottom:2mm}
-ul.l li::before{content:"✦";position:absolute;left:0;color:#b08a10}
-.duas{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:3mm 0 5mm}
-.duas > div{border:.5mm solid #111;padding:4mm;border-radius:2mm}
-.duas .tag{color:#111;margin-bottom:2mm}
+ul.l li{padding-left:7mm;position:relative;margin-bottom:2.2mm}
+ul.l li::before{content:"";position:absolute;left:0;top:1.2mm;width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm;background:linear-gradient(135deg,transparent 45%,#F5D792 45% 55%,transparent 55%)}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:3mm 0 6mm}
+.duas > div{background:#0B1230;border:.3mm solid rgba(245,215,146,.3);padding:4.5mm;border-radius:2.5mm}
+.duas .tag{margin-bottom:2.5mm;display:table}
+.dest .tag{display:table}
 .fluxo{display:flex;align-items:center;gap:2mm;margin:4mm 0 6mm;flex-wrap:wrap}
-.fluxo span{font:400 13pt Anton;background:#111;color:#f3ead6;padding:1.6mm 3.4mm;border-radius:1.5mm}
-.fluxo i{font-style:normal;font-weight:800}
-.escala{display:flex;margin:4mm 0 6mm;border-radius:2mm;overflow:hidden}
-.escala span{flex:1;text-align:center;font:700 8pt Inter;padding:3mm 1mm;color:#fff}
+.fluxo span{font:700 9.5pt Montserrat;background:#0B1230;border:.3mm solid #F5D792;color:#fff;padding:1.8mm 3.4mm;border-radius:99px}
+.fluxo i{font-style:normal;font-weight:800;color:#F5D792}
+.escala{display:flex;margin:4mm 0 2mm;border-radius:2mm;overflow:hidden}
+.escala span{flex:1;text-align:center;font:700 7.5pt Montserrat;padding:3mm 1mm;color:#fff}
 .passos{counter-reset:p;margin:4mm 0}
-.passos div{counter-increment:p;display:grid;grid-template-columns:13mm 1fr;gap:3mm;margin-bottom:4mm;align-items:start}
-.passos div::before{content:counter(p, decimal-leading-zero);font:400 20pt/1 Anton;color:#b08a10}
+.passos div{counter-increment:p;display:grid;grid-template-columns:12mm 1fr;gap:3mm;margin-bottom:3mm;align-items:center;background:#0B1230;border:.3mm solid rgba(245,215,146,.25);border-radius:2.5mm;padding:3.5mm 4mm}
+.passos div::before{content:counter(p);font:800 20pt/1 Montserrat;color:#F5D792}
 .linhas{margin:2mm 0 6mm}
-.linhas div{border-bottom:.25mm solid rgba(0,0,0,.35);height:9mm}
+.linhas div{border-bottom:.25mm solid rgba(255,255,255,.18);height:9mm}
 .horas{display:grid;grid-template-columns:repeat(8,1fr);gap:2.5mm;margin-top:4mm}
-.horas div{border:.4mm solid #111;border-radius:1.5mm;padding:2mm;font:700 9pt Inter;display:flex;justify-content:space-between}
-.horas div::after{content:"";width:3.5mm;height:3.5mm;border:.4mm solid #111;border-radius:50%}
-.codigo{font:400 54pt/1 Anton;text-align:center;margin:5mm 0 1mm}
-.frase-g{font:400 20pt/1.15 Anton;margin:0 0 6mm}
+.horas div{border:.3mm solid rgba(245,215,146,.5);border-radius:1.5mm;padding:2mm;font:700 8.5pt Montserrat;color:#fff;display:flex;justify-content:space-between}
+.horas div::after{content:"";width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm}
+.codigo{font:800 46pt/1 Montserrat;text-align:center;margin:4mm 0 1mm;letter-spacing:.04em}
+.frase-g{font:700 15pt/1.35 Montserrat;color:#fff;margin:0 0 5mm;padding:5mm 6mm;background:#0B1230;border-left:1mm solid #F5D792;border-radius:0 2.5mm 2.5mm 0}
+.dest .codigo{color:#1a1a1a}
 `;
 
 function bloco(b) {
@@ -93,20 +102,24 @@ function manual(N) {
   const rod = pg => `<div class="rod"><span>IMERSÃO · DESBLOQUEIE O PODER DA SUA MENTE · NOITE 0${N.n}</span><span>${pg}</span></div>`;
   let pg = 1, out = [];
   // Capa
-  out.push(`<section class="pg" style="background:#111;color:#f3ead6;display:flex;flex-direction:column;justify-content:space-between">
-    <div><div class="tag" style="color:#f2c200">Imersão · Desbloqueie o Poder da Sua Mente</div></div>
-    <div>
-      <div class="anton" style="font-size:150pt;color:#f2c200;line-height:.9">0${N.n}</div>
-      <div class="tag" style="color:#f3ead6;margin:4mm 0 6mm">Noite ${N.n} · ${N.data} · Resumo da aula</div>
-      <div class="anton" style="font-size:48pt;color:#f3ead6">${esc(N.titulo)}</div>
-      <div style="font:600 15pt Inter;margin-top:8mm;color:#f2c200">${esc(N.pergunta)}</div>
-      <p style="margin-top:4mm;max-width:140mm;color:#d8cdb4">${esc(N.resumo)}</p>
+  out.push(`<section class="pg" style="padding:0">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 45%, rgba(80,70,180,.35), transparent 70%)"></div>
+    <div style="position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:190mm;height:205mm;background:url('${ASSETS}/foto.png') no-repeat bottom center/contain;-webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent 97%)"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,2,17,.9) 0%, rgba(0,2,17,.2) 30%, transparent 50%, rgba(0,2,17,.6) 72%, #000211 92%)"></div>
+    <div style="position:absolute;left:0;right:0;top:20mm;text-align:center">
+      <div style="margin:0 auto;width:95mm;height:28mm;background:url('${ASSETS}/logo-h.png') no-repeat center/contain"></div>
     </div>
-    <div style="display:flex;justify-content:space-between;align-items:end"><div class="tag" style="color:#f3ead6">Material de apoio</div><div class="anton" style="font-size:22pt;letter-spacing:.2em">DRA. PRÓTON</div></div>
+    <div style="position:absolute;right:9mm;top:20mm;writing-mode:vertical-rl;font:700 6.5pt Montserrat;letter-spacing:.3em;color:#F5D792;border:.3mm solid #F5D792;border-radius:99px;padding:3mm 1.6mm">RESUMO DA AULA</div>
+    <div style="position:absolute;left:20mm;right:20mm;bottom:24mm">
+      <span class="tag">Aula 0${N.n} · Noite ${N.n} · ${N.data}</span>
+      <div style="font:800 30pt/1.1 Montserrat;color:#fff;margin:5mm 0 3mm">${esc(N.titulo)}</div>
+      <div style="font:600 13pt Montserrat;color:#F5D792">${esc(N.pergunta)}</div>
+      <div style="display:flex;justify-content:space-between;margin-top:9mm;font:500 8pt Montserrat;color:rgba(255,255,255,.6)"><span>Dra. Próton</span><span>8, 9 e 10 de setembro · Material de apoio</span></div>
+    </div>
   </section>`);
   // Antes de começar + sumário
   const itens = N.licoes.map((l, i) => `${ROM[i]}. ${l.t}`).concat(['Prática da noite', N.hooponopono ? "Ho'oponopono do Amor Consciente" : null, N.exercicio.t, 'Frases para guardar', 'Minhas anotações'].filter(Boolean));
-  out.push(`<section class="pg">
+  out.push(`<section class="pg"><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite ${N.n} · Dra. Próton</div>
     <div class="tag">Antes de começar</div>
     <h2>Como usar <mark>este manual</mark></h2>
     <div class="cit" style="font-size:17pt">"${esc(N.abertura)}"</div>
@@ -166,7 +179,7 @@ function manual(N) {
   flow.push(`<div class="sec nova">
     <div class="tag">Minhas anotações</div><h2>Noite ${N.n}</h2>
     ${N.perguntas.map(q => `<p style="font-weight:700;margin-top:3mm">${esc(q)}</p><div class="linhas">${'<div></div>'.repeat(N.perguntas.length > 2 ? 4 : 9)}</div>`).join('')}</div>`);
-  out.push(`<main class="flow"><div class="fundo"></div>${flow.join('')}</main>`);
+  out.push(`<main class="flow"><div class="fundo"></div><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite ${N.n} · Dra. Próton</div>${flow.join('')}</main>`);
   return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>${out.join('')}</body></html>`;
 }
 
@@ -177,7 +190,7 @@ function manual(N) {
   for (const N of noites) {
     const html = manual(N);
     fs.writeFileSync(path.join(__dirname, `.preview-${N.n}.html`), html);
-    await p.setContent(html);
+    fs.writeFileSync(path.join(__dirname, '.render.html'), html); await p.goto('file://' + path.join(__dirname, '.render.html'));
     await p.evaluate(() => document.fonts.ready);
     await p.pdf({ path: path.join(OUT, N.arq + '.pdf'), format: 'A4', printBackground: true, preferCSSPageSize: true });
   }

@@ -1,57 +1,50 @@
-// Gera os criativos de frase no formato do print de referência (story e feed).
-// Uso: NODE_PATH=$(npm root -g) node criativos.js
+// Criativos de frases da Dra. Próton na identidade visual da Imersão (feed 1080x1350 e story 1080x1920).
+// Uso: NODE_PATH=$(npm root -g) node criativos.js [ID]
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { CSS_BASE } = require('./marca');
 
 const frases = JSON.parse(fs.readFileSync(path.join(__dirname, 'frases.json'), 'utf8'));
 const OUT = path.join(__dirname, '..', 'criativos');
+const TMP = path.join(__dirname, '.render.html');
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const marcar = t => esc(t).replace(/\[([^\]]+)\]/g, '<mark>$1</mark>');
-
-// Papel envelhecido: base bege + manchas + ruído SVG.
-const PAPEL = `
-  background:
-    radial-gradient(ellipse at 50% 45%, rgba(255,250,235,.55), transparent 60%),
-    radial-gradient(ellipse at 10% 90%, rgba(140,95,40,.28), transparent 45%),
-    radial-gradient(ellipse at 95% 5%, rgba(140,95,40,.22), transparent 40%),
-    linear-gradient(160deg, #eadcbf, #e3d2b0 55%, #d9c49d);
-`;
-const RUIDO = `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .25  0 0 0 0 .12  0 0 0 .35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")`;
+const marcar = t => esc(t).replace(/\[([^\]]+)\]/g, '<span class="ouro">$1</span>');
 
 function html(f, formato) {
   const story = formato === 'story';
   const W = 1080, H = story ? 1920 : 1350;
-  const cardW = story ? 940 : 960, cardH = story ? 1200 : 1180;
   const len = f.texto.replace(/[\[\]]/g, '').length;
-  // Tamanho da fonte proporcional ao tamanho da frase.
-  const fs = len < 30 ? 150 : len < 50 ? 118 : len < 70 ? 100 : len < 90 ? 88 : 78;
-  return `<!doctype html><html><head><meta charset="utf-8"><style>
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{width:${W}px;height:${H}px;overflow:hidden;position:relative;
-    background:
-      linear-gradient(90deg, rgba(20,18,10,.9) 0 6%, transparent 14% 86%, rgba(20,18,10,.9) 94%),
-      repeating-linear-gradient(180deg, #6b5a1c 0 90px, #c9a825 160px, #2c2715 240px, #8d8a78 330px, #6b5a1c 420px);
-  }
-  body::before{content:"";position:absolute;inset:0;backdrop-filter:blur(40px);background:rgba(190,180,160,.35)}
-  .card{position:absolute;left:${(W - cardW) / 2}px;top:${(H - cardH) / 2 - (story ? 40 : 0)}px;width:${cardW}px;height:${cardH}px;
-    border-radius:18px;${PAPEL};box-shadow:0 30px 60px rgba(0,0,0,.35), inset 0 0 90px rgba(120,80,30,.45);
-    padding:0 ${story ? 90 : 95}px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-  .card::after{content:"";position:absolute;inset:0;background:${RUIDO};opacity:.55;mix-blend-mode:multiply;pointer-events:none}
-  .fantasma{position:absolute;right:40px;top:40px;width:45%;opacity:.07;font:14px/1.9 'Playfair Display';color:#3b2a10}
-  p.frase{font-family:Anton;font-size:${fs}px;line-height:1.16;color:#111;letter-spacing:-.5px;position:relative;z-index:1}
-  mark{background:linear-gradient(transparent 0 16%, #f2c200 16% 97%, transparent 97%);color:#111;padding:0 .08em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-  .ass{margin-top:${Math.round(fs * .55)}px;font:500 36px Inter;color:#222;position:relative;z-index:1}
-  .ass b{font-weight:800}
-  .arroba{position:absolute;left:${(W - cardW) / 2 + 12}px;top:${(H + cardH) / 2 - (story ? 40 : 0) + 26}px;font:600 34px Inter;color:#fff;opacity:.9;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+  const fs = story
+    ? (len < 30 ? 108 : len < 50 ? 92 : len < 70 ? 80 : 70)
+    : (len < 30 ? 92 : len < 50 ? 76 : len < 70 ? 66 : 58);
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS_BASE}
+  body{width:${W}px;height:${H}px}
+  .foto{${story ? 'right:-250px;bottom:0;width:820px;height:1180px' : 'right:-200px;bottom:0;width:720px;height:1090px'}}
+  .sombra{position:absolute;inset:0;background:linear-gradient(90deg, rgba(0,2,17,.96) 0%, rgba(0,2,17,.85) 45%, rgba(0,2,17,.15) 75%, transparent 100%)}
+  .logo{position:absolute;left:80px;top:${story ? 150 : 80}px;width:${story ? 470 : 400}px;height:${story ? 146 : 124}px}
+  .bloco{position:absolute;left:80px;width:${story ? 640 : 640}px;${story ? 'top:400px' : 'top:0;bottom:0;display:flex;flex-direction:column;justify-content:center'}}
+  .aspas{font:800 ${story ? 200 : 170}px/0.6 Montserrat;color:#F5D792;opacity:.9;height:${story ? 90 : 70}px}
+  .frase{font-weight:800;font-size:${fs}px;line-height:1.13;letter-spacing:-.5px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+  .linha{width:110px;height:5px;background:#F5D792;margin:${story ? 54 : 44}px 0 ${story ? 26 : 22}px}
+  .ass{font-weight:700;font-size:${story ? 38 : 32}px;color:#F5D792;letter-spacing:.04em}
+  .arroba{font-weight:500;font-size:${story ? 30 : 26}px;color:rgba(255,255,255,.7);margin-top:8px}
+  .rodape{position:absolute;left:80px;bottom:${story ? 140 : 70}px;font-weight:600;font-size:${story ? 24 : 21}px;letter-spacing:.3em;color:rgba(255,255,255,.55)}
   </style></head><body>
-  <div class="card">
-    <div class="fantasma">Energia é uma onda de informação. Tudo o que você pensa, sente, fala, escuta e escreve gera uma vibração. O universo é um campo que devolve o que você vibra. Frequência muda tudo. O cérebro não distingue o real do imaginado.</div>
+  <div class="cosmos"></div>
+  <div class="brilho" style="right:120px;top:${story ? 520 : 260}px;width:520px;height:520px"></div>
+  <div class="foto"></div>
+  <div class="sombra"></div>
+  <div class="logo"></div>
+  <div class="bloco">
+    <div class="aspas">“</div>
     <p class="frase">${marcar(f.texto)}</p>
-    <p class="ass">— Dra. <b>Próton</b></p>
+    <div class="linha"></div>
+    <div class="ass">Dra. Próton</div>
+    <div class="arroba">@dra.proton</div>
   </div>
-  <div class="arroba">@dra.proton</div>
+  <div class="rodape">IMERSÃO · DESBLOQUEIE O PODER DA SUA MENTE</div>
   </body></html>`;
 }
 
@@ -64,12 +57,14 @@ function html(f, formato) {
     const p = await b.newPage({ viewport: { width: 1080, height: formato === 'story' ? 1920 : 1350 } });
     for (const f of frases) {
       if (only && f.id !== only) continue;
-      await p.setContent(html(f, formato));
+      fs.writeFileSync(TMP, html(f, formato));
+      await p.goto('file://' + TMP);
       await p.evaluate(() => document.fonts.ready);
       await p.screenshot({ path: path.join(dir, `${f.id}-${formato}.jpg`), type: 'jpeg', quality: 90 });
     }
     await p.close();
   }
+  fs.rmSync(TMP, { force: true });
   await b.close();
   console.log('ok');
 })();

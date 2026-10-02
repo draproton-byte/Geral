@@ -1,119 +1,98 @@
-// Gera capas de aulas (16:9), módulos (9:16) e o fundo do certificado (A4 paisagem).
+// Capas Hotmart na identidade visual da Imersão: aulas (1280x720), módulos (1080x1920) e fundo do certificado (A4 paisagem).
 // Uso: NODE_PATH=$(npm root -g) node capas.js
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { CSS_BASE, ASSETS } = require('./marca');
 const OUT = path.join(__dirname, '..', 'capas');
+const TMP = path.join(__dirname, '.render.html');
+const m = t => t.replace(/\[([^\]]+)\]/g, '<span class="ouro">$1</span>');
 
-const RUIDO = `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .25  0 0 0 0 .12  0 0 0 .35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")`;
-
-const BASE = `
-*{margin:0;padding:0;box-sizing:border-box}
-body{overflow:hidden;position:relative;font-family:Inter;color:#111;
-  background:
-    radial-gradient(ellipse at 50% 45%, rgba(255,250,235,.55), transparent 60%),
-    radial-gradient(ellipse at 8% 92%, rgba(140,95,40,.3), transparent 45%),
-    radial-gradient(ellipse at 95% 5%, rgba(140,95,40,.25), transparent 40%),
-    linear-gradient(160deg, #eadcbf, #e3d2b0 55%, #d9c49d);}
-body::after{content:"";position:absolute;inset:0;background:${RUIDO};opacity:.55;mix-blend-mode:multiply;pointer-events:none}
-.vinheta{position:absolute;inset:0;box-shadow:inset 0 0 180px rgba(110,70,25,.45);pointer-events:none}
-.tag{font:800 26px Inter;letter-spacing:.28em;text-transform:uppercase}
-.titulo{font-family:Anton;line-height:1.08;letter-spacing:-.5px}
-mark{background:linear-gradient(transparent 0 16%, #f2c200 16% 97%, transparent 97%);color:#111;padding:0 .08em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.marca{font:500 26px Inter;letter-spacing:.35em;white-space:nowrap}
-.marca b{font-weight:800}
-.barra{height:6px;background:#111;width:90px}
-`;
-const m = t => t.replace(/\[([^\]]+)\]/g, '<mark>$1</mark>');
-
-// ---------- Aulas 1280x720 ----------
 const aulas = [
   { arq: 'aula-01-noite-1', n: '01', data: '08/09', titulo: 'Por que a sua vida [não dava certo]', sub: 'O jogo sem regras · O universo é um espelho · O CD em branco' },
   { arq: 'aula-02-noite-2', n: '02', data: '09/09', titulo: 'A noite da [reprogramação]', sub: 'Sobrevivente ou conquistadora · Frequência · Hipnose de Desbloqueio' },
-  { arq: 'aula-03-noite-3', n: '03', data: '10/09', titulo: 'Ative seu ímã de [dinheiro, saúde e amor]', sub: 'Soltar o velho · As duas listas · Ho\'oponopono · Eu do futuro' },
+  { arq: 'aula-03-noite-3', n: '03', data: '10/09', titulo: 'Ative seu ímã de [dinheiro, saúde e amor]', sub: "Soltar o velho · As duas listas · Ho'oponopono · Eu do futuro" },
 ];
-const htmlAula = a => `<!doctype html><html><head><meta charset="utf-8"><style>${BASE}
+const htmlAula = a => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS_BASE}
 body{width:1280px;height:720px}
-.num{position:absolute;right:40px;bottom:-70px;font:400 520px/1 Anton;color:rgba(60,40,10,.09)}
-.box{position:absolute;left:90px;top:0;bottom:0;width:900px;display:flex;flex-direction:column;justify-content:center;gap:26px}
-.titulo{font-size:92px}
-.sub{font:500 25px/1.4 Inter;color:#3a2e1c;max-width:820px}
-.rodape{position:absolute;left:90px;right:90px;bottom:46px;display:flex;justify-content:space-between;align-items:center}
-.rodape .marca{font-size:17px;letter-spacing:.25em}
-</style></head><body><div class="vinheta"></div>
-<div class="num">${a.n}</div>
-<div class="box">
-  <div class="tag">Aula ${a.n} · Noite ${Number(a.n)}</div>
-  <div class="barra"></div>
-  <div class="titulo">${m(a.titulo)}</div>
-  <div class="sub">${a.sub}</div>
-</div>
-<div class="rodape"><div class="marca">IMERSÃO · <b>DESBLOQUEIE O PODER DA SUA MENTE</b></div><div class="marca">DRA. <b>PRÓTON</b></div></div>
+.foto{right:-60px;bottom:0;width:560px;height:700px}
+.sombra{position:absolute;inset:0;background:linear-gradient(90deg, rgba(0,2,17,.97) 0%, rgba(0,2,17,.9) 48%, rgba(0,2,17,.2) 75%, transparent)}
+.num{position:absolute;right:430px;bottom:-40px;font:900 300px/1 Montserrat;color:rgba(245,215,146,.08)}
+.logo{position:absolute;left:70px;top:56px;width:300px;height:92px}
+.box{position:absolute;left:70px;top:190px;width:700px}
+.selo{font-size:20px;padding:8px 16px}
+.titulo{font-weight:800;font-size:62px;line-height:1.08;margin:22px 0 20px;letter-spacing:-.5px}
+.sub{font-weight:500;font-size:21px;line-height:1.5;color:#C9CEDD}
+.data{position:absolute;left:70px;bottom:52px;font-weight:600;font-size:17px;letter-spacing:.28em;color:rgba(255,255,255,.6)}
+</style></head><body><div class="cosmos"></div>
+<div class="brilho" style="right:120px;top:120px;width:420px;height:420px"></div>
+<div class="num">${a.n}</div><div class="foto"></div><div class="sombra"></div>
+<div class="logo"></div>
+<div class="box"><span class="selo">Aula ${a.n} · Noite ${Number(a.n)}</span>
+<div class="titulo">${m(a.titulo)}</div><div class="sub">${a.sub}</div></div>
+<div class="data">${a.data} · AULA GRAVADA · DRA. PRÓTON</div>
 </body></html>`;
 
-// ---------- Módulos 1080x1920 ----------
 const modulos = [
+  { arq: 'modulo-00-boas-vindas', tag: 'Comece aqui', titulo: '[Boas-vindas] à Imersão', sub: 'Como aproveitar as 3 noites' },
   { arq: 'modulo-01-as-3-noites', tag: 'Módulo 01', titulo: 'As [3 noites] da Imersão', sub: 'Consciência · Reprogramação · Criação' },
   { arq: 'modulo-02-materiais-de-apoio', tag: 'Módulo 02', titulo: '[Materiais] de apoio', sub: 'Resumos das aulas · Material completo · Protocolo diário' },
   { arq: 'modulo-03-bonus', tag: 'Módulo 03', titulo: '[Bônus] Códigos de Grabovoi', sub: 'E-book · Mantras da manhã e da noite' },
-  { arq: 'modulo-04-depoimentos', tag: 'Módulo 04', titulo: 'Quem [mudou a frequência]', sub: 'Depoimentos de alunas da Imersão' },
-  { arq: 'modulo-00-boas-vindas', tag: 'Comece aqui', titulo: '[Boas-vindas] à Imersão', sub: 'Como aproveitar as 3 noites' },
 ];
-const htmlModulo = x => `<!doctype html><html><head><meta charset="utf-8"><style>${BASE}
+const htmlModulo = x => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS_BASE}
 body{width:1080px;height:1920px}
-.topo{position:absolute;top:110px;left:0;right:0;text-align:center}
-.box{position:absolute;left:100px;right:100px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:40px}
-.titulo{font-size:150px}
-.sub{font:500 38px/1.45 Inter;color:#3a2e1c}
-.base{position:absolute;bottom:120px;left:0;right:0;text-align:center}
-.base .marca{font-size:30px}
-.linha{position:absolute;left:100px;right:100px;border-top:3px solid #111}
-</style></head><body><div class="vinheta"></div>
-<div class="topo"><div class="marca">IMERSÃO · <b>DPM</b></div></div>
-<div class="linha" style="top:190px"></div>
-<div class="box">
-  <div class="tag" style="font-size:34px">${x.tag}</div>
-  <div class="barra" style="width:130px;height:9px"></div>
-  <div class="titulo">${m(x.titulo)}</div>
-  <div class="sub">${x.sub}</div>
-</div>
-<div class="linha" style="bottom:230px"></div>
-<div class="base"><div class="marca">DESBLOQUEIE O PODER DA SUA MENTE</div><div class="marca" style="margin-top:22px">DRA. <b>PRÓTON</b></div></div>
+.foto{left:50%;transform:translateX(-50%);bottom:0;width:980px;height:1250px}
+.sombra{position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,2,17,.95) 0%, rgba(0,2,17,.6) 38%, transparent 55%, rgba(0,2,17,.2) 70%, rgba(0,2,17,.96) 88%)}
+.logo{position:absolute;left:50%;transform:translateX(-50%);top:120px;width:560px;height:172px;background-position:center}
+.topo{position:absolute;left:90px;right:90px;top:380px;text-align:center}
+.selo{font-size:32px;padding:12px 26px}
+.titulo{font-weight:800;font-size:112px;line-height:1.04;margin-top:34px;letter-spacing:-1px}
+.base{position:absolute;left:90px;right:90px;bottom:150px;text-align:center}
+.sub{font-weight:600;font-size:38px;line-height:1.4;color:#fff}
+.linha{width:140px;height:6px;background:#F5D792;margin:0 auto 34px}
+.dra{margin-top:30px;font-weight:600;font-size:28px;letter-spacing:.3em;color:#F5D792}
+</style></head><body><div class="cosmos"></div>
+<div class="brilho" style="left:280px;top:820px;width:520px;height:520px"></div>
+<div class="foto"></div><div class="sombra"></div>
+<div class="logo"></div>
+<div class="topo"><span class="selo">${x.tag}</span><div class="titulo">${m(x.titulo)}</div></div>
+<div class="base"><div class="linha"></div><div class="sub">${x.sub}</div><div class="dra">DRA. PRÓTON</div></div>
 </body></html>`;
 
-// ---------- Certificado 3508x2480 (A4 paisagem, 300 dpi) ----------
-// Área central fica livre para a Hotmart imprimir nome, curso e carga horária.
-const htmlCert = `<!doctype html><html><head><meta charset="utf-8"><style>${BASE}
-body{width:3508px;height:2480px}
-.moldura{position:absolute;inset:110px;border:10px solid #111}
-.moldura2{position:absolute;inset:150px;border:3px solid #111}
-.topo{position:absolute;top:320px;left:420px;right:420px;text-align:center}
-.topo .tag{font-size:64px;letter-spacing:.35em}
-.titulo{font-size:190px;margin-top:50px}
-.linhaMeio{position:absolute;left:50%;top:760px;width:260px;height:14px;background:#f2c200;transform:translateX(-50%)}
-.base{position:absolute;bottom:330px;left:0;right:0;text-align:center}
-.base .marca{font-size:62px}
-.ass{position:absolute;bottom:560px;left:50%;transform:translateX(-50%);width:1000px;text-align:center;border-top:5px solid #111;padding-top:30px;font:600 52px Inter}
-</style></head><body><div class="vinheta" style="box-shadow:inset 0 0 500px rgba(110,70,25,.45)"></div>
-<div class="moldura"></div><div class="moldura2"></div>
-<div class="topo"><div class="tag">Certificado de conclusão</div><div class="titulo"><mark>Imersão</mark> Desbloqueie o Poder da Sua Mente</div></div>
-<div class="ass">Dra. Próton</div>
-<div class="base"><div class="marca">DRA. <b>PRÓTON</b> · @dra.proton</div></div>
+// Certificado em tom marfim (o texto da Hotmart é impresso em cor escura) com moldura marinho e ouro.
+const htmlCert = `<!doctype html><html><head><meta charset="utf-8"><style>${CSS_BASE}
+body{width:3508px;height:2480px;background:#FBF7EE;color:#0A1233}
+.faixa{position:absolute;left:0;right:0;top:0;height:520px;background:radial-gradient(ellipse 60% 120% at 50% 0%, #0A1233, #000211)}
+.faixa::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14px;background:linear-gradient(90deg,#C9A45A,#F5D792,#C9A45A)}
+.logo{position:absolute;left:50%;transform:translateX(-50%);top:110px;width:1100px;height:300px;background-position:center}
+.moldura{position:absolute;left:140px;right:140px;top:640px;bottom:140px;border:6px solid #C9A45A;border-radius:24px}
+.titulo{position:absolute;left:0;right:0;top:760px;text-align:center;font:800 150px Montserrat;letter-spacing:.18em;color:#0A1233}
+.sub{position:absolute;left:0;right:0;top:960px;text-align:center;font:600 56px Montserrat;letter-spacing:.35em;color:#C9A45A}
+.ass{position:absolute;left:50%;transform:translateX(-50%);bottom:330px;width:1000px;text-align:center;border-top:5px solid #0A1233;padding-top:30px;font:700 54px Montserrat}
+.ass small{display:block;font:500 40px Montserrat;color:#6b6f80;margin-top:10px}
+</style></head><body>
+<div class="faixa"><div class="logo"></div></div>
+<div class="moldura"></div>
+<div class="titulo">CERTIFICADO</div>
+<div class="sub">DE CONCLUSÃO</div>
+<div class="ass">Dra. Próton<small>Imersão Desbloqueie o Poder da Sua Mente</small></div>
 </body></html>`;
 
 (async () => {
   const b = await chromium.launch();
-  const shot = async (html, w, h, file, type = 'png') => {
+  const shot = async (html, w, h, file) => {
     const p = await b.newPage({ viewport: { width: w, height: h } });
-    await p.setContent(html);
+    fs.writeFileSync(TMP, html);
+    await p.goto('file://' + TMP);
     await p.evaluate(() => document.fonts.ready);
-    await p.screenshot({ path: path.join(OUT, file), type, ...(type === 'jpeg' ? { quality: 90 } : {}) });
+    await p.screenshot({ path: path.join(OUT, file), type: 'jpeg', quality: 90 });
     await p.close();
   };
   fs.mkdirSync(OUT, { recursive: true });
-  for (const a of aulas) await shot(htmlAula(a), 1280, 720, a.arq + '.jpg', 'jpeg');
-  for (const x of modulos) await shot(htmlModulo(x), 1080, 1920, x.arq + '.jpg', 'jpeg');
-  await shot(htmlCert, 3508, 2480, 'certificado-fundo-a4.jpg', 'jpeg');
+  for (const a of aulas) await shot(htmlAula(a), 1280, 720, a.arq + '.jpg');
+  for (const x of modulos) await shot(htmlModulo(x), 1080, 1920, x.arq + '.jpg');
+  await shot(htmlCert, 3508, 2480, 'certificado-fundo-a4.jpg');
+  fs.rmSync(TMP, { force: true });
   await b.close();
   console.log('ok');
 })();

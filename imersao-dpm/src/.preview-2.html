@@ -1,0 +1,126 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page{size:A4;margin:0}
+@page cheia{margin:0}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:#000211}
+body{font:400 10.8pt/1.6 Montserrat;color:#C9CEDD;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+main.flow{padding:30mm 20mm 22mm;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.fundo{position:fixed;top:0;left:0;width:210mm;height:297mm;z-index:-1;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.cab{position:fixed;top:0;left:0;width:210mm;height:24mm;padding:9mm 20mm 0;display:flex;justify-content:space-between;align-items:flex-start}
+.cab .lg{width:34mm;height:10mm;background:url('file:///home/user/Geral/imersao-dpm/assets/logo-h.png') no-repeat left center/contain}
+.cab::after{content:"";position:absolute;left:20mm;right:20mm;bottom:2mm;border-bottom:.2mm solid rgba(255,255,255,.12)}
+.rodf{position:fixed;bottom:0;left:0;width:210mm;padding:0 20mm 9mm;font:500 7pt Montserrat;color:rgba(255,255,255,.35)}
+.rodf::before{content:"";display:block;border-top:.2mm solid rgba(255,255,255,.12);margin-bottom:3mm}
+.flow .tag{break-after:avoid}
+.flow .sec > .tag + h2{break-before:avoid}
+.pg{page:cheia}
+.flow .sec{margin-bottom:12mm;position:relative}
+.flow .nova{break-before:page}
+.flow h2{break-after:avoid;break-inside:avoid}
+.flow .sec > :last-child{break-before:avoid}
+.flow p{orphans:3;widows:3}
+.flow .dest,.flow table,.flow .sec:has(> table:last-child),.flow .duas,.flow .passos div,.flow .cit,.flow .escala,.flow .horas{break-inside:avoid}
+.flow .rom{right:0;top:-4mm;font-size:54pt}
+.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:30mm 20mm 24mm;
+  background:radial-gradient(ellipse 70% 45% at 85% 8%, rgba(70,60,160,.30), transparent 70%),radial-gradient(ellipse 80% 60% at 50% 50%, #070C24, #000211 80%)}
+.pg{z-index:10}
+.pg > *{position:relative}
+.pg .cab,.pg .rodf{position:absolute}
+.rod{display:none}
+.tag{display:inline-block;font:700 7pt Montserrat;letter-spacing:.24em;text-transform:uppercase;color:#F5D792;border:.35mm solid #F5D792;border-radius:99px;padding:1.2mm 3.4mm}
+mark{background:none;color:#F5D792}
+h2{font:700 24pt/1.15 Montserrat;margin:4mm 0 6mm;color:#fff;letter-spacing:-.3px}
+.rom{position:absolute;right:0;top:-4mm;font:800 54pt/1 Montserrat;color:rgba(245,215,146,.10)}
+p{margin:0 0 3.4mm}
+strong,b{color:#fff}
+.dest{background:#F5D792;color:#1a1a1a;padding:5mm 6mm;margin:4mm 0 6mm;border-radius:2.5mm;font-weight:500}
+.dest .tag{border-color:#1a1a1a;color:#1a1a1a;margin-bottom:2.5mm}
+.cit{font:700 16pt/1.3 Montserrat;color:#F5D792;margin:6mm 0;padding-left:5mm;border-left:1mm solid #F5D792}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:3mm 0 6mm;font-size:9.6pt;border:.3mm solid rgba(245,215,146,.35);border-radius:2.5mm;overflow:hidden}
+th{font:700 7pt Montserrat;letter-spacing:.2em;text-align:left;color:#F5D792;background:rgba(245,215,146,.08);padding:2.6mm 3mm}
+td{padding:2.6mm 3mm;border-top:.2mm solid rgba(255,255,255,.08);vertical-align:top}
+td:first-child{font-weight:700;color:#fff;width:36%}
+ul.l{list-style:none;margin:2mm 0 5mm}
+ul.l li{padding-left:7mm;position:relative;margin-bottom:2.2mm}
+ul.l li::before{content:"";position:absolute;left:0;top:1.2mm;width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm;background:linear-gradient(135deg,transparent 45%,#F5D792 45% 55%,transparent 55%)}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:3mm 0 6mm}
+.duas > div{background:#0B1230;border:.3mm solid rgba(245,215,146,.3);padding:4.5mm;border-radius:2.5mm}
+.duas .tag{margin-bottom:2.5mm;display:table}
+.dest .tag{display:table}
+.fluxo{display:flex;align-items:center;gap:2mm;margin:4mm 0 6mm;flex-wrap:wrap}
+.fluxo span{font:700 9.5pt Montserrat;background:#0B1230;border:.3mm solid #F5D792;color:#fff;padding:1.8mm 3.4mm;border-radius:99px}
+.fluxo i{font-style:normal;font-weight:800;color:#F5D792}
+.escala{display:flex;margin:4mm 0 2mm;border-radius:2mm;overflow:hidden}
+.escala span{flex:1;text-align:center;font:700 7.5pt Montserrat;padding:3mm 1mm;color:#fff}
+.passos{counter-reset:p;margin:4mm 0}
+.passos div{counter-increment:p;display:grid;grid-template-columns:12mm 1fr;gap:3mm;margin-bottom:3mm;align-items:center;background:#0B1230;border:.3mm solid rgba(245,215,146,.25);border-radius:2.5mm;padding:3.5mm 4mm}
+.passos div::before{content:counter(p);font:800 20pt/1 Montserrat;color:#F5D792}
+.linhas{margin:2mm 0 6mm}
+.linhas div{border-bottom:.25mm solid rgba(255,255,255,.18);height:9mm}
+.horas{display:grid;grid-template-columns:repeat(8,1fr);gap:2.5mm;margin-top:4mm}
+.horas div{border:.3mm solid rgba(245,215,146,.5);border-radius:1.5mm;padding:2mm;font:700 8.5pt Montserrat;color:#fff;display:flex;justify-content:space-between}
+.horas div::after{content:"";width:3.2mm;height:3.2mm;border:.4mm solid #F5D792;border-radius:.6mm}
+.codigo{font:800 46pt/1 Montserrat;text-align:center;margin:4mm 0 1mm;letter-spacing:.04em}
+.frase-g{font:700 15pt/1.35 Montserrat;color:#fff;margin:0 0 5mm;padding:5mm 6mm;background:#0B1230;border-left:1mm solid #F5D792;border-radius:0 2.5mm 2.5mm 0}
+.dest .codigo{color:#1a1a1a}
+</style></head><body><section class="pg" style="padding:0">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 45%, rgba(80,70,180,.35), transparent 70%)"></div>
+    <div style="position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:190mm;height:205mm;background:url('file:///home/user/Geral/imersao-dpm/assets/foto.png') no-repeat bottom center/contain;-webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent 97%)"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,2,17,.9) 0%, rgba(0,2,17,.2) 30%, transparent 50%, rgba(0,2,17,.6) 72%, #000211 92%)"></div>
+    <div style="position:absolute;left:0;right:0;top:20mm;text-align:center">
+      <div style="margin:0 auto;width:95mm;height:28mm;background:url('file:///home/user/Geral/imersao-dpm/assets/logo-h.png') no-repeat center/contain"></div>
+    </div>
+    <div style="position:absolute;right:9mm;top:20mm;writing-mode:vertical-rl;font:700 6.5pt Montserrat;letter-spacing:.3em;color:#F5D792;border:.3mm solid #F5D792;border-radius:99px;padding:3mm 1.6mm">RESUMO DA AULA</div>
+    <div style="position:absolute;left:20mm;right:20mm;bottom:24mm">
+      <span class="tag">Aula 02 · Noite 2 · 09/09</span>
+      <div style="font:800 30pt/1.1 Montserrat;color:#fff;margin:5mm 0 3mm">A noite da reprogramação</div>
+      <div style="font:600 13pt Montserrat;color:#F5D792">Quanto vale a sua vida?</div>
+      <div style="display:flex;justify-content:space-between;margin-top:9mm;font:500 8pt Montserrat;color:rgba(255,255,255,.6)"><span>Dra. Próton</span><span>8, 9 e 10 de setembro · Material de apoio</span></div>
+    </div>
+  </section><section class="pg"><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite 2 · Dra. Próton</div>
+    <div class="tag">Antes de começar</div>
+    <h2>Como usar <mark>este manual</mark></h2>
+    <div class="cit" style="font-size:17pt">"A partir de agora você não vai mais aceitar migalhas na sua vida. Toda vez que uma mensagem tocar o seu coração, escreva: chega de migalhas. Você vai treinar o seu cérebro para nunca mais voltar para o padrão em que estava."</div>
+    <p style="font:700 8.5pt Inter;letter-spacing:.2em;margin-top:-3mm">DRA. PRÓTON · ABERTURA DA NOITE 2</p>
+    <div class="duas" style="grid-template-columns:1fr 1fr 1fr;margin-top:8mm">
+      <div><div class="tag">Caiu a ficha</div>Quando você entender algo novo.</div>
+      <div><div class="tag">Ai</div>Quando a palavra doer um pouquinho.</div>
+      <div><div class="tag">Arrepiei</div>Quando sentir que é verdade.</div>
+    </div>
+    <p>Durante a aula, a Dra. Próton pediu que você escrevesse essas palavras no chat. Faça o mesmo aqui: sublinhe, marque e escreva nas margens. Tenha sempre por perto papel e caneta.</p>
+    <div class="tag" style="margin-top:9mm">Neste manual</div>
+    <ul class="l" style="margin-top:3mm"><li>I. Da era da sobrevivência à era da conquista</li><li>II. Quanto valem 30 dias da sua vida?</li><li>III. 1 × 0 = 0: investir em você</li><li>IV. Quem programou você</li><li>V. Governar as emoções na era da IA</li><li>VI. Frequência muda tudo</li><li>VII. O que é (e o que não é) hipnose</li><li>Prática da noite</li><li>Não trave o processo</li><li>Frases para guardar</li><li>Minhas anotações</li></ul>
+    <div class="rod"><span>IMERSÃO · DESBLOQUEIE O PODER DA SUA MENTE · NOITE 02</span><span>02</span></div>
+  </section><main class="flow"><div class="fundo"></div><div class="cab"><div class="lg"></div></div><div class="rodf">Imersão Desbloqueie o Poder da Sua Mente · Noite 2 · Dra. Próton</div><div class="sec nova"><div class="rom">I</div>
+      <div class="tag">Lição 1</div><h2>Da era da sobrevivência à era da conquista</h2>
+      <p>Na savana africana, quem parava para admirar o céu virava comida. Sobreviveu quem vivia em alerta. Por isso o nosso sistema nervoso foi treinado para ser negativo.</p><p>Essa era passou, mas talvez você ainda esteja só sobrevivendo, no automático, como um carro desgovernado. E quem sobrevive não conquista.</p><div class="dest"><div class="tag">PERGUNTA DE DIAGNÓSTICO</div><div>O que eu realmente conquistei nos últimos meses, nos últimos anos? Se a resposta for "quase nada", você não é sobrevivente: você está sobrevivente. Quem não está crescendo está morrendo.</div></div><div class="tag" style="margin-top:4mm">O que eu conquistei nos últimos 12 meses:</div><div class="linhas"><div></div><div></div><div></div><div></div></div></div><div class="sec"><div class="rom">II</div>
+      <div class="tag">Lição 2</div><h2>Quanto valem 30 dias da sua vida?</h2>
+      <p>Quanto dinheiro teria que cair na sua conta para você dizer "valeu a pena esses 30 dias de vida"? A turma respondeu R$ 5 mil, R$ 10 mil, R$ 15 mil.</p><p>Agora imagine um bilionário com apenas 30 dias de vida. Quanto ele pagaria por mais 30 dias? Tudo o que tem. A vida não tem preço, e mesmo assim colocamos um valor baixíssimo nela.</p><div class="dest"><div class="tag">A REGRA DO VALOR</div><div>O mundo te enxerga da forma que você se enxerga. As pessoas te tratam dentro do valor que você se dá. Enquanto aceitar migalhas, você vai apenas sobreviver.</div></div></div><div class="sec"><div class="rom">III</div>
+      <div class="tag">Lição 3</div><h2>1 × 0 = 0: investir em você</h2>
+      <p>Quanto você investiu em você este ano? 1 × 0 é zero. Mil × 0 é zero. Um bilhão × 0 é zero. Se você não investe em você, o retorno é zero.</p><p>E investir em si não é só dinheiro: é se alimentar bem, cuidar do corpo e da mente. Muita gente topa na hora a pizza do fim de semana, mas não coloca nada na própria evolução.</p></div><div class="sec"><div class="rom">IV</div>
+      <div class="tag">Lição 4</div><h2>Quem programou você</h2>
+      <table><tr><th>PROGRAMADOR</th><th>O QUE ELE GRAVOU</th></tr><tr><td>Pai e mãe</td><td>A primeira programação. Sem acesso ao conhecimento de hoje, o resultado tende a repetir o deles.</td></tr><tr><td>A escola</td><td>Ensinou a decorar e colocou todos na mesma caixinha. Não ensinou a governar as emoções.</td></tr><tr><td>TV e novelas</td><td>O rico como vilão e o pobre como bonzinho. O cérebro sabota em silêncio qualquer chance de prosperar.</td></tr><tr><td>"Estude para ser alguém"</td><td>Escola, faculdade, pós… e aos 40 anos a pessoa ainda espera a vida começar.</td></tr></table></div><div class="sec"><div class="rom">V</div>
+      <div class="tag">Lição 5</div><h2>Governar as emoções na era da IA</h2>
+      <p>A máquina já responde qualquer pergunta melhor do que nós, que fomos treinados para decorar. A única coisa que ela não sabe fazer é ser humana: viver com benevolência, amor e bondade. E o pilar disso é governar as próprias emoções.</p><div class="cit">"Se você não governa as suas emoções, você não governa mais nada na sua vida."</div></div><div class="sec"><div class="rom">VI</div>
+      <div class="tag">Lição 6</div><h2>Frequência muda tudo</h2>
+      <p>A Escala de Hawkins organiza as emoções em níveis. Embaixo: vergonha, culpa, medo, raiva e tristeza. Em cima: coragem, amor, alegria e paz.</p><div class="escala"><span style="background:#5a1e1e">Vergonha</span><span style="background:#7a2b22">Culpa</span><span style="background:#95402a">Medo</span><span style="background:#a85a2c">Raiva</span><span style="background:#8f7a1c">Coragem</span><span style="background:#b59a12">Amor</span><span style="background:#d2ae0a">Alegria</span><span style="background:#e8c200">Paz</span></div><p style="font-size:9pt;color:#5b4c33">← frequência baixa · frequência alta →</p><div class="dest"><div class="tag">PRÁTICA DE ELEVAÇÃO · GRATIDÃO AO ACORDAR</div><div>Antes de pegar o celular: "Obrigada pela minha vida. Obrigada porque a minha família está viva. Obrigada porque acordei numa casa, numa cama quentinha. Obrigada porque havia alimento na cozinha."</div></div></div><div class="sec"><div class="rom">VII</div>
+      <div class="tag">Lição 7</div><h2>O que é (e o que não é) hipnose</h2>
+      <p>Hipnose não é ficar desacordada nem se teletransportar. É um estado de relaxamento profundo em que a mente recebe as informações com mais clareza. Você entra nele várias vezes por dia: quando dirige e não lembra do caminho, ou no banho sem saber se já lavou o cabelo.</p></div><div class="sec nova">
+    <div class="tag">Prática da noite</div><h2><mark>Hipnose de Desbloqueio: o resgate e o perdão</mark></h2>
+    <p>A prática central das três noites. Refaça-a num momento tranquilo, com a gravação da aula, e permita-se sentir o que vier.</p>
+    <div class="passos"><div><span>RELAXAR · Olhos fechados. Conte de 77 para baixo, relaxando a cada número. Aprofunde de 5 até 1.</span></div><div><span>A PORTA DA MEMÓRIA · Imagine uma porta. Ao abri-la, surge um momento da infância em que você aprendeu que não merecia prosperar. Não force.</span></div><div><span>O RESGATE · Volte à cena como a adulta de hoje, abrace a criança e diga: "Eu sou você do futuro e vim aqui para te salvar."</span></div><div><span>A CADEIRA · À sua frente, a pessoa que bloqueou a sua felicidade. Ela só pode ouvir. Diga tudo o que sentiu: "Eu era só uma criança."</span></div><div><span>O PERDÃO · Entenda que ela também foi uma criança ferida. Repita: "Eu te perdoo e te liberto." Entregue o peso: "Toma. Esse peso é seu, não é meu."</span></div></div>
+    <div class="duas"><div><div class="tag">Perdoar não é</div><ul class="l" style="margin:0"><li>concordar com o que a pessoa fez</li><li>aceitar que aquilo foi certo</li><li>ser obrigada a conviver</li></ul></div><div><div class="tag">Perdoar é</div><ul class="l" style="margin:0"><li>decidir não carregar o lixo de algo que você não fez</li><li>rasgar o cheque em branco que você esperava cobrar</li><li>romper a corrente por amor à sua criança</li></ul></div></div>
+    </div><div class="sec nova">
+    <div class="tag">Exercício até a Noite 3</div><h2>Não trave o processo</h2>
+    <p>Toda vez que algo mexe com a sua frequência, aparece a tentação de parar: "já fiz a hipnose, já está bom". Travar o processo é o padrão de quem vive de imersão em imersão sem mudar de vida.</p>
+    
+    
+    <div class="duas"><div><div class="tag">MELHORAR DE VIDA</div>Ganhar um pouco mais: R$ 500, R$ 1.000 a mais no mês.</div><div><div class="tag">MUDAR DE VIDA</div>Nunca mais voltar para o patamar anterior. Para isso é preciso ser obediente ao processo.</div></div><div class="cit">"Obediência é maturidade."</div><p>A criança desobedece; a pessoa madura escuta a orientação e segue à risca. Quando você caminha em direção a uma transformação, tudo começa a puxar você de volta. Quem está comprometida atravessa.</p>
+    
+    </div><div class="sec nova">
+    <div class="tag">Para guardar</div><h2>As frases da <mark>Noite 2</mark></h2>
+    <div class="frase-g">"Chega de migalhas."</div><div class="frase-g">"Quem sobrevive não conquista."</div><div class="frase-g">"O mundo te enxerga da forma que você se enxerga."</div><div class="frase-g">"Se você não governa as suas emoções, você não governa mais nada na sua vida."</div><div class="frase-g">"Eu te perdoo e te liberto."</div>
+    <div class="dest" style="margin-top:8mm"><div class="tag">Próxima aula: Noite 3</div>Continue a ativação de hora em hora e a gratidão ao acordar. Para a Noite 3, separe duas folhas em branco e uma caneta: você vai escrever do que se despede e o que vai conquistar.</div></div><div class="sec nova">
+    <div class="tag">Minhas anotações</div><h2>Noite 2</h2>
+    <p style="font-weight:700;margin-top:3mm">Quanto valem 30 dias da minha vida? O que isso revela sobre o valor que eu me dou?</p><div class="linhas"><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">Qual memória apareceu atrás da porta? Quem estava na cadeira?</p><div class="linhas"><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">O que eu disse para a minha criança? O que senti depois do perdão?</p><div class="linhas"><div></div><div></div><div></div><div></div></div><p style="font-weight:700;margin-top:3mm">Em que momentos da minha vida eu "travei o processo"?</p><div class="linhas"><div></div><div></div><div></div><div></div></div></div></main></body></html>

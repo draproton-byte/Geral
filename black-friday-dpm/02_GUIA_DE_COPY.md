@@ -5,7 +5,7 @@ Contrato de escrita. Toda peça segue este guia.
 ## 1. Regras de forma
 
 1. **Zero travessão e zero meia-risca** (nem em título, nem em lista, nem em tabela). Use vírgula, ponto, dois pontos ou parênteses.
-2. **Nome "Keila" nunca aparece** em material público.
+2. **O nome da gestora do projeto nunca aparece** em material público (só "Dra. Próton" e "Instituto Dra. Próton").
 3. **Disparos de WhatsApp e API:** "para" (não "pra"), uma linha em branco entre todas as linhas, negrito com asterisco (`*assim*`), link em linha própria e separado do CTA, rodapé "Digite SAIR se não quiser mais receber mensagens" em API, e **nenhuma contagem de dias dentro do texto quando o envio pode escorregar de dia** (use data fixa). Mensagem curta, duas a três linhas por bloco.
 4. **Criativos, headlines e falas da Dra. em vídeo:** podem usar "pra" (é a voz dela).
 5. **E-mails:** assunto com a frase da audiência ou pergunta; um assunto, uma ideia, um botão.

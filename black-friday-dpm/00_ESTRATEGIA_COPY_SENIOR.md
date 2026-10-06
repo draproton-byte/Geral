@@ -133,7 +133,7 @@ A Imersão já ensinou o público a se reconhecer em cinco perfis, e os números
 
 | Perfil | Frase que a audiência já usa | Dado |
 |---|---|---|
-| Termostato Invisível | "Quando entra um dinheiro a mais, aparece uma conta" | 51,9% (Aulão) |
+| Termostato Invisível | "Quando entra um dinheiro a mais, aparece uma conta" | 51,9% (dossiê do Desafio, enquete de presença) |
 | Autossabotagem | "Eu sei o que fazer e não faço" | 15% (o que tira a paz); 19% a 27% escolheriam "parar de me sabotar" como maior problema emocional |
 | Cobrança Que Você Só Faz Com Você | "Estou funcional, mas exausta por dentro" | 16% (ficha) |
 | Traumas Que Ainda Decidem | "Sinto que a cada passo que dou, retrocedo" | 14% (ficha), 13% (Aulão) |
@@ -156,6 +156,7 @@ O maior grupo, porém, é "não sei exatamente o que está me impedindo" (29% a 
 | `09_comercial_datacrazy` | Copies por evento do pipeline, objeções, régua do silêncio, aberturas | Narrativa, pipeline, régua, aberturas do Clube |
 | `10_pos_compra` | Certificado, manual do participante, NPS | Certificado e manual do Desafio |
 | `11_matriz_desafio_para_black.md` | Peça a peça: o que existia, o que virou, o que ficou pendente | |
+| `12_decisoes_e_pendencias.md` | Tudo que a equipe precisa decidir ou fornecer antes de publicar | |
 
 ---
 

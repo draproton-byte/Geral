@@ -132,7 +132,7 @@ Digite SAIR se não quiser mais receber mensagens
 
 Isso é normal nos primeiros dias, e é exatamente aí que o "depois" costuma aparecer.
 
-O primeiro passo da trilha leva poucos minutos. O grupo é onde ele chega.
+O primeiro passo da trilha é um só. O grupo é onde ele chega.
 
 👇 Entra agora e começa:
 
@@ -511,7 +511,7 @@ O seu acesso está no seu e-mail. Começa agora por aqui:
 
 Se sim, me conta com um "sim" por aqui.
 
-Se ainda não, tudo bem. O primeiro passo leva poucos minutos, e é nele que o automático costuma voltar.
+Se ainda não, tudo bem. O primeiro passo é um só, e é nele que o automático costuma voltar.
 
 👇 O primeiro passo está aqui:
 

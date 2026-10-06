@@ -672,7 +672,7 @@ Não sai da live 👇
 1. `[[PENDENTE: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O Desafio usava o áudio com a sequência "520 741 8" e a frase "ative a atração de dinheiro". **Não copiar a frase.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e CP-BF-77 e manter só a versão P.S. do carrinho.
 2. `[[PENDENTE: vídeo da Dra.]]` do disparo das 19h50 (o Desafio também esperava o vídeo).
 3. `[[PENDENTE: preço, data do lote, garantia, bônus, parcelamento]]`: tudo o que está nas seções 4 e 5 com placeholder só fecha depois da revelação. As peças saem prontas e o preço é preenchido por busca no momento em que a Dra. falar. Escada para o implementador (não aparece em texto público antes da live): alunas, Lote Especial R$ 1.997; não-alunas, Lote Especial R$ 2.997.
-4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma "menor preço só pra quem estiver ao vivo". Esse texto aparece em CP-BF-66 e CP-BF-71.
+4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma que o menor preço é só para quem estiver ao vivo. Esse texto aparece em CP-BF-66 e CP-BF-71.
 5. `[[CONFIRMAR: roteiro da live]]` (08_live_e_pitch): o horário do CP-BF-75 deve casar com o ponto do roteiro em que a revelação começa.
 6. Quem fez Desafio/Imersão paga o preço de não-alunas, a menos que a equipe decida criar uma condição própria `[[CONFIRMAR]]`. Os textos assumem preço de não-alunas.
 7. Replay: nenhum texto afirma "sem replay". Quando `[[PENDENTE: replay]]` fechar, acrescentar uma linha em CP-BF-71.

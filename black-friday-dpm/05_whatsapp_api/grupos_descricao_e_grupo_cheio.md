@@ -256,7 +256,7 @@ Quantas vezes você já recomeçou? Me conta com um 🔁
 2. `[[LINK: ...]]` dos três grupos (geral, alunas, Desafio/Imersão), do diagnóstico e do lembrete da live. Os grupos precisam de links de rodízio separados por segmento e tag própria no SendFlow/DataCrazy (a estratégia de 00 prevê lista, tag e checkout próprios para alunas e demais alunos).
 3. `[[PENDENTE: regra de migração]]`: o que acontece com o acesso atual da aluna do Clube que compra a Vitalícia (crédito, extensão, nada). A pergunta mais provável do grupo de alunas; bloqueia o texto dessa descrição.
 4. `[[PENDENTE: condição do Golden Ticket]]`: ver `convite_vip_alunas_e_quiz.md`.
-5. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura diz "menor preço só pra quem estiver ao vivo". Se o Lote Especial ficar aberto por um período depois da live, trocar "ao vivo vê primeiro" por "ao vivo tem a primeira condição".
+5. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura diz que o menor preço é só para quem estiver ao vivo. Se o Lote Especial ficar aberto por um período depois da live, trocar "ao vivo vê primeiro" por "ao vivo tem a primeira condição".
 6. `[[PENDENTE: replay]]`: a página de captura afirma "sem replay". O guia lista replay como pendência. Até fechar, nenhuma peça deste pacote afirma ou nega replay.
 7. `[[CONFIRMAR: o que acontece com a aula de terça do Clube em 03/11]]`: 03/11 cai numa terça e a live é no horário em que o Clube costuma ter aula.
 8. Confirmar se o grupo é "somente administradores enviam" (como no Desafio, em que só a Dra. fala). A descrição assume que sim.

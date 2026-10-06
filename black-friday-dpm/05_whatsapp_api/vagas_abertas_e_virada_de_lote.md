@@ -12,7 +12,7 @@
 | **Modelo no Desafio** | CP 01 de 01/10 e CP 42 a 46 de 02/10 (`desafio_copy_vagas_abertas_clube_secreto.md`, `desafio_copys_lembrete_grupos_desafio.md`), "Último dia" e "Últimas horas" da planilha `planilha_disparos__Setembro26.md`, API 09 e 12 (`planilha_disparos__Outubro26.md`) |
 
 **O que mudou em relação ao Desafio.**
-- O Desafio tinha uma só condição (R$ 1.997 à vista ou 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote**. Nenhuma peça usa "vagas acabando" sem lote.
+- O Desafio tinha uma só condição (à vista ou em 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote**. Nenhuma peça usa "vagas acabando" sem lote.
 - O Desafio vendia com garantia de 7 dias. Aqui a garantia é `[[PENDENTE: garantia]]`. Quando fechar, trocar nas peças marcadas.
 - Frases de fechamento seguem o guia: "Esta condição não se repete. O que vier depois é outra oferta, com outro preço." Nunca "a porta fecha para sempre" nem "última chance de ter acesso vitalício".
 - Tokens de preço: `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`. O lote ao qual o preço se refere está no texto ao lado do preço, de modo que a mesma busca substitui os valores nas virada de lote.
@@ -1094,7 +1094,7 @@ Digite SAIR se não quiser mais receber mensagens
 | Peça do Desafio | Decisão | Motivo |
 |---|---|---|
 | "Os 50 primeiros ganham reprogramação intrauterina" (CP 01 de 01/10) | Não repetido. Se existir bônus de antecipação, usar `[[PENDENTE: bônus]]` | O briefing diz que o bônus ainda não foi definido. Ver também `convite_vip_alunas_e_quiz.md` |
-| Preço "de R$ 2.997 por R$ 1.997" (ancoragem por risco) | Não repetido | O preço por lote é o de cada lote; a âncora de preço avulso é `[[PENDENTE: preço avulso]]` |
+| Preço riscado ("de X por Y", ancoragem do Clube no Desafio) | Não repetido | O preço por lote é o de cada lote; a âncora de preço avulso é `[[PENDENTE: preço avulso]]` |
 | Boleto/Pix parcelado "sem consultar limite" (CP 46) | Mantido como linha condicional em CP-BF-V02 | Só se o checkout da Black tiver essas formas `[[CONFIRMAR: parcelamento]]` |
 | Garantia de 7 dias | Trocada por `[[PENDENTE: garantia]]` | O valor é mais alto; a garantia ainda não foi fechada |
 

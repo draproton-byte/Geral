@@ -70,7 +70,7 @@
 - TIME: música de espera baixa, sem locução. Slide 2 (regras da noite) aparece nos últimos 3 minutos.
 - TIME: às 19h55, mensagem no grupo de WhatsApp: "Faltam 5 minutos. Papel e caneta na mão." (link do YouTube em linha própria, separado do CTA).
 - TIME: confirmar que o cronômetro de 15 minutos (arquivo de vídeo do Desafio) está carregado e testado, e que os links de checkout por lote e segmento estão abrindo no celular (`[[LINK: checkout por lote e segmento]]`).
-- TIME: confirmar que as telas de preço (slides 33 a 36) estão no modo "oculto" até a Dra. liberar. Nenhum valor pode vazar em preview, miniatura ou legenda.
+- TIME: confirmar que as telas de preço (slides 34, 36 e 37) estão no modo "oculto" até a Dra. liberar. Nenhum valor pode vazar em preview, miniatura ou legenda.
 
 ---
 
@@ -171,6 +171,7 @@
 **Estágio atendido:** todos.
 **Nota de compliance:** é prática de reflexão e respiração, não é tratamento e não promete resultado. Nunca prometer efeito financeiro ou de saúde.
 
+- TELA (slide 14): "Três linhas. Uma decisão."
 - AÇÃO: "Papel na frente. Três linhas. Eu leio, você escreve."
 - AÇÃO (linha 1): "O que eu comecei e parei. Escreve o nome. Uma coisa só."
 - AÇÃO (linha 2): "O 'depois' que me protegeu de continuar. Eu comecei a falar: depois eu pago, depois eu faço, depois eu volto. Qual é o seu depois?"
@@ -189,13 +190,13 @@
 **Objetivo emocional:** identificação e confiança. "Se ela saiu de lá, existe saída." Vem depois da vivência, de propósito: primeiro a pessoa quer, depois pergunta quem é ela.
 **Estágio atendido:** 2 a 4.
 
-- TELA (slide 14): [[FOTO DRA]] aos 18 anos [[CONFIRMAR: foto autorizada e momento da vida]]. Legenda: "Aqui eu só sobrevivia."
+- TELA (slide 15): [[FOTO DRA]] aos 18 anos [[CONFIRMAR: foto autorizada e momento da vida]]. Legenda: "Aqui eu só sobrevivia."
 - FALA: "Eu fui criada pelos meus avós, na periferia do interior de São Paulo. Filha de mãe solo. Cresci ouvindo que sucesso era coisa de rico, não de gente como eu."
-- FALA: "Trabalhei em telemarketing. Vendi cartão. Fui camelô. Eu sei o que é fechar o mês na conta."
+- FALA: "Trabalhei em telemarketing. Vendi cartão. Fui camelô. [[CONFIRMAR: frase de identificação com o aperto, na voz da Dra.]]"
 - FALA: "Eu quase perdi a vida. E foi ali que mudou tudo. Eu estudei neurociência, física quântica, espiritualidade, hipnose, reprogramação mental. Estudei para sobreviver. Depois virou método."
-- TELA (slide 15): [[FOTO DRA]] hoje + os fatos: mais de 70 mil alunos em 44 países, 1,4 milhão de seguidores.
+- TELA (slide 16): [[FOTO DRA]] hoje + os fatos: mais de 70 mil alunos em 44 países, 1,4 milhão de seguidores.
 - FRASE **[INTOCÁVEL]**: "O mundo te enxerga da forma que você se enxerga."
-- FALA: "Eu comecei e parei muitas vezes. Eu conheço o deserto. Por isso eu não vendo uma coisa que eu não fiz."
+- FALA: "Eu conheço o deserto. Por isso eu não vendo uma coisa que eu não atravessei. [[CONFIRMAR: a Dra. valida esta frase como dela]]"
 - FRASE **[INTOCÁVEL]**: "Quem não está crescendo está morrendo."
 - CHAT: "Qual parte da minha história é a sua? Uma palavra."
 
@@ -208,14 +209,14 @@
 **Objetivo emocional:** alívio e diagnóstico. "Eu não sou o problema. Existe um mecanismo, e dá para trabalhar nele." É a abertura do mecanismo que prepara a oferta.
 **Estágio atendido:** 3 e 4.
 
-- TELA (slide 16): "O depois".
+- TELA (slide 17): "O depois".
 - FALA: "Toda vez que você começa algo importante, o seu cérebro procura o depois. Depois eu começo. Depois eu pago. Depois eu faço. O depois é o esconderijo da autossabotagem."
 - FALA: "Você não trava porque é fraca. Você trava porque o padrão que você quer mudar é o mesmo que sabota a mudança."
-- TELA (slide 17): "Sozinha, o freio ganha."
+- TELA (slide 18): "Sozinha, o freio ganha."
 - FALA: "Todo curso que você comprou e não terminou tinha um problema em comum: você precisava aplicar sozinha. E aí o freio puxado trabalha. Você tentou vencer o freio com força de vontade, e força de vontade é justamente o que ele consome."
-- TELA (slide 18): "O que muda quando tira o prazo."
+- TELA (slide 19): "O que muda quando tira o prazo."
 - FALA: "Agora imagina isto. Um lugar onde você não tem prazo. Onde ninguém te cobra 'use este mês, senão perde'. Onde o programa conduz você, um ciclo por vez, e ele fica para sempre. O que muda no seu cérebro quando o depois deixa de existir?"
-- TELA (slide 19): o mecanismo do Clube: protocolo de 21 dias por ciclo, 12 ciclos por ano, sem prazo para dar conta.
+- TELA (slide 20): o mecanismo do Clube: protocolo de 21 dias por ciclo, 12 ciclos por ano, sem prazo para dar conta.
 - FALA: "É isso o Clube Secreto: um protocolo de 21 dias por ciclo, 12 ciclos. Cada ciclo arruma uma área: dinheiro, cobrança, casamento, solidão, corpo, ansiedade, confiança, comparação, família, fé, disciplina, integração." [[CONFIRMAR: ordem e nomes dos ciclos conforme o Clube atual]]
 - FRASE **[INTOCÁVEL]**: "Não trave o processo."
 - FRASE **[INTOCÁVEL]**: "Obediência é maturidade."
@@ -231,11 +232,11 @@
 **Objetivo emocional:** impacto de volume e clareza. "Tudo isso, de uma vez." A pessoa precisa ver cada produto com uma frase que diz para que ele serve, para não virar lista.
 **Estágio atendido:** 4 e 5.
 
-- TELA (slide 20): "Dia 03/11. A oferta que o Clube Secreto nunca fez antes."
+- TELA (slide 21): "Dia 03/11. A oferta que o Clube Secreto nunca fez antes."
 - FALA: "Chegou o momento. Eu vou abrir, de uma vez, tudo o que eu construí. Um pagamento único. Acesso vitalício ao Clube Secreto e aos onze produtos do catálogo que existem hoje. Não é promessa de lançamento futuro. É só o que existe agora, nas suas mãos."
-- TELA (slide 21): "O Clube Secreto".
+- TELA (slide 22): "O Clube Secreto".
 - FALA: "No centro está o Clube Secreto: o protocolo de 21 dias, 12 ciclos, aulas ao vivo toda terça, suporte no WhatsApp, a comunidade." [[CONFIRMAR: o que o Clube vitalício inclui (aulas ao vivo e suporte) e por quanto tempo]]
-- TELA (slides 22 a 32, um por produto, nesta ordem, uma frase por produto):
+- TELA (slides 23 a 33, um por produto, nesta ordem, uma frase por produto):
   1. **Fórmula da Riqueza**: [[CONFIRMAR: uma frase sobre o que é e para que serve]]
   2. **Workshop Terapeuta de Elite**: [[CONFIRMAR: uma frase]]
   3. **Os 3 Áudios de Reprogramação**: "para ouvir e reprogramar no seu ritmo, no celular." [[CONFIRMAR: descrição]]
@@ -261,7 +262,7 @@
 **Estágio atendido:** 4 e 5.
 **Pendência crítica:** sem os preços avulsos fechados, este bloco não vai ao ar com números. Se não fecharem até 10/10, o plano B é a conta de tempo e escolhas (ver notas).
 
-- TELA (slide 33): tabela com os 12 itens e `[[PENDENTE: preço avulso]]` de cada um, fechando com `[[PENDENTE: soma dos avulsos]]`.
+- TELA (slide 34): tabela com os 12 itens e `[[PENDENTE: preço avulso]]` de cada um, fechando com `[[PENDENTE: soma dos avulsos]]`.
 - FALA: "Antes de ver o valor, eu quero que você faça uma conta. Eu vou mostrar quanto custa cada um se você comprasse separado."
 - AÇÃO: a Dra. soma os itens em voz alta, um por um, sem pressa. A moderadora acompanha em um quadro.
 - FALA: "Se você comprasse tudo separado, seriam [[PENDENTE: soma dos avulsos]]. Isso é o que está na tela."
@@ -281,7 +282,7 @@
 **Objetivo emocional:** alívio. A pessoa percebe que não precisa fazer onze coisas, só começa por uma. É a resposta estrutural a "comprei e não coloquei em prática" (12% da ficha, 8% do Aulão).
 **Estágio atendido:** 4 e 5.
 
-- TELA (slide 34): "Você não começa pelos onze. Você começa pela trilha."
+- TELA (slide 35): "Você não começa pelos onze. Você começa pela trilha."
 - FALA: "Eu pensei no risco de entrar e se perder. Por isso existe a trilha de entrada: [[PENDENTE: ordem de entrada]]. Primeiro passo em 48 horas. Depois, um por vez."
 - FALA: "Não tem prazo para terminar. O produto que você não abriu hoje continua lá amanhã, e depois de amanhã. O que você perdeu em outros cursos foi o prazo. Aqui não existe."
 - FRASE: "Sem prazo para dar conta."
@@ -294,13 +295,13 @@
 **Estágio atendido:** 5.
 **Regra:** o preço é dito uma vez por segmento, devagar, com o slide correspondente. Nunca "por apenas". Nunca comparar com "mensalidade" (`[[CONFIRMAR: comparação com mensalidade]]`).
 
-- TIME: liberar as telas de preço (slides 35 e 36). Fixar no chat a mensagem: "O valor do seu lote está na tela agora. Seu segmento: aluna do Clube ou ainda não é do Clube."
+- TIME: liberar as telas de preço (slides 36 e 37). Fixar no chat a mensagem: "O valor do seu lote está na tela agora. Seu segmento: aluna do Clube ou ainda não é do Clube."
 - FALA: "Existem dois grupos aqui hoje. Quem já é aluna do Clube Secreto. E quem ainda não é. Eu vou falar dos dois, e você escuta o seu."
-- TELA (slide 35): **Lote Especial** (data de virada: [[PENDENTE: data do lote]])
+- TELA (slide 36): **Lote Especial** (data de virada: [[PENDENTE: data do lote]])
   - Alunas do Clube: [[PREÇO LOTE ALUNAS]] (Lote Especial)
   - Quem ainda não é do Clube: [[PREÇO LOTE NÃO-ALUNAS]] (Lote Especial)
 - FALA: "Esse é o Lote Especial. É o menor valor que existe. Só vale até [[PENDENTE: data do lote]]."
-- TELA (slide 36): **Primeiro Lote** e **Último Lote**
+- TELA (slide 37): **Primeiro Lote** e **Último Lote**
   - Alunas: [[PREÇO LOTE ALUNAS]] (Primeiro Lote); [[PREÇO LOTE ALUNAS]] (Último Lote)
   - Não-alunas: [[PREÇO LOTE NÃO-ALUNAS]] (Primeiro Lote); [[PREÇO LOTE NÃO-ALUNAS]] (Último Lote)
 - FALA: "Depois do Lote Especial vem o Primeiro Lote, depois o Último Lote. A cada virada o valor sobe. As datas estão na tela."
@@ -317,13 +318,13 @@
 **Objetivo emocional:** tirar risco. Um minuto para cada tema. 53% da ficha de interesse se declara confortável com até R$ 297 e só 10% com mais de R$ 1.000: o parcelamento precisa vir em primeiro plano, antes de a pessoa precisar perguntar.
 **Estágio atendido:** 5.
 
-- TELA (slide 37): "Como pagar".
+- TELA (slide 38): "Como pagar".
 - FALA (parcelamento): "Você pode pagar em [[PENDENTE: parcelamento máximo]] vezes de [[PENDENTE: valor da parcela]], no cartão. Tem também [[CONFIRMAR: Pix à vista e boleto]]. Se o seu cartão trava, eu te explico no suporte." [[CONFIRMAR: entrada + parcelas pela Hotmart, como no Clube atual]]
 - FALA (com cuidado): "Eu não quero que você se endivide para estar aqui. Se o parcelamento só cabe pegando emprestado, não entre. Eu falo isso de verdade."
-- TELA (slide 38): "Garantia".
+- TELA (slide 39): "Garantia".
 - FALA: "[[PENDENTE: garantia]]. O Clube hoje tem sete dias de garantia. [[CONFIRMAR: a Vitalícia mantém sete dias ou outro prazo]]."
 - FALA: "Você entra, olha por dentro. Se na prática não for para você, você pede e eu devolvo. Sem formulário difícil. Eu prefiro devolver do que ter alguém aqui sem querer estar."
-- TELA (slide 39): "Bônus" (somente se existir).
+- TELA (slide 40): "Bônus" (somente se existir).
 - FALA: "[[PENDENTE: bônus]]. Quem está ao vivo e entra nos primeiros 15 minutos depois da abertura do link recebe [[PENDENTE: bônus]]." (ver `bonus_15_minutos_e_escassez.md`; se não houver bônus, esta fala é cortada inteira, sem remendo)
 
 ---
@@ -334,7 +335,7 @@
 **Estágio atendido:** 4 e 5.
 **Objeções cobertas (em voz):** (1) "e se eu não colocar em prática?", (2) "já comprei outros e não tive resultado", (3) "não tenho esse dinheiro agora", (4) "onze coisas, vou me perder / será que funciona para mim". As demais (marido, endividada, garantia, "vou pensar") estão no `quebra_de_objecoes.md` para o chat 1 a 1.
 
-- TELA (slide 40): "Agora eu preciso ser honesta com você."
+- TELA (slide 41): "Agora eu preciso ser honesta com você."
 - FALA (conversa 1: o que eu não prometo): "Eu não estou prometendo que a sua vida vai se resolver sozinha. Eu não prometo dinheiro. Eu não prometo que a autossabotagem some para sempre. O que eu estou oferecendo é uma coisa só: você não precisa mais recomeçar."
 - FALA (conversa 2: já comprei outros): "Se você está pensando 'eu já comprei outras coisas e não coloquei em prática', eu quero que você leia com atenção, porque essa é a frase que eu mais ouço. Nos outros você precisou aplicar sozinha depois. É sempre aí que trava. Aqui você tem a trilha e um ciclo de cada vez, comigo do outro lado."
 - FALA (conversa 3: não tenho o dinheiro agora): "Eu vou ser honesta de novo. Se o seu momento é de aperto de verdade, onde o dinheiro não dá para pagar tudo, não entre hoje. Entre no conteúdo gratuito, siga o processo, e se a próxima oferta fizer sentido, a gente conversa. Mas se você está dizendo 'não tenho' porque não é prioridade, eu preciso que você escute o que você escreveu na sua conta de um vezes zero."
@@ -352,7 +353,7 @@
 
 - TIME: iniciar o cronômetro de 15 minutos na tela (arquivo de vídeo do Desafio). Se não houver bônus, o cronômetro vira o relógio do Lote Especial.
 - LINK: liberar o checkout no chat fixado, no grupo de WhatsApp e na descrição do YouTube (um link por segmento: alunas e não-alunas, mais o do Lote Especial; cada um em linha própria e separado do CTA). `[[LINK: checkout aluna Lote Especial]]` `[[LINK: checkout não-aluna Lote Especial]]`
-- TELA (slide 41): botão e QR code por segmento.
+- TELA (slide 42): botão e QR code por segmento.
 - FALA (modelo, sem pressão): "O link está no chat agora. Quem é aluna do Clube clica no link das alunas. Quem não é, no outro. Se o seu cartão travar, não saia da live: chama o suporte pelo WhatsApp."
 - FALA (contagem 1): "A partir de agora, são 15 minutos. [[PENDENTE: bônus]] só para quem finalizar nesse tempo. Se você já decidiu, não espera."
 - FRASE **[INTOCÁVEL]**: "Nunca mais eu deixo de investir em mim."
@@ -368,7 +369,7 @@
 
 - TIME: a moderadora seleciona 8 a 10 perguntas curtas, priorizando as que se repetem. Perguntas já preparadas e a resposta-base estão em `quebra_de_objecoes.md` (resposta curta, voz da Dra.).
 - FALA (abertura do bloco): "Eu vou responder o que vocês estão perguntando. Pode escrever."
-- **Contagem 2 (01:33, faltam 10 minutos):** TELA (slide 42). FALA: "Faltam 10 minutos para fechar o bônus." (somente se houver bônus; senão: "Faltam 10 minutos para eu encerrar a live, e o link continua aberto até a virada do lote.")
+- **Contagem 2 (01:33, faltam 10 minutos):** TELA (slide 43). FALA: "Faltam 10 minutos para fechar o bônus." (somente se houver bônus; senão: "Faltam 10 minutos para eu encerrar a live, e o link continua aberto até a virada do lote.")
 - AÇÃO: ler e responder. Perguntas previstas:
   - "Eu já sou do Clube. O que muda para mim?" (resposta-base: `quebra_de_objecoes.md`, objeção h)
   - "Se eu já fiz o Desafio e a Imersão, preciso comprar de novo?" (idem; [[CONFIRMAR: o que o catálogo repete para quem já tem produtos]])
@@ -378,8 +379,8 @@
   - "Preciso falar com meu marido." (objeção g)
   - "Tenho dívida. Isso me ajuda?" (objeção j)
   - "Vou receber os produtos todos de uma vez?" [[CONFIRMAR: liberação de acesso]]
-- **Contagem 3 (01:38, faltam 5 minutos):** TELA (slide 43). FALA: "Faltam 5 minutos." REAÇÃO: "Se você já decidiu, escreve DECIDI no chat." ler 5 respostas.
-- **Contagem 4 (01:42, falta 1 minuto):** TELA (slide 44, cronômetro grande). FALA: "Falta 1 minuto. Se está no link, finaliza." Ao zerar (01:43): FALA: "Encerrou o bônus." Silêncio de 3 segundos. Sem dramatização. TIME: encerrar o cronômetro e voltar o slide.
+- **Contagem 3 (01:38, faltam 5 minutos):** TELA (slide 44). FALA: "Faltam 5 minutos." REAÇÃO: "Se você já decidiu, escreve DECIDI no chat." ler 5 respostas.
+- **Contagem 4 (01:42, falta 1 minuto):** TELA (slide 45, cronômetro grande). FALA: "Falta 1 minuto. Se está no link, finaliza." Ao zerar (01:43): FALA: "Encerrou o bônus." Silêncio de 3 segundos. Sem dramatização. TIME: encerrar o cronômetro e voltar o slide.
 - FALA (depois da contagem 4): "O link continua aberto até [[PENDENTE: data do lote]], mas o bônus acabou." (se aplicável)
 - AÇÃO: continuar perguntas até 01:48.
 
@@ -392,7 +393,7 @@
 **Objetivo emocional:** fechamento com dignidade. Quem comprou se sente acolhida. Quem não comprou sente que a porta foi tratada com respeito, não fechada com chantagem.
 **Estágio atendido:** todos.
 
-- TELA (slide 45): "A última vez que você vai precisar recomeçar."
+- TELA (slide 46): "A última vez que você vai precisar recomeçar."
 - FALA: "Se você entrou, bem-vinda. O primeiro passo em 48 horas está no e-mail e no WhatsApp. Abre a trilha, não abre os onze."
 - FALA: "Se você ainda não decidiu: o link continua aberto até [[PENDENTE: data do lote]], e o valor sobe na virada do lote. Eu não vou te mandar mensagem te cobrando. Se você precisar de ajuda para escolher o caminho, o suporte está no WhatsApp."
 - FALA (saída honrosa, para quem não vai entrar): "Se não é o seu momento, está tudo bem. Continua no conteúdo gratuito. Eu prefiro você inteira do que você assustada."

@@ -179,7 +179,7 @@ Quer ver as formas de pagamento antes de decidir?
 
 ## c. "Já comprei outros cursos e não tive resultado"
 
-É a segunda maior objeção (14% da ficha, 11% do Aulão), e **a ficha quente a repete mais** (24 pessoas). É a frase que a Dra. mais ouve. **Nunca discorde.**
+É a segunda maior objeção (14% da ficha, 11% do Aulão), e **a ficha quente também a repete** (24 pessoas). É a frase que a Dra. mais ouve. **Nunca discorde.**
 
 **Resposta 1:**
 

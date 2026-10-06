@@ -10,7 +10,7 @@
 | **Consciência** | 1 a 3 |
 | **Modelo no Desafio** | `desafio_legenda_de_captacao.md` (V1 a V3) |
 
-**A cadência do Desafio que foi mantida, em ordem:** (1) abrir com dado de pesquisa, (2) nomear a dor, (3) convidar, (4) data e hora, (5) fechar com "Clique em Saiba mais". O que foi trocado: no Desafio o convite era para 5 noites e fechava com lote e preço (R$ 35). Aqui o convite é para uma live de revelação e o fechamento é a data, sem preço e sem contagem de vagas.
+**A cadência do Desafio que foi mantida, em ordem:** (1) abrir com dado de pesquisa, (2) nomear a dor, (3) convidar, (4) data e hora, (5) fechar com "Clique em Saiba mais". O que foi trocado: no Desafio o convite era para 5 noites e fechava com lote e preço do ingresso. Aqui o convite é para uma live de revelação e o fechamento é a data, sem preço e sem contagem de vagas.
 
 **Regras de uso:** a primeira linha de cada legenda é escrita para aparecer antes do corte do "ver mais" (cerca de 125 caracteres). Os números vêm de `01_PESQUISAS_INSIGHTS.md` e do diagnóstico do Desafio (4.032 respostas). Sem emojis no texto-base: a equipe de social pode acrescentar.
 
@@ -161,4 +161,4 @@ Clique em "Saiba mais" e reserve a sua vaga, sem custo.
 3. **Frase intocável usada:** LEG-CAP-09 traz "Eu prefiro que você não compre do que compre e não viva." literal.
 4. **Sem replay e sem preço:** nenhuma legenda cita um ou outro. Quando fechar `[[PENDENTE: replay]]`, decidir se a linha "ao vivo no YouTube" ganha "e sem replay".
 5. **Teste:** rodar LEG-CAP-01 (3 respostas em lista) contra LEG-CAP-08 (dado de dinheiro + 52 segundas) no mesmo criativo para medir a influência do texto. Rodar LEG-CAP-02 em tráfego frio e em lookalike de compradores do Desafio.
-6. **Peça do Desafio sem equivalente:** a linha "1º lote com 62% das vagas preenchidas, de R$ 497 por apenas R$ 35" do Desafio foi removida: não existe lote nem preço nesta fase.
+6. **Peça do Desafio sem equivalente:** a linha "1º lote com 62% das vagas preenchidas" e o preço de ingresso do Desafio foi removida: não existe lote nem preço nesta fase.

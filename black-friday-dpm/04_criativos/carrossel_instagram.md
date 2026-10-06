@@ -80,13 +80,13 @@
 
 ### Card 1 (gancho)
 - **Título:** QUANTAS VEZES VOCÊ JÁ RECOMEÇOU?
-- **Sub:** Todo ano tem 52 segundas-feiras. Em quantas você prometeu que dessa vez ia.
+- **Sub:** Todo ano tem 52 segundas-feiras. Em quantas você prometeu que dessa vez ia ser diferente?
 - **Rodapé:** Faz a conta comigo? Arrasta →
 - **FRAME 0:** A pergunta em branco, grande, e uma grade de 52 quadrados ao fundo. Para o scroll porque a pergunta universal e a grade visual transformam o ano em um retrato.
 
 ### Card 2 (a conta das segundas)
 - **Título:** 52 SEGUNDAS POR ANO.
-- **Texto:** Se você recomeça em todas elas, são 52 promessas por ano. Se recomeça em metade, são 26. Em dez anos, passam de 200. Essa também é uma conta.
+- **Texto:** Se você recomeça em todas elas, são 52 promessas por ano. Se recomeça em metade, são 26. Em dez anos, são mais de 200 promessas. Essa também é uma conta.
 - **Rodapé:** Mas a primeira conta é a do dinheiro →
 
 ### Card 3 (a conta do dinheiro)
@@ -198,6 +198,6 @@ Nenhum preço aparece nos cards (os valores ficam na legenda e na página). Publ
 1. **Dependências:** `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]` (CAR-CONTA, card 9), `[[CONFIRMAR: origem do 51,9%]]`, `[[PENDENTE: replay]]`, preços avulsos, preço do lote, parcelamento, garantia, data do lote e ordem de entrada (CAR-VIT).
 2. **Palavras-chave de comentário:** LIVE, CONTA e VITALÍCIA devem estar cadastradas na automação de direct (ManyChat ou equivalente) antes da publicação; cada uma com link e UTM próprios (`utm_content` com o ID do carrossel).
 3. **Frases da audiência:** "dinheiro não dá em árvore" e "sucesso é pra quem nasceu rico" são crenças genéricas de família, extraídas do material do Desafio, e não devem ser atribuídas a ninguém.
-4. **Dados:** 51,9% (origem a confirmar), 32% (Aulão, "confiar mais em mim") e "mais de 7 mil pessoas" (7.323). A conta "em dez anos passam de 200" é aritmética (26 × 10 = 260; 52 × 10 = 520, que "passam de 200" em qualquer caso). Se preferir, substituir por "mais de 500".
-5. **Peça do Desafio sem equivalente:** o slide 8 do Clube trazia "De R$ 2.997 por apenas R$ 199,31 ou R$ 1.997 à vista"; o CAR-TERM e o CAR-CONTA não têm preço, e o CAR-VIT tem só no card 8, com placeholder.
+4. **Dados:** 51,9% (origem a confirmar), 32% (Aulão, "confiar mais em mim") e "mais de 7 mil pessoas" (7.323). A conta "em dez anos, são mais de 200 promessas" é aritmética (26 × 10 = 260 no cenário de metade das segundas; 52 × 10 = 520 no cenário completo), não dado de pesquisa.
+5. **Peça do Desafio sem equivalente:** o slide 8 do Clube trazia o preço "de/por" e a opção à vista; o CAR-TERM e o CAR-CONTA não têm preço, e o CAR-VIT tem só no card 8, com placeholder.
 6. **Teste:** CAR-TERM contra CAR-CONTA em tráfego morno, medindo comentários por mil impressões; salvar e compartilhar como métricas secundárias (carrosséis explicativos costumam ter mais salvamentos).

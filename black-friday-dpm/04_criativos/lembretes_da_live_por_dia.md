@@ -19,7 +19,7 @@
 |---|---|
 | V1 Dor/identificação | Uma das cinco dores por dia, em ordem: Termostato Invisível, Autossabotagem, Cobrança, Traumas, Culpa de Querer Mais. Nos últimos dias, a frase-guia |
 | V2 Escassez | **Escassez real da live:** a condição completa só é revelada ao vivo, em 03/11, às 20h. Não há contagem de vagas (live aberta), não há "lote" antes da revelação. Linhas dependentes de decisão estão com `[[PENDENTE: replay]]` ou `[[CONFIRMAR: ...]]` |
-| V3 Provocação ou ancoragem | Provocação ("quantas segundas você ainda vai recomeçar?") e ancoragem **sem preço** (70 mil alunos em 44 países, 1,4 milhão de seguidores, "tudo o que eu construí em um só lugar"). A âncora de R$ 120 mil da mentoria individual e os números do Clube ficam para depois da revelação |
+| V3 Provocação ou ancoragem | Provocação ("quantas segundas você ainda vai recomeçar?") e ancoragem **sem preço** (70 mil alunos em 44 países, 1,4 milhão de seguidores, "tudo o que eu construí em um só lugar"). A âncora da mentoria individual e os números do Clube ficam para depois da revelação |
 
 **Regra de datas:** cada peça traz a data fixa (27/10, 29/10 ...) além da contagem, porque o disparo pode escorregar de dia. Trocar a contagem se mudar o dia de publicação.
 
@@ -314,6 +314,6 @@ Clique em "Saiba mais" e assista.
 3. **"Menor preço só para quem estiver ao vivo" (LEM-D3-2):** a página de captura diz isso. Só publicar se o time comercial confirmar `[[CONFIRMAR: o menor preço é só para quem estiver ao vivo]]`; se não for verdade, remover a linha. É a mesma dúvida do "sem replay" (`[[PENDENTE: replay]]`).
 4. **Números usados:** "quase 12%" é 476 de 4.032 no diagnóstico do Desafio; "70 mil", "44 países" e "1,4 milhão" estão no guia (seção 8); "365" é uma conta de dias, não dado de pesquisa. LEM-HOJE-3 exige número real de inscritos.
 5. **Escassez:** nenhuma peça fala em "vagas" no sentido de limite (a live não tem limite). Escassez é apenas data e revelação ao vivo.
-6. **Peças do Desafio sem equivalente:** os V2 do Desafio ("R$ 35 hoje, R$ 97 amanhã") e V3 da falta 2 ("minha mentoria custa R$ 120 mil") dependem de preço e foram substituídos pela escassez de revelação e pela ancoragem sem valor. A âncora da mentoria entra em `vendas_vitalicia.md`, `[[CONFIRMAR: ainda vale]]`.
+6. **Peças do Desafio sem equivalente:** os V2 do Desafio (preço do lote vigente contra o do próximo) e o V3 da falta 2 (âncora da mentoria individual) dependem de preço e foram substituídos pela escassez de revelação e pela ancoragem sem valor. A âncora da mentoria entra em `vendas_vitalicia.md`, `[[CONFIRMAR: ainda vale]]`.
 7. **Testes A/B:** na mesma data, rodar V1 contra V3 e observar cadastro por mil impressões; em 03/11, rodar LEM-LIVE-1 contra LEM-LIVE-3 para medir entrada simultânea no YouTube.
 8. **Disparo de WhatsApp:** as peças acima são para anúncio e redes. A versão em WhatsApp (com "para", linha em branco entre linhas, rodapé SAIR) está em `05_whatsapp_api`.

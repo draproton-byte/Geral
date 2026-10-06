@@ -59,7 +59,7 @@
 - **Texto na tela:** os dois títulos das colunas e a frase de cada lado; um contador regressivo discreto no canto superior que marca os dias até 03/11 (vira "HOJE" no dia). `[[CONFIRMAR: contador atualizado por arte]]`
 - **O que gravar:** locução da Dra. em estúdio (áudio limpo), 20 s; plano de apoio da Dra. sorrindo e apontando para a direita. O resto é motion.
 - **Legenda:** LEG-LEM-01 (adaptar).
-- **Diferença do Desafio:** AD 10 terminava "comece sua Nova Realidade por R$ 35" e "antes que o lote vire para R$ 97". Aqui não há preço nem lote: a urgência é a data.
+- **Diferença do Desafio:** AD 10 terminava com o preço do ingresso e o aviso de virada de lote. Aqui não há preço nem lote: a urgência é a data.
 
 ### VID-05 | "Os 5 padrões em 45 segundos" | 45 s | Texto na tela com voz off da Dra. | Aquecimento | Consciência 2 a 3
 - **Gancho (0 a 3 s):** "Em qual destes cinco você se reconhece?" em branco sobre fundo escuro, com as 5 caixas vazias aparecendo.
@@ -125,10 +125,10 @@
 
 ## Notas ao implementador
 
-1. **Gravação:** o pacote pede 6 sessões curtas da Dra. (VID-01, 02, 06, 07 pré-live; VID-10 pós-live, mais as locuções de VID-04, 05, 08 e 09). Sugerido: gravar todas de uma vez em 2 horas, com 3 roupas, antes de 13/10, exceto as pós-live, que dependem de datas e preços (gravar os trechos sem preço antes e inserir os valores em motion depois).
+1. **Gravação:** a Dra. grava em vídeo VID-01, 02, 06, 07 (pré-live) e VID-10 (pós-live), e só a locução de VID-04, 05, 08 e 09. Sugerido: gravar tudo em uma sessão de 2 horas, com 3 roupas, antes de 13/10. Os trechos pós-live dependem de datas e preços: gravar sem os valores e inserir os números em motion depois.
 2. **Pendências:** `[[FOTO DRA]]` (apoio), `[[CONFIRMAR: origem do 51,9%]]`, preços avulsos, `[[PENDENTE: data do lote]]`, parcelamento, bônus e aprovação da Dra. da frase final do VID-10.
 3. **Termos novos:** "Termostato Invisível" é explicado em VID-02. Nos demais vídeos em que aparece, repetir a explicação em uma frase na legenda.
 4. **Testes A/B:** (a) VID-01 (Dra. em close) contra VID-03 (texto na tela): o que converte mais cadastro por mil impressões; (b) VID-04 (contador) contra VID-07 (recado gravado em celular) no mesmo público de remarketing; (c) VID-08 com e sem a linha do bônus.
 5. **Frames de abertura e thumbnail:** em todo vídeo, o frame 0 é a frase do gancho em letra grande; o thumbnail para o feed repete o gancho com o rosto da Dra. (VID-01, 02, 06, 07, 10).
-6. **Peça do Desafio sem equivalente:** o "motion" do Desafio fechava sempre com o preço de R$ 35 e o lote de R$ 97. Na Black, a pré-live não tem preço; só os vídeos pós-live (VID-08 a 10) têm placeholders de preço.
+6. **Peça do Desafio sem equivalente:** o "motion" do Desafio fechava sempre com o preço do ingresso e o do lote seguinte. Na Black, a pré-live não tem preço; só os vídeos pós-live (VID-08 a 10) têm placeholders de preço.
 7. **Marca d'água e música:** usar trilha licenciada; a base é sensível a áudio muito alto (50+). Normalizar o áudio em -14 LUFS.

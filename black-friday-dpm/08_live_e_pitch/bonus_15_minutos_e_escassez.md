@@ -44,7 +44,7 @@ Não existe bônus definido. As opções abaixo são formatos, não promessas. N
 |---|---|---|
 | Sessão ao vivo de "primeiro passo" (uma aula de ativação da trilha) | Medo de não começar | Data e horário reais, vagas reais |
 | Material de apoio à trilha (guia ou ebook) | Excesso de produtos | Já existir pronto |
-| Acesso antecipado ou prioridade (grupo de boas-vindas, suporte prioritário na primeira semana) | Inseguridade no começo | Capacidade do suporte comprovada |
+| Acesso antecipado ou prioridade (grupo de boas-vindas, suporte prioritário na primeira semana) | Insegurança no começo | Capacidade do suporte comprovada |
 | Sessão em grupo de reprogramação (precedente do Desafio: "reprogramação mental") | Aumenta o valor percebido | Nunca usar valor em reais que não existe como preço de venda avulsa |
 
 **Regra do valor de bônus:** se o bônus tiver "valor de R$ X", X precisa ser preço de venda real. O Desafio usou "R$ 8.000" para uma reprogramação intrauterina (copy de vagas abertas do Clube). Para a Black, só repetir com `[[CONFIRMAR: preço real praticado]]`.

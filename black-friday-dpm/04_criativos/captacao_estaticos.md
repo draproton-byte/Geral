@@ -25,7 +25,7 @@
 
 **Regras de arte valendo para todos os 42:** fundo liso e escuro (ou claro com texto preto), uma única cor de destaque numa palavra da headline, rosto da Dra. à direita sem cobrir texto `[[FOTO DRA]]`, rodapé fixo com "Live de revelação · 03/11 · 20h · YouTube" em fonte de 32 px ou mais, sem selo de preço, sem contagem regressiva falsa, sem "vagas acabando".
 
-**Sugestão de teste:** rodar primeiro a headline de cada perfil (01), mais NSEI-01, NEUT-01 e IDEN-01, com R$ igual por criativo, para achar o perfil que mais converte antes de escalar os demais.
+**Sugestão de teste:** rodar primeiro a headline de cada perfil (01), mais NSEI-01, NEUT-01 e IDEN-01, com verba igual por criativo, para achar o perfil que mais converte antes de escalar os demais.
 
 ---
 
@@ -380,4 +380,4 @@ Trabalho contratado: sair de "a que recomeça" para "a que fica". Frase-guia: "A
 5. **Escassez:** nenhuma peça de captação usa escassez de vagas, porque a live no YouTube não tem limite. A urgência é a data (03/11, 20h) e que a condição só é revelada ao vivo.
 6. **Testes A/B sugeridos:** (a) pergunta ("Entrou dinheiro a mais?") contra afirmação ("Mais da metade..."); (b) headline com número contra headline de frase da audiência; (c) com foto da Dra. contra sem foto (CAP-IDEN-01); (d) CTA "Fazer o diagnóstico" contra "Reservar minha vaga" (CAP-NSEI-02).
 7. **UTMs:** usar `utm_content` com o ID do anúncio (ex.: `CAP-TERM-01`) para que o relatório mostre o perfil que mais converte. Isso resolve o que faltou no Desafio (UTM vazia).
-8. **Peça do Desafio sem equivalente:** o Ad 4, "70 mil pessoas destravaram a mente", e os Ads 6 e 12 dependiam de preço (R$ 35). Não foram portados. A prova social de "70 mil alunos em 44 países" entra no remarketing e no aquecimento, onde há mais espaço de texto.
+8. **Peça do Desafio sem equivalente:** o Ad 4, "70 mil pessoas destravaram a mente", e os Ads 6 e 12 dependiam do preço do ingresso do Desafio. Não foram portados. A prova social de "70 mil alunos em 44 países" entra no remarketing e no aquecimento, onde há mais espaço de texto.

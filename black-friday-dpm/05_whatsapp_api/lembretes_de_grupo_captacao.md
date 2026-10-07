@@ -11,7 +11,7 @@
 | **Objetivo** | Manter a pessoa no grupo, levá-la a fazer o diagnóstico, reservar a vaga e chegar na live de 03/11 sabendo o nome do padrão. Cada copy termina com pergunta ou reação |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada copy desloca a pessoa um passo em direção a essa decisão: reconhecer, confiar, entender o que entra, decidir estar na live |
 | **Momento de vida** | Aperto real (34%), funcional e exausta (32%, 60% com 45+), confortável querendo mais (18%), sozinha (20%), casada sem conexão (55% casadas). Cada copy traz o momento predominante |
-| **Modelo no Desafio** | copys de lembrete de grupo do Desafio (CP 01 a 51): "Faltam 3 dias", "É hoje", "Lembrete 1 + evento", "Lembrete 2", "Falta 1 hora", "Carta", "Lista de interesse", "Mantra" (aqui, ritual de Grabovoi), quebra de objeção (CP 34) |
+| **Modelo no Desafio** | copys de lembrete de grupo do Desafio (CP 01 a 51): "Contagem regressiva", "É hoje", "Lembrete 1 + evento", "Lembrete 2", "Falta 1 hora", "Carta", "Lista de interesse", "Mantra" (aqui, ritual de Grabovoi), quebra de objeção (CP 34) |
 
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha 5 noites e uma sequência diária de CP em torno do horário da aula (09h, 13h, 17h, 19h, 20h, 20h15, 20h45). A Black tem **uma live** em 03/11, então a cadência de 13/10 a 02/11 é de **aquecimento**: 2 disparos por dia, em 11h30 e 20h. A cadência de horários da BFV/26 (grupos às 11h30 e 20h) é a canônica. O terceiro slot (16h30) não entra no calendário e vira banco de reserva. O dia 03/11 usa a grade completa do dia da live (`dia_da_live_03_11.md`).
@@ -49,7 +49,7 @@
 
 **Substituições por grupo.** No grupo de alunas e no grupo de Desafio/Imersão, a copy da seção 4 entra no lugar da copy-base. No calendário: 4 variantes de alunas (CP-BF-01-AL, 22-AL, 43-AL, 63-AL) e 5 de Desafio/Imersão (CP-BF-01-DS, 19-DS, 26-DS, 40-DS, 46-DS). As outras 7 (4 de alunas e 3 de Desafio/Imersão) estão em reserva, junto com a copy-base do slot das 16h30.
 
-**Frases intocáveis usadas, copiadas literalmente:** "Eu termino tudo o que eu começo." (CP-BF-06), "Quando você sobe, a casa sobe junto." (CP-BF-14, frase da Aula 02), "Eu prefiro que você não compre do que compre e não viva." (CP-BF-44), "O deserto é o que define se uma pessoa explode ou não." (CP-BF-55), "Não trave o processo." (CP-BF-19-DS).
+**Frases intocáveis usadas, copiadas literalmente:** "Eu termino tudo o que eu começo." (CP-BF-06), "Quando você sobe, a casa sobe junto." (CP-BF-14, frase da Aula 02), "Eu prefiro que você não compre do que compre e não viva." (CP-BF-44, em reserva), "O deserto é o que define se uma pessoa explode ou não." (CP-BF-55), "Não trave o processo." (CP-BF-19-DS).
 
 ---
 
@@ -82,7 +82,7 @@ Slots das 16h30 estão marcados "reserva". Foram promovidos ao slot das 20h: CP-
 | CP-BF-21 | Seg 19/10 | 20h00 | A SEMANA QUE VEM | Todos | Curiosidade (o que entra) | Todos |
 | CP-BF-22 | Ter 20/10 | 11h30 | TERÇA É DIA DE AULA | Todos | O que é o Clube Secreto | Todos |
 | CP-BF-23 | Ter 20/10 | 16h30 (reserva) | JÁ COMPREI E NÃO TIVE RESULTADO | Autossabotagem | Já comprei outros e não tive resultado | Todos |
-| CP-BF-24 | Ter 20/10 | 20h00 | UMA DECISÃO SÓ | Todos (JTBD) | Cansei de recomeçar | Todos |
+| CP-BF-24 | Ter 20/10 | 20h00 | UMA DECISÃO SÓ | Todos (JTBD) | Cansei de recomeçar; já comprei e não tive resultado | Todos |
 | CP-BF-25 | Qua 21/10 | 11h30 | DEPOIMENTO 1 | Termostato Invisível | Medo de não funcionar para mim | Todos |
 | CP-BF-26 | Qua 21/10 | 20h00 | A OBJEÇÃO DO DINHEIRO | Termostato Invisível | Não tenho o dinheiro disponível agora | Aperto real |
 | CP-BF-27 | Qua 21/10 | 16h30 (reserva) | 3 SINAIS DO TERMOSTATO | Termostato Invisível | Dinheiro que não fica | Funcional e exausta |
@@ -95,7 +95,7 @@ Slots das 16h30 estão marcados "reserva". Foram promovidos ao slot das 20h: CP-
 | CP-BF-34 | Sáb 24/10 | 11h30 | DESCANSO SEM CULPA | Cobrança Que Você Só Faz Com Você | Cuidar de mim é egoísmo? | Funcional e exausta |
 | CP-BF-35 | Sáb 24/10 | 20h00 | O QUE ENTRA 2: EMOCIONAL | Traumas Que Ainda Decidem | Curiosidade (o que entra) | Todos |
 | CP-BF-36 | Sáb 24/10 | 16h30 (reserva) | EU ME ESCOLHO | Culpa de Querer Mais | Cuidar de mim é egoísmo? | Funcional e exausta |
-| CP-BF-37 | Dom 25/10 | 11h30 | O QUE ENTRA 3: CARREIRA | Culpa de Querer Mais | Curiosidade (o que entra) | Confortável querendo mais |
+| CP-BF-37 | Dom 25/10 | 11h30 | O QUE ENTRA 3: CARREIRA | Culpa de Querer Mais | Curiosidade (o que entra); medo de não aplicar | Confortável querendo mais |
 | CP-BF-38 | Dom 25/10 | 16h30 (reserva) | 11 PRODUTOS É MUITO? | Autossabotagem | Medo de comprar e não colocar em prática | Todos |
 | CP-BF-39 | Dom 25/10 | 20h00 | A CASA CHEIA, VOCÊ SOZINHA | Culpa de Querer Mais | Sozinha / sem conexão | Sozinha |
 | CP-BF-40 | Seg 26/10 | 11h30 | O CUSTO DE FICAR PARADA | Termostato Invisível | Não tenho o dinheiro disponível agora | Aperto real |
@@ -107,7 +107,7 @@ Slots das 16h30 estão marcados "reserva". Foram promovidos ao slot das 20h: CP-
 | CP-BF-46 | Qua 28/10 | 11h30 | SALVA A DATA | Todos | Ao vivo / agenda | Todos |
 | CP-BF-47 | Qua 28/10 | 16h30 (reserva) | O QUE SEPARAR | Todos | Ao vivo / preparo | Todos |
 | CP-BF-48 | Qua 28/10 | 20h00 | O PADRÃO VAI TENTAR TE TIRAR DA LIVE | Autossabotagem | Procrastino | Todos |
-| CP-BF-49 | Qui 29/10 | 11h30 | O QUE VAI ACONTECER NA LIVE | Todos | Curiosidade (o que acontece) | Todos |
+| CP-BF-49 | Qui 29/10 | 11h30 | O QUE VAI ACONTECER NA LIVE | Todos | Curiosidade (o que acontece); medo de não aplicar | Todos |
 | CP-BF-50 | Qui 29/10 | 16h30 (reserva) | SEGUNDA EU COMEÇO (ENCAMINHA) | Autossabotagem | Procrastino | Todos |
 | CP-BF-51 | Qui 29/10 | 20h00 | FALTA O DIAGNÓSTICO | Todos (5 perfis) | Não sei o que me impede | Todos |
 | CP-BF-52 | Sex 30/10 | 11h30 | ATIVA O LEMBRETE | Todos | Ao vivo / agenda | Todos |
@@ -917,7 +917,7 @@ Reage com 🤍 se hoje você se escolhe.
 
 #### CP-BF-37 | Dom 25/10, 11h30 | O QUE ENTRA 3: CARREIRA
 
-Perfil: Culpa de Querer Mais. Objeção: Curiosidade (o que entra). Momento de vida: Confortável querendo mais.
+Perfil: Culpa de Querer Mais. Objeção: Curiosidade (o que entra); medo de não aplicar. Momento de vida: Confortável querendo mais.
 
 ```text
 🔓 O que entra na Vitalícia, parte 3: *prática e profissão*.
@@ -1144,7 +1144,7 @@ Para a live de 03/11, separa:
 
 🖊️ Caneta
 
-📵 Um tempo sem interrupções [[CONFIRMAR: duração da live]]
+📵 Cerca de 2 horas sem interrupções [[CONFIRMAR: duração da live]]
 
 Eu vou pedir para você anotar algumas coisas, e a conta do Termostato Invisível funciona melhor no papel.
 
@@ -1179,7 +1179,7 @@ Reage com 💪 se você vai estar lá.
 
 #### CP-BF-49 | Qui 29/10, 11h30 | O QUE VAI ACONTECER NA LIVE
 
-Perfil: Todos. Objeção: Curiosidade (o que acontece). Momento de vida: Todos.
+Perfil: Todos. Objeção: Curiosidade (o que acontece); medo de não aplicar. Momento de vida: Todos.
 
 ```text
 O que vai acontecer na live de 03/11:
@@ -1428,9 +1428,9 @@ Reage com 🌙 se fez o seu ritual.
 Perfil: Todos. Objeção: Ao vivo / agenda. Momento de vida: Todos.
 
 ```text
-Amanhã, *terça, 03/11, às 20h*, eu abro a Black Próton Vitalícia ao vivo.
+Na *terça, 03/11, às 20h*, eu abro a Black Próton Vitalícia ao vivo.
 
-Hoje é um dia mais quieto para muita gente. Aproveita para se organizar.
+02/11 é um dia mais quieto para muita gente. Aproveita para se organizar.
 
 Lembrete ativado, caderno separado, noite livre.
 
@@ -1438,7 +1438,7 @@ Lembrete ativado, caderno separado, noite livre.
 
 [[LINK: live no YouTube, 03/11]]
 
-Reage com 🤍 se você vai estar comigo amanhã.
+Reage com 🤍 se você vai estar comigo na terça.
 ```
 
 #### CP-BF-62 | Seg 02/11, 16h30 (RESERVA) | AS 3 RESPOSTAS

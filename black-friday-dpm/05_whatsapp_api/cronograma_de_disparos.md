@@ -144,7 +144,7 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 | 01/11 | Dom | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-60 | Ritual da noite 3. Perfil: Todos |
 | 02/11 | Seg | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
 | 02/11 | Seg | 09h00 | API | Reservaram, exceto alunas ativas (elas recebem a API-BF-05.3) | API-BF-09 | É amanhã (live em 03/11, 20h) |
-| 02/11 | Seg | 09h10 | API | Alunas (ativaram e não ativaram, 2 textos) | API-BF-05.3 | Golden Ticket: última chamada |
+| 02/11 | Seg | 09h10 | API | Alunas (ativaram e não ativaram, 2 textos) | API-BF-05.3 | Golden Ticket: último aviso |
 | 02/11 | Seg | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-61 | É amanhã. Perfil: Todos |
 | 02/11 | Seg | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-63 (alunas: CP-BF-63-AL) | Quantas vezes. Perfil: Todos (frase-guia) |
 | 02/11 | Seg |  | Nota |  |  | Feriado (Finados): tom sóbrio. |
@@ -240,7 +240,7 @@ As datas de virada de lote e de fechamento ainda não existem (`[[PENDENTE: data
 | 04/11 | 09h00 | API | Reservaram que não compraram (N e D / A) | API-BF-V01 e API-BF-V01-A | A condição está aberta |
 | 04/11 | 09h10 | API | Quem fez o diagnóstico e não comprou | API-BF-06.P1, depois P2 e P3 | Diagnóstico pós-live (não enviar a quem recebeu API-BF-V01) |
 | 04/11 | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V01 (alunas: -AL) | A condição está aberta, o que entra |
-| 04/11 | 20h00 | Wpp Grupos | Os três grupos | CP-BF-V02 (alunas: -AL) | Quebra da objeção de dinheiro (era 16h30, movida para o slot de 20h) |
+| 04/11 | 20h00 | Wpp Grupos | Os três grupos | CP-BF-V02 (alunas: -AL) | Quebra da objeção de dinheiro (movida do slot de reserva para o slot de 20h) |
 | 05/11 | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V03 (alunas: -AL) | Antes de decidir, garantia (era 04/11 20h, movida para o slot de 11h30 do dia seguinte) |
 
 ### 4.2 Dias sem evento de lote

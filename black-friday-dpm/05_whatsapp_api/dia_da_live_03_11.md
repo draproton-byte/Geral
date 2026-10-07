@@ -408,7 +408,7 @@ Tudo o que a Dra. mostrou até aqui foi preparação para este momento.
 
 Agora: o que entra na Vitalícia, por onde começar e, em seguida, a condição de entrada.
 
-Quem sai agora perde a parte que decide.
+A parte que decide vem agora.
 
 Não sai da live 👇
 
@@ -678,7 +678,7 @@ Digite SAIR se não quiser mais receber mensagens
 ```text
 {{nome}}, a condição da *Black Próton Vitalícia* está perto de ser revelada.
 
-Quem sai agora perde a parte que decide.
+A parte que decide vem agora.
 
 Não sai da live 👇
 
@@ -697,7 +697,7 @@ Digite SAIR se não quiser mais receber mensagens
 3. Preço, data do lote, garantia, bônus e parcelamento: tudo o que está nas seções 4 e 5 com placeholder só fecha depois da revelação (`[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[CONFIRMAR: parcelamento]]`). As peças saem prontas e o preço é preenchido por busca no momento em que a Dra. falar. A escada de preços do briefing está em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1, e não é repetida aqui.
 4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma que o menor preço é só para quem estiver ao vivo. Esse texto aparece em CP-BF-66 e CP-BF-71.
 5. `[[CONFIRMAR: roteiro da live]]` (`08_live_e_pitch/roteiro_live_de_revelacao.md`): os horários 21h00 (CP-BF-75), 21h28 (carrinho aberto) e 22h00 foram alinhados ao roteiro atual (preço no bloco 12, link no bloco 15). Se o roteiro mudar, mover os disparos junto.
-6. Quem fez Desafio/Imersão paga o preço de não-alunas, a menos que a equipe decida criar uma condição própria `[[CONFIRMAR]]`. Os textos assumem preço de não-alunas.
+6. Quem fez Desafio/Imersão paga o preço de não-alunas, a menos que a equipe decida criar uma condição própria `[[CONFIRMAR: condição própria para quem fez Desafio ou Imersão]]`. Os textos assumem preço de não-alunas.
 7. Replay: nenhum texto afirma "sem replay". Quando `[[PENDENTE: replay]]` fechar, acrescentar uma linha em CP-BF-71.
 
 **Aprovação de template (Meta)**
@@ -718,5 +718,5 @@ Todos os templates com rodapé SAIR, sem cabeçalho e com corpo curto (menos de 
 
 **Dependências**
 - Carrinho aberto depende dos links de checkout por lote e segmento (`[[LINK: checkout Lote Especial alunas]]` e `...não-alunas`) e da decisão sobre o Lote Especial.
-- A troca de nome e capa dos grupos às 19h59 e na abertura do carrinho entra no cronograma.
+- As janelas de troca de nome e capa dos grupos (05h45 a 05h55, 19h30 a 19h45 e 21h35 a 21h50) entram no cronograma.
 - A atuação do comercial 1 a 1 no dia 03/11 está em `09_comercial_datacrazy`.

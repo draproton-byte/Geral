@@ -59,7 +59,7 @@ Regras: o nome cabe no topo do celular (curto). A capa tem no máximo duas linha
 
 ## 2. Descrição do grupo
 
-A descrição é o texto que a pessoa lê ao entrar. Limite do campo de descrição do WhatsApp: 2.048 caracteres `[[CONFIRMAR: limite atual]]`. As três descrições abaixo têm menos de 1.200 caracteres cada (medidos com as quebras de linha), com folga para trocar os links por endereços reais. Também respeitam a regra de linhas: no máximo 12 linhas com texto, uma linha em branco entre elas e link sempre em linha própria.
+A descrição é o texto que a pessoa lê ao entrar. Limite do campo de descrição do WhatsApp: 2.048 caracteres `[[CONFIRMAR: limite atual]]`. As três descrições abaixo têm menos de 1.000 caracteres cada (medidos com as quebras de linha e com os placeholders no lugar dos links), com folga para trocar os placeholders por endereços reais. Também respeitam a regra de linhas: no máximo 12 linhas com texto, uma linha em branco entre elas e link sempre em linha própria.
 
 ### 2.1 Descrição: grupo geral
 

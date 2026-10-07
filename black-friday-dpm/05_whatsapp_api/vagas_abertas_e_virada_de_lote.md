@@ -61,9 +61,7 @@ Cada peça abaixo tem a versão para alunas logo depois, com o sufixo -AL.
 Modelo: CP 43 (02/10, 11h, vagas abertas). Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-☀️ Bom dia, maravilhosos!
-
-A *Black Próton Vitalícia* está aberta.
+☀️ *A Black Próton Vitalícia está aberta.*
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
@@ -85,9 +83,7 @@ Reage com 🔓 se você já entrou. Com 💬 se ficou alguma dúvida.
 Modelo: CP 43 (02/10, 11h, vagas abertas). Lote: Lote Especial. Público: alunas do Clube.
 
 ```text
-☀️ Bom dia, maravilhosos!
-
-A *Black Próton Vitalícia* está aberta.
+☀️ *A Black Próton Vitalícia está aberta.*
 
 Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 

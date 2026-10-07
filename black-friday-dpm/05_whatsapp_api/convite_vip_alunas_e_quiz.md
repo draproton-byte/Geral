@@ -85,14 +85,14 @@ Digite SAIR se não quiser mais receber mensagens
 
 ## API-BF-05.3 | Último aviso | 02/11, 09:00 | Quem ativou e quem não ativou
 
-Dois textos, um por grupo. 02/11 é Finados: tom sóbrio, sem exclamação e sem emoji festivo. "Amanhã" é seguro porque o disparo é fixo em 02/11.
+Dois textos, um por grupo. 02/11 é Finados: tom sóbrio, sem exclamação e sem emoji festivo. Os textos usam data fixa (03/11) e não "amanhã", porque o envio pode escorregar de dia.
 
 **Quem ativou:**
 
 ```text
 O seu Golden Ticket está ativo, {{nome}}.
 
-Amanhã, *terça, 03/11, às 20h*, eu abro ao vivo a *Black Próton Vitalícia*, com a condição para alunas.
+Na *terça, 03/11, às 20h*, eu abro ao vivo a *Black Próton Vitalícia*, com a condição para alunas.
 
 Toque no botão para ativar o lembrete da live.
 
@@ -106,7 +106,7 @@ Digite SAIR se não quiser mais receber mensagens
 ```text
 O seu Golden Ticket da *Black Próton Vitalícia* ainda está à sua espera, {{nome}}.
 
-A live é amanhã, *terça, 03/11, às 20h*. Ativar leva 10 segundos e não é compra.
+A live é *terça, 03/11, às 20h*. Ativar leva 10 segundos e não é compra.
 
 Toque no botão para ativar.
 
@@ -336,7 +336,7 @@ Digite SAIR se não quiser mais receber mensagens
 ```text
 {{nome}}, passando rapidinho porque o *{{lote_atual}}* da Vitalícia vale até {{data_virada}}.
 
-Você fez o diagnóstico porque queria entender o que te faz recomeçar. Esse é o ponto: a Vitalícia é para você não precisar aplicar sozinha depois.
+Você fez o diagnóstico porque queria entender o que te faz recomeçar. Esse é o ponto: a Vitalícia é para você não precisar aplicar por conta própria depois.
 
 Existe uma trilha de entrada, um passo de cada vez. [[CONFIRMAR: ordem de entrada da trilha]]
 

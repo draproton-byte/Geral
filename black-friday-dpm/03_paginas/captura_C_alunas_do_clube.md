@@ -161,7 +161,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 **Copy**
 
 `[[SE: DESAFIO]]` `Na Aula 3, eu disse que a única característica de quem muda de vida é obediência ao processo. E que toda vez que você vive algo forte aparece a tentação de parar.` `[[FIM SE]]`
-`[[SE: GERAL]]` `Eu repito há anos que quem não está crescendo está morrendo. A Vitalícia existe para você não ter de provar isso de novo todo ano.` `[[FIM SE]]`
+`[[SE: GERAL]]` `Eu repito há anos: "Quem não está crescendo está morrendo." A Vitalícia existe para você não ter de provar isso de novo todo ano.` `[[FIM SE]]`
 
 `Não trave o processo.`
 

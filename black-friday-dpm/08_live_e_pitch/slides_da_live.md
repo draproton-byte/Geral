@@ -227,12 +227,12 @@ Linha: "Primeiro passo em 48 horas. Sem prazo para terminar."
 
 ## Bloco 12. O preço (01:09)
 
-**Slide 36. Lote Especial**
+**Slide 36. Lote Especial** [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 Título: "Lote Especial"
 Linha: "Alunas do Clube: [[PREÇO LOTE ALUNAS]]"
 Linha: "Quem ainda não é do Clube: [[PREÇO LOTE NÃO-ALUNAS]]"
 Linha: "Vale até [[PENDENTE: data do lote]]"
-Operador: oculto até liberação. Fonte grande, uma linha por segmento. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
+Operador: oculto até liberação. Fonte grande, uma linha por segmento.
 
 **Slide 37. Primeiro Lote e Último Lote**
 Título: "A cada virada, o valor sobe"

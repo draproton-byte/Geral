@@ -176,6 +176,7 @@
 **Estágio atendido:** todos.
 **Nota de compliance:** é prática de respiração e escrita, não é tratamento e não promete resultado. Nunca prometer efeito financeiro ou de saúde. Duração máxima de 6 minutos, com cronômetro do time. Sem hipnose, sem contagem regressiva, sem aprofundamento e sem sugestão de transe. Quem dirige ou faz algo que exige atenção recebe o aviso antes (bloco 0 e abaixo) e não fecha os olhos.
 
+- TIME: orçamento dos 6 minutos: aviso 20 segundos, três linhas escritas 90 segundos, respiração no máximo 120 segundos, fala final e chat 90 segundos, margem 40 segundos. Se estourar, cortar o chat, nunca a respiração mais longa.
 - TELA (slide 14): "Três linhas. Uma decisão."
 - FALA (aviso, antes de tudo): "Antes de começar: isto não é tratamento. É respiração e escrita, por seis minutos. Se você está dirigindo, ou fazendo algo que pede atenção, não feche os olhos. Faça de olhos abertos, ou pule e volte depois."
 - AÇÃO: "Papel na frente. Três linhas. Eu leio, você escreve."
@@ -365,7 +366,7 @@
 - TIME (21h28, no instante em que o link abre): disparar o "carrinho aberto" manual no grupo e na API, trocar o estado do grupo conforme `05_whatsapp_api/cronograma_de_disparos.md` e fixar o link no YouTube. É o mesmo horário do `playbook_do_dia_da_live.md`. Nenhum disparo de carrinho aberto sai antes deste instante.
 - TELA (slide 42): botão e QR code por segmento.
 - FALA (modelo, sem pressão): "O link está no chat agora. Quem é aluna do Clube clica no link das alunas. Quem não é, no outro. Se o seu cartão travar, não saia da live: chama o suporte pelo WhatsApp."
-- FALA (contagem 1): "A partir de agora, são 15 minutos. [[PENDENTE: bônus]] só para quem finalizar nesse tempo. Se você já decidiu, o link está aí."
+- FALA (contagem 1): "A partir de agora, são 15 minutos. [[PENDENTE: bônus]] só para quem finalizar nesse tempo. Se você já decidiu, o link está aí. A oferta e o valor do lote são os mesmos depois dos 15 minutos; só o bônus muda."
 - FRASE **[INTOCÁVEL]**: "Nunca mais eu deixo de investir em mim."
 - CHAT: "Quem já entrou? Escreve ENTREI." (ler 5 a 8; a prova social é de quem acabou de comprar, não de depoimento externo)
 - TIME: o comercial entra em modo de prontidão: só responde, não dispara (ver playbook).
@@ -391,7 +392,7 @@
   - "Vou receber os produtos todos de uma vez?" FALA: [[CONFIRMAR: liberação de acesso]] "O que existe é a trilha: você começa por um."
 - **Contagem 3 (01:38, faltam 5 minutos):** TELA (slide 44). FALA: "Faltam 5 minutos." REAÇÃO: "Se você já decidiu, escreve DECIDI no chat." ler 5 respostas.
 - **Contagem 4 (01:42, falta 1 minuto):** TELA (slide 45, cronômetro grande). FALA: "Falta 1 minuto. Se está no link, finaliza." Ao zerar (01:43): FALA: "Encerrou o bônus." Silêncio de 3 segundos. Sem dramatização. TIME: encerrar o cronômetro e voltar o slide.
-- FALA (depois da contagem 4): "O link continua aberto até [[PENDENTE: data do lote]], mas o bônus acabou." (se aplicável)
+- FALA (depois da contagem 4): "O link continua aberto até [[PENDENTE: data do lote]], a oferta é a mesma, e só o bônus acabou." (se aplicável)
 - AÇÃO: continuar perguntas até 01:48.
 
 **Regra:** a Dra. nunca fala de vagas ou de fim de estoque, porque a live não tem limite de vagas. Só diz "faltam X minutos" quando o cronômetro estiver real.

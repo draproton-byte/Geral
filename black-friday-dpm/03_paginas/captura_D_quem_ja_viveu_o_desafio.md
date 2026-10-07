@@ -136,7 +136,7 @@ Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
 **Copy**
 
-`Eu disse e repito: quem não está crescendo está morrendo.`
+`Eu disse e repito: "Quem não está crescendo está morrendo."`
 
 `Quando você vive algo forte, aparece a tentação de parar. "Já fiz, já está bom." Eu chamo isso de escassez, e ela aparece em todo mundo.`
 

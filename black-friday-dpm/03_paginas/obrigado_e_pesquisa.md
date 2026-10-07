@@ -27,7 +27,7 @@
 `SEU LUGAR ESTÁ RESERVADO`
 
 **Headline**
-`Parabéns, {{nome}}. Você acabou de dar o primeiro passo para parar de recomeçar.`
+`Parabéns, {{nome}}. Você acabou de dar o primeiro passo para entender o que faz você recomeçar.`
 
 **Subtítulo**
 `Falta pouco. Siga os 3 passos abaixo, na ordem. O primeiro é o mais importante: é por ele que o link da live chega primeiro.`

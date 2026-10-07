@@ -67,6 +67,10 @@ A descrição é colada nos campos do grupo (ela é o que a pessoa lê ao entrar
 [ ENTRE NO GRUPO! 👇 ]
 Bem-vinda(o) à *Black Próton Vitalícia*, com a Dra. Próton.
 
+_Tenha acesso a tudo o que eu já criei, para sempre._
+
+Este grupo é o nosso principal meio de comunicação nas próximas semanas. Por aqui saem todos os comunicados oficiais.
+
 Aqui você recebe, em primeira mão, tudo sobre a live em que eu revelo, de uma vez só, tudo o que construí para você parar de recomeçar.
 
 🚨 *Terça, 03/11, às 20h*, ao vivo no YouTube
@@ -81,6 +85,11 @@ Aqui você recebe, em primeira mão, tudo sobre a live em que eu revelo, de uma 
 🧠 Diagnóstico dos 5 padrões: [[LINK: diagnóstico dos 5 perfis]]
 🔔 Lembrete da live: [[LINK: lembrete da live no YouTube]]
 ⚡ ATIVE AS NOTIFICAÇÕES! O link da live e todos os avisos chegam por aqui. Se você entrou no grupo, o aviso chega no seu celular.
+
+✅ *Check-in obrigatório:* para confirmar a sua vaga na live, faça o diagnóstico (leva poucos minutos). Ao concluir, você libera [[PENDENTE: bônus de check-in]].
+
+❌ Não fazemos sorteios nem campanhas de desconto. Vendemos só pelos canais oficiais e *não abriremos vendas antes de 03/11*.
+📲 Para falar com a equipe, confie só nos administradores deste grupo e nos números oficiais: [[LINK: suporte WhatsApp]]
 ```
 
 ### 2.2 Descrição: grupo de alunas do Clube
@@ -102,6 +111,9 @@ Você já está dentro. A pergunta da live é: quer ficar para sempre, sem renov
 
 🔔 Lembrete da live: [[LINK: lembrete da live no YouTube]]
 ⚡ ATIVE AS NOTIFICAÇÕES! Tudo chega por aqui.
+
+❌ Não fazemos sorteios nem campanhas de desconto. Vendemos só pelos canais oficiais e *não abriremos vendas antes de 03/11*.
+📲 Para falar com a equipe, confie só nos administradores deste grupo e nos números oficiais: [[LINK: suporte WhatsApp]]
 ```
 
 ### 2.3 Descrição: grupo de quem fez Desafio, Imersão ou Aulão
@@ -123,6 +135,9 @@ Na *Black Próton Vitalícia* eu abro, de uma vez só, o Clube Secreto e tudo o 
 🧠 Refaça o diagnóstico dos 5 padrões: [[LINK: diagnóstico dos 5 perfis]]
 🔔 Lembrete da live: [[LINK: lembrete da live no YouTube]]
 ⚡ ATIVE AS NOTIFICAÇÕES! Tudo chega por aqui.
+
+❌ Não fazemos sorteios nem campanhas de desconto. Vendemos só pelos canais oficiais e *não abriremos vendas antes de 03/11*.
+📲 Para falar com a equipe, confie só nos administradores deste grupo e nos números oficiais: [[LINK: suporte WhatsApp]]
 ```
 
 ---

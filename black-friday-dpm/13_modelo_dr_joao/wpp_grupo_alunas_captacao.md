@@ -227,11 +227,11 @@ O que mudou em relação ao modelo (mensagem a mensagem)
 - 06: "Falta 1 hora. Depois, não adianta pedir essa condição" virou "Falta 1 hora. O Lote Especial é só para quem está ao vivo", sem dizer que o acesso acaba; "última chance" aparece só como "última chamada para reservar" (nunca "última chance de ter acesso vitalício").
 
 Pendências e [[CONFIRMAR]] que ficaram
-1. [[PENDENTE: live fechada para alunas? Se sim, trocar data e horário]]: o modelo tem live fechada em 19/10 para alunos FEP. Neste documento todas as menções foram escritas para a live de 03/11, a mesma do público geral. Se a equipe decidir por uma live fechada, trocar o bloco de data nas mensagens 01 a 06 e reescrever "antes da abertura para o público geral" na 01.
+1. [[PENDENTE: live fechada para alunas? Se sim, trocar data e horário]]: o modelo tem live fechada em 19/10 para alunos do outro curso. Neste documento todas as menções foram escritas para a live de 03/11, a mesma do público geral. Se a equipe decidir por uma live fechada, trocar o bloco de data nas mensagens 01 a 06 e reescrever "antes da abertura para o público geral" na 01.
 2. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (primeira ocorrência, mensagem 01). A mesma regra sustenta as mensagens 04, 05 e 06.
 3. [[CONFIRMAR: há limite de reservas?]] (mensagens 01 e 04). Se não houver, remover as duas frases.
 4. [[PENDENTE: bônus de check-in]] (mensagem 01).
-5. [[IMAGEM: arte de grupo, alunas do Clube Secreto, 01]]: a arte precisa existir (modelo: "API ALUNOS FEP 01 - [FEED]").
+5. [[IMAGEM: arte de grupo, alunas do Clube Secreto, 01]]: a arte precisa existir (o modelo tem uma arte de feed própria para a primeira mensagem).
 6. [[LINK: página das alunas]] e [[LINK: live no YouTube]] ainda não existem.
 7. Superlativo "a melhor condição de todos os lotes": sustentado pelo briefing (Lote Especial das alunas é o menor valor de toda a oferta). Se o briefing mudar, marcar [[CONFIRMAR: superlativo]].
 8. Horário: o modelo dispara às 11h; aqui 11h30, para seguir os demais grupos da Black. Confirmar com a equipe do SendFlow.

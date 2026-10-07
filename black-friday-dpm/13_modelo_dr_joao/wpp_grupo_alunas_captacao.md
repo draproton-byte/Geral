@@ -219,11 +219,11 @@ Mapa de datas (modelo para Dra.)
 - 06: seg 19, 19h (D-0) → ter 03/11, 19h
 
 O que mudou em relação ao modelo (mensagem a mensagem)
-- 01: "Alunos FEP: vocês terão uma Black só de vocês" virou "Alunas do Clube"; a "live fechada no Zoom" virou a live de revelação de 03/11 (ver pendência 1); "melhor condição de toda a Black" virou "melhor condição de todos os lotes"; "cupons limitados" virou reserva da vaga e da condição de aluna, com [[CONFIRMAR: há limite de reservas?]]; acrescentado o check-in (diagnóstico dos 5 padrões) com [[PENDENTE: bônus de check-in]]; Grupo VIP removido (elas já estão no grupo de alunas); link vira [[LINK: página das alunas]].
-- 02: "Você já escolheu a FEP. Daqui a 5 dias, nunca mais vai precisar escolher" virou "Você já escolheu o Clube. Daqui a 5 dias, não precisa escolher de novo"; a lista de técnicas (toxina, fios, bioestimuladores...) virou a dúvida do ciclo ("será que eu continuo?"); a lista "20 formações / todos os cursos que vou lançar / acesso para sempre" virou "Clube para sempre / 11 produtos / pagamento único, sem renovar e sem recomeçar"; a promessa de curso novo incluído foi removida.
-- 03: "Seu acesso à FEP tem prazo. Ou tinha." virou o mesmo gancho para o Clube (365 dias hoje, vitalício na Black); 20 formações virou o Clube e 11 produtos, com quatro citados; lançamentos futuros removidos.
-- 04: "Amanhã, 20h. Uma decisão. Para sempre." virou "Uma decisão. Uma só."; tom sóbrio por Finados, sem ⏰ nem "não deixa pra amanhã"; "cupons limitados" virou [[CONFIRMAR: há limite de reservas?]].
-- 05: "Chegou o dia, Injetor de Elite!" virou "aluna do Clube", trocando o perfil do profissional que estuda a complicação pela aluna que não trava o processo (frase intocável "Não trave o processo." literal); "Embaixadores Elite com pin no Elite Injectors Congress" removido (não existe equivalente e a Dra. não promete evento nem benefício que o briefing não traga).
+- 01: "vocês terão uma Black só de vocês" passou para "Alunas do Clube"; a live fechada do modelo virou a live de revelação de 03/11 (ver pendência 1); "melhor condição de toda a Black" virou "melhor condição de todos os lotes"; "cupons limitados" virou reserva da vaga e da condição de aluna, com [[CONFIRMAR: há limite de reservas?]]; acrescentado o check-in (diagnóstico dos 5 padrões) com [[PENDENTE: bônus de check-in]]; Grupo VIP removido (elas já estão no grupo de alunas); link vira [[LINK: página das alunas]].
+- 02: o gancho "você já escolheu o curso, daqui a 5 dias não precisa escolher mais" virou "Você já escolheu o Clube. Daqui a 5 dias, não precisa escolher de novo"; a lista de técnicas do modelo virou a dúvida do ciclo ("será que eu continuo?"); a lista "20 formações / todos os cursos que vou lançar / acesso para sempre" virou "Clube para sempre / 11 produtos / pagamento único, sem renovar e sem recomeçar"; a promessa de curso novo incluído foi removida.
+- 03: o gancho "seu acesso tem prazo. Ou tinha." foi mantido para o Clube (365 dias hoje, vitalício na Black); 20 formações virou o Clube e 11 produtos, com quatro citados; lançamentos futuros removidos.
+- 04: "Amanhã, 20h. Uma decisão. Para sempre." do modelo virou "Uma decisão. Uma só."; tom sóbrio por Finados, sem ⏰ nem "não deixa pra amanhã"; "cupons limitados" virou [[CONFIRMAR: há limite de reservas?]].
+- 05: o "chegou o dia" com o título do aluno do modelo virou "aluna do Clube", trocando o perfil do profissional que estuda a complicação pela aluna que não trava o processo (frase intocável "Não trave o processo." literal); o benefício de grupo especial com pin e congresso foi removido (não existe equivalente e a Dra. não promete benefício que o briefing não traga).
 - 06: "Falta 1 hora. Depois, não adianta pedir essa condição" virou "Falta 1 hora. O Lote Especial é só para quem está ao vivo", sem dizer que o acesso acaba; "última chance" aparece só como "última chamada para reservar" (nunca "última chance de ter acesso vitalício").
 
 Pendências e [[CONFIRMAR]] que ficaram
@@ -238,8 +238,8 @@ Pendências e [[CONFIRMAR]] que ficaram
 
 Conflitos entre o modelo e as regras da Dra.
 - Promessa de "todos os cursos que eu ainda vou lançar" e "quando surgir um curso novo já vai estar incluído": removida (briefing: sem promessa de lançamentos futuros); trocada por "tudo o que existe hoje, sem prazo para dar conta".
-- "Nunca mais vai precisar escolher": trocado por "não precisa escolher de novo" e "sem renovar e sem recomeçar".
-- "Live fechada no Zoom": a palavra Zoom nunca aparece; a live é no YouTube.
-- Embaixadores Elite, pin e congresso: removidos.
+- A promessa de "nunca mais precisar escolher" do modelo: trocada por "não precisa escolher de novo" e "sem renovar e sem recomeçar".
+- Plataforma da live: sempre YouTube.
+- Benefício de grupo especial, pin e congresso do modelo: removidos.
 - 02/11 é Finados: a mensagem 04 abre com sobriedade e não usa urgência.
 - 03/11 é terça, dia da aula do Clube. [[CONFIRMAR: a live substitui a aula de terça das alunas?]] Se não substituir, acrescentar à mensagem 05 um aviso do horário da aula.

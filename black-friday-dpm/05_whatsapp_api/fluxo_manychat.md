@@ -17,7 +17,7 @@
 - O Desafio usava o contador do lote (preço do 1º lote e valor de subida) no Ramo A. Aqui não existe lote antes da live. A urgência é a data da live.
 - Acrescentei um terceiro caminho (palavra-chave DIAGNÓSTICO) que entrega o diagnóstico primeiro, e uma pergunta de auto-classificação em 5 botões (porque o ManyChat não lê o resultado do diagnóstico sem integração).
 
-**Regras de forma:** "para" e não "pra". Uma ação por mensagem. No Instagram, no máximo 3 botões por mensagem; respostas rápidas (quick replies) aceitam mais opções, como as 5 do resultado do diagnóstico. O texto de cada mensagem fica abaixo de 640 caracteres `[[CONFIRMAR: limites da plataforma]]`. As regras de formato de WhatsApp (linha em branco entre linhas, rodapé SAIR) não se aplicam ao direct do Instagram. Links com UTM `manychat` (seção 1).
+**Regras de forma:** sempre "para", nunca a forma reduzida. Uma ação por mensagem. No Instagram, no máximo 3 botões por mensagem; respostas rápidas (quick replies) aceitam mais opções, como as 5 do resultado do diagnóstico. O texto de cada mensagem fica abaixo de 640 caracteres `[[CONFIRMAR: limites da plataforma]]`. As regras de formato de WhatsApp (linha em branco entre linhas, rodapé SAIR) não se aplicam ao direct do Instagram. Links com UTM `manychat` (seção 1).
 
 ---
 

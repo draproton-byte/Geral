@@ -12,9 +12,9 @@
 | **Modelo no Desafio** | CP 01 de 01/10 e CP 42 a 46 de 02/10 (copys de vagas abertas do Clube Secreto no Desafio, copys de lembrete de grupo do Desafio), "Último dia" e "Últimas horas" da planilha planilha de disparos de setembro do Desafio, API 09 e 12 (planilha de disparos de outubro do Desafio) |
 
 **O que mudou em relação ao Desafio.**
-- O Desafio tinha uma só condição (à vista ou em 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote**. Nenhuma peça usa "vagas acabando" sem lote.
+- O Desafio tinha uma só condição (à vista ou em 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote real**. Nenhuma peça usa contagem de vagas, de cupons ou de unidades.
 - O Desafio vendia com garantia de 7 dias. Aqui a garantia é `[[PENDENTE: garantia]]`. Quando fechar, trocar nas peças marcadas.
-- Frases de fechamento seguem o guia: "Esta condição não se repete. O que vier depois é outra oferta, com outro preço." Nunca "a porta fecha para sempre" nem "última chance de ter acesso vitalício".
+- Frases de fechamento seguem o guia: "Esta condição não se repete. O que vier depois é outra oferta, com outro preço." Nenhuma formulação proibida pela seção 3 do guia (a Vitalícia pode voltar em outra edição).
 - Tokens de preço: `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`. O lote ao qual o preço se refere está no texto ao lado do preço, de modo que a mesma busca substitui os valores nas virada de lote.
 
 ## 1. Linha do tempo pós-live (modelo, datas pendentes)
@@ -46,10 +46,9 @@ Em cada dia sem peça de virada, a cadência é a canônica: e-mail 07h, API 09h
 
 ## 2. Regras de forma
 
-"Para" e não "pra"; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; grupo com no máximo 12 linhas e fim em pergunta ou reação; API com rodapé "Digite SAIR se não quiser mais receber mensagens". O preço entra sempre ao lado do nome do lote. Parcelamento só depois de `[[CONFIRMAR: parcelamento]]`.
+Sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; grupo com no máximo 12 linhas e fim em pergunta ou reação; API com rodapé "Digite SAIR se não quiser mais receber mensagens". O preço entra sempre ao lado do nome do lote. Parcelamento só depois de `[[CONFIRMAR: parcelamento]]`.
 
 ---
-
 
 ---
 
@@ -775,7 +774,6 @@ Reage com 💜 se quer receber o aviso.
 
 *Nota:* Só disparar se a equipe decidir ter lista de espera (ver 00, seção 5).
 
-
 ---
 
 ## 4. API: não-alunas e alunas
@@ -785,7 +783,7 @@ Reage com 💜 se quer receber o aviso.
 Modelo: API 09 (01/10) e API 12 (02/10), vagas abertas. Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, a *Black Próton Vitalícia* está aberta. 🔓
+A *Black Próton Vitalícia* está aberta, {{nome}}. 🔓
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
@@ -805,7 +803,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: API 09 (01/10) e API 12 (02/10), vagas abertas. Lote: Lote Especial. Público: alunas do Clube.
 
 ```text
-{{nome}}, a *Black Próton Vitalícia* está aberta. 🔓
+A *Black Próton Vitalícia* está aberta, {{nome}}. 🔓
 
 Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 
@@ -827,7 +825,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Setembro26: 'Último dia' (API). Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, hoje termina o *Lote Especial* da *Black Próton Vitalícia*. 🔥
+Hoje termina o *Lote Especial* da *Black Próton Vitalícia*, {{nome}}. 🔥
 
 🏷️ *Lote Especial:* [[PREÇO LOTE NÃO-ALUNAS]]
 
@@ -845,7 +843,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Setembro26: 'Último dia' (API). Lote: Lote Especial. Público: alunas do Clube.
 
 ```text
-{{nome}}, hoje termina o *Lote Especial* da *Black Próton Vitalícia*. 🔥
+Hoje termina o *Lote Especial* da *Black Próton Vitalícia*, {{nome}}. 🔥
 
 🏷️ *Lote Especial:* [[PREÇO LOTE ALUNAS]]
 
@@ -863,7 +861,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: API 12 (02/10). Lote: Primeiro Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, o Lote Especial acabou. 🔔
+O Lote Especial acabou, {{nome}}. 🔔
 
 Agora a *Black Próton Vitalícia* está no *Primeiro Lote*.
 
@@ -883,7 +881,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: API 12 (02/10). Lote: Primeiro Lote. Público: alunas do Clube.
 
 ```text
-{{nome}}, o Lote Especial acabou. 🔔
+O Lote Especial acabou, {{nome}}. 🔔
 
 Agora a *Black Próton Vitalícia* está no *Primeiro Lote*.
 
@@ -903,7 +901,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Setembro26: 'Último dia' (API). Lote: Primeiro Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, hoje termina o *Primeiro Lote* da *Black Próton Vitalícia*. 🔥
+Hoje termina o *Primeiro Lote* da *Black Próton Vitalícia*, {{nome}}. 🔥
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE NÃO-ALUNAS]]
 
@@ -921,7 +919,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Setembro26: 'Último dia' (API). Lote: Primeiro Lote. Público: alunas do Clube.
 
 ```text
-{{nome}}, hoje termina o *Primeiro Lote* da *Black Próton Vitalícia*. 🔥
+Hoje termina o *Primeiro Lote* da *Black Próton Vitalícia*, {{nome}}. 🔥
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE ALUNAS]]
 
@@ -939,7 +937,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: API 12 (02/10). Lote: Último Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, o Primeiro Lote acabou. 🔔
+O Primeiro Lote acabou, {{nome}}. 🔔
 
 Agora a *Black Próton Vitalícia* está no *Último Lote*.
 
@@ -959,7 +957,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: API 12 (02/10). Lote: Último Lote. Público: alunas do Clube.
 
 ```text
-{{nome}}, o Primeiro Lote acabou. 🔔
+O Primeiro Lote acabou, {{nome}}. 🔔
 
 Agora a *Black Próton Vitalícia* está no *Último Lote*.
 
@@ -979,7 +977,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Setembro26: 'Último dia' (API). Lote: Último Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, hoje o carrinho da *Black Próton Vitalícia* fecha. 🔥
+Hoje o carrinho da *Black Próton Vitalícia* fecha, {{nome}}. 🔥
 
 🏷️ *Último Lote:* [[PREÇO LOTE NÃO-ALUNAS]]
 
@@ -997,7 +995,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Setembro26: 'Último dia' (API). Lote: Último Lote. Público: alunas do Clube.
 
 ```text
-{{nome}}, hoje o carrinho da *Black Próton Vitalícia* fecha. 🔥
+Hoje o carrinho da *Black Próton Vitalícia* fecha, {{nome}}. 🔥
 
 🏷️ *Último Lote:* [[PREÇO LOTE ALUNAS]]
 
@@ -1015,7 +1013,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Planilha Setembro26: 'Último dia' (20:30). Lote: Último Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, falta 1 hora. 🚨
+Falta 1 hora, {{nome}}. 🚨
 
 O carrinho da *Black Próton Vitalícia* fecha às [[PENDENTE: fechamento]].
 
@@ -1035,7 +1033,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Planilha Setembro26: 'Último dia' (20:30). Lote: Último Lote. Público: alunas do Clube.
 
 ```text
-{{nome}}, falta 1 hora. 🚨
+Falta 1 hora, {{nome}}. 🚨
 
 O carrinho da *Black Próton Vitalícia* fecha às [[PENDENTE: fechamento]].
 
@@ -1055,7 +1053,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Sem equivalente direto. Lote: Último Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
-{{nome}}, o carrinho da *Black Próton Vitalícia* fechou.
+O carrinho da *Black Próton Vitalícia* fechou, {{nome}}.
 
 Se você ficou em dúvida, está tudo bem. Esta condição não se repete, e o que vier depois é outra oferta, com outro preço.
 
@@ -1073,7 +1071,7 @@ Digite SAIR se não quiser mais receber mensagens
 Modelo: Sem equivalente direto. Lote: Último Lote. Público: alunas do Clube.
 
 ```text
-{{nome}}, o carrinho da *Black Próton Vitalícia* fechou.
+O carrinho da *Black Próton Vitalícia* fechou, {{nome}}.
 
 Se você ficou em dúvida, está tudo bem. Esta condição não se repete, e o que vier depois é outra oferta, com outro preço.
 
@@ -1085,7 +1083,6 @@ Digite SAIR se não quiser mais receber mensagens
 **Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
-
 
 ---
 
@@ -1119,7 +1116,7 @@ Digite SAIR se não quiser mais receber mensagens
 | API-BF-V02 a V07 (e -A) | Marketing | 2 | **PRECISA DE APROVAÇÃO**, um por lote e segmento. Só entram em uso depois da revelação |
 | API-BF-V08, V08-A | Marketing | 2 (URL: lista de espera; PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**, só se houver lista de espera `[[CONFIRMAR: lista de espera, decisão da Dra.]]` |
 
-Todos com rodapé SAIR, sem cabeçalho, corpo curto (menos de 450 caracteres) e sem "últimas vagas" ou "vagas acabando": a escassez é só por lote real.
+Todos com rodapé SAIR, sem cabeçalho, corpo curto (menos de 450 caracteres) e sem contagem de vagas ou de unidades: a escassez é só por lote real.
 
 **Testes A/B sugeridos**
 1. CP-BF-V04 (último dia): com a frase "Depois disso, o valor sobe" contra uma versão que mostra os dois preços lado a lado. Medir cliques em checkout.

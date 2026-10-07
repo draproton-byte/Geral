@@ -77,7 +77,7 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 | 15/10 | Qui | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-09 | Anota a data. Perfil: Todos |
 | 16/10 | Sex | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
 | 16/10 | Sex | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-10 | Retrocedo. Perfil: Traumas Que Ainda Decidem |
-| 16/10 | Sex | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-11 | Quem é a Dra (promovida da reserva). Perfil: Todos |
+| 16/10 | Sex | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-11 | Quem é a Dra. (promovida da reserva). Perfil: Todos |
 | 17/10 | Sáb | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
 | 17/10 | Sáb | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-13 | Ninguém cuida de mim. Perfil: Culpa de Querer Mais |
 | 17/10 | Sáb | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-15 | Ritual da noite. Perfil: Todos |
@@ -179,7 +179,6 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 | 01/11 | Dom | 16h30 | CP-BF-59 | nenhuma | Se cobrar por não ter feito | Cobrança Que Você Só Faz Com Você |
 | 02/11 | Seg | 16h30 | CP-BF-62 | CP-BF-62-AL, CP-BF-62-DS | As 3 respostas | Todos |
 
-
 ---
 
 ## 3. Dia da live: 03/11 (terça), grade completa e executável
@@ -216,13 +215,16 @@ Regras de execução desta grade: um disparo de WhatsApp por minuto; cada troca 
 | 03/11 | 20:20 | API | Dentro da janela de 24 h | API-BF-15 | Cadê você? |
 | 03/11 | 21:00 | Grupos | Todos os grupos | CP-BF-75 | A melhor parte: a condição vai ser revelada (preço previsto às 21h09) |
 | 03/11 | 21:05 | API | Dentro da janela de 24 h | API-BF-16 | A melhor parte |
-| 03/11 | 21:28 (manual) | Grupos | Cada grupo | CP-BF-76 e CP-BF-76-DS (geral e Desafio/Imersão); CP-BF-76-AL (alunas) | Carrinho aberto, Lote Especial. Dispara quando o link do checkout abrir na tela (bloco 15 do roteiro) |
+| 03/11 | 21:28 (manual) | Grupos | Cada grupo | CP-BF-76 e CP-BF-76-DS (geral e Desafio/Imersão); CP-BF-76-AL (alunas) | Carrinho aberto, Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]]. Dispara quando o link do checkout abrir na tela (bloco 15 do roteiro) |
+| 03/11 | 21:28 (manual) | E-mail (referência) | Reservaram | `06_emails` | Abertura de carrinho |
 | 03/11 | 21:30 (manual) | API | Reservaram (N e D) | API-BF-17 | Carrinho aberto, Lote Especial |
 | 03/11 | 21:32 (manual) | API | Reservaram (A) | API-BF-17-A | Carrinho aberto, Lote Especial (alunas) |
-| 03/11 | 21:28 (manual) | E-mail (referência) | Reservaram | `06_emails` | Abertura de carrinho |
 | 03/11 | 21:35 a 21:50 (manual) | Grupos | Todos os grupos | Trocar nome e capa para "VAGAS ABERTAS" | Janela de 15 min, depois do CP-BF-76 |
 | 03/11 | 22:00 | Grupos | Todos os grupos | CP-BF-77 (-AL) | Ritual da noite + P.S. do carrinho |
 | 03/11 | 22:05 | Comercial | Pipeline do comercial | Fim do modo escuta, último disparo do dia | Depois disso, só respostas |
+| 03/11 | Contínuo até 20:00 | ManyChat | Quem comenta VITALÍCIA ou DIAGNÓSTICO | MC-BF-01 a B12, C01 a C03 | Ingresso, diagnóstico e reserva (antes de 20h) |
+| 03/11 | 20:00 até a abertura do link (previsto 21:28) | ManyChat | Quem comenta VITALÍCIA | MC-BF-D01 | Devolve o link da live em vez da reserva |
+| 03/11 | A partir da abertura do link (previsto 21:28) | ManyChat | Quem comenta VITALÍCIA | MC-BF-V01, V01-A, V02 e V03 | Fluxo pós-live (condição vigente) |
 
 ---
 
@@ -236,41 +238,43 @@ As datas de virada de lote e de fechamento ainda não existem (`[[PENDENTE: data
 |---|---|---|---|---|---|
 | 04/11 | 07h00 | E-mail | Referência | Ver `06_emails` | Carrinho aberto |
 | 04/11 | 09h00 | API | Reservaram que não compraram (N e D / A) | API-BF-V01 e API-BF-V01-A | A condição está aberta |
-| 04/11 | 09h00 | API | Quem fez o diagnóstico e não comprou | API-BF-06.P1, depois P2 e P3 | Diagnóstico pós-live (não enviar a quem recebeu API-BF-V01) |
+| 04/11 | 09h10 | API | Quem fez o diagnóstico e não comprou | API-BF-06.P1, depois P2 e P3 | Diagnóstico pós-live (não enviar a quem recebeu API-BF-V01) |
 | 04/11 | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V01 (alunas: -AL) | A condição está aberta, o que entra |
-| 04/11 | 16h30 | Wpp Grupos | Os três grupos | CP-BF-V02 (alunas: -AL) | Quebra da objeção de dinheiro |
-| 04/11 | 20h00 | Wpp Grupos | Os três grupos | CP-BF-V03 (alunas: -AL) | Antes de decidir, garantia |
+| 04/11 | 20h00 | Wpp Grupos | Os três grupos | CP-BF-V02 (alunas: -AL) | Quebra da objeção de dinheiro (era 16h30, movida para o slot de 20h) |
+| 05/11 | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V03 (alunas: -AL) | Antes de decidir, garantia (era 04/11 20h, movida para o slot de 11h30 do dia seguinte) |
 
 ### 4.2 Dias sem evento de lote
 
-A cadência é a da captação: e-mail 07h; API 09h só nos dias-chave; grupos 11h30, 16h30 e 20h. Rotacionar CP-BF-V01 a V03 (04/11), depois V07 (Primeiro Lote) e V11 (Último Lote), acrescentando um `[[DEPOIMENTO REAL]]` por dia.
+A cadência é a canônica: e-mail 07h; API 09h só nos dias-chave; grupos 11h30 e 20h (2 por dia, sem 16h30). Rotacionar CP-BF-V01 a V03 (04/11 e 05/11), depois V07 (Primeiro Lote, 20h) e V11 (Último Lote, 20h), acrescentando um `[[DEPOIMENTO REAL]]` por dia.
 
 ### 4.3 Dias de evento (modelo)
+
+Nos dias de evento, os disparos de virada saem em horário relativo ao corte (as datas ainda não existem). Mesma regra: um disparo por minuto, API 5 minutos depois do grupo, e troca de nome e capa em janela própria.
 
 | Evento | Horário | Canal | Lista/base | ID | Objetivo |
 |---|---|---|---|---|---|
 | E1 (fim do Lote Especial), dia | 07h00 | E-mail | Referência | Ver `06_emails` | Último dia do Lote Especial |
 | | 09h00 | API | Reservaram que não compraram | API-BF-V02 | Último dia do Lote Especial |
 | | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V04 (alunas: -AL) | Último dia do Lote Especial. Trocar nome do grupo: "Inscrições: Último dia" |
-| | 16h30 | Wpp Grupos | Os três grupos | CP-BF-V05 (alunas: -AL) | Últimas horas (3 h antes do corte). Trocar nome: "Inscrições: Últimas horas" |
+| | 3 h antes do corte | Wpp Grupos | Os três grupos | CP-BF-V05 (alunas: -AL) | Últimas horas. Trocar nome: "Inscrições: Últimas horas" (janela de 15 min que termina 5 min antes do disparo) |
 | | Hora do corte | Wpp Grupos | Os três grupos | CP-BF-V06 (alunas: -AL) | Virou: Primeiro Lote |
-| | Hora do corte | API | Reservaram que não compraram | API-BF-V03 | Virou: Primeiro Lote |
+| | Corte + 5 min | API | Reservaram que não compraram | API-BF-V03 | Virou: Primeiro Lote |
 | Entre E1 e E2 | Gatilho | API | Abriu checkout e não comprou | API-BF-C01 a C03 | Carrinho abandonado (automático) |
-| | 16h30 | Wpp Grupos | Os três grupos | CP-BF-V07 (alunas: -AL) | Objeção "já comprei e não tive resultado" |
+| | 20h00 | Wpp Grupos | Os três grupos | CP-BF-V07 (alunas: -AL) | Objeção "já comprei e não tive resultado" |
 | E2 (fim do Primeiro Lote), dia | 09h00 | API | Reservaram que não compraram | API-BF-V04 | Último dia do Primeiro Lote |
 | | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V08 (alunas: -AL) | Último dia do Primeiro Lote |
-| | 16h30 | Wpp Grupos | Os três grupos | CP-BF-V09 (alunas: -AL) | Últimas horas do Primeiro Lote |
+| | 3 h antes do corte | Wpp Grupos | Os três grupos | CP-BF-V09 (alunas: -AL) | Últimas horas do Primeiro Lote |
 | | Hora do corte | Wpp Grupos | Os três grupos | CP-BF-V10 (alunas: -AL) | Virou: Último Lote |
-| | Hora do corte | API | Reservaram que não compraram | API-BF-V05 | Virou: Último Lote |
-| Entre E2 e E3 | 16h30 | Wpp Grupos | Os três grupos | CP-BF-V11 (alunas: -AL) | Objeção "medo de não aplicar", trilha de entrada |
+| | Corte + 5 min | API | Reservaram que não compraram | API-BF-V05 | Virou: Último Lote |
+| Entre E2 e E3 | 20h00 | Wpp Grupos | Os três grupos | CP-BF-V11 (alunas: -AL) | Objeção "medo de não aplicar", trilha de entrada |
 | E3 (fechamento), dia | 09h00 | API | Reservaram que não compraram | API-BF-V06 | Último dia |
 | | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V12 (alunas: -AL) | Último dia |
 | | 3 h antes | Wpp Grupos | Os três grupos | CP-BF-V13 (alunas: -AL) | Últimas horas |
 | | 1 h antes | Wpp Grupos | Os três grupos | CP-BF-V14 (alunas: -AL) | Última hora |
-| | 1 h antes | API | Abriu checkout e não comprou | API-BF-V07 | Última hora |
+| | 55 min antes | API | Abriu checkout e não comprou | API-BF-V07 | Última hora |
 | | Fechamento | Wpp Grupos | Os três grupos | CP-BF-V15 (alunas: -AL) | Encerrou. Trocar nome e capa: "Encerrado" |
-| E3 + 1 dia | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V16 (alunas: -AL) | Saída honrosa (só se houver lista de espera) |
-| | 09h00 | API | Abriu checkout e não comprou | API-BF-V08 | Encerrou, lista de espera (só se houver) |
+| E3 + 1 dia | 09h00 | API | Abriu checkout e não comprou | API-BF-V08 | Encerrou, lista de espera (só se houver) |
+| | 11h30 | Wpp Grupos | Os três grupos | CP-BF-V16 (alunas: -AL) | Saída honrosa (só se houver lista de espera) |
 
 ### 4.4 Alunas: golden ticket e condição própria
 
@@ -283,7 +287,7 @@ O Golden Ticket (`API-BF-05.x`, `CP-BF-GT01`) acontece antes da live, em 22/10, 
 | Evento | Canal | ID | Quando |
 |---|---|---|---|
 | Entrou na lista (reservou) | API | API-BF-01 (-N, -D, -A) | Imediato |
-| Reservou e não clicou no grupo | API | API-BF-02 (-N, -D, -A) | Algumas horas depois, e uma vez 24 h depois |
+| Reservou e não entrou no grupo (status "não confirmou") | API | API-BF-02 (-N, -D, -A) | Algumas horas depois do cadastro, e uma vez no dia seguinte |
 | Saiu do grupo | API | API-BF-03 (-N, -D, -A) | Imediato |
 | Reservou e não está em grupo | API e e-mail | API-BF-R01 a R03, EMAIL-BF-R01 | 20/10, 27/10, 31/10 (R01), manhã de 03/11 (R02), 19h de 03/11 (R03) |
 | Comprou e não entrou no grupo | API e e-mail | API-BF-R04 a R06, EMAIL-BF-R02 | 2 h depois, dia seguinte 09h, a cada 48 h |
@@ -299,19 +303,20 @@ O Golden Ticket (`API-BF-05.x`, `CP-BF-GT01`) acontece antes da live, em 22/10, 
 
 ---
 
-## 6. Troca de nome e capa dos grupos (disparo manual)
+## 6. Troca de nome e capa dos grupos (disparo manual, em janela)
 
-| Quando | Estado | Referência |
-|---|---|---|
-| 13/10, ao abrir | Captação | `grupos_descricao_e_grupo_cheio.md`, seção 1 |
-| 03/11, 06h | Dia da live, antes de começar | idem |
-| 03/11, 19h59 | Ao vivo | idem |
-| 03/11, na abertura do carrinho | Vagas abertas | idem |
-| Em cada virada de lote | Virada de lote | idem |
-| Manhã de E3 | Último dia | idem |
-| Últimas horas de E1, E2 e E3 | Últimas horas | idem |
-| Fechamento | Encerrado | idem |
+Cada troca é feita por duas pessoas e tem início e fim. A janela termina antes do disparo seguinte e nunca coincide com o minuto de um disparo. Com mais de 6 grupos no rodízio, abrir a janela mais cedo.
 
+| Quando | Janela | Estado | Referência |
+|---|---|---|---|
+| 13/10 | 11h15 a 11h25 (antes do CP-BF-01, 11h30) | Captação | `grupos_descricao_e_grupo_cheio.md`, seção 1 |
+| 03/11, manhã | 05h45 a 05h55 (antes do CP-BF-64, 06h00) | Dia da live, antes de começar | idem |
+| 03/11, à noite | 19h30 a 19h45 (antes do CP-BF-72, 19h50) | Ao vivo ("AO VIVO HOJE, 20H"). Não há troca às 19h59 | idem |
+| 03/11, carrinho aberto | 21h35 a 21h50 (depois do CP-BF-76, 21h28) | Vagas abertas | idem |
+| Em cada virada de lote | 15 min depois do disparo de virada | Virada de lote | idem |
+| Manhã de E3 | 11h15 a 11h25 (antes do CP-BF-V12) | Último dia | idem |
+| Últimas horas de E1, E2 e E3 | termina 5 min antes do disparo de "últimas horas" | Últimas horas | idem |
+| Fechamento | 15 min depois do CP-BF-V15 | Encerrado | idem |
 
 ---
 
@@ -322,19 +327,21 @@ O Golden Ticket (`API-BF-05.x`, `CP-BF-GT01`) acontece antes da live, em 22/10, 
 2. Links: reserva da live, diagnóstico, live no YouTube, grupos por segmento, checkout por lote e segmento (seis), suporte.
 3. Segmentação em DataCrazy/ListBoss: tags A, D e N, "reservou", "fez o diagnóstico", "aluna ativa", "abriu checkout".
 4. `[[CONFIRMAR: contagem de alunas do Clube]]`: define o custo e o tamanho do grupo de alunas.
-5. Aprovação dos templates de API na Meta: são dezenas de templates novos. Pedir aprovação com antecedência de pelo menos 7 dias do primeiro uso.
-6. `[[DEPOIMENTO REAL]]`, áudio de Grabovoi, vídeo da Dra. (19h50) e artes (capas, Golden Ticket, ingresso).
+5. Aprovação dos templates de API na Meta: são dezenas de templates novos (ver a tabela "Aprovação de template" no fim de cada arquivo de API). Pedir aprovação com antecedência de pelo menos 7 dias do primeiro uso. Templates pós-live (API-BF-17 em diante) precisam ser aprovados **antes** da live e não podem trazer preço digitado: o preço e o lote entram por variável no envio.
+6. `[[DEPOIMENTO REAL]]`, áudio de Grabovoi, vídeo da Dra. (19h50) e artes (capas, Golden Ticket, ingresso). Nenhuma arte tem cor, fonte ou logo definitivos, porque a identidade visual ainda não existe.
 
 **Decisões a validar**
-1. **Terceiro disparo de grupo às 16h30.** A cadência da BFV/26 tem dois (11h30 e 20h). O pedido foi de três por dia; adotei 16h30 por haver precedente nas planilhas do Desafio. Se a equipe preferir 07h (ritual), mover os slots C de ritual (CP-BF-15, 45 e 60).
-2. **Variantes por grupo.** O grupo geral usa a copy-base; alunas e Desafio/Imersão têm 8 variantes cada, em slots escolhidos pela diferença de público. Se a equipe quiser menos trabalho, usar a copy-base nos três grupos e as variantes só nos 4 slots de maior diferença (CP-BF-01, 22, 56 e 62).
-3. **Onboarding.** Os gatilhos da planilha de Setembro do Desafio parecem trocados (ver `api_onboarding.md`). Adotei o que o texto pede.
+1. **Slot de 16h30 em reserva (decisão fechada).** A cadência canônica de grupo é de 2 disparos por dia (11h30 e 20h), como na BFV/26. As 21 copys de 16h30 ficam como banco de reserva e testes. Quatro delas (CP-BF-11, 26, 32 e 35) foram promovidas ao slot de 20h para o calendário não perder cobertura de objeção (confiança na Dra., dinheiro e o que entra); as de 20h do mesmo dia (CP-BF-12, 27, 33 e 36) foram para a reserva. Para desfazer uma promoção, trocar os horários na tabela da seção 2 e nos títulos do arquivo de copys.
+2. **Variantes por grupo.** O grupo geral usa a copy-base; alunas e Desafio/Imersão têm 8 variantes cada (4 e 5 no calendário, 4 e 3 em reserva), em slots escolhidos pela diferença de público. Se a equipe quiser menos trabalho, usar a copy-base nos três grupos e as variantes só nos 4 slots de maior diferença (CP-BF-01, 22, 56 e 62).
+3. **Onboarding.** Os gatilhos da planilha de setembro do Desafio parecem trocados (ver `api_onboarding.md`). Adotei o que o texto pede. "Não confirmou" significa "reservou e não entrou no grupo".
 4. **Quem fez Desafio/Imersão paga preço de não-alunas** até a equipe decidir o contrário.
-5. **Ritual de Grabovoi** substitui o mantra, sem promessa de dinheiro. Se a Dra. não aprovar, apagar CP-BF-15, 45, 60, 64 e 77.
+5. **Ritual de Grabovoi** substitui o mantra, sem promessa de dinheiro. Se a Dra. não aprovar, trocar CP-BF-15, 45, 60, 64 e 77 por copys da reserva ou por perguntas do dia, sem deixar o slot vazio.
+7. **Dia 03/11 (terça).** O dia da live é a única exceção à cadência de 2 por dia. A grade usa um minuto por disparo, janelas fechadas para troca de nome e capa e modo escuta do comercial das 20h às 22h. Terça é dia de aula do Clube `[[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]`.
+8. **02/11 (Finados).** Mantém os dois disparos, com tom sóbrio.
 6. **Replay.** Nenhuma peça afirma ou nega replay.
 
 **Testes A/B sugeridos**
-1. Horário do slot B (16h30 contra 17h).
+1. Copy agendada contra a copy de reserva do mesmo dia (metade do rodízio cada), sempre em 11h30 ou 20h.
 2. Slot C com ritual contra slot C com pergunta.
 3. Primeira API de convite indireto às 09h contra 12h.
 4. Dia 03/11: a ordem de CP-BF-68 (carta) e CP-BF-69 (o que acontece hoje).

@@ -56,7 +56,7 @@
 | 01:48 | 21h48 | 17. Encerramento | 8 min | 137 | 51 a 60 s | 7 min 05 s |
 | 01:56 | 21h56 | Fim | Soma: 116 min | 2557 | 15.8 a 18.5 min | |
 
-**Como ler a tabela.** "Palavras de fala" conta só o texto entre aspas das etiquetas FALA, FRASE, AÇÃO, CHAT e REAÇÃO (cada placeholder conta como 1 palavra; no bloco 9, as 7 frases de produto ainda em `[[CONFIRMAR]]` entram com 12 palavras cada). Nenhum bloco passa de 2,7 palavras por segundo: o texto literal ocupa 16 a 19 minutos dos 116. O resto é chat, escrita no papel, leitura de comentários, slides de produto e silêncio, mais o improviso condutor da Dra. (comentar as respostas do chat), que não é lido do roteiro. Soma das durações: 116 minutos, igual à duração prevista.
+**Como ler a tabela.** "Palavras de fala" conta só o texto entre aspas das etiquetas FALA, FRASE, AÇÃO, CHAT e REAÇÃO (cada placeholder conta como 1 palavra; no bloco 9, as 7 frases de produto ainda marcadas como CONFIRMAR entram com 12 palavras cada). Nenhum bloco passa de 2,7 palavras por segundo: o texto literal ocupa 16 a 19 minutos dos 116. O resto é chat, escrita no papel, leitura de comentários, slides de produto e silêncio, mais o improviso condutor da Dra. (comentar as respostas do chat), que não é lido do roteiro. Soma das durações: 116 minutos, igual à duração prevista.
 
 **Zona de pitch:** blocos 9 a 15 (do minuto 00:51 ao 01:33, 42 minutos com interação). O pitch corrido de 12 minutos (arquivo `pitch_e_ancoragem.md`) é a espinha dessa zona e vira plano B se a live atrasar mais de 10 minutos: pula-se do bloco 8 direto para o pitch corrido (que cobre os blocos 9 a 15, com o link abrindo no fim da Parte 8) e volta-se ao roteiro no bloco 16.
 

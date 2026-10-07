@@ -14,7 +14,7 @@
 
 **O que mudou em relação ao Desafio.** No Desafio, a mensagem 4 vendia um ingresso pago, com lote e garantia. Na Black, nada é vendido: o CTA é reservar a vaga na live, e a mensagem 4 não cita preço nem lote. A entrega de valor deixa de explicar "crenças da infância" e passa a explicar o **Termostato Invisível** e o **ciclo de recomeçar**, que é a ideia da campanha. A mensagem 3 do Desafio narrava um depoimento no texto; aqui o print entra como `[[DEPOIMENTO REAL]]` e o texto não inventa o que a aluna disse.
 
-**Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; negrito com `*asterisco*`; botões em maiúsculas e neutros quanto ao gênero (a base fria tem homens); link em linha própria e separado do CTA; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" em todas as mensagens de API. Variáveis: `{{nome}}`, `{{link_reserva}}`. Nenhum template começa nem termina com variável (regra de aprovação da Meta).
+**Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com `*asterisco*`; botões em maiúsculas e neutros quanto ao gênero (a base fria tem homens); link em linha própria e separado do CTA; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" em todas as mensagens de API. Variáveis: `{{nome}}`, `{{link_reserva}}`. Nenhum template começa nem termina com variável (regra de aprovação da Meta).
 
 **Cadência dentro da janela:** mensagem 2 logo após o clique em "SIM"; mensagem 3 de 1 a 2 minutos depois; mensagem 4 de 2 a 3 minutos depois da 3; mensagem 5 só quando clicar em "RESERVAR".
 
@@ -50,6 +50,8 @@ Com a vontade de mudar é igual. Você começa, anima, e algo puxa de volta para
 Não é preguiça. Não é falta de sorte. É um padrão que dá para enxergar e trabalhar. Eu chamo de *Termostato Invisível*.
 
 Guarda essa informação. 💜
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.3-N: Depoimento (1 a 2 minutos depois)
@@ -62,6 +64,8 @@ O que você leu acima é um relato de uma aluna. Cada pessoa vive isso do seu je
 Mas o que ela descreve é o padrão de que eu estou falando: o ciclo que se repete até alguém dar nome a ele.
 
 Reconheceu alguma parte?
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.4-N: Convite e CTA
@@ -76,6 +80,8 @@ Reservar a vaga é de graça. O preço e as condições só são revelados na li
 "Eu prefiro que você não compre do que compre e não viva."
 
 Posso reservar a sua vaga?
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botão:** `[ RESERVAR MINHA VAGA 💜 ]`
@@ -90,6 +96,8 @@ Assim que você confirmar, recebe aqui o link do grupo e o diagnóstico dos 5 pa
 Preenche seu nome e WhatsApp, leva 1 minuto:
 
 {{link_reserva}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.N-N: Resposta ao "AGORA NÃO"
@@ -100,6 +108,8 @@ Tudo bem, {{nome}}. Obrigada por avisar. 💜
 Se um dia você quiser entender por que a gente recomeça tanto, a reserva da live fica aqui:
 
 {{link_reserva}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---
@@ -134,6 +144,8 @@ Quem para na empolgação do evento costuma recomeçar no próximo. E o ciclo re
 Eu sempre digo: *"Não trave o processo."*
 
 O que você viveu não se perde. Mas precisa de continuidade. Guarda essa informação. 💜
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.3-D: Depoimento
@@ -146,6 +158,8 @@ Esse é o relato de uma aluna que passou pelo mesmo ponto que você. Cada pessoa
 O que ela mostra é o que acontece quando o processo não termina com o evento.
 
 Faz sentido para você?
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.4-D: Convite e CTA
@@ -160,6 +174,8 @@ Reservar a vaga é de graça. O preço e as condições só são revelados na li
 "Eu prefiro que você não compre do que compre e não viva."
 
 Posso reservar a sua vaga?
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botão:** `[ RESERVAR MINHA VAGA 💜 ]`
@@ -174,6 +190,8 @@ Assim que você confirmar, recebe aqui o link do grupo de quem viveu o método e
 Preenche seu nome e WhatsApp, leva 1 minuto:
 
 {{link_reserva}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.N-D: Resposta ao "AGORA NÃO"
@@ -184,6 +202,8 @@ Tudo bem, {{nome}}. Obrigada por avisar. 💜
 Se um dia você quiser continuar de onde parou, a reserva da live fica aqui:
 
 {{link_reserva}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---
@@ -216,6 +236,8 @@ Quem já passou por vários ciclos sabe: tem mês em que você anima, tem mês e
 O que muda, ciclo a ciclo, é como você responde. Parar não é voltar ao zero. O que você já fez conta.
 
 Guarda essa informação. 💜
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.3-A: Depoimento
@@ -228,6 +250,8 @@ Esse é o relato de uma aluna do Clube. Cada pessoa vive o processo no seu ritmo
 O que ela mostra é a diferença entre parar e desistir.
 
 Você já passou por isso?
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.4-A: Convite e CTA
@@ -244,6 +268,8 @@ Reservar a vaga é de graça.
 "Eu prefiro que você não compre do que compre e não viva."
 
 Posso reservar a sua vaga?
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botão:** `[ RESERVAR MINHA VAGA 💜 ]`
@@ -258,6 +284,8 @@ Assim que você confirmar, recebe aqui o link do grupo das alunas. A condição 
 Confirma o seu nome e WhatsApp, leva 1 minuto:
 
 {{link_reserva}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-04.N-A: Resposta ao "AGORA NÃO"
@@ -268,6 +296,8 @@ Tudo bem, {{nome}}. Obrigada por avisar. 💜
 Se mudar de ideia, a reserva da live fica aqui:
 
 {{link_reserva}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---

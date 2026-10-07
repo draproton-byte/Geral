@@ -10,7 +10,7 @@
 
 **Regras de design (para quem monta):** o público tem 40% de pessoas com mais de 50 anos e assiste no celular. Um slide, uma ideia. Título em no máximo duas linhas; corpo em no máximo três linhas, de no máximo 12 palavras cada. Tamanho mínimo: título 72 pt e corpo 48 pt na tela 1920 x 1080 (o que cabe nisso é o que fica). Contraste alto (mínimo 7:1) e nada que dependa de cor para ser entendido. Texto sobre foto só com fundo sólido. Sem animação rápida e sem som. A identidade visual ainda não existe: nenhuma cor, fonte ou logo aqui é definitiva. Os slides de preço (34, 36 e 37) ficam ocultos até a liberação da Dra. Nenhum valor pode aparecer em miniatura, legenda, pré-visualização ou arquivo de apoio antes do minuto 01:01 (slide 34, preço avulso) e do minuto 01:09 (slides 36 e 37, preço por lote). A ordem dos slides é a ordem em que o roteiro os chama (1 a 46).
 
-**Convenções:** `[[...]]` é espaço para troca. "Operador" é o que o time faz com o slide. Frases marcadas [INTOCÁVEL] são da Dra. e aparecem literalmente.
+**Convenções:** Texto entre colchetes duplos é espaço para troca. "Operador" é o que o time faz com o slide. Frases marcadas [INTOCÁVEL] são da Dra. e aparecem literalmente.
 
 ---
 

@@ -29,7 +29,7 @@
 | B | 16h30 | **RESERVA**, fora do calendário. Prova, o que entra, objeção ou diagnóstico (aprofunda). Teste A/B ou troca de emergência |
 | C | 20h | Agendado. Pergunta, enquete, ritual, prova ou convite (fecha o dia) |
 
-**Regras de forma.** "Para" e não "pra". Uma linha em branco entre todas as linhas. Negrito com asterisco. Link em linha própria e separado do CTA. No máximo 12 linhas e fim em pergunta ou reação. Nenhuma contagem de dias dentro do texto: datas fixas ("terça, 03/11, às 20h").
+**Regras de forma.** Sempre "para", nunca a forma reduzida. Uma linha em branco entre todas as linhas. Negrito com asterisco. Link em linha própria e separado do CTA. No máximo 12 linhas e fim em pergunta ou reação. Nenhuma contagem de dias dentro do texto: datas fixas ("terça, 03/11, às 20h").
 
 **Tokens de link:** `[[LINK: página de reserva da live]]`, `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: live no YouTube, 03/11]]`, `[[LINK: áudio de Grabovoi da noite]]`. Cada link tem UTM com o ID da copy (ex.: `utm_content=cp-bf-12`).
 
@@ -126,7 +126,6 @@ Slots das 16h30 estão marcados "reserva". Foram promovidos ao slot das 20h: CP-
 ---
 
 ## 3. As 63 copys de grupo (grupo geral)
-
 
 ### Fase 1: Reconhecimento (13 a 19/10)
 
@@ -584,7 +583,6 @@ Quer acompanhar?
 Reage com 🔥 se você quer ver o que entra.
 ```
 
-
 ### Fase 2: Prova e quebra de medo (20 a 27/10)
 
 #### CP-BF-22 | Ter 20/10, 11h30 | TERÇA É DIA DE AULA
@@ -825,7 +823,7 @@ Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só 
 Reage com 💰 se esse é o seu ponto de partida.
 ```
 
-Nota: um dos produtos desta lista tem "cura" no nome oficial. Por compliance a copy descreve o tema em vez de citar o nome. `[[CONFIRMAR: nome do produto na divulgação]]`
+Nota: o nome oficial de um dos produtos desta lista tem uma palavra vetada pelo guia de copy (seção 3, promessa de resultado). Por compliance a copy descreve o tema em vez de citar o nome. `[[CONFIRMAR: nome do produto na divulgação]]`
 
 #### CP-BF-33 | Sex 23/10, 16h30 (RESERVA) | ENQUETE: O QUE EXPLICAR PRIMEIRO?
 
@@ -893,7 +891,7 @@ Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só 
 Reage com 👶 se a sua raiz é emocional.
 ```
 
-Nota: mesmo critério do CP-BF-32 para o produto com "cura" no nome oficial. `[[CONFIRMAR: nome do produto na divulgação]]`
+Nota: mesmo critério do CP-BF-32 para o produto cujo nome oficial tem a palavra vetada. `[[CONFIRMAR: nome do produto na divulgação]]`
 
 #### CP-BF-36 | Sáb 24/10, 16h30 (RESERVA) | EU ME ESCOLHO
 
@@ -1114,7 +1112,6 @@ Você vai estar?
 
 Reage com 🌙 se fez o ritual hoje.
 ```
-
 
 ### Fase 3: Antecipação (28/10 a 02/11)
 
@@ -1488,7 +1485,6 @@ Reage com 🔴 se você vai estar ao vivo.
 
 Cada variante **substitui** a copy-base do mesmo slot no grupo indicado (ver `cronograma_de_disparos.md`). Sufixo -AL = grupo de alunas do Clube. Sufixo -DS = grupo de quem fez Desafio, Imersão ou Aulão sem Clube.
 
-
 ### Grupo: Alunas do Clube
 
 #### CP-BF-01-AL | substitui CP-BF-01 | Ter 13/10, 11h30 | ABRIU (ALUNAS)
@@ -1655,7 +1651,6 @@ Eu quero te mostrar como fazer dessa a *última vez que você vai precisar recom
 Reage com 🔴 se você vai estar ao vivo.
 ```
 
-
 ### Grupo: Quem fez Desafio/Imersão
 
 #### CP-BF-01-DS | substitui CP-BF-01 | Ter 13/10, 11h30 | ABRIU (VIVEU O MÉTODO)
@@ -1817,7 +1812,6 @@ Para quem viveu o Desafio ou a Imersão, eu vou mostrar:
 
 Reage com 🔴 se você vai estar ao vivo.
 ```
-
 
 ---
 

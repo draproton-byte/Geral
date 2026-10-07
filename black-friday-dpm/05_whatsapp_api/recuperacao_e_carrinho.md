@@ -11,7 +11,7 @@
 | **Momento de vida** | Aperto real (cartão sem limite, Pix, parcelamento); funcional e exausta (mensagem curta, passo único); quer entrar de vez e teme não aplicar (trilha) |
 | **Modelo no Desafio** | copy de recuperação de grupo do Desafio, API de carrinho abandonado do Desafio, API de compra aprovada do Desafio, API de compra recusada do Desafio; e Pix emitido do Clube Secreto, Pix expirado do Clube Secreto, boleto emitido do Clube Secreto, boleto vencido do Clube Secreto, carrinho abandonado do Clube Secreto, compra aprovada do Clube Secreto, compra recusada do Clube Secreto, régua de reembolso do Clube Secreto |
 
-**Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; até 12 linhas; negrito com asterisco; link em linha própria e separado do CTA (ou no botão); rodapé "Digite SAIR se não quiser mais receber mensagens" em todos os templates; no máximo 3 botões; nenhum template começa nem termina com variável; nenhuma contagem de dias no texto (data fixa ou variável: nada de "ontem"). Preços só por `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]` e só depois da live; no template de API o preço entra por variável preenchida no envio.
+**Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; até 12 linhas; negrito com asterisco; link em linha própria e separado do CTA (ou no botão); rodapé "Digite SAIR se não quiser mais receber mensagens" em todos os templates; no máximo 3 botões; nenhum template começa nem termina com variável; nenhuma contagem de dias no texto (data fixa ou variável: nada de "ontem"). Preços só por `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]` e só depois da live; no template de API o preço entra por variável preenchida no envio.
 
 **Variáveis de ferramenta:** `{{nome}}`, `{{link_grupo}}`, `{{link_checkout}}` (um por lote e segmento), `{{codigo_pix}}`, `{{link_boleto}}`, `{{lote_atual}}`, `{{data_virada}}`, `{{link_onboarding}}`. `{{lote_atual}}`, `{{data_virada}}` e `{{link_onboarding}}` são novas e precisam existir na ferramenta, senão trocar por `[[PENDENTE: data do lote]]` escrito à mão.
 
@@ -289,7 +289,7 @@ Preço alto aumenta o uso de Pix e boleto. A mensagem não repete o preço (a pe
 ### API-BF-P01 | Pix emitido (disparo 1, imediato)
 
 ```text
-{{nome}}, o seu Pix da *Black Próton Vitalícia* foi gerado! ⚡
+O seu Pix da *Black Próton Vitalícia* foi gerado, {{nome}}! ⚡
 
 Copie o código abaixo e cole no app do seu banco, na opção *Pix Copia e Cola*:
 
@@ -298,12 +298,14 @@ Copie o código abaixo e cole no app do seu banco, na opção *Pix Copia e Cola*
 ✅ Assim que o pagamento cair, o seu acesso é liberado na hora.
 
 Esse código tem prazo de validade, então não deixa para depois.
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-P02 | Pix emitido (disparo 2, de 30 minutos a 1 hora, se não pago)
 
 ```text
-{{nome}}, o seu Pix da *Black Próton Vitalícia* ainda não foi pago. ⏳
+O seu Pix da *Black Próton Vitalícia* ainda não foi pago, {{nome}}. ⏳
 
 É só copiar e colar no app do banco, leva menos de 1 minuto.
 
@@ -312,18 +314,22 @@ Se o código expirou, o link abaixo gera um novo:
 {{link_checkout}}
 
 O seu primeiro passo da trilha pode começar ainda hoje. 💜
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-P03 | Pix expirado (disparo 1)
 
 ```text
-{{nome}}, o código Pix da *Black Próton Vitalícia* expirou. 😕
+O código Pix da *Black Próton Vitalícia* expirou, {{nome}}. 😕
 
 Mas é só gerar um novo, leva 1 minuto:
 
 {{link_checkout}}
 
 A sua condição do *{{lote_atual}}* vale até {{data_virada}}. Se preferir, dá para pagar no cartão [[CONFIRMAR: parcelamento]].
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-P04 | Pix expirado (disparo 2, 24 horas depois)
@@ -338,12 +344,14 @@ Você não chegou até ali por acaso. Algo dentro de você sabe que precisa de u
 {{link_checkout}}
 
 Garantia: [[PENDENTE: garantia]]
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-P05 | Boleto emitido (disparo 1)
 
 ```text
-{{nome}}, o seu boleto da *Black Próton Vitalícia* foi gerado! 🧾
+O seu boleto da *Black Próton Vitalícia* foi gerado, {{nome}}! 🧾
 
 👉 Pague por aqui:
 
@@ -354,18 +362,22 @@ Importante: o boleto leva até 3 dias úteis para compensar `[[CONFIRMAR: prazo 
 💡 Quer começar HOJE? Pague via Pix e o acesso chega na hora:
 
 {{link_checkout}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-P06 | Boleto emitido (disparo 2, na véspera do vencimento)
 
 ```text
-{{nome}}, o seu boleto da *Black Próton Vitalícia* vence em breve. ⏳
+O seu boleto da *Black Próton Vitalícia* vence em breve, {{nome}}. ⏳
 
 Se você já pagou, pode ignorar. Se ainda não, o link está aqui:
 
 {{link_boleto}}
 
 Lembrete: a virada do *{{lote_atual}}* é em {{data_virada}}. Se quiser garantir o lote atual, pague via Pix. [[CONFIRMAR: preço do boleto vale o lote da emissão ou da compensação?]]
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Atenção:** o texto sobre o lote vigente precisa casar com a regra real de preço do boleto. Até confirmar, remover a última frase do template antes de enviá-lo para aprovação.
@@ -373,7 +385,7 @@ Lembrete: a virada do *{{lote_atual}}* é em {{data_virada}}. Se quiser garantir
 ### API-BF-P07 | Boleto vencido (disparo 1)
 
 ```text
-{{nome}}, o seu boleto da *Black Próton Vitalícia* venceu. 😕
+O seu boleto da *Black Próton Vitalícia* venceu, {{nome}}. 😕
 
 Sem problema, é rápido de resolver.
 
@@ -382,6 +394,8 @@ Sem problema, é rápido de resolver.
 {{link_checkout}}
 
 💡 Pelo Pix o acesso é liberado na hora.
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-P08 | Boleto vencido (disparo 2, 24 horas depois)
@@ -398,6 +412,8 @@ Você chegou até aqui por um motivo. Não deixa ele se perder.
 👇 O link para entrar:
 
 {{link_checkout}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---
@@ -407,7 +423,7 @@ Você chegou até aqui por um motivo. Não deixa ele se perder.
 ### API-BF-X01 | Disparo 1 (imediato)
 
 ```text
-{{nome}}, a sua compra da *Black Próton Vitalícia* não foi aprovada. 😕
+A sua compra da *Black Próton Vitalícia* não foi aprovada, {{nome}}. 😕
 
 Normalmente é limite do cartão ou bloqueio automático do banco, e é rápido de resolver.
 
@@ -418,6 +434,8 @@ Normalmente é limite do cartão ou bloqueio automático do banco, e é rápido 
 💡 Dica: se o limite foi o problema, dá para dividir em 2 cartões, ou pagar com cartão + Pix no checkout [[CONFIRMAR: checkout permite dois cartões e cartão + Pix]].
 
 A sua condição do *{{lote_atual}}* ainda vale até {{data_virada}}.
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-X02 | Disparo 2 (24 horas depois)
@@ -432,6 +450,8 @@ Se foi outra coisa (dúvida, medo, "será que é para mim?"), me conta pelo supo
 👇 O link para tentar de novo:
 
 {{link_checkout}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botões:** `[ TENTAR DE NOVO ]` → `{{link_checkout}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
@@ -460,6 +480,8 @@ Comece por aqui, em 3 passos:
 Você não precisa fazer tudo de uma vez. O acesso é vitalício, e o que importa é não deixar o automático voltar.
 
 Se precisar de ajuda, toque em "Falar com o suporte".
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
@@ -482,6 +504,8 @@ Comece por aqui, em 3 passos:
 3️⃣ Escolha o seu próximo passo nas próximas 48 horas: [[CONFIRMAR: primeiro passo da trilha]]
 
 Se precisar de ajuda, toque em "Falar com o suporte".
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
@@ -503,7 +527,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-OK3 | Acompanhamento 48 horas depois
 
 ```text
-{{nome}}, passando para perguntar uma coisa: você já deu o primeiro passo da trilha?
+Passando para perguntar uma coisa: você já deu o primeiro passo da trilha, {{nome}}?
 
 Se sim, me conta com um "sim" por aqui.
 
@@ -512,6 +536,8 @@ Se ainda não, tudo bem. O primeiro passo é um só, e é nele que o automático
 👇 O primeiro passo está aqui:
 
 {{link_onboarding}}
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-OK4 | Pedido de depoimento (21 dias depois)
@@ -528,6 +554,8 @@ O seu relato ajuda outra pessoa a decidir. Eu só publico com a sua autorizaçã
 👇 Toque para enviar o seu relato:
 
 [[LINK: formulário de depoimento]]
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---
@@ -539,7 +567,7 @@ Depende de `[[PENDENTE: garantia]]`. Modelo: régua de reembolso do Clube Secret
 ### API-BF-RF1 | Pedido recebido
 
 ```text
-{{nome}}, recebemos o seu pedido de reembolso da *Black Próton Vitalícia*.
+Recebemos o seu pedido de reembolso da *Black Próton Vitalícia*, {{nome}}.
 
 Ele já está sendo processado, e você não precisa fazer mais nada. 💜
 
@@ -555,7 +583,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-RF2 | Reembolso concluído
 
 ```text
-{{nome}}, o seu reembolso da *Black Próton Vitalícia* foi concluído. ✅
+O seu reembolso da *Black Próton Vitalícia* foi concluído, {{nome}}. ✅
 
 ⏱️ Prazos para o valor aparecer:
 
@@ -566,6 +594,8 @@ Cartão: pode levar até 2 faturas, dependendo do banco.
 Obrigada por ter confiado em mim, mesmo que por alguns dias.
 
 Dra. Próton
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---

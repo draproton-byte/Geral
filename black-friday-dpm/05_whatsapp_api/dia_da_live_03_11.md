@@ -19,7 +19,7 @@
 
 **"Carrinho aberto para cada lote".** Durante a live só o **Lote Especial** abre. Por isso a seção 4 traz o carrinho aberto do Lote Especial para os dois preços (alunas e não-alunas) em grupo e API. O carrinho aberto do Primeiro Lote e do Último Lote está em `vagas_abertas_e_virada_de_lote.md` (virada de lote).
 
-**Regras de forma (todas as peças):** "para" e não "pra"; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; grupo com no máximo 12 linhas e fim em pergunta ou reação; API com rodapé "Digite SAIR se não quiser mais receber mensagens", no máximo 3 botões e nenhum template começando ou terminando com variável.
+**Regras de forma (todas as peças):** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; grupo com no máximo 12 linhas e fim em pergunta ou reação; API com rodapé "Digite SAIR se não quiser mais receber mensagens", no máximo 3 botões e nenhum template começando ou terminando com variável.
 
 **Cadência do dia.** Os dois disparos de grupo canônicos (11h30 e 20h) estão preservados. O dia da live é a única exceção à cadência de 2 por dia, com grade estendida porque a pessoa precisa chegar à sala e porque o carrinho abre durante a live. Cada disparo tem um minuto próprio (nenhum minuto repete dois disparos de WhatsApp) e cada troca de nome e capa tem uma janela com início e fim.
 
@@ -58,9 +58,9 @@
 | 21:00 | Grupos | CP-BF-75 | Todos os grupos | A melhor parte: a condição vai ser revelada (preço previsto às 21h09) | CP 39 |
 | 21:05 | API | API-BF-16 | Dentro da janela de 24 h | A melhor parte | |
 | 21:28 (manual) | Grupos | CP-BF-76 e CP-BF-76-DS (geral e Desafio/Imersão); CP-BF-76-AL (alunas) | Cada grupo | Carrinho aberto, Lote Especial. Dispara quando o link do checkout abrir na tela (bloco 15 do roteiro) | CP 01 de 01/10 |
+| 21:28 (manual) | E-mail (referência) | `06_emails` | Reservaram | Abertura de carrinho | |
 | 21:30 (manual) | API | API-BF-17 | Reservaram (N e D) | Carrinho aberto, Lote Especial | API 09 / vagas abertas |
 | 21:32 (manual) | API | API-BF-17-A | Reservaram (A) | Carrinho aberto, Lote Especial (alunas) | API 09 / vagas abertas |
-| 21:28 (manual) | E-mail (referência) | `06_emails` | Reservaram | Abertura de carrinho | |
 | 21:35 a 21:50 (manual) | Grupos | Trocar nome e capa para "VAGAS ABERTAS" | Todos os grupos | Janela de 15 min, depois do CP-BF-76 | "MUDAR NOME E CAPA (VAGAS ABERTAS)" |
 | 22:00 | Grupos | CP-BF-77 (-AL) | Todos os grupos | Ritual da noite + P.S. do carrinho | CP 40 |
 | 22:05 | Comercial | Fim do modo escuta, último disparo do dia | Pipeline do comercial | Depois disso, só respostas | Playbook do dia da live |
@@ -68,7 +68,6 @@
 **Custo de API.** Mandar tudo para todos fica caro, e o dia 03/11 é a exceção à regra de uma API por pessoa por dia. Sugestão: API-BF-10, 14 e 17 vão para todos os reservados; API-BF-11, 12 e 13 só para quem não clicou no botão da mensagem anterior; API-BF-15 e 16 só para quem está na janela de 24 horas (mensagens de sessão, sem template).
 
 **Terça é dia de aula do Clube.** 03/11 cai numa terça. Até a decisão sobre a aula `[[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]`, nenhuma peça do grupo geral cita a aula; as peças do grupo de alunas só dizem que a live é "a noite de terça".
-
 
 ---
 
@@ -79,7 +78,7 @@ Três lembretes de API fora do dia 03/11, para quem reservou a vaga e não ativo
 ### API-BF-07: 28/10, 09h (salva a data)
 
 ```text
-{{nome}}, a live de revelação da *Black Próton Vitalícia* já tem data.
+A live de revelação da *Black Próton Vitalícia* já tem data, {{nome}}.
 
 📅 *Terça, 03/11, às 20h*, ao vivo no YouTube.
 
@@ -95,7 +94,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-08: 30/10, 09h (diagnóstico pendente)
 
 ```text
-{{nome}}, falta um passo para chegar à live sabendo quem você é.
+Falta um passo para chegar à live sabendo quem você é, {{nome}}.
 
 O *diagnóstico dos 5 padrões* mostra se o seu padrão é Termostato Invisível, Autossabotagem, Cobrança, Traumas ou Culpa de Querer Mais.
 
@@ -113,7 +112,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-09: 02/11, 09h (é amanhã)
 
 ```text
-{{nome}}, a live é *terça, 03/11, às 20h*.
+A live é *terça, 03/11, às 20h*, {{nome}}.
 
 Eu abro ao vivo a *Black Próton Vitalícia*.
 
@@ -495,7 +494,7 @@ Reage com 🌟 se você já entrou.
 **Corpo**
 
 ```text
-{{nome}}, a condição da *Black Próton Vitalícia* acabou de ser revelada ao vivo. 🔓
+A condição da *Black Próton Vitalícia* acabou de ser revelada ao vivo, {{nome}}. 🔓
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
@@ -515,7 +514,7 @@ Digite SAIR se não quiser mais receber mensagens
 **Corpo**
 
 ```text
-{{nome}}, a sua condição de aluna do Clube acabou de ser revelada ao vivo. 🔓
+A sua condição de aluna do Clube acabou de ser revelada ao vivo, {{nome}}. 🔓
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
@@ -571,7 +570,7 @@ Modelo: copys de API do Desafio (API 01 "É hoje", API 02 "Ao vivo") e API do Au
 ### API-BF-10 | 09:00 | É hoje (N e D)
 
 ```text
-{{nome}}, lembrete da sua live de hoje.
+Lembrete da sua live de hoje, {{nome}}.
 
 🔴 *Black Próton Vitalícia*, às *20h*, ao vivo no YouTube.
 
@@ -589,7 +588,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-10-A | 09:05 | É hoje (alunas)
 
 ```text
-{{nome}}, lembrete da sua live de hoje.
+Lembrete da sua live de hoje, {{nome}}.
 
 🔴 *Black Próton Vitalícia*, às *20h*, ao vivo no YouTube.
 
@@ -605,7 +604,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-11 | 15:05 | Lembrete (quem não clicou às 09h)
 
 ```text
-{{nome}}, hoje, às *20h*, a gente se encontra ao vivo.
+Hoje, às *20h*, a gente se encontra ao vivo, {{nome}}.
 
 Quem chega com caderno e caneta acompanha melhor a conta do Termostato Invisível.
 
@@ -670,6 +669,8 @@ Digite SAIR se não quiser mais receber mensagens
 Você reservou a sua vaga. Dá tempo de entrar 👇
 
 [[LINK: live no YouTube, 03/11]]
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-16 | 21:05 | A melhor parte (apenas dentro da janela de 24 horas)
@@ -682,6 +683,8 @@ Quem sai agora perde a parte que decide.
 Não sai da live 👇
 
 [[LINK: live no YouTube, 03/11]]
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---

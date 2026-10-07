@@ -19,7 +19,7 @@
 - O disparo do quiz do Desafio oferecia o "Lote 0 com 50% OFF" e dizia "99% das vagas já foram". Nenhuma das duas coisas é possível aqui: não há preço pré-live nem lote esgotando antes da revelação. A urgência pré-live é a data da live. A pós-live usa a escassez de lote real.
 - O resultado do diagnóstico (os 5 perfis) personaliza a mensagem 2. No Desafio a mensagem 2 era única.
 
-**Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; até 12 linhas; máximo de 3 botões; rodapé "Digite SAIR se não quiser mais receber mensagens"; nenhum template começa nem termina com variável; nenhum preço, desconto ou número de unidades nos templates pré-live.
+**Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; até 12 linhas; máximo de 3 botões; rodapé "Digite SAIR se não quiser mais receber mensagens"; nenhum template começa nem termina com variável; nenhum preço, desconto ou número de unidades nos templates pré-live.
 
 ---
 
@@ -179,6 +179,8 @@ Reserve a sua vaga, é gratuita 👇
 [[LINK: página de reserva da live]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 #### API-BF-06.2-AS | Autossabotagem
@@ -199,6 +201,8 @@ Reserve a sua vaga, é gratuita 👇
 [[LINK: página de reserva da live]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 #### API-BF-06.2-CB | Cobrança Que Você Só Faz Com Você
@@ -219,6 +223,8 @@ Reserve a sua vaga, é gratuita 👇
 [[LINK: página de reserva da live]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 #### API-BF-06.2-TR | Traumas Que Ainda Decidem
@@ -239,6 +245,8 @@ Reserve a sua vaga, é gratuita 👇
 [[LINK: página de reserva da live]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 #### API-BF-06.2-CQ | Culpa de Querer Mais
@@ -259,6 +267,8 @@ Reserve a sua vaga, é gratuita 👇
 [[LINK: página de reserva da live]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-06.3 | Mensagem 3 (opcional): clicou e não reservou, de 6 a 12 horas depois
@@ -275,6 +285,8 @@ Você não precisa aplicar por conta própria depois: eu mostro, e a gente prati
 [[LINK: página de reserva da live]]
 
 Eu costumo dizer: _"Eu prefiro que você não compre do que compre e não viva."_ Reserve para ver. Decida depois, com calma.
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ## B2. Versão pós-live (a partir de 04/11)
@@ -315,6 +327,8 @@ Garanta a sua vaga 👇
 {{link_checkout}}
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ### API-BF-06.P3 | Mensagem 3 (opcional): clicou e não comprou, de 6 a 12 horas depois
@@ -331,6 +345,8 @@ Existe uma trilha de entrada, um passo de cada vez. [[CONFIRMAR: ordem de entrad
 {{link_checkout}}
 
 Eu costumo dizer: _"Eu prefiro que você não compre do que compre e não viva."_ Se for para entrar, entra para viver.
+
+Digite SAIR se não quiser mais receber mensagens
 ```
 
 ---
@@ -338,7 +354,7 @@ Eu costumo dizer: _"Eu prefiro que você não compre do que compre e não viva."
 ## Notas ao implementador
 
 **Pendências**
-1. `[[CONFIRMAR: condição do Golden Ticket]]`: o convite VIP é só uma mensagem enquanto a condição não existir. Decisões possíveis a levar à Dra. (sugestões, não definição): (a) acesso ao checkout do Lote Especial antes da live; (b) um bônus de antecipação `[[PENDENTE: bônus]]` só para alunas; (c) mais tempo para decidir dentro do Lote Especial. Qualquer uma precisa de regra clara de prazo e de checkout próprio.
+1. `[[CONFIRMAR: condição do Golden Ticket]]`: o convite VIP é só uma mensagem enquanto a condição não existir. Decisões possíveis a levar à Dra. (sugestões, não definição): (a) acesso ao checkout do Lote Especial antes da live; (b) um bônus de antecipação `[[PENDENTE: bônus]]` só para alunas; (c) mais tempo para decidir dentro do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]]. Qualquer uma precisa de regra clara de prazo e de checkout próprio.
 2. Escassez de ticket: o Desafio usava "100 cupons". O template do Golden Ticket **não** traz número de tickets nem "quando acabarem". Só criar uma versão com limite se a regra existir de fato `[[CONFIRMAR: o número de tickets é real]]`, e ela exige novo template aprovado.
 3. Arte do Golden Ticket: o criativo é da área `04_criativos` (modelo: a arte do Golden Ticket do Desafio). Sem preço e sem cor definitiva.
 4. Segmento A: lista de alunas ativas do Clube `[[CONFIRMAR: contagem de alunas do Clube]]`. A lista deve vir do Hotmart/ListBoss, não de planilhas antigas.

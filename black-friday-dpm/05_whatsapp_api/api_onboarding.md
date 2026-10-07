@@ -32,7 +32,7 @@ Tudo o mais (data, horário, "a condição é revelada ao vivo", rodapé, botão
 
 **Variáveis:** `{{nome}}`, `{{link_grupo}}` (um link de rodízio por segmento), `{{link_diagnostico}}`, `{{link_lembrete}}`.
 
-**Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" (componente de rodapé do template, 49 caracteres); botões escritos em maiúsculas (no máximo 3 por template); link nunca na mesma linha do CTA; nenhum template começa nem termina com variável.
+**Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" (componente de rodapé do template, 49 caracteres); botões escritos em maiúsculas (no máximo 3 por template); link nunca na mesma linha do CTA; nenhum template começa nem termina com variável.
 
 ---
 
@@ -62,7 +62,6 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FAZER O DIAGNÓSTICO ]` → `{{link_diagnostico}}`
 
-
 ### API-BF-01-A (alunas do Clube)
 
 **Corpo**
@@ -87,7 +86,6 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ ATIVAR LEMBRETE ]` → `{{link_lembrete}}`
 
-
 ### API-BF-01-D (Desafio, Imersão, Aulão sem Clube)
 
 **Corpo**
@@ -111,7 +109,6 @@ Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FAZER O DIAGNÓSTICO ]` → `{{link_diagnostico}}`
-
 
 ---
 
@@ -201,7 +198,6 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ VOLTAR PARA O GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
 
-
 ### API-BF-03-A
 
 **Corpo**
@@ -224,7 +220,6 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ VOLTAR PARA O GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
 
-
 ### API-BF-03-D
 
 **Corpo**
@@ -246,7 +241,6 @@ Digite SAIR se não quiser mais receber mensagens
 ```
 
 **Botões:** `[ VOLTAR PARA O GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
-
 
 ---
 

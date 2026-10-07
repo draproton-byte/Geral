@@ -9,7 +9,7 @@
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez."
 **Modelo no Desafio:** blocos 08 (ancoragem com preço), 09 e 12 (valor), 10 (conversa séria) da página do Desafio; cronograma de pitch da planilha de controle ("Pitch completo: produto mais bônus totais mais preço real", seguido de "Escassez de bônus")
 
-**Como ler o arquivo.** O texto abaixo é fala, na voz da Dra. Marcas entre colchetes retos são para o operador. Frases em **negrito** com a etiqueta [INTOCÁVEL] são lidas literalmente. Tudo o que está em `[[...]]` não tem valor fechado e não pode ser improvisado em cena. Ritmo: 2,3 a 2,7 palavras por segundo (138 a 162 por minuto). Total: cerca de 1.100 palavras de fala (com as frases de produto preenchidas), que ocupam 6,8 a 8 minutos dos 12. O resto é a leitura dos 12 preços (um por segundo e meio), os slides de produto, o chat e o silêncio. A tabela de tempos está logo abaixo.
+**Como ler o arquivo.** O texto abaixo é fala, na voz da Dra. Marcas entre colchetes retos são para o operador. Frases em **negrito** com a etiqueta [INTOCÁVEL] são lidas literalmente. Tudo o que está entre colchetes duplos não tem valor fechado e não pode ser improvisado em cena. Ritmo: 2,3 a 2,7 palavras por segundo (138 a 162 por minuto). Total: cerca de 1.100 palavras de fala (com as frases de produto preenchidas), que ocupam 6,8 a 8 minutos dos 12. O resto é a leitura dos 12 preços (um por segundo e meio), os slides de produto, o chat e o silêncio. A tabela de tempos está logo abaixo.
 
 | Parte | Janela | Tempo | Palavras de fala | Fala a 2,7 e 2,3 palavras por segundo | O que mais ocupa o tempo |
 |---|---|---|---|---|---|

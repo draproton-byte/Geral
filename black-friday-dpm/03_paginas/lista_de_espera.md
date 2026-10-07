@@ -3,11 +3,11 @@
 **Peça:** Página de lista de espera e microcopy (formulário, confirmação, e-mail e WhatsApp de confirmação, degrau de entrada condicional)
 **Canal:** Página (destino da captura quando a live já começou; destino de quem diz "não tenho dinheiro agora"; destino de quem chega depois do fechamento)
 **Público:** (1) quem chega depois do fechamento do carrinho `[[PENDENTE: fechamento]]`; (2) quem assistiu e a faixa de preço não cabe agora; (3) quem declarou na pesquisa que não tem o dinheiro disponível (68% do Aulão, 30% da ficha) ou renda até R$ 3.000 (4.761 do Aulão)
-**Momento:** Desde 03/11 depois das 20h e durante todo o carrinho; antes disso, só por links diretos (FAQ da captura A e da B, pesquisa Q7)
+**Momento:** Desde o fim da live (03/11, 21h56) e durante todo o carrinho; antes disso, só por links diretos (FAQ da captura A e da B, pesquisa Q7)
 **Objetivo:** Não perder a pessoa. Manter a lista de avisos, o diagnóstico e, se existir, o degrau de entrada. Nunca empurrar a Vitalícia para quem disse que não cabe
 **Consciência:** 3 a 5
 **Trabalho contratado:** "Eu quero continuar perto, sem ser pressionada, até fazer sentido para mim"
-**Modelo no Desafio:** Mensagem de grupo cheio e "vagas abertas" do Desafio, lista de espera da BFV/26 (referência do domínio de UTM, "lista de espera") e o tom "eu prefiro que você não compre do que compre e não viva"
+**Modelo no Desafio:** Mensagem de grupo cheio e de abertura de novos grupos do Desafio, lista de espera da BFV/26 (referência do domínio de UTM, "lista de espera") e o tom "eu prefiro que você não compre do que compre e não viva"
 **Regra desta peça:** nenhum preço antes da live. Depois da live, só `[[PREÇO LOTE ALUNAS]]` ou `[[PREÇO LOTE NÃO-ALUNAS]]` se for mencionado, nunca como pressão
 
 ---
@@ -23,7 +23,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 
 ## Bloco 00: Tarja (fixa, só nas fases pós-live)
 
-**Estado A (live em andamento ou carrinho aberto)**
+**Estado A (carrinho aberto, depois da live)**
 `A Black Próton Vitalícia está aberta. Se agora não cabe, deixe seu nome aqui.`
 
 **Estado B (carrinho encerrado)** `[[PENDENTE: fechamento]]`
@@ -91,6 +91,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 
 **Botão**
 `QUERO FICAR NA LISTA`
+Leva para: a tela de sucesso, na mesma página (e o e-mail de confirmação sai em seguida).
 
 **Estado enviando**
 `Salvando o seu nome...`
@@ -99,7 +100,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Gratuito. Sem compromisso. Você só recebe avisos, e pode sair a qualquer momento (digite SAIR no WhatsApp ou use o link de descadastro do e-mail).`
 
 **Consentimento**
-`Ao continuar, você concorda em receber avisos do Instituto Dra. Próton por e-mail e, se informar, por WhatsApp, e com a Política de Privacidade. Seus dados só são usados para esses avisos.` [[LINK: política de privacidade]]
+`Ao continuar, você concorda em receber avisos do Instituto Dra. Próton por e-mail e, se informar, por WhatsApp, e com a Política de Privacidade. Seus dados só são usados para esses avisos. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: privacidade | pagina | espera-b02]]
 
 **Mensagens de erro**
 - Nome vazio: `Diga como posso te chamar.`
@@ -115,7 +116,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 
 `Veja o que acontece quando você entra na lista:`
 
-1. `Você recebe um e-mail de confirmação, com o seu diagnóstico dos 5 perfis, se ainda não fez. [[LINK: diagnóstico]]`
+1. `Você recebe um e-mail de confirmação, com o seu diagnóstico dos 5 perfis, se ainda não fez. [[LINK: diagnóstico | pagina | espera-b03]]`
 2. `Você recebe um aviso quando houver uma nova condição ou uma nova edição.`
 3. `Você não recebe pressão de venda.`
 
@@ -143,7 +144,8 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `[[PENDENTE: degrau de entrada, preço (revelado só depois da live, se for esse o caso)]]`
 
 **Botão**
-`QUERO CONHECER O CAMINHO DE ENTRADA` [[LINK: página do degrau]]
+`QUERO CONHECER O CAMINHO DE ENTRADA` [[LINK: degrau de entrada | pagina | espera-b04]]
+Leva para: a página do degrau de entrada `[[PENDENTE: degrau de entrada, nome]]`, que ainda não existe.
 
 **Microcopy**
 `[[PENDENTE: degrau de entrada, forma de pagamento]] [[PENDENTE: degrau de entrada, garantia]]`
@@ -165,8 +167,8 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Você continua com acesso ao seu diagnóstico, e eu continuo no seu radar com conteúdo gratuito e avisos. Quando fizer sentido, você decide.`
 
 **Botões**
-- `REFAZER MEU DIAGNÓSTICO` [[LINK: diagnóstico]]
-- `ENTRAR NO GRUPO DE AVISOS` [[LINK: grupo de avisos]] (`[[CONFIRMAR: existe grupo de avisos gratuito fora da campanha]]`)
+- `REFAZER MEU DIAGNÓSTICO` [[LINK: diagnóstico | pagina | espera-b04]]
+- `ENTRAR NO GRUPO DE AVISOS` [[LINK: grupo geral | pagina | espera-b04]] (`[[CONFIRMAR: existe grupo de avisos gratuito fora da campanha]]`)
 
 `[[FIM SE]]`
 
@@ -194,8 +196,8 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 - Você prefere decidir com a sua família
 
 **Copy, "Não faz sentido se..."**
-- Você quer entrar agora e a página de vendas ainda está aberta. Nesse caso, volte para a oferta. `[[LINK: pagina_de_vendas]]` (mostrar só se o carrinho estiver aberto)
-- Você espera que a lista "garanta o menor preço". A lista não garante preço nem vaga
+- Você quer entrar agora e a página de vendas ainda está aberta. Nesse caso, volte para a oferta. [[LINK: página de vendas | pagina | espera-b06]] (mostrar só se o carrinho estiver aberto)
+- Você espera que a lista "garanta o menor preço". A lista não garante preço nem lugar
 
 ---
 
@@ -211,7 +213,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Não posso prometer. Se houver nova oferta, você será avisada(o), e ela será outra oferta, com outro preço.`
 
 **Posso comprar ainda hoje?**
-`[[SE: CARRINHO ABERTO]]` `Sim, o carrinho está aberto até [[PENDENTE: fechamento]]. [[LINK: página de vendas]]` `[[FIM SE]]`
+`[[SE: CARRINHO ABERTO]]` `Sim, o carrinho está aberto até [[PENDENTE: fechamento]]. [[LINK: página de vendas | pagina | espera-b07]]` `[[FIM SE]]`
 `[[SE: CARRINHO FECHADO]]` `Não. O carrinho foi encerrado.` `[[FIM SE]]`
 
 **Como saio da lista?**
@@ -221,7 +223,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 
 ## Bloco 08: Rodapé
 
-`Instituto Dra. Próton · Todos os direitos reservados · CNPJ: 24.450.366/0001-20 · [[LINK: Política de Privacidade]] · [[LINK: Termos de Uso]]`
+`Instituto Dra. Próton · Todos os direitos reservados · CNPJ: 24.450.366/0001-20 · [[LINK: privacidade | pagina | espera-b08]] · [[LINK: termos | pagina | espera-b08]]`
 
 ---
 
@@ -235,7 +237,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 **Texto**
 `Você vai receber um e-mail de confirmação agora. Sem pressão e sem pegadinha.`
 
-`[[SE: COM DEGRAU]]` `Se quiser começar agora, veja o caminho de entrada.` [[BOTÃO: QUERO CONHECER O CAMINHO DE ENTRADA]] `[[FIM SE]]`
+`[[SE: COM DEGRAU]]` `Se quiser começar agora, veja o caminho de entrada.` [[BOTÃO: QUERO CONHECER O CAMINHO DE ENTRADA]] [[LINK: degrau de entrada | pagina | espera-sucesso]] `[[FIM SE]]`
 
 ### E-mail de confirmação (curto, para o mesmo domínio de captação)
 
@@ -251,6 +253,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 
 `Enquanto isso, o seu diagnóstico continua aqui:`
 [[BOTÃO: VER MEU DIAGNÓSTICO]]
+[[LINK: diagnóstico | email | espera-email]]
 
 `Eu não posso prometer que a Vitalícia volta. Se houver outra oferta, será outra oferta, com outro preço.`
 
@@ -269,7 +272,7 @@ Se existir uma nova condição, eu te aviso por aqui.
 
 Seu diagnóstico continua aqui:
 
-{{link}}
+[[LINK: diagnóstico | api | espera-wpp]]
 
 Quer rever o seu padrão agora?
 
@@ -300,4 +303,21 @@ Se a pessoa já tem diagnóstico, o e-mail de confirmação pode abrir com uma l
 4. **Quem não entra em esforço comercial:** renda até R$ 3.000 (4.761 pessoas do Aulão). Elas caem nesta lista, sem abordagem 1 a 1.
 5. **Testes A/B:** (1) versão 1 contra versão 3 do hero para quem vem da pesquisa; (2) campo de motivo visível contra escondido; (3) botão "QUERO FICAR NA LISTA" contra "ME AVISE SE HOUVER".
 6. **Dependências:** `obrigado_e_pesquisa.md` (Q7 manda para cá), `pagina_de_vendas_vitalicia.md` (estado "carrinho encerrado"), `06_emails` (sequência de lista de espera), `05_whatsapp_api` (mensagem de confirmação).
-7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Desafio tinha "mensagem de grupo cheio" e "vagas abertas". A Black precisa de uma página própria porque o preço, e não a lotação, é a barreira, e porque a live não permite "vaga acabando".
+7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Desafio tinha "mensagem de grupo cheio" e a abertura de novos grupos. A Black precisa de uma página própria porque o preço, e não a lotação, é a barreira, e porque a live não tem limite de lugares.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| espera-b02 | `[[LINK: privacidade \| pagina \| espera-b02]]` | Abre a política de privacidade a partir do consentimento do formulário | Jurídico |
+| espera-b03 | `[[LINK: diagnóstico \| pagina \| espera-b03]]` | Leva ao diagnóstico dos 5 perfis (passo 1 do que acontece na lista) | Web designer |
+| espera-b04 | `[[LINK: degrau de entrada \| pagina \| espera-b04]]` | Botão do degrau (só no cenário COM DEGRAU); destino ainda não existe | Web designer, depois da decisão do degrau |
+| espera-b04 | `[[LINK: diagnóstico \| pagina \| espera-b04]]` e `[[LINK: grupo geral \| pagina \| espera-b04]]` | Cenário SEM DEGRAU: refazer o diagnóstico e entrar no grupo de avisos | Web designer e Automação |
+| espera-b06 | `[[LINK: página de vendas \| pagina \| espera-b06]]` | Volta à oferta, só com o carrinho aberto | Web designer |
+| espera-b07 | `[[LINK: página de vendas \| pagina \| espera-b07]]` | FAQ: comprar ainda hoje, só com o carrinho aberto | Web designer |
+| espera-b08 | `[[LINK: privacidade \| pagina \| espera-b08]]` e `[[LINK: termos \| pagina \| espera-b08]]` | Rodapé: política de privacidade e termos de uso | Jurídico |
+| espera-sucesso | `[[LINK: degrau de entrada \| pagina \| espera-sucesso]]` | Botão da tela de sucesso (só COM DEGRAU) | Web designer, depois da decisão do degrau |
+| espera-email | `[[LINK: diagnóstico \| email \| espera-email]]` | Botão VER MEU DIAGNÓSTICO do e-mail de confirmação | Automação e Web designer |
+| espera-wpp | `[[LINK: diagnóstico \| api \| espera-wpp]]` | Link do WhatsApp de confirmação para rever o diagnóstico | Automação |

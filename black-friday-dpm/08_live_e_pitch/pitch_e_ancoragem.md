@@ -55,7 +55,7 @@ Um. Fórmula da Riqueza. [[CONFIRMAR: uma frase]]
 
 Dois. Workshop Terapeuta de Elite. [[CONFIRMAR: uma frase]]
 
-Três. Os Três Áudios de Reprogramação. Para ouvir no seu ritmo, no celular, quantas vezes você precisar.
+Três. Os 3 Áudios de Reprogramação. Para ouvir no seu ritmo, no celular, quantas vezes você precisar.
 
 Quatro. Código de Ativação Próton. [[CONFIRMAR: uma frase]]
 
@@ -114,7 +114,7 @@ Se você comprasse tudo separado, seriam [[PENDENTE: preço avulso]] (a soma)."
 1. O preço avulso só pode ser dito se for o preço real de venda avulsa praticado nos últimos [[CONFIRMAR: período mínimo de venda avulsa praticada]] dias. Se algum produto nunca foi vendido avulso, escrever "valor de referência" na tela e na fala, nunca "de X por Y" em reais.
 2. Nunca dizer "de" e "por" para o valor da Vitalícia. A ancoragem é a soma dos avulsos, não um preço "cortado".
 3. O número que ancora a decisão não é a soma, é o custo de ficar parada. A soma é só a régua.
-4. A comparação com cobrança recorrente fica fora até `[[CONFIRMAR: comparação com mensalidade]]` ser respondido por quem conhece o modelo de cobrança do Clube.
+4. A comparação com cobrança recorrente fica fora até `[[CONFIRMAR: comparação de valor com cobrança recorrente]]` ser respondido por quem conhece o modelo de cobrança do Clube.
 
 [FALA da conta do custo de ficar parada]
 
@@ -198,7 +198,7 @@ Eu não estou prometendo que a sua vida vai se resolver sozinha. Eu não prometo
 
 "E se você está pensando 'eu já comprei outras coisas e não coloquei em prática', eu quero que você leia com atenção, porque essa é a frase que eu mais ouço.
 
-Nos outros você precisou aplicar sozinho depois. E é sempre aí que trava, porque o padrão que você quer mudar é o mesmo que sabota a mudança. Você tentou vencer o freio com força de vontade, e força de vontade é justamente o que ele consome.
+Nos outros você precisou aplicar por conta própria depois. E é sempre aí que trava, porque o padrão que você quer mudar é o mesmo que sabota a mudança. Você tentou vencer o freio com força de vontade, e força de vontade é justamente o que ele consome.
 
 Aqui você tem a trilha e um ciclo de cada vez. Você não precisa de disciplina para começar. Precisa do primeiro passo em 48 horas, com o suporte do outro lado." [[CONFIRMAR: o que o suporte inclui]]
 
@@ -226,6 +226,8 @@ Agora, se a sua decisão já está tomada, o link está no chat. Aluna clica no 
 
 **Nunca mais eu deixo de investir em mim.** [INTOCÁVEL] Se essa frase é sua, o link está aí."
 
+[LINK: no instante em que o link abre, liberar no chat fixado, cada um em linha própria. Alunas: `[[LINK: checkout S1-ESP | yt-live | live-pitch-p8]]`. Quem ainda não é do Clube: `[[LINK: checkout S3-ESP | yt-live | live-pitch-p8]]`]
+
 [TIME: iniciar o cronômetro de 15 minutos]
 
 ---
@@ -252,7 +254,9 @@ Agora, se a sua decisão já está tomada, o link está no chat. Aluna clica no 
 
 **Corte de 90 segundos (para vídeo pós-live, com legenda):**
 
-"Eu prometi que dia 3 eu abriria tudo. Abri. Um pagamento, acesso para sempre ao Clube Secreto e a onze produtos. Não é a última vez que você sente medo. É a última vez que você precisa recomeçar. Esta condição não se repete. O que vier depois é outra oferta. Você decide uma vez. O link está na descrição. Se for o seu momento, entra. Se não for, tudo bem."
+"Eu prometi que dia 3 eu abriria tudo. Abri. Um pagamento, acesso para sempre ao Clube Secreto e a onze produtos. Não é a última vez que você sente medo. É a última vez que você precisa recomeçar. Esta condição não se repete. O que vier depois é outra oferta. Você decide uma vez. O link está logo abaixo. Se for o seu momento, entra. Se não for, tudo bem."
+
+Link de destino: `[[LINK: página de vendas | wpp | live-pitch-corte90]]`
 
 ---
 
@@ -276,3 +280,15 @@ Agora, se a sua decisão já está tomada, o link está no chat. Aluna clica no 
 - Ancoragem só com custo de ficar parada (sem soma de avulsos) versus ancoragem em três camadas.
 
 **Dependências:** `roteiro_live_de_revelacao.md` (blocos 9 a 15), `slides_da_live.md`, `bonus_15_minutos_e_escassez.md`, `quebra_de_objecoes.md`.
+
+---
+
+## Links desta peça
+
+Tokens no formato do `16_MAPA_DE_LINKS.md`. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| live-pitch-p8 | `[[LINK: checkout S1-ESP \| yt-live \| live-pitch-p8]]` | Checkout das alunas, Lote Especial, fixado no chat quando o link abre (Parte 8, plano B de 12 minutos) | Financeiro / Hotmart |
+| live-pitch-p8 | `[[LINK: checkout S3-ESP \| yt-live \| live-pitch-p8]]` | Checkout de quem ainda não é do Clube (inclui S2 até decisão contrária), Lote Especial, fixado no chat quando o link abre | Financeiro / Hotmart |
+| live-pitch-corte90 | `[[LINK: página de vendas \| wpp \| live-pitch-corte90]]` | Leva quem vê o vídeo de 90 segundos pós-live à página de vendas, onde cada segmento escolhe o checkout do lote vigente | Web designer |

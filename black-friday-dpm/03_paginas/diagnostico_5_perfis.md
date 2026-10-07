@@ -43,10 +43,11 @@ Tempo estimado do diagnóstico (parte B): 2 a 3 minutos. `[[CONFIRMAR: tempo rea
 `Este diagnóstico identifica padrões de comportamento. Não é avaliação clínica, não faz diagnóstico psicológico ou médico e não substitui acompanhamento profissional.`
 
 **Consentimento (antes do botão)**
-`Ao começar, você concorda que o Instituto Dra. Próton guarde as suas respostas para montar o seu resultado e preparar a live. Elas não são vendidas nem divulgadas.` [[LINK: política de privacidade]]
+`Ao começar, você concorda que o Instituto Dra. Próton guarde as suas respostas para montar o seu resultado, preparar a live e personalizar as mensagens, o atendimento e a sua trilha de entrada. Elas não são vendidas nem divulgadas. Seus direitos, inclusive o de pedir a exclusão das respostas, estão na Política de Privacidade.` [[LINK: privacidade | pagina | diag-p2]]
 
 **Botão**
 `COMEÇAR O DIAGNÓSTICO`
+Leva para: a pergunta D1, na mesma página.
 
 ### Elementos de cada pergunta
 
@@ -54,7 +55,7 @@ Tempo estimado do diagnóstico (parte B): 2 a 3 minutos. `[[CONFIRMAR: tempo rea
 - Barra de progresso
 - Opções em botões grandes (altura mínima 56 px, uma por linha)
 - Botão `Voltar` discreto
-- Avança sozinho ao tocar (sem botão "Próxima"), exceto D7, que termina com o botão `VER MEU RESULTADO`
+- Avança sozinho ao tocar (sem botão "Próxima"), exceto D7, que termina com o botão `VER MEU RESULTADO` (leva para a tela de resultado, na mesma página)
 
 ### Tela de carregamento do resultado (2 segundos)
 
@@ -152,8 +153,8 @@ Origem das perguntas: adaptadas do Quiz A Nova Realidade (P5, P6), do Teste de B
 1. **Soma:** some os pontos de cada perfil nas 7 respostas.
 2. **Normalização e percentual:** como os perfis não têm o mesmo máximo (T 11, A 16, C 14, R 15, G 18), divida os pontos de cada perfil pelo seu máximo antes de comparar. Sem isso, o Termostato Invisível nunca alcança a Culpa de Querer Mais, e ele é o perfil mais frequente no Desafio. Percentual: valor normalizado do perfil dividido pela soma dos 5 valores normalizados, arredondado para número inteiro. Mostrar barras para os 5.
 3. **Perfil principal:** o de maior valor normalizado. **Perfil secundário:** o segundo.
-4. **Empate no primeiro lugar:** usar a resposta da D3 como desempate. Se continuar empatado, usar a D2. Se continuar, mostrar os dois como "dois padrões com o mesmo peso" e usar a devolutiva do primeiro na ordem: Termostato, Autossabotagem, Cobrança, Traumas, Culpa.
-5. **Sem pontuação (todas as respostas "não sei", "nenhuma" ou sem pontos) ou pontuação muito baixa (soma dos pontos brutos menor que 6):** mostrar a devolutiva **6: "O padrão que ainda não tem nome"**. Esse caso é esperado: 29% a 40% da base responde "não sei exatamente o que está me impedindo". `[[CONFIRMAR: limite de 6 pontos, a calibrar no teste com 30 a 50 pessoas]]`
+4. **Empate no primeiro lugar:** entre os perfis empatados, vence o que tiver mais pontos brutos na D3. Se continuar empatado, vale o que tiver mais pontos brutos na D2. Se continuar, mostrar os dois como "dois padrões com o mesmo peso" e usar a devolutiva do primeiro na ordem: Termostato, Autossabotagem, Cobrança, Traumas, Culpa.
+5. **Sem pontuação (todas as respostas "não sei", "nenhuma" ou sem pontos) ou pontuação muito baixa (soma dos pontos brutos dos 5 perfis, juntos, menor que 6):** mostrar a devolutiva **6: "O padrão que ainda não tem nome"**. Esse caso é esperado: 29% a 40% da base responde "não sei exatamente o que está me impedindo". `[[CONFIRMAR: limite de 6 pontos, a calibrar no teste com 30 a 50 pessoas]]`
 6. **Guardar na base:** perfil principal, secundário, percentuais, respostas, data, UTM e o perfil que a pessoa disse reconhecer (Q1 da pesquisa), para comparar percepção e resultado.
 7. **Em nenhuma tela escrever:** "você sofre de", "você tem" seguido de condição, "diagnóstico de", "transtorno", "doença" ou qualquer promessa de resolver o padrão. Usar: "seu padrão é", "o padrão que mais aparece", "isto parece com".
 
@@ -178,9 +179,13 @@ De cima para baixo:
 `Seu segundo padrão: {{nome}} ({{percentual}}%). Muita gente se reconhece em mais de um. O que muda é qual deles decide primeiro.`
 
 **Botões da tela de resultado**
-1. `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo]]
-2. `SALVAR A DATA: 03/11, 20H` [[LINK: arquivo de calendário]]
-3. `VER COMO FUNCIONA A LIVE` (volta ao topo da página de obrigado)
+1. `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo geral | pagina | diag-p5]]
+   `[[SE: ALUNA]]` [[LINK: grupo alunas | pagina | diag-p5]] `[[FIM SE]]` `[[SE: DESAFIO / IMERSAO / AULAO]]` [[LINK: grupo viveu o método | pagina | diag-p5]] `[[FIM SE]]`
+   Leva para: o grupo de WhatsApp da live do segmento da pessoa.
+2. `SALVAR A DATA: 03/11, 20H` [[LINK: calendário | pagina | diag-p5]]
+   Leva para: o arquivo de calendário da live.
+3. `VER COMO FUNCIONA A LIVE` [[LINK: obrigado e diagnóstico | pagina | diag-p5]]
+   Leva para: o topo da página de obrigado e diagnóstico.
 
 ---
 
@@ -225,7 +230,7 @@ Regras: sem diagnóstico clínico, sem prometer resultado, sem prometer ganho. "
 
 **O que fazer na live**
 1. `Escute com esta pergunta: "em que ponto eu costumo parar?" Anote o ponto, não a desculpa.`
-2. `Preste atenção no que a Dra. disser sobre tirar o prazo: sem prazo, some a pressão de "preciso usar logo", que é onde a autossabotagem age.`
+2. `Preste atenção no que a Dra. disser sobre tirar o prazo: sem prazo, some a pressão de "preciso usar logo", que costuma ser onde esse padrão age.`
 3. `Marque o que da oferta ajuda a continuar sem depender de força de vontade. Pergunte, no chat, como é o primeiro passo de 48 horas.`
 
 ---
@@ -243,7 +248,7 @@ Regras: sem diagnóstico clínico, sem prometer resultado, sem prometer ganho. "
 
 **O que fazer na live**
 1. `Escute com esta pergunta: "o que eu faria se parasse de me cobrar por um dia?" Anote a primeira resposta.`
-2. `Repare como a Vitalícia trata o ritmo: sem prazo, sem o mês que você perdeu. É uma decisão para você não se cobrar de novo.`
+2. `Repare como a Vitalícia trata o ritmo: sem prazo, sem o mês que você perdeu. É uma decisão que não depende de você dar conta de tudo dentro de um prazo.`
 3. `Pergunte, no chat ou para o comercial, como a trilha de entrada respeita o seu ritmo.`
 
 ---
@@ -281,7 +286,7 @@ Regras: sem diagnóstico clínico, sem prometer resultado, sem prometer ganho. "
 
 **O que fazer na live**
 1. `Escute com esta pergunta: "o que eu quero para mim que eu ainda não me deixei querer?" Escreva a primeira coisa que vier.`
-2. `Lembre do que a Dra. diz nas aulas do Desafio: quando você sobe, a casa sobe junto. Repare como isso aparece na live.`
+2. `Lembre do que a Dra. diz nas aulas: quando você sobe, a casa sobe junto. Repare como isso aparece na live.`
 3. `Se você é casada(o) ou tem família, combine antes com quem convive com você que, às 20h, esse horário é seu.`
 
 **Origem:** "Quando você sobe, a casa sobe junto" é frase real da Aula 02 do Desafio (00_ESTRATEGIA_COPY_SENIOR.md, seção 3.3).
@@ -290,7 +295,7 @@ Regras: sem diagnóstico clínico, sem prometer resultado, sem prometer ganho. "
 
 ### Perfil 6 (sem pontuação): O padrão que ainda não tem nome
 
-Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso esperado: 29% a 40% da base não sabe nomear o que a trava.
+Aparece quando todas as respostas foram "não sei" ou sem pontuação, ou quando a soma dos pontos brutos fica abaixo de 6 (Parte 4, regra 5). Caso esperado: 29% a 40% da base não sabe nomear o que a trava.
 
 **Título**
 `Seu padrão ainda não tem nome. E isso é um começo.`
@@ -307,7 +312,8 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 3. `Pergunte no chat: "como eu descubro o meu padrão?"`
 
 **Botão extra**
-`REFAZER O DIAGNÓSTICO DEPOIS DA LIVE`
+`REFAZER O DIAGNÓSTICO DEPOIS DA LIVE` [[LINK: diagnóstico | pagina | diag-p6]]
+Leva para: o início do diagnóstico, para refazer (liberado depois da live).
 
 ---
 
@@ -330,10 +336,14 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 `Escolha uma opção para continuar.`
 
 **Se a pessoa já fez o diagnóstico**
-`Você já fez o diagnóstico. Seu padrão mais forte foi {{perfil}}. Quer refazer?` Botões: `VER MEU RESULTADO` e `REFAZER`.
+`Você já fez o diagnóstico. Seu padrão mais forte foi {{perfil}}. Quer refazer?` Botões: `VER MEU RESULTADO` (leva para a tela de resultado) e `REFAZER` [[LINK: diagnóstico | pagina | diag-p8]] (leva para a tela de abertura do diagnóstico).
+
+**Se a pessoa já fez o Teste de Bloqueios do Desafio (origem DESAFIO)**
+`Você já fez um teste parecido no Desafio. Este é novo, gratuito e leva poucos minutos. Quer fazer?` Botões: `FAZER O DIAGNÓSTICO` (leva para a tela de abertura) e `AGORA NÃO` (leva para a tela de passos finais).
 
 **Texto de compartilhamento (opcional, pelo WhatsApp)**
-`Eu fiz o diagnóstico e meu padrão mais forte é {{perfil}}. Descubra o seu: {{link}}`
+`Eu fiz o diagnóstico e meu padrão mais forte é {{perfil}}. Descubra o seu:`
+[[LINK: captura A | wpp | diag-p8]]
 `[[CONFIRMAR: permitir compartilhamento. Se for ativado, a mensagem não pode conter o percentual nem o texto da devolutiva]]`
 
 **Rodapé do diagnóstico**
@@ -343,7 +353,7 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[CONFIRMAR: definição oficial dos 5 perfis na Imersão]]`, `[[CONFIRMAR: tempo do diagnóstico]]`, `[[LINK: grupo da live]]`, `[[LINK: arquivo de calendário]]`, `[[CONFIRMAR: live começa com a pergunta "Quantas vezes você já recomeçou?" e a conta do Termostato, conforme 01_PESQUISAS_INSIGHTS.md, seção 3]]`.
+1. **Pendências:** `[[CONFIRMAR: definição oficial dos 5 perfis na Imersão]]`, `[[CONFIRMAR: tempo do diagnóstico]]`, os links do grupo da live e do arquivo de calendário, `[[CONFIRMAR: live começa com a pergunta "Quantas vezes você já recomeçou?" e a conta do Termostato, conforme 01_PESQUISAS_INSIGHTS.md, seção 3]]`.
 2. **Pontuação:** a tabela é uma proposta, e a normalização da Parte 4 corrige o teto menor do Termostato (11 pontos contra 18 da Culpa). Antes de ir ao ar, rodar com 30 a 50 pessoas da base e checar se o resultado distribui entre os 5 perfis (no Desafio, a média por perfil foi: Termostato 31,6%; Autossabotagem 23,3%; Cobrança 21,7%; Culpa 14,2%; Traumas 9,1%). Se um perfil estiver abaixo de 5% de resultado principal, rebalancear pesos. Sem rebalanceamento, "Traumas" tende a ficar sub-representado, como ficou no Desafio (376 de 4.032 resultados).
 3. **Perfis em dados do Desafio (resultado principal, 4.032 respostas):** Termostato Invisível 1.089; Autossabotagem 1.082; Cobrança Que Você Só Faz Com Você 1.001; Culpa de Querer Mais 484; Traumas Que Ainda Decidem 376. Usar como referência de volume por perfil no planejamento de criativos e de comercial.
 4. **Percepção contra resultado:** comparar o perfil que a pessoa disse reconhecer (pesquisa Q1) com o resultado do diagnóstico. A diferença é dado de copy: onde a pessoa se enxerga contra onde o padrão aparece.
@@ -352,3 +362,17 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 7. **Dependências:** `obrigado_e_pesquisa.md`, `onboarding_vitalicia.md` (trilha por perfil), `captura_A_diagnostico_primeiro.md` (usa os mesmos espelhos de 2 linhas nos chips).
 8. **LGPD:** o resultado é dado pessoal sensível por proximidade (fala de saúde emocional). A tela de abertura já traz o aviso de consentimento; pedir consentimento específico e não usar o resultado em anúncio individualizado sem base legal. `[[CONFIRMAR: parecer jurídico]]`.
 9. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Teste de Bloqueios do Desafio era um formulário único de 8 perguntas que misturava qualificação e perfil. Na Black ele é separado em duas camadas (qualificação em `obrigado_e_pesquisa.md`; padrão neste arquivo) para o resultado aparecer antes das perguntas de renda e objeção, o que reduz abandono.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| diag-p2 | `[[LINK: privacidade \| pagina \| diag-p2]]` | Abre a política de privacidade a partir do consentimento da tela de abertura | Jurídico |
+| diag-p5 | `[[LINK: grupo geral \| pagina \| diag-p5]]`, `[[LINK: grupo alunas \| pagina \| diag-p5]]` e `[[LINK: grupo viveu o método \| pagina \| diag-p5]]` | Botão 1 da tela de resultado: entra no grupo da live do segmento | Automação (rodízio SendFlow) |
+| diag-p5 | `[[LINK: calendário \| pagina \| diag-p5]]` | Botão 2: baixa o arquivo de calendário da live | Automação |
+| diag-p5 | `[[LINK: obrigado e diagnóstico \| pagina \| diag-p5]]` | Botão 3: volta ao topo da página de obrigado | Web designer |
+| diag-p6 | `[[LINK: diagnóstico \| pagina \| diag-p6]]` | Botão extra da devolutiva 6: refazer o diagnóstico depois da live | Web designer |
+| diag-p8 | `[[LINK: diagnóstico \| pagina \| diag-p8]]` | Botão REFAZER para quem já fez o diagnóstico | Web designer |
+| diag-p8 | `[[LINK: captura A \| wpp \| diag-p8]]` | Texto de compartilhamento (opcional): quem recebe cai na captura A | Web designer |

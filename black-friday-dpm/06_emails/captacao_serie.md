@@ -46,7 +46,7 @@ São 11 datas e 14 envios segmentados (8 de S1 e 6 de S2). Quem já se inscreveu
 
 **Gênero.** O público é misto (79% mulheres, 21% homens) e parte dele é base fria. O texto da série usa construções neutras ("você", "quem"); o feminino fica para as peças de quem já comprou.
 
-**Links.** `[[LINK: captura]]`, `[[LINK: grupo WhatsApp]]`, `[[LINK: diagnóstico dos 5 padrões]]`. Sugestão de UTM: `utm_source=email`, `utm_medium=email`, `utm_campaign=black-vitalicia`, `utm_content=em-bf-NN`. Assinatura padrão: "Dra. Próton".
+**Links.** Cada e-mail tem um único link principal, no token abaixo do botão, no formato `[[LINK: <destino> | email | <ID do e-mail>]]`. `[BOTÃO 1]` = `captura A`, `[BOTÃO 2]` = `grupo geral`, `[BOTÃO 3]` = `diagnóstico`. O sistema escolhe o botão pelo estado do contato e cada pessoa vê só um; o token do botão alternativo vem na tabela "Links desta peça", no fim do arquivo. Nas datas em que S1 ou S2 recebem esta série (sem exclusão), a ferramenta troca `captura A` por `captura C` (S1) ou `captura D` (S2) e `grupo geral` por `grupo alunas` ou `grupo viveu o método`, mantendo o mesmo ID. A UTM é montada pela fórmula do `16_MAPA_DE_LINKS.md`, seção 3. Assinatura padrão: "Dra. Próton".
 
 ---
 
@@ -79,7 +79,7 @@ São 11 datas e 14 envios segmentados (8 de S1 e 6 de S2). Quem já se inscreveu
 
 **Se for preciso cortar a série** (prioridade, do mais ao menos essencial): 01, 07, 12, 21, 22, 02, 03, 11, 09, 14, 15, 16, 10, 18, 20, 04, 05, 06, 08, 13, 17, 19.
 
-**Inclusão no dia 03/11.** EM-BF-22 é o e-mail das 07h para quem ainda não se inscreveu. Os seis e-mails operacionais do dia (09h, 19h, 20h, 20h25, 21h15, 22h30) estão em `lembretes_da_live.md` com os IDs LV-03-01 a LV-03-06.
+**Inclusão no dia 03/11.** EM-BF-22 é o e-mail das 07h para quem ainda não se inscreveu. Os seis e-mails operacionais do dia (09h, 19h, 20h, 20h25, 20h51, 21h28) estão em `lembretes_da_live.md` com os IDs LV-03-01 a LV-03-06.
 
 **Tom de 02/11 (Finados).** EM-BF-21 e LV-02 saem num dia de recolhimento para muita gente: sem emoji, sem exclamação, frases curtas, nenhum apelo de urgência.
 
@@ -110,11 +110,12 @@ No dia 03/11, às 20h, eu faço uma live no YouTube para abrir, de uma vez só, 
 Até lá, o primeiro passo é saber qual padrão é o seu. São cinco, e leva poucos minutos para descobrir.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO DOS 5 PADRÕES
+`[[LINK: diagnóstico | email | EM-BF-01]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-P.S. Você já me ouviu dizer: "Reset. Chega de migalhas." Começa aqui.
+P.S. Tenho uma frase que resume o que vem pela frente: "Reset. Chega de migalhas." Começa aqui.
 
 ### EM-BF-02. Termostato Invisível (14/10, quarta, 07h)
 
@@ -135,6 +136,7 @@ Pense num termostato de casa: você pode esquentar o ambiente, mas, se a tempera
 Esse é um dos 5 padrões que eu trabalho na live do dia 03/11, às 20h. Descubra se é o seu.
 
 **Botão 3:** DESCOBRIR MEU PADRÃO
+`[[LINK: diagnóstico | email | EM-BF-02]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -155,11 +157,12 @@ Se essa frase é sua, você não está só. Na pesquisa do Aulão, 27% das pesso
 
 A autossabotagem não aparece quando é fácil. Ela chega bem na hora de agir. É a voz que diz "isso não é para mim", "depois eu começo", "amanhã eu faço". Ela sempre teve um depois para se esconder.
 
-Eu acompanho milhares de alunos e vejo isto se repetir: força de vontade, sozinha, não ganha desse padrão. Ele é mais antigo do que a decisão de hoje.
+Eu acompanho milhares de alunos e vejo isto se repetir: força de vontade, sozinha, dificilmente ganha desse padrão. Ele é mais antigo do que a decisão de hoje.
 
 Na live de 03/11, às 20h, eu mostro ao vivo como parar de depender da decisão do dia.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-03]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -178,11 +181,12 @@ Você cumpre tudo. Trabalha, cuida, resolve, responde, entrega. Por fora, funcio
 
 Eu chamo esse padrão de Cobrança Que Você Só Faz Com Você. Você nunca falaria com outra pessoa do jeito que fala consigo: "Você devia ter feito mais." "Isso não é suficiente." "Olha como os outros conseguem."
 
-O efeito é perverso. Quanto mais você se cobra, mais cansado fica. Quanto mais cansado, menos faz, e mais se cobra. É um ciclo que se alimenta sozinho.
+O efeito é perverso. Quanto mais você se cobra, mais cansaço. Quanto mais cansaço, menos faz, e mais se cobra. É um ciclo que se alimenta sozinho.
 
 Se você se viu aqui, o diagnóstico mostra se esse é o seu padrão principal. E na live do dia 03/11, às 20h, eu abro uma forma de sair desse ciclo sem depender de mais disciplina.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO
+`[[LINK: diagnóstico | email | EM-BF-04]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -208,6 +212,7 @@ Eu cresci na periferia do interior de São Paulo, criada pelos meus avós. Sei c
 Esse padrão tem saída, e eu mostro como ela aparece na prática na live de 03/11, às 20h.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-05]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -233,6 +238,7 @@ A culpa é o freio mais bem disfarçado que existe. Ela se veste de humildade, d
 Querer mais não tira nada de ninguém. Na live de 03/11, às 20h, eu falo disso sem rodeio.
 
 **Botão 3:** DESCOBRIR SE ESSE É O MEU PADRÃO
+`[[LINK: diagnóstico | email | EM-BF-06]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -255,9 +261,10 @@ Se é o seu caso, você não está atrasado. Você só precisa de um nome. O dia
 
 E o que muda depois? Você para de lutar contra tudo ao mesmo tempo e começa a trabalhar no ponto certo.
 
-**Botão 3:** FAZER MEU DIAGNÓSTICO AGORA
-
 Na live de 03/11, às 20h, eu parto desse diagnóstico para te mostrar o que construí.
+
+**Botão 3:** FAZER MEU DIAGNÓSTICO AGORA
+`[[LINK: diagnóstico | email | EM-BF-07]]`
 
 Dra. Próton
 
@@ -288,6 +295,7 @@ Quem cansou de recomeçar não precisa virar outra pessoa. Precisa de um caminho
 É isso que eu abro no dia 03/11, às 20h, ao vivo.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-08]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -306,13 +314,14 @@ Se você já pagou por um curso e ele ficou parado numa aba, este e-mail é fran
 
 "Já comprei outros e não tive resultado." Eu entendo, e não vou dizer que esse medo é bobagem. Ele é uma proteção. Depois de investir e ficar com a sensação de que "não era para mim", é natural se defender.
 
-Em muitos cursos, você aprende e depois precisa aplicar sozinho. É exatamente aí que o padrão de autossabotagem costuma travar tudo de novo.
+Em muitos cursos, você aprende e depois precisa aplicar tudo sem apoio. É exatamente aí que o padrão de autossabotagem costuma travar tudo de novo.
 
 Por isso o que eu construí não depende só de disciplina: a ideia é ter prática guiada, trilha e apoio na hora de aplicar. [[CONFIRMAR: prática guiada, trilha e apoio fazem parte da oferta]]
 
 Assistir à live não custa nada. Eu mostro como isso está montado no dia 03/11, às 20h, e você decide depois de ver.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-09]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -327,9 +336,9 @@ Ideia: prova social, com depoimento real e fatos do guia. Consciência 3.
 
 {{nome}},
 
-Mais de 70 mil alunos, em 44 países. Não conto isso para me gabar, e sim para dizer o que eles têm em comum: ninguém chegou com tudo resolvido.
+Mais de 70 mil alunos, em 44 países. Não conto isso para me gabar, e sim para dizer o que muitos deles têm em comum: ninguém chegou com tudo resolvido.
 
-Quase todos chegaram cansados de recomeçar. Nas respostas das pesquisas, eu leio frases como "voltar a acreditar no meu potencial" e "ter clareza do caminho a seguir e confiar em mim". São frases que se repetem.
+Muitos chegaram cansados de recomeçar. Nas respostas das pesquisas, eu leio frases como "voltar a acreditar no meu potencial" e "ter clareza do caminho a seguir e confiar em mim". São frases que se repetem.
 
 [[DEPOIMENTO REAL: print autorizado de aluno ou aluna sobre sair do ciclo de recomeçar]]
 
@@ -338,6 +347,7 @@ O que muda não é mágica. É aparecer, ao vivo, e ter um método que continua 
 Na live do dia 03/11, às 20h, você vê o que eu montei para quem quer ficar de vez.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-10]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -352,7 +362,7 @@ Ideia: objeção "tenho medo de comprar e não colocar em prática" (12% ficha, 
 
 {{nome}},
 
-Entre quem está pronto para entrar, um medo aparece mais do que qualquer outro: "e se eu comprar e não colocar em prática?"
+Entre quem quer entrar, um medo aparece mais do que qualquer outro: "e se eu comprar e não colocar em prática?"
 
 Pense em onde ele mora. Mora no prazo. Em "preciso usar logo, senão perco o que paguei". Em "pelo menos preciso terminar este mês". Esse prazo é a pressão que faz a procrastinação crescer.
 
@@ -361,6 +371,7 @@ Então, quando desenhei a oferta, tirei o prazo. Acesso vitalício, sem relógio
 Para não virar o "comprei e não usei", existe uma trilha de entrada: um primeiro passo, claro, nas primeiras 48 horas. Eu mostro como funciona na live de 03/11, às 20h.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-11]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -383,11 +394,12 @@ Três coisas que eu vou mostrar ao vivo, no dia 03/11, às 20h:
 2. Como começar sem se perder: a trilha de entrada, para você não ficar com 11 produtos na mão sem saber por onde ir.
 3. A condição completa: valor, formas de pagamento e prazos. Só ao vivo.
 
-O que eu não vou fazer é te empurrar. Eu prefiro que você não compre do que compre e não viva.
+O que eu não vou fazer é te empurrar. Quero que você decida com todas as informações na mão.
 
 Se você já quer ouvir tudo, é só confirmar a sua presença.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-12]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -404,7 +416,7 @@ Ideia: história da Dra., fatos do guia (seção 8). Consciência 3.
 
 {{nome}},
 
-Antes de qualquer título, eu vendi cartão por telefone e fui camelô. Trabalhei em telemarketing. Fui criada pelos meus avós, na periferia do interior de São Paulo, filha de mãe solo.
+Antes de qualquer título, eu vendi cartão e fui camelô. Trabalhei em telemarketing. Fui criada pelos meus avós, na periferia do interior de São Paulo, filha de mãe solo.
 
 Depois, eu fui estudar. Hoje sou formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL, e Doutora Honoris Causa em Neurociência pela Academia Mundial de Letras. [[CONFIRMAR: credenciais conforme o material do Comercial]]
 
@@ -413,6 +425,7 @@ Mas o título que mais me importa é outro: eu transformei dor em método.
 Tudo o que eu abro na live do dia 03/11 vem desse caminho. Não é teoria.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-13]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -438,6 +451,7 @@ E existe uma conta que quase ninguém faz: quanto custa ficar mais um ano exatam
 Não é para você se endividar. É para decidir com todas as informações na mão.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-14]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -456,13 +470,14 @@ Oferta grande tem um risco: virar material parado.
 
 Um dos pedidos que mais aparece nas respostas é: "sinto que preciso arrumar várias áreas ao mesmo tempo e não sei por onde começar." Por isso, a pergunta que eu me fiz foi: como alguém entra e não se perde?
 
-A resposta é uma trilha de entrada. Uma ordem. Um primeiro passo nas primeiras 48 horas. E um apoio para você não aplicar sozinho.
+A resposta é uma trilha de entrada. Uma ordem. Um primeiro passo nas primeiras 48 horas. E um apoio para você não aplicar tudo sem ajuda.
 
 Quem já esteve comigo nas noites ao vivo sabe: quando a prática acontece junto, a gente não depende da disciplina de depois.
 
 Eu mostro essa trilha na tela, na live do dia 03/11, às 20h.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-15]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -485,13 +500,14 @@ Ideia: inimigo comum. Consciência 4.
 
 "Depois eu começo." "Depois eu pago." "Depois eu faço."
 
-A autossabotagem sempre teve um depois para se esconder. Ela não diz "nunca". Diz "ainda não". E "ainda não" é a frase mais cara que existe, porque custa tempo, e tempo não volta.
+A autossabotagem sempre teve um depois para se esconder. Ela não diz "nunca". Diz "ainda não". E "ainda não" é uma frase cara, porque custa tempo, e tempo não volta.
 
 A decisão que eu abro no dia 03/11 foi desenhada para tirar o prazo e tirar a desculpa. Não é sobre pressa. É sobre parar de ter que decidir de novo, toda segunda-feira, se vale a pena tentar mais uma vez.
 
 Se você já sabe que quer estar lá, entre no grupo, que é por onde o link chega.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
+`[[LINK: grupo geral | email | EM-BF-16]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -501,7 +517,7 @@ Dra. Próton
 Ideia: qualificação honesta. Frase intocável. Consciência 4.
 
 **Assunto A:** Para quem a live de 03/11 não é
-**Assunto B:** Eu prefiro que você não compre do que compre e não viva
+**Assunto B:** Quem não deve ir à live de 03/11
 **Linha de preview:** Uma conversa franca sobre quem deveria ficar de fora
 
 {{nome}},
@@ -516,11 +532,12 @@ Não é para quem decide por impulso e depois se arrepende.
 
 E é para quem?
 
-Para quem já se prometeu muitas vezes que ia ser diferente e está pronto para uma decisão que não precise ser refeita.
+Para quem já se prometeu muitas vezes que ia ser diferente e quer uma decisão que não precise ser refeita.
 
 Se você se enxergou nesse segundo grupo, venha. Dia 03/11, às 20h, ao vivo. Eu mostro tudo, e você decide com calma.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
+`[[LINK: grupo geral | email | EM-BF-17]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -537,13 +554,14 @@ Ideia: identidade, para pessoas casadas (55% da ficha). Frase real da Aula 02 (c
 
 Quem mais, na sua casa, sente quando você está bem?
 
-Eu repito nas aulas: quando você sobe, a casa sobe junto. Quando você melhora o seu estado, muda o jeito como você fala com os filhos, como pede, como escuta, como lida com dinheiro dentro de casa. Não é só sobre você. Mas começa em você.
+Eu repito nas aulas: quando você sobe, a casa sobe junto. Quando você melhora o seu estado, muda o jeito como você conversa, como pede, como escuta, como lida com dinheiro dentro de casa, como fala com quem mora com você. Não é só sobre você. Mas começa em você.
 
 Se você é de quem cuida de todo mundo e deixa a si por último, eu proponho uma inversão: cuidar de você não é tirar de ninguém. É o que sustenta quem está ao seu redor.
 
 No dia 03/11, às 20h, eu abro o que construí para você poder ficar de vez nesse caminho. Se a decisão envolve conversar em casa, avise antes. A condição é revelada ali, na live.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
+`[[LINK: grupo geral | email | EM-BF-18]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -571,6 +589,7 @@ O protocolo continua sendo o que sempre foi: 21 dias por ciclo, 12 ciclos por an
 Dia 03/11, às 20h, ao vivo.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
+`[[LINK: grupo geral | email | EM-BF-19]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -580,7 +599,7 @@ Dra. Próton
 Ideia: preparação para a decisão. Consciência 4 a 5. 03/11/2026 cai numa terça-feira.
 
 **Assunto A:** O que fazer antes de terça, às 20h
-**Assunto B:** Um roteiro curto para chegar preparado
+**Assunto B:** Um roteiro curto para a noite de terça
 **Linha de preview:** Para você decidir com a cabeça, não com o impulso
 
 {{nome}},
@@ -590,13 +609,14 @@ Terça-feira, 03/11, às 20h. Um roteiro curto para você chegar preparado:
 1. O link da live, no grupo. Se ainda não entrou, entre agora.
 2. Um caderno e uma caneta. A live tem uma conta para fazer, e é melhor no papel.
 3. Seu meio de pagamento por perto, se você decidir na hora. Eu vou mostrar as formas de pagamento e não vou te apressar.
-4. Uma pergunta para fazer a si mesmo: "o que eu quero que seja diferente daqui a um ano?"
+4. Uma pergunta para se fazer: "o que eu quero que seja diferente daqui a um ano?"
 
 Eu não quero que você decida por impulso. Quero que decida por clareza.
 
 Qualquer dúvida de acesso, é só responder este e-mail.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
+`[[LINK: grupo geral | email | EM-BF-20]]`
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -624,6 +644,7 @@ A última vez que você vai precisar recomeçar.
 Deixe o horário livre amanhã. Para receber o link, basta confirmar a sua presença.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-21]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -633,7 +654,7 @@ Dra. Próton
 Ideia: dia da live. O e-mail das 07h abre o dia com identidade para quem ainda não se inscreveu; quem é inscrito recebe os operacionais a partir das 09h (LV-03-01). Consciência 5.
 
 **Assunto A:** Hoje você decide uma vez
-**Assunto B:** Hoje, às 20h, eu abro tudo
+**Assunto B:** Hoje, às 20h, estou ao vivo
 **Linha de preview:** Reserve esta noite para você
 
 {{nome}},
@@ -649,6 +670,7 @@ E lembre: eu prefiro que você não compre do que compre e não viva. Venha ouvi
 Se ainda não se inscreveu, leva um minuto, e o link da live chega para você.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
+`[[LINK: captura A | email | EM-BF-22]]`
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Até às 20h,
@@ -665,4 +687,32 @@ Dra. Próton
 5. **Teste A/B.** Em cada e-mail, assunto A contra assunto B, 20% da lista cada, vencedor para o resto. Começar por EM-BF-01 e EM-BF-02, que definem o padrão de abertura. Exceção de tamanho: o assunto B de EM-BF-17 é uma frase intocável da Dra. e passa de 50 caracteres; por isso o assunto A é a versão curta.
 6. **Gênero.** O texto é neutro. Quando a ferramenta tiver variável de gênero, as peças pós-compra podem usar o feminino.
 7. **Dependências.** Tags de estado do contato (inscrito na live, no grupo, diagnóstico feito) para escolher o botão certo e aplicar as regras de exclusão.
-8. **Pendência de data.** 03/11/2026 é terça-feira (conferido no calendário). 02/11 é Finados (segunda). A live às 20h e uma frase sobre replay estão na página de captura; manter qualquer afirmação sobre replay fora dos e-mails até `[[PENDENTE: replay]]`.
+8. **Links.** Os 22 e-mails têm token no padrão do mapa de links. Enquanto as páginas, os encurtadores `bfp-*` e os grupos não existirem, o token fica no texto e diz qual link entra. Nada de URL real inventada.
+9. **Pendência de data.** 03/11/2026 é terça-feira (conferido no calendário). 02/11 é Finados (segunda). A live às 20h e uma frase sobre replay estão na página de captura; manter qualquer afirmação sobre replay fora dos e-mails até `[[PENDENTE: replay]]`.
+
+## Links desta peça
+
+| ID da peça | Token principal (botão) | O que o link faz | Token alternativo (por estado do contato) | Quem cria |
+|---|---|---|---|---|
+| EM-BF-01 | `[[LINK: diagnóstico | email | EM-BF-01]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: captura A | email | EM-BF-01]]` | Web designer |
+| EM-BF-02 | `[[LINK: diagnóstico | email | EM-BF-02]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: grupo geral | email | EM-BF-02]]` | Web designer |
+| EM-BF-03 | `[[LINK: captura A | email | EM-BF-03]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-03]]` | Web designer |
+| EM-BF-04 | `[[LINK: diagnóstico | email | EM-BF-04]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: captura A | email | EM-BF-04]]` | Web designer |
+| EM-BF-05 | `[[LINK: captura A | email | EM-BF-05]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-05]]` | Web designer |
+| EM-BF-06 | `[[LINK: diagnóstico | email | EM-BF-06]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: grupo geral | email | EM-BF-06]]` | Web designer |
+| EM-BF-07 | `[[LINK: diagnóstico | email | EM-BF-07]]` | Leva ao diagnóstico dos 5 padrões | nenhum | Web designer |
+| EM-BF-08 | `[[LINK: captura A | email | EM-BF-08]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-08]]` | Web designer |
+| EM-BF-09 | `[[LINK: captura A | email | EM-BF-09]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-09]]` | Web designer |
+| EM-BF-10 | `[[LINK: captura A | email | EM-BF-10]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-10]]` | Web designer |
+| EM-BF-11 | `[[LINK: captura A | email | EM-BF-11]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-11]]` | Web designer |
+| EM-BF-12 | `[[LINK: captura A | email | EM-BF-12]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-12]]` | Web designer |
+| EM-BF-13 | `[[LINK: captura A | email | EM-BF-13]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-13]]` | Web designer |
+| EM-BF-14 | `[[LINK: captura A | email | EM-BF-14]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-14]]` | Web designer |
+| EM-BF-15 | `[[LINK: captura A | email | EM-BF-15]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-15]]` | Web designer |
+| EM-BF-16 | `[[LINK: grupo geral | email | EM-BF-16]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-16]]` | Automação |
+| EM-BF-17 | `[[LINK: grupo geral | email | EM-BF-17]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-17]]` | Automação |
+| EM-BF-18 | `[[LINK: grupo geral | email | EM-BF-18]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-18]]` | Automação |
+| EM-BF-19 | `[[LINK: grupo geral | email | EM-BF-19]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-19]]` | Automação |
+| EM-BF-20 | `[[LINK: grupo geral | email | EM-BF-20]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-20]]` | Automação |
+| EM-BF-21 | `[[LINK: captura A | email | EM-BF-21]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-21]]` | Web designer |
+| EM-BF-22 | `[[LINK: captura A | email | EM-BF-22]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-22]]` | Web designer |

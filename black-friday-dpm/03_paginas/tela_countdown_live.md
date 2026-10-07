@@ -3,13 +3,15 @@
 **Peça:** Tela de espera da live de 03/11, 20h (contagem, o que fazer enquanto espera, link da live) e página da live (YouTube embutido)
 **Canal:** Página (link no grupo, no e-mail do dia, no WhatsApp, no obrigado, na tarja de todas as páginas)
 **Público:** Todos os cadastrados, em especial quem se cadastrou e ainda não fez o diagnóstico
-**Momento:** 03/11, a partir das 12h (abre a espera) até o fim da live. Antes disso, a URL fica com a contagem simples
+**Momento:** 03/11, a partir das 12h (abre a espera) até o fim da live (21h56). Antes disso, a URL fica com a contagem simples
 **Objetivo:** Fazer a pessoa **estar na live**, chegar preparada e saber onde clicar quando a condição for revelada. Reduz a perda por "esqueci" e "não achei o link"
 **Consciência:** 3 a 5
 **Trabalho contratado:** "Eu quero não perder essa live"
 **Modelo no Desafio:** Links de aula do Desafio (por grupo de WhatsApp, 20h), lembretes de grupo, e a lógica "entre antes do início". O Desafio usou aula ao vivo em plataforma com link por noite; aqui a live é no **YouTube**, com player embutido e sem sala em outra plataforma
 
-> **Sobre o nome do arquivo:** a live de revelação é no YouTube (briefing). Não existe sala de reunião em outra plataforma, e citar uma para a base cria o erro "baixei o aplicativo e não achei a sala". Esta página é, portanto, a **página da live** com player do YouTube embutido, e nenhum texto dela cita outra plataforma. O nome do arquivo guarda um termo antigo e será renomeado conforme a decisão 54 de `12_decisoes_e_pendencias.md`. `[[CONFIRMAR: a live é só no YouTube; se houver transmissão paralela em outra plataforma, ajustar]]`
+> **Sobre a plataforma:** a live de revelação é no YouTube (briefing). Não existe sala de reunião em outra plataforma, e citar uma para a base cria o erro "baixei o aplicativo e não achei a sala". Esta página é, portanto, a **página da live** com player do YouTube embutido, e nenhum texto dela cita outra plataforma. `[[CONFIRMAR: a live é só no YouTube; se houver transmissão paralela em outra plataforma, ajustar]]`
+>
+> **Horários internos da live (03/11, terça):** começa às 20h; oferta revelada às 20h51; preço às 21h09; checkout e carrinho abertos às 21h28; a live termina às 21h56. Estes horários orientam a página e não aparecem como promessa de minuto no texto público.
 
 ---
 
@@ -20,8 +22,8 @@
 | 1. Contagem simples | Até 03/11, 12h | Contagem + data + "salvar a data" |
 | 2. Tela de espera | 03/11, 12h até 19h45 | Contagem + o que fazer enquanto espera + diagnóstico + grupo |
 | 3. Sala aberta | 03/11, 19h45 até 20h | Player do YouTube liberado, contagem de minutos, checklist final |
-| 4. Ao vivo | A partir das 20h | Player do YouTube + chat + botão do carrinho que aparece em `[[CONFIRMAR: momento da abertura do carrinho na live (roteiro em 08_live_e_pitch)]]` |
-| 5. Pós-live | Depois do fim da live | Botão da página de vendas e do suporte |
+| 4. Ao vivo | De 20h até 21h56 | Player do YouTube + chat + botão do carrinho, que aparece às 21h28 (checkout e carrinho abertos) |
+| 5. Pós-live | Depois do fim da live (21h56) | Botão da página de vendas e do suporte |
 
 ---
 
@@ -40,8 +42,10 @@
 `03 de novembro, às 20h, ao vivo no YouTube. Salve a data e entre no grupo para receber o link primeiro.`
 
 **Botões**
-- `SALVAR A DATA` [[LINK: arquivo de calendário]]
-- `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo]]
+- `SALVAR A DATA` [[LINK: calendário | pagina | live-e1]]
+- `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo geral | pagina | live-e1]]
+
+Leva para: o arquivo de calendário da live e o grupo de WhatsApp da live do segmento.
 
 **Regras da contagem:** ocultar os dias quando for 0 e escrever "1 dia" no singular. Em 02/11 (Finados) manter o tom neutro, sem exclamação.
 
@@ -65,8 +69,10 @@
 `Esta é a página da live. Deixe-a aberta: às 19h45 a sala abre aqui mesmo.`
 
 **Botões**
-- `SALVAR NO CALENDÁRIO` [[LINK: arquivo de calendário]]
-- `ME AVISAR NO WHATSAPP` [[LINK: aviso de WhatsApp]]
+- `SALVAR NO CALENDÁRIO` [[LINK: calendário | pagina | live-e2]]
+- `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo geral | pagina | live-e2]]
+
+Leva para: o arquivo de calendário da live e o grupo de WhatsApp da live do segmento.
 
 **Compliance:** nenhum valor, nenhum lote e nenhuma palavra de pressão na espera. A contagem é a única escassez.
 
@@ -82,7 +88,7 @@
 `Avise que às 20h esse horário é seu. Se puder, fique em um lugar em que ninguém interrompa. Fones de ouvido ajudam.`
 
 **3. Faça (ou refaça) o seu diagnóstico.**
-`Chegue sabendo qual dos 5 padrões domina em você. Leva poucos minutos.` [[BOTÃO: FAZER MEU DIAGNÓSTICO]] [[LINK: diagnóstico]]
+`Chegue sabendo qual dos 5 padrões domina em você. Leva poucos minutos.` [[BOTÃO: FAZER MEU DIAGNÓSTICO]] [[LINK: diagnóstico | pagina | live-e2]]
 
 **4. Responda a pergunta que eu vou fazer.**
 `Quantas vezes você já recomeçou? Escreva o número que vier primeiro. Não pense muito.`
@@ -113,7 +119,8 @@
 `O link da live chega primeiro pelo grupo, e também por e-mail. Se você ainda não entrou, entre agora. É o passo mais importante.`
 
 **Botão**
-`ENTRAR NO GRUPO DA LIVE` [[LINK: grupo]]
+`ENTRAR NO GRUPO DA LIVE` [[LINK: grupo geral | pagina | live-e2-b04]]
+Leva para: o grupo de WhatsApp da live do segmento.
 
 ### Bloco 05: Aviso para alunas
 
@@ -121,7 +128,7 @@
 **Título**
 `Aluna do Clube Secreto`
 **Texto**
-`A sua condição de aluna aparece na sua página assim que for revelada ao vivo. Deixe-a salva.` [[LINK: pagina_cupom_alunas]]
+`A sua condição de aluna aparece na sua página assim que for revelada ao vivo. Deixe-a salva.` [[LINK: página das alunas | pagina | live-e2-b05]]
 `[[FIM SE]]`
 
 ### Bloco 06: Dúvidas rápidas
@@ -133,7 +140,7 @@
 `Sim. A live funciona no celular, no computador e na TV com YouTube.`
 
 **E se eu entrar atrasada(o)?**
-`Entre mesmo assim. A condição só é revelada no meio da live, depois da pergunta de abertura e de tudo o que entra. Mas o ideal é estar presente desde o início.` `[[CONFIRMAR: a revelação do valor acontece no meio da live; não prometer o minuto]]`
+`Entre mesmo assim. A oferta e o valor só aparecem depois da pergunta de abertura e de boa parte da live. Mas o ideal é estar presente desde o início.` `[[CONFIRMAR: não prometer o minuto em público (oferta às 20h51, valor às 21h09)]]`
 
 **Vai ter replay?**
 `[[PENDENTE: replay]]` (nenhuma versão afirma nem nega replay até a decisão; redações possíveis nas Notas ao implementador)
@@ -155,7 +162,7 @@
 `Você pode entrar. A live começa em {{minutos}} minutos.`
 
 **Player**
-`[[LINK: YouTube, live ao vivo (embed)]]`
+`[[LINK: live YouTube | pagina | live-e3]]`
 
 **Texto sob o player**
 `Se o player não aparecer, toque em "Assistir no YouTube". Fique tranquila(o): a Dra. começa pontualmente às 20h.`
@@ -166,8 +173,10 @@
 - `☐ Celular em modo "não perturbe"`
 
 **Botões**
-- `ASSISTIR NO YOUTUBE` [[LINK: YouTube, live]]
-- `ENTRAR NO GRUPO` [[LINK: grupo]]
+- `ASSISTIR NO YOUTUBE` [[LINK: live YouTube | pagina | live-e3]]
+- `ENTRAR NO GRUPO` [[LINK: grupo geral | pagina | live-e3]]
+
+Leva para: a transmissão no YouTube e o grupo de WhatsApp da live.
 
 ---
 
@@ -177,7 +186,7 @@
 `🔴 AO VIVO · Black Próton Vitalícia`
 
 **Player**
-`[[LINK: YouTube, live ao vivo (embed)]]`
+`[[LINK: live YouTube | pagina | live-e4]]`
 
 **Chat**
 Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e moderação]]`
@@ -185,15 +194,17 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 **Texto fixo sob o player**
 `Se o vídeo travar, atualize a página. Se continuar, toque em "Assistir no YouTube".`
 
-### Botão do carrinho (aparece em `[[CONFIRMAR: momento da abertura do carrinho na live (roteiro em 08_live_e_pitch)]]`)
+### Botão do carrinho (aparece às 21h28, quando o checkout e o carrinho abrem)
 
 **Não aparece antes** da revelação, para ninguém clicar sem ter ouvido a condição.
 
 **Botão principal**
-`QUERO VER A CONDIÇÃO` [[LINK: pagina_de_vendas_vitalicia, versão por segmento]]
+`QUERO VER A CONDIÇÃO` [[LINK: página de vendas | pagina | live-e4]]
+Leva para: a página de vendas, na versão do segmento.
 
 **Para alunas**
-`[[SE: ALUNA]]` `VER A MINHA CONDIÇÃO DE ALUNA` [[LINK: pagina_cupom_alunas]] `[[FIM SE]]`
+`[[SE: ALUNA]]` `VER A MINHA CONDIÇÃO DE ALUNA` [[LINK: página das alunas | pagina | live-e4]] `[[FIM SE]]`
+Leva para: a página própria das alunas.
 
 **Texto sob o botão**
 `Pagamento único · acesso vitalício. O valor está na página.` `[[PENDENTE: garantia]]`
@@ -211,9 +222,11 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 `Se você assistiu e a ficha caiu, é por aqui:`
 
 **Botões**
-- `VER A CONDIÇÃO` [[LINK: pagina_de_vendas_vitalicia]]
-- `ALUNA DO CLUBE: VER A MINHA CONDIÇÃO` [[LINK: pagina_cupom_alunas]]
-- `FALAR COM O SUPORTE` [[LINK: WhatsApp do suporte]]
+- `VER A CONDIÇÃO` [[LINK: página de vendas | pagina | live-e5]]
+- `ALUNA DO CLUBE: VER A MINHA CONDIÇÃO` [[LINK: página das alunas | pagina | live-e5]]
+- `FALAR COM O SUPORTE` [[LINK: suporte WhatsApp | pagina | live-e5]]
+
+Leva para: a página de vendas, a página das alunas e o WhatsApp oficial de suporte.
 
 **Linha**
 `A condição que a Dra. mostrou não se repete. O que vier depois é outra oferta, com outro preço.` `[[PENDENTE: fechamento]]`
@@ -230,17 +243,35 @@ Os disparos do dia ficam em `05_whatsapp_api` e `06_emails`. O que esta página 
 - 07h (e-mail) e 11h30 (grupos): "é hoje", com o link desta página (a espera abre às 12h).
 - 19h45: "a sala está aberta" `[[CONFIRMAR: disparo extra no dia da live; o modelo BFV/26 tem só 11h30 e 20h nos grupos]]`.
 - 20h (grupos): "estamos ao vivo".
+- 21h28: carrinho aberto (botão do carrinho liga nesta página, na página de vendas e na página das alunas).
 
-Todos com `{{link}}` desta página, em linha própria e separado do CTA (guia, seção 1).
+Todos com o link desta página (`[[LINK: live YouTube | wpp | live-dia]]` nos grupos, `[[LINK: live YouTube | email | live-dia]]` no e-mail), em linha própria e separado do CTA (guia, seção 1).
 
 ---
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[CONFIRMAR: momento da abertura do carrinho na live (roteiro em 08_live_e_pitch)]]`, `[[PENDENTE: replay]]` (redações possíveis, usar só uma depois da decisão. FAQ, sem replay: "A revelação acontece ao vivo, sem replay."; FAQ, com replay: "O replay fica disponível até [[PENDENTE: fechamento]]." Estado 5, com replay: "Não conseguiu assistir? O replay está aqui." [[LINK: replay]]; Estado 5, sem replay: "Você perdeu a live. Entre na lista de espera para ser avisada(o)." [[LINK: lista_de_espera]]), `[[LINK: YouTube, live (embed)]]`, `[[LINK: grupo]]`, `[[LINK: arquivo de calendário]]`, `[[LINK: aviso de WhatsApp]]`, `[[CONFIRMAR: live só no YouTube]]`, `[[CONFIRMAR: chat aberto]]`.
+1. **Pendências:** `[[PENDENTE: replay]]` (redações possíveis, usar só uma depois da decisão. FAQ, sem replay: "A revelação acontece ao vivo, sem replay."; FAQ, com replay: "O replay fica disponível até [[PENDENTE: fechamento]]." Estado 5, com replay: "Não conseguiu assistir? O replay está aqui." com o link do replay; Estado 5, sem replay: "Você perdeu a live. Entre na lista de espera para ser avisada(o)." com o link da lista de espera), `[[CONFIRMAR: live só no YouTube]]`, `[[CONFIRMAR: chat aberto]]`.
 2. **Contagem:** usar horário de Brasília (UTC-3) fixo. Se a pessoa estiver em outro fuso, mostrar o horário local abaixo (há alunos em 44 países).
 3. **Capacidade:** o YouTube suporta a audiência. Mas o botão do carrinho deve ficar em CDN próprio, para a página de vendas não cair. `[[CONFIRMAR: testar carga com a equipe técnica]]`
 4. **Gênero:** a página é para toda a base (21% é masculina), por isso usa formas neutras ou duplas, como "atrasada(o)" e "tranquila(o)". Em e-mail e grupo de quem já comprou, o feminino é aceito (guia, seção 1, item 6).
 5. **Testes A/B:** nenhum de texto. Medir apenas entrada na sala (estado 3) por canal de aviso.
 6. **Dependências:** `obrigado_e_pesquisa.md`, `pagina_de_vendas_vitalicia.md`, `pagina_cupom_alunas.md`, `08_live_e_pitch` (roteiro: pergunta de abertura, conta, momento da revelação, momento do botão), `05_whatsapp_api` e `06_emails` (disparos do dia).
 7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** no Desafio, as 5 aulas tinham link por noite entregue no grupo, e a aula era uma sala própria. Aqui a live é única, no YouTube, e a página precisa fazer três coisas que as noites não faziam: **segurar a pessoa por horas antes da live** (espera), **esconder o preço** até a revelação, e **ligar o botão do carrinho no momento certo**.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| live-e1 | `[[LINK: calendário \| pagina \| live-e1]]` e `[[LINK: grupo geral \| pagina \| live-e1]]` | Estado 1: salvar a data e entrar no grupo da live | Automação |
+| live-e2 | `[[LINK: calendário \| pagina \| live-e2]]` e `[[LINK: grupo geral \| pagina \| live-e2]]` | Estado 2, topo: salvar no calendário e entrar no grupo | Automação |
+| live-e2 | `[[LINK: diagnóstico \| pagina \| live-e2]]` | Estado 2, item 3: fazer ou refazer o diagnóstico | Web designer |
+| live-e2-b04 | `[[LINK: grupo geral \| pagina \| live-e2-b04]]` | Bloco 04: entrar no grupo da live | Automação |
+| live-e2-b05 | `[[LINK: página das alunas \| pagina \| live-e2-b05]]` | Bloco 05 (só alunas): leva à página das alunas | Web designer |
+| live-e3 | `[[LINK: live YouTube \| pagina \| live-e3]]` e `[[LINK: grupo geral \| pagina \| live-e3]]` | Sala aberta: player e botão do YouTube, mais o grupo | Equipe de YouTube e Automação |
+| live-e4 | `[[LINK: live YouTube \| pagina \| live-e4]]` | Ao vivo: player embutido da transmissão | Equipe de YouTube |
+| live-e4 | `[[LINK: página de vendas \| pagina \| live-e4]]` e `[[LINK: página das alunas \| pagina \| live-e4]]` | Botão do carrinho, que liga às 21h28: página de vendas, ou página das alunas para S1 | Web designer |
+| live-e5 | `[[LINK: página de vendas \| pagina \| live-e5]]`, `[[LINK: página das alunas \| pagina \| live-e5]]` e `[[LINK: suporte WhatsApp \| pagina \| live-e5]]` | Pós-live: condição, condição das alunas e suporte | Web designer e Suporte |
+| live-dia | `[[LINK: live YouTube \| wpp \| live-dia]]` e `[[LINK: live YouTube \| email \| live-dia]]` | Disparos do dia da live: levam a esta página (referência para as áreas de WhatsApp e e-mail) | Equipe de YouTube |

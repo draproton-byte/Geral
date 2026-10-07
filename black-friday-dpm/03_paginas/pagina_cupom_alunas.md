@@ -18,7 +18,7 @@
 2. A ferramenta confere se o e-mail está na lista de alunas (tag) e libera um estado:
    - **Reconhecida**: mostra a tela do estado 1 (antes da live) ou do estado 2 (depois da live).
    - **Não reconhecida**: mostra a tela de ajuda.
-3. Depois da live, o botão do estado 2 abre o checkout de alunas do lote atual, com o código de cupom aplicado automaticamente (ou o link de checkout próprio). `[[LINK: checkout alunas por lote]]` `[[CONFIRMAR: cupom automático ou link próprio por lote]]`
+3. Depois da live, o botão do estado 2 abre o checkout de alunas do lote atual, com o código de cupom aplicado automaticamente (ou o link de checkout próprio). [[LINK: checkout S1-ESP | pagina | cupom-estado2]] (troca para S1-1L e S1-UL na virada de lote; o botão só liga com o carrinho aberto, 03/11, 21h28) `[[CONFIRMAR: cupom automático ou link próprio por lote]]`
 
 **Critério para ser "aluna":** `[[CONFIRMAR: aluna com acesso ativo? aluna com acesso encerrado também entra? quem comprou o Clube pelo Desafio (condição de golden ticket)? aluna com reembolso?]]`
 
@@ -41,9 +41,10 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 **Botão**
 `RECONHECER MINHA CONDIÇÃO DE ALUNA`
+Leva para: o estado 1 (antes da live) ou o estado 2 (depois da live), na mesma página, se o e-mail for reconhecido; para a tela de não reconhecida, se não for.
 
 **Microcopy**
-`Usamos o seu e-mail só para conferir que você é aluna. Seus dados ficam com o Instituto Dra. Próton e não são divulgados.` [[LINK: política de privacidade]]
+`Usamos o seu e-mail só para conferir que você é aluna. Seus dados ficam com o Instituto Dra. Próton e não são divulgados. Para sair dos avisos, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: privacidade | pagina | cupom-t0]]
 
 **Erros**
 - E-mail inválido: `Esse e-mail parece incompleto. Confira, por favor.`
@@ -70,8 +71,8 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 **O que acontece**
 
-1. `Agora: você confirma sua presença na live.` [[BOTÃO: CONFIRMAR MINHA PRESENÇA]] [[LINK: captura_C]]
-2. `03/11, 20h: a Dra. revela a condição ao vivo no YouTube.` [[LINK: página da live]]
+1. `Agora: você confirma sua presença na live.` [[BOTÃO: CONFIRMAR MINHA PRESENÇA]] [[LINK: captura C | pagina | cupom-estado1]]
+2. `03/11, 20h: a Dra. revela a condição ao vivo no YouTube.` [[LINK: live YouTube | pagina | cupom-estado1]]
 3. `Depois da live: volte a esta página, e o seu botão de aluna aparece aqui.`
 
 **O que muda para você (resumo, sem preço)**
@@ -85,8 +86,8 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `A condição que a Dra. mostrar nessa noite não se repete. O que vier depois é outra oferta, com outro preço.`
 
 **Botões**
-- `SALVAR A DATA: 03/11, 20H` [[LINK: arquivo de calendário]]
-- `ENTRAR NO GRUPO DA LIVE PARA ALUNAS` [[LINK: grupo alunas]]
+- `SALVAR A DATA: 03/11, 20H` [[LINK: calendário | pagina | cupom-estado1]]
+- `ENTRAR NO GRUPO DA LIVE PARA ALUNAS` [[LINK: grupo alunas | pagina | cupom-estado1]]
 
 ### Tela de não reconhecida
 
@@ -100,7 +101,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 **Botões**
 - `TENTAR OUTRO E-MAIL`
-- `FALAR COM O SUPORTE` [[LINK: WhatsApp do suporte]]
+- `FALAR COM O SUPORTE` [[LINK: suporte WhatsApp | pagina | cupom-estado1]]
 
 **Texto de segurança**
 `Seu lugar na live fica confirmado de qualquer forma.`
@@ -109,7 +110,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 ---
 
-## Estado 2: Depois da live (com valor, só depois de 20h de 03/11)
+## Estado 2: Depois da live (com valor, só depois da revelação do valor ao vivo, 03/11, 21h09)
 
 **Quando:** da revelação até o fechamento `[[PENDENTE: fechamento]]`.
 
@@ -130,7 +131,8 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
 
 **Botão**
-`QUERO ENTRAR DE VEZ · [[PREÇO LOTE ALUNAS]]` [[LINK: checkout alunas por lote]]
+`QUERO ENTRAR DE VEZ · [[PREÇO LOTE ALUNAS]]` [[LINK: checkout S1-ESP | pagina | cupom-estado2]]
+Leva para: o checkout das alunas do lote em vigor (S1-ESP, depois S1-1L e S1-UL). Antes das 21h28 o botão mostra "O carrinho abre em instantes".
 
 **Linha sob o botão**
 `Pagamento único · acesso vitalício · [[PENDENTE: garantia]]`
@@ -157,7 +159,8 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
 
 **Botão secundário**
-`VER A PÁGINA DE VENDAS COMPLETA` [[LINK: pagina_de_vendas_vitalicia (versão alunas)]]
+`VER A PÁGINA DE VENDAS COMPLETA` [[LINK: página de vendas | pagina | cupom-estado2]]
+Leva para: a página de vendas, versão alunas.
 
 ### Tela de não reconhecida (depois da live)
 
@@ -168,10 +171,11 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `Você ainda pode entrar na condição para quem não é aluna, no lote atual.`
 
 **Botão**
-`VER A CONDIÇÃO` [[LINK: pagina_de_vendas_vitalicia (versão não-alunas)]]
+`VER A CONDIÇÃO` [[LINK: página de vendas | pagina | cupom-estado2-nao]]
+Leva para: a página de vendas, versão não-alunas.
 
 **Texto de apoio**
-`Se você é aluna e esse e-mail não foi reconhecido, fale com o suporte antes de comprar, para eu garantir a sua condição.` [[LINK: WhatsApp do suporte]]
+`Se você é aluna e esse e-mail não foi reconhecido, fale com o suporte antes de comprar, para eu garantir a sua condição.` [[LINK: suporte WhatsApp | pagina | cupom-estado2-nao]]
 
 ---
 
@@ -184,7 +188,8 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `O carrinho da Black Próton Vitalícia foi encerrado em [[PENDENTE: fechamento]]. Esta condição não se repete. O que vier depois é outra oferta, com outro preço.`
 
 **Botão**
-`ENTRAR NA LISTA DE ESPERA` [[LINK: lista_de_espera]]
+`ENTRAR NA LISTA DE ESPERA` [[LINK: lista de espera | pagina | cupom-estado3]]
+Leva para: a página da lista de espera.
 
 ---
 
@@ -200,16 +205,32 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `Sim: existe uma condição de aluna em cada lote. O valor muda a cada lote.` `[[CONFIRMAR: escada confirmada no briefing]]`
 
 **Não consigo acessar.**
-`Fale com o suporte. [[LINK: WhatsApp do suporte]]`
+`Fale com o suporte. [[LINK: suporte WhatsApp | pagina | cupom-faq]]`
 
 ---
 
 ## Notas ao implementador
 
 1. **Antes da live, nada de preço, nem em print, nem em texto escondido (aria-label, meta description).** Revisar o HTML do estado 1.
-2. **Pendências:** `[[PENDENTE: contagem de alunas]]`, `[[CONFIRMAR: critério de aluna]]`, `[[PENDENTE: regra de migração, tempo restante]]`, `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`, `[[LINK: checkout alunas por lote]]` (3 links), `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`.
+2. **Pendências:** `[[PENDENTE: contagem de alunas]]`, `[[CONFIRMAR: critério de aluna]]`, `[[PENDENTE: regra de migração, tempo restante]]`, `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`, os 3 checkouts das alunas (S1-ESP, S1-1L, S1-UL), `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`.
 3. **Cupom ou link próprio:** a BFV/26 de referência usa lista, tag, checkout e ListBoss próprios para alunas. Escolher entre código de cupom aplicado no checkout comum ou link de checkout separado. Link separado reduz o erro de quem esquece o cupom.
 4. **Testes A/B:** (1) estado 1 com a lista dos 11 produtos contra sem lista; (2) botão "RECONHECER MINHA CONDIÇÃO" contra "VER MINHA CONDIÇÃO".
 5. **Dependências:** `captura_C_alunas_do_clube.md` (origem), `pagina_de_vendas_vitalicia.md` (versão alunas), `lista_de_espera.md`, `05_whatsapp_api` e `06_emails` (disparo segmentado com o link desta página).
 6. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Desafio tinha o Golden Ticket (condição por convite no ingresso), mas não uma página de reconhecimento de aluna. Peça nova, modelada na BFV/26.
 7. **Escada do briefing (só para quem implementa):** alunas 1.997 / 2.997 / 3.997, sempre R$ 1.000 abaixo das não-alunas em cada lote. Nunca no texto da página antes da live.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| cupom-t0 | `[[LINK: privacidade \| pagina \| cupom-t0]]` | Abre a política de privacidade a partir da tela de identificação | Jurídico |
+| cupom-estado1 | `[[LINK: captura C \| pagina \| cupom-estado1]]` | Botão CONFIRMAR MINHA PRESENÇA: leva à captura das alunas | Web designer |
+| cupom-estado1 | `[[LINK: live YouTube \| pagina \| cupom-estado1]]` | Passo 2: leva à transmissão da live | Equipe de YouTube |
+| cupom-estado1 | `[[LINK: calendário \| pagina \| cupom-estado1]]`, `[[LINK: grupo alunas \| pagina \| cupom-estado1]]` e `[[LINK: suporte WhatsApp \| pagina \| cupom-estado1]]` | Salvar a data, entrar no grupo das alunas e falar com o suporte | Automação e Suporte |
+| cupom-estado2 | `[[LINK: checkout S1-ESP \| pagina \| cupom-estado2]]` | Botão de compra das alunas; trocar por S1-1L e S1-UL conforme o lote em vigor | Financeiro / Hotmart |
+| cupom-estado2 | `[[LINK: página de vendas \| pagina \| cupom-estado2]]` | Botão secundário: página de vendas completa, versão alunas | Web designer |
+| cupom-estado2-nao | `[[LINK: página de vendas \| pagina \| cupom-estado2-nao]]` e `[[LINK: suporte WhatsApp \| pagina \| cupom-estado2-nao]]` | E-mail não reconhecido depois da live: página de vendas (não-alunas) ou suporte | Web designer e Suporte |
+| cupom-estado3 | `[[LINK: lista de espera \| pagina \| cupom-estado3]]` | Carrinho encerrado: entra na lista de espera | Web designer |
+| cupom-faq | `[[LINK: suporte WhatsApp \| pagina \| cupom-faq]]` | FAQ: falar com o suporte | Suporte |

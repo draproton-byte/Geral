@@ -27,7 +27,7 @@ O bônus de escassez do Desafio funcionava por três razões, e as três valem p
 1. O bônus não faz parte da oferta. Quem entra depois da janela recebe o mesmo acesso, a mesma trilha, o mesmo suporte, a mesma garantia e o mesmo valor de lote. Só o bônus muda.
 2. O bônus nunca é reaberto, prorrogado, repetido nem "liberado só mais hoje" em live, grupo, e-mail ou comercial. Se isso vai acontecer, ele não é um bônus de 15 minutos e não pode ser anunciado como tal.
 3. O cronômetro tem relógio real por trás (horário do servidor do checkout) e o corte é registrado.
-4. A janela de 15 minutos nunca é apresentada como a única chance de comprar. O lote segue aberto até `[[PENDENTE: data do lote]]`, e a Dra. diz isso na contagem 1 e na contagem 4.
+4. A janela de 15 minutos nunca é apresentada como a única chance de comprar. O link segue aberto até `[[PENDENTE: fechamento]]`, no valor do lote vigente (que vale até `[[PENDENTE: data do lote]]`), e a Dra. diz isso na contagem 1 e na contagem 4.
 
 ---
 
@@ -37,7 +37,7 @@ O bônus de escassez do Desafio funcionava por três razões, e as três valem p
 |---|---|---|---|
 | **A. Bônus de 15 minutos** | `[[PENDENTE: bônus]]` existe e é liberável por tempo | "Quem finalizar em 15 minutos leva [[PENDENTE: bônus]]" | Cronômetro de 15 min, 4 contagens |
 | **B. Sem bônus, relógio do lote** | Não há bônus; o Lote Especial tem data e hora reais | "O Lote Especial vale até [[PENDENTE: data do lote]]" | Relógio do lote, 4 contagens de "tempo até a virada" quando fizer sentido (se a virada for em dias, não usar cronômetro) |
-| **C. Bônus por quantidade** | Existe bônus com estoque real para os primeiros N compradores (como na planilha: 50, 100, 300 primeiros). A live não tem limite de vagas: só o bônus pode ter estoque. [[CONFIRMAR: bônus por quantidade, com estoque real e contagem do checkout]] | "Os primeiros [[CONFIRMAR: quantidade]] levam [[PENDENTE: bônus]]" | Contador só com número real do checkout; nunca contador estimado e nunca com anúncio de fim de vagas |
+| **C. Bônus por quantidade** | Existe bônus com estoque real para os primeiros N compradores (como na planilha: 50, 100, 300 primeiros). A live não tem limite de vagas: só o bônus pode ter estoque. [[CONFIRMAR: bônus por quantidade, com estoque real e contagem do checkout]] | "Os primeiros [[CONFIRMAR: quantidade]] levam [[PENDENTE: bônus]]" | Contador só com número real do checkout; nunca contador estimado e nunca com anúncio de fim de unidades do bônus |
 
 **Recomendação de copy:** modo A, com um bônus de ativação (acelera o primeiro passo), porque combina o tempo curto da live com o risco de "não começar".
 
@@ -54,7 +54,7 @@ Não existe bônus definido. As opções abaixo são formatos, não promessas. N
 | Acesso antecipado ou prioridade (grupo de boas-vindas, suporte prioritário na primeira semana) | Insegurança no começo | Capacidade do suporte comprovada |
 | Sessão em grupo de reprogramação (precedente do Desafio: "reprogramação mental") | Aumenta o valor percebido | Nunca usar valor em reais que não existe como preço de venda avulsa |
 
-**Regra do valor de bônus:** se o bônus tiver valor declarado em reais, esse valor precisa ser preço de venda real. O Desafio declarou um valor alto para uma reprogramação intrauterina (copy de vagas abertas do Clube). Para a Black, só repetir com `[[CONFIRMAR: preço real praticado]]`. Sem número comprovado, o bônus é anunciado só pelo nome e pelo que resolve.
+**Regra do valor de bônus:** se o bônus tiver valor declarado em reais, esse valor precisa ser preço de venda real. O Desafio declarou um valor alto para uma reprogramação intrauterina (copy de abertura de turma do Clube). Para a Black, só repetir com `[[CONFIRMAR: preço real praticado]]`. Sem número comprovado, o bônus é anunciado só pelo nome e pelo que resolve.
 
 ---
 
@@ -76,7 +76,7 @@ O cronômetro só é justo se o critério for claro e testável.
 
 ## 5. Os quatro momentos de contagem
 
-Todos assumem o modo A. No modo B, trocar "bônus" por "Lote Especial". No modo C, trocar "minutos" por "vagas" e usar só o número real.
+Todos assumem o modo A. No modo B, trocar "bônus" por "Lote Especial". No modo C, trocar "minutos" por "unidades do bônus" e usar só o número real.
 
 ### Contagem 1. Abertura do link (01:28, bônus corre por 15:00)
 
@@ -92,9 +92,11 @@ Todos assumem o modo A. No modo B, trocar "bônus" por "Lote Especial". No modo 
 
 O bônus corre por 15 minutos a partir de agora.
 
-Escolha o seu segmento e finalize pelo link abaixo:
+Finalize pelo link do seu grupo abaixo:
 
-[[LINK: checkout por lote e segmento]]
+[[LINK: checkout S3-ESP | wpp | live-bonus-c1]]
+
+Variantes por grupo (a mensagem é a mesma, só o token muda): no grupo das alunas, `[[LINK: checkout S1-ESP | wpp | live-bonus-c1]]`; no grupo de quem viveu Desafio, Imersão ou Aulão, `[[LINK: checkout S2-ESP | wpp | live-bonus-c1]]`.
 
 ### Contagem 2. Faltam 10 minutos (01:33)
 
@@ -107,7 +109,7 @@ Escolha o seu segmento e finalize pelo link abaixo:
 
 Dúvida no pagamento? Chame o suporte agora:
 
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | wpp | live-bonus-c2]]
 
 ### Contagem 3. Faltam 5 minutos (01:38)
 
@@ -120,23 +122,25 @@ Dúvida no pagamento? Chame o suporte agora:
 
 Quem já decidiu, finalize pelo link abaixo:
 
-[[LINK: checkout por lote e segmento]]
+[[LINK: checkout S3-ESP | wpp | live-bonus-c3]]
+
+Variantes por grupo: alunas, `[[LINK: checkout S1-ESP | wpp | live-bonus-c3]]`; quem viveu Desafio, Imersão ou Aulão, `[[LINK: checkout S2-ESP | wpp | live-bonus-c3]]`.
 
 ### Contagem 4. Falta 1 minuto e encerramento (01:42 a 01:43)
 
 - TELA (slide 45): cronômetro de 1 minuto, em silêncio visual. Nenhum efeito de som alto.
 - FALA: "Falta 1 minuto. Se você está no pagamento, finaliza. Eu espero."
 - TIME: quando zerar, o cronômetro vira "Bônus encerrado". Silêncio de 3 segundos.
-- FALA: "Encerrou o bônus. O link continua aberto até [[PENDENTE: data do lote]], no valor do lote, e a oferta é a mesma. Só o bônus saiu."
+- FALA: "Encerrou o bônus. O link continua aberto até [[PENDENTE: fechamento]], no valor do lote vigente, e a oferta é a mesma. Só o bônus saiu."
 - Mensagem no grupo:
 
 *O bônus encerrou.*
 
-O link segue aberto no valor do lote até [[PENDENTE: data do lote]].
+O link segue aberto até [[PENDENTE: fechamento]], no valor do lote vigente.
 
 Dúvida sobre o pagamento? Chame o suporte:
 
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | wpp | live-bonus-c4]]
 
 (Observação para o time: as quatro mensagens acima são de grupo e não levam rodapé de saída. Se forem enviadas pela API, acrescentar o rodapé "Digite SAIR se não quiser mais receber mensagens" como última linha.)
 
@@ -186,3 +190,20 @@ Quer que eu te explique as opções?
 **Teste A/B sugerido:** contagem 3 (faltam 5 minutos) com a frase "olha o papel da linha três" versus a frase neutra "faltam 5 minutos". Métrica: compras nos 5 minutos finais.
 
 **Dependências:** `roteiro_live_de_revelacao.md` (blocos 13, 15 e 16), `slides_da_live.md` (slides 40, 42 a 45), `playbook_do_dia_da_live.md` (comercial em prontidão durante os 15 minutos).
+
+---
+
+## Links desta peça
+
+Tokens no formato do `16_MAPA_DE_LINKS.md`, canal `wpp` (mensagens de grupo). O token mostrado é o do grupo geral; as variantes por grupo estão ao lado de cada mensagem. Se as mensagens saírem por API, o canal passa a `api`. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| live-bonus-c1 | `[[LINK: checkout S3-ESP \| wpp \| live-bonus-c1]]` | Checkout de quem ainda não é do Clube, Lote Especial, na mensagem "O link abriu" (21h28) | Financeiro / Hotmart |
+| live-bonus-c1 | `[[LINK: checkout S1-ESP \| wpp \| live-bonus-c1]]` | Variante do grupo das alunas | Financeiro / Hotmart |
+| live-bonus-c1 | `[[LINK: checkout S2-ESP \| wpp \| live-bonus-c1]]` | Variante do grupo de quem viveu Desafio, Imersão ou Aulão | Financeiro / Hotmart |
+| live-bonus-c2 | `[[LINK: suporte WhatsApp \| wpp \| live-bonus-c2]]` | Abre o atendimento de suporte para dúvida de pagamento (21h33) | Suporte |
+| live-bonus-c3 | `[[LINK: checkout S3-ESP \| wpp \| live-bonus-c3]]` | Checkout de quem ainda não é do Clube, Lote Especial, na mensagem "Faltam 5 minutos" (21h38) | Financeiro / Hotmart |
+| live-bonus-c3 | `[[LINK: checkout S1-ESP \| wpp \| live-bonus-c3]]` | Variante do grupo das alunas | Financeiro / Hotmart |
+| live-bonus-c3 | `[[LINK: checkout S2-ESP \| wpp \| live-bonus-c3]]` | Variante do grupo de quem viveu Desafio, Imersão ou Aulão | Financeiro / Hotmart |
+| live-bonus-c4 | `[[LINK: suporte WhatsApp \| wpp \| live-bonus-c4]]` | Abre o atendimento de suporte na mensagem "O bônus encerrou" (21h43) | Suporte |

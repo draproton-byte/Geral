@@ -15,7 +15,9 @@
 
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." O aquecimento mostra que o recomeço é um padrão (não um defeito) e, por isso, tem fim.
 
-**Regras de política Meta e de arte:** nenhuma headline afirma condição pessoal ("você tem medo", "você sempre volta"); os sinais dos perfis são descritos como situações comuns, nunca como característica de quem lê. Nenhuma imagem de antes e depois. Headline de até 60 caracteres, em no máximo 2 linhas, mínimo de 64 px. Paleta de trabalho provisória (escuro, branco, amarelo): a identidade visual ainda não existe, e o destaque amarelo nunca carrega sentido sozinho (a palavra destacada também fica maior ou em negrito).
+**Link de destino:** cada criativo e cada legenda leva uma linha "Link de destino" com o token do mapa de links (`16_MAPA_DE_LINKS.md`): captura A, canal `ads-meta`, ID da própria peça. Quando o criativo roda no feed orgânico, no stories ou na bio, trocar só o canal do token (`stories`, `bio`) e manter o ID. Quem já se cadastrou recebe o link da live pelos lembretes, não por este arquivo.
+
+**Regras de política Meta e de arte:** nenhuma headline afirma condição pessoal ("você tem medo", "você sempre volta"); os sinais dos perfis são descritos como situações comuns, nunca como característica de quem lê. Nenhuma imagem de antes e depois. Headline de até 60 caracteres, em no máximo 2 linhas, mínimo de 64 px. Paleta de trabalho provisória (escuro, branco, amarelo): a identidade visual ainda não existe, e o destaque amarelo nunca carrega sentido por si só (a palavra destacada também fica maior ou em negrito).
 
 ## Calendário
 
@@ -37,7 +39,7 @@
 | 26/10 | segunda | AQC-PERF-05 | | Perfil: Culpa de Querer Mais |
 | 27/10 | terça | AQC-CONTA-05 | LEG-AQC-06 | A conta que a live fecha (passagem para o "falta 7") |
 
-Em 27/10 roda também o criativo "falta 7" do arquivo de lembretes. Em 28/10 (falta 6) não há criativo novo de lembrete: usar o melhor aquecimento dos últimos 14 dias (maior CTR) como reforço.
+Em 27/10 roda também o criativo "falta 7" do arquivo de lembretes (LEM-D7-1 a 3). Em 28/10 (falta 6) não há criativo novo de lembrete: usar o melhor aquecimento dos últimos 14 dias (maior CTR) como reforço.
 
 ---
 
@@ -49,27 +51,31 @@ Explicação base, para ser repetida em cada peça do bloco: *o Termostato Invis
 - **Headline:** Todo termostato tem um número. O do dinheiro também.
 - **Texto na arte:** Um termostato decide qual temperatura a casa aceita. Com o dinheiro é parecido: existe um número que a mente aprendeu a aceitar. Passou dele, algo puxa de volta. Eu chamo isso de Termostato Invisível.
 - **CTA:** Saiba mais
+- Link de destino: [[LINK: captura A | ads-meta | AQC-TERM-01]]
 - **FRAME 0:** Foto de um termostato de parede real com o ponteiro numa temperatura média, à esquerda; à direita a headline em branco, "número" em amarelo e em negrito. Para o scroll porque é um objeto de casa que todo mundo reconhece, e a comparação com algo conhecido faz quem tem 50+ entender antes de ler o texto menor.
 - **Consciência:** 1 a 2, apresentação da ideia. **Momento de vida:** todos.
 
 ### AQC-TERM-02 | 16/10 | Estático | Sem legenda dedicada (usar texto da arte)
 - **Headline:** Veio um extra. Veio também o conserto do carro.
-- **Texto na arte:** O conserto do carro. A conta de saúde. O empréstimo que alguém pediu. Quando entra um extra, algo vem buscar. Se isso é familiar, não é azar: é o termostato.
+- **Texto na arte:** O conserto do carro. A conta de saúde. O empréstimo que alguém pediu. Quando entra um extra, algo vem buscar. Se isso é familiar, talvez não seja azar. Talvez seja o termostato.
 - **CTA:** Descobrir meu padrão
+- Link de destino: [[LINK: captura A | ads-meta | AQC-TERM-02]]
 - **FRAME 0:** Três ícones em fila (chave de carro, receita médica, mão aberta) com a headline em branco; o último ícone em amarelo. Para o scroll porque os três ícones listam cenas concretas que muita gente já viveu, e o olho percorre a fila na ordem.
 - **Consciência:** 2. **Momento de vida:** aperto real e funcional.
 
 ### AQC-TERM-03 | 19/10 | Estático | LEG-AQC-02
-- **Headline:** O número da cabeça foi ajustado antes de você.
-- **Texto na arte:** "Dinheiro não dá em árvore." "Sucesso é para quem já nasceu rico." Frases como essas, ouvidas cedo, regulam o teto que se aceita hoje.
+- **Headline:** Quem ajustou o termostato? Talvez uma frase antiga.
+- **Texto na arte:** "Dinheiro não dá em árvore." "Sucesso é para quem já nasceu rico." Frases como essas, ouvidas cedo, podem ajudar a fixar o teto que se aceita hoje.
 - **CTA:** Saiba mais
-- **FRAME 0:** Foto de uma criança numa mesa de cozinha com adultos desfocados ao fundo (banco de imagens), as duas frases em balões brancos. Para o scroll porque as frases entre aspas são ouvidas em voz de mãe ou avó pela base de 45+.
+- Link de destino: [[LINK: captura A | ads-meta | AQC-TERM-03]]
+- **FRAME 0:** Dois balões de fala brancos, um sobre o outro, com as duas frases entre aspas, sobre uma cozinha desfocada (banco de imagens), sem pessoas. Para o scroll porque as frases entre aspas são ouvidas em voz de mãe ou avó pela base de 45+.
 - **Consciência:** 2 a 3. **Momento de vida:** quem carrega crenças herdadas.
 
 ### AQC-TERM-04 | 22/10 | Estático | Sem legenda dedicada
 - **Headline:** Trabalhar mais é esquentar o quarto com um aquecedor.
-- **Texto na arte:** Enquanto o termostato não muda, o quarto volta à mesma temperatura. Por isso tanto esforço e tão pouca diferença. O que muda o resultado é o ajuste, não a força. É uma analogia, não uma explicação científica.
+- **Texto na arte:** Enquanto o termostato não muda, o quarto volta à mesma temperatura. Talvez seja por isso que tanto esforço traga tão pouca diferença. Nesta analogia, o que muda o resultado é o ajuste, não a força. É uma analogia, não uma explicação científica.
 - **CTA:** Quero entender
+- Link de destino: [[LINK: captura A | ads-meta | AQC-TERM-04]]
 - **FRAME 0:** Ilustração de um aquecedor ao lado de um termostato apagado, "aquecedor" em amarelo e em negrito. Para o scroll porque a metáfora inverte uma crença (trabalhar mais resolve) e a imagem é limpa, em dois objetos.
 - **Consciência:** 3. **Momento de vida:** "trabalho muito e ganho pouco" (221 respostas no diagnóstico do Desafio).
 
@@ -77,6 +83,7 @@ Explicação base, para ser repetida em cada peça do bloco: *o Termostato Invis
 - **Headline:** Dá para enxergar o termostato. Antes de qualquer promessa.
 - **Texto na arte:** Eu não prometo dinheiro. Prometo te mostrar um padrão. O que fazer com ele é decisão sua. É trabalho de raiz, não de emergência. Live de revelação: 03/11, 20h.
 - **CTA:** Reservar meu lugar
+- Link de destino: [[LINK: captura A | ads-meta | AQC-TERM-05]]
 - **FRAME 0:** `[[FOTO DRA]]` de frente, mão aberta, e a headline em branco; "antes de qualquer promessa" em amarelo. Para o scroll porque a Dra. diz de cara o que não vai fazer, e isso desarma a desconfiança de quem já foi enganado.
 - **Consciência:** 3 a 4. **Momento de vida:** quem comprou e não teve resultado.
 
@@ -87,9 +94,10 @@ Explicação base, para ser repetida em cada peça do bloco: *o Termostato Invis
 Nenhum número aparece: a conta é feita pela própria pessoa, com os números dela. A live faz a conta completa, ao vivo.
 
 ### AQC-CONTA-01 | 15/10 | Estático | LEG-AQC-03
-- **Headline:** Pegue um papel. Some o que gastou em cursos não terminados.
-- **Texto na arte:** Cursos. Livros. Mentorias. Programas que começaram numa segunda e pararam na terça. Quanto deu? Guarde esse número. Na live de 03/11 eu vou te pedir.
+- **Headline:** Pegue um papel. Some o que gastou com cursos.
+- **Texto na arte:** Cursos, livros, mentorias, programas. Se algum ficou pela metade, anote quanto custou. Quanto deu? Guarde esse número. Na live de 03/11 eu vou te pedir. `[[CONFIRMAR: a live pede o número da conta]]`
 - **CTA:** Saiba mais
+- Link de destino: [[LINK: captura A | ads-meta | AQC-CONTA-01]]
 - **FRAME 0:** Mão com caneta sobre um bloco de papel com a palavra "TOTAL:" e um espaço em branco. Para o scroll porque é uma tarefa concreta, um convite que dá vontade de fazer na hora.
 - **Consciência:** 2. **Momento de vida:** quem já comprou e não aplicou (14% da ficha).
 
@@ -97,6 +105,7 @@ Nenhum número aparece: a conta é feita pela própria pessoa, com os números d
 - **Headline:** Agora some o tempo. Quantos anos de "ano que vem eu começo"?
 - **Texto na arte:** Dinheiro volta. Tempo, não. Se o começo já foi adiado mais de uma vez, o custo de ficar no mesmo lugar é maior que qualquer fatura.
 - **CTA:** Saiba mais
+- Link de destino: [[LINK: captura A | ads-meta | AQC-CONTA-02]]
 - **FRAME 0:** Calendário com os anos riscados e o ano atual em amarelo. Para o scroll porque os anos riscados mostram o acúmulo em um só olhar.
 - **Consciência:** 2 a 3. **Momento de vida:** todos.
 
@@ -104,6 +113,7 @@ Nenhum número aparece: a conta é feita pela própria pessoa, com os números d
 - **Headline:** 52 segundas por ano. Quantas você recomeçou?
 - **Texto na arte:** Recomeçar custa energia. Cada segunda em que se promete que dessa vez vai e não vai cobra um pedaço de confiança em si. Essa conta também conta.
 - **CTA:** Descobrir meu padrão
+- Link de destino: [[LINK: captura A | ads-meta | AQC-CONTA-03]]
 - **FRAME 0:** Grade de 52 quadrados, a maioria em branco e alguns em amarelo, número 52 grande. Para o scroll porque o "52" é um número real e a grade vira um retrato do ano.
 - **Consciência:** 2. **Momento de vida:** funcional e exausta.
 
@@ -111,6 +121,7 @@ Nenhum número aparece: a conta é feita pela própria pessoa, com os números d
 - **Headline:** Ficar no mesmo lugar tem fatura. Ninguém manda o boleto.
 - **Texto na arte:** O boleto da vida parada chega aos poucos: uma oportunidade que passou, uma conversa que não houve, um sonho que ficou para depois. A live de 03/11 fala de como parar de pagar essa fatura.
 - **CTA:** Reservar meu lugar
+- Link de destino: [[LINK: captura A | ads-meta | AQC-CONTA-04]]
 - **FRAME 0:** Um envelope de conta em branco, sem destinatário, com "ninguém manda" em amarelo e em negrito. Para o scroll porque o envelope vazio é uma imagem estranha que pede explicação.
 - **Consciência:** 3. **Momento de vida:** todos.
 
@@ -118,6 +129,7 @@ Nenhum número aparece: a conta é feita pela própria pessoa, com os números d
 - **Headline:** Dia 03/11, às 20h, eu fecho essa conta com você, ao vivo.
 - **Texto na arte:** A conta de mais um ano igual contra a conta de parar de recomeçar. Sem promessa de milagre. Com todos os números na mesa.
 - **CTA:** Reservar meu lugar
+- Link de destino: [[LINK: captura A | ads-meta | AQC-CONTA-05]]
 - **FRAME 0:** `[[FOTO DRA]]` com um quadro-negro ao fundo e a palavra "conta" circulada em amarelo. Para o scroll porque a Dra. diante do quadro remete às aulas e promete um momento de revelação.
 - **Consciência:** 3 a 4. **Momento de vida:** todos. **Ponte:** vira o "falta 7".
 
@@ -131,6 +143,7 @@ Cada criativo apresenta um perfil com três sinais de reconhecimento, descritos 
 - **Headline:** Perfil 1: Termostato Invisível.
 - **Texto na arte:** Sinais comuns: entra um extra e aparece uma conta; o patamar sempre volta ao mesmo ponto; o medo de ter mais e perder. Se 2 de 3 soam familiares, este pode ser o padrão a observar.
 - **CTA:** Descobrir meu padrão
+- Link de destino: [[LINK: captura A | ads-meta | AQC-PERF-01]]
 - **FRAME 0:** O número "1" gigante em amarelo e o termostato em ícone. Para o scroll porque a numeração promete uma série e cria hábito de olhar o próximo.
 - **Consciência:** 2 a 3. **Momento de vida:** funcional.
 
@@ -138,6 +151,7 @@ Cada criativo apresenta um perfil com três sinais de reconhecimento, descritos 
 - **Headline:** Perfil 2: Autossabotagem.
 - **Texto na arte:** Sinais comuns: saber o que fazer e não fazer; começar com tudo e abandonar perto da linha de chegada; quando a vida começa a dar certo, algo desanda. Se 2 de 3 soam familiares, este pode ser o padrão a observar.
 - **CTA:** Descobrir meu padrão
+- Link de destino: [[LINK: captura A | ads-meta | AQC-PERF-02]]
 - **FRAME 0:** Número "2" em amarelo e um ícone de pé que tropeça. Para o scroll pela mesma lógica de série numerada.
 - **Consciência:** 2 a 3. **Momento de vida:** quem procrastina (22%).
 
@@ -145,6 +159,7 @@ Cada criativo apresenta um perfil com três sinais de reconhecimento, descritos 
 - **Headline:** Perfil 3: Cobrança Que Você Só Faz Com Você.
 - **Texto na arte:** Sinais comuns: por fora, tudo em dia; por dentro, nunca é o bastante; dificuldade de descansar sem culpa. Se 2 de 3 soam familiares, este pode ser o padrão a observar.
 - **CTA:** Descobrir meu padrão
+- Link de destino: [[LINK: captura A | ads-meta | AQC-PERF-03]]
 - **FRAME 0:** Número "3" em amarelo e um espelho sem rosto, só o contorno. Para o scroll porque o espelho é uma metáfora imediata de autocobrança.
 - **Consciência:** 2 a 3. **Momento de vida:** funcional e exausta.
 
@@ -152,6 +167,7 @@ Cada criativo apresenta um perfil com três sinais de reconhecimento, descritos 
 - **Headline:** Perfil 4: Traumas Que Ainda Decidem.
 - **Texto na arte:** Sinais comuns: cada passo seguido de um recuo; frases antigas que voltam na hora de decidir; repetir padrões vistos em casa. Não é terapia nem tratamento. Se 2 de 3 soam familiares, este pode ser o padrão a observar.
 - **CTA:** Descobrir meu padrão
+- Link de destino: [[LINK: captura A | ads-meta | AQC-PERF-04]]
 - **FRAME 0:** Número "4" em amarelo e uma pegada de pé que dá um passo à frente e outro de volta. Para o scroll porque a pegada duplicada é um símbolo que se entende sem ler.
 - **Consciência:** 2 a 3. **Momento de vida:** quem carrega o passado.
 
@@ -159,7 +175,8 @@ Cada criativo apresenta um perfil com três sinais de reconhecimento, descritos 
 - **Headline:** Perfil 5: Culpa de Querer Mais.
 - **Texto na arte:** Sinais comuns: cuidar de todo mundo primeiro; culpa ao pensar em si; evitar pedir mais para não parecer egoísta. Se 2 de 3 soam familiares, este pode ser o padrão a observar.
 - **CTA:** Descobrir meu padrão
-- **FRAME 0:** Número "5" em amarelo e uma mão com várias xícaras. Para o scroll porque fecha a série e a imagem mostra o excesso de carga.
+- Link de destino: [[LINK: captura A | ads-meta | AQC-PERF-05]]
+- **FRAME 0:** Número "5" em amarelo e uma mesa posta para muitas pessoas, com um lugar vazio. Para o scroll porque fecha a série e a imagem mostra quem serve a todos e esquece de si.
 - **Consciência:** 2 a 3. **Momento de vida:** casada, quem cuida de todos.
 
 ---
@@ -170,6 +187,8 @@ Modelo: V1 do Desafio (o que a pessoa vai ver + chamada) e V2 (data). A data aqu
 
 ### LEG-AQC-01 | Abertura da captação | 13/10
 **Frame 0 do par:** AQC-TERM-01 (termostato de parede e a headline).
+
+Link de destino: [[LINK: captura A | ads-meta | LEG-AQC-01]]
 
 Hoje abre o caminho até a live de revelação, e ele começa de graça.
 
@@ -182,11 +201,13 @@ Comece agora: clique em "Saiba mais", cadastre-se, faça o diagnóstico e reserv
 ### LEG-AQC-02 | Termostato Invisível | 19/10
 **Frame 0 do par:** AQC-TERM-03 (criança na mesa de cozinha e as duas frases).
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-AQC-02]]
+
 Você já ouviu "dinheiro não dá em árvore"?
 
-Frases como essa, ditas cedo, regulam o teto de dinheiro que a sua mente aceita hoje. Eu chamo isso de Termostato Invisível.
+Frases como essa, ditas cedo, podem ajudar a fixar o teto de dinheiro que a sua mente aceita hoje. Eu chamo isso de Termostato Invisível.
 
-Mais da metade das pessoas que responderam à pesquisa de presença do meu Desafio disseram que, quando entra um dinheiro a mais, aparece uma conta. É o termostato em ação.
+Mais da metade das pessoas que responderam à pesquisa de presença do meu Desafio disseram que, quando entra um dinheiro a mais, aparece uma conta. Para mim, é o termostato em ação.
 
 Não é azar nem preguiça. É um padrão. E padrão se enxerga.
 
@@ -197,18 +218,22 @@ Para reservar o seu lugar, clique em "Saiba mais". Não custa nada.
 ### LEG-AQC-03 | A conta do que já gastou | 15/10
 **Frame 0 do par:** AQC-CONTA-01 (bloco de papel com "TOTAL:").
 
-Pegue um papel e some o que você já gastou em cursos, livros e programas que começou e não terminou.
+Link de destino: [[LINK: captura A | ads-meta | LEG-AQC-03]]
 
-Não é pra te envergonhar. É pra você ver que o que falta não é conteúdo.
+Pegue um papel e some o que já foi gasto em cursos, livros e programas. Só a conta, sem julgamento.
+
+Não é para ninguém se envergonhar. É pra enxergar que, muitas vezes, o que falta não é conteúdo.
 
 O que falta é um jeito de ficar. E é sobre isso que eu vou falar na live de revelação do dia 03/11, às 20h.
 
-Guarde o seu número. Eu vou te pedir.
+Guarde o seu número. Eu vou te pedir. `[[CONFIRMAR: a live pede o número da conta]]`
 
 Clique em "Saiba mais" e reserve o seu lugar. É gratuito.
 
 ### LEG-AQC-04 | Os cinco perfis | 20/10
 **Frame 0 do par:** AQC-PERF-03 (o número "3" e o espelho sem rosto).
+
+Link de destino: [[LINK: captura A | ads-meta | LEG-AQC-04]]
 
 Termostato Invisível. Autossabotagem. Cobrança Que Você Só Faz Com Você. Traumas Que Ainda Decidem. Culpa de Querer Mais.
 
@@ -223,6 +248,8 @@ Quer participar? Clique em "Saiba mais" e cadastre-se, sem custo.
 ### LEG-AQC-05 | Prova e o que a Dra. revela | 25/10
 **Frame 0 do par:** AQC-TERM-05 (a Dra. de frente, mão aberta).
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-AQC-05]]
+
 Mais de 70 mil alunos em 44 países. 1,4 milhão de pessoas me acompanhando.
 
 Eu não te digo isso pra impressionar. Digo porque, quando perguntei a mais de 7 mil pessoas o que impede de ganhar o dinheiro que gostariam, 40% responderam: "Não sei exatamente." Quem não sabe está em boa companhia, e dá para descobrir.
@@ -235,6 +262,8 @@ Clique em "Saiba mais" e reserve o seu lugar, sem custo.
 
 ### LEG-AQC-06 | A conta que a live fecha | 27/10
 **Frame 0 do par:** AQC-CONTA-05 (a Dra. diante do quadro-negro, "conta" circulada).
+
+Link de destino: [[LINK: captura A | ads-meta | LEG-AQC-06]]
 
 Já fez a conta do que gastou, do tempo que passou e das segundas que recomeçou?
 
@@ -256,3 +285,29 @@ Terça, 03/11. Clique em "Saiba mais" e reserve o seu lugar, sem custo.
 6. **Peça do Desafio sem equivalente:** a V2 do Desafio listava as 5 datas das noites; a Black tem uma live, então a lista vira o calendário acima, que é de conteúdo, não de evento.
 7. **Aquecimento por e-mail e WhatsApp:** os textos acima servem de base para `05_whatsapp_api` e `06_emails`; as pontes (ex.: LEG-AQC-06) devem ser repetidas ali. Lá, usar "para" no lugar de "pra" e data fixa no lugar de contagem de dias.
 8. **Diagnóstico:** abre na página de obrigado, depois do cadastro. Os CTAs "Descobrir meu padrão" e "Reservar meu lugar" levam à página de captura, onde está o formulário.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| AQC-TERM-01 | `[[LINK: captura A | ads-meta | AQC-TERM-01]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-TERM-02 | `[[LINK: captura A | ads-meta | AQC-TERM-02]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-TERM-03 | `[[LINK: captura A | ads-meta | AQC-TERM-03]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-TERM-04 | `[[LINK: captura A | ads-meta | AQC-TERM-04]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-TERM-05 | `[[LINK: captura A | ads-meta | AQC-TERM-05]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-CONTA-01 | `[[LINK: captura A | ads-meta | AQC-CONTA-01]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-CONTA-02 | `[[LINK: captura A | ads-meta | AQC-CONTA-02]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-CONTA-03 | `[[LINK: captura A | ads-meta | AQC-CONTA-03]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-CONTA-04 | `[[LINK: captura A | ads-meta | AQC-CONTA-04]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-CONTA-05 | `[[LINK: captura A | ads-meta | AQC-CONTA-05]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-PERF-01 | `[[LINK: captura A | ads-meta | AQC-PERF-01]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-PERF-02 | `[[LINK: captura A | ads-meta | AQC-PERF-02]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-PERF-03 | `[[LINK: captura A | ads-meta | AQC-PERF-03]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-PERF-04 | `[[LINK: captura A | ads-meta | AQC-PERF-04]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| AQC-PERF-05 | `[[LINK: captura A | ads-meta | AQC-PERF-05]]` | Leva à página de captura para cadastro na live de 03/11 (quem já se cadastrou usa o grupo e o lembrete) | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-AQC-01 | `[[LINK: captura A | ads-meta | LEG-AQC-01]]` | Mesmo destino, quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-AQC-02 | `[[LINK: captura A | ads-meta | LEG-AQC-02]]` | Mesmo destino, quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-AQC-03 | `[[LINK: captura A | ads-meta | LEG-AQC-03]]` | Mesmo destino, quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-AQC-04 | `[[LINK: captura A | ads-meta | LEG-AQC-04]]` | Mesmo destino, quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-AQC-05 | `[[LINK: captura A | ads-meta | LEG-AQC-05]]` | Mesmo destino, quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-AQC-06 | `[[LINK: captura A | ads-meta | LEG-AQC-06]]` | Mesmo destino, quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |

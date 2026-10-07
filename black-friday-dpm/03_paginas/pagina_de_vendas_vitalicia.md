@@ -3,7 +3,7 @@
 **Peça:** Página de vendas (abre na live de 03/11), em 14 blocos, com duas versões de preço (alunas e não-alunas)
 **Canal:** Página (link aberto na live, no YouTube, no grupo, no e-mail de abertura e pelo comercial)
 **Público:** Todo cadastrado e quem chega pela live. Duas versões: **alunas do Clube Secreto** e **não-alunas** (via tag/e-mail do cupom e link por segmento)
-**Momento:** Abre no minuto em que a Dra. revela a condição, 03/11, depois das 20h. Antes disso, a URL mostra a tela de espera (ver abaixo)
+**Momento:** 03/11. A tela de espera sai quando a Dra. revela o valor ao vivo (21h09). O botão de compra liga quando o carrinho abre (21h28). Antes disso, a URL mostra a tela de espera (ver abaixo)
 **Objetivo:** Compra do pagamento único. Cobre a decisão de quem assistiu e de quem chega depois, durante os três lotes
 **Consciência:** 4 a 5
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." Troca de identidade: de "a que recomeça" para "a que fica"
@@ -19,7 +19,8 @@
 |---|---|
 | Link da página de cupom das alunas (`pagina_cupom_alunas.md`) ou tag "aluna" na ferramenta | **Alunas** (preço e checkout de alunas) |
 | Link geral (live, e-mail para todos, grupo geral, anúncio) | **Não-alunas** |
-| Aluna que chegou pelo link geral | Mostrar acima do botão: `Você é aluna do Clube? Veja a sua condição.` [[LINK: página de cupom alunas]] |
+| Tag de quem viveu Desafio, Imersão ou Aulão e não é do Clube (S2) | Versão **não-alunas** (mesmo preço de não-aluna), com o checkout S2 |
+| Aluna que chegou pelo link geral | Mostrar acima do botão: `Você é aluna do Clube? Veja a sua condição.` [[LINK: página das alunas | pagina | vendas-b01]] |
 
 Blocos condicionais marcados `[[SE: ALUNA]]` ... `[[FIM SE]]` e `[[SE: NÃO-ALUNA]]` ... `[[FIM SE]]`.
 
@@ -27,7 +28,7 @@ Blocos condicionais marcados `[[SE: ALUNA]]` ... `[[FIM SE]]` e `[[SE: NÃO-ALUN
 
 ## Tela de espera (antes da live, URL já existe)
 
-**Quando:** até o início da revelação, 03/11, 20h. Se alguém abrir antes (ex.: a URL vazou), cai aqui.
+**Quando:** até a revelação do valor ao vivo, 03/11, 21h09. Se alguém abrir antes (ex.: a URL vazou), cai aqui.
 
 **Título**
 `A condição é revelada ao vivo, em 03/11, às 20h.`
@@ -38,13 +39,14 @@ Blocos condicionais marcados `[[SE: ALUNA]]` ... `[[FIM SE]]` e `[[SE: NÃO-ALUN
 **Contagem:** `Começa em {{dias}}d {{horas}}h {{minutos}}min {{segundos}}s` (ocultar os dias quando for 0)
 
 **Botão**
-`IR PARA A LIVE` [[LINK: página da live]]
+`IR PARA A LIVE` [[LINK: live YouTube | pagina | vendas-espera]]
+Leva para: a página da live.
 
 ---
 
 ## Bloco 00: Tarja de lote (fixa no topo, acompanha a rolagem)
 
-Elemento fixo. Mostra o **lote real** e **o relógio do próximo virar**. Não há "% de vagas preenchidas", porque a Vitalícia não tem limite de vagas declarado. Escassez só por lote.
+Elemento fixo. Mostra o **lote real** e **o relógio do próximo virar**. Não há contador de lugares preenchidos, porque a Vitalícia não tem limite de lugares declarado. Escassez só por lote.
 
 **Estado 1: Lote Especial aberto** [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 `🎟 Lote Especial · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento`
@@ -59,7 +61,8 @@ Elemento fixo. Mostra o **lote real** e **o relógio do próximo virar**. Não h
 `⏳ Faltam {{horas}}h {{minutos}}min para o fim do {{lote_atual}}. Depois, o valor muda.` (no Último Lote: `⏳ Faltam {{horas}}h {{minutos}}min para o fim do carrinho. Depois, o carrinho se encerra.`)
 
 **Estado 5: Encerrado**
-`O carrinho da Black Próton Vitalícia foi encerrado.` e botão `ENTRAR NA LISTA DE ESPERA` [[LINK: lista_de_espera]]
+`O carrinho da Black Próton Vitalícia foi encerrado.` e botão `ENTRAR NA LISTA DE ESPERA` [[LINK: lista de espera | pagina | vendas-b00]]
+Leva para: a página da lista de espera.
 
 **Função:** urgência por lote real, com a regra aprovada "esta condição não se repete". Nenhum número inventado.
 
@@ -101,8 +104,9 @@ Este bloco precisa converter mesmo que a pessoa não role a página.
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
 
 **Botão**
-`[[SE: ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE ALUNAS]]` `[[FIM SE]]`
-`[[SE: NÃO-ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE NÃO-ALUNAS]]` `[[FIM SE]]`
+`[[SE: ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE ALUNAS]]` [[LINK: checkout S1-ESP | pagina | vendas-b01]] `[[FIM SE]]`
+`[[SE: NÃO-ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE NÃO-ALUNAS]]` [[LINK: checkout S3-ESP | pagina | vendas-b01]] `[[FIM SE]]`
+Leva para: o checkout do segmento e do lote em vigor. Lote Especial: S1-ESP, S2-ESP ou S3-ESP. Na virada, a ferramenta troca ESP por 1L e depois por UL, no mesmo lugar. O botão só liga com o carrinho aberto (03/11, 21h28); antes disso mostra "O carrinho abre em instantes".
 
 **Linha sob o botão**
 `Pagamento único · acesso vitalício · [[PENDENTE: garantia]]`
@@ -299,7 +303,7 @@ Título: `O que entra na Black Próton Vitalícia`
 
 `Se você continuar do mesmo jeito mais um ano, quantas vezes vai recomeçar de novo?`
 
-`Eu sei o que a maioria responde na primeira pergunta: nada. E eu já mostrei a conta.`
+`Quando eu fiz essa primeira pergunta no Desafio, a maioria respondeu: nada. E eu mostrei a conta.`
 
 `Se você não investe em você, o resultado da sua vida sempre será zero.`
 
@@ -371,9 +375,9 @@ Aqui compra quem já estava decidida.
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
 
 **Botão**
-`[[SE: ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE ALUNAS]]` `[[FIM SE]]`
-`[[SE: NÃO-ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE NÃO-ALUNAS]]` `[[FIM SE]]`
-[[LINK: checkout por lote e segmento]]
+`[[SE: ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE ALUNAS]]` [[LINK: checkout S1-ESP | pagina | vendas-b09]] `[[FIM SE]]`
+`[[SE: NÃO-ALUNA]]` `ENTRAR DE VEZ · [[PREÇO LOTE NÃO-ALUNAS]]` [[LINK: checkout S3-ESP | pagina | vendas-b09]] `[[FIM SE]]`
+Leva para: o checkout do segmento e do lote em vigor (mesma regra do bloco 01).
 
 **Linha sob o botão**
 `O valor sobe a cada lote. Esta condição não se repete. O que vier depois é outra oferta, com outro preço.`
@@ -440,7 +444,7 @@ Título: `Quem vai conduzir você`
 
 `Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo, cresceu ouvindo que sucesso era coisa de rico, não de gente como ela. Trabalhou em telemarketing, vendeu cartão, foi camelô. Estudou neurociência, física quântica, espiritualidade, hipnose e reprogramação mental, e nesse processo criou um método que já passou por mais de 70 mil alunos.`
 
-`Formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL. Reconhecida pela Academia Mundial de Letras com o título honorário de Doutora Honoris Causa em Neurociência.`
+`Formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL. Doutora Honoris Causa em Neurociência pela Academia Mundial de Letras.`
 
 `"Quem não está crescendo está morrendo."`
 `"Não trave o processo."`
@@ -460,6 +464,8 @@ Aqui compra quem precisou ouvir tudo. Este bloco leva a garantia.
 
 **Botão**
 `ENTRAR DE VEZ · {{preco_segmento}}`
+`[[SE: ALUNA]]` [[LINK: checkout S1-ESP | pagina | vendas-b12]] `[[FIM SE]]` `[[SE: NÃO-ALUNA]]` [[LINK: checkout S3-ESP | pagina | vendas-b12]] `[[FIM SE]]`
+Leva para: o checkout do segmento e do lote em vigor (mesma regra do bloco 01).
 
 **Garantia**
 
@@ -493,7 +499,7 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `Sim, em até [[PENDENTE: parcelamento]]x no cartão. Pix à vista também.` `[[CONFIRMAR: opções do checkout]]`
 
 **Já sou aluna do Clube. Muda alguma coisa?**
-`Sim: existe um valor próprio para alunas, por lote. Se você é aluna, use o link da página de cupom. [[LINK: pagina_cupom_alunas]]` `[[PENDENTE: regra de migração, tempo restante do acesso atual]]`
+`Sim: existe um valor próprio para alunas, por lote. Se você é aluna, use o link da página das alunas. [[LINK: página das alunas | pagina | vendas-b13]]` `[[PENDENTE: regra de migração, tempo restante do acesso atual]]`
 
 **Já tenho alguns dos produtos. Vou pagar por eles de novo?**
 `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
@@ -517,13 +523,15 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `Por isso existe a trilha de entrada, o primeiro passo de 48 horas e a ausência de prazo. Se o momento não for esse, a garantia está acima.`
 
 **O dinheiro não dá agora. O que eu faço?**
-`Eu prefiro que você não se endivide para entrar. Veja o parcelamento no cartão e, se ainda assim não couber, deixe seu nome na lista de espera. [[LINK: lista_de_espera]]`
+`Eu prefiro que você não se endivide para entrar. Veja o parcelamento no cartão e, se ainda assim não couber, deixe seu nome na lista de espera. [[LINK: lista de espera | pagina | vendas-b13]]`
 
 **Vou receber ofertas de outros produtos depois?**
 `Você vai receber a trilha de entrada e os avisos do Clube. Ofertas novas, se existirem, são apresentadas, nunca impostas.`
 
 **Botão (repete)**
 `ENTRAR DE VEZ · {{preco_segmento}}`
+`[[SE: ALUNA]]` [[LINK: checkout S1-ESP | pagina | vendas-b13]] `[[FIM SE]]` `[[SE: NÃO-ALUNA]]` [[LINK: checkout S3-ESP | pagina | vendas-b13]] `[[FIM SE]]`
+Leva para: o checkout do segmento e do lote em vigor (mesma regra do bloco 01).
 
 ---
 
@@ -535,7 +543,7 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `Eu desafio você a decidir uma vez só.`
 `A última vez que você vai precisar recomeçar.`
 
-`Dra. Próton 2026 © Todos os direitos reservados · Instituto Dra. Próton · CNPJ: 24.450.366/0001-20 · [[LINK: Política de Privacidade]] · [[LINK: Termos de Uso]]`
+`Dra. Próton 2026 © Todos os direitos reservados · Instituto Dra. Próton · CNPJ: 24.450.366/0001-20 · [[LINK: privacidade | pagina | vendas-b14]] · [[LINK: termos | pagina | vendas-b14]]`
 
 `Resultados variam de pessoa para pessoa. Os depoimentos são relatos individuais e não garantem resultados. A Vitalícia não é tratamento médico ou psicológico.`
 
@@ -545,14 +553,14 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 
 | Estado | Quando | O que muda |
 |---|---|---|
-| 0. Tela de espera | Antes da revelação | Só contagem e botão da live |
-| 1. Lote Especial | Da revelação até `[[PENDENTE: data do lote]]` | Tarja 1, preço do Especial |
+| 0. Tela de espera | Antes da revelação do valor (21h09) | Só contagem e botão da live |
+| 1. Lote Especial | Da revelação do valor (21h09) até `[[PENDENTE: data do lote]]` | Tarja 1, preço do Especial. Botão de compra liga às 21h28 |
 | 2. Primeiro Lote | Até `[[PENDENTE: data do lote]]` | Tarja 2, preço do Primeiro Lote |
 | 3. Último Lote | Até `[[PENDENTE: fechamento]]` | Tarja 3, preço do Último Lote |
 | 4. Últimas horas | Últimas 24 horas do carrinho | Tarja 4 |
 | 5. Encerrado | Depois do fechamento | Botões trocados por lista de espera |
 
-Cada estado existe em duas versões (alunas e não-alunas). Checkout por lote e por segmento: `[[LINK: checkout lote especial alunas]]`, `[[LINK: checkout lote especial não-alunas]]` e assim para os demais (6 links no total).
+Cada estado existe em duas versões (alunas e não-alunas). Checkout por lote e por segmento: S1 (alunas), S2 (quem viveu o método, paga como não-aluna) e S3 (não-alunas e base fria), cada um com ESP, 1L e UL (9 destinos no total). A tabela "Links desta peça" mostra o token de cada estado.
 
 ---
 
@@ -566,8 +574,24 @@ Cada estado existe em duas versões (alunas e não-alunas). Checkout por lote e 
    - Bloco 08: "5 noites poderiam custar R$ 497" vira "a conta do custo de continuar parada" mais "a conta do catálogo avulso" (só se houver preço avulso real).
    - Bloco 09: de 3 lotes de R$ 35, R$ 97, R$ 147 para 3 lotes (Especial, Primeiro e Último) por segmento.
    - Bloco 12: garantia (mantida) com três versões conforme a decisão.
-   - A tarja do Desafio mostrava "% de vagas preenchidas". **Não usar na Black**: não há limite de vagas, e declarar vagas que não existem é escassez falsa.
+   - A tarja do Desafio mostrava a porcentagem de lugares preenchidos. **Não usar na Black**: não há limite de lugares, e declarar lugares que não existem é escassez falsa.
 4. **Testes A/B:** (1) headline B0 contra B1 contra B4; (2) tabela de lotes completa contra só lote atual (mede se mostrar os próximos lotes acelera a compra); (3) bloco 08 parte 1 (conta interativa) contra texto fixo; (4) botão "ENTRAR DE VEZ" contra "QUERO PARAR DE RECOMEÇAR".
 5. **Parcelamento:** aparece no bloco 01, no bloco 09, no bloco 12 e no FAQ, sempre na mesma tela do preço. A ficha mostrou cartão parcelado como a forma mais escolhida, e 53% se diz confortável com até R$ 297. Por isso o valor da parcela deve aparecer em destaque, ao lado do preço total.
 6. **Compliance (checagem final):** nenhuma promessa clínica ou de resolução do padrão, nenhuma promessa de ganho, nenhuma frase de "última chance" sobre o vitalício, nenhum preço antes da live, nenhuma frase de que sequência numérica traz dinheiro, nenhum depoimento sem autorização.
 7. **Dependências:** `pagina_cupom_alunas.md`, `onboarding_vitalicia.md` (próxima página), `banner_checkout.md`, `lista_de_espera.md`, `08_live_e_pitch` (a ordem da live deve coincidir com a ordem dos blocos 03 a 12), `10_pos_compra`.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| vendas-espera | `[[LINK: live YouTube \| pagina \| vendas-espera]]` | Botão IR PARA A LIVE da tela de espera | Equipe de YouTube |
+| vendas-b00 | `[[LINK: lista de espera \| pagina \| vendas-b00]]` | Estado 5 (encerrado): leva à lista de espera | Web designer |
+| vendas-b01 | `[[LINK: página das alunas \| pagina \| vendas-b01]]` | Aviso para aluna que chegou pelo link geral | Web designer |
+| vendas-b01 | `[[LINK: checkout S1-ESP \| pagina \| vendas-b01]]` e `[[LINK: checkout S3-ESP \| pagina \| vendas-b01]]` | Primeiro botão de compra no Lote Especial. Primeiro botão de compra nos outros lotes: S1-1L e S1-UL, S3-1L e S3-UL. Quem tem tag de S2 usa S2-ESP, S2-1L e S2-UL | Financeiro / Hotmart |
+| vendas-b09 | `[[LINK: checkout S1-ESP \| pagina \| vendas-b09]]` e `[[LINK: checkout S3-ESP \| pagina \| vendas-b09]]` | Botão do bloco 09, mesma regra de lote e segmento (troca para 1L e UL na virada) | Financeiro / Hotmart |
+| vendas-b12 | `[[LINK: checkout S1-ESP \| pagina \| vendas-b12]]` e `[[LINK: checkout S3-ESP \| pagina \| vendas-b12]]` | Botão do bloco 12 (com a garantia), mesma regra | Financeiro / Hotmart |
+| vendas-b13 | `[[LINK: checkout S1-ESP \| pagina \| vendas-b13]]` e `[[LINK: checkout S3-ESP \| pagina \| vendas-b13]]` | Botão final do FAQ, mesma regra | Financeiro / Hotmart |
+| vendas-b13 | `[[LINK: página das alunas \| pagina \| vendas-b13]]` e `[[LINK: lista de espera \| pagina \| vendas-b13]]` | FAQ: página das alunas e lista de espera | Web designer |
+| vendas-b14 | `[[LINK: privacidade \| pagina \| vendas-b14]]` e `[[LINK: termos \| pagina \| vendas-b14]]` | Rodapé: política de privacidade e termos de uso | Jurídico |

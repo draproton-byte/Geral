@@ -12,6 +12,8 @@
 
 **A cadência do Desafio que foi mantida, em ordem:** (1) abrir com dado de pesquisa, (2) nomear a dor, (3) convidar, (4) data e hora, (5) fechar com chamada para "Saiba mais". O que foi trocado: no Desafio o convite era para 5 noites e fechava com lote e preço do ingresso. Aqui o convite é para uma live de revelação e o fechamento é a data, sem preço e sem contagem de lugares. A frase final muda de legenda para legenda, para não virar carimbo.
 
+**Link de destino:** cada legenda leva uma linha "Link de destino" com o token do mapa de links (`16_MAPA_DE_LINKS.md`), captura A, canal `ads-meta`, ID da própria legenda. Quando a legenda acompanha o anúncio par, vale o link do anúncio (ID do anúncio); o token da legenda serve para o uso como post ou anúncio independente. A linha não faz parte do texto publicado.
+
 **Regras de uso:** a primeira linha de cada legenda é escrita para aparecer antes do corte do "ver mais" (até 125 caracteres, verificado) e traz um número real ou a frase da audiência. O **frame 0** de cada legenda é o da arte ou do vídeo par (ID indicado no cabeçalho de cada uma; a descrição está em `captacao_estaticos.md`). Os números vêm de `01_PESQUISAS_INSIGHTS.md` e do diagnóstico do Desafio (4.032 respostas). Sem emojis no texto-base: a equipe de social pode acrescentar. Nenhuma legenda afirma condição da pessoa ("você está..."); falam do padrão e das respostas de quem respondeu.
 
 ---
@@ -20,25 +22,29 @@
 
 **Frame 0 do par:** CAP-NSEI-01 (a frase em primeira pessoa, "exatamente" em destaque).
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-01]]
+
 Perguntei a mais de 7 mil pessoas o que impede de ganhar o dinheiro que gostariam. As respostas que mais apareceram:
 
 1. "Não sei exatamente o que está me impedindo." (40%)
 2. "Procrastino e não consigo colocar em prática." (22%)
 3. "Tenho muitas crenças e bloqueios com dinheiro." (9%)
 
-Nenhuma delas é preguiça. Quase todas começam em não saber o que, de fato, segura.
+Nenhuma delas é preguiça. A mais comum é não saber o que, de fato, segura.
 
-Por isso eu vou fazer uma live de revelação, ao vivo, para mostrar tudo o que construí pra quem cansou de recomeçar. Depois do cadastro, você faz o diagnóstico e descobre qual dos 5 padrões mais pesa.
+Por isso eu vou fazer uma live de revelação, ao vivo, para mostrar tudo o que construí pra quem cansou de recomeçar. Depois do cadastro, você faz o diagnóstico e vê qual dos 5 padrões mais pesa.
 
 Dia 03/11, às 20h, ao vivo no YouTube.
 
-Clique em "Saiba mais", cadastre-se e reserve o seu lugar, sem custo.
+Toque em "Saiba mais", cadastre-se e guarde o seu lugar. É gratuito.
 
 ---
 
 ### LEG-CAP-02 | Feed | Par com CAP-TERM-01 e CAP-TERM-02 | Perfil: Termostato Invisível | Consciência 2
 
 **Frame 0 do par:** CAP-TERM-01 (duas linhas sobre fundo escuro) e CAP-TERM-02 (o número 51,9%).
+
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-02]]
 
 51,9% das pessoas que responderam à pesquisa de presença do Desafio disseram: entra um extra, aparece uma conta.
 
@@ -56,6 +62,8 @@ Para reservar o seu lugar, clique em "Saiba mais". Não custa nada.
 
 **Frame 0 do par:** CAP-AUTO-01 (a frase em duas linhas, "E não faço." em destaque) e CAP-AUTO-02 ("1 em cada 4").
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-03]]
+
 27% de mais de 7 mil pessoas escolheram "parar de me sabotar" como o maior problema emocional a resolver.
 
 A resposta número 1 foi confiar mais em si (32%). Parar de se sabotar veio logo em seguida.
@@ -72,9 +80,11 @@ Clique em "Saiba mais" e receba o aviso da live no seu WhatsApp. Sem custo.
 
 **Frame 0 do par:** CAP-AUTO-04 (três linhas em tamanho crescente) e CAP-AUTO-05 (alavanca do freio de mão levantada).
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-04]]
+
 22% de mais de 7 mil pessoas disseram: "Procrastino e não consigo colocar em prática."
 
-Começa com tudo. Para no meio. Se cobra depois. E aí começa de novo na segunda. Se isso é familiar, eu quero que você saiba: procrastinar não é preguiça. É como um freio puxado, e dá para achar esse freio.
+Começo com tudo. Paro no meio. Me cobro depois. E na segunda começo de novo. Se isso é familiar, eu quero que você saiba: procrastinar não é preguiça. É como um freio puxado, e dá para achar esse freio.
 
 Dá para entender como soltar. E dá para parar de recomeçar.
 
@@ -88,11 +98,13 @@ Quer ver? Clique em "Saiba mais" e reserve o seu lugar. É gratuito.
 
 **Frame 0 do par:** CAP-COBR-01 (pessoa de costas diante de uma janela, sem rosto) e demais da família.
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-05]]
+
 Mais de 1 em cada 10 pessoas que fizeram o meu diagnóstico apontaram a cobrança excessiva consigo como o que impede a paz.
 
-Cumprir tudo, ter a lista de todo mundo em dia e nunca achar que fez o bastante. Eu chamo isso de Cobrança Que Você Só Faz Com Você, e ela tem saída.
+Cumprir tudo, ter a lista de todo mundo em dia e nunca achar que fez o bastante. Eu chamo isso de Cobrança Que Você Só Faz Com Você, e padrão se mapeia.
 
-Dia 03/11, às 20h, ao vivo no YouTube, eu vou mostrar tudo o que construí pra quem cansou de recomeçar. Faça o diagnóstico depois do cadastro e descubra se esse é o seu padrão.
+Dia 03/11, às 20h, ao vivo no YouTube, eu abro o que construí depois de ver esse padrão se repetir em tanta gente. Faça o diagnóstico depois do cadastro e descubra se esse é o seu padrão.
 
 O cadastro é gratuito. Clique em "Saiba mais" para reservar o seu lugar.
 
@@ -102,15 +114,17 @@ O cadastro é gratuito. Clique em "Saiba mais" para reservar o seu lugar.
 
 **Frame 0 do par:** CAP-TRAU-01 (escada com setas) e demais da família.
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-06]]
+
 "Sinto que a cada passo que dou, retrocedo." Se essa frase é sua, quero te dizer duas coisas.
 
 Primeiro: não é fracasso, tem causa. Segundo: o que eu faço não é terapia nem tratamento. É um trabalho prático de reprogramação mental.
 
 No diagnóstico do meu Desafio, mais de 1 em cada 10 pessoas apontaram traumas ou feridas do passado como o que impede a paz. Eu chamo esse padrão de Traumas Que Ainda Decidem.
 
-Quero te mostrar, ao vivo, o que construí pra quem cansou de recomeçar. Dia 03/11, às 20h, no YouTube. O diagnóstico vem logo depois do cadastro.
+Dia 03/11, às 20h, no YouTube, eu apresento ao vivo o que construí para olhar esse padrão de frente. O diagnóstico vem logo depois do cadastro.
 
-Clique em "Saiba mais" e receba o aviso da live no seu WhatsApp, sem custo.
+Quer ouvir isso ao vivo? Toque em "Saiba mais" e cadastre-se, sem custo.
 
 ---
 
@@ -118,43 +132,49 @@ Clique em "Saiba mais" e receba o aviso da live no seu WhatsApp, sem custo.
 
 **Frame 0 do par:** CAP-CULP-01 (mão com várias xícaras) e demais da família.
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-07]]
+
 "Eu cuido de todo mundo, mas ninguém cuida de mim." Quase 11% das pessoas do meu quiz se reconheceram nesta frase.
 
 Se pensar em você primeiro traz culpa, eu quero te dizer: querer mais não é egoísmo. E quando você sobe, a casa sobe junto.
 
 Eu chamo esse padrão de Culpa de Querer Mais. Ele é um dos 5 que eu mapeio no diagnóstico.
 
-Dia 03/11, às 20h, ao vivo no YouTube, eu vou revelar o que construí pra quem cansou de recomeçar.
+Dia 03/11, às 20h, ao vivo no YouTube, eu falo sobre querer mais sem culpa e sobre o que construí para sustentar isso.
 
-Para reservar o seu lugar, clique em "Saiba mais". Sem custo.
+Se a ideia fez sentido, o "Saiba mais" leva ao cadastro. É de graça, e o lugar fica guardado.
 
 ---
 
 ### LEG-CAP-08 | Feed | Par com CAP-NEUT-01 e CAP-NEUT-02 | Perfil: todos | Consciência 1 a 2
 
-**Frame 0 do par:** CAP-NEUT-01 (a pergunta "Quantas vezes você já recomeçou?") e CAP-NEUT-02 (calendário de 52 quadradinhos).
+**Frame 0 do par:** CAP-NEUT-01 (a pergunta "Quantas vezes você já recomeçou?") e CAP-NEUT-02 (folha de agenda de segunda-feira com "recomeço" riscado).
 
-Perguntei a mais de 7 mil pessoas o que impede de ganhar o dinheiro que gostariam. 40% responderam: "Não sei exatamente."
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-08]]
 
-Antes de tentar mais um curso, mais um método, mais uma segunda-feira de recomeço, vale descobrir o que realmente está no comando. Segunda-feira não precisa ser mais um recomeço.
+Segunda-feira virou o dia oficial de recomeçar. E se não precisasse ser?
 
-Dia 03/11, às 20h, eu vou estar ao vivo no YouTube pra revelar o que construí para você parar de recomeçar. Depois do cadastro, o diagnóstico dos 5 padrões mostra por onde começar.
+Antes de tentar mais um curso, mais um método, mais uma segunda de recomeço, vale descobrir o que de fato está no comando. Quando perguntei a mais de 7 mil pessoas o que impede de ganhar o dinheiro que gostariam, 40% responderam: "Não sei exatamente."
 
-Clique em "Saiba mais" e reserve o seu lugar. Não custa nada.
+Terça, 03/11, às 20h, estou ao vivo no YouTube pra revelar o que construí. Depois do cadastro, o diagnóstico dos 5 padrões mostra por onde começar.
+
+Para entrar, é só tocar em "Saiba mais". Não custa nada.
 
 ---
 
 ### LEG-CAP-09 | Feed | Par com CAP-NEUT-04 e CAP-IDEN-03 | Perfil: quem já comprou curso e não aplicou | Consciência 2 a 3
 
-**Frame 0 do par:** CAP-NEUT-04 (prateleira de livros fechados) e CAP-IDEN-03 (seta circular e linha reta).
+**Frame 0 do par:** CAP-NEUT-04 (caixa de curso lacrada, em amarelo, sobre mesa vazia) e CAP-IDEN-03 (seta circular e linha reta).
+
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-09]]
 
 "Já comprei outras coisas antes e não funcionaram." Foi a resposta mais comum de quem entrou no meu último Desafio.
 
-Eu entendo. E quero te dizer: o problema quase nunca é o curso. É o que acontece depois, quando é preciso ficar.
+Eu entendo. Muitas vezes o curso não é o problema. O difícil vem depois, quando é preciso ficar.
 
-Por isso a live de revelação do dia 03/11, às 20h, não é mais um conteúdo para salvar. É o começo de uma conversa sobre como parar de recomeçar. Eu prefiro que você não compre do que compre e não viva. Por isso, antes de qualquer coisa, faça o diagnóstico, que abre depois do cadastro.
+Por isso a live de revelação do dia 03/11, às 20h, não é mais um conteúdo para salvar. É o começo de uma conversa sobre como parar de recomeçar. Antes de qualquer coisa, faça o diagnóstico, que abre depois do cadastro.
 
-Clique em "Saiba mais" e reserve o seu lugar, sem custo.
+O próximo passo é pequeno: "Saiba mais" e o cadastro, sem custo.
 
 ---
 
@@ -162,13 +182,15 @@ Clique em "Saiba mais" e reserve o seu lugar, sem custo.
 
 **Frame 0 do par:** CAP-IDEN-01 (a frase-guia em duas linhas, com a foto da Dra.) e demais da família.
 
+Link de destino: [[LINK: captura A | ads-meta | LEG-CAP-10]]
+
 "Confiar mais em mim." Foi a resposta de 32% de mais de 7 mil pessoas sobre o maior problema emocional a resolver.
 
 Eu acredito que a confiança começa quando você deixa de depender de recomeçar. A live de revelação tem uma ideia só: a última vez que você vai precisar recomeçar.
 
 Dia 03/11, às 20h, ao vivo no YouTube. Depois do cadastro, o diagnóstico mostra qual dos 5 padrões pesa mais.
 
-Clique em "Saiba mais" e entre na live. É gratuito.
+Use o botão "Saiba mais" para entrar na live. É gratuito.
 
 ---
 
@@ -177,8 +199,23 @@ Clique em "Saiba mais" e entre na live. É gratuito.
 1. **Dados e fontes:** "mais de 7 mil pessoas" = 7.323 respostas do Aulão; 40% (40,4), 22% (21,5), 9% (9,4), 27% (26,9), 32% (31,8) vêm da pesquisa de presença do Aulão (ver `01_PESQUISAS_INSIGHTS.md`; 40%, 22% e 9% são da pergunta sobre o que impede de ganhar o dinheiro que gostariam, 27% e 32% da pergunta sobre o maior problema emocional). "Mais de 1 em cada 10" em LEG-CAP-05 e LEG-CAP-06 é a soma real de 453 de 4.032 (cobrança excessiva, 11,2%) e 476 de 4.032 (traumas ou feridas do passado, 11,8%) no diagnóstico do Desafio, na pergunta "o que impede de ter paz emocional" (não é "o que mais pesa": é uma das opções). "Já comprei outras coisas antes e não funcionaram" foi a resposta mais comum (1.040 de 4.032) a "o que quase impediu a compra"; o número 25,8% não foi citado. Em LEG-CAP-07, "quase 11%" é o 10,9% do quiz.
 2. **51,9% (LEG-CAP-02):** atribuído à "pesquisa de presença do meu Desafio" (dossiê do Desafio), como manda a rubrica. Nunca chamar de "Aulão".
 3. **LEG-CAP-03:** a ordem "confiar mais em si (32%), depois parar de se sabotar (27%)" vem do Aulão. Se for rodado com público da ficha de interesse, a ordem é a mesma (36% e 19%).
-4. **Frase intocável usada:** LEG-CAP-09 traz "Eu prefiro que você não compre do que compre e não viva." literal.
+4. **Frases intocáveis:** nenhuma legenda deste arquivo usa frase intocável (elas ficam nas artes de `captacao_estaticos.md` e, no remarketing, em RMK-IMPL-06 e LEG-RMK-03). A frase "Eu prefiro que você não compre do que compre e não viva." saiu de LEG-CAP-09 para não aparecer em captação fria, onde nada é vendido.
 5. **Replay e preço:** nenhuma legenda afirma nem nega replay e nenhuma cita preço. Quando fechar `[[PENDENTE: replay]]`, decidir o que a linha "ao vivo no YouTube" diz sobre replay.
 6. **Diagnóstico:** o diagnóstico abre na página de obrigado, depois do cadastro; por isso as legendas dizem "depois do cadastro". "Reservar o lugar" é o cadastro gratuito; a live não tem limite de pessoas.
-7. **Teste:** rodar LEG-CAP-01 (3 respostas em lista) contra LEG-CAP-08 (um dado e a frase da segunda-feira) no mesmo criativo para medir a influência do texto. Rodar LEG-CAP-02 em tráfego frio e em lookalike de compradores do Desafio.
+7. **Teste:** rodar LEG-CAP-01 (3 respostas em lista) contra LEG-CAP-08 (a segunda-feira e um dado) no mesmo criativo para medir a influência do texto. Rodar LEG-CAP-02 em tráfego frio e em lookalike de compradores do Desafio.
 8. **Peça do Desafio sem equivalente:** a linha de lote preenchido e o preço de ingresso do Desafio foi removida: não existe lote nem preço nesta fase.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| LEG-CAP-01 | `[[LINK: captura A | ads-meta | LEG-CAP-01]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-02 | `[[LINK: captura A | ads-meta | LEG-CAP-02]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-03 | `[[LINK: captura A | ads-meta | LEG-CAP-03]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-04 | `[[LINK: captura A | ads-meta | LEG-CAP-04]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-05 | `[[LINK: captura A | ads-meta | LEG-CAP-05]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-06 | `[[LINK: captura A | ads-meta | LEG-CAP-06]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-07 | `[[LINK: captura A | ads-meta | LEG-CAP-07]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-08 | `[[LINK: captura A | ads-meta | LEG-CAP-08]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-09 | `[[LINK: captura A | ads-meta | LEG-CAP-09]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |
+| LEG-CAP-10 | `[[LINK: captura A | ads-meta | LEG-CAP-10]]` | Leva ao cadastro gratuito da live de 03/11 quando a legenda roda como post ou anúncio independente | Web designer (página); Tráfego (encurtador `bfp-ads-meta`) |

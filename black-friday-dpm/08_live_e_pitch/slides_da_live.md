@@ -279,7 +279,9 @@ Operador: frase da Dra. [INTOCÁVEL]. Fundo calmo, sem imagem de produto.
 **Slide 42. O link abriu**
 Título: "O link abriu."
 Linha: botão ou QR code "Sou aluna do Clube"
+Link de destino: [[LINK: checkout S1-ESP | yt-live | live-slides-42]]
 Linha: botão ou QR code "Ainda não sou do Clube"
+Link de destino: [[LINK: checkout S3-ESP | yt-live | live-slides-42]]
 Linha: cronômetro 15:00 e "Bônus: [[PENDENTE: bônus]]" (somente no modo A)
 
 ---
@@ -290,6 +292,7 @@ Linha: cronômetro 15:00 e "Bônus: [[PENDENTE: bônus]]" (somente no modo A)
 Título: "Faltam 10 minutos"
 Linha: cronômetro
 Linha: "Dúvida no pagamento? Suporte no WhatsApp."
+Link de destino: [[LINK: suporte WhatsApp | yt-live | live-slides-43]]
 
 **Slide 44. Faltam 5 minutos**
 Título: "Faltam 5 minutos"
@@ -299,7 +302,7 @@ Linha: "A decisão da linha três."
 **Slide 45. Falta 1 minuto**
 Título: "Falta 1 minuto"
 Linha: cronômetro grande
-Operador: ao zerar, trocar por "Bônus encerrado. O link segue aberto até [[PENDENTE: data do lote]]."
+Operador: ao zerar, trocar por "Bônus encerrado. O link segue aberto até [[PENDENTE: fechamento]]."
 
 ---
 
@@ -327,11 +330,12 @@ Linha: "[[CONFIRMAR: entrada mais parcelas]]"
 **R3. Garantia em detalhe**
 Título: "Garantia"
 Linha: "[[PENDENTE: garantia]]"
-Linha: "Pedido de devolução: [[LINK: instrução de reembolso]]"
+Linha: "Pedido de devolução: no link abaixo."
+Link de destino: [[LINK: reembolso | yt-live | live-slides-r3]]
 
 **R4. Suporte**
 Título: "Dúvida de pagamento?"
-Linha: "[[LINK: suporte WhatsApp]]"
+Link de destino: [[LINK: suporte WhatsApp | yt-live | live-slides-r4]]
 
 ---
 
@@ -344,3 +348,17 @@ Linha: "[[LINK: suporte WhatsApp]]"
 **Testes sugeridos:** slide 7 (o 51,9%) com e sem o número em destaque; slide 42 com QR code versus só botão; medir cliques por segmento nos primeiros 2 minutos.
 
 **Dependências:** `roteiro_live_de_revelacao.md` (numeração e blocos), `bonus_15_minutos_e_escassez.md` (slides 40 e 42 a 45), `pitch_e_ancoragem.md` (slide 34).
+
+---
+
+## Links desta peça
+
+Tokens no formato do `16_MAPA_DE_LINKS.md`, canal `yt-live` (tela da live). Cada slide mostra o QR code ou botão do destino, nunca uma URL digitada. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| live-slides-42 | `[[LINK: checkout S1-ESP \| yt-live \| live-slides-42]]` | Botão "Sou aluna do Clube": checkout das alunas, Lote Especial, ativo às 21h28 | Financeiro / Hotmart |
+| live-slides-42 | `[[LINK: checkout S3-ESP \| yt-live \| live-slides-42]]` | Botão "Ainda não sou do Clube": checkout de não-alunas (inclui S2 até decisão contrária), Lote Especial, ativo às 21h28 | Financeiro / Hotmart |
+| live-slides-43 | `[[LINK: suporte WhatsApp \| yt-live \| live-slides-43]]` | Abre o atendimento de suporte para dúvida de pagamento | Suporte |
+| live-slides-r3 | `[[LINK: reembolso \| yt-live \| live-slides-r3]]` | Instrução de pedido de reembolso (slide de reserva, só se a garantia estiver confirmada) | Suporte |
+| live-slides-r4 | `[[LINK: suporte WhatsApp \| yt-live \| live-slides-r4]]` | Abre o atendimento de suporte (slide de reserva) | Suporte |

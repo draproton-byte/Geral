@@ -9,7 +9,7 @@
 **Trabalho contratado:** "Eu quero ter certeza de que não vou perder a live" e "eu quero entender o que me trava"
 **Modelo no Desafio:** Página de obrigado do Aulão (modelada em "quizfrequenciadavida", com atualização do link do grupo VIP), Teste de Bloqueios (P1 a P9, 4.032 respostas), Quiz A Nova Realidade (P1 a P8, 3.226 respostas) e página de onboarding do Desafio (passos na ordem)
 
-> Regra do Desafio mantida: **o passo mais importante é entrar no grupo**, porque é por lá que chega o link da live e os lembretes. A Dra. já dizia isso no onboarding do Desafio: "quem não entra não recebe o link".
+> Regra do Desafio mantida: **o passo mais importante é entrar no grupo**, porque é por lá que o link da live e os lembretes chegam primeiro. O e-mail também avisa, e nenhuma peça diz que quem fica fora do grupo perde a live.
 
 ---
 
@@ -75,17 +75,19 @@
 `Lá você vai encontrar outras pessoas a caminho da mesma decisão que você, trocando o que sentem e se apoiando.`
 
 **Botão**
-`ENTRAR NO GRUPO DA LIVE` [[LINK: grupo do WhatsApp da live, por segmento]]
+`ENTRAR NO GRUPO DA LIVE` [[LINK: grupo geral | pagina | obr-b02]]
+Leva para: o grupo de WhatsApp da live. Alunas veem o grupo das alunas e quem viveu o método vê o grupo de quem viveu o método (variantes abaixo).
 
 **Microcopy**
 `Quando entrar, escreva "eu estou dentro". É o seu sinal de que você chegou.`
-`Se preferir, também pode assistir direto pela página da live em 03/11. [[LINK: página da live]]`
+`Se preferir, também pode assistir direto pela página da live em 03/11. [[LINK: live YouTube | pagina | obr-b02]]`
 
 **Para alunas (variante da captura C)**
-`[[SE: ALUNA]]` `Este é o grupo da live para alunas do Clube Secreto. Lá você recebe a sua condição assim que ela for revelada.` `[[FIM SE]]`
+`[[SE: ALUNA]]` `Este é o grupo da live para alunas do Clube Secreto. Lá você recebe a sua condição assim que ela for revelada.` [[LINK: grupo alunas | pagina | obr-b02]] `[[FIM SE]]`
+`[[SE: DESAFIO / IMERSAO / AULAO]]` `Este é o grupo da live para quem já viveu o método. Lá você encontra quem está na mesma retomada que você.` [[LINK: grupo viveu o método | pagina | obr-b02]] `[[FIM SE]]`
 
 **Quando o grupo está cheio**
-`Este grupo já está completo (o WhatsApp limita o número de participantes). Entre no grupo 2, que já está aberto:` `[[LINK: grupo 2]]`
+`Este grupo já está completo (o WhatsApp limita o número de participantes). Entre no grupo 2, que já está aberto:` [[LINK: grupo geral | pagina | obr-b02]]
 (Modelar em `05_whatsapp_api`, "mensagem de grupo cheio" do Desafio.)
 
 ---
@@ -98,10 +100,11 @@
 **Texto**
 `03 de novembro, às 20h. Ao vivo no YouTube. Marque agora e avise quem mora com você que esse horário é seu.`
 
-**Botões (3 opções)**
-1. `SALVAR NO GOOGLE AGENDA` [[LINK: Google Calendar]]
-2. `SALVAR NO CALENDÁRIO DO CELULAR` [[LINK: arquivo .ics]]
-3. `ME LEMBRAR NO WHATSAPP` [[LINK: lembrete de WhatsApp]]
+**Botões (2 opções)**
+1. `SALVAR NO GOOGLE AGENDA` [[LINK: calendário | pagina | obr-b03]]
+2. `SALVAR NO CALENDÁRIO DO CELULAR` [[LINK: calendário | pagina | obr-b03]]
+
+Leva para: o arquivo de calendário da live (o mesmo evento, aberto no Google Agenda ou no celular). O lembrete no WhatsApp já vem do cadastro: quem informou o número recebe os avisos, sem botão extra.
 
 **Microcopy**
 `Leva 10 segundos. Salvar a data ajuda a não esquecer.`
@@ -117,10 +120,11 @@
 `Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem ou Culpa de Querer Mais. Em poucos minutos, você descobre qual domina e qual vem em segundo, e chega à live sabendo o que ouvir.`
 
 **Botão**
-`FAZER MEU DIAGNÓSTICO` (abre o fluxo da Parte 2 deste arquivo, que inclui `diagnostico_5_perfis.md`)
+`FAZER MEU DIAGNÓSTICO` [[LINK: diagnóstico | pagina | obr-b04]]
+Leva para: o fluxo da Parte 2 deste arquivo, que inclui `diagnostico_5_perfis.md`.
 
 **Microcopy**
-`Gratuito. Não é avaliação clínica. Seu resultado fica com o Instituto Dra. Próton e só é usado para preparar a live.`
+`Gratuito. Não é avaliação clínica. Seu resultado fica com o Instituto Dra. Próton e é usado para preparar a live e personalizar as mensagens, o atendimento e a sua trilha de entrada.`
 
 ---
 
@@ -154,10 +158,10 @@
 `Se você não recebeu o link do grupo ou teve algum problema com a página, fale com a gente. Isso não é um bloqueio, é um detalhe técnico.`
 
 **Botão**
-`FALAR COM O SUPORTE` [[LINK: WhatsApp do suporte]]
+`FALAR COM O SUPORTE` [[LINK: suporte WhatsApp | pagina | obr-b06]]
 
 **Verificação de números**
-`Cuidado com golpes: só aceite mensagens dos nossos números oficiais.` `VERIFICAR UM NÚMERO` [[LINK: página de verificação de números]] (ver `verificacao_de_numeros.md`)
+`Cuidado com golpes: só aceite mensagens dos nossos números oficiais.` `VERIFICAR UM NÚMERO` [[LINK: verificação de números | pagina | obr-b06]] (ver `verificacao_de_numeros.md`)
 
 ---
 
@@ -169,7 +173,7 @@
 `Transformei dor em método. Agora é a sua vez de ficar.`
 `Dra. Próton`
 
-**Rodapé:** `[[LINK: Política de Privacidade]] · [[LINK: Termos de Uso]] · Copyright © 2026 Todos os direitos reservados, Instituto Dra. Próton`
+**Rodapé:** `[[LINK: privacidade | pagina | obr-b07]] · [[LINK: termos | pagina | obr-b07]] · Copyright © 2026 Todos os direitos reservados, Instituto Dra. Próton`
 
 ---
 
@@ -226,9 +230,10 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 
 **Botão**
 `COMEÇAR`
+Leva para: a pergunta Q1, na mesma página.
 
 **Aviso**
-`Suas respostas ficam com o Instituto Dra. Próton e só são usadas para preparar a live e o atendimento. Você pode pular qualquer pergunta.` [[LINK: política de privacidade]]
+`Suas respostas ficam com o Instituto Dra. Próton e só são usadas para preparar a live, personalizar as mensagens e o atendimento. Você pode pular qualquer pergunta.` [[LINK: privacidade | pagina | obr-pA]]
 
 ---
 
@@ -287,7 +292,8 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 `Pronto. Agora vem a parte que você quer: descobrir qual padrão domina. Sete perguntas.`
 
 **Botão**
-`SEGUIR PARA O MEU DIAGNÓSTICO`
+`SEGUIR PARA O MEU DIAGNÓSTICO` [[LINK: diagnóstico | pagina | obr-pB]]
+Leva para: a pergunta D1 do diagnóstico.
 
 (A parte B está em `diagnostico_5_perfis.md`: D1 a D7, resultado e devolutiva.)
 
@@ -300,6 +306,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 
 **Botão**
 `RESPONDER E FINALIZAR`
+Leva para: a tela final da pesquisa, na mesma página.
 
 ---
 
@@ -370,8 +377,10 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 **Texto**
 `Você deu o primeiro passo e já tem o seu padrão. Agora faltam dois passos:`
 
-1. `Entre no grupo da live.` [[BOTÃO: ENTRAR NO GRUPO DA LIVE]]
-2. `Salve a data: 03/11, 20h.` [[BOTÃO: SALVAR A DATA]]
+1. `Entre no grupo da live.` [[BOTÃO: ENTRAR NO GRUPO DA LIVE]] [[LINK: grupo geral | pagina | obr-final]]
+2. `Salve a data: 03/11, 20h.` [[BOTÃO: SALVAR A DATA]] [[LINK: calendário | pagina | obr-final]]
+
+Leva para: o grupo da live (do segmento da pessoa) e o arquivo de calendário.
 
 **Linha final**
 `A revelação é ao vivo, em 03/11, às 20h. A condição que a Dra. mostrar nessa noite não se repete.`
@@ -394,10 +403,27 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[LINK: grupo da live por segmento]]`, `[[LINK: arquivo de calendário]]`, `[[LINK: página da live]]`, `[[LINK: WhatsApp do suporte]]`, vídeo da Dra. (gravar), `[[CONFIRMAR: formas de pagamento]]`, `[[CONFIRMAR: a Dra. lê as perguntas abertas]]`, `[[PENDENTE: replay]]`, `[[PENDENTE: fechamento]]`.
+1. **Pendências:** os links de grupo por segmento, de calendário, da página da live e do suporte, vídeo da Dra. (gravar), `[[CONFIRMAR: formas de pagamento]]`, `[[CONFIRMAR: a Dra. lê as perguntas abertas]]`, `[[PENDENTE: replay]]`, `[[PENDENTE: fechamento]]`.
 2. **Ordem importa:** manter A, B, C. Se for juntar tudo em um formulário só, coloque Q1 antes do resultado e Q6 a Q8 depois.
 3. **Abandono:** registrar em que pergunta cada pessoa para. Medir a taxa de conclusão da parte B e da parte C separadamente. Referência: o Teste de Bloqueios do Desafio teve 4.032 respostas completas.
 4. **Gravação:** gravar o vídeo da Dra. com legenda embutida, no formato vertical 9:16 e quadrado 1:1, porque 40% da base tem mais de 50 anos e assiste no celular.
 5. **Testes A/B:** (1) vídeo no topo contra vídeo depois do passo 1; (2) parte C obrigatória contra opcional; (3) texto do botão do passo 1.
 6. **Dependências:** `diagnostico_5_perfis.md`, `captura_*`, `lista_de_espera.md`, `verificacao_de_numeros.md`, `05_whatsapp_api` (mensagem de grupo cheio, grupo por segmento), `09_comercial_datacrazy` (uso de Q6 a Q8).
 7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** a pergunta "o que quase impediu a compra" (P8) não existe aqui, porque a pessoa ainda não comprou. Virou "o que poderia impedir de estar na live", que é o risco real da fase (presença). A pergunta sobre "nunca fiz hipnose" foi removida (não se aplica).
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| obr-b02 | `[[LINK: grupo geral \| pagina \| obr-b02]]`, `[[LINK: grupo alunas \| pagina \| obr-b02]]` e `[[LINK: grupo viveu o método \| pagina \| obr-b02]]` | Botão do passo 1: entra no grupo da live do segmento (o grupo cheio usa o mesmo rodízio) | Automação (rodízio SendFlow) |
+| obr-b02 | `[[LINK: live YouTube \| pagina \| obr-b02]]` | Microcopy: assistir pela página da live em 03/11 | Equipe de YouTube |
+| obr-b03 | `[[LINK: calendário \| pagina \| obr-b03]]` | Os dois botões do passo 2 baixam o evento da live | Automação |
+| obr-b04 | `[[LINK: diagnóstico \| pagina \| obr-b04]]` | Botão do passo 3: abre o fluxo de qualificação e diagnóstico | Web designer |
+| obr-b06 | `[[LINK: suporte WhatsApp \| pagina \| obr-b06]]` | Botão de suporte | Suporte |
+| obr-b06 | `[[LINK: verificação de números \| pagina \| obr-b06]]` | Leva à página validadora de números | Web designer |
+| obr-b07 | `[[LINK: privacidade \| pagina \| obr-b07]]` e `[[LINK: termos \| pagina \| obr-b07]]` | Rodapé: política de privacidade e termos de uso | Jurídico |
+| obr-pA | `[[LINK: privacidade \| pagina \| obr-pA]]` | Aviso da parte A: política de privacidade | Jurídico |
+| obr-pB | `[[LINK: diagnóstico \| pagina \| obr-pB]]` | Botão da transição para a parte B (diagnóstico D1 a D7) | Web designer |
+| obr-final | `[[LINK: grupo geral \| pagina \| obr-final]]` e `[[LINK: calendário \| pagina \| obr-final]]` | Tela final: entrar no grupo e salvar a data | Automação |

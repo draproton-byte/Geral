@@ -35,7 +35,7 @@
 
 Conferência cruzada com `captacao_serie.md`: as datas e os IDs da SD batem (16/10 com EM-BF-04, 20/10 com EM-BF-08, 23/10 com EM-BF-11, 27/10 com EM-BF-15, 30/10 com EM-BF-18, 01/11 com EM-BF-20). As datas do canônico das alunas também estão na tabela de `captacao_serie.md`. Nenhum segmento recebe, no mesmo dia, um e-mail das 07h e um das 09h, nem um segmentado e um lembrete, sobre o mesmo assunto. Nenhum segmentado SD cai em 02/11 (Finados) nem em 03/11. As datas de SA só valem se a equipe decidir usar o banco de reserva, e nesse caso SA-05 precisa mudar de data.
 
-Todos mencionam a live de 03/11, às 20h, no YouTube, e **nenhum cita preço**. Botão padrão (um por e-mail): `ENTRAR NO GRUPO DA LIVE` para quem ainda não está no grupo, `GUARDAR O HORÁRIO NA AGENDA` para quem já está. Links: `[[LINK: grupo WhatsApp alunas]]` e `[[LINK: grupo WhatsApp]]`.
+Todos mencionam a live de 03/11, às 20h, no YouTube, e **nenhum cita preço**. **Um botão por e-mail, escolhido pelo estado do contato:** `QUERO ASSISTIR À LIVE` para quem ainda não se inscreveu (leva à captura do segmento: `captura C` para S1 e `captura D` para S2); `ENTRAR NO GRUPO DA LIVE` para inscrito que não entrou no grupo (`grupo alunas` ou `grupo viveu o método`); `GUARDAR O HORÁRIO NA AGENDA` para quem já está no grupo (`calendário`). O token no corpo é o do botão principal (captura); os outros dois estão na tabela "Links desta peça", no fim do arquivo.
 
 **Legibilidade e acessibilidade (vale para todos os e-mails deste arquivo).** Texto simples, fonte de pelo menos 16 px, entrelinha 1,5, contraste alto (40% da base tem mais de 50 anos). Botão de texto, nunca imagem, com o endereço do link escrito por extenso abaixo. Imagem ou logo, se houver, com texto alternativo descritivo. Nada depende de cor ou de emoji. Assunto até 50 caracteres.
 
@@ -61,7 +61,8 @@ Eu não vou falar de valor por e-mail. Vou falar na live. Mas quero que você sa
 
 Se você já vê o Termostato Invisível agindo (o dinheiro que entra e vai embora), eu falo disso na live.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura C | email | SA-01]]
 
 Dra. Próton
 
@@ -83,7 +84,8 @@ A conversa da live de 03/11 não é para você recomeçar. É para você ficar. 
 
 Eu explico tudo ao vivo, às 20h, no YouTube.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura C | email | SA-02]]
 
 Dra. Próton
 
@@ -105,7 +107,8 @@ Eu também vou explicar como fica o seu acesso atual quando você faz a mudança
 
 Dia 03/11, às 20h, no YouTube.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura C | email | SA-03]]
 
 Dra. Próton
 
@@ -125,7 +128,8 @@ Essa aluna não ficou mais forte do que você. Ela só não saiu do caminho. E o
 
 No dia 03/11, às 20h, eu abro a condição completa para quem já é do Clube.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura C | email | SA-04]]
 
 Dra. Próton
 
@@ -157,7 +161,8 @@ Pode ser que você já tenha feito algum. Pode ser que nenhum. Em qualquer caso,
 
 Dia 03/11, às 20h.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura C | email | SA-05]]
 
 Dra. Próton
 
@@ -179,7 +184,8 @@ Tenha à mão o seu meio de pagamento se for decidir na hora, mas só decida se 
 
 Te vejo terça, às 20h.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura C | email | SA-06]]
 
 Dra. Próton
 
@@ -201,7 +207,8 @@ Mas eu preciso ser honesta, como fui no último dia: um plano no papel não muda
 
 No dia 03/11, às 20h, eu vou abrir, ao vivo, uma condição para você não precisar voltar para o começo.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura D | email | SD-01]]
 
 Dra. Próton
 
@@ -225,7 +232,8 @@ Lembra do 1 vezes 0? "Se você não investe em você, o resultado da sua vida se
 
 No dia 03/11, às 20h, eu mostro como continuar sem precisar de força de vontade todo dia.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura D | email | SD-02]]
 
 Dra. Próton
 
@@ -245,7 +253,8 @@ Eu pergunto sem julgar, porque quase todo mundo deixa na gaveta. Não por pregui
 
 Se você quer retomar do ponto onde parou, e não do zero, a live de 03/11 é para você. Às 20h, ao vivo, no YouTube.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura D | email | SD-03]]
 
 Dra. Próton
 
@@ -265,9 +274,10 @@ O que eu desenhei para a live de 03/11 olha para esse momento: o "depois". Exist
 
 Você não vai precisar decidir tudo sozinha de novo.
 
-Dia 03/11, às 20h, no YouTube. Entre no grupo para receber o link.
+Dia 03/11, às 20h, no YouTube. Confirme a sua presença para receber o link.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura D | email | SD-04]]
 
 Dra. Próton
 
@@ -281,11 +291,12 @@ Dra. Próton
 
 Você sentiu falta de continuar depois do último dia? Se perguntou "e agora?"
 
-Esta é a resposta que eu tinha guardado. O Clube Secreto é um caminho: protocolo de 21 dias por ciclo, 12 ciclos por ano, aulas ao vivo toda terça, suporte direto no WhatsApp. A live de 03/11 vai abrir o Clube com acesso vitalício, junto com tudo o que eu já criei, e o Desafio A Nova Realidade que você fez está dentro desse pacote. [[CONFIRMAR: o Desafio entra nos 11 produtos como conteúdo regravado ou de acesso vitalício]]
+Esta é a resposta que eu tinha guardado. O Clube Secreto é um caminho: protocolo de 21 dias por ciclo, 12 ciclos por ano, aulas ao vivo toda terça, suporte direto no WhatsApp. A live de 03/11 vai abrir o Clube com acesso vitalício, junto com tudo o que eu já criei, e o Desafio A Nova Realidade, se foi o que você fez, está dentro desse pacote. [[CONFIRMAR: o Desafio entra nos 11 produtos como conteúdo regravado ou de acesso vitalício]]
 
 Eu não vou contar o valor por e-mail. Vou contar ao vivo.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura D | email | SD-05]]
 
 Dra. Próton
 
@@ -293,19 +304,20 @@ Dra. Próton
 
 **Assunto A:** A decisão que o Desafio deixou aberta
 **Assunto B:** Terça, às 20h
-**Linha de preview:** Eu falei que não era obrigatório. Agora eu te convido
+**Linha de preview:** Eu disse que continuar não era obrigatório. Agora eu te convido
 
 {{nome}},
 
 Na última noite do Desafio, eu disse que continuar não era obrigatório. As 5 noites se sustentavam sozinhas.
 
-Mas eu também disse que você ia querer estar lá para decidir.
+Mas a pergunta ficou aberta: e depois que as 5 noites acabam, o que sustenta o que você começou?
 
 Terça-feira, às 20h, eu abro essa decisão para quem esteve comigo. Será ao vivo, sem pressão, com tudo explicado.
 
 Eu prefiro que você não compre do que compre e não viva. Se não for para você agora, tudo bem. Mas ouça antes de decidir.
 
-**Botão:** ENTRAR NO GRUPO DA LIVE
+**Botão:** QUERO ASSISTIR À LIVE
+[[LINK: captura D | email | SD-06]]
 
 Dra. Próton
 
@@ -321,3 +333,20 @@ Dra. Próton
 6. **Teste A/B.** SA-01 assunto A contra B; SD-01 assunto A contra B. Medir abertura e entrada no grupo.
 7. **Frases da Dra. usadas literalmente:** "Nunca mais eu deixo de investir em mim.", "Eu prefiro que você não compre do que compre e não viva.", "Não trave o processo." As referências a "1 vezes 0" e "eu valho mais que uma pizza" vêm do glossário do guia e estão no manual da Aula 02 e da Aula 03 do Desafio.
 8. **Nunca um segmento recebe dois e-mails sobre o mesmo assunto no mesmo dia.** A regra está na tabela de datas acima e em `captacao_serie.md`. Se uma data mudar, mudar nos dois arquivos e nos lembretes (`lembretes_da_live.md`).
+
+## Links desta peça
+
+| ID da peça | Token principal (botão QUERO ASSISTIR À LIVE) | O que o link faz | Token se já inscrito e fora do grupo | Token se já está no grupo | Quem cria |
+|---|---|---|---|---|---|
+| SA-01 | [[LINK: captura C | email | SA-01]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-01]] | [[LINK: calendário | email | SA-01]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-02 | [[LINK: captura C | email | SA-02]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-02]] | [[LINK: calendário | email | SA-02]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-03 | [[LINK: captura C | email | SA-03]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-03]] | [[LINK: calendário | email | SA-03]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-04 | [[LINK: captura C | email | SA-04]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-04]] | [[LINK: calendário | email | SA-04]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-05 | [[LINK: captura C | email | SA-05]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-05]] | [[LINK: calendário | email | SA-05]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-06 | [[LINK: captura C | email | SA-06]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-06]] | [[LINK: calendário | email | SA-06]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-01 | [[LINK: captura D | email | SD-01]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-01]] | [[LINK: calendário | email | SD-01]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-02 | [[LINK: captura D | email | SD-02]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-02]] | [[LINK: calendário | email | SD-02]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-03 | [[LINK: captura D | email | SD-03]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-03]] | [[LINK: calendário | email | SD-03]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-04 | [[LINK: captura D | email | SD-04]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-04]] | [[LINK: calendário | email | SD-04]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-05 | [[LINK: captura D | email | SD-05]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-05]] | [[LINK: calendário | email | SD-05]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-06 | [[LINK: captura D | email | SD-06]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-06]] | [[LINK: calendário | email | SD-06]] | Web designer (captura); Automação (grupo e calendário) |

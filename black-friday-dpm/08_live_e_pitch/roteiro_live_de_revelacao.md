@@ -4,7 +4,7 @@
 **Canal:** YouTube ao vivo, com apoio do grupo de WhatsApp e do time de chat
 **Público:** todas as inscritas na página de captura (alunas do Clube, quem comprou Desafio, Imersão ou Aulão sem entrar no Clube, base fria que veio por tráfego)
 **Momento:** terça, 03/11/2026, às 20h. Sala aberta às 19h45. Duração prevista: 1h56 (116 minutos), com margem de 4 minutos para chegar a 2h
-**Relógio de referência:** minuto 00:00 = 20h00. Revelação da oferta (bloco 9) = 20h51. Preço (bloco 12) = 21h09. Abertura do link e início do bônus de 15 minutos (bloco 15) = minuto 01:28 = **21h28**, o mesmo horário do cronograma do comercial (`09_comercial_datacrazy/playbook_do_dia_da_live.md`, linha 21h28). O disparo manual de "carrinho aberto" (grupo e API) sai nesse mesmo instante, nunca no momento do preço (21h09). Se a live atrasar, todos os horários andam juntos e o disparo acompanha o link, não o relógio de parede.
+**Relógio de referência:** minuto 00:00 = 20h00. Revelação da oferta (bloco 9) = 20h51. Preço (bloco 12) = 21h09. Abertura do link e início do bônus de 15 minutos (bloco 15) = minuto 01:28 = **21h28**, o mesmo horário do cronograma do comercial (`09_comercial_datacrazy/playbook_do_dia_da_live.md`, linha 21h28). O disparo manual de "carrinho aberto" sai no grupo nesse mesmo instante (CP-BF-76 e variantes, 21h28) e na API logo em seguida (API-BF-17, 21h30, e API-BF-17-A, 21h32), nunca no momento do preço (21h09). Se a live atrasar, todos os horários andam juntos e o disparo acompanha o link, não o relógio de parede.
 **Objetivo:** fazer a pessoa se reconhecer em um dos cinco padrões, entender por que recomeça, ver a oferta inteira pela primeira vez, ouvir o preço do lote dela e decidir com clareza, na live ou depois, dentro do lote
 **Estágio de consciência:** 2 a 5 (a sala mistura quem só conhece a dor e quem já vive o método; os blocos 1 a 8 servem os estágios 2 e 3, os blocos 9 a 17 servem os estágios 4 e 5)
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." Troca de identidade: de "a que recomeça" para "a que fica"
@@ -38,10 +38,10 @@
 |---|---|---|---|---|---|---|
 | -00:15 | 19h45 | 0. Sala aberta e aquecimento | 15 min (antes do ar oficial) | 0 (só TIME e slides) | n/a | 15 min |
 | 00:00 | 20h00 | 1. Abertura e energia | 4 min | 79 | 29 a 34 s | 3 min 28 s |
-| 00:04 | 20h04 | 2. "Quantas vezes você já recomeçou?" | 6 min | 117 | 43 a 51 s | 5 min 13 s |
+| 00:04 | 20h04 | 2. "Quantas vezes você já recomeçou?" | 6 min | 122 | 45 a 53 s | 5 min 11 s |
 | 00:10 | 20h10 | 3. O combinado da noite | 3 min | 101 | 37 a 44 s | 2 min 19 s |
 | 00:13 | 20h13 | 4. A conta do Termostato Invisível | 9 min | 233 | 86 a 101 s | 7 min 26 s |
-| 00:22 | 20h22 | 5. Os cinco padrões: qual é o seu? | 7 min | 80 | 30 a 35 s | 6 min 28 s |
+| 00:22 | 20h22 | 5. Os cinco padrões: qual é o seu? | 7 min | 129 | 48 a 56 s | 6 min 08 s |
 | 00:29 | 20h29 | 6. Prática curta ao vivo: a decisão de uma vez só | 6 min | 171 | 63 a 74 s | 4 min 51 s |
 | 00:35 | 20h35 | 7. A história da Dra. | 7 min | 110 | 41 a 48 s | 6 min 16 s |
 | 00:42 | 20h42 | 8. Por que você recomeça: o mecanismo | 9 min | 201 | 74 a 87 s | 7 min 39 s |
@@ -50,17 +50,17 @@
 | 01:06 | 21h06 | 11. A trilha de entrada | 3 min | 63 | 23 a 27 s | 2 min 34 s |
 | 01:09 | 21h09 | 12. O preço (por segmento e por lote) | 6 min | 111 | 41 a 48 s | 5 min 15 s |
 | 01:15 | 21h15 | 13. Parcelamento, garantia e bônus | 5 min | 92 | 34 a 40 s | 4 min 23 s |
-| 01:20 | 21h20 | 14. As quatro conversas sérias | 8 min | 238 | 88 a 103 s | 6 min 24 s |
-| 01:28 | 21h28 | 15. Chamada para ação e abertura do link (contagem 1) | 5 min | 70 | 26 a 30 s | 4 min 32 s |
-| 01:33 | 21h33 | 16. Perguntas ao vivo (contagens 2, 3 e 4 dentro do bloco) | 15 min | 367 | 136 a 160 s | 12 min 33 s |
-| 01:48 | 21h48 | 17. Encerramento | 8 min | 137 | 51 a 60 s | 7 min 05 s |
-| 01:56 | 21h56 | Fim | Soma: 116 min | 2557 | 15.8 a 18.5 min | |
+| 01:20 | 21h20 | 14. As quatro conversas sérias | 8 min | 240 | 89 a 104 s | 6 min 24 s |
+| 01:28 | 21h28 | 15. Chamada para ação e abertura do link (contagem 1) | 5 min | 88 | 33 a 38 s | 4 min 25 s |
+| 01:33 | 21h33 | 16. Perguntas ao vivo (contagens 2, 3 e 4 dentro do bloco) | 15 min | 379 | 140 a 165 s | 12 min 28 s |
+| 01:48 | 21h48 | 17. Encerramento | 8 min | 139 | 51 a 60 s | 7 min 04 s |
+| 01:56 | 21h56 | Fim | Soma: 116 min | 2645 | 16,3 a 19,2 min | |
 
 **Como ler a tabela.** "Palavras de fala" conta só o texto entre aspas das etiquetas FALA, FRASE, AÇÃO, CHAT e REAÇÃO (cada placeholder conta como 1 palavra; no bloco 9, as 7 frases de produto ainda marcadas como CONFIRMAR entram com 12 palavras cada). Nenhum bloco passa de 2,7 palavras por segundo: o texto literal ocupa 16 a 19 minutos dos 116. O resto é chat, escrita no papel, leitura de comentários, slides de produto e silêncio, mais o improviso condutor da Dra. (comentar as respostas do chat), que não é lido do roteiro. Soma das durações: 116 minutos, igual à duração prevista.
 
 **Zona de pitch:** blocos 9 a 15 (do minuto 00:51 ao 01:33, 42 minutos com interação). O pitch corrido de 12 minutos (arquivo `pitch_e_ancoragem.md`) é a espinha dessa zona e vira plano B se a live atrasar mais de 10 minutos: pula-se do bloco 8 direto para o pitch corrido (que cobre os blocos 9 a 15, com o link abrindo no fim da Parte 8) e volta-se ao roteiro no bloco 16.
 
-**Quem opera o quê durante a live:** apresentadora/Dra. (conteúdo), operador de slides, moderadora de chat (lê relatos, fixa links), comercial em pé de prontidão (nenhum disparo ativo de venda do comercial durante a live, só resposta a quem chamar; o único disparo de venda da noite é o "carrinho aberto" manual do time de disparo, no instante do bloco 15; detalhe no `playbook_do_dia_da_live.md`).
+**Quem opera o quê durante a live:** apresentadora/Dra. (conteúdo), operador de slides, moderadora de chat (lê relatos, fixa links), comercial em pé de prontidão (nenhum disparo ativo de venda do comercial durante a live, só resposta a quem chamar; o único disparo de venda da noite é o "carrinho aberto" manual do time de disparo (grupo às 21h28, API às 21h30 e 21h32), no instante do bloco 15; detalhe no `playbook_do_dia_da_live.md`).
 
 ---
 
@@ -72,8 +72,8 @@
 - TIME: moderadora abre o chat e fixa a primeira mensagem: "Escreva de onde você está assistindo e o número de vezes que você já recomeçou na sua vida."
 - TIME: música de espera baixa, sem locução. Slide 2 (regras da noite) aparece nos últimos 3 minutos.
 - TIME: fixar também no chat o aviso de segurança: "Hoje tem 6 minutos de respiração e escrita. Se você estiver dirigindo ou fazendo algo que exige atenção, não feche os olhos: pule essa parte e volte quando puder."
-- TIME: às 19h55, mensagem no grupo de WhatsApp: "Faltam 5 minutos. Papel e caneta na mão." (link do YouTube em linha própria, separado do CTA).
-- TIME: confirmar que o cronômetro de 15 minutos (arquivo de vídeo do Desafio) está carregado e testado, e que os links de checkout por lote e segmento estão abrindo no celular (`[[LINK: checkout por lote e segmento]]`).
+- TIME: a grade de disparos de `05_whatsapp_api/dia_da_live_03_11.md` cuida dos avisos de WhatsApp: às 19h50 o grupo recebe o CP-BF-72 (falta 10 minutos, vídeo da Dra. e sala aberta) e às 19h55 a API recebe o API-BF-13 (faltam 5 minutos). Este roteiro não cria mensagem própria nesse horário; o link da live, nessas duas peças, vai em linha própria e separado do CTA, no token canônico definido lá.
+- TIME: confirmar que o cronômetro de 15 minutos (arquivo de vídeo do Desafio) está carregado e testado, e que os dois links de checkout do Lote Especial estão abrindo no celular, com crédito de venda: `[[LINK: checkout S1-ESP | yt-live | live-roteiro-b0]]` (alunas) e `[[LINK: checkout S3-ESP | yt-live | live-roteiro-b0]]` (quem ainda não é do Clube).
 - TIME: confirmar que as telas de preço (slides 34, 36 e 37) estão no modo "oculto" até a Dra. liberar. Nenhum valor pode vazar em preview, miniatura ou legenda.
 
 ---
@@ -219,7 +219,7 @@
 
 - TELA (slide 17): "O depois".
 - FALA: "Toda vez que você começa algo importante, o seu cérebro procura o depois. Depois eu começo. Depois eu pago. Depois eu faço. O depois é o esconderijo da autossabotagem."
-- FALA: "Você não trava porque é fraca. Você trava porque o padrão que você quer mudar é o mesmo que sabota a mudança."
+- FALA: "Você não trava por fraqueza. Você trava porque o padrão que você quer mudar é o mesmo que sabota a mudança."
 - TELA (slide 18): "Sem apoio, o freio ganha."
 - FALA: "Em muitos cursos que a gente compra e não termina, o problema é parecido: a gente precisa aplicar sozinho. E aí o freio trabalha. Quem tenta vencer o freio só com força de vontade se cansa, porque é justamente a força de vontade que ele gasta."
 - TELA (slide 19): "E se o prazo deixasse de existir?"
@@ -231,7 +231,7 @@
 - CHAT: "Qual é o seu 'depois'? Escreve a frase que você mais usa."
 - REAÇÃO: ler 6 respostas e voltar ao número do bloco 2: "Você escreveu {{número}} vezes. Se o 'depois' sempre venceu, eu entendo. Hoje você pode decidir diferente."
 
-**Cola de compliance:** a Dra. não diz "a autossabotagem acaba". Diz "o recomeço acaba", "a decisão você toma uma vez". O "última vez" é sobre decidir, nunca sobre cura.
+**Cola de compliance:** a Dra. não diz "a autossabotagem acaba". Diz "o recomeço acaba", "a decisão você toma uma vez". O "última vez" é sobre decidir, nunca sobre resultado.
 
 ---
 
@@ -254,7 +254,7 @@
   7. **Cura da Criança Interior**: [[CONFIRMAR: uma frase]]
   8. **Instagram Profissional**: [[CONFIRMAR: uma frase]]
   9. **Destrave o Dinheiro**: [[CONFIRMAR: uma frase]]
-  10. **Cura da Escassez Financeira**: [[CONFIRMAR: uma frase; o nome tem "Cura": usar como nome do produto, sem promessa de resultado]]
+  10. **Cura da Escassez Financeira**: [[CONFIRMAR: uma frase; dizer o nome oficial do produto, sem promessa de resultado]]
   11. **Sequências Numéricas de Grabovoi**: "a sequência que eu ensino na prática." (prática ensinada, nunca promessa de dinheiro)
 - REAÇÃO: a cada três produtos, parar 5 segundos e pedir: "Quem já fez um desses? Escreve qual."
 - FALA (fecho): "São onze produtos mais o Clube. Eu sei o que você está pensando: 'onze coisas, eu vou me perder'. Eu vou te mostrar já já como você começa sem se perder."
@@ -275,7 +275,7 @@
 - AÇÃO: a Dra. soma os itens em voz alta, um por um, sem pressa. A moderadora acompanha em um quadro.
 - FALA: "Se você comprasse tudo separado, seriam [[PENDENTE: preço avulso]]. Isso é o que está na tela."
 - FALA (só se a âncora for confirmada): [[CONFIRMAR: âncora de R$ 120 mil da mentoria individual ainda vale e a Dra. quer usá-la. Se sim, a frase é "A minha mentoria individual é outra coisa, de outro nível de acompanhamento, e eu não vou fingir que é a mesma", sem dizer o valor em voz. Se não, cortar a fala inteira. Regra do Comercial: nunca usar a mentoria individual para justificar preço]]
-- FALA: "A pergunta que eu quero que você faça é outra: quanto está custando continuar mais um ano exatamente no mesmo lugar? "
+- FALA: "A pergunta que eu quero que você faça é outra: quanto está custando continuar mais um ano exatamente no mesmo lugar?"
 - FRASE **[INTOCÁVEL]**: "Se você não investe em você, o resultado da sua vida sempre será zero."
 - FALA: "Um vezes zero é zero. Mil vezes zero é zero. Um bilhão vezes zero é zero."
 - CHAT: "Quanto você investiu em você nos últimos seis meses? Escreve o valor, ou escreve ZERO."
@@ -303,7 +303,7 @@
 
 **Objetivo emocional:** a decisão. A pessoa ouve o número do lote dela, entende que existe uma escada e que esta condição não se repete. Silêncio e clareza.
 **Estágio atendido:** 5.
-**Regra:** o preço é dito uma vez por segmento, devagar, com o slide correspondente. Nunca "por apenas". Nunca comparar com cobrança recorrente (`[[CONFIRMAR: comparação com mensalidade]]`).
+**Regra:** o preço é dito uma vez por segmento, devagar, com o slide correspondente. Nunca "por apenas". Nunca comparar com cobrança recorrente (`[[CONFIRMAR: comparação de valor com cobrança recorrente]]`).
 
 - TIME: liberar as telas de preço (slides 36 e 37). Fixar no chat a mensagem: "O valor do seu lote está na tela agora. Seu segmento: aluna do Clube ou ainda não é do Clube."
 - FALA: "Existem dois grupos aqui hoje. Quem já é aluna do Clube Secreto. E quem ainda não é. Eu vou falar dos dois, e você escuta o seu."
@@ -347,7 +347,7 @@
 
 - TELA (slide 41): "Agora eu preciso ser honesta com você."
 - FALA (conversa 1: o que eu não prometo): "Eu não estou prometendo que a sua vida vai se resolver sozinha. Eu não prometo dinheiro. Eu não prometo que a autossabotagem some para sempre. O que eu estou oferecendo é uma coisa só: você não precisa mais recomeçar."
-- FALA (conversa 2: já comprei outros): "Se você está pensando 'eu já comprei outras coisas e não coloquei em prática', eu quero que você leia com atenção, porque essa é a frase que eu mais ouço. Nos outros você precisou aplicar sozinha depois. É sempre aí que trava. Aqui você tem a trilha e um ciclo de cada vez, com o suporte do outro lado." [[CONFIRMAR: o que o suporte inclui]]
+- FALA (conversa 2: já comprei outros): "Se você está pensando 'eu já comprei outras coisas e não coloquei em prática', eu quero que você leia com atenção, porque essa é a frase que eu mais ouço. Nos outros você precisou aplicar por conta própria depois. É sempre aí que trava. Aqui você tem a trilha e um ciclo de cada vez, com o suporte do outro lado." [[CONFIRMAR: o que o suporte inclui]]
 - FALA (conversa 3: não tenho o dinheiro agora): "Eu vou ser honesta de novo. Se o seu momento é de aperto de verdade, onde o dinheiro não dá para pagar tudo, não entre hoje. Entre no conteúdo gratuito, siga o processo, e se um dia fizer sentido, a gente conversa. Mas se não for aperto, e sim uma questão de prioridade, olha o seu papel sem culpa e sem pressa. A decisão é só sua."
 - FALA (conversa 4: onze, me perder, funciona para mim): "Você não começa pelos onze. Você começa pela trilha. E sobre funcionar: eu não prometo que todos os seus problemas somem. Eu desafio você a parar de recomeçar."
 - FRASE **[INTOCÁVEL]**: "Eu prefiro que você não compre do que compre e não viva."
@@ -362,8 +362,8 @@
 **Estágio atendido:** 5.
 
 - TIME: iniciar o cronômetro de 15 minutos na tela (arquivo de vídeo do Desafio). Se não houver bônus, o cronômetro vira o relógio do Lote Especial.
-- LINK: liberar o checkout no chat fixado, no grupo de WhatsApp e na descrição do YouTube (um link por segmento, alunas e não-alunas, ambos do lote vigente; cada um em linha própria e separado do CTA). `[[LINK: checkout aluna Lote Especial]]` `[[LINK: checkout não-aluna Lote Especial]]`
-- TIME (21h28, no instante em que o link abre): disparar o "carrinho aberto" manual no grupo e na API, trocar o estado do grupo conforme `05_whatsapp_api/cronograma_de_disparos.md` e fixar o link no YouTube. É o mesmo horário do `playbook_do_dia_da_live.md`. Nenhum disparo de carrinho aberto sai antes deste instante.
+- LINK: liberar o checkout no chat fixado e na descrição do YouTube, um link por segmento, ambos do Lote Especial, cada um em linha própria e separado do CTA: alunas, `[[LINK: checkout S1-ESP | yt-live | live-roteiro-b15]]`; quem ainda não é do Clube, `[[LINK: checkout S3-ESP | yt-live | live-roteiro-b15]]`. Quem viveu Desafio, Imersão ou Aulão sem ser do Clube paga como não-aluna e usa o segundo link `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão; se houver terceiro botão, usar checkout S2-ESP]]`. No grupo de WhatsApp o link sai pelo CP-BF-76 e variantes, que têm o próprio token.
+- TIME (21h28, no instante em que o link abre): disparar o "carrinho aberto" manual no grupo (CP-BF-76 e variantes), seguido da API (API-BF-17 às 21h30 e API-BF-17-A às 21h32), trocar o estado do grupo conforme `05_whatsapp_api/cronograma_de_disparos.md` e fixar o link no YouTube. É o mesmo horário do `playbook_do_dia_da_live.md`. Nenhum disparo de carrinho aberto sai antes deste instante.
 - TELA (slide 42): botão e QR code por segmento.
 - FALA (modelo, sem pressão): "O link está no chat agora. Quem é aluna do Clube clica no link das alunas. Quem não é, no outro. Se o seu cartão travar, não saia da live: chama o suporte pelo WhatsApp."
 - FALA (contagem 1): "A partir de agora, são 15 minutos. [[PENDENTE: bônus]] só para quem finalizar nesse tempo. Se você já decidiu, o link está aí. A oferta e o valor do lote são os mesmos depois dos 15 minutos; só o bônus muda."
@@ -380,7 +380,7 @@
 
 - TIME: a moderadora seleciona 8 a 10 perguntas curtas, priorizando as que se repetem. Perguntas já preparadas e a resposta-base estão em `quebra_de_objecoes.md` (resposta curta, voz da Dra.).
 - FALA (abertura do bloco): "Eu vou responder o que vocês estão perguntando. Pode escrever."
-- **Contagem 2 (01:33, faltam 10 minutos):** TELA (slide 43). FALA: "Faltam 10 minutos para fechar o bônus." (somente se houver bônus; senão: "Faltam 10 minutos para eu encerrar a live, e o link continua aberto até a virada do lote.")
+- **Contagem 2 (01:33, faltam 10 minutos):** TELA (slide 43). FALA: "Faltam 10 minutos para fechar o bônus." (somente se houver bônus; senão: "Faltam 10 minutos para eu encerrar a live, e o link continua aberto depois dela, até [[PENDENTE: fechamento]].")
 - AÇÃO: ler e responder. Perguntas previstas:
   - "Eu já sou do Clube. O que muda para mim?" (base: `quebra_de_objecoes.md`, objeção h). FALA: "O que você já fez no Clube conta. Você não recomeça do zero. O que muda é que o acesso deixa de ter prazo e entram os onze produtos, numa trilha. Você tem um lote só seu, na tela. E se você não usa o Clube hoje, eu te digo com honestidade: pensa bem antes de pagar de novo." [[CONFIRMAR: o que acontece com o período já pago]]
   - "Se eu já fiz o Desafio e a Imersão, preciso comprar de novo?" (idem). FALA: "O que você já viveu conta, e a trilha mostra por onde seguir." [[CONFIRMAR: o que o catálogo repete para quem já tem produtos]]
@@ -392,7 +392,7 @@
   - "Vou receber os produtos todos de uma vez?" FALA: [[CONFIRMAR: liberação de acesso]] "O que existe é a trilha: você começa por um."
 - **Contagem 3 (01:38, faltam 5 minutos):** TELA (slide 44). FALA: "Faltam 5 minutos." REAÇÃO: "Se você já decidiu, escreve DECIDI no chat." ler 5 respostas.
 - **Contagem 4 (01:42, falta 1 minuto):** TELA (slide 45, cronômetro grande). FALA: "Falta 1 minuto. Se está no link, finaliza." Ao zerar (01:43): FALA: "Encerrou o bônus." Silêncio de 3 segundos. Sem dramatização. TIME: encerrar o cronômetro e voltar o slide.
-- FALA (depois da contagem 4): "O link continua aberto até [[PENDENTE: data do lote]], a oferta é a mesma, e só o bônus acabou." (se aplicável)
+- FALA (depois da contagem 4): "O link continua aberto até [[PENDENTE: fechamento]], o valor deste lote vale até [[PENDENTE: data do lote]], a oferta é a mesma, e só o bônus acabou." (se aplicável)
 - AÇÃO: continuar perguntas até 01:48.
 
 **Regra:** a Dra. nunca fala de vagas ou de fim de estoque, porque a live não tem limite de vagas. Só diz "faltam X minutos" quando o cronômetro estiver real.
@@ -406,7 +406,7 @@
 
 - TELA (slide 46): "A última vez que você vai precisar recomeçar."
 - FALA: "Se você entrou, bem-vinda e bem-vindo. O primeiro passo em 48 horas está no e-mail e no WhatsApp. Abre a trilha, não abre os onze."
-- FALA: "Se você ainda não decidiu: o link continua aberto até [[PENDENTE: data do lote]], e o valor sobe na virada do lote. Você vai receber avisos do lote por e-mail e WhatsApp, e pode pedir para parar quando quiser. Se você precisar de ajuda para escolher o caminho, o suporte está no WhatsApp."
+- FALA: "Se você ainda não decidiu: o link continua aberto até [[PENDENTE: fechamento]], e o valor sobe na virada do lote, em [[PENDENTE: data do lote]]. Você vai receber avisos do lote por e-mail e WhatsApp, e pode pedir para parar quando quiser. Se você precisar de ajuda para escolher o caminho, o suporte está no WhatsApp."
 - FALA (saída honrosa, para quem não vai entrar): "Se não é o seu momento, está tudo bem. Continua no conteúdo gratuito. Eu prefiro uma decisão tranquila a uma decisão com susto."
 - CHAT: "Escreve uma palavra: o que você leva dessa noite?" (a Dra. lê, olha para a câmera)
 - AÇÃO: pegar o papel da prática do bloco 6. "Olha a linha três. A decisão que você só toma uma vez. Fala em voz alta."
@@ -414,7 +414,7 @@
 - FRASE **[INTOCÁVEL]**: "Reset. Chega de migalhas."
 - FALA (despedida): "Gratidão. Uma noite abençoada."
 - TIME: manter a live aberta por 10 minutos depois do encerramento com o chat liberado e o link fixado.
-- TIME: às 22h, mensagem no grupo com o link em linha própria. Sem repetir preço em texto.
+- TIME: às 22h sai o CP-BF-77 (e a variante das alunas) no grupo, conforme `05_whatsapp_api/dia_da_live_03_11.md`, com o link em linha própria, no token canônico definido lá. Sem repetir preço em texto.
 
 ---
 
@@ -446,7 +446,7 @@
 9. Ordem de entrada (trilha) para o bloco 11.
 
 **Decisões que a equipe precisa validar:**
-- A página de captura (briefing) tem duas formulações que este roteiro não usa. A comparação com cobrança recorrente depende de existir cobrança recorrente de verdade (`[[CONFIRMAR: comparação com mensalidade]]`). A imagem da porta que não reabre contradiz a regra de linguagem do briefing. Usa-se "esta condição não se repete".
+- A página de captura (briefing) tem duas formulações que este roteiro não usa. A comparação com cobrança recorrente depende de existir cobrança recorrente de verdade (`[[CONFIRMAR: comparação de valor com cobrança recorrente]]`). A imagem da porta que não reabre contradiz a regra de linguagem do briefing. Usa-se "esta condição não se repete".
 - O roteiro usa a conta do Termostato Invisível (51,9%) como "tapa na cara" do bloco 4, no papel que "Quanto vale 30 dias da sua vida?" cumpria na Aula 02. Foi uma troca consciente: a conta de 30 dias é mais emocional, mas depende de pedir valores de renda, o que na Black empurra a pessoa para comparação de preço antes da oferta.
 - A prática do bloco 6 é respiração e escrita, 6 minutos, sem hipnose, sem contagem regressiva, sem aprofundamento e sem indução. A Aula 02 usava hipnose de 24 minutos; na revelação ela não entra: tiraria o foco da oferta, aumentaria o risco de compliance e há gente dirigindo ou fazendo outras coisas durante a live. Hipnose, se a Dra. quiser, fica para um evento próprio, nunca para a live de revelação.
 - Garantia: o Clube atual tem 7 dias de garantia incondicional (fonte: materiais do Clube). Isso não vale automaticamente para a Vitalícia. Até `[[PENDENTE: garantia]]` ser fechado, nenhuma fala afirma ou nega garantia.
@@ -459,3 +459,16 @@
 - Cronômetro de 15 minutos real versus cronômetro "de lote": medir a distribuição de compras por minuto depois da abertura do link.
 
 **Dependências:** arquivo `slides_da_live.md` (numeração dos slides), `pitch_e_ancoragem.md` (pitch corrido), `bonus_15_minutos_e_escassez.md` (contagens), `playbook_do_dia_da_live.md` (comercial), `quebra_de_objecoes.md` (perguntas ao vivo e chat).
+
+---
+
+## Links desta peça
+
+Tokens no formato do `16_MAPA_DE_LINKS.md`. O ID da copy é o do bloco do roteiro. Mensagens de WhatsApp da noite (CP-BF-72, API-BF-13, CP-BF-76, API-BF-17, CP-BF-77) são da pasta `05_whatsapp_api` e têm tokens próprios lá. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| live-roteiro-b0 | `[[LINK: checkout S1-ESP \| yt-live \| live-roteiro-b0]]` | Teste de abertura no celular, antes da live, do checkout das alunas no Lote Especial (não é publicado) | Financeiro / Hotmart |
+| live-roteiro-b0 | `[[LINK: checkout S3-ESP \| yt-live \| live-roteiro-b0]]` | Teste de abertura no celular do checkout de quem ainda não é do Clube no Lote Especial (não é publicado) | Financeiro / Hotmart |
+| live-roteiro-b15 | `[[LINK: checkout S1-ESP \| yt-live \| live-roteiro-b15]]` | Checkout das alunas, Lote Especial, fixado no chat do YouTube e na descrição às 21h28 | Financeiro / Hotmart |
+| live-roteiro-b15 | `[[LINK: checkout S3-ESP \| yt-live \| live-roteiro-b15]]` | Checkout de quem ainda não é do Clube (inclui S2 até decisão contrária), Lote Especial, fixado no chat do YouTube e na descrição às 21h28 | Financeiro / Hotmart |

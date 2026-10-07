@@ -80,7 +80,7 @@ Agora você tem, num lugar só, o Clube Secreto e 11 produtos, com acesso vital�
 
 Este manual existe para isso. Ele não pede que você faça tudo. Pede que você faça um passo de cada vez, na ordem.
 
-Eu prefiro que você comece pelo pouco e continue do que comece por tudo e pare. **Não trave o processo.**
+Comece pelo pouco e continue. É melhor do que começar por tudo e parar. **Não trave o processo.**
 
 ### Página 3. Sua jornada já começou
 

@@ -43,6 +43,8 @@
 - `SALVAR A DATA` [[LINK: arquivo de calendário]]
 - `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo]]
 
+**Regras da contagem:** ocultar os dias quando for 0 e escrever "1 dia" no singular. Em 02/11 (Finados) manter o tom neutro, sem exclamação.
+
 ---
 
 ## Estado 2: Tela de espera (03/11, a partir das 12h)
@@ -60,7 +62,7 @@
 `para a live`
 
 **Linha de apoio**
-`Esta é a página que abre a sala. Deixe-a aberta e volte aqui às 19h45.`
+`Esta é a página da live. Deixe-a aberta: às 19h45 a sala abre aqui mesmo.`
 
 **Botões**
 - `SALVAR NO CALENDÁRIO` [[LINK: arquivo de calendário]]

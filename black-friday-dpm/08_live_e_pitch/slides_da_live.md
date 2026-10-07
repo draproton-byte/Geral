@@ -65,7 +65,8 @@ Linha: "O último dinheiro a mais que entrou. O que apareceu depois?"
 
 **Slide 7. A pesquisa**
 Título: "51,9%"
-Linha: "de quem respondeu à pesquisa de presença disse: quando entra um dinheiro a mais, aparece uma conta ou um problema."
+Linha: "de quem respondeu à pesquisa de presença disse:"
+Linha: "quando entra um dinheiro a mais, aparece uma conta ou um problema."
 Linha: "[[CONFIRMAR: fonte e data da pesquisa (dossiê do Desafio) antes de exibir]]"
 
 ---
@@ -119,7 +120,8 @@ Linha: [[FOTO DRA]] aos 18 anos [[CONFIRMAR: foto autorizada]]
 
 **Slide 16. Quem conduz**
 Título: "Dra. Próton"
-Linha: "Mais de 70 mil alunos em 44 países · 1,4 milhão de seguidores."
+Linha: "Mais de 70 mil alunos em 44 países"
+Linha: "1,4 milhão de seguidores"
 Linha: [[FOTO DRA]] hoje
 
 ---
@@ -133,7 +135,7 @@ Linha: "É o esconderijo da autossabotagem."
 
 **Slide 18. Sem apoio, o freio ganha**
 Título: "Sem apoio, o freio ganha."
-Linha: "O padrão que você quer mudar é o mesmo que sabota a mudança."
+Linha: "O padrão que você quer mudar sabota a mudança."
 
 **Slide 19. Sem prazo**
 Título: "E se o prazo deixasse de existir?"

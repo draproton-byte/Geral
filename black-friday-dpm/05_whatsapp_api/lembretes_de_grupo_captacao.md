@@ -189,7 +189,7 @@ Esse padrão tem nome: *Termostato Invisível*. O dinheiro sobe até um ponto e,
 
 Dia 03/11, às 20h, eu mostro essa conta ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -211,7 +211,7 @@ Ela aparece bem na hora de agir. E sempre tem um *depois* para se esconder:
 
 Dia 03/11, às 20h, eu abro ao vivo tudo o que construí para desarmar esse padrão.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -233,7 +233,7 @@ Esse medo é justo.
 
 Ao vivo, às 20h, eu mostro como.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -257,7 +257,7 @@ Não precisa responder para mim. Só para você.
 
 Dia 03/11, às 20h, a gente trabalha esse "eu termino" ao vivo.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -279,7 +279,7 @@ E mesmo quando faz muito, a conta do dia termina em "podia ter feito mais".
 
 Dia 03/11, às 20h, eu falo ao vivo desse cansaço que não passa com descanso.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
@@ -365,7 +365,7 @@ Hoje são mais de *70 mil alunos em 44 países*. E nas nossas pesquisas uma dor 
 
 Dia 03/11, às 20h, eu respondo ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -407,7 +407,7 @@ E aí você adia a sua vez. De novo.
 
 Dia 03/11, às 20h, eu falo ao vivo dessa culpa.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -513,7 +513,7 @@ O padrão não está na segunda-feira. Está no *depois*.
 
 Dia 03/11, às 20h, eu abro ao vivo o que construí para tirar esse "depois" do caminho.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -535,7 +535,7 @@ Se a resposta incomodou, não é azar. É o *Termostato Invisível* trabalhando.
 
 Dia 03/11, às 20h, eu faço essa conta ao vivo com você.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -557,7 +557,7 @@ Esse é o trabalho da Black Próton Vitalícia: transformar quem começa em quem
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
@@ -626,7 +626,7 @@ Por isso o que eu criei é guiado, com suporte, e não um curso solto.
 
 Dia 03/11, às 20h, eu mostro ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -646,7 +646,7 @@ Não são mil métodos. É uma decisão que você não precisa refazer toda segu
 
 Se você já comprou outras coisas e não aplicou, é por isso que o que eu vou abrir ao vivo no dia 03/11, às 20h, vem com trilha e acompanhamento.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -668,7 +668,7 @@ Eu mostro o caminho e a prática.
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -690,7 +690,7 @@ E eu vou fazer a conta que quase ninguém faz:
 
 Você decide com a conta na mão.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -732,7 +732,7 @@ Está falando de um padrão antigo decidindo no lugar dela.
 
 Dia 03/11, às 20h, eu mostro ao vivo um caminho para trabalhar isso, sem forçar.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
@@ -818,7 +818,7 @@ Perfil: Termostato Invisível. Objeção: Curiosidade (o que entra). Momento de 
 
 Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só ao vivo, dia 03/11, às 20h.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -862,7 +862,7 @@ Descansar não é fugir. Mas esse padrão faz parecer.
 
 Dia 03/11, às 20h, eu falo ao vivo de como sair desse modo cobrança.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -886,7 +886,7 @@ Perfil: Traumas Que Ainda Decidem. Objeção: Curiosidade (o que entra). Momento
 
 Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só ao vivo, dia 03/11, às 20h.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -910,7 +910,7 @@ Na minha prática, uma das frases que eu repito é: *"Eu me escolho."*
 
 Dia 03/11, às 20h, eu abro ao vivo o que construí para essa escolha deixar de ser pontual e virar permanente.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -934,14 +934,14 @@ Somando tudo: *Clube Secreto + 11 produtos*, com acesso vitalício. Você não c
 
 Preço e condição só ao vivo, dia 03/11, às 20h.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
 Reage com 🌟 se você quer ver tudo reunido.
 ```
 
-Nota: o nome oficial do workshop de formação de terapeutas não é citado por conter um termo vetado pela rubrica. `[[CONFIRMAR: nome do produto na divulgação]]`
+Nota: o nome oficial do workshop de formação de terapeutas não é citado por conter um termo que a revisão de compliance veta. `[[CONFIRMAR: nome do produto na divulgação]]`
 
 #### CP-BF-38 | Dom 25/10, 16h30 (RESERVA) | 11 PRODUTOS É MUITO?
 
@@ -980,7 +980,7 @@ Mas prometo uma coisa: você não precisa atravessar o processo sem companhia.
 
 Dia 03/11, às 20h, eu mostro ao vivo como funciona o acompanhamento.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -1000,7 +1000,7 @@ Cada curso comprado e não aplicado. Cada mês de recomeço. Cada oportunidade q
 
 No dia 03/11, às 20h, eu faço essa conta ao vivo, sem pressão e sem invenção, e mostro as formas de pagamento [[CONFIRMAR: parcelamento]].
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -1022,7 +1022,7 @@ O que existe é acompanhamento: você não fica sem apoio no processo.
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -1042,7 +1042,7 @@ Anota agora na agenda, com alarme.
 
 Quem vem ao vivo vê a condição completa primeiro. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -1086,7 +1086,7 @@ E digo sempre: *"Eu prefiro que você não compre do que compre e não viva."*
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
@@ -1297,7 +1297,7 @@ Não é para comprar. É para estar.
 
 O resto você decide com calma, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -1317,7 +1317,7 @@ A pergunta não é se você aguenta. É o que você vai fazer com o que viveu l�
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -1337,7 +1337,7 @@ Cada pessoa vive isso do seu jeito. Eu não prometo resultado financeiro nem o m
 
 Dia 03/11, às 20h, eu mostro o que construí ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -1357,7 +1357,7 @@ Completa a frase. Sem pensar demais.
 
 Guarda o papel. No dia 03/11, às 20h, eu te peço para olhar ele de novo, ao vivo.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -1403,7 +1403,7 @@ Se a lista está vazia, é sinal de que o padrão da cobrança está no comando.
 
 Dia 03/11, às 20h, eu falo ao vivo disso.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
@@ -1530,7 +1530,7 @@ A Vitalícia é para o seu caminho continuar, sem prazo para acabar.
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -1568,7 +1568,7 @@ Dia 03/11, às 20h, eu mostro ao vivo como é entrar sem prazo.
 
 Para alunas, existe uma condição própria.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -1588,7 +1588,7 @@ Por isso a Vitalícia tem uma condição pensada para você, aluna.
 
 Os detalhes eu revelo ao vivo, dia 03/11, às 20h.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -1608,7 +1608,7 @@ A dúvida que as alunas mais fazem:
 
 Eu vou explicar ao vivo, dia 03/11, às 20h, sem letra miúda.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -1673,7 +1673,7 @@ Dia *03/11, às 20h*, eu revelo ao vivo como não deixar o processo travar.
 
 O preço e as condições só são revelados na live.
 
-👇 Reserva a sua vaga:
+👇 Reserva a sua vaga, é de graça:
 
 [[LINK: página de reserva da live]]
 
@@ -1715,7 +1715,7 @@ E eu pergunto: o que travou o seu depois da última aula?
 
 Dia 03/11, às 20h, eu abro ao vivo o que construí para o processo não travar mais.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar na live:
 
 [[LINK: página de reserva da live]]
 
@@ -1735,7 +1735,7 @@ Eu quero te fazer a pergunta que ninguém faz:
 
 Dia 03/11, às 20h, eu faço essa conta ao vivo, e mostro como entrar de vez.
 
-👇 Reserva a sua vaga:
+Se quiser estar lá, é por aqui:
 
 [[LINK: página de reserva da live]]
 
@@ -1755,7 +1755,7 @@ O que você viveu conta. Não é recomeçar, é continuar.
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva em 1 minuto, é gratuito:
 
 [[LINK: página de reserva da live]]
 
@@ -1793,7 +1793,7 @@ Foi o preço? O tempo? O medo de não aplicar?
 
 No dia 03/11, às 20h, eu respondo cada uma dessas três ao vivo.
 
-👇 Reserva a sua vaga:
+Ainda não reservou? O link:
 
 [[LINK: página de reserva da live]]
 
@@ -1841,7 +1841,7 @@ Reage com 🔴 se você vai estar ao vivo.
 4. `[[PENDENTE: replay]]` (CP-BF-29, em reserva): decidir antes de usar a copy.
 5. `[[CONFIRMAR: parcelamento]]` (CP-BF-26 e 62): só fica no texto se o checkout tiver parcelamento.
 6. `[[CONFIRMAR: duração da live]]` (CP-BF-47) e `[[CONFIRMAR: roteiro da live]]` (CP-BF-49): casar com `08_live_e_pitch`.
-7. `[[CONFIRMAR: áudio e sequência da noite]]` (CP-BF-15, 45, 60): a Dra. precisa aprovar o áudio. Se não houver áudio novo, trocar os 3 slots por copys da reserva do mesmo dia (sem apagar os ritual) e manter o slot C com a pergunta do dia.
+7. `[[CONFIRMAR: áudio e sequência da noite]]` (CP-BF-15, 45, 60): a Dra. precisa aprovar o áudio. Se não houver áudio novo, trocar os 3 slots por copys da reserva do mesmo dia (sem apagar os rituais) e manter o slot C com a pergunta do dia.
 8. Números usados: 51,9% (dossiê do Desafio, pesquisa de presença), 4 em cada 10 / 40% (pesquisa do Aulão, recalculado: 40,4% e 39,6% sobre 7.323 respostas), 12% (ficha de interesse, recalculado: 11,7% sobre as respostas da ficha), 32% (ficha, recalculado: 31,9%) e 70 mil alunos em 44 países (guia, seção 8).
 9. A frase "Eu fui criada pelos meus avós..." (CP-BF-11) vem dos fatos da Dra. no guia, mas em primeira pessoa. Precisa da aprovação dela.
 10. 02/11 é feriado (Finados). Os 2 slots do dia (CP-BF-61 e 63) usam tom sóbrio: sem exclamação, sem emoji festivo, sem "última chamada". A copy de reserva do dia (CP-BF-62) segue o mesmo tom.

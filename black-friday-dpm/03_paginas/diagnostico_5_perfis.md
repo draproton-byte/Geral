@@ -337,7 +337,7 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 `[[CONFIRMAR: permitir compartilhamento. Se for ativado, a mensagem não pode conter o percentual nem o texto da devolutiva]]`
 
 **Rodapé do diagnóstico**
-`O diagnóstico identifica padrões de comportamento a partir das suas respostas. Não é avaliação clínica, não faz diagnóstico psicológico ou médico e não substitui acompanhamento profissional. Se você está em sofrimento agudo, procure um profissional de saúde. No Brasil, o CVV atende 24 horas pelo 188.`
+`O diagnóstico identifica padrões de comportamento a partir das suas respostas. Não é avaliação clínica, não faz diagnóstico psicológico ou médico e não substitui acompanhamento profissional. Se você está em sofrimento agudo, procure um profissional de saúde. No Brasil, o CVV atende 24 horas pelo 188.` [[CONFIRMAR: manter a menção ao CVV 188 (canal público)]]
 
 ---
 

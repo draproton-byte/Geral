@@ -511,7 +511,7 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `Veja o bloco de garantia acima.` `[[PENDENTE: garantia]]`
 
 **Isso é terapia?**
-`Não. A Vitalícia é um caminho de desenvolvimento e reprogramação. Não é tratamento, não substitui terapia, e eu não prometo resultado clínico. Se você está em sofrimento agudo, procure um profissional de saúde. No Brasil, o CVV atende 24 horas pelo 188.`
+`Não. A Vitalícia é um caminho de desenvolvimento e reprogramação. Não é tratamento, não substitui terapia, e eu não prometo resultado clínico. Se você está em sofrimento agudo, procure um profissional de saúde. No Brasil, o CVV atende 24 horas pelo 188.` [[CONFIRMAR: manter a menção ao CVV 188 (canal público)]]
 
 **E se eu não conseguir aplicar?**
 `Por isso existe a trilha de entrada, o primeiro passo de 48 horas e a ausência de prazo. Se o momento não for esse, a garantia está acima.`

@@ -168,7 +168,7 @@ Quer que eu te explique as opções?
 | Últimas horas | `[[PENDENTE: fechamento]]` | Sim |
 
 **Frases de escassez permitidas:** "esta condição não se repete", "o lote vira em [[PENDENTE: data do lote]]", "o bônus vale até o fim do cronômetro".
-**Frases de escassez proibidas:** todas as da seção 3 de `02_GUIA_DE_COPY.md`, qualquer frase de vagas ou cupons limitados sem lote real, "está acabando", "só mais hoje" depois do cronômetro, bônus prorrogado e contador regressivo sem relógio real por trás.
+**Frases de escassez proibidas:** todas as da seção 3 de `02_GUIA_DE_COPY.md`, qualquer frase de vagas ou de cupom limitado sem lote real, "está acabando", "só mais hoje" depois do cronômetro, bônus prorrogado e contador regressivo sem relógio real por trás.
 
 ---
 

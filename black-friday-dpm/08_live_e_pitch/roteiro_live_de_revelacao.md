@@ -450,7 +450,7 @@
 - A prática do bloco 6 é respiração e escrita, 6 minutos, sem hipnose, sem contagem regressiva, sem aprofundamento e sem indução. A Aula 02 usava hipnose de 24 minutos; na revelação ela não entra: tiraria o foco da oferta, aumentaria o risco de compliance e há gente dirigindo ou fazendo outras coisas durante a live. Hipnose, se a Dra. quiser, fica para um evento próprio, nunca para a live de revelação.
 - Garantia: o Clube atual tem 7 dias de garantia incondicional (fonte: materiais do Clube). Isso não vale automaticamente para a Vitalícia. Até `[[PENDENTE: garantia]]` ser fechado, nenhuma fala afirma ou nega garantia.
 - Âncora da mentoria individual: o Desafio usava o valor de R$ 120 mil. A rubrica pede `[[CONFIRMAR: âncora de R$ 120 mil da mentoria individual ainda vale]]`. Recomendação: não dizer o valor em voz e não usar como argumento de preço.
-- Não foi usado nenhum relato de "manifestei R$ X" dos depoimentos do Desafio. O briefing proíbe promessa de ganho e esses relatos poderiam ser lidos como garantia. Quando houver depoimento autorizado sobre o método, usar `[[DEPOIMENTO REAL]]` no slide.
+- Não foi usado nenhum relato de "manifestei tal valor" dos depoimentos do Desafio. O briefing proíbe promessa de ganho e esses relatos poderiam ser lidos como garantia. Quando houver depoimento autorizado sobre o método, usar `[[DEPOIMENTO REAL]]` no slide.
 
 **Testes A/B sugeridos:**
 - Abertura do bloco 2 (número de recomeços no chat) versus abertura com o diagnóstico: medir permanência aos 20 minutos.

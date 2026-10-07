@@ -111,7 +111,7 @@ Se você comprasse tudo separado, seriam [[PENDENTE: preço avulso]] (a soma)."
 
 
 **Regras de ancoragem (valem para a Dra. e para o time):**
-1. O preço avulso só pode ser dito se for o preço real de venda avulsa praticado nos últimos [[CONFIRMAR: período mínimo de venda avulsa praticada]] dias. Se algum produto nunca foi vendido avulso, escrever "valor de referência" na tela e na fala, nunca "de R$ X por R$ Y".
+1. O preço avulso só pode ser dito se for o preço real de venda avulsa praticado nos últimos [[CONFIRMAR: período mínimo de venda avulsa praticada]] dias. Se algum produto nunca foi vendido avulso, escrever "valor de referência" na tela e na fala, nunca "de X por Y" em reais.
 2. Nunca dizer "de" e "por" para o valor da Vitalícia. A ancoragem é a soma dos avulsos, não um preço "cortado".
 3. O número que ancora a decisão não é a soma, é o custo de ficar parada. A soma é só a régua.
 4. A comparação com cobrança recorrente fica fora até `[[CONFIRMAR: comparação com mensalidade]]` ser respondido por quem conhece o modelo de cobrança do Clube.

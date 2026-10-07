@@ -241,7 +241,7 @@ Dra. Próton
 
 Eu comecei a live e ainda não te vi por aqui, {{nome}}.
 
-Se aconteceu alguma coisa, tudo bem. Mas ainda dá tempo de entrar: o que eu já mostrei vai fazer sentido, e a parte mais importante, a condição, ainda está por vir.
+Se aconteceu alguma coisa, tudo bem. Mas ainda dá tempo de entrar: o que eu já mostrei vai fazer sentido, e a condição completa ainda está por vir.
 
 **Botão:** ENTRAR NA LIVE AGORA
 [[LINK: live YouTube | email | lv-03-04]]

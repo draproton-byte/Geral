@@ -243,7 +243,7 @@ Dra. Próton
 | PC-D0 | [[LINK: onboarding | email | pc-d0]] | Página de boas-vindas pós-compra, com o acesso à Área de Membros | Web designer |
 | PC-D1 | [[LINK: onboarding | email | pc-d1]] | Página de boas-vindas com a trilha de entrada | Web designer |
 | PC-D2 | [[LINK: onboarding | email | pc-d2]] | Página de boas-vindas, no passo da primeira reprogramação | Web designer |
-| PC-D3 | [[LINK: suporte WhatsApp | email | pc-d3]] | Número oficial de suporte (wa.me) | Suporte |
+| PC-D3 | [[LINK: suporte WhatsApp | email | pc-d3]] | Número oficial de suporte no WhatsApp | Suporte |
 | PC-D7 | [[LINK: depoimento | email | pc-d7]] | Formulário de depoimento e autorização | Marketing |
 | PC-D14 | [[LINK: lista de espera | email | pc-d14]] | Página que a pessoa indicada recebe (provisório: o mapa não tem destino de indicação) | Web designer |
 | PC-D21 | [[LINK: depoimento | email | pc-d21]] | Formulário de depoimento e autorização (21 dias) | Marketing |

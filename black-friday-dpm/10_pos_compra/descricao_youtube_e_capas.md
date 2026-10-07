@@ -11,7 +11,7 @@
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." |
 | Modelo no Desafio | as legendas do YouTube do Desafio (título da noite, 1 a 2 frases, "Ative o lembrete e participe AO VIVO", bloco "Você vai entender:" com 4 itens, fecho "Esta não é uma aula de conteúdo. É a noite em que...", "Você não pode perder esta transmissão" (não reaproveitado, porque sugere que não há replay), link do grupo) e as capas do YouTube do Desafio (logo, foto da Dra., data, título, "ative o lembrete") |
 
-**Regras específicas do YouTube.** Primeiras 150 caracteres da descrição são o que aparece na busca: precisam conter "live", "Dra. Próton" e o gancho. Sem links encurtados duvidosos nos primeiros parágrafos. Sem "cura" ou promessa de ganho. Hashtags no fim (até 3 aparecem acima do título). Capítulos: tempos do vídeo derivados do roteiro (`08_live_e_pitch/roteiro_live_de_revelacao.md`), com a transmissão iniciando às 19h45 (sala aberta), ou seja, minuto do roteiro mais 15 minutos. Nenhum capítulo cita preço. Sem preço em nenhum texto desta peça.
+**Regras específicas do YouTube.** Primeiras 150 caracteres da descrição são o que aparece na busca: precisam conter "live", "Dra. Próton" e o gancho. Sem links encurtados duvidosos nos primeiros parágrafos. Sem promessa de tratamento ou de ganho. Hashtags no fim (até 3 aparecem acima do título). Capítulos: tempos do vídeo derivados do roteiro (`08_live_e_pitch/roteiro_live_de_revelacao.md`), com a transmissão iniciando às 19h45 (sala aberta), ou seja, minuto do roteiro mais 15 minutos. Nenhum capítulo cita preço. Sem preço em nenhum texto desta peça.
 
 ---
 

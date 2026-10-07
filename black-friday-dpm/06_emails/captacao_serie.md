@@ -665,7 +665,7 @@ Hoje é o dia.
 
 Reserve esta noite para você. Avise em casa. Deixe o celular carregado e o caderno ao lado.
 
-E lembre: eu prefiro que você não compre do que compre e não viva. Venha ouvir, venha perguntar, e decida com clareza.
+Eu prefiro que você não compre do que compre e não viva. Venha ouvir, venha perguntar, e decida com clareza.
 
 Se ainda não se inscreveu, leva um minuto, e o link da live chega para você.
 

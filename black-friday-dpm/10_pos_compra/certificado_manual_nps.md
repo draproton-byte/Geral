@@ -113,7 +113,7 @@ Na tabela, a coluna "Para que serve" resume o que cada produto faz **na sua tril
 
 `[[CONFIRMAR: ordem de entrada]]`
 
-**Estrutura (ver também `pos_compra_e_trilha.md`):**
+**Estrutura (ver também `06_emails/pos_compra_e_trilha.md`):**
 
 - **Dia 1 e 2, entrada.** Área de Membros, vídeo de boas-vindas, primeira reprogramação (20 minutos).
 - **Semana 1.** `[[CONFIRMAR: produto 1 da trilha]]`
@@ -258,7 +258,7 @@ Dra. Próton
 
 ### NP-02. Quem assistiu e não comprou (dia seguinte ao fechamento)
 
-**Assunto:** Como foi a sua decisão sobre a Black Próton Vitalícia?
+**Assunto:** Como foi a sua decisão sobre a Vitalícia?
 **Preview:** Sem julgamento. Só quero entender
 
 {{nome}},

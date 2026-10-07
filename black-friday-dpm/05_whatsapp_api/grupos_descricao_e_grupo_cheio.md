@@ -63,7 +63,7 @@ Regras: o nome cabe no topo do celular (curto). A capa tem no máximo duas linha
 
 A descrição é o texto que a pessoa lê ao entrar. Limite do campo de descrição do WhatsApp: 2.048 caracteres `[[CONFIRMAR: limite atual]]`. As três descrições abaixo têm menos de 1.000 caracteres cada (medidos com as quebras de linha e com os placeholders no lugar dos links), com folga para trocar os placeholders por endereços reais. Também respeitam a regra de linhas: no máximo 12 linhas com texto, uma linha em branco entre elas e link sempre em linha própria.
 
-### 2.1 Descrição: grupo geral
+### 2.1 Descrição: grupo geral (ID: desc-geral)
 
 ```text
 [ ENTRE NO GRUPO! 👇 ]
@@ -78,22 +78,22 @@ Este é o canal oficial da live em que eu revelo, de uma vez só, tudo o que con
 
 🧠 Diagnóstico dos 5 padrões:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | desc-geral]]
 
 🔔 Lembrete da live:
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | desc-geral]]
 
 ❌ Não fazemos sorteios. Vendemos só pelos canais oficiais e *não abriremos vendas antes de 03/11*.
 
 📲 Para falar com a equipe, confie só nos administradores do grupo e no número oficial:
 
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | wpp | desc-geral]]
 ```
 
 O "check-in obrigatório" da versão anterior saiu: a reserva do lugar é gratuita e não depende de diagnóstico, então dizer que o diagnóstico "confirma o lugar" seria enganoso. O bônus de check-in só volta se existir de verdade `[[PENDENTE: bônus]]`.
 
-### 2.2 Descrição: grupo de alunas do Clube
+### 2.2 Descrição: grupo de alunas do Clube (ID: desc-alunas)
 
 ```text
 [ ENTRE NO GRUPO! 👇 ]
@@ -108,16 +108,16 @@ Você já está dentro. A pergunta da live é: quer ficar para sempre, sem prazo
 
 🔔 Lembrete da live:
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | desc-alunas]]
 
 ❌ Não fazemos sorteios. Vendemos só pelos canais oficiais e *não abriremos vendas antes de 03/11*.
 
 📲 Para falar com a equipe, confie só nos administradores do grupo e no número oficial:
 
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | wpp | desc-alunas]]
 ```
 
-### 2.3 Descrição: grupo de quem fez Desafio, Imersão ou Aulão
+### 2.3 Descrição: grupo de quem fez Desafio, Imersão ou Aulão (ID: desc-viveu)
 
 ```text
 [ ENTRE NO GRUPO! 👇 ]
@@ -132,17 +132,17 @@ Na *Black Próton Vitalícia* eu abro, de uma vez só, o Clube Secreto e tudo o 
 
 🧠 Refaça o diagnóstico dos 5 padrões:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | desc-viveu]]
 
 🔔 Lembrete da live:
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | desc-viveu]]
 
 ❌ Não fazemos sorteios. Vendemos só pelos canais oficiais e *não abriremos vendas antes de 03/11*.
 
 📲 Para falar com a equipe, confie só nos administradores do grupo e no número oficial:
 
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | wpp | desc-viveu]]
 ```
 
 ---
@@ -153,38 +153,34 @@ No Desafio, a "mensagem de grupo cheio" é a primeira mensagem fixada em cada gr
 
 **Limites.** Cada grupo de WhatsApp comporta até 1.024 participantes `[[CONFIRMAR: limite atual de participantes]]`. Ao lotar, o SendFlow entrega o link do próximo grupo do rodízio e a mensagem abaixo é colada de novo. A mensagem tem menos de 1.000 caracteres (limite de uma mensagem comum: 4.096) e no máximo 12 linhas com texto. Fixar a mensagem no topo do grupo.
 
-### 3.1 Grupo geral
+### 3.1 Grupo geral (ID: bv-geral)
 
 ```text
-Maravilhosos! 👋
+👋 *Você entrou no grupo oficial da Black Próton Vitalícia.*
 
-Dra. Próton aqui, dando as boas-vindas ao nosso grupo oficial da *Black Próton Vitalícia*.
+Dra. Próton aqui, dando as boas-vindas.
 
 📆 *Terça, 03/11, às 20h*, ao vivo no YouTube: eu abro a oferta que o Clube Secreto nunca fez antes, com acesso vitalício, de uma vez só, ao Clube e a tudo o que construí.
 
 O preço e as condições só são revelados na live.
 
-Até lá, aqui você recebe o diagnóstico dos 5 padrões, o que entra na Vitalícia e as respostas para as dúvidas mais comuns.
-
-Se ainda não fez, descubra qual padrão te prende:
-
-[[LINK: diagnóstico dos 5 perfis]]
+Até lá, aqui você recebe o que entra na Vitalícia e as respostas para as dúvidas mais comuns. O diagnóstico dos 5 padrões está no link da descrição do grupo.
 
 Para não perder a live, salve 03/11, às 20h, na agenda e ative o lembrete 👇
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | bv-geral]]
 
 Quem está ao vivo vê a condição primeiro. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
-Espero você lá! ✨
+Reage com 🔔 se o lembrete já está ativado.
 ```
 
-### 3.2 Grupo de alunas do Clube
+### 3.2 Grupo de alunas do Clube (ID: bv-alunas)
 
 ```text
-Maravilhosa! 👋
+👋 *Bem-vinda ao grupo das alunas do Clube Secreto.*
 
-Dra. Próton aqui. Este é o grupo das alunas do Clube Secreto na *Black Próton Vitalícia*.
+Dra. Próton aqui. Este é o grupo da *Black Próton Vitalícia* para quem já está dentro.
 
 Você já está dentro. No dia *03/11, terça, às 20h*, ao vivo no YouTube, eu abro a chance de ficar para sempre: acesso vitalício ao Clube e a tudo o que construí, sem prazo e sem recomeçar.
 
@@ -196,19 +192,19 @@ Até lá, aqui você recebe o que muda para quem já é aluna, o que acontece co
 
 Salve 03/11, às 20h, na agenda e ative o lembrete da live 👇
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | bv-alunas]]
 
 Terça é dia de aula do Clube. [[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]
 
-Espero você lá! 💜
+Reage com 💜 se você é do Clube e vai estar ao vivo.
 ```
 
-### 3.3 Grupo de quem fez Desafio, Imersão ou Aulão
+### 3.3 Grupo de quem fez Desafio, Imersão ou Aulão (ID: bv-viveu)
 
 ```text
-Maravilhosa(o)! 👋
+👋 *Bem-vinda(o) de volta: você já viveu o método comigo.*
 
-Dra. Próton aqui. Este é o grupo de quem já viveu o método comigo ao vivo, agora na *Black Próton Vitalícia*.
+Dra. Próton aqui. Este é o grupo de quem já esteve comigo ao vivo, agora na *Black Próton Vitalícia*.
 
 Você sabe o que é sair de uma noite com algo na mão. E sabe como é difícil manter quando a rotina volta.
 
@@ -218,12 +214,14 @@ Até lá, aqui você recebe o que entra e por onde começar sem se perder, e as 
 
 Salve 03/11, às 20h, na agenda e ative o lembrete da live 👇
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | bv-viveu]]
 
-A que eu peço que você não perca é essa. Espero você lá! ✨
+Esta é a noite que eu peço que você não perca.
+
+Reage com ✨ se você vai estar ao vivo.
 ```
 
-### 3.4 Versão curta (grupo novo do rodízio, quem entrou depois)
+### 3.4 Versão curta (grupo novo do rodízio, quem entrou depois) (ID: bv-curta)
 
 Usar quando a pessoa entra com a mensagem fixada já longe no histórico.
 
@@ -234,7 +232,7 @@ Live de revelação: terça, 03/11, às 20h, ao vivo no YouTube.
 
 Ative o lembrete para não perder:
 
-[[LINK: lembrete da live no YouTube]]
+[[LINK: live YouTube | wpp | bv-curta]]
 
 Quantas vezes você já recomeçou? Me conta com um 🔁
 ```
@@ -255,7 +253,7 @@ Quantas vezes você já recomeçou? Me conta com um 🔁
 
 **Pendências para esta peça**
 1. `[[FOTO DRA]]` para todas as capas.
-2. Links (placeholders `[[LINK: grupo geral]]`, `[[LINK: diagnóstico dos 5 perfis]]` e `[[LINK: lembrete da live no YouTube]]`) dos três grupos (geral, alunas, Desafio/Imersão), do diagnóstico e do lembrete da live. Os grupos precisam de links de rodízio separados por segmento e tag própria no SendFlow/DataCrazy (a estratégia de 00 prevê lista, tag e checkout próprios para alunas e demais alunos).
+2. Links: grupo geral, grupo alunas e grupo viveu o método (rodízio SendFlow, três links por segmento), diagnóstico, live YouTube e suporte WhatsApp. Os grupos precisam de links de rodízio separados por segmento e tag própria no SendFlow/DataCrazy (a estratégia de 00 prevê lista, tag e checkout próprios para alunas e demais alunos).
 3. `[[CONFIRMAR: regra de migração]]`: o que acontece com o acesso atual da aluna do Clube que compra a Vitalícia (crédito, extensão, nada). A pergunta mais provável do grupo de alunas; bloqueia o texto dessa descrição.
 4. `[[CONFIRMAR: condição do Golden Ticket]]`: ver `convite_vip_alunas_e_quiz.md`.
 5. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura diz que o menor preço é só para quem estiver ao vivo. Se o Lote Especial ficar aberto por um período depois da live, trocar "ao vivo vê primeiro" por "ao vivo tem a primeira condição".

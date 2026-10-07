@@ -1,5 +1,5 @@
 > VERSÃO SUPERADA. Os textos, horários e IDs válidos de URA e SMS estão em `15_automacao/doc_ura_sms_black.md`; este arquivo fica só como histórico e não deve ser usado para disparo.
-> Onde os dois divergem (IDs, número de SMS e de URA, SMS flash às 20h50, S3 só com aceite de telefone), vale o doc novo; o que segue abaixo foi apenas harmonizado nos fatos comuns (link, contagem, caixa alta, horário do flash).
+> Onde os dois divergem (IDs, número de SMS e de URA, SMS flash às 20h50, S3 só com aceite de telefone), vale o doc novo; o que segue abaixo foi só ajustado nos fatos comuns (link, contagem, caixa alta, horário do flash).
 
 # URA e SMS da live de revelação (4 roteiros de URA e 8 SMS)
 
@@ -74,9 +74,9 @@ Contagem: 43 palavras. Duração estimada: 16 a 19 segundos.
 
 Arquivo de áudio (.ogg): "URA 03 atrasados"
 
-> Oi, é a Dra. Próton. Eu comecei a live e ainda não vi você por lá. Ainda dá tempo. O que eu já mostrei vai fazer sentido, e a parte mais importante ainda está por vir. Procure Dra. Próton no YouTube e entre agora. Eu te espero. Para não receber mais ligações, digite 9.
+> Oi, é a Dra. Próton. Eu comecei a live e ainda não vi você por lá. Ainda dá tempo. O que eu já mostrei vai fazer sentido, e a condição completa ainda está por vir. Procure Dra. Próton no YouTube e entre agora. Eu te espero. Para não receber mais ligações, digite 9.
 
-Contagem: 54 palavras. Duração estimada: 20 a 23 segundos.
+Contagem: 53 palavras. Duração estimada: 20 a 23 segundos.
 
 ### URA-04. Flash (03/11, no momento da revelação)
 

@@ -302,12 +302,12 @@ O que mudou em relação ao modelo (e-mail a e-mail)
 - 01: alunos do modelo viram alunas do Clube. "Todos os meus cursos para sempre, inclusive os novos" virou "o Clube mais 11 produtos, por um único pagamento, tudo o que existe hoje, sem prazo para dar conta". A live fechada com acesso um dia antes do público virou a mesma live de 03/11, com a condição de aluna revelada ali. O "menor valor liberado ao vivo" virou Lote Especial só para quem estiver assistindo (marcado para confirmação). O botão de resgate virou reserva da vaga e da condição de aluna.
 - 02: o superlativo do modelo virou "a oferta que o Clube Secreto nunca fez antes". Removidos os lançamentos futuros. "Condição exclusiva que não será liberada depois" virou "ela não se repete, o que vier depois é outra oferta, com outro preço".
 - 03: no modelo é o reenvio do 01. Reescrito inteiro, com o mesmo papel (reforço da condição revelada só ao vivo), com o ângulo "começar, parar, voltar" e o diagnóstico dos 5 padrões. Para manter o reenvio literal do 01, enviar o 01 de novo só a quem não abriu.
-- 04: a validade de sete dias do modelo virou contagem até a live. "Os cupons são limitados" foi REMOVIDO (não há limite de vagas na live).
+- 04: a validade de sete dias do modelo virou contagem até a live. A frase de reservas limitadas do modelo foi REMOVIDA (não há limite de vagas na live).
 - 05: mesma ideia (uma Black igual para todos e, desta vez, diferente para quem já é da casa), com a regra de estar presente na live.
 - 06: removidos o número de formações do modelo e os cursos futuros. Entra a lista dos 11 produtos. "Uma única noite... depois não estará mais disponível" virou "contada uma vez, ao vivo. Não se repete".
 - 07: tom sóbrio por ser Finados, sem emoji nem caixa alta no assunto. Frase intocável "Nunca mais eu deixo de investir em mim." usada literalmente.
 - 08: o superlativo do modelo virou "a oferta que o Clube Secreto nunca fez antes". "Última chance de resgatar" virou "última chamada" apenas para a reserva, nunca para o acesso vitalício. Frase intocável "Eu prefiro que você não compre do que compre e não viva." usada literalmente.
-- Em todos: assuntos entre 31 e 58 caracteres, sem emoji e sem caixa alta; linha de preview entre 53 e 66; primeira linha diferente em cada e-mail; nenhum preço, parcela ou promessa de resultado; "a melhor condição de todos os lotes" trocada por "o menor valor de todos os lotes, o Lote Especial" (fato do briefing); expressões de renovação e de reserva limitada removidas.
+- Em todos: assuntos entre 31 e 58 caracteres, sem emoji e sem caixa alta; linha de preview entre 53 e 66; primeira linha diferente em cada e-mail; nenhum preço, parcela ou promessa de resultado; "a melhor condição de todos os lotes" trocada por "o menor valor de todos os lotes, o Lote Especial" (fato do briefing); expressões de cobrança recorrente e de reserva limitada removidas.
 
 Pendências e [[CONFIRMAR]]
 1. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (e-mail 01, primeira ocorrência; vale para os demais e-mails que repetem a ideia).
@@ -322,7 +322,7 @@ Pendências e [[CONFIRMAR]]
 Conflitos entre o modelo e as regras da Dra.
 - Promessa de lançamentos futuros do modelo (e-mails 01, 02, 04, 05, 06, 07, 08): removida em todos.
 - "20 formações, cursos, imersões e livros digitais": trocado por "o Clube Secreto e mais 11 produtos".
-- Escassez de cupom do modelo ("cupons limitados", "cupom expira"): removida. Não há limite de vagas na live. O prazo virou contagem até a live.
+- Escassez de código de resgate do modelo (limite de unidades e validade de sete dias): removida. Não há limite de vagas na live. O prazo virou contagem até a live.
 - "Última chance" do e-mail 08: mantida só como "última chamada" para a reserva.
 - Superlativos "maior oferta da minha história" e "melhor oferta que já fiz": trocados por "a oferta que o Clube Secreto nunca fez antes". "A melhor condição de todos os lotes": trocada por "o menor valor de todos os lotes, o Lote Especial".
 - "Preço que eu nunca pratiquei antes, com entregáveis que nunca existiram" (e-mail 01 do modelo): removido, é afirmação sem lastro para a Dra.

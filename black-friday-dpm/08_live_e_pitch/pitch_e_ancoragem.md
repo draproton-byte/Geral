@@ -43,7 +43,7 @@ Agora eu vou abrir o que eu construí."
 
 ## PARTE 2. O que entra, uma frase por produto (1:00 a 4:15)
 
-[TELA 22: "O Clube Secreto"]
+[TELA 22: "Clube Secreto"]
 
 "Um pagamento único. Acesso vitalício ao Clube Secreto e a onze produtos. É o catálogo que existe hoje, sem promessa de lançamento futuro. O que está na tela é o que você leva.
 

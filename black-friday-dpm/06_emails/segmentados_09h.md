@@ -1,3 +1,6 @@
+> BANCO DE RESERVA (série SA, alunas do Clube). O arquivo canônico dos e-mails de captação das alunas é `13_modelo_dr_joao/email_alunas_captacao.md` (8 e-mails às 09h).
+> Se algum SA for reaproveitado, não enviar em dia que tenha e-mail do canônico (15/10, 20/10, 23/10, 27/10, 29/10, 31/10, 02/11, 03/11). A série SD segue valendo.
+
 # E-mails segmentados das 09h: Alunas do Clube (upgrade) e quem fez Desafio, Imersão ou Aulão (continuação)
 
 | Campo | Conteúdo |

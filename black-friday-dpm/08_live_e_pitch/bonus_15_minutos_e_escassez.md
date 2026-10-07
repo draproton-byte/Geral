@@ -3,7 +3,7 @@
 **Peça:** modelo do bônus de escassez de 15 minutos (adaptado como placeholder condicional), regras de elegibilidade, os quatro momentos de contagem da live, textos de slide, fala e mensagens de grupo
 **Canal:** live de revelação (YouTube), slides, cronômetro na tela, grupo de WhatsApp, chat fixado
 **Público:** quem está ao vivo na live de 03/11
-**Momento:** 03/11/2026, do minuto 01:28 (abertura do link) ao minuto 01:43 (fim do bônus), com contagens aos 01:28, 01:33, 01:38 e 01:42
+**Momento:** 03/11/2026, do minuto 01:28 (abertura do link, 21h28) ao minuto 01:43 (fim do bônus, 21h43), com contagens aos 01:28, 01:33, 01:38 e 01:42 (21h28, 21h33, 21h38 e 21h42). Os horários são os do cronograma do comercial (`09_comercial_datacrazy/playbook_do_dia_da_live.md`), e o cronômetro começa no mesmo instante do disparo de carrinho aberto
 **Objetivo:** transformar a decisão em ação dentro da live, com escassez verdadeira, sem pressão falsa, e sem prejudicar quem precisa de mais tempo
 **Estágio de consciência:** 5 (pronto para decidir)
 **Modelo no Desafio:** "Bônus de escassez . 15 min . reprogramação mental" (arte `pitch-04-bonus-15-minutos.png`, listada na aba COMERCIAL de Links Úteis), arquivo de vídeo "Cronômetro 15 minutos para bônus" (aba GERAL), linha "Escassez de bônus" do cronograma da planilha de controle (um minuto antes das considerações finais), aba "Bônus escassez" da planilha (bônus por faixa de primeiros compradores)
@@ -20,7 +20,14 @@ O bônus de escassez do Desafio funcionava por três razões, e as três valem p
 2. **Curto.** 15 minutos é o tempo de abrir o link, escolher a forma de pagamento e concluir, nada além disso.
 3. **Útil, não decorativo.** O bônus resolvia um obstáculo concreto, não era enfeite. Na Black, o obstáculo central é "comprei e não coloquei em prática" (12% da ficha, 8% do Aulão). Por isso o bônus mais coerente é o que ajuda a **começar**, e não o que acrescenta mais conteúdo (o risco da oferta é o excesso).
 
-**Regra de ouro:** sem bônus fechado, sem cronômetro de bônus. Nenhum cronômetro falso. Se não houver bônus, o cronômetro vira o relógio do Lote Especial (opção B abaixo) e só é exibido se o lote tiver data e hora reais.
+**Regra de ouro:** sem bônus fechado, sem cronômetro de bônus. Nenhum cronômetro falso. Se não houver bônus, o cronômetro vira o relógio do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (opção B abaixo) e só é exibido se o lote tiver data e hora reais.
+
+**Quatro travas contra escassez falsa (valem para todas as peças):**
+
+1. O bônus não faz parte da oferta. Quem entra depois da janela recebe o mesmo acesso, a mesma trilha, o mesmo suporte, a mesma garantia e o mesmo valor de lote. Só o bônus muda.
+2. O bônus nunca é reaberto, prorrogado, repetido nem "liberado só mais hoje" em live, grupo, e-mail ou comercial. Se isso vai acontecer, ele não é um bônus de 15 minutos e não pode ser anunciado como tal.
+3. O cronômetro tem relógio real por trás (horário do servidor do checkout) e o corte é registrado.
+4. A janela de 15 minutos nunca é apresentada como a única chance de comprar. O lote segue aberto até `[[PENDENTE: data do lote]]`, e a Dra. diz isso na contagem 1 e na contagem 4.
 
 ---
 
@@ -30,7 +37,7 @@ O bônus de escassez do Desafio funcionava por três razões, e as três valem p
 |---|---|---|---|
 | **A. Bônus de 15 minutos** | `[[PENDENTE: bônus]]` existe e é liberável por tempo | "Quem finalizar em 15 minutos leva [[PENDENTE: bônus]]" | Cronômetro de 15 min, 4 contagens |
 | **B. Sem bônus, relógio do lote** | Não há bônus; o Lote Especial tem data e hora reais | "O Lote Especial vale até [[PENDENTE: data do lote]]" | Relógio do lote, 4 contagens de "tempo até a virada" quando fizer sentido (se a virada for em dias, não usar cronômetro) |
-| **C. Bônus por quantidade** | Existe bônus para os primeiros N compradores (como na planilha: 50, 100, 300 primeiros) | "Os primeiros [[PENDENTE: quantidade]] levam [[PENDENTE: bônus]]" | Contador de vagas só com número real do checkout; nunca contador estimado |
+| **C. Bônus por quantidade** | Existe bônus com estoque real para os primeiros N compradores (como na planilha: 50, 100, 300 primeiros). A live não tem limite de vagas: só o bônus pode ter estoque. [[CONFIRMAR: bônus por quantidade, com estoque real e contagem do checkout]] | "Os primeiros [[CONFIRMAR: quantidade]] levam [[PENDENTE: bônus]]" | Contador só com número real do checkout; nunca contador estimado e nunca "últimas vagas" |
 
 **Recomendação de copy:** modo A, com um bônus de ativação (acelera o primeiro passo), porque combina o tempo curto da live com o risco de "não começar".
 
@@ -42,12 +49,12 @@ Não existe bônus definido. As opções abaixo são formatos, não promessas. N
 
 | Formato | Resolve o obstáculo | Cuidado |
 |---|---|---|
-| Sessão ao vivo de "primeiro passo" (uma aula de ativação da trilha) | Medo de não começar | Data e horário reais, vagas reais |
+| Sessão ao vivo de "primeiro passo" (uma aula de ativação da trilha) | Medo de não começar | Data e horário reais; se houver limite de lugares, [[CONFIRMAR: lugares reais da sessão]] |
 | Material de apoio à trilha (guia ou ebook) | Excesso de produtos | Já existir pronto |
 | Acesso antecipado ou prioridade (grupo de boas-vindas, suporte prioritário na primeira semana) | Insegurança no começo | Capacidade do suporte comprovada |
 | Sessão em grupo de reprogramação (precedente do Desafio: "reprogramação mental") | Aumenta o valor percebido | Nunca usar valor em reais que não existe como preço de venda avulsa |
 
-**Regra do valor de bônus:** se o bônus tiver "valor de R$ X", X precisa ser preço de venda real. O Desafio usou "R$ 8.000" para uma reprogramação intrauterina (copy de vagas abertas do Clube). Para a Black, só repetir com `[[CONFIRMAR: preço real praticado]]`.
+**Regra do valor de bônus:** se o bônus tiver valor declarado em reais, esse valor precisa ser preço de venda real. O Desafio declarou um valor alto para uma reprogramação intrauterina (copy de vagas abertas do Clube). Para a Black, só repetir com `[[CONFIRMAR: preço real praticado]]`. Sem número comprovado, o bônus é anunciado só pelo nome e pelo que resolve.
 
 ---
 
@@ -60,6 +67,7 @@ O cronômetro só é justo se o critério for claro e testável.
 | O que conta como "dentro dos 15 minutos"? | (1) pedido iniciado, (2) pagamento aprovado, (3) Pix pago | Pagamento aprovado ou Pix pago |
 | E o boleto? | Não compensa em 15 minutos | `[[CONFIRMAR: boleto fica fora do bônus de 15 minutos ou conta pela emissão do pedido]]`. Se ficar fora, avisar antes: "no cartão ou no Pix" |
 | Quem fica elegível? | Só quem está no Lote Especial | Mesma regra para alunas e não-alunas |
+| Quem entra depois da janela perde algo da oferta? | Só o bônus | Nada mais. Dito em voz na contagem 1 e na contagem 4 |
 | Quando o bônus é entregue? | Na confirmação, no onboarding | `[[CONFIRMAR: forma de entrega]]` |
 
 **Quem decide quando o cronômetro zera:** o horário do servidor do checkout, não o relógio da live. O time de checkout lê o corte no instante em que o cronômetro da tela zera, e esse horário é registrado.
@@ -74,7 +82,7 @@ Todos assumem o modo A. No modo B, trocar "bônus" por "Lote Especial". No modo 
 
 - TELA (slide 42): cronômetro grande na tela, 15:00. Texto fixo: "Bônus: [[PENDENTE: bônus]]. Vale para quem finalizar em 15 minutos."
 - TIME: iniciar o vídeo de cronômetro. Fixar o link no chat. Mensagem no grupo (abaixo).
-- FALA: "Chegou o momento. O link está no chat agora. A partir deste instante, são 15 minutos. Quem finalizar nesse tempo leva [[PENDENTE: bônus]]. Eu não vou estender. Eu falo isso com respeito a quem decidiu cedo."
+- FALA: "O link está no chat agora. A partir deste instante, são 15 minutos para o bônus: quem finalizar nesse tempo leva [[PENDENTE: bônus]]. Eu não vou estender o bônus, por respeito a quem decidiu cedo. Quem precisa de mais tempo fica tranquilo: a oferta e o valor do lote são os mesmos depois disso."
 - FRASE **[INTOCÁVEL]**: "Nunca mais eu deixo de investir em mim."
 - REAÇÃO: "Quem já está com o link aberto, escreve LINK."
 
@@ -84,11 +92,9 @@ Todos assumem o modo A. No modo B, trocar "bônus" por "Lote Especial". No modo 
 
 O bônus corre por 15 minutos a partir de agora.
 
-Você escolhe o seu segmento no link abaixo.
+Escolha o seu segmento e finalize pelo link abaixo:
 
 [[LINK: checkout por lote e segmento]]
-
-*Digite SAIR se não quiser mais receber mensagens.*
 
 ### Contagem 2. Faltam 10 minutos (01:33)
 
@@ -99,11 +105,9 @@ Você escolhe o seu segmento no link abaixo.
 
 *Faltam 10 minutos para o bônus.*
 
-Dúvida no pagamento? Chama o suporte agora.
+Dúvida no pagamento? Chame o suporte agora:
 
 [[LINK: suporte WhatsApp]]
-
-*Digite SAIR se não quiser mais receber mensagens.*
 
 ### Contagem 3. Faltam 5 minutos (01:38)
 
@@ -114,25 +118,27 @@ Dúvida no pagamento? Chama o suporte agora.
 
 *Faltam 5 minutos.*
 
-Quem já decidiu, o link está abaixo.
+Quem já decidiu, finalize pelo link abaixo:
 
 [[LINK: checkout por lote e segmento]]
-
-*Digite SAIR se não quiser mais receber mensagens.*
 
 ### Contagem 4. Falta 1 minuto e encerramento (01:42 a 01:43)
 
 - TELA (slide 45): cronômetro de 1 minuto, em silêncio visual. Nenhum efeito de som alto.
 - FALA: "Falta 1 minuto. Se você está no pagamento, finaliza. Eu espero."
 - TIME: quando zerar, o cronômetro vira "Bônus encerrado". Silêncio de 3 segundos.
-- FALA: "Encerrou o bônus. O link continua aberto até [[PENDENTE: data do lote]] no valor do lote, mas o bônus saiu."
+- FALA: "Encerrou o bônus. O link continua aberto até [[PENDENTE: data do lote]], no valor do lote, e a oferta é a mesma. Só o bônus saiu."
 - Mensagem no grupo:
 
 *O bônus encerrou.*
 
 O link segue aberto no valor do lote até [[PENDENTE: data do lote]].
 
-*Digite SAIR se não quiser mais receber mensagens.*
+Dúvida sobre o pagamento? Chame o suporte:
+
+[[LINK: suporte WhatsApp]]
+
+(Observação para o time: as quatro mensagens acima são de grupo e não levam rodapé de saída. Se forem enviadas pela API, acrescentar o rodapé "Digite SAIR se não quiser mais receber mensagens" como última linha.)
 
 ---
 
@@ -148,6 +154,7 @@ O que eu posso é te ajudar a escolher o melhor caminho de pagamento dentro do v
 Quer que eu te explique as opções?
 
 - Quem comprou depois do prazo é tratada igual a quem comprou antes em tudo o que não é o bônus (acesso, trilha, suporte, garantia).
+- Nenhuma peça posterior (e-mail de carrinho aberto, virada de lote, grupo, comercial) anuncia o bônus de novo, nem como "última chance do bônus".
 
 ---
 
@@ -155,13 +162,13 @@ Quer que eu te explique as opções?
 
 | Momento | Tipo de escassez | Real? |
 |---|---|---|
-| Captação (13/10 a 03/11) | "O menor preço é só para quem estiver ao vivo" | Só se o Lote Especial estiver, de fato, restrito ao período da live ou a `[[PENDENTE: data do lote]]`. Se o Lote Especial valer por mais tempo, trocar por "o menor valor está na live" |
+| Captação (13/10 a 03/11) | "O menor preço é só para quem estiver ao vivo" | Só se o Lote Especial estiver, de fato, restrito ao período da live ou a `[[PENDENTE: data do lote]]` (`[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`). Se o Lote Especial valer por mais tempo, trocar por "o menor valor está na live" |
 | Live, minutos 01:28 a 01:43 | Bônus de 15 minutos | Sim, se `[[PENDENTE: bônus]]` fechado |
 | Pós-live | Virada de lote em `[[PENDENTE: data do lote]]` | Sim |
 | Últimas horas | `[[PENDENTE: fechamento]]` | Sim |
 
 **Frases de escassez permitidas:** "esta condição não se repete", "o lote vira em [[PENDENTE: data do lote]]", "o bônus vale até o fim do cronômetro".
-**Frases de escassez proibidas:** "últimas vagas", "está acabando", "nunca mais vai ter vitalício", "última chance da vida", "a porta fecha para sempre", contador regressivo sem relógio real por trás.
+**Frases de escassez proibidas:** "últimas vagas", "vagas acabando", "cupons limitados", "está acabando", "nunca mais vai ter vitalício", "última chance da vida", "a porta fecha para sempre", "só mais hoje" depois do cronômetro, bônus prorrogado, contador regressivo sem relógio real por trás.
 
 ---
 
@@ -172,6 +179,7 @@ Quer que eu te explique as opções?
 2. Definir o bônus (`[[PENDENTE: bônus]]`), sua forma de entrega e se o boleto entra.
 3. Gravar a versão do cronômetro: o vídeo de 15 minutos do Desafio pode ser reaproveitado, mas precisa de nova arte (sem o texto do Desafio). Testar o cronômetro em tela cheia no YouTube.
 4. Combinar com o checkout o corte exato de horário e o registro do instante de zerar.
+5. Sincronizar o início do cronômetro com o disparo de carrinho aberto (21h28, minuto 01:28 do roteiro). Se a live atrasar ou adiantar, o cronômetro e o disparo andam juntos com a abertura real do link, e nunca antes dela.
 
 **Decisões para validar:** o bônus deve ajudar a começar (recomendação) e não aumentar a lista de produtos; o modo A é o recomendado; o boleto fica fora do bônus de 15 minutos a não ser que o checkout permita contar pela emissão.
 

@@ -12,7 +12,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 4 | Parcelamento (nº de parcelas, entrada, boleto, Pix) | Financeiro | Todo o material de venda e o comercial |
 | 5 | Bônus de antecipação, de quem assiste ao vivo e de check-in no grupo; se haverá "os primeiros N" (e quantos) | Dra. | Pitch, bônus de 15 minutos, criativos condicionais, descrição e mensagem de grupo cheio |
 | 6 | Abertura (momento do botão na tela da live) e fechamento do carrinho | Lançamento | Tela da live, últimas horas, fechamento |
-| 7 | Replay: sim ou não | Dra. | Página de captura ("sem replay"), lembretes, comercial |
+| 7 | Replay: sim ou não. Hoje a página de obrigado diz que "a live só acontece uma vez", o que afirma que não há replay | Dra. | Página de captura ("sem replay"), página de obrigado, lembretes, comercial |
 | 8 | Preço de lote travado no Pix/boleto? Boleto compensa depois da virada? Prazo de validade do Pix | Hotmart / financeiro | Eventos de pagamento, banner de checkout, janelas do comercial |
 | 9 | Convite VIP das alunas (Golden Ticket): condição, se o número de tickets é real (se não for, a linha sai) e condição especial de quem fez o diagnóstico | Dra. | Convite VIP, API-BF-05, grupo de alunas, artes de ingresso |
 
@@ -21,7 +21,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | # | Item | Peças afetadas |
 |---|---|---|
 | 10 | Foto da Dra. | Páginas de captura |
-| 11 | Diagnóstico dos 5 perfis: existe pronto? Onde fica (captura ou obrigado)? Definição oficial de cada perfil | Criativos, e-mails, grupos |
+| 11 | Diagnóstico dos 5 perfis: existe pronto? Onde fica (captura ou obrigado)? Definição oficial de cada perfil. O diagnóstico é obrigatório para assistir à live? Nome do instrumento nos anúncios: a Meta pode ler "diagnóstico" como saúde (alternativa "teste dos 5 padrões") | Criativos, e-mails, grupos |
 | 12 | Degrau de entrada para a base de baixa renda (65% do Aulão ganha até R$ 3.000 e não cabe na faixa): nome, o que é, preço, garantia e política de crédito | Lista de espera |
 | 13 | Links: grupos por segmento, checkout por lote e segmento (6), live no YouTube, suporte WhatsApp | Tudo |
 | 14 | Palavras-chave de ManyChat (LIVE, CONTA, VITALÍCIA) cadastradas; template da arte do ingresso; presente de compartilhamento (existe? como entrega?) | Fluxo ManyChat |
@@ -41,7 +41,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 23 | 51,9% do Termostato Invisível: vem do dossiê do Desafio ("51,9% das pessoas que responderam à pesquisa de presença", base de 5.486; a pergunta não está no CSV do Aulão). Confirmar que pode ser citado em público |
 | 24 | "70 mil alunos em 44 países", "1,4 milhão de seguidores" (um manual do Desafio dizia 1,5 milhão), "mais de 7 mil" |
 | 25 | Premiação "duas vezes" citada na página de captura publicada: sem fonte, removida |
-| 26 | Frases da Dra. em primeira pessoa sobre a infância (CP-BF-11): aprovação dela |
+| 26 | Frases da Dra. em primeira pessoa sobre a infância (CP-BF-11) e foto de infância em anúncio (RMK-DUV-03): aprovação dela e autorização de imagem |
 | 27 | Superlativo "a live mais importante": aprovação dela |
 | 28 | Depoimentos: autorização por escrito de cada pessoa; nada de relato com valor financeiro |
 | 29 | Certificado: decreto citado como "5.154/4" no Desafio (provavelmente 5.154/2004), carga horária e critério de emissão: jurídico |
@@ -57,7 +57,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 34 | Quem já tem algum dos 11 produtos (por exemplo o Desafio): como entra? |
 | 35 | Trilha de entrada: ordem dos produtos e descrição de uma linha de cada (só 8 dos 11 têm descrição nas fontes) |
 | 36 | O ritual de áudio de Grabovoi do dia (substitui o "mantra"): a Dra. grava? Se não, apagar CP-BF-15, 45, 60, 64 e 77 |
-| 37 | 03/11 é terça, dia da aula ao vivo do Clube; 02/11 (segunda, Finados) é feriado, tom sóbrio; 12/10 (segunda, véspera da captação) também é feriado. Mudar a aula? |
+| 37 | 03/11 é terça, dia da aula ao vivo do Clube; 02/11 (segunda, Finados) é feriado, tom sóbrio; 12/10 (segunda, véspera da captação) também é feriado: as mensagens 00-A e 00-B do grupo saem em 12/10 ou só em 13/10? Mudar a aula? |
 | 38 | Campo de gênero no CRM para ajustar o feminino nas mensagens (20,8% são homens, dossiê do Desafio) |
 | 39 | Live exclusiva para alunas? Sete arquivos trazem a pergunta em aberto (trocar data e horário se sim). Hoje a live é aberta a todos |
 | 40 | Benefício de indicação existe? Se não, o convite de indicação segue sem benefício |
@@ -81,7 +81,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 53 | Slots de grupo às 16h30 (`05_whatsapp_api/cronograma_de_disparos.md`, `05_whatsapp_api/lembretes_de_grupo_captacao.md`) e lembretes de e-mail às 12h (`06_emails/lembretes_da_live.md`) divergem da cadência canônica (grupos 11h30 e 20h, e-mail 07h, 09h para segmentos, API 09h; 16h30 é banco de reserva) |
 | 54 | O arquivo `03_paginas/tela_countdown_live_e_pagina_zoom.md` tem o nome de uma ferramenta de reunião que nenhuma peça pode citar. Renomear exige ajustar a matriz (11) |
 | 55 | Trilha de entrada: a afirmação "só 8 dos 11 produtos têm descrição nas fontes" não pôde ser conferida (o briefing lista só os nomes dos 11) |
-| 56 | O convite VIP cita um número de tickets e diz que a condição acaba quando eles acabam: isso implica limite de vagas, o que a rubrica proíbe sem confirmação |
+| 56 | O convite VIP cita um número de tickets e diz que a condição acaba quando eles acabam: isso implica limite de vagas, o que a rubrica proíbe sem confirmação (as mensagens de alunas 01 e 04 do grupo também perguntam "há limite de reservas?") |
 
 ## F. Segurança do material
 

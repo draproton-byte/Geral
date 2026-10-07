@@ -19,6 +19,7 @@
 1. A pessoa já viu o valor? Se a conversa é pré-live, **nunca cite valor**. Resposta única: "A condição é revelada ao vivo, na live de 03/11, às 20h."
 2. Qual é o segmento: S1 (aluna do Clube), S2 (viveu Desafio, Imersão ou Aulão e não é do Clube; paga como não-aluna até decisão contrária) ou S3 (não-aluna e base fria: ficha quente, morna, fria)?
 3. É objeção de **verdade** (aperto real, medo) ou de **prioridade** (educada, escondendo outra coisa)?
+4. O checkout já abriu? Antes de 21h28 de 03/11 não existe link: onde o roteiro diz "link do seu lote", troque por "eu te aviso quando abrir". Depois, o link só vai com a pessoa em conversa aberta, nunca para quem está em silêncio.
 
 **Formato das mensagens:** curtas, uma linha em branco entre as linhas, "para" e nunca "pra", link em linha própria.
 
@@ -39,7 +40,7 @@
 | i | Será que funciona para mim | 7% (ficha), 3% (Aulão) | Medo | Honestidade; garantia |
 | j | Estou endividada | 19,2% (quiz do dossiê do Desafio) | Delicada | Acolher; honestidade; não vender nem prometer |
 | k | E se a Vitalícia voltar mais barata | Específica da Black | Dúvida de timing | Só as formas aprovadas |
-| l | Parcelamento e entrada | Cartão parcelado é a forma mais escolhida (ficha) | Prática | Placeholders; só se couber |
+| l | Parcelamento e entrada | Só 10% da ficha declara conforto acima de R$ 1.000 | Prática | Placeholders; só se couber |
 | m | Garantia | Específica da Black | Prática | `[[PENDENTE: garantia]]` |
 
 ---
@@ -107,7 +108,7 @@ Só te aviso que o lote vira em {{data_lote}}, e esta condição não se repete.
 Se quiser, me conta o que te faria dizer sim.
 ```
 
-**Atenção.** O encerramento de prioridade só cita o lote se `{{data_lote}}` for uma data real (`[[PENDENTE: data do lote]]`). A frase "Eu valho mais que uma pizza" não entra como resposta extra: só aparece se a própria pessoa trouxer o tema, na conversa humana depois do encerramento, e nunca como justificativa do preço da Vitalícia.
+**Atenção.** O encerramento de prioridade só cita o lote se `{{data_lote}}` for uma data real (`[[PENDENTE: data do lote]]`). A frase "Eu valho mais que uma pizza" não entra como resposta extra: só aparece se a própria pessoa trouxer o tema, e nunca como justificativa do preço da Vitalícia.
 
 ---
 
@@ -122,7 +123,7 @@ Faz sentido você perguntar, {{nome}}.
 
 Por esse pagamento único entram o Clube Secreto, com o protocolo de 21 dias por ciclo, 12 ciclos, e onze produtos, tudo com acesso vitalício.
 
-Se você comprasse tudo separado, seriam [[PENDENTE: soma dos avulsos]].
+Se você comprasse tudo separado, seriam [[PENDENTE: preço avulso]], somados.
 
 Você já viu a lista completa?
 ```
@@ -134,9 +135,9 @@ E tem uma conta que eu quero te deixar.
 
 Quanto está custando continuar mais um ano exatamente no mesmo lugar?
 
-Essa conta não fica parada. Cada ano no mesmo lugar cobra mais caro do que o anterior.
+Dividido em ciclos, no primeiro ano, o seu lote dá [[CONFIRMAR: valor do lote vigente dividido por 12 ciclos]] por ciclo, e depois o acesso continua seu.
 
-Dividido em ciclos, no primeiro ano, o seu lote dá [[CALCULAR: preço do lote vigente ÷ 12]] por ciclo, e depois o acesso continua seu.
+Faz diferença olhar assim?
 ```
 
 **Encerramento:**
@@ -149,7 +150,7 @@ Eu prefiro que você não compre do que compre e não viva.
 Quer ver as formas de pagamento antes de decidir?
 ```
 
-**Atenção.** Nunca justifique o preço com "mais barato que a mensalidade" (`[[CONFIRMAR: comparação com mensalidade]]`) nem com a mentoria individual. Nunca use "por apenas".
+**Atenção.** Nunca justifique o preço comparando com cobranças recorrentes (`[[CONFIRMAR: comparação com mensalidade]]`) nem com a mentoria individual. Nunca use "por apenas".
 
 ---
 
@@ -160,11 +161,11 @@ Quer ver as formas de pagamento antes de decidir?
 **Resposta 1:**
 
 ```
-Essa é a frase que a Dra. mais ouve, {{nome}}. E eu concordo com ela.
+Essa é a frase que a Dra. mais ouve, {{nome}}, e ela não discorda de você.
 
-Nos outros você precisou aplicar sozinha depois. É sempre aí que trava, porque o padrão que você quer mudar é o mesmo que sabota a mudança.
+Nos outros, quase sempre você precisou aplicar sozinha depois. É sempre aí que trava.
 
-Você tentou vencer o freio com força de vontade, e força de vontade é justamente o que ele consome.
+O padrão que você quer mudar é o mesmo que atrapalha a mudança.
 ```
 
 **Resposta 2 (o que é diferente aqui):**
@@ -180,9 +181,9 @@ E não existe prazo. O produto que você não abriu hoje continua lá amanhã.
 **Encerramento:**
 
 ```
-Posso te perguntar uma coisa?
+Se um dia você quiser me contar o que comprou e parou, eu olho o porquê com você e te falo com honestidade se a Vitalícia serve para o seu caso ou não.
 
-O que você comprou e parou? Se a gente olhar o porquê, eu te falo com honestidade se a Vitalícia resolve ou não.
+Fico por aqui, sem te cobrar nada.
 ```
 
 ---
@@ -194,9 +195,9 @@ O que você comprou e parou? Se a gente olhar o porquê, eu te falo com honestid
 **Resposta 1:**
 
 ```
-Esse medo tem nome, {{nome}}, e a Dra. falou dele na Aula 2: autossabotagem.
+Esse medo tem nome, {{nome}}: autossabotagem.
 
-Toda vez que você vive algo transformador, aparece a vontade de parar. Ela chamou isso de escassez.
+Na Aula 2, a Dra. descreveu o momento: toda vez que você vive algo transformador, aparece a tentação de parar. Ela chamou isso de escassez.
 
 Por isso é protocolo, e não curso solto.
 ```
@@ -214,9 +215,9 @@ E o primeiro passo é um só, em 48 horas, pela trilha. Não é você que precis
 **Encerramento:**
 
 ```
-Me conta uma coisa, {{nome}}: se o primeiro passo fosse pequeno, de 15 minutos, você daria?
+Me conta uma coisa, {{nome}}: se o primeiro passo fosse pequeno, de 15 minutos, ele cabe no seu dia?
 
-Se for o medo que está falando, é com ele que eu quero conversar.
+Se couber, me fala e eu te mando o link do seu lote.
 ```
 
 **Atenção.** Nunca prometa que a pessoa "vai conseguir". O que a Vitalícia tira é o prazo, não a responsabilidade de começar.
@@ -250,9 +251,9 @@ Você pode terminar o primeiro produto e só depois pensar no segundo.
 **Encerramento:**
 
 ```
-Se eu te perguntar qual área você quer que mude primeiro, o que você me diria?
+Se você me disser qual área quer que mude primeiro, eu te digo por qual produto você começaria.
 
-Eu te digo por qual produto você começaria.
+Fico por aqui, sem pressa.
 ```
 
 ---
@@ -266,17 +267,21 @@ Eu te digo por qual produto você começaria.
 ```
 Pensar é legítimo, {{nome}}.
 
-Só posso te falar uma coisa com carinho? Isso aqui é exatamente o momento que a Dra. descreveu na Aula 3: você vive algo forte e aparece a tentação de parar.
+Posso te falar uma coisa com carinho? Isso aqui é o momento que a Dra. descreveu na Aula 2: você vive algo forte e aparece a tentação de parar.
 
-Não trave o processo agora. Obediência é maturidade.
+"Não trave o processo." "Obediência é maturidade."
+
+Posso te perguntar o que ficou em aberto?
 ```
 
 **Resposta 2 (uma pergunta só, com o lote real):**
 
 ```
-O que ficou em aberto para você?
+Obrigada por me contar, {{nome}}.
 
-Pergunto porque se for dúvida, eu resolvo. Se for o lote, eu te falo com transparência: ele vira em {{data_lote}}, e esta condição não se repete.
+Se for dúvida, eu resolvo com você. Se for o lote, eu te falo com transparência: ele vira em {{data_lote}}, e esta condição não se repete.
+
+O que pesa mais para você agora?
 ```
 
 **Encerramento:**
@@ -287,7 +292,7 @@ Combinado, {{nome}}. Fico por aqui, sem te cobrar nada.
 Se fizer sentido, é só me chamar.
 ```
 
-**Atenção.** O "vou pensar" depois de 03/11 é o único momento em que a virada de lote é argumento. Só use se `{{data_lote}}` for uma data real.
+**Atenção.** A virada de lote só é argumento depois de 03/11 e só se `{{data_lote}}` for uma data real (`[[PENDENTE: data do lote]]`). Antes da live, a resposta 2 sai sem a frase do lote.
 
 ---
 
@@ -338,7 +343,7 @@ O que você já fez no Clube conta. Você não recomeça do zero.
 
 O que muda é que o acesso deixa de ter prazo, e entram os onze produtos do catálogo, organizados em uma trilha para você não se perder.
 
-[[CONFIRMAR: o que acontece com o período já pago do plano atual]]
+[[PENDENTE: regra de migração]]
 ```
 
 **Resposta 2 (o lote de aluna e a honestidade):**
@@ -359,7 +364,7 @@ Me conta qual produto novo te interessa mais, {{nome}}.
 Eu te mostro onde ele entra na sua trilha.
 ```
 
-**Atenção.** O valor do lote de aluna só vai depois da live (`[[PREÇO LOTE ALUNAS]]`). Nunca prometa crédito do período já pago sem `[[CONFIRMAR]]` fechado.
+**Atenção.** O valor do lote de aluna só vai depois da live (`[[PREÇO LOTE ALUNAS]]`). Nunca prometa crédito do período já pago sem a `[[PENDENTE: regra de migração]]` fechada.
 
 ---
 
@@ -384,7 +389,7 @@ Se você sentiu, eu não preciso te vender mais nada. Me conta o que você quer 
 
 Se você ainda não viveu nada, tem o diagnóstico dos cinco padrões, para você ver qual é o seu.
 
-E tem a garantia: [[PENDENTE: garantia]].
+Sobre a garantia: [[PENDENTE: garantia]].
 ```
 
 **Encerramento:**
@@ -392,21 +397,23 @@ E tem a garantia: [[PENDENTE: garantia]].
 ```
 Você não precisa acreditar agora, {{nome}}.
 
-Entra, olha por dentro. Se não for para você, você pede.
+Entra, olha por dentro e decide com informação. [[PENDENTE: garantia]]
 ```
 
 ---
 
 ## j. "Estou endividada, isso vai me ajudar?"
 
-**A mais delicada.** 19,2% do Aulão declara "estou endividada e não sei por onde começar". **Nunca prometa quitação, renda ou prazo.**
+**A mais delicada: aqui se acolhe e não se vende.** 19,2% do quiz do dossiê do Desafio declara "estou endividada e não sei por onde começar". **Nunca prometa quitação, renda ou prazo.** Em nenhuma resposta desta objeção vai link de checkout, lote, parcelamento ou escassez. O CRM registra só a letra j.
 
 **Resposta 1:**
 
 ```
-Vou ser honesta com você, {{nome}}: a Vitalícia não paga dívida, e a Dra. não promete isso.
+Obrigada por confiar em me contar isso, {{nome}}.
 
-O que o trabalho dela faz é mexer na sua relação com dinheiro, o padrão que levou até aqui. É trabalho de raiz, não de emergência.
+Vou ser honesta com você: a Vitalícia não paga dívida, e a Dra. não promete isso.
+
+O que o trabalho dela faz é mexer na relação com o dinheiro, o padrão que levou até aqui. É trabalho de raiz, não de emergência.
 ```
 
 **Resposta 2:**
@@ -414,7 +421,7 @@ O que o trabalho dela faz é mexer na sua relação com dinheiro, o padrão que 
 ```
 Por isso eu prefiro que você não entre endividando mais.
 
-Se o momento é de aperto real, entra quando fizer sentido. O diagnóstico e o conteúdo gratuito continuam com você.
+O mais importante agora é o seu fôlego. O diagnóstico e o conteúdo gratuito continuam com você, sem compromisso.
 
 Quer que eu te mande o diagnóstico?
 ```
@@ -422,9 +429,9 @@ Quer que eu te mande o diagnóstico?
 **Encerramento:**
 
 ```
-Obrigada por confiar em me contar isso, {{nome}}.
+Quando você quiser conversar, é só me chamar, {{nome}}.
 
-Quando você quiser, é só me chamar.
+Fico por aqui, sem te cobrar nada.
 ```
 
 **Atenção.** Se houver sofrimento agudo (desespero, ideia de desistir, crise), **acolha e não venda nessa mensagem. Escale** (ver `playbook_do_dia_da_live.md`, escalonamento). Nunca sugira empréstimo, cheque especial ou cartão de terceiros para pagar.
@@ -450,7 +457,7 @@ Eu não vou te prometer que vai ser mais cara, nem mais barata.
 ```
 Eu não decidiria por medo de perder, nem por esperança de pagar menos.
 
-Decida pelo que você precisa agora. O lote vira em {{data_lote}}, e tem a garantia: [[PENDENTE: garantia]].
+Decida pelo que você precisa agora. O lote vira em {{data_lote}}. Sobre a garantia: [[PENDENTE: garantia]].
 ```
 
 **Encerramento:**
@@ -461,13 +468,13 @@ Se você quiser esperar para ver, tudo bem, {{nome}}. Só saiba que você estari
 Eu fico por aqui se precisar.
 ```
 
-**Proibido:** "a porta fecha para sempre", "nunca mais vai ter vitalício", "última chance de ter acesso vitalício", "vai ficar mais caro" sem lote real.
+**Proibido:** dizer que a oferta acaba para sempre, que o vitalício não volta, que é a última chance de ter o acesso vitalício, ou que "vai ficar mais caro" sem lote real.
 
 ---
 
 ## l. "Dá para parcelar? E a entrada?"
 
-A forma de pagamento mais escolhida da ficha foi o **cartão parcelado**, e só 10% da base se declara confortável na faixa de R$ 298 a R$ 500 por vez. O parcelamento é argumento e precisa vir em primeiro plano. **Tudo abaixo depende de `[[PENDENTE: parcelamento máximo]]` e de `[[CONFIRMAR: entrada mais parcelas]]`.**
+Só 10% da ficha declara conforto acima de R$ 1.000 (7% de R$ 1.001 a R$ 3.000 e 3% acima de R$ 3.000), e o briefing aponta o cartão parcelado como forma de pagamento mais escolhida (`[[CONFIRMAR: forma de pagamento mais escolhida; o arquivo da ficha não traz essa coluna]]`). O parcelamento é argumento e precisa vir em primeiro plano. **Tudo abaixo depende de `[[PENDENTE: parcelamento máximo]]` e de `[[CONFIRMAR: entrada mais parcelas]]`.**
 
 **Resposta 1:**
 
@@ -506,9 +513,9 @@ Me fala a forma que você prefere e eu te mando o link certo.
 **Resposta 1:**
 
 ```
-Tem garantia, {{nome}}: [[PENDENTE: garantia]].
+Sobre a garantia da Vitalícia, {{nome}}: [[PENDENTE: garantia]].
 
-Você entra, olha por dentro. Se na prática não for para você, você pede e a devolução é feita, sem formulário difícil.
+[[CONFIRMAR: a Vitalícia mantém os 7 dias do Clube]] Definido o prazo, o pedido é simples: você me fala por aqui, sem formulário difícil.
 ```
 
 **Resposta 2:**
@@ -524,7 +531,7 @@ Para pedir, é só me falar por aqui ou usar: [[LINK: instrução de reembolso]]
 ```
 A garantia não é para você usar de primeira, {{nome}}. É para você decidir com informação, e não com medo.
 
-Quer o link do seu lote?
+Quer o link do seu lote? (só depois de 21h28 de 03/11)
 ```
 
 **Regra:** **nunca dificulte o reembolso.** A garantia sem atrito é o argumento mais forte que o time tem, e só vale se for verdadeira.
@@ -549,12 +556,13 @@ Quer o link do seu lote?
 
 ## Notas ao implementador
 
-**Pendências:** `[[PENDENTE: garantia]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: soma dos avulsos]]`, `[[CONFIRMAR: o que acontece com o período já pago do plano atual]]`, `[[CONFIRMAR: parcelamento no cartão versus recorrente]]`, `[[LINK: instrução de reembolso]]`, `{{data_lote}}`.
+**Pendências:** `[[PENDENTE: garantia]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: preço avulso]]`, `[[PENDENTE: regra de migração]]`, `[[PENDENTE: data do lote]]`, `[[CONFIRMAR: parcelamento no cartão versus recorrente]]`, `[[LINK: instrução de reembolso]]`, `{{data_lote}}`.
 
 **Decisões para validar:**
 - A pergunta que separa (objeção a) é o único ponto novo em relação ao Desafio. O Desafio tratava as duas naturezas com a mesma resposta ("R$ 7 por noite, garantia"), porque o valor era R$ 35. Na Black, o valor é de milhares de reais e as duas naturezas pedem respostas opostas.
 - A frase "Eu prefiro que você não compre do que compre e não viva." é intocável e só aparece depois de a pessoa dizer que está em aperto ou que não pretende abrir o conteúdo.
-- Nenhum depoimento de "manifestei R$ X" entra aqui. Quando houver depoimento autorizado sobre o método, usar `[[DEPOIMENTO REAL]]`, sem nome e marcado `[[AUTORIZAR]]`.
+- Nenhum depoimento de "manifestei R$ X" entra aqui. Quando houver depoimento autorizado sobre o método, usar `[[DEPOIMENTO REAL]]`, sem nome e com autorização por escrito arquivada fora desta pasta.
+- A letra j não tem link nem lote em nenhuma resposta: é acolhimento. Se a pessoa depois pedir o link por conta própria, é conversa humana, com a coordenação de apoio.
 
 **Teste A/B sugerido:** objeção a, pergunta que separa ("Se o valor coubesse no seu mês, você entraria?") versus resposta direta de parcelamento. Métrica: taxa de resposta e conversão por natureza.
 

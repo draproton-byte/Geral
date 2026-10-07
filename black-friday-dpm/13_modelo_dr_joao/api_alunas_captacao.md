@@ -1,7 +1,7 @@
 BLACK PRÓTON VITALÍCIA
 ____________________________________________________________
 
-CAPTAÇÃO - API - ALUNAS DO CLUBE SECRETO
+CAPTAÇÃO - API - ALUNAS DO CLUBE SECRETO (CANÔNICO)
 
 Legenda:
 ✍️ escrevendo
@@ -16,35 +16,33 @@ Lista:
 ❌ Excluir alunas do Clube na janela de garantia de 7 dias
 ❌ Excluir já cadastradas na live (quem já reservou a vaga e a condição de aluna) [[CONFIRMAR: excluir quem já reservou, para não repetir o pedido de reserva]]
 
-Botão principal: "Reservar minha condição de aluna" (substitui o "Resgatar meu cupom" do modelo). Nas mensagens seguintes, o botão é "Saiba Mais", como no modelo.
+Botão da mensagem 01: [ Reservar minha condição ] (substitui o botão de resgate do modelo). Nas mensagens seguintes, o botão é [ Saiba Mais ], como no modelo. Máximo de 1 botão por mensagem.
 
-Rodapé de todas as mensagens: "Digite SAIR se não quiser mais receber mensagens" e "_Você está recebendo essa mensagem porque é aluna da Dra. Próton._"
+Rodapé de todas as mensagens: Digite SAIR se não quiser mais receber mensagens, seguido de "_Você está recebendo essa mensagem porque é aluna da Dra. Próton._"
+
+Regra de agenda: esta série substitui o Golden Ticket de `05_whatsapp_api/convite_vip_alunas_e_quiz.md` (banco de reserva). Nenhuma aluna recebe duas APIs desta captação no mesmo dia, nem esta série e o Golden Ticket no mesmo dia.
 
 ____________________________________________________________
 🔄 01. Captação, quinta-feira, 15, 09h [[CONFIRMAR: horário; o modelo deixava em branco]]
 (D-19: modelo = quarta, 30/09)
 ____________________________________________________________
 
-🚨 *ALUNA DO CLUBE: a Black Próton Vitalícia terá uma condição própria para você*
+♾️ *Aluna do Clube: a Black Próton Vitalícia terá uma condição própria para você*
 
-Você começou esse caminho comigo no Clube Secreto. Agora, terá a oportunidade de decidir ficar.
+Você começou esse caminho comigo no Clube Secreto. Agora terá a oportunidade de decidir ficar.
 
 *O Clube Secreto para sempre e mais 11 produtos, por um único pagamento.* Tudo o que existe hoje, sem prazo para dar conta.
 
-No dia 3 de novembro, às 20h, eu abro tudo isso ao vivo, no YouTube, e a condição de *aluna do Clube* será apresentada para você.
+Na terça, 03/11, às 20h, eu abro tudo isso ao vivo no YouTube, e a condição de *aluna do Clube* será apresentada para você. O que você já fez no Clube conta: não é recomeçar do zero.
 
-Você não precisa recomeçar do zero. O que você já fez no Clube conta, e é por isso que a sua condição não é a mesma de quem ainda não é aluna.
-
-Será o *menor valor de todos os lotes*: o Lote Especial, a condição que o Clube Secreto nunca fez antes.
-
-E tem um detalhe importante: _só quem estiver ao vivo terá acesso a essa condição._ [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
+Será o *menor valor de todos os lotes*: o Lote Especial, a oferta que o Clube Secreto nunca fez antes. _Só quem estiver ao vivo terá acesso a essa condição._ [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
 Toque no botão, reserve a sua condição de aluna e confirme sua presença 👇🏽
 
-[ RESERVAR MINHA CONDIÇÃO DE ALUNA ]
+[ Reservar minha condição ]
 [[LINK: página das alunas]]
 
 Digite SAIR se não quiser mais receber mensagens
@@ -56,15 +54,15 @@ ____________________________________________________________
 (D-13: modelo = terça, 06)
 ____________________________________________________________
 
-[[IMAGEM: arte API alunas do Clube 01 (feed) - Black Próton Vitalícia]] (enviar junto)
+Enviar junto: arte de API alunas do Clube 01 (feed), Black Próton Vitalícia [[CONFIRMAR: arte ainda não existe]]
 
-🎟️ *Eu preparei uma condição para as alunas do Clube. E ela já tem o seu lugar.*
+💜 *Eu preparei uma condição para as alunas do Clube. E o seu lugar está esperando.*
 
-No dia 3 de novembro, às 20h, eu abro a *Black Próton Vitalícia* ao vivo no YouTube, com a condição de aluna do Clube Secreto.
+Na terça, 03/11, às 20h, eu abro a *Black Próton Vitalícia* ao vivo no YouTube, com a condição de aluna do Clube Secreto.
 
-Você terá a oportunidade de garantir *o Clube Secreto para sempre e mais 11 produtos, por um único pagamento*.
+Você terá a oportunidade de ter *o Clube Secreto para sempre e mais 11 produtos, por um único pagamento*.
 
-E, como aluna do Clube, você terá acesso à *melhor condição de todos os lotes*.
+E, como aluna do Clube, você terá acesso ao *menor valor de todos os lotes*.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -89,13 +87,11 @@ ____________________________________________________________
 
 Pode parecer estranho eu dizer isso, mas é exatamente o que eu preparei para essa *Black Próton Vitalícia*.
 
-Você já recomeçou tantas vezes que perdeu a conta. E toda vez, o "depois" voltou para decidir por você.
+Você já recomeçou tantas vezes que perdeu a conta. E, a cada vez, o "depois" voltou para decidir por você.
 
 A oportunidade de ter *o Clube Secreto para sempre e mais 11 produtos, por um único pagamento*. Uma decisão que você só precisa tomar uma vez.
 
-E, como aluna do Clube, você terá uma condição que não será a mesma de quem ainda não é aluna.
-
-No dia *3 de novembro*, teremos a live de revelação, em que eu libero *a melhor condição de todos os lotes*.
+Como aluna do Clube, você terá uma condição que não é a mesma de quem ainda não é aluna: na live de revelação, terça, 03/11, eu libero *o menor valor de todos os lotes*.
 
 🚨 Essa condição só estará disponível para as alunas que estiverem ao vivo, então se programe:
 
@@ -116,15 +112,15 @@ ____________________________________________________________
 (D-7: modelo = segunda, 12)
 ____________________________________________________________
 
-⚠️ *A sua reserva de aluna vence em 7 dias.* [[CONFIRMAR: a reserva tem prazo real? Se não tiver, trocar a linha para "Falta 1 semana para a sua condição de aluna"]]
+⚠️ *Falta 1 semana para a sua condição de aluna.*
 
-Daqui a exatamente uma semana, eu vou me reunir com as alunas do Clube para abrir a *Black Próton Vitalícia*, ao vivo no YouTube.
+Na próxima terça, 03/11, eu vou me reunir com as alunas do Clube para abrir a *Black Próton Vitalícia*, ao vivo no YouTube.
 
 E preparei uma condição que será liberada *somente para vocês durante essa live*:
 
-_*A melhor oferta de todos os lotes.*_
+_*O menor valor de todos os lotes: o Lote Especial.*_
 
-🎟️ *As reservas para participar podem ter limite.* Por isso, não deixe para reservar depois. [[CONFIRMAR: há limite de reservas?]]
+Reservar leva um minuto e garante o lembrete da live.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -145,17 +141,13 @@ ____________________________________________________________
 
 🤫 *Vou quebrar uma regra da Black com vocês*
 
-Toda Black começa igual para todo mundo: mesmo dia, mesma hora, mesmo preço.
+Toda Black começa igual para todo mundo: mesmo dia, mesma hora, mesma condição.
 
 Mas dessa vez vai ser diferente para quem é *aluna do Clube*.
 
-No dia 3 de novembro, vou abrir uma condição só para vocês, que não é a mesma oferecida a quem ainda não é do Clube.
+Na terça, 03/11, vou abrir uma condição só para vocês, que não é a mesma oferecida a quem ainda não é do Clube.
 
-Nessa live, você vai poder garantir *o Clube Secreto para sempre e mais 11 produtos, por um único pagamento*. Sem renovar e sem recomeçar.
-
-E tudo isso com a *MELHOR CONDIÇÃO DE TODOS OS LOTES.*
-
-Daqui a 5 dias, eu revelo tudo para vocês:
+Nessa live, você poderá ter *o Clube Secreto para sempre e mais 11 produtos, por um único pagamento*, sem recomeçar, e com o *menor valor de todos os lotes*. Eu revelo tudo para vocês:
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -176,15 +168,15 @@ ____________________________________________________________
 (D-3: modelo = sexta, 16)
 ____________________________________________________________
 
-🔒 *Uma condição que vai existir por apenas uma noite*
+🔒 *Uma condição que eu conto uma vez, ao vivo*
 
 E você, por ser *aluna do Clube*, terá direito a ela.
 
-Na próxima terça-feira, dia *3 de novembro*, eu abro a live de revelação da *Black Próton Vitalícia*, com a condição de aluna.
+Na terça, 03/11, eu abro a live de revelação da *Black Próton Vitalícia*, com a condição de aluna.
 
-Com um único pagamento, você poderá ter acesso ao *Clube Secreto e a mais 11 produtos, liberados para sempre*: a Fórmula da Riqueza, o Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, a Imersão Desbloqueie o Poder da Sua Mente e os demais.
+Com um único pagamento, você poderá ter o *Clube Secreto e mais 11 produtos, para sempre*: Fórmula da Riqueza, Workshop Terapeuta, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente e os demais.
 
-E tem um detalhe importante: *essa é a oferta que o Clube Secreto nunca fez antes*, válida somente para quem estiver ao vivo.
+*É a oferta que o Clube Secreto nunca fez antes*, e o Lote Especial é para quem estiver ao vivo. Ela não se repete: o que vier depois é outra oferta, com outro preço.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -205,24 +197,18 @@ ____________________________________________________________
 
 🤍 *Amanhã eu abro a condição das alunas. Sem pressa hoje.*
 
-Hoje é um dia de pausa e de lembrança, então eu vou ser breve.
+Hoje é um dia de pausa e de lembrança, então vou ser breve.
 
-A condição de aluna será revelada na *live de revelação*, amanhã, e é para quem estiver ao vivo. Não é um dia de correria. É um dia para guardar a data e se preparar para decidir uma vez.
-
-A oferta completa eu revelo amanhã. Mas já posso te adiantar uma parte:
+A condição de aluna será revelada amanhã, na live de revelação, para quem estiver ao vivo. A oferta completa eu revelo lá, mas já posso adiantar:
 
 ✅ O Clube Secreto para sempre
 ✅ Mais 11 produtos do catálogo
-✅ Pagamento único, sem renovar e sem recomeçar
+✅ Pagamento único, sem recomeçar
 
-E, ao reservar, você faz o diagnóstico dos 5 padrões e recebe [[PENDENTE: bônus de check-in]].
-
-Tudo isso com a melhor condição de todos os lotes, _*para alunas do Clube*_.
+Ao reservar, você faz o diagnóstico dos 5 padrões e recebe [[PENDENTE: bônus]].
 
 📅 *Amanhã, terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
-
-🎟️ As reservas podem ter limite. Se a sua ainda não foi feita, a hora é agora. [[CONFIRMAR: há limite de reservas?]]
 
 Toque em "Saiba Mais", reserve a sua condição de aluna e receba o lembrete da live 👇🏽
 
@@ -240,15 +226,11 @@ ____________________________________________________________
 
 🚨 *É HOJE: a condição das alunas do Clube Secreto*
 
-Às 20h, eu abro ao vivo a *Black Próton Vitalícia* e libero a melhor condição de todos os lotes.
+Às 20h, eu abro ao vivo a *Black Próton Vitalícia* e revelo o menor valor de todos os lotes, o Lote Especial.
 
-Por já ser minha aluna, você terá uma vantagem que quem ainda não é do Clube não vai ter:
+Por já ser do Clube, você tem uma vantagem que quem ainda não é aluna não tem: *a condição de aluna*, para quem estiver presente na live.
 
-*ACESSO À CONDIÇÃO DE ALUNA*, preparada para as alunas que estiverem presentes na live.
-
-Se você ainda não reservou, atenção: *essa é a última chamada para reservar a sua condição de aluna.*
-
-🎟️ Reserve para receber o lembrete e o acesso à live com a sua condição. [[CONFIRMAR: há limite de reservas?]]
+Se você ainda não reservou, esta é a *última chamada para reservar*: reserve para receber o lembrete da live.
 
 📅 *HOJE, às 20h*
 💻 *Ao vivo no YouTube*
@@ -268,41 +250,47 @@ NOTAS AO IMPLEMENTADOR
 
 Quantidade: 8 mensagens (mesma estrutura do modelo, 01 a 08). Todas com status 🔄 em revisão. Nenhum preço, parcela ou valor.
 
-Mapa de datas (modelo para Dra., por distância até a live de 03/11)
-- 01: qua 30/09 (D-19) → qui 15/10, 09h [[CONFIRMAR: horário]]
-- 02: ter 06 (D-13) → qua 21/10, 09h
-- 03: qui 08 (D-11) → sex 23/10, 09h
-- 04: seg 12 (D-7) → ter 27/10, 09h
-- 05: qua 14, 20h (D-5) → qui 29/10, 20h
-- 06: sex 16, 20h (D-3) → sáb 31/10, 20h
-- 07: dom 18 (D-1) → seg 02/11, 09h (Finados, sóbrio)
-- 08: seg 19 (D-0) → ter 03/11, 09h
+Mapa de datas (modelo para a Dra., por distância até a live de 03/11)
+- 01: qua 30/09 (D-19) vira qui 15/10, 09h [[CONFIRMAR: horário]]
+- 02: ter 06 (D-13) vira qua 21/10, 09h
+- 03: qui 08 (D-11) vira sex 23/10, 09h
+- 04: seg 12 (D-7) vira ter 27/10, 09h
+- 05: qua 14, 20h (D-5) vira qui 29/10, 20h
+- 06: sex 16, 20h (D-3) vira sáb 31/10, 20h
+- 07: dom 18 (D-1) vira seg 02/11, 09h (Finados, sóbrio)
+- 08: seg 19 (D-0) vira ter 03/11, 09h
+As mensagens 05 e 06 mantêm o horário das 20h do modelo. Esse horário coincide com o disparo dos grupos de WhatsApp. [[CONFIRMAR: manter as mensagens 05 e 06 às 20h ou mover para 09h]]
+
+Colisões resolvidas
+- Golden Ticket (`05_whatsapp_api/convite_vip_alunas_e_quiz.md`: 22/10, 29/10 e 02/11, 09h): esta série é a canônica e o Golden Ticket vira banco de reserva (nota de duas linhas no topo dele). Coincidências: 29/10 (mensagem 05 aqui, às 20h, e Golden Ticket 05.2, às 09h) e 02/11 (mensagem 07 aqui e Golden Ticket 05.3, às 09h). Regra: se o Golden Ticket for reaproveitado, só pode sair em dias sem mensagem desta série (por exemplo, 22/10), nunca em 15/10, 21/10, 23/10, 27/10, 29/10, 31/10, 02/11 e 03/11. Dependência: o `05_whatsapp_api/cronograma_de_disparos.md` ainda lista o Golden Ticket em 22/10, 29/10 e 02/11 (linhas das alunas); a equipe atualiza o cronograma para as datas desta série.
+- API de convite indireto versão alunas (-A), em 13/10, 20/10 e 28/10: sem coincidência de data com esta série.
+- Série canônica de e-mail das alunas (`email_alunas_captacao.md`): 15/10, 23/10, 27/10, 29/10, 02/11 e 03/11 têm e-mail às 09h e API no mesmo dia, sobre o mesmo assunto. Decisão: o e-mail às 09h e a API do mesmo dia são o mesmo toque em dois canais, como no modelo (que também enviava e-mail e API para o mesmo público). [[CONFIRMAR: aceitar e-mail e API da mesma aluna no mesmo dia ou escalonar por canal]]
 
 O que mudou em relação ao modelo (mensagem a mensagem)
-- 01: "ALUNO: terá uma condição exclusiva para você" virou "ALUNA DO CLUBE"; "todos os meus cursos para sempre, inclusive os que vou lançar" virou "o Clube Secreto para sempre e mais 11 produtos, sem prazo para dar conta"; "live fechada com acesso antecipado um dia antes do público geral" virou a live de revelação de 03/11 (ver pendência 1); "preço que nunca pratiquei, com entregáveis que nunca existiram" virou "a condição que o Clube Secreto nunca fez antes"; botão "Resgatar meu cupom" virou "Reservar minha condição de aluna".
-- 02: "Eu preparei minha melhor oferta. E o cupom é seu." virou "uma condição para as alunas do Clube, e ela já tem o seu lugar"; imagem enviada junto marcada como [[IMAGEM]].
-- 03: "Eu quero que você pare de comprar meus cursos" virou "Eu quero que você pare de recomeçar" (mesma lógica: a oferta tira a necessidade de decidir de novo); a "condição que não será aberta ao público geral" virou "não é a mesma de quem ainda não é aluna".
-- 04: "Seu cupom vence em 7 dias" virou "A sua reserva de aluna vence em 7 dias", marcado para confirmação porque o prazo precisa ser real; "cupons limitados" virou [[CONFIRMAR: há limite de reservas?]].
-- 05: "Vou quebrar uma regra da Black" mantido (mesmo dia, mesma hora, mesmo preço, mas diferente para a aluna); "melhor condição de toda a Black" virou "melhor condição de todos os lotes".
-- 06: "Uma oferta que vai existir por apenas uma noite" mantido; "20 formações" virou o Clube e 11 produtos, com quatro citados; "melhor oferta que eu já fiz" virou "a oferta que o Clube Secreto nunca fez antes"; lançamentos futuros removidos.
-- 07: "AMANHÃ eu abro a melhor oferta que já fiz. Mas não para todo mundo." virou versão sóbria por Finados; a lista de entregas virou "Clube para sempre / 11 produtos / pagamento único, sem renovar e sem recomeçar"; o benefício de grupo especial com pin e congresso foi substituído pelo check-in (diagnóstico dos 5 padrões) com [[PENDENTE: bônus de check-in]].
-- 08: "É HOJE: a maior oferta da minha história" virou "É HOJE: a condição das alunas do Clube Secreto"; "última chance" ficou só como "última chamada para reservar"; "sem o seu você não entra na live" foi suavizado para "reserve para receber o lembrete e o acesso" (a live é aberta no YouTube).
+- 01: o título do modelo virou "Aluna do Clube". "Todos os meus cursos para sempre, inclusive os que vou lançar" virou "o Clube Secreto para sempre e mais 11 produtos, sem prazo para dar conta". O acesso antecipado em live fechada, um dia antes do público geral, virou a live de revelação de 03/11 (ver pendência 1). "Preço que nunca pratiquei, com entregáveis que nunca existiram" virou "a oferta que o Clube Secreto nunca fez antes". O botão de resgate virou "Reservar minha condição" (23 caracteres).
+- 02: "Eu preparei minha melhor oferta. E o resgate é seu." virou "uma condição para as alunas do Clube, e o seu lugar está esperando". A imagem enviada junto virou nota de arte pendente.
+- 03: "Eu quero que você pare de comprar meus cursos" virou "Eu quero que você pare de recomeçar" (mesma lógica: a oferta tira a necessidade de decidir de novo). A condição que não será aberta ao público geral virou "não é a mesma de quem ainda não é aluna".
+- 04: a validade de sete dias do modelo virou "Falta 1 semana". A linha de reservas limitadas foi REMOVIDA (não há limite de vagas na live) e entrou "reservar leva um minuto e garante o lembrete".
+- 05: "Vou quebrar uma regra da Black" mantido (mesmo dia, mesma hora, mesmo preço no modelo; aqui, mesma condição, mas diferente para a aluna). A contagem "daqui a 5 dias" saiu: a data fixa já está no texto.
+- 06: "Uma oferta que vai existir por apenas uma noite" virou "uma condição que eu conto uma vez, ao vivo" e "ela não se repete". O número de formações do modelo virou o Clube e 11 produtos, com quatro citados. Lançamentos futuros removidos.
+- 07: tom sóbrio por ser Finados. A lista de entregas virou "Clube para sempre, 11 produtos, pagamento único, sem recomeçar". O benefício de grupo especial do modelo foi trocado pelo check-in (diagnóstico dos 5 padrões) com [[PENDENTE: bônus]]. A linha de reservas limitadas foi REMOVIDA.
+- 08: "É HOJE: a maior oferta da minha história" virou "É HOJE: a condição das alunas do Clube Secreto". "Última chance" ficou só como "última chamada para reservar". "Sem o seu você não entra na live" virou "reserve para receber o lembrete da live" (a live é aberta no YouTube).
+- Em todas: "a melhor condição de todos os lotes" virou "o menor valor de todos os lotes" (fato do briefing); cobrança recorrente e reservas limitadas não aparecem; cada mensagem tem no máximo 12 linhas de texto.
 
 Pendências e [[CONFIRMAR]] que ficaram
-1. [[PENDENTE: live fechada para alunas? Se sim, trocar data e horário]]: o modelo tem live fechada e acesso antecipado em um dia anterior ao público. Aqui todas as menções foram escritas para a live de 03/11. Se a equipe decidir por uma live fechada, trocar o bloco de data nas mensagens 01 a 08 e restaurar "acesso antecipado" na 01.
+1. [[CONFIRMAR: live fechada para alunas? Se sim, trocar data e horário]]. O modelo tem live fechada e acesso antecipado em um dia anterior ao público. Aqui todas as menções foram escritas para a live de 03/11. Se a equipe decidir por uma live fechada, trocar o bloco de data nas mensagens 01 a 08 e restaurar "acesso antecipado" na 01.
 2. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (primeira ocorrência, mensagem 01). A regra sustenta as mensagens 02 a 08.
-3. [[CONFIRMAR: há limite de reservas?]] (04, 07, 08). Se não houver limite, remover as frases de reservas limitadas.
-4. [[CONFIRMAR: a reserva tem prazo real?]] (04). Sem prazo real, trocar "vence em 7 dias" por "falta 1 semana".
-5. [[PENDENTE: bônus de check-in]] (07).
-6. [[CONFIRMAR: horário]] da mensagem 01 (o modelo não tinha horário).
-7. [[IMAGEM: arte API alunas do Clube 01]] e [[LINK: página das alunas]].
-8. Superlativo "a melhor condição de todos os lotes": sustentado pelo briefing (Lote Especial das alunas é o menor valor da oferta). Se o briefing mudar, marcar [[CONFIRMAR: superlativo]].
-9. Contagem "faltam X dias" nas mensagens 04 e 05 está presa à data do cronograma (27/10 e 29/10). Se o disparo deslizar de dia, trocar pela data fixa.
+3. [[PENDENTE: bônus]] (mensagem 07).
+4. [[CONFIRMAR: horário]] da mensagem 01 (o modelo não tinha horário).
+5. Arte da mensagem 02 e [[LINK: página das alunas]].
+6. Contagem "Falta 1 semana" na mensagem 04 está presa à data do cronograma (27/10). Se o disparo deslizar de dia, trocar pela data fixa. A mensagem 07 usa "amanhã" com a data fixa ao lado.
+7. Nome do produto: "Workshop Terapeuta" é a forma curta do nome comercial. [[CONFIRMAR: nome comercial completo do workshop]].
+8. 02/11 é Finados: a mensagem 07 não usa urgência.
+9. Texto de template: cada corpo tem menos de 1.024 caracteres, 1 botão de até 25 caracteres, e a primeira linha em negrito faz o papel de título.
 
 Conflitos entre o modelo e as regras da Dra.
 - Promessa de "todos os cursos que ainda vou lançar": removida (briefing: sem promessa de lançamentos futuros).
-- "Pare de comprar meus cursos": trocado por "pare de recomeçar", alinhado à frase-guia "A última vez que você vai precisar recomeçar" (usada no pacote de e-mails e grupos; aqui a frase é a lógica da mensagem 03).
-- "Melhor oferta que já fiz" e "maior oferta da minha história": trocados por "a oferta que o Clube Secreto nunca fez antes" e "melhor condição de todos os lotes".
+- "Pare de comprar meus cursos": trocado por "pare de recomeçar", alinhado à frase-guia "A última vez que você vai precisar recomeçar" (usada nos e-mails e grupos; aqui a lógica está na mensagem 03).
+- "Melhor oferta que já fiz" e "maior oferta da minha história": trocados por "a oferta que o Clube Secreto nunca fez antes" e "o menor valor de todos os lotes".
 - "Última chance" do modelo: só aparece como "última chamada para reservar", nunca como última chance de ter acesso vitalício.
-- Sobreposição com o Golden Ticket das alunas (`05_whatsapp_api/convite_vip_alunas_e_quiz.md`: 22/10, 29/10 e 02/11, 09h). Há dois fluxos de API para a mesma lista de alunas em 29/10 e 02/11. Decidir se um substitui o outro ou se um deles é excluído nessas datas, para não duplicar disparo.
-- 02/11 é Finados: a mensagem 07 não usa urgência.
+- Reserva com prazo e reservas limitadas do modelo: removidas por serem escassez sem lastro.

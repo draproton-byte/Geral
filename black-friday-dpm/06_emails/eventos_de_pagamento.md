@@ -2,20 +2,28 @@
 
 | Campo | Conteúdo |
 |---|---|
-| Peça | 18 e-mails transacionais e de recuperação: EP-AB-01/02 (carrinho abandonado), EP-PX-01/02 (Pix emitido), EP-PX-03/04 (Pix expirado), EP-BL-01/02 (boleto emitido), EP-BL-03/04 (boleto vencido), EP-RC-01/02 (compra recusada), EP-AP-01 (compra aprovada, versões Alunas e Não-alunas), EP-RB-01/02 (reembolso) |
+| Peça | 15 e-mails transacionais e de recuperação (16 versões): EP-AB-01/02 (carrinho abandonado), EP-PX-01/02 (Pix emitido), EP-PX-03/04 (Pix expirado), EP-BL-01/02 (boleto emitido), EP-BL-03/04 (boleto vencido), EP-RC-01/02 (compra recusada), EP-AP-01 (compra aprovada, versões Alunas e Não-alunas), EP-RB-01/02 (reembolso) |
 | Canal | E-mail, disparado por evento do checkout via ListBoss (gatilho: entrada no evento, tag do evento) |
 | Público | Todos os segmentos. A versão do segmento só muda em EP-AP-01 e nos blocos marcados |
-| Momento | A partir de 03/11, depois da abertura do carrinho, até o fechamento (`[[PENDENTE: fechamento]]`) e durante a garantia para os de reembolso |
+| Momento | A partir de 03/11, depois da abertura do carrinho (21h28), até o fechamento (`[[PENDENTE: fechamento]]`) e durante a garantia para os de reembolso |
 | Objetivo | Recuperar a venda sem pressão, com a decisão já tomada, e reduzir o arrependimento depois da compra |
 | Consciência | 5 (decidiu e parou no último passo) |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Cada e-mail lembra que a decisão já foi tomada e que o que travou é um detalhe de pagamento |
 | Modelo no Desafio | Eventos do Clube Secreto em versão e-mail (carrinho abandonado, Pix emitido e expirado, boleto emitido e vencido, recusada, aprovada, reembolso) e e-mails do Desafio (carrinho abandonado, compra recusada, compra aprovada). Mantida a estrutura "o que aconteceu, por que é normal, o que fazer em 1 minuto" |
 
-**Variáveis.** `{{nome}}`, `{{link_checkout}}`, `{{codigo_pix}}`, `{{link_boleto}}`, `{{codigo_barras}}`, `{{data_vencimento}}`, `{{link_area_membros}}`, `{{link_suporte}}`, `{{valor}}` (vem do checkout, nunca digitado no texto). Garantia: `[[PENDENTE: garantia]]`. Parcelas: `[[PENDENTE: número de parcelas]]`.
+**Prazos de pagamento (dados do Manual do Comercial).** O Pix vence em **48 horas** e o boleto em **4 a 5 dias**. A copy não promete prazo diferente desses: onde fala de validade do Pix, diz 48 horas; onde fala de boleto, diz 4 a 5 dias e usa `{{data_vencimento}}` para a data exata. O acesso é liberado quando o pagamento é confirmado, e nenhum texto afirma "na hora" para boleto.
 
-**O que mudou em relação ao Clube Secreto.** O Clube vendia "12x de R$199,31" e "7 dias de garantia incondicional". Nesta campanha, o valor vem do checkout (muda a cada lote) e a garantia é placeholder. Sempre que o Desafio dizia "lote de R$ 35", aqui o texto fala "lote vigente".
+**Variáveis.** `{{nome}}`, `{{link_checkout}}`, `{{codigo_pix}}`, `{{link_boleto}}`, `{{codigo_barras}}`, `{{data_vencimento}}`, `{{link_area_membros}}`, `{{link_suporte}}`, `{{valor}}` (vem do checkout, nunca digitado no texto). Garantia: `[[PENDENTE: garantia]]`. Parcelas: `[[CONFIRMAR: número de parcelas]]`.
+
+**O que mudou em relação ao Clube Secreto.** O Clube usava o valor e a garantia do Clube escritos no texto. Nesta campanha, o valor vem do checkout (muda a cada lote) e a garantia é placeholder. Sempre que o Desafio dizia o valor do lote, aqui o texto fala "lote vigente".
 
 **Gatilhos de parada.** Cada sequência para quando a compra é aprovada.
+
+**Um botão por e-mail.** O código do Pix, o código de barras e os links de suporte são texto visível, não botão.
+
+**Legibilidade e acessibilidade (vale para todos os e-mails deste arquivo).** Texto simples, fonte de pelo menos 16 px, entrelinha 1,5, contraste alto (40% da base tem mais de 50 anos). Código de Pix e de barras em linha própria, em fonte grande e selecionável (nunca em imagem). Botão de texto, nunca imagem, com o endereço do link escrito por extenso abaixo. Imagem ou logo, se houver, com texto alternativo descritivo. Nada depende de cor ou de emoji. Sem emoji no assunto. Assunto até 50 caracteres.
+
+**Gênero.** Antes da compra, texto neutro. EP-AP-01 e EP-RB aceitam o feminino.
 
 ---
 
@@ -24,15 +32,13 @@
 ### EP-AB-01. Até 1 hora depois
 
 **Assunto:** Você parou no último passo, {{nome}}
-**Preview:** O seu lote ainda está aberto
+**Preview:** O resumo do que você escolheu está aqui
 
 {{nome}},
 
 Você chegou até o checkout da Black Próton Vitalícia e parou no último passo.
 
-Tudo bem. Uma decisão dessas mexe com a gente, ainda mais quando já houve compra que não entregou o que prometeu.
-
-Para você não perder o fio, o resumo do que você escolheu:
+Tudo bem. Uma decisão dessas mexe com a gente. Para você não perder o fio, o resumo do que você escolheu:
 
 ✔ Acesso vitalício ao Clube Secreto
 ✔ Os 11 produtos do catálogo atual
@@ -61,9 +67,9 @@ Porque as duas têm resposta, e são respostas diferentes.
 
 Se foi o valor: o checkout mostra as formas de pagamento, incluindo parcelado. E tem uma conta que vale fazer: quanto custa mais um ano no mesmo lugar?
 
-Se foi a dúvida se vai dar conta: é o medo que muita gente tem, e é por isso que a oferta tem trilha de entrada e primeiro passo em 48 horas. `[[CONFIRMAR: trilha]]`
+Se foi a dúvida se vai dar conta: é o medo que muita gente tem, e é por isso que a oferta tem trilha de entrada e primeiro passo em 48 horas. [[CONFIRMAR: trilha]]
 
-Qualquer uma das duas, me responda este e-mail.
+Em qualquer um dos dois casos, me responda este e-mail.
 
 **Botão:** VOLTAR PARA O CHECKOUT
 {{link_checkout}}
@@ -79,20 +85,22 @@ Dra. Próton
 ### EP-PX-01. Imediato
 
 **Assunto:** {{nome}}, seu Pix da Vitalícia está pronto
-**Preview:** Pague agora e seu acesso é liberado na hora
+**Preview:** Assim que o pagamento for confirmado, o acesso é liberado
 
 {{nome}},
 
-Seu Pix da Black Próton Vitalícia foi gerado!
+Seu Pix da Black Próton Vitalícia está pronto.
 
 Copie o código e cole no app do seu banco, em "Pix Copia e Cola":
 
 {{codigo_pix}}
 
-✅ Assim que o pagamento cair, seu acesso é liberado.
-⚠️ O código expira em pouco tempo. Não deixe para depois.
+Este código vale por 48 horas. Assim que o pagamento for confirmado, o seu acesso é liberado.
 
 Hoje à noite você pode estar fazendo o seu primeiro passo.
+
+**Botão:** VER MEU PIX
+{{link_checkout}}
 
 Dra. Próton
 
@@ -109,10 +117,12 @@ Seu Pix da Black Próton Vitalícia ainda não foi pago.
 
 {{codigo_pix}}
 
-Se o código expirou, gere um novo pelo link:
+O código vale por 48 horas. Se ele expirar, você gera outro pelo link.
+
+**Botão:** VER MEU PIX
 {{link_checkout}}
 
-A decisão que você tomou merece ser concluída. 💜
+A decisão que você tomou merece ser concluída.
 
 Dra. Próton
 
@@ -120,29 +130,29 @@ Dra. Próton
 
 ## PIX EXPIRADO (2 toques)
 
-### EP-PX-03. No vencimento do Pix
+### EP-PX-03. No vencimento do Pix (48 horas depois da emissão)
 
 **Assunto:** Seu código Pix expirou, {{nome}}
 **Preview:** Gere um novo em 1 minuto
 
 {{nome}},
 
-O código Pix que você gerou para a Black Próton Vitalícia expirou.
+O código Pix que você gerou para a Black Próton Vitalícia expirou, depois das 48 horas de validade.
 
-Mas é só gerar outro, leva um minuto:
+Mas é só gerar outro, leva um minuto.
 
 **Botão:** GERAR NOVO PIX
 {{link_checkout}}
 
-Se preferir, você também pode pagar no cartão, em até [[PENDENTE: número de parcelas]].
+Se preferir, você também pode pagar no cartão, em até [[CONFIRMAR: número de parcelas]].
 
-Seu lote continua válido até [[PENDENTE: data do lote]]. Depois dessa data, o valor sobe.
+Seu lote continua válido até [[PENDENTE: data do lote]]. Depois dessa data, o valor muda.
 
 Dra. Próton
 
 ### EP-PX-04. 24 horas depois
 
-**Assunto:** O Pix passou. A sua decisão também passou?
+**Assunto:** Seu Pix expirou. A decisão ainda vale?
 **Preview:** Não vamos deixar um detalhe te impedir
 
 {{nome}},
@@ -163,26 +173,23 @@ Dra. Próton
 ### EP-BL-01. Imediato
 
 **Assunto:** {{nome}}, seu boleto da Vitalícia está aqui
-**Preview:** Pague até {{data_vencimento}} para garantir o seu lote
+**Preview:** O boleto vence em {{data_vencimento}}
 
 {{nome}},
 
-Seu boleto da Black Próton Vitalícia foi gerado.
+Seu boleto da Black Próton Vitalícia foi gerado. Ele vale por 4 a 5 dias, até {{data_vencimento}}.
+
+Se preferir, copie o código de barras:
+{{codigo_barras}}
+
+Importante: o boleto leva até 3 dias úteis para compensar depois do pagamento, e o acesso só é liberado depois disso. [[CONFIRMAR: prazo de compensação]]
+
+[[CONFIRMAR: regra de lote para boleto, ou seja, qual valor vale se o lote virar antes da compensação]]
+
+Quer começar antes? Se você pagar via Pix, o acesso é liberado assim que o pagamento for confirmado. Para trocar a forma de pagamento, volte ao checkout: {{link_checkout}}
 
 **Botão:** VISUALIZAR MEU BOLETO
 {{link_boleto}}
-
-Ou copie o código de barras:
-{{codigo_barras}}
-
-⚠️ IMPORTANTE
-O boleto leva até 3 dias úteis para compensar depois do pagamento, e o acesso só é liberado depois disso. `[[CONFIRMAR: prazo de compensação]]`
-
-[[PENDENTE: regra de lote para boleto, ou seja, qual valor vale se o lote virar antes da compensação]]
-
-💡 Quer começar hoje? Se você pagar via Pix, o acesso é liberado na hora:
-**Botão secundário:** PAGAR VIA PIX
-{{link_checkout}}
 
 Dra. Próton
 
@@ -198,8 +205,12 @@ Seu boleto da Black Próton Vitalícia vence amanhã, {{data_vencimento}}.
 Se ainda não pagou, o código está aqui:
 {{codigo_barras}}
 
-Se perceber que não vai dar tempo, gere um Pix e o acesso é liberado na hora:
-{{link_checkout}}
+Se perceber que não vai dar tempo, gere um Pix pelo checkout: o acesso é liberado assim que o pagamento for confirmado.
+
+**Botão:** VISUALIZAR MEU BOLETO
+{{link_boleto}}
+
+Para trocar a forma de pagamento: {{link_checkout}}
 
 Dra. Próton
 
@@ -209,7 +220,7 @@ Dra. Próton
 
 ### EP-BL-03. Um dia depois do vencimento
 
-**Assunto:** {{nome}}, seu boleto venceu (mas dá para resolver)
+**Assunto:** {{nome}}, seu boleto venceu (dá para resolver)
 **Preview:** Gere um novo pagamento em 1 minuto
 
 {{nome}},
@@ -218,9 +229,9 @@ Seu boleto da Black Próton Vitalícia venceu.
 
 Calma, acontece com muita gente, e é fácil resolver. Você escolhe como pagar:
 
-→ Pix: acesso liberado na hora
-→ Cartão: em até [[PENDENTE: número de parcelas]]
-→ Boleto: um novo, com nova data
+- Pix: o acesso é liberado quando o pagamento é confirmado (o código vale 48 horas)
+- Cartão: em até [[CONFIRMAR: número de parcelas]]
+- Boleto: um novo, com nova data (4 a 5 dias de validade)
 
 **Botão:** GERAR NOVO PAGAMENTO
 {{link_checkout}}
@@ -231,8 +242,8 @@ Dra. Próton
 
 ### EP-BL-04. Três dias depois
 
-**Assunto:** Última chamada do seu boleto, {{nome}}
-**Preview:** Se ainda faz sentido para você, este é o momento
+**Assunto:** Ainda faz sentido para você, {{nome}}?
+**Preview:** Se sim, este é o momento de resolver
 
 {{nome}},
 
@@ -240,7 +251,9 @@ Seu boleto venceu há alguns dias, e eu não quero que você perca por um detalh
 
 Eu sei como é: o boleto vira "depois eu vejo", e o "depois" vira outro recomeço.
 
-Se a decisão ainda está de pé, gere um novo pagamento por aqui:
+Se a decisão ainda está de pé, gere um novo pagamento por aqui.
+
+**Botão:** GERAR NOVO PAGAMENTO
 {{link_checkout}}
 
 Se não está, tudo bem. Me responda e eu ajudo no que for preciso.
@@ -254,7 +267,7 @@ Dra. Próton
 ### EP-RC-01. Imediato
 
 **Assunto:** {{nome}}, seu pagamento não foi aprovado
-**Preview:** É rápido de resolver. O seu lote está reservado
+**Preview:** É rápido de resolver. Tente de novo em 1 minuto
 
 {{nome}},
 
@@ -265,12 +278,12 @@ Isso acontece bastante e quase sempre é:
 - bloqueio automático de segurança do banco
 - dado digitado errado
 
-Não tem a ver com você. É só tentar de novo:
+Não tem a ver com você. É só tentar de novo.
+
+Você pode usar outro cartão, dividir em dois cartões [[CONFIRMAR: divisão em dois cartões no checkout]] ou pagar via Pix (o código vale 48 horas).
 
 **Botão:** TENTAR NOVAMENTE
 {{link_checkout}}
-
-Você pode usar outro cartão, dividir em dois cartões `[[CONFIRMAR: divisão em dois cartões no checkout]]` ou pagar via Pix.
 
 Sua decisão já foi tomada. Não deixe um detalhe te impedir.
 
@@ -278,8 +291,8 @@ Dra. Próton
 
 ### EP-RC-02. 24 horas depois
 
-**Assunto:** Quase foi, {{nome}}. Falta só destravar o pagamento
-**Preview:** Seu lote ainda vale até [[PENDENTE: data do lote]]
+**Assunto:** Quase, {{nome}}. Falta destravar o pagamento
+**Preview:** O lote vigente vale até [[PENDENTE: data do lote]]
 
 {{nome}},
 
@@ -298,7 +311,7 @@ Dra. Próton
 
 ### EP-AP-01 / Não-alunas
 
-**Assunto:** 🎉 Você está dentro, {{nome}}
+**Assunto:** Você está dentro, {{nome}}
 **Preview:** Seu acesso e os 3 primeiros passos estão aqui
 
 {{nome}}, seja muito bem-vinda.
@@ -308,21 +321,22 @@ Você acaba de tomar uma decisão que só se toma uma vez. É a última vez que 
 **Seus dados de acesso**
 Área de Membros: {{link_area_membros}}
 Login: o e-mail que você usou na compra
-(A plataforma também te enviou um e-mail de acesso. Veja a caixa de spam e promoções.)
+(A plataforma também enviou um e-mail de acesso. Veja a caixa de spam e promoções.)
 
 **Seus 3 primeiros passos**
 1. Acesse a Área de Membros e assista ao vídeo de boas-vindas.
 2. Entre no grupo e no suporte: {{link_suporte}}
-3. Abra a sua trilha de entrada e faça o primeiro passo nas próximas 48 horas. `[[PENDENTE: ordem de entrada]]`
+3. Abra a sua trilha de entrada e faça o primeiro passo nas próximas 48 horas. [[CONFIRMAR: ordem de entrada]]
 
 **Como funciona daqui para frente**
 Você não precisa dar conta de tudo ao mesmo tempo. Precisa seguir a trilha, um passo de cada vez. Sem prazo, sem pressão de "perdi o mês".
 
 Garantia: [[PENDENTE: garantia]]
 
-Não espere a segunda-feira. Faça o primeiro passo hoje. É ele que quebra o padrão de "começar depois".
+Não espere a segunda-feira. Faça o primeiro passo hoje. Ele ajuda a quebrar o hábito de "começar depois".
 
 **Botão:** ACESSAR A MINHA ÁREA DE MEMBROS
+{{link_area_membros}}
 
 Transformei dor em método. Agora é a sua vez.
 
@@ -331,7 +345,7 @@ Dra. Próton
 
 ### EP-AP-01 / Alunas
 
-**Assunto:** 🎉 Agora é para sempre, {{nome}}
+**Assunto:** Agora é para sempre, {{nome}}
 **Preview:** O que muda no seu acesso e os 3 primeiros passos
 
 {{nome}}, bem-vinda de vez.
@@ -339,16 +353,17 @@ Dra. Próton
 Você já era do Clube. Agora é para sempre, e com tudo o que eu criei na mesma conta.
 
 **O que muda para você**
-O seu acesso ao Clube Secreto passa a ser vitalício, e os 11 produtos do catálogo entram junto. `[[PENDENTE: regra de transição para aluna com acesso ativo]]`
+O seu acesso ao Clube Secreto passa a ser vitalício, e os 11 produtos do catálogo entram junto. [[CONFIRMAR: regra de transição para aluna com acesso ativo]]
 
 **Seus 3 primeiros passos**
 1. Entre na Área de Membros: {{link_area_membros}}
-2. Veja o que foi liberado e abra a sua trilha de entrada. `[[PENDENTE: ordem de entrada]]`
+2. Veja o que foi liberado e abra a sua trilha de entrada. [[CONFIRMAR: ordem de entrada]]
 3. Continue exatamente do ciclo em que você está. O que você já fez conta e não começa do zero.
 
 Garantia: [[PENDENTE: garantia]]
 
 **Botão:** ACESSAR A MINHA ÁREA DE MEMBROS
+{{link_area_membros}}
 
 Obrigada por continuar.
 
@@ -370,9 +385,9 @@ Recebemos o seu pedido de reembolso da Black Próton Vitalícia.
 
 Ele já está sendo processado, e você não precisa fazer mais nada. Assim que for concluído, a gente avisa por aqui.
 
-Eu queria só te fazer uma pergunta, com todo o respeito à sua decisão: se o motivo foi alguma dificuldade, como problema de acesso, falta de tempo ou não saber por onde começar, me conta. Muitas vezes um ajuste pequeno resolve, e a gente adoraria te ajudar.
+A decisão é sua, e eu respeito. Se você quiser me contar o motivo, eu vou ler com atenção, só para entender e melhorar. Não é para mudar o seu pedido. Se preferir não contar, tudo bem também.
 
-Mas se simplesmente não era para você agora, tudo bem também. A decisão é 100% sua.
+Se o motivo foi um problema de acesso, o suporte resolve, e isso não altera o seu reembolso.
 
 Suporte: {{link_suporte}}
 
@@ -386,15 +401,13 @@ Dra. Próton
 
 {{nome}},
 
-Seu reembolso da Black Próton Vitalícia foi concluído. ✅
+Seu reembolso da Black Próton Vitalícia foi concluído.
 
 Prazos para o valor aparecer:
-- Pix: até [[PENDENTE: prazo Pix]] dias úteis
+- Pix: até [[CONFIRMAR: prazo do estorno por Pix]] dias úteis
 - Cartão: pode levar até 2 faturas, dependendo do banco
 
 Obrigada por ter confiado em mim, mesmo que por alguns dias.
-
-Se um dia sentir que é a hora de voltar, existirá outra oferta, com as regras daquele momento. Eu estarei por aqui.
 
 Com carinho,
 Dra. Próton
@@ -405,9 +418,11 @@ Dra. Próton
 
 1. **Eventos.** Criar no ListBoss os eventos de compra aprovada, compra recusada, boleto gerado, aguardando pagamento (Pix emitido), abandono de carrinho e pedido de reembolso para o novo produto, por segmento (ver `07_listboss_ura_sms/listboss_api_e_email.md`).
 2. **Tags.** Seguir o padrão do documento de automação: `MM/AA - PRODUTO - COMPRA APROVADA` etc. Para a Black, `11/26 - BLACK VITALICIA - ...`.
-3. **Garantia e reembolso.** O texto de EP-RB-01 não menciona prazo. Quando a garantia estiver definida, incluir uma frase no corpo de EP-AP-01 e no checkout. Nunca prometer devolução sem regra escrita.
-4. **Regra de lote no boleto.** Se o lote virar antes da compensação, o sistema precisa honrar o preço do dia do boleto ou avisar o contrário. Afirmar apenas o que o checkout garante. `[[PENDENTE: regra]]`
-5. **Frequência.** Máximo de 2 toques por evento (3 apenas para quem escolheu boleto), sempre com parada na compra aprovada, e sem enviar e-mail de recuperação nos 30 minutos que antecedem o fechamento do carrinho (a fila de últimas horas já cobre).
-6. **Teste A/B.** EP-AB-01: assunto "Você parou no último passo" contra "O seu lote ainda está aberto". EP-PX-02 com e sem a frase final.
+3. **Garantia e reembolso.** O texto de EP-RB-01 não menciona prazo nem tenta reter. Quando a garantia estiver definida, incluir uma frase no corpo de EP-AP-01 e no checkout. Nunca prometer devolução sem regra escrita.
+4. **Regra de lote no boleto.** Se o lote virar antes da compensação, o sistema precisa honrar o preço do dia do boleto ou avisar o contrário. Afirmar apenas o que o checkout garante. `[[CONFIRMAR: regra]]`
+5. **Frequência.** Máximo de 2 toques por evento, sempre com parada na compra aprovada, e sem enviar e-mail de recuperação nos 30 minutos que antecedem o fechamento do carrinho (a fila de últimas horas já cobre).
+6. **Teste A/B.** EP-AB-01: assunto "Você parou no último passo" contra "O resumo do que você escolheu". EP-PX-02 com e sem a frase final.
 7. **Onde o Desafio tinha peça e a Black não.** O e-mail "Golden Ticket" não tem par. O e-mail "compra aprovada" do Desafio mandava para o grupo e o Teste de Bloqueios; aqui manda para a Área de Membros e a trilha, e o grupo vem no passo 2.
 8. **EP-AP-01 e PC-D0.** O e-mail de compra aprovada é transacional e sai na hora. O D0 do pós-compra (`pos_compra_e_trilha.md`) sai duas horas depois, com tom de boas-vindas, para não repetir a lista de passos.
+9. **Prazos conferidos.** Pix 48 horas e boleto 4 a 5 dias vêm do Manual do Comercial. Nenhuma peça deste arquivo diz outro prazo. Ao trocar a validade no checkout, trocar também EP-PX-01, EP-PX-02, EP-PX-03, EP-BL-01, EP-BL-03 e EP-RC-01.
+10. **Pix e boleto perto do fechamento.** `[[CONFIRMAR: o checkout honra o lote e o carrinho para Pix ou boleto gerado antes do fechamento e pago depois]]`.

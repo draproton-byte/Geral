@@ -30,7 +30,7 @@
 `Parabéns, {{nome}}. Você acabou de dar o primeiro passo para parar de recomeçar.`
 
 **Subtítulo**
-`Falta pouco. Siga os 3 passos abaixo, na ordem. Quem pula um passo chega à live sem o link, sem o diagnóstico e sem o aviso.`
+`Falta pouco. Siga os 3 passos abaixo, na ordem. O primeiro é o mais importante: é por ele que o link da live chega primeiro.`
 
 **Linha de data (destaque)**
 `📅 03/11 · 20h · ao vivo no YouTube · Black Próton Vitalícia`
@@ -49,13 +49,13 @@
 >
 > Eu quero te pedir três coisas, e eu quero que você faça agora, enquanto está nesta página.
 >
-> Primeiro: entra no grupo. O link da live só chega por lá. Quem não entra no grupo não recebe o link, e a gente não quer que você perca a live.
+> Primeiro: entra no grupo. É por lá que o link da live chega primeiro, e a gente não quer que você perca a live.
 >
 > Segundo: salva a data. Três de novembro, às oito da noite. Marca no seu calendário e avisa em casa que esse horário é seu.
 >
 > Terceiro: faz o seu diagnóstico. São poucos minutos. Cinco padrões fazem as pessoas recomeçarem, e eu quero que você chegue na live sabendo qual é o seu.
 >
-> Eu não vou te prometer que a autossabotagem acaba, e nem que o dinheiro vai mudar. O que eu vou fazer, ao vivo, é abrir tudo o que eu construí para você parar de recomeçar. E você decide.
+> Eu não vou te prometer o fim da autossabotagem, e nem que o dinheiro vai mudar. O que eu vou fazer, ao vivo, é abrir tudo o que eu construí para você parar de recomeçar. E você decide.
 >
 > Eu te espero no dia três, às oito da noite. Não é pra assistir. É pra viver.
 
@@ -70,22 +70,22 @@
 `1. Entre agora no grupo da live. Este é o passo mais importante desta página.`
 
 **Texto**
-`O link da live chega somente pelo grupo do WhatsApp. Quem não entra não recebe o link, e a live só acontece uma vez. É lá também que chegam os lembretes e os avisos antes e durante a revelação.`
+`O grupo do WhatsApp é o caminho mais rápido: é lá que o link da live e os lembretes chegam primeiro, antes e durante a revelação. Você também recebe os avisos por e-mail.`
 
-`Lá você vai encontrar centenas de pessoas a caminho da mesma decisão que você, trocando o que sentem e se apoiando.`
+`Lá você vai encontrar outras pessoas a caminho da mesma decisão que você, trocando o que sentem e se apoiando.`
 
 **Botão**
 `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo do WhatsApp da live, por segmento]]
 
 **Microcopy**
-`Quando entrar, escreva "eu estou dentro". É o seu aviso para a equipe de que você chegou.`
-`Se você preferir, também pode assistir direto pelo link do YouTube em 03/11. [[LINK: página da live]]`
+`Quando entrar, escreva "eu estou dentro". É o seu sinal de que você chegou.`
+`Se preferir, também pode assistir direto pela página da live em 03/11. [[LINK: página da live]]`
 
 **Para alunas (variante da captura C)**
 `[[SE: ALUNA]]` `Este é o grupo da live para alunas do Clube Secreto. Lá você recebe a sua condição assim que ela for revelada.` `[[FIM SE]]`
 
 **Quando o grupo está cheio**
-`O grupo atingiu a lotação. Entre no grupo 2, que já está aberto:` `[[LINK: grupo 2]]`
+`Este grupo já está completo (o WhatsApp limita o número de participantes). Entre no grupo 2, que já está aberto:` `[[LINK: grupo 2]]`
 (Modelar em `05_whatsapp_api`, "mensagem de grupo cheio" do Desafio.)
 
 ---
@@ -104,8 +104,7 @@
 3. `ME LEMBRAR NO WHATSAPP` [[LINK: lembrete de WhatsApp]]
 
 **Microcopy**
-`Leva 10 segundos. Quem salva a data tem muito mais chance de estar presente.`
-`[[CONFIRMAR: afirmação "muito mais chance" só se houver dado. Se não houver, tirar]]`
+`Leva 10 segundos. Salvar a data ajuda a não esquecer.`
 
 ---
 
@@ -121,7 +120,7 @@
 `FAZER MEU DIAGNÓSTICO` (abre o fluxo da Parte 2 deste arquivo, que inclui `diagnostico_5_perfis.md`)
 
 **Microcopy**
-`Gratuito. Não é avaliação clínica. Seu resultado é só seu.`
+`Gratuito. Não é avaliação clínica. Seu resultado fica com o Instituto Dra. Próton e só é usado para preparar a live.`
 
 ---
 
@@ -165,12 +164,12 @@
 ### Bloco 07: Fecho e rodapé
 
 **Fecho**
-`Você não chegou até aqui por acaso. Você não é preguiçosa, não é indisciplinada, não é fraca. Você só estava rodando um padrão antigo. Dia 03/11, a Dra. abre o que construiu para você parar de recomeçar.`
+`Você não chegou até aqui por acaso. O que faz você recomeçar não é falta de força: é um padrão antigo, e ele tem nome. Dia 03/11, a Dra. abre o que construiu para você parar de recomeçar.`
 
 `Transformei dor em método. Agora é a sua vez de ficar.`
 `Dra. Próton`
 
-**Rodapé:** `Política de Privacidade · Termos de Uso · Copyright © 2026 Todos os direitos reservados, Instituto Dra. Próton`
+**Rodapé:** `[[LINK: Política de Privacidade]] · [[LINK: Termos de Uso]] · Copyright © 2026 Todos os direitos reservados, Instituto Dra. Próton`
 
 ---
 
@@ -181,7 +180,7 @@
 | Captura A, VSL | Texto padrão acima |
 | Captura B | Bloco 05 mostra "O que entra" resumido (sem preço) |
 | Captura C (alunas) | Passo 1 mostra a variante `[[SE: ALUNA]]`; pergunta Q3 da pesquisa já vem preenchida; link do grupo de alunas |
-| Captura D (Desafio/Imersão/Aulão) | Pergunta Q3 vem preenchida; o diagnóstico traz a frase "você já fez um teste parecido. Refazer?" |
+| Captura D (Desafio/Imersão/Aulão) | Pergunta Q3 vem preenchida pela tag de origem; o diagnóstico traz a frase "você já fez um teste parecido. Refazer?" |
 
 ---
 
@@ -229,7 +228,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 `COMEÇAR`
 
 **Aviso**
-`Suas respostas são confidenciais e só são usadas para preparar a live e o atendimento. Você pode pular qualquer pergunta.` [[LINK: política de privacidade]]
+`Suas respostas ficam com o Instituto Dra. Próton e só são usadas para preparar a live e o atendimento. Você pode pular qualquer pergunta.` [[LINK: política de privacidade]]
 
 ---
 
@@ -250,7 +249,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 - De 6 meses a 1 ano
 - Mais de 1 ano
 
-**Q3. Qual destas experiências com a Dra. você já viveu?** (múltipla escolha, **pré-preenchida** para as capturas C e D)
+**Q3. Qual destas experiências com a Dra. você já viveu?** (múltipla escolha, **pré-preenchida** pela tag de origem nas capturas C e D; marcar "Nenhuma, é a primeira vez" desmarca as demais)
 - Sou aluna do Clube Secreto
 - Fiz o Desafio A Nova Realidade
 - Fiz a Imersão Desbloqueie o Poder da Sua Mente
@@ -277,6 +276,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 - Trabalho muito e ganho pouco
 - Não consigo vender
 - Tenho medo de arriscar
+- Não tenho dinheiro para começar
 - Outro: ______
 
 ---
@@ -314,7 +314,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 - Acima de R$ 20.000
 - Prefiro não responder
 
-**Texto de ajuda:** `Pergunto para eu preparar a live com carinho para quem está aqui. Não vou usar para cobrar nada de você.`
+**Texto de ajuda:** `Pergunto para preparar a live e o atendimento. Você pode pular.`
 
 **Compliance:** esta pergunta serve para o comercial priorizar esforço (ver `00_ESTRATEGIA_COPY_SENIOR.md`, seção 5). Não usar a resposta para variar preço mostrado a cada pessoa (a Vitalícia tem preço por lote e por segmento aluna ou não aluna, nada além).
 
@@ -329,7 +329,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 - Acho que o valor pode ser alto pelo que oferece
 - Nada, eu decido rápido
 
-**Texto de ajuda:** `Pode ser sincera(o). Isso me ajuda a falar do que importa na live.`
+**Texto de ajuda:** `Responda com a verdade, sem receio. Isso me ajuda a falar do que importa na live.`
 
 **Q8. Se houver a opção, como você prefere pagar?** (escolha única, nova)
 - Cartão de crédito parcelado
@@ -356,7 +356,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 
 **Texto de ajuda**
 `Eu leio as respostas e escolho algumas para responder ao vivo, sem citar o nome de ninguém.`
-`[[CONFIRMAR: a Dra. de fato lê e responde na live; sem confirmação, trocar por "A equipe lê as respostas para preparar a live"]]`
+`[[CONFIRMAR: a Dra. de fato lê e responde na live; sem confirmação, usar "A equipe lê as respostas para preparar a live"]]`
 
 **Observação:** em português neutro, sem pedir nome ou dado sensível no texto livre. Aviso no campo: `Não escreva documentos, senhas ou dados de cartão.`
 
@@ -365,16 +365,16 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 ### Tela final da pesquisa
 
 **Título**
-`Obrigada(o). Suas respostas já estão com a equipe.`
+`Tudo certo, {{nome}}. Suas respostas já estão com a equipe.`
 
 **Texto**
 `Você deu o primeiro passo e já tem o seu padrão. Agora faltam dois passos:`
 
-1. `Entre no grupo da live.` `[[ENTRAR NO GRUPO DA LIVE]]`
-2. `Salve a data: 03/11, 20h.` `[[SALVAR A DATA]]`
+1. `Entre no grupo da live.` (botão: ENTRAR NO GRUPO DA LIVE)
+2. `Salve a data: 03/11, 20h.` (botão: SALVAR A DATA)
 
 **Linha final**
-`A live é só uma vez. A condição que a Dra. mostrar nessa noite não se repete.`
+`A revelação é ao vivo, em 03/11, às 20h. A condição que a Dra. mostrar nessa noite não se repete.`
 
 ---
 
@@ -385,7 +385,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 | Q1 perfil reconhecido + resultado do diagnóstico | Abertura do comercial e do e-mail por perfil; comparação percepção contra resultado |
 | Q2 tempo de acompanhamento | Segmenta ângulo de e-mail (1 a 3 meses: "dor e solução"; mais de 1 ano: "pronta") |
 | Q3 o que já viveu | Roteia aluna para `captura_C`/cupom e ex-Desafio para `captura_D` e ajusta o onboarding |
-| Q6 renda + Q7 objeção + Q8 pagamento | Prioridade do comercial 1 a 1 (ver `09_comercial`) e mensagem de parcelamento |
+| Q6 renda + Q7 objeção + Q8 pagamento | Prioridade do comercial 1 a 1 (ver `09_comercial_datacrazy`) e mensagem de parcelamento |
 | Q7 "não tenho o dinheiro disponível" + renda até R$ 3.000 | Cai em `lista_de_espera.md`, sem esforço comercial |
 | Q9 o que impede de estar na live | Mensagem de lembrete (WhatsApp e e-mail) e convite ao replay se existir `[[PENDENTE: replay]]` |
 | Q10 aberta | Banco de perguntas para a live e para o comercial; nunca publicar sem autorização |

@@ -57,11 +57,11 @@ Notas ao implementador
 - Mantido do modelo, e escrito para a Dra.: o aviso do Lote Especial (marcado com CONFIRMAR).
 
 2. Pendências e CONFIRMAR que ficaram
-- [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (a página de captura diz "O menor preço é só pra quem estiver assistindo na hora").
+- [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (a página de captura diz "o menor valor é só para quem estiver assistindo na hora").
 - [[CONFIRMAR: o diagnóstico é obrigatório para assistir à live?]] A live é aberta no YouTube; se o diagnóstico não for requisito, trocar "Check-in Obrigatório" por "Check-in".
 - [[PENDENTE: bônus]] de check-in.
 - [[LINK: live no YouTube]], [[LINK: reserva e diagnóstico]], [[LINK: comercial]], [[LINK: suporte WhatsApp]].
-- Confirmar se o campo de descrição do grupo comporta o texto (limite do WhatsApp, [[CONFIRMAR: limite atual]]). O texto tem cerca de 1.800 caracteres.
+- Confirmar se o campo de descrição do grupo comporta o texto (limite do WhatsApp, [[CONFIRMAR: limite atual]]). O texto tem cerca de 1.900 caracteres.
 - Esta descrição é do grupo geral. As descrições dos grupos de alunas do Clube e de quem já viveu o método estão em 05_whatsapp_api/grupos_descricao_e_grupo_cheio.md (seções 2.2 e 2.3).
 
 3. Conflitos entre o modelo e as regras da Dra.

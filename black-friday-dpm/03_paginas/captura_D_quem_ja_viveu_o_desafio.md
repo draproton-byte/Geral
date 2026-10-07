@@ -38,8 +38,9 @@ Estado 2 (03/11 até 17h):
 Estado 3 (03/11, 17h às 20h):
 `Começa em {{minutos}}min {{segundos}}s. Reserve seu lugar`
 
-Estado 4 (depois das 20h):
-`A live já começou. [[LINK: página da live]]`
+Estado 4 (das 20h até o fim da live):
+`A live já começou. [[LINK: live YouTube | pagina | cap-d-b00]]`
+Leva para: a transmissão da live no YouTube.
 
 ---
 
@@ -71,12 +72,13 @@ Estado 4 (depois das 20h):
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: a página de obrigado e diagnóstico, depois de enviar o formulário. [[LINK: obrigado e diagnóstico | pagina | cap-d-b01]]
 
 **Microcopy**
 `Gratuito. Sem compromisso de compra. Se você já fez o teste do Desafio, o diagnóstico de agora é novo e leva poucos minutos.`
 
 **Mensagens de erro e consentimento**
-Iguais às da captura A: nome vazio, e-mail inválido, WhatsApp com 11 dígitos, falha de envio, e este consentimento: `Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
+Iguais às da captura A: nome vazio, e-mail inválido, WhatsApp com 11 dígitos, falha de envio, e este consentimento: `Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: privacidade | pagina | cap-d-b01]]
 
 ### Headlines testáveis
 
@@ -85,8 +87,8 @@ Iguais às da captura A: nome vazio, e-mail inválido, WhatsApp com 11 dígitos,
 | **D0 (principal)** | Você já fez o primeiro passo. Não trave o processo. | Frase intocável da Dra. + retomada |
 | D1 | "Se você não investe em você, o resultado da sua vida sempre será zero." Dia 03/11, a Dra. abre a Vitalícia. | A conta do 1 vezes 0 |
 | D2 | Melhorar de vida é ganhar mil reais a mais. Mudar de vida é nunca mais voltar ao patamar anterior. | A ponte do Desafio ao Clube |
-| D3 | Cinco noites começaram. Uma decisão faz continuar. | Desafio como começo |
-| D4 | Você esteve lá. O que você sentiu merece mais do que uma semana. | Emoção que esfria |
+| D3 | Cinco noites começaram. Uma decisão faz continuar. | Desafio como começo (só origem DESAFIO) |
+| D4 | Você esteve lá. O que você sentiu merece mais do que uma semana. | Emoção que esfria (só origem DESAFIO) |
 | D5 | "Eu termino tudo o que eu começo." Dia 03/11, a Dra. abre a Vitalícia. | O pacto |
 
 **Botões alternativos**
@@ -154,9 +156,9 @@ Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
 Título: `A conta que eu fiz com você`
 
-`Eu perguntei quanto você tinha investido em você nos últimos seis meses. A maioria respondeu: nada.`
+`[[SE: DESAFIO]]` `Eu perguntei quanto você tinha investido em você nos últimos seis meses. A maioria respondeu: nada.` `[[FIM SE]]`
 
-`E eu mostrei a conta.`
+`[[SE: DESAFIO]]` `E eu mostrei a conta.` `[[FIM SE]]`
 
 `Se você não investe em você, o resultado da sua vida sempre será zero.`
 
@@ -166,8 +168,9 @@ Título: `A conta que eu fiz com você`
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
-**Nota:** "eu perguntei... a maioria respondeu nada" consta do manual da Aula 03 do Desafio e do documento de narrativa do Clube (Comercial). Vale para quem esteve no Desafio; para as demais origens, se o time preferir cautela, usar só a segunda metade ("Se você não investe...").
+**Nota:** "eu perguntei... a maioria respondeu nada" consta do manual da Aula 03 do Desafio e do documento de narrativa do Clube (Comercial). Vale só para quem esteve no Desafio: as duas primeiras linhas aparecem apenas na origem DESAFIO. Nas demais origens, o bloco começa em "Se você não investe...".
 
 ---
 
@@ -215,6 +218,7 @@ Título: `O que você viveu foi o começo. A Vitalícia é continuar sem ter de 
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 ---
 
@@ -240,7 +244,7 @@ Título: `O que você viveu foi o começo. A Vitalícia é continuar sem ter de 
 **Copy**
 
 **"Eu já comprei outras coisas e não coloquei em prática."**
-`É uma frase que eu ouço muito. Em muitos cursos, a aplicação fica por sua conta depois, e é aí que costuma travar, porque o padrão que você quer mudar é o mesmo que atrapalha a mudança. Nas minhas aulas ao vivo você não fez sozinha: fez comigo, e saiu de cada noite com algo na mão. A Vitalícia foi pensada para facilitar o continuar.`
+`É uma frase que eu ouço muito. Em muitos cursos, a aplicação fica por sua conta depois, e é aí que costuma travar, porque o padrão que você quer mudar é o mesmo que atrapalha a mudança. Nas minhas aulas ao vivo você não fez sozinha(o): fez comigo, e saiu de cada aula com algo na mão. A Vitalícia foi pensada para facilitar o continuar.`
 
 **"Tenho medo de comprar e não dar conta."**
 `Esse medo é comum, e faz sentido. Toda vez que você vive algo transformador, aparece a vontade de parar. Na Vitalícia não tem prazo, e quem entra recebe uma trilha com o primeiro passo para as primeiras 48 horas. Não existe o mês que você perdeu.`
@@ -275,7 +279,7 @@ Título: `O que você viveu foi o começo. A Vitalícia é continuar sem ter de 
 `Não. Ninguém aqui cobra você por não ter entrado antes. A condição da live é uma oferta nova, e o que não se repete é a condição que a Dra. mostrar nessa noite.`
 
 **Preciso refazer o diagnóstico?**
-`Se quiser. Os 5 perfis de hoje têm um diagnóstico novo, e ele é gratuito. [[LINK: diagnóstico]]`
+`Se quiser. Os 5 perfis de hoje têm um diagnóstico novo, e ele é gratuito. [[LINK: diagnóstico | pagina | cap-d-b10]]`
 
 **Preciso estar ao vivo?** `[[PENDENTE: replay]]`
 
@@ -289,9 +293,10 @@ Título: `O que você viveu foi o começo. A Vitalícia é continuar sem ter de 
 `Não trave o processo.`
 
 **Botão:** `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 **Microcopy:** `Gratuito. Sem compromisso de compra.`
 
-**Rodapé:** igual ao das demais páginas.
+**Rodapé:** igual ao das demais páginas: [[LINK: privacidade | pagina | cap-d-b11]] · [[LINK: termos | pagina | cap-d-b11]]
 
 ---
 
@@ -304,3 +309,15 @@ Título: `O que você viveu foi o começo. A Vitalícia é continuar sem ter de 
 5. **Testes A/B:** (1) D0 contra D1 contra D2; (2) bloco 03 contra bloco 04 como primeiro argumento; (3) botão 1 contra botão 2.
 6. **Dependências:** `obrigado_e_pesquisa.md` (a pergunta "o que você já fez" já vem marcada), `onboarding_vitalicia.md`, `lista_de_espera.md`.
 7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Desafio vendia para quem nunca tinha vivido o método. Aqui a página assume que ela viveu, e o único argumento novo é "continuar". É peça nova, sem equivalente 1 para 1.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| cap-d-b00 | `[[LINK: live YouTube \| pagina \| cap-d-b00]]` | Leva à transmissão quando a tarja entra no estado 4 | Equipe de YouTube |
+| cap-d-b01 | `[[LINK: obrigado e diagnóstico \| pagina \| cap-d-b01]]` | Destino do botão principal e dos repetidos (blocos 04, 06 e 11) depois do envio do formulário | Web designer |
+| cap-d-b01 | `[[LINK: privacidade \| pagina \| cap-d-b01]]` | Abre a política de privacidade a partir do consentimento | Jurídico |
+| cap-d-b10 | `[[LINK: diagnóstico \| pagina \| cap-d-b10]]` | FAQ: leva a refazer o diagnóstico dos 5 perfis | Web designer |
+| cap-d-b11 | `[[LINK: privacidade \| pagina \| cap-d-b11]]` e `[[LINK: termos \| pagina \| cap-d-b11]]` | Rodapé: política de privacidade e termos de uso | Jurídico |

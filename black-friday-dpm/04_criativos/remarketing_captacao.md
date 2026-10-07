@@ -33,7 +33,7 @@ Excluir sempre quem já se cadastrou e quem já está no grupo.
 ## Objeção 1: medo de não implementar (6)
 
 ### RMK-IMPL-01
-- **Headline:** Comprar e não colocar em prática: como evitar de novo?
+- **Headline:** Comprar e não colocar em prática: como evitar?
 - **Texto:** Eu sei como é. Por isso a live de 03/11 não é sobre mais conteúdo para acumular. É sobre um jeito de ficar, sem relógio correndo atrás de você. Reserve o seu lugar, sem custo.
 - **CTA:** Reservar meu lugar
 - **FRAME 0:** Pergunta em branco sobre fundo escuro, "colocar em prática" em amarelo (e em negrito), ao lado uma gaveta aberta cheia de cadernos de cursos. Para o scroll porque a gaveta é o retrato de "comprei e guardei", visto por quem já viveu isso (a objeção que mais pesa entre os mais prontos).
@@ -79,17 +79,17 @@ Excluir sempre quem já se cadastrou e quem já está no grupo.
 ## Objeção 2: já comprei e não funcionou (6)
 
 ### RMK-JA-01
-- **Headline:** Já comprou outros e não teve resultado?
+- **Headline:** Por que tanta gente compra e não vê resultado?
 - **Texto:** Antes de dizer que nada funciona, olhe para o que acontece depois da compra. É lá que a maior parte das pessoas se perde. Na live de 03/11, às 20h, a Dra. Próton mostra como pensou o que construiu para isso não se repetir.
 - **CTA:** Saiba mais
-- **FRAME 0:** Prateleira de livros e cursos com um deles marcado em amarelo, headline por cima. Para o scroll porque é a pergunta mais direta para quem já comprou e se decepcionou, e a imagem mostra o histórico dessa pessoa.
+- **FRAME 0:** Tela de computador com uma pasta chamada "Cursos" e dezenas de arquivos fechados, um deles marcado em amarelo, headline por cima. Para o scroll porque a pasta cheia de arquivos nunca abertos é um retrato reconhecível, e a pergunta fala de um fenômeno, não da pessoa.
 - **Objeção / camada:** já comprei e não funcionou | R2
 
 ### RMK-JA-02
 - **Headline:** O problema pode nunca ter sido o curso.
 - **Texto:** Pode ter sido aplicar sem apoio. Na live de 03/11, às 20h, veja o que a Dra. Próton construiu para ninguém ter que aplicar sem acompanhamento. Reserve o seu lugar, sem custo.
 - **CTA:** Reservar meu lugar
-- **FRAME 0:** "nunca ter sido o curso" em amarelo e uma cadeira vazia diante de um notebook. Para o scroll porque reverte uma culpa antiga (a de ter falhado) e abre uma explicação diferente.
+- **FRAME 0:** "nunca ter sido o curso" em amarelo e, ao fundo, uma chave de fenda ao lado de um móvel montado pela metade. Para o scroll porque a imagem mostra o que acontece quando se aplica sem manual nem apoio, e reverte uma culpa antiga (a de ter falhado) e abre uma explicação diferente.
 - **Objeção / camada:** já comprei e não funcionou | R2
 
 ### RMK-JA-03
@@ -107,7 +107,7 @@ Excluir sempre quem já se cadastrou e quem já está no grupo.
 - **Objeção / camada:** já comprei e não funcionou | R2
 
 ### RMK-JA-05
-- **Headline:** Já tentou de tudo e a ficha não caiu?
+- **Headline:** Tentar de tudo e a ficha não cair: por quê?
 - **Texto:** "A ficha caiu" é o que muita gente diz quando o padrão enfim aparece. Se ainda não caiu, o diagnóstico (que abre depois do cadastro) mostra qual dos 5 padrões está por trás. Depois, a live de 03/11, às 20h.
 - **CTA:** Descobrir meu padrão
 - **FRAME 0:** Uma ficha de fliperama em amarelo no ar, headline em branco. Para o scroll porque a ficha é um objeto reconhecível (e é a senha do glossário da base que já esteve nas aulas).
@@ -134,17 +134,17 @@ Nenhum destes anúncios revela o rastreio ("você viu", "você abriu", "você fe
 - **Objeção / camada:** hesitação | R1
 
 ### RMK-VOLT-02
-- **Headline:** Fechar a aba não fecha o assunto.
-- **Texto:** A live de 03/11, às 20h, pode mostrar o que meses tentando sem apoio não mostraram. Sem custo para reservar.
+- **Headline:** Adiar a decisão também é uma decisão.
+- **Texto:** Adiar costuma trazer o mesmo assunto de volta. A live de 03/11, às 20h, ao vivo no YouTube, é uma forma de ouvi-lo agora. Sem custo para reservar.
 - **CTA:** Saiba mais
-- **FRAME 0:** Janela de navegador estilizada com uma aba fechada e outra em amarelo. Para o scroll porque é uma imagem digital familiar e a metáfora é imediata.
+- **FRAME 0:** Um post-it com a palavra "depois" riscada e a palavra "decisão" em amarelo e em negrito ao lado. Para o scroll porque o post-it é um objeto de casa e o risco sobre "depois" cria a pergunta sobre o que vem no lugar.
 - **Objeção / camada:** hesitação | R1
 
 ### RMK-VOLT-03
 - **Headline:** Daqui a um ano, o que você vai querer ter decidido hoje?
 - **Texto:** A decisão de hoje é pequena: assistir. A live é em 03/11, às 20h.
 - **CTA:** Reservar meu lugar
-- **FRAME 0:** Um calendário com a data de hoje marcada e "um ano" em amarelo (uma única imagem, sem duas versões da pessoa). Para o scroll porque cria uma conversa entre o hoje e o amanhã sem mostrar ninguém.
+- **FRAME 0:** Uma estrada que se estende até o horizonte, com uma placa "um ano" em amarelo (uma única imagem, sem pessoas e sem duas versões de ninguém). Para o scroll porque a estrada cria uma conversa entre o hoje e o amanhã sem mostrar ninguém.
 - **Objeção / camada:** hesitação | R1
 
 ### RMK-VOLT-04
@@ -219,8 +219,8 @@ Sem citar preço. Respondem com o que é verdade hoje: reservar não custa nada 
 - **Nota:** o texto não afirma nem nega replay (`[[PENDENTE: replay]]`).
 
 ### RMK-DATA-02
-- **Headline:** Seu lugar na live está a um clique.
-- **Texto:** Cadastre-se para reservar o seu lugar em 03/11, às 20h, e receber o diagnóstico dos 5 padrões. O aviso chega no seu WhatsApp quando a live começar.
+- **Headline:** O aviso da live chega no WhatsApp. Falta o cadastro.
+- **Texto:** Cadastre-se para reservar o seu lugar em 03/11, às 20h. Depois do cadastro, o diagnóstico dos 5 padrões já fica disponível.
 - **CTA:** Reservar meu lugar
 - **FRAME 0:** Um convite estilizado em amarelo (sem preço), a palavra "ao vivo" em branco. Para o scroll porque o convite é um objeto de desejo reconhecido e já foi usado na captação do Desafio.
 - **Objeção / camada:** hesitação | R4
@@ -233,7 +233,7 @@ Sem citar preço. Respondem com o que é verdade hoje: reservar não custa nada 
 
 **Frame 0 do par:** RMK-DATA-01 (a data "03/11" em amarelo gigante).
 
-Ainda não reservou o seu lugar na live de revelação do dia 03/11, às 20h? Ainda dá tempo, e não custa nada.
+Reservar o lugar na live de revelação de 03/11, às 20h, não custa nada.
 
 Eu vou estar ao vivo no YouTube pra mostrar tudo o que construí pra quem cansou de recomeçar.
 
@@ -247,9 +247,9 @@ Clique em "Saiba mais" e reserve o seu lugar.
 
 **Frame 0 do par:** RMK-IMPL-04 (a pergunta "Desistir de novo ou decidir uma vez?").
 
-Até quando esse ciclo de recomeços vai se repetir?
+Recomeçar cansa. Decidir uma vez e ficar é outra conversa.
 
-Eu não vou te dizer que é fácil. Vou te dizer que é possível decidir uma vez e ficar. Quem decide, muda.
+Eu não vou te dizer que é fácil. Vou te dizer que é possível decidir uma vez e ficar.
 
 Dia 03/11, às 20h, ao vivo no YouTube.
 
@@ -271,13 +271,13 @@ Reserve o seu lugar em "Saiba mais". Não custa nada.
 
 ### LEG-RMK-04 | Já comprei e não funcionou
 
-**Frame 0 do par:** RMK-JA-01 (prateleira com um curso marcado).
+**Frame 0 do par:** RMK-JA-01 (tela com a pasta "Cursos" e um arquivo marcado).
 
 "Já comprei outras coisas antes e não funcionaram."
 
 Foi a resposta mais comum de quem entrou no meu último Desafio quando perguntei o que quase impediu a compra.
 
-O problema quase nunca é o curso. É aplicar sem apoio. Por isso eu construí um caminho com acompanhamento.
+Pode não ter sido o curso. Pode ter sido aplicar sem apoio. Por isso eu construí um caminho com acompanhamento.
 
 Dia 03/11, às 20h, ao vivo no YouTube, eu mostro como ele funciona.
 
@@ -287,9 +287,9 @@ O cadastro é gratuito: clique em "Saiba mais".
 
 **Frame 0 do par:** RMK-DIN-01 ("Não custa nada." em letras gigantes).
 
-"Eu queria, mas não tenho o dinheiro agora."
+68% de mais de 7 mil pessoas apontaram a mesma objeção: "não tenho o dinheiro disponível agora".
 
-Eu sei. Foi a objeção que mais apareceu nas minhas pesquisas: 68% de mais de 7 mil pessoas. Por isso eu te peço só uma coisa hoje: reserve o seu lugar na live. Não custa nada.
+Foi a que mais apareceu nas minhas pesquisas. Por isso eu te peço só uma coisa hoje: reserve o seu lugar na live. Não custa nada.
 
 Dia 03/11, às 20h, você vê a condição inteira, com as opções de parcelamento, e decide só depois.
 
@@ -320,7 +320,7 @@ Clique em "Saiba mais" e reserve o seu lugar, sem custo.
 1. **Dados usados:** 15% em LEG-RMK-03 é 617 de 4.032 respostas ("tenho medo de comprar e não colocar em prática") na pergunta "o que impede de comprar" do diagnóstico do Desafio (a ficha de interesse deu 12% e o Aulão 8%, mas a natureza da ficha ainda precisa de confirmação, ver `01_PESQUISAS_INSIGHTS.md`, quadro de fontes; por isso a legenda usa o diagnóstico do Desafio). "A resposta mais comum" em LEG-RMK-04 vem do diagnóstico do Desafio (1.040 de 4.032, pergunta sobre o que quase impediu a compra). "A objeção que mais apareceu" em LEG-RMK-05 vem do Aulão (68%) e da ficha (30%).
 2. **Dependências:** `[[FOTO DRA]]`, `[[CONFIRMAR: trilha de entrada apresentada na live]]` (RMK-IMPL-03 e RMK-JA-06), `[[CONFIRMAR: parcelamento anunciado na live]]` (RMK-DIN-01 e LEG-RMK-05), `[[PENDENTE: replay]]` (nenhuma peça afirma nem nega), autorização de imagem para a foto de infância (RMK-DUV-03).
 3. **Peças do Desafio sem equivalente (e por quê):** Ads 3, 6, 7, 13 e 15 do Desafio ("lugares sumindo", "lote pode virar", preço do ingresso) dependiam de preço e de escassez que não existe na captação da Black. Ads 10, 12 e 14 (âncora da mentoria individual, garantia, bônus) ficam para as peças pós-live, em `vendas_vitalicia.md`.
-4. **Testes sugeridos:** (a) RMK-IMPL-01 contra RMK-JA-01, para saber qual das duas objeções responde melhor; (b) RMK-VOLT-01 como controle em R1; (c) com foto da Dra. contra sem foto (RMK-IMPL-04 e RMK-IMPL-02).
+4. **Testes sugeridos:** teste 1, RMK-IMPL-01 contra RMK-JA-01, para saber qual das duas objeções responde melhor; teste 2, RMK-VOLT-01 como controle em R1; teste 3, com foto da Dra. contra sem foto (RMK-IMPL-04 e RMK-IMPL-02).
 5. **UTMs:** `utm_content` com o ID (ex.: RMK-IMPL-01) e `utm_term` com a camada (R1 a R4).
 6. **Frequência:** limitar a 3 impressões por dia por pessoa. Trocar o criativo de cada camada a cada 5 dias para evitar fadiga.
 7. **Destino e CTA:** todos os anúncios levam à mesma página de captura; os botões "Reservar meu lugar", "Concluir meu cadastro" e "Descobrir meu padrão" correspondem ao botão do formulário da página ("Quero descobrir meu padrão e entrar na live"). No Meta Ads usar o botão nativo "Saiba mais" ou "Cadastre-se".

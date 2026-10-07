@@ -46,8 +46,9 @@ Estado 2, 03/11 até 17h:
 Estado 3, 03/11, 17h às 20h:
 `Começa em {{minutos}}min {{segundos}}s. Reserve seu lugar agora`
 
-Estado 4, depois das 20h:
-`A live já começou. [[LINK: página da live]]`
+Estado 4, das 20h até o fim da live (depois, a captura vira lista de espera):
+`A live já começou. [[LINK: live YouTube | pagina | cap-b-b00]]`
+Leva para: a transmissão da live no YouTube.
 
 ---
 
@@ -84,6 +85,7 @@ Título: `Reserve seu lugar na live`
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: a página de obrigado e diagnóstico, depois de enviar o formulário. [[LINK: obrigado e diagnóstico | pagina | cap-b-b01]]
 
 **Estado enviando**
 `Reservando seu lugar...`
@@ -92,7 +94,7 @@ Título: `Reserve seu lugar na live`
 `Gratuito. Sem compromisso de compra. Só a confirmação do seu lugar.`
 
 **Consentimento**
-`Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
+`Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: privacidade | pagina | cap-b-b01]]
 
 ### Headlines testáveis
 
@@ -101,7 +103,7 @@ Título: `Reserve seu lugar na live`
 | **B0 (principal)** | A última vez que você vai precisar recomeçar. | Frase-guia do briefing | Aprovada, testar primeiro |
 | B1 | O Clube Secreto e tudo o que a Dra. Próton já criou, para sempre, por um pagamento único. | Correção da headline publicada | Aprovada com `[[CONFIRMAR: catálogo]]` |
 | B2 | A última chance que a autossabotagem vai ter de decidir por você. | Alternativa do briefing | Aprovada. Cuidado: não prometer que acaba |
-| B3 | Dia 03/11: a última vez que você entra, e a primeira vez que não precisa sair. | Alternativa do briefing | Aprovada. Verificar se "última vez que você entra" soa como porta que se fecha (ver nota 2) |
+| B3 | Dia 03/11: a primeira vez que você entra sem ter de sair de novo. | Alternativa do briefing, reescrita para não soar como porta que se fecha | Aprovada (ver nota 2) |
 | B4 | Pare de comprar curso com medo de deixar de lado. | Variação em teste do briefing | Aprovada. Fala com quem já comprou e não implementou |
 | B5 | Você já provou que sabe começar. Falta uma decisão que você só precise tomar uma vez. | 00, "confortável querendo mais" | Aprovada. Boa para quem já tem renda |
 
@@ -171,6 +173,7 @@ Título: `O que a Vitalícia coloca na sua mão, de uma vez só`
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 **Função:** é a única peça de captura que lista o catálogo. Só vale em B (consciência 4 a 5). Em A, o catálogo não aparece.
 
@@ -204,6 +207,7 @@ Título: `Três motivos, sem enrolação`
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 ---
 
@@ -217,7 +221,8 @@ Título: `Não importa qual é o seu diagnóstico`
 
 Cinco chips (iguais aos da captura A).
 
-`Se você ainda não sabe qual é o seu, faça o diagnóstico depois de reservar o lugar. [[LINK: diagnóstico]]`
+`Se você ainda não sabe qual é o seu, faça o diagnóstico depois de reservar o lugar.`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O diagnóstico abre na página de obrigado e diagnóstico, depois do envio.
 
 **Compliance:** "trabalhar o seu padrão" é sobre acesso e acompanhamento, não sobre resultado. Não escrever "resolve", "acaba" ou "tratamento".
 
@@ -243,6 +248,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 ---
 
@@ -303,15 +309,15 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 `Tudo o que faz parte da condição é apresentado na live.` `[[PENDENTE: garantia]]`
 
 **Eu já sou aluna do Clube. Muda alguma coisa?**
-`Existe uma página própria para quem já é aluna. [[LINK: captura_C]]`
+`Existe uma página própria para quem já é aluna. [[LINK: captura C | pagina | cap-b-b10]]`
 
 **Eu já fiz o Desafio ou a Imersão. Muda alguma coisa?**
-`Existe uma página própria. [[LINK: captura_D]]`
+`Existe uma página própria. [[LINK: captura D | pagina | cap-b-b10]]`
 
 **Preciso estar ao vivo?** `[[PENDENTE: replay]]`
 
 **Hoje o dinheiro está apertado. Vale a pena?**
-`Vale ouvir a live, que é gratuita. Se o momento não for esse, tudo bem: eu prefiro que você entre quando fizer sentido. Se quiser, deixe seu nome na lista de espera. [[LINK: lista_de_espera]]`
+`Vale ouvir a live, que é gratuita. Se o momento não for esse, tudo bem: eu prefiro que você entre quando fizer sentido. Se quiser, deixe seu nome na lista de espera. [[LINK: lista de espera | pagina | cap-b-b10]]`
 
 ---
 
@@ -321,18 +327,33 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 `A última vez que você vai precisar recomeçar.`
 
 **Botão:** `QUERO MEU LUGAR NA LIVE`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 **Microcopy:** `Gratuito. Sem compromisso de compra.`
 
-**Rodapé:** igual ao da captura A.
+**Rodapé:** igual ao da captura A: [[LINK: privacidade | pagina | cap-b-b11]] · [[LINK: termos | pagina | cap-b-b11]]
 
 ---
 
 ## Notas ao implementador
 
 1. **Pendências que bloqueiam:** `[[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]`, `[[CONFIRMAR: comparação com mensalidade]]`, `[[PENDENTE: replay]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
-2. **Sobre B3:** "a última vez que você entra" é a alternativa do briefing e é aprovada, mas pode ser lida como porta que se fecha. Se rodar, manter logo abaixo a frase "esta condição não se repete. O que vier depois é outra oferta". Se o time de compliance não aprovar, dropar B3.
+2. **Sobre B3:** a versão original do briefing dizia "a última vez que você entra", que pode ser lida como porta que se fecha. Foi reescrita para "a primeira vez que você entra sem ter de sair de novo". Se rodar, manter logo abaixo a frase "esta condição não se repete. O que vier depois é outra oferta". Se o time de compliance não aprovar, dropar B3.
 3. **Testes A/B sugeridos:** (1) B0 contra B1 contra B4; (2) bloco 03 (catálogo sem preço) contra sem bloco 03 (mede se mostrar o catálogo antes da live tira ou traz lead); (3) botão BT1 contra BT3.
 4. **Roteamento:** a captura B é a destino do remarketing e da lista de interesse. A mesma URL base com UTM por segmento (`utm_content=ficha-quente`, `utm_content=seguidor-longo`, `utm_content=desafio`). Se o e-mail já existe na base de alunas do Clube, redirecionar para `captura_C`.
 5. **Dependências:** `obrigado_e_pesquisa.md` (mesmo obrigado das demais), `pagina_de_vendas_vitalicia.md` (é onde o catálogo ganha a função de cada produto e o preço), `lista_de_espera.md`.
 6. **Onde o Desafio tinha uma peça e a Black não precisa:** o calendário de 5 noites e o bloco de "bônus do ingresso" não têm equivalente na captura. O catálogo sem preço (bloco 03) é novo e só existe em B.
 7. **Replay `[[PENDENTE: replay]]`:** redação sem replay: "A revelação acontece ao vivo, sem replay." Redação com replay: "A live fica disponível até [[PENDENTE: fechamento]]." Usar uma só, depois da decisão.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| cap-b-b00 | `[[LINK: live YouTube \| pagina \| cap-b-b00]]` | Leva à transmissão quando a tarja entra no estado 4 | Equipe de YouTube |
+| cap-b-b01 | `[[LINK: obrigado e diagnóstico \| pagina \| cap-b-b01]]` | Destino do botão principal e dos botões repetidos (blocos 03, 04, 06 e 11) depois do envio do formulário | Web designer |
+| cap-b-b01 | `[[LINK: privacidade \| pagina \| cap-b-b01]]` | Abre a política de privacidade a partir do consentimento | Jurídico |
+| cap-b-b10 | `[[LINK: captura C \| pagina \| cap-b-b10]]` | FAQ da aluna: leva à captura das alunas | Web designer |
+| cap-b-b10 | `[[LINK: captura D \| pagina \| cap-b-b10]]` | FAQ de quem fez Desafio ou Imersão: leva à captura D | Web designer |
+| cap-b-b10 | `[[LINK: lista de espera \| pagina \| cap-b-b10]]` | FAQ do dinheiro apertado: leva à lista de espera | Web designer |
+| cap-b-b11 | `[[LINK: privacidade \| pagina \| cap-b-b11]]` e `[[LINK: termos \| pagina \| cap-b-b11]]` | Rodapé: política de privacidade e termos de uso | Jurídico |

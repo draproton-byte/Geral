@@ -21,9 +21,10 @@
 - **FRAME 0:** o que está na tela nos primeiros 3 segundos e por que isso para o scroll de quem tem mais de 50 anos.
 - **Consciência e momento de vida:** 1 = não sabe que tem problema; 2 = sabe da dor, não sabe a causa; 3 = sabe a causa, não sabe a solução; 4 = compara soluções; 5 = pronto. "Momento de vida" é rótulo interno de segmentação, nunca vai para o texto do anúncio.
 - **Gênero:** "neutro" = pode rodar para toda a base. Nenhum dos 42 usa adjetivo ou particípio flexionado em gênero para falar com a pessoa.
+- **Link de destino:** uma linha por anúncio, no formato do mapa de links (`16_MAPA_DE_LINKS.md`): captura A em 40 dos 42, captura B em CAP-TRAU-06 e CAP-IDEN-04 (teste de página, ver nota 6). Canal `ads-meta`. Nenhuma URL real é escrita aqui.
 - **Termostato Invisível** aparece explicado em uma frase toda vez que é o centro do anúncio: *o teto de dinheiro que a sua mente aprendeu a aceitar; quando você passa dele, algo puxa de volta.*
 
-**Regras de arte valendo para todos os 42:** fundo liso e escuro (ou claro com texto preto), uma única cor de destaque numa palavra da headline, rosto da Dra. à direita sem cobrir texto `[[FOTO DRA]]`, rodapé fixo com "Live de revelação · 03/11 · 20h · YouTube" em fonte de 32 px ou mais, sem selo de preço, sem contagem regressiva falsa, sem escassez de lugares. Paleta de trabalho provisória (escuro, branco, amarelo): a identidade visual ainda não existe, então nada aqui é definitivo. Acessibilidade: o destaque amarelo nunca carrega sentido sozinho; a palavra destacada também fica maior ou em negrito.
+**Regras de arte valendo para todos os 42:** fundo liso e escuro (ou claro com texto preto), uma única cor de destaque numa palavra da headline, rosto da Dra. à direita sem cobrir texto `[[FOTO DRA]]`, rodapé fixo com "Live de revelação · 03/11 · 20h · YouTube" em fonte de 32 px ou mais, sem selo de preço, sem contagem regressiva falsa, sem escassez de lugares. Paleta de trabalho provisória (escuro, branco, amarelo): a identidade visual ainda não existe, então nada aqui é definitivo. Acessibilidade: o destaque amarelo nunca carrega sentido por si só; a palavra destacada também fica maior ou em negrito.
 
 **Regras de política Meta aplicadas nos 42:** (1) nenhuma imagem de antes e depois, nem de duas versões da mesma pessoa; (2) nenhuma headline afirma uma condição da pessoa ("você está...", "sua ansiedade", "suas dívidas"); o texto fala do padrão em geral, em primeira pessoa da audiência ("Eu sei o que fazer...") ou em pergunta sobre o fenômeno; (3) nenhuma promessa de saúde mental, de tratamento ou de resultado financeiro; (4) o termo "diagnóstico" é o nome do instrumento da página e é apresentado como questionário de autoconhecimento, não clínico `[[CONFIRMAR: nome do instrumento aceito pela conta de anúncios; alternativa: "teste dos 5 padrões"]]`.
 
@@ -51,7 +52,7 @@ Frase da audiência: "Quando entra um dinheiro a mais, aparece uma conta." Dado:
 
 ### CAP-TERM-03
 - **Headline:** Por que o dinheiro some quando entra um extra?
-- **Apoio:** Muita gente procura a resposta no esforço. O Termostato Invisível, o teto de dinheiro que a mente aprendeu a aceitar (passou dele, algo puxa de volta), é outra explicação. Cadastre-se, faça o diagnóstico dos 5 padrões e venha para a live de 03/11, às 20h.
+- **Apoio:** Muita gente busca a resposta no esforço. O Termostato Invisível, o teto de dinheiro que a mente aprendeu a aceitar (passou dele, algo puxa de volta), é outra explicação. Cadastre-se, faça o diagnóstico dos 5 padrões e venha para a live de 03/11, às 20h.
 - **CTA:** Descobrir meu padrão
 - **FRAME 0:** Foto de um extrato bancário desfocado (sem números legíveis), com a headline por cima em letras brancas com contorno escuro. Para o scroll porque o extrato é uma imagem do cotidiano que muita gente evita olhar, e a pergunta dá nome ao que se sente ao abrir o aplicativo do banco.
 - **Perfil / consciência:** Termostato Invisível, nível 2. **Momento de vida:** funcional e exausta, 45+. **Gênero:** neutro.
@@ -67,7 +68,7 @@ Frase da audiência: "Quando entra um dinheiro a mais, aparece uma conta." Dado:
 - **Headline:** Antes de culpar o salário, conheça o Termostato Invisível.
 - **Apoio:** Não é atalho nem promessa de dinheiro: é um trabalho de raiz. O Termostato Invisível é o teto de dinheiro que a mente aprendeu a aceitar; passou dele, algo puxa de volta. A Dra. Próton mostra como mapear isso ao vivo, em 03/11, às 20h.
 - **CTA:** Quero entender
-- **FRAME 0:** "Antes de culpar o salário," em branco, "conheça" em amarelo, e a palavra "Termostato Invisível" em um quadrado branco com letras pretas, como um selo. Para o scroll porque o termo desconhecido gera curiosidade, e a primeira linha tira a culpa do bolso, onde a procura costuma começar.
+- **FRAME 0:** "Antes de culpar o salário," em branco, "conheça" em amarelo, e a palavra "Termostato Invisível" em um quadrado branco com letras pretas, como um selo. Para o scroll porque o termo desconhecido gera curiosidade, e a primeira linha tira a culpa do bolso, onde a busca costuma começar.
 - **Perfil / consciência:** Termostato Invisível, nível 2 a 3. **Momento de vida:** aperto real. **Gênero:** neutro.
 
 ### CAP-TERM-06
@@ -91,10 +92,10 @@ Frase da audiência: "Eu sei o que fazer e não faço." Dados: 22% (Aulão) e 20
 - **Perfil / consciência:** Autossabotagem, nível 2. **Momento de vida:** qualquer, núcleo 45+. **Gênero:** neutro.
 
 ### CAP-AUTO-02
-- **Headline:** Para mais de 1 em cada 4, o maior desafio é se sabotar.
-- **Apoio:** Perguntamos a mais de 7 mil pessoas qual seria o maior problema emocional a resolver. Parar de se sabotar foi escolhido por 27%, logo atrás de confiar mais em si. Você não está só. Live de revelação: 03/11, às 20h.
+- **Headline:** Mais de 1 em cada 4 escolheu: parar de me sabotar.
+- **Apoio:** Perguntamos a mais de 7 mil pessoas qual seria o maior problema emocional a resolver. Parar de se sabotar foi escolhido por 27%, logo atrás de confiar mais em si. É uma resposta que se repete. Live de revelação: 03/11, às 20h.
 - **CTA:** Saiba mais
-- **FRAME 0:** "1 em cada 4" em amarelo gigante, o resto da frase em branco, ícone simples de quatro pessoas com uma destacada. Para o scroll porque o dado deixa de ser uma queixa solitária e vira uma estatística, o que reduz a vergonha e convida ao clique.
+- **FRAME 0:** "Mais de 1 em cada 4" em amarelo gigante, o resto da frase em branco, ícone simples de quatro pessoas com uma destacada. Para o scroll porque o dado deixa de ser uma queixa solitária e vira uma estatística, o que reduz a vergonha e convida ao clique.
 - **Perfil / consciência:** Autossabotagem, nível 2. **Momento de vida:** quem confia pouco em si (36% da ficha). **Gênero:** neutro.
 
 ### CAP-AUTO-03
@@ -105,10 +106,10 @@ Frase da audiência: "Eu sei o que fazer e não faço." Dados: 22% (Aulão) e 20
 - **Perfil / consciência:** Autossabotagem, nível 2 a 3. **Momento de vida:** quem já comprou curso e não aplicou. **Gênero:** neutro.
 
 ### CAP-AUTO-04
-- **Headline:** Começa com tudo. Para no meio. Se cobra depois.
+- **Headline:** Começo com tudo. Paro no meio. Me cobro depois.
 - **Apoio:** Se esse ciclo é familiar, talvez não falte motivação. Talvez falte entender o padrão que o repete. Descubra qual é e veja a revelação ao vivo em 03/11, às 20h.
 - **CTA:** Reservar meu lugar
-- **FRAME 0:** Três linhas curtas empilhadas em tamanho crescente, a terceira em amarelo. Para o scroll porque é uma sequência de três verbos que a pessoa reconhece como a própria biografia, e termina em culpa, o gancho emocional.
+- **FRAME 0:** Duas linhas: "Começo com tudo. Paro no meio." em branco e "Me cobro depois." maior, em amarelo e em negrito. Para o scroll porque é uma sequência de três verbos em primeira pessoa que muita gente reconhece como a própria biografia, e termina em culpa, o gancho emocional.
 - **Perfil / consciência:** Autossabotagem, nível 2. **Momento de vida:** quem recomeça toda segunda. **Gênero:** neutro.
 
 ### CAP-AUTO-05
@@ -135,14 +136,14 @@ Frase da audiência: "Estou funcional, mas exausta por dentro." Dado: 16% da fic
 - **Headline:** Cumpro tudo. E por dentro, nunca é o bastante.
 - **Apoio:** Cumprir tudo, não reclamar de nada e se cobrar o tempo todo é um padrão comum, e padrão se mapeia. Cadastre-se, faça o diagnóstico e venha para a live de 03/11, às 20h.
 - **CTA:** Descobrir meu padrão
-- **FRAME 0:** Uma única foto de uma pessoa de costas diante de uma janela, sem rosto, com a headline em branco sobre faixa escura (nada de imagem dividida ao meio nem de duas versões da mesma pessoa). Para o scroll porque a figura de costas deixa a pessoa se projetar e a frase em primeira pessoa soa como pensamento dela.
+- **FRAME 0:** Uma única foto de uma pessoa de costas diante de uma janela, sem rosto, com a headline em branco sobre faixa preta (nada de imagem dividida ao meio nem de duas versões da mesma pessoa). Para o scroll porque a figura de costas deixa a pessoa se projetar e a frase em primeira pessoa soa como pensamento dela.
 - **Perfil / consciência:** Cobrança, nível 2. **Momento de vida:** funcional e exausta, 45+. **Gênero:** neutro.
 
 ### CAP-COBR-02
 - **Headline:** Cobrar de si mais do que de qualquer pessoa? Tem nome.
 - **Apoio:** Nunca achar que fez o bastante tem nome: Cobrança Que Você Só Faz Com Você, um dos 5 padrões que a Dra. Próton mapeia. Veja se é o seu e participe da live de 03/11, às 20h.
 - **CTA:** Quero entender
-- **FRAME 0:** Fundo escuro, "mais do que de qualquer pessoa" com "qualquer pessoa" em amarelo e um espelho como imagem. Para o scroll porque a comparação com os outros mostra uma injustiça que muita gente reconhece e nunca falou.
+- **FRAME 0:** Fundo escuro, "mais do que de qualquer pessoa" com "qualquer pessoa" em amarelo e uma balança de pratos desiguais, o mais pesado marcado com "eu". Para o scroll porque a comparação com os outros mostra uma injustiça que muita gente reconhece e nunca falou.
 - **Perfil / consciência:** Cobrança, nível 2 a 3. **Momento de vida:** quem cuida de todos. **Gênero:** neutro.
 
 ### CAP-COBR-03
@@ -197,7 +198,7 @@ Frase da audiência: "Sinto que a cada passo que dou, retrocedo." Dados: 14% (fi
 - **Headline:** Quem trava não trava por acaso. Há um roteiro antigo.
 - **Apoio:** Um roteiro repetido desde cedo pode escolher no lugar de quem o segue. Faça o diagnóstico depois do cadastro para ver se esse é o seu padrão e participe da live de 03/11, às 20h.
 - **CTA:** Descobrir meu padrão
-- **FRAME 0:** Um roteiro de teatro (folhas amarelas) com a palavra "antigo" circulada em traço grosso, headline por cima em faixa escura. Para o scroll porque o objeto físico é incomum num feed de anúncios e a palavra "roteiro" muda o problema de falha pessoal para algo que se reescreve.
+- **FRAME 0:** Um roteiro de teatro (folhas amarelas) com a palavra "antigo" circulada em traço grosso, headline por cima em faixa preta. Para o scroll porque o objeto físico é incomum num feed de anúncios e a palavra "roteiro" muda o problema de falha pessoal para algo que se reescreve.
 - **Perfil / consciência:** Traumas, nível 2 a 3. **Momento de vida:** quem se sente travada. **Gênero:** neutro.
 
 ### CAP-TRAU-04
@@ -216,7 +217,7 @@ Frase da audiência: "Sinto que a cada passo que dou, retrocedo." Dados: 14% (fi
 
 ### CAP-TRAU-06
 - **Headline:** O deserto é o que define se uma pessoa explode ou não.
-- **Apoio:** Estar no deserto não é o fim. É o momento em que se decide quem fica. Na live de 03/11, às 20h, a Dra. Próton revela como não fazer esse trecho sozinho. Reserve o seu lugar, sem custo.
+- **Apoio:** Estar no deserto não é o fim. É o momento em que se decide quem fica. Na live de 03/11, às 20h, a Dra. Próton revela o que construiu para atravessar esse trecho. Reserve o seu lugar, sem custo.
 - **CTA:** Reservar meu lugar
 - **FRAME 0:** Foto de deserto ao entardecer, a frase em duas linhas em branco, "explode" em amarelo. Para o scroll porque é a imagem do glossário da base ("o deserto"), reconhecida por quem já assistiu às aulas, e a paisagem destoa do feed.
 - **Perfil / consciência:** Traumas, nível 3 a 4. **Momento de vida:** quem já conhece a Dra. **Gênero:** neutro. **Frase intocável usada:** sim, literal.
@@ -283,17 +284,17 @@ Dado: 40% do Aulão responderam "não sei exatamente o que está me impedindo" (
 - **Perfil / consciência:** Não sabe o que trava, nível 1 a 2. **Momento de vida:** todos. **Gênero:** neutro.
 
 ### CAP-NSEI-02
-- **Headline:** Não precisa saber o que trava. Precisa de um diagnóstico.
+- **Headline:** Dá para descobrir o que trava. Começa por 5 padrões.
 - **Apoio:** Depois do cadastro, em poucos minutos, as respostas do diagnóstico indicam qual dos 5 padrões mais pesa: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem ou Culpa de Querer Mais. Depois, a live de 03/11, às 20h.
 - **CTA:** Descobrir meu padrão
-- **FRAME 0:** "Diagnóstico" em amarelo e em negrito, em letra grande, com cinco ícones pequenos em linha (um por padrão). Para o scroll porque a lista visível de cinco itens promete clareza imediata e a palavra "diagnóstico" funciona como botão.
+- **FRAME 0:** Uma bússola simples, com a agulha entre duas direções, e "descobrir" em amarelo e em negrito. Para o scroll porque a bússola é o objeto universal de orientação e dispensa leitura, o que ajuda a base de 50+.
 - **Perfil / consciência:** Não sabe o que trava, nível 1 a 2. **Momento de vida:** todos. **Gênero:** neutro.
 
 ### CAP-NSEI-03
 - **Headline:** E se o que segura não for o que parece?
 - **Apoio:** Muita gente culpa o dinheiro, o tempo ou a falta de disciplina. O diagnóstico mostra qual dos 5 padrões pode estar por trás. Reserve o seu lugar na live de 03/11, às 20h.
 - **CTA:** Reservar meu lugar
-- **FRAME 0:** Foto de uma mão tentando abrir uma porta com a chave errada, a palavra "parece" em amarelo. Para o scroll porque a imagem de chave errada resume o sentimento de tentativa e erro com um elemento familiar.
+- **FRAME 0:** Foto de um molho de chaves sobre uma mesa, uma delas em amarelo, e um cadeado ao lado; a palavra "parece" em amarelo na headline. Para o scroll porque a chave destacada resume tentativa e erro com um objeto familiar.
 - **Perfil / consciência:** Não sabe o que trava, nível 1. **Momento de vida:** quem tentou várias coisas. **Gênero:** neutro.
 
 ### CAP-NSEI-04
@@ -318,10 +319,10 @@ Para mulheres e homens, sem adjetivo flexionado, em tráfego frio e no público 
 
 ### CAP-NEUT-02
 - **Headline:** Segunda-feira não precisa ser mais um recomeço.
-- **Apoio:** Todo ano tem 52 segundas-feiras. Recomeçar em todas cansa, e cansar não é defeito de quem recomeça. Cadastre-se, faça o diagnóstico e veja a revelação ao vivo em 03/11, às 20h.
+- **Apoio:** Recomeçar toda segunda cansa, e cansar não é defeito de quem recomeça. Cadastre-se, faça o diagnóstico e veja a revelação ao vivo em 03/11, às 20h.
 - **CTA:** Descobrir meu padrão
-- **FRAME 0:** Calendário com 52 quadradinhos, alguns em amarelo com a letra "S" de segunda, e a headline abaixo. Para o scroll porque a grade visual é uma conta que a pessoa faz de cabeça e o número 52 é concreto.
-- **Perfil / consciência:** Qualquer perfil, nível 1 a 2. **Momento de vida:** quem recomeça toda segunda. **Gênero:** neutro. **Nota:** conta aritmética (52 semanas), não é dado de pesquisa.
+- **FRAME 0:** Uma folha de agenda de segunda-feira com a palavra "recomeço" riscada, e a headline abaixo, "não precisa" em amarelo e em negrito. Para o scroll porque a palavra riscada é um gesto familiar e abre a pergunta sobre o que vem em seguida. (O número 52 fica só em AQC-CONTA-03, para não repetir o recurso.)
+- **Perfil / consciência:** Qualquer perfil, nível 1 a 2. **Momento de vida:** quem recomeça toda segunda. **Gênero:** neutro.
 
 ### CAP-NEUT-03
 - **Headline:** Começar nunca foi o difícil. O difícil é ficar.
@@ -334,7 +335,7 @@ Para mulheres e homens, sem adjetivo flexionado, em tráfego frio e no público 
 - **Headline:** Comprar curso e não aplicar não é falta de vontade.
 - **Apoio:** O que costuma faltar é um jeito de ficar. Cadastre-se, faça o diagnóstico e veja na live de 03/11, às 20h, o caminho para parar de recomeçar. Sem custo.
 - **CTA:** Descobrir meu padrão
-- **FRAME 0:** Uma prateleira de livros fechados com um deles destacado em amarelo, headline por cima. Para o scroll porque é a imagem do "comprei e não usei", conhecida de muita gente.
+- **FRAME 0:** Uma única caixa de curso ainda lacrada, em amarelo, sobre uma mesa vazia, headline por cima. Para o scroll porque é a imagem do "comprei e não abri", conhecida de muita gente.
 - **Perfil / consciência:** Qualquer perfil, nível 2 a 3. **Momento de vida:** quem comprou curso e não aplicou (objeção: 14% ficha). **Gênero:** neutro.
 
 ---
@@ -375,11 +376,11 @@ Trabalho contratado: sair de "o que recomeça" para "o que fica". Frase-guia: "A
 
 ## Notas ao implementador
 
-1. **Pendências que bloqueiam a publicação:** `[[FOTO DRA]]` (foto da Dra. ainda é placeholder) e `[[LINK: página de captura com diagnóstico]]`. Sem foto, usar as versões com texto puro (CAP-TERM-01, CAP-AUTO-01, CAP-NSEI-01, CAP-NEUT-01, CAP-IDEN-01 funcionam sem rosto).
+1. **Pendências que bloqueiam a publicação:** `[[FOTO DRA]]` (foto da Dra. ainda é placeholder) e as páginas de captura A e B, que ainda não existem (ver a tabela "Links desta peça" no fim do arquivo). Sem foto, usar as versões com texto puro (CAP-TERM-01, CAP-AUTO-01, CAP-NSEI-01, CAP-NEUT-01, CAP-IDEN-01 funcionam sem rosto).
 2. **Diagnóstico:** o diagnóstico abre na página de obrigado, depois do cadastro (a página de captura tem formulário e botão "Quero descobrir meu padrão e entrar na live"). Por isso nenhum CTA diz "Fazer o diagnóstico" como se a pessoa o fizesse antes de clicar: os botões são "Descobrir meu padrão" e "Reservar meu lugar", e os apoios dizem "cadastre-se e faça o diagnóstico". Se a página mudar e o diagnóstico passar a abrir antes do cadastro, rever os apoios.
 3. **Números usados:** 51,9% (das pessoas que responderam à pesquisa de presença, dossiê do Desafio; nunca "Aulão"), 40% (Aulão, "não sei exatamente o que está me impedindo"), 27% (Aulão, "parar de me sabotar", escrito como "mais de 1 em cada 4"), "mais de 7 mil pessoas" (7.323 do Aulão), 13% (ficha, confortável querendo mais), 36% (ficha, confiar mais em si). Nenhum outro número foi inventado.
 4. **Replay:** nenhum anúncio afirma nem nega replay. Depende de `[[PENDENTE: replay]]`; quando fechar, decidir o que o rodapé diz sobre replay.
 5. **Escassez:** nenhuma peça de captação usa escassez de lugares, porque a live no YouTube não tem limite. "Reservar o lugar" significa fazer o cadastro gratuito para receber o aviso. A urgência é a data (03/11, 20h) e que a condição só é revelada ao vivo.
-6. **Testes A/B sugeridos:** (a) pergunta ("Por que o dinheiro some quando entra um extra?") contra dado ("51,9% disseram..."); (b) headline com número contra headline de frase da audiência; (c) com foto da Dra. contra sem foto (CAP-IDEN-01); (d) CTA "Descobrir meu padrão" contra "Reservar meu lugar" (CAP-NSEI-02).
+6. **Testes A/B sugeridos:** teste 1, pergunta ("Por que o dinheiro some quando entra um extra?") contra dado ("51,9% disseram..."); teste 2, headline com número contra headline de frase da audiência; teste 3, com foto da Dra. contra sem foto (CAP-IDEN-01); teste 4, CTA "Descobrir meu padrão" contra "Reservar meu lugar" (CAP-NSEI-02); teste 5, de página: CAP-IDEN-04 e CAP-TRAU-06 apontam para a captura B (oferta primeiro) e CAP-IDEN-02 e CAP-AUTO-06, que têm o mesmo tipo de frase-senha, para a captura A.
 7. **UTMs:** usar `utm_content` com o ID do anúncio (ex.: `CAP-TERM-01`) para que o relatório mostre o perfil que mais converte. Isso resolve o que faltou no Desafio (UTM vazia).
 8. **Peça do Desafio sem equivalente:** o Ad 4, "70 mil pessoas destravaram a mente", e os Ads 6 e 12 dependiam do preço do ingresso do Desafio. Não foram portados. A prova social de "70 mil alunos em 44 países" entra no remarketing e no aquecimento, onde há mais espaço de texto.

@@ -59,7 +59,7 @@ Notas ao implementador
 - [[CONFIRMAR: o diagnóstico é obrigatório para assistir à live?]] A live é aberta no YouTube; se o diagnóstico não for requisito, trocar "Check-in Obrigatório" por "Check-in".
 - [[PENDENTE: bônus]] de check-in.
 - Links no padrão do mapa: ver a tabela "Links desta peça" ao fim.
-- Confirmar se o campo de descrição do grupo comporta o texto (limite do WhatsApp, [[CONFIRMAR: limite atual]]). O texto tem cerca de 1.900 caracteres.
+- Confirmar se o campo de descrição do grupo comporta o texto (limite do WhatsApp, [[CONFIRMAR: limite atual]]). O texto tem cerca de 1.730 caracteres.
 - Esta descrição é do grupo geral. As descrições dos grupos de alunas do Clube e de quem já viveu o método estão em 05_whatsapp_api/grupos_descricao_e_grupo_cheio.md (seções 2.2 e 2.3).
 
 3. Conflitos entre o modelo e as regras da Dra.

@@ -35,8 +35,9 @@ Estado 2 (03/11 até 17h):
 Estado 3 (03/11, 17h às 20h):
 `Começa em {{minutos}}min {{segundos}}s. Confirme sua presença`
 
-Estado 4 (depois das 20h):
-`A live já começou. [[LINK: página da live]]`
+Estado 4 (das 20h até o fim da live):
+`A live já começou. [[LINK: live YouTube | pagina | cap-c-b00]]`
+Leva para: a transmissão da live no YouTube.
 
 ---
 
@@ -64,6 +65,7 @@ Estado 4 (depois das 20h):
 
 **Botão**
 `CONFIRMAR MINHA PRESENÇA`
+Leva para: a página de obrigado e diagnóstico, na versão aluna, depois de enviar o formulário. [[LINK: obrigado e diagnóstico | pagina | cap-c-b01]]
 
 **Estado enviando**
 `Reconhecendo você...`
@@ -72,7 +74,7 @@ Estado 4 (depois das 20h):
 `Gratuito. Sem compromisso de compra. Só a confirmação do seu lugar na live.`
 
 **Consentimento**
-`Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Usamos o seu e-mail só para reconhecer você como aluna. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
+`Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Usamos o seu e-mail só para reconhecer você como aluna. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: privacidade | pagina | cap-c-b01]]
 
 **Mensagens de erro**
 - E-mail inválido: `Esse e-mail parece incompleto. Confira, por favor.`
@@ -82,7 +84,7 @@ Estado 4 (depois das 20h):
 
 **Mensagens de retorno**
 - E-mail reconhecido como aluna: `Reconheci você. Seu lugar está confirmado e a condição de aluna fica reservada para o seu e-mail.`
-- E-mail não encontrado entre as alunas: `Não encontrei esse e-mail entre as alunas do Clube. Confira se é o e-mail da compra. Se a compra foi com outro e-mail, fale com o suporte. [[LINK: WhatsApp do suporte]] Seu lugar na live fica confirmado de qualquer forma.`
+- E-mail não encontrado entre as alunas: `Não encontrei esse e-mail entre as alunas do Clube. Confira se é o e-mail da compra. Se a compra foi com outro e-mail, fale com o suporte. [[LINK: suporte WhatsApp | pagina | cap-c-b01]] Seu lugar na live fica confirmado de qualquer forma.`
 - Aluna com acesso encerrado: `[[PENDENTE: regra de migração, aluna com o acesso de 365 dias já encerrado]]`
 
 ### Headlines testáveis
@@ -189,6 +191,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 
 **Botão**
 `CONFIRMAR MINHA PRESENÇA`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 ---
 
@@ -224,10 +227,10 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 `O valor é revelado só ao vivo, em 03/11, às 20h. Antes disso, ninguém da equipe fala de preço.`
 
 **Quando eu vejo a minha condição?**
-`Na live, e logo depois ela aparece em uma página exclusiva, para o e-mail da sua compra.` (ver `pagina_cupom_alunas.md`)
+`Na live, e logo depois ela aparece em uma página exclusiva, para o e-mail da sua compra.` (ver `pagina_cupom_alunas.md`) [[LINK: página das alunas | pagina | cap-c-b08]]
 
 **Não estou conseguindo reconhecer meu e-mail.**
-`Fale com o nosso suporte. [[LINK: WhatsApp do suporte]]`
+`Fale com o nosso suporte. [[LINK: suporte WhatsApp | pagina | cap-c-b08]]`
 
 **Preciso estar ao vivo?** `[[PENDENTE: replay]]`
 
@@ -241,9 +244,10 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 `Dia 03/11, às 20h, ao vivo no YouTube.`
 
 **Botão:** `CONFIRMAR MINHA PRESENÇA`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 **Microcopy:** `Gratuito. Sem compromisso de compra.`
 
-**Rodapé:** igual ao das demais páginas.
+**Rodapé:** igual ao das demais páginas: [[LINK: privacidade | pagina | cap-c-b09]] · [[LINK: termos | pagina | cap-c-b09]]
 
 ---
 
@@ -256,3 +260,17 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 5. **Testes A/B:** (1) C0 contra C1 contra C2; (2) bloco 03 acima do bloco 04 contra o contrário; (3) formulário com campo e-mail primeiro contra nome primeiro.
 6. **Dependências:** `pagina_cupom_alunas.md` (pós-live), `obrigado_e_pesquisa.md` (mesmo obrigado, com a pergunta de aluna já marcada), `onboarding_vitalicia.md` (versão aluna).
 7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Desafio não tinha página para "quem já está dentro". Esta é peça nova, com o mecanismo do Clube (365 dias) e o "não resete o que já fez" como diferença central.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| cap-c-b00 | `[[LINK: live YouTube \| pagina \| cap-c-b00]]` | Leva à transmissão quando a tarja entra no estado 4 | Equipe de YouTube |
+| cap-c-b01 | `[[LINK: obrigado e diagnóstico \| pagina \| cap-c-b01]]` | Destino do botão principal e dos repetidos (blocos 06 e 09), na versão aluna, depois do envio | Web designer |
+| cap-c-b01 | `[[LINK: privacidade \| pagina \| cap-c-b01]]` | Abre a política de privacidade a partir do consentimento | Jurídico |
+| cap-c-b01 | `[[LINK: suporte WhatsApp \| pagina \| cap-c-b01]]` | Mensagem de retorno para e-mail não encontrado: abre o suporte | Suporte |
+| cap-c-b08 | `[[LINK: página das alunas \| pagina \| cap-c-b08]]` | FAQ da condição: leva à página própria das alunas (pós-live) | Web designer |
+| cap-c-b08 | `[[LINK: suporte WhatsApp \| pagina \| cap-c-b08]]` | FAQ do e-mail não reconhecido: abre o suporte | Suporte |
+| cap-c-b09 | `[[LINK: privacidade \| pagina \| cap-c-b09]]` e `[[LINK: termos \| pagina \| cap-c-b09]]` | Rodapé: política de privacidade e termos de uso | Jurídico |

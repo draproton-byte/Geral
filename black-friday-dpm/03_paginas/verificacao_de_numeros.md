@@ -45,7 +45,7 @@ Ajuda: `Digite só os números. Pode ser o número de quem te mandou mensagem.`
 ### Resultado A: número oficial
 
 **Selo (verde)**
-`✅ Este é um número oficial do Instituto Dra. Próton.`
+`✅ Este é um número oficial do Instituto Dra. Próton.` (o sentido está no texto e no ícone; a cor é só apoio)
 
 **Texto**
 `Esse número está na nossa lista de contatos oficiais de {{tipo: suporte / avisos / comercial}}.`
@@ -64,7 +64,7 @@ Ajuda: `Digite só os números. Pode ser o número de quem te mandou mensagem.`
 1. `Não clique em links dessa conversa.`
 2. `Não faça Pix e não digite dados de cartão.`
 3. `Bloqueie e denuncie o número no WhatsApp.`
-4. `Fale com o nosso suporte oficial para confirmar.` [[BOTÃO: FALAR COM O SUPORTE OFICIAL]] [[LINK: WhatsApp do suporte]]
+4. `Fale com o nosso suporte oficial para confirmar.` (botão: FALAR COM O SUPORTE OFICIAL) [[LINK: WhatsApp do suporte]]
 
 ### Resultado C: número digitado errado
 
@@ -89,8 +89,8 @@ Ajuda: `Digite só os números. Pode ser o número de quem te mandou mensagem.`
 2. `Nunca pedimos Pix para chave de pessoa física, nem para número de celular.`
 3. `O pagamento é sempre feito pela nossa página oficial de checkout. Confira se o endereço do link é o nosso. [[CONFIRMAR: domínio oficial do checkout]]`
 4. `Nunca pedimos senha, código de verificação ou foto de documento por mensagem.`
-5. `A Dra. Próton não faz pedido de dinheiro por mensagem direta.`
-6. `Se a mensagem tem urgência exagerada ("só hoje", "última vaga", "responda em 10 minutos") e um link que você não reconhece, desconfie.`
+5. `A Dra. Próton não pede dinheiro por mensagem direta. O nosso comercial só envia o link oficial do checkout, nunca uma chave Pix.` `[[CONFIRMAR: política do comercial 1 a 1]]`
+6. `Se a mensagem tem urgência exagerada ("só hoje", "responda em 10 minutos") e um link que você não reconhece, desconfie.`
 
 **Linha de cuidado**
 `Nosso comercial pode falar com você pelo WhatsApp depois que você se cadastrou. Ele sempre usa um número da nossa lista oficial. Confira antes de responder.`
@@ -111,7 +111,7 @@ Ajuda: `Digite só os números. Pode ser o número de quem te mandou mensagem.`
 `DENUNCIAR UM NÚMERO` [[LINK: formulário de denúncia ou WhatsApp do suporte]]
 
 **Microcopy**
-`Seus dados são usados só para investigar a mensagem.`
+`Seus dados são usados só para investigar a mensagem e ficam com o Instituto Dra. Próton.` [[LINK: Política de Privacidade]]
 
 ---
 

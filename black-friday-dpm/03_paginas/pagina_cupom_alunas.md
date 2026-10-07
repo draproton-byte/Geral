@@ -3,11 +3,11 @@
 **Peça:** Página de cupom ALUNAS (reconhecimento da aluna, condição própria, acesso ao checkout de alunas)
 **Canal:** Página (link enviado só para a lista de alunas por e-mail, WhatsApp e grupos de alunas; também aberta depois da live)
 **Público:** Alunas atuais do Clube Secreto `[[PENDENTE: contagem de alunas]]`
-**Momento:** Antes da live (reconhecimento, sem preço) e depois da live (condição e checkout). A mesma URL, dois estados
+**Momento:** Antes da live (reconhecimento, sem preço), depois da live (condição e checkout) e depois do fechamento (encerrado). A mesma URL, três estados
 **Objetivo:** (antes) confirmar que a aluna foi reconhecida e que a condição dela está reservada; (depois) levar ao checkout de alunas do lote atual sem fricção
 **Consciência:** 4 a 5
 **Trabalho contratado:** "Eu já estou dentro. Falta ficar para sempre."
-**Modelo:** "página de cupom ALUNOS" da BFV/26 (João Pithon), citada em `projetoBF_*` como referência de lista, tag, checkout e ListBoss próprios para alunas. **O conteúdo dessa página não está nos arquivos acessíveis**; a estrutura abaixo foi montada a partir da lógica descrita (lista própria, tag e checkout próprio) e do mecanismo do `pagina_de_vendas_vitalicia.md`. `[[CONFIRMAR: comparar com a página original se a equipe tiver acesso]]`
+**Modelo:** "página de cupom ALUNOS" da BFV/26, citada nos materiais de referência do projeto como exemplo de lista, tag, checkout e ListBoss próprios para alunas. **O conteúdo dessa página não está nos arquivos acessíveis**; a estrutura abaixo foi montada a partir da lógica descrita (lista própria, tag e checkout próprio) e do mecanismo do `pagina_de_vendas_vitalicia.md`. `[[CONFIRMAR: comparar com a página original se a equipe tiver acesso]]`
 **Regra desta peça:** antes da live, **nenhum preço, nenhum desconto, nenhum "você paga menos"**. A condição é "revelada ao vivo". Depois da live, só `[[PREÇO LOTE ALUNAS]]`.
 
 ---
@@ -43,7 +43,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `RECONHECER MINHA CONDIÇÃO DE ALUNA`
 
 **Microcopy**
-`Usamos o seu e-mail só para conferir que você é aluna. Não vamos enviar nada além dos avisos da live.`
+`Usamos o seu e-mail só para conferir que você é aluna. Seus dados ficam com o Instituto Dra. Próton e não são divulgados.` [[LINK: política de privacidade]]
 
 **Erros**
 - E-mail inválido: `Esse e-mail parece incompleto. Confira, por favor.`
@@ -70,7 +70,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 **O que acontece**
 
-1. `Hoje: você confirma sua presença na live.` [[BOTÃO: CONFIRMAR MINHA PRESENÇA]] [[LINK: captura_C]]
+1. `Agora: você confirma sua presença na live.` (botão: CONFIRMAR MINHA PRESENÇA) [[LINK: captura_C]]
 2. `03/11, 20h: a Dra. revela a condição ao vivo no YouTube.` [[LINK: página da live]]
 3. `Depois da live: volte a esta página, e o seu botão de aluna aparece aqui.`
 
@@ -122,11 +122,11 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 `{{nome}}, aqui está a sua condição de aluna do Clube Secreto.`
 
 **Linha de lote**
-`🎟 [[LOTE ATUAL]] · aberto até [[PENDENTE: data do lote]]`
+`🎟 {{lote_atual}} · aberto até [[PENDENTE: data do lote]]`
 
 **Valor**
 `[[PREÇO LOTE ALUNAS: lote atual]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]] no cartão`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_alunas}} no cartão`
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
 
 **Botão**
@@ -135,11 +135,11 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 **Linha sob o botão**
 `Pagamento único · acesso vitalício · [[PENDENTE: garantia]]`
 
-**Tabela de lotes (nota ao implementador: escada do briefing, alunas 1.997 / 2.997 / 3.997)**
+**Tabela de lotes**
 
 | Lote | Valor | Vira em |
 |---|---|---|
-| Lote Especial | [[PREÇO LOTE ALUNAS: Especial]] | `[[PENDENTE: data do lote]]` |
+| Lote Especial `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` | [[PREÇO LOTE ALUNAS: Especial]] | `[[PENDENTE: data do lote]]` |
 | Primeiro Lote | [[PREÇO LOTE ALUNAS: Primeiro Lote]] | `[[PENDENTE: data do lote]]` |
 | Último Lote | [[PREÇO LOTE ALUNAS: Último Lote]] | `[[PENDENTE: fechamento]]` |
 
@@ -212,3 +212,4 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 4. **Testes A/B:** (1) estado 1 com a lista dos 11 produtos contra sem lista; (2) botão "RECONHECER MINHA CONDIÇÃO" contra "VER MINHA CONDIÇÃO".
 5. **Dependências:** `captura_C_alunas_do_clube.md` (origem), `pagina_de_vendas_vitalicia.md` (versão alunas), `lista_de_espera.md`, `05_whatsapp_api` e `06_emails` (disparo segmentado com o link desta página).
 6. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Desafio tinha o Golden Ticket (condição por convite no ingresso), mas não uma página de reconhecimento de aluna. Peça nova, modelada na BFV/26.
+7. **Escada do briefing (só para quem implementa):** alunas 1.997 / 2.997 / 3.997, sempre R$ 1.000 abaixo das não-alunas em cada lote. Nunca no texto da página antes da live.

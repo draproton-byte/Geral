@@ -232,7 +232,7 @@ Título: `O que entra na Black Próton Vitalícia`
 
 | # | Produto | Função em uma linha | Dor a que responde |
 |---|---|---|---|
-| 1 | **Fórmula da Riqueza** | Trabalha a relação com a riqueza. `[[CONFIRMAR: descrição oficial]]` | "Remo, remo e não saio do lugar." (Termostato Invisível) |
+| 1 | **Fórmula da Riqueza** | Trabalha a relação com a riqueza. `[[CONFIRMAR: descrição oficial]]` | "Quando entra um dinheiro a mais, aparece uma conta." (Termostato Invisível) |
 | 2 | **Workshop Terapeuta de Elite** | Para quem quer transformar o que aprendeu em caminho para atender outras pessoas. `[[CONFIRMAR: descrição oficial]]` | "Por que eu tenho tantas habilidades e não saio do lugar?" |
 | 3 | **Os 3 Áudios de Reprogramação** | Três áudios de reprogramação mental para ouvir no seu tempo. `[[CONFIRMAR: descrição oficial]]` | "Eu sei o que fazer e não faço" (Autossabotagem) |
 | 4 | **Código de Ativação Próton** | Uma prática de ativação do método. `[[CONFIRMAR: descrição oficial]]` | "Ter clareza do caminho a seguir e confiar em mim." |

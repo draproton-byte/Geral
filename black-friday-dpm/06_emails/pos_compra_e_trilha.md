@@ -13,16 +13,24 @@
 
 **Variáveis.** `{{nome}}`, `{{link_area_membros}}`, `{{link_suporte}}`, `{{link_grupo_alunas}}`, `{{link_formulario_depoimento}}`, `{{link_nps}}`, `{{link_indicacao}}`.
 
+**Um botão por e-mail.** Links soltos no texto (suporte) são visíveis, não botão.
+
+**Legibilidade e acessibilidade (vale para todos os e-mails deste arquivo).** Texto simples, fonte de pelo menos 16 px, entrelinha 1,5, contraste alto (40% da base tem mais de 50 anos). Botão de texto, nunca imagem, com o endereço do link escrito por extenso abaixo. Imagem ou logo, se houver, com texto alternativo descritivo. Nada depende de cor ou de emoji. Assunto até 50 caracteres.
+
+**Gênero.** Quem já comprou aceita o feminino.
+
+**Compliance.** Nenhum e-mail promete resultado financeiro, cura ou fim da autossabotagem, e nenhum culpa quem pede reembolso ou não começou.
+
 **O risco que esta sequência trata.** A estratégia identifica que o risco novo da oferta é o excesso: 11 produtos de uma vez podem virar o "comprei e não implementei" que 12% da ficha e 8% do Aulão já temem. A trilha de entrada é a resposta, e a sequência existe para a pessoa não ficar sozinha no silêncio depois da compra.
 
-**Estrutura da trilha (a validar com a equipe de conteúdo).** A ordem exata ainda não existe (`[[PENDENTE: ordem de entrada]]`). Para os e-mails poderem ser escritos, a estrutura abaixo usa só fatos conhecidos (o Clube começa por reprogramações de 20 minutos no celular, o primeiro ciclo é de 21 dias) e deixa as demais posições abertas:
+**Estrutura da trilha (a validar com a equipe de conteúdo).** A ordem exata ainda não existe (`[[CONFIRMAR: ordem de entrada]]`). Para os e-mails poderem ser escritos, a estrutura abaixo usa só fatos conhecidos (o Clube começa por reprogramações de 20 minutos no celular, o primeiro ciclo é de 21 dias) e deixa as demais posições abertas:
 
 | Etapa | Quando | O que é | Fonte |
 |---|---|---|---|
 | Entrada | D0 a D2 | Acessar a Área de Membros, assistir à boas-vindas, fazer a primeira reprogramação do Clube (20 minutos) | Fato conhecido do Clube |
-| Primeira semana | D3 a D7 | `[[PENDENTE: produto de entrada 1]]` | A definir |
-| Segunda semana | D8 a D14 | `[[PENDENTE: produto de entrada 2]]` | A definir |
-| Terceira semana | D15 a D21 | `[[PENDENTE: produto de entrada 3]]`, e fechar o primeiro ciclo | A definir |
+| Primeira semana | D3 a D7 | `[[CONFIRMAR: produto de entrada 1]]` | A definir |
+| Segunda semana | D8 a D14 | `[[CONFIRMAR: produto de entrada 2]]` | A definir |
+| Terceira semana | D15 a D21 | `[[CONFIRMAR: produto de entrada 3]]`, e fechar o primeiro ciclo | A definir |
 | Depois | D22 em diante | Os demais produtos, no ritmo da pessoa, sem prazo | Oferta vitalícia |
 
 ---
@@ -32,9 +40,7 @@
 **Assunto:** {{nome}}, você acabou de fazer uma coisa rara
 **Preview:** Você decidiu uma vez. Agora eu cuido do resto com você
 
-{{nome}},
-
-Eu quero te dizer uma coisa antes de qualquer passo, e eu falo sério: eu sei o tamanho do que você acabou de fazer.
+{{nome}}, você acabou de parar de decidir de novo.
 
 Você entrou na Black Próton Vitalícia. Isso quer dizer que parou de decidir de novo, toda segunda-feira, se vale a pena tentar mais uma vez. É a última vez que você precisa recomeçar.
 
@@ -69,12 +75,12 @@ Resposta: você não precisa fazer tudo. Precisa fazer **um passo de cada vez**,
 **Sua trilha de entrada:**
 
 1. **Entrada (hoje e amanhã):** Área de Membros, vídeo de boas-vindas, e a primeira reprogramação do Clube (20 minutos, pelo celular).
-2. **Semana 1:** `[[PENDENTE: produto de entrada 1]]`
-3. **Semana 2:** `[[PENDENTE: produto de entrada 2]]`
-4. **Semana 3:** `[[PENDENTE: produto de entrada 3]]`, e o fechamento do seu primeiro ciclo de 21 dias.
+2. **Semana 1:** `[[CONFIRMAR: produto de entrada 1]]`
+3. **Semana 2:** `[[CONFIRMAR: produto de entrada 2]]`
+4. **Semana 3:** `[[CONFIRMAR: produto de entrada 3]]`, e o fechamento do seu primeiro ciclo de 21 dias.
 5. **Depois:** o resto do catálogo, no seu ritmo. O acesso é vitalício. Não tem mês para perder.
 
-O que eu peço de você: não pule para o produto "mais bonito". Siga a ordem. É ela que mantém o padrão de recomeçar longe.
+O que eu peço de você: não pule para o produto "mais bonito". Siga a ordem. A ordem ajuda a manter o padrão de recomeçar longe.
 
 **Botão:** VER MINHA TRILHA
 {{link_area_membros}}
@@ -96,7 +102,7 @@ Já se passaram dois dias, e é agora que a decisão vira hábito ou vira "depoi
 
 Seu primeiro passo é pequeno, de propósito: a primeira reprogramação do Clube, 20 minutos, pelo celular, na hora que der.
 
-Por que ele importa tanto? Porque é ele que quebra o padrão de "começar depois". Depois que você faz uma vez, a segunda é muito mais fácil.
+Por que ele importa tanto? Porque ajuda a quebrar o hábito de "começar depois". Depois que você faz uma vez, a segunda costuma ficar mais fácil.
 
 **Botão:** FAZER MINHA PRIMEIRA REPROGRAMAÇÃO
 {{link_area_membros}}
@@ -129,7 +135,7 @@ Se tudo certo, ótimo. Se não:
 **Botão:** FALAR COM O SUPORTE
 {{link_suporte}}
 
-Se tem outra coisa pesando (tempo, dúvida, culpa por não ter começado), me responda este e-mail. Eu leio e a equipe responde.
+Se tem outra coisa pesando (o tempo, uma dúvida, o dia corrido), me responda este e-mail. Eu leio e a equipe responde.
 
 Dra. Próton
 
@@ -159,13 +165,13 @@ Obrigada por ter dito sim.
 
 Dra. Próton
 
-P.S. [[PENDENTE: termo de autorização de uso de depoimento no formulário]]
+P.S. [[CONFIRMAR: termo de autorização de uso de depoimento no formulário]]
 
 ---
 
 ## PC-D14. Pedido de indicação, sem pressão
 
-**Assunto:** Se tem alguém que você gostaria de ver recomeçar menos
+**Assunto:** Alguém que você gostaria de ver recomeçar menos
 **Preview:** Um convite, sem nenhuma obrigação
 
 {{nome}},
@@ -177,13 +183,13 @@ Eu queria te fazer um convite que não tem a menor obrigação: pensa em alguém
 Se você sentir que faz sentido, conte a ela que existe esse caminho. Pode ser só mandando este link:
 {{link_indicacao}}
 
-Não precisa. Não existe meta, não existe ranking. Eu só sei que as maiores mudanças que vi nas pessoas começaram quando alguém que elas amavam disse: "olha, eu estou fazendo isso, e está me fazendo bem".
+Não precisa. Não existe meta, não existe ranking. Às vezes, o que faz alguém começar é ouvir de quem ama: "olha, eu estou fazendo isso, e está me fazendo bem".
 
 Se não for o momento, tudo bem também.
 
 Dra. Próton
 
-P.S. `[[PENDENTE: existe benefício de indicação? Se existir, descrever aqui. Se não, manter o convite sem benefício]]`
+P.S. `[[CONFIRMAR: existe benefício de indicação? Se existir, descrever aqui. Se não, manter o convite sem benefício]]`
 
 ---
 
@@ -194,7 +200,7 @@ P.S. `[[PENDENTE: existe benefício de indicação? Se existir, descrever aqui. 
 
 {{nome}},
 
-Hoje fecham 21 dias desde que você entrou. É o tamanho de um ciclo do Clube. É o tempo de um primeiro ciclo.
+Hoje fecham 21 dias desde que você entrou, o tamanho de um ciclo do Clube.
 
 Eu não vou te dizer o que deveria ter mudado. Quero que você olhe para o que mudou de verdade.
 
@@ -206,8 +212,10 @@ Pegue um caderno e responda:
 
 Não existe resposta errada. Existe resposta honesta.
 
-E eu queria muito ouvir o que você respondeu. Se quiser compartilhar, é por aqui:
-**Botão:** DIZER COMO FOI → {{link_nps}}
+E eu queria muito ouvir o que você respondeu. Se quiser compartilhar, é por aqui.
+
+**Botão:** DIZER COMO FOI
+{{link_nps}}
 
 O acesso é vitalício. Seu próximo ciclo começa quando você quiser, e nunca precisa começar do zero.
 

@@ -34,8 +34,8 @@
 ### VID-01 | "Quantas vezes você já recomeçou?" | 30 s | Dra. direto para a câmera | Captação | Consciência 1 a 2
 - **Gancho (0 a 3 s, 5 palavras):** Dra. em close, olhando para a câmera: "Quantas vezes você já recomeçou?" Pausa de meio segundo. Texto na tela, igual à fala, já no frame 0.
 - **Desenvolvimento:**
-  - 3 a 10 s (7 s, 16 palavras): "Na segunda, no ano novo, depois do último curso: começa com tudo e volta ao mesmo lugar."
-  - 10 a 17 s (7 s, 16 palavras): "Perguntei a mais de sete mil pessoas o que as trava. Quarenta por cento disseram: não sei exatamente."
+  - 3 a 10 s (7 s, 17 palavras): "Na segunda, no ano novo, depois do último curso: começa com tudo e volta ao mesmo lugar."
+  - 10 a 17 s (7 s, 16 palavras): "Perguntei a mais de sete mil pessoas o que as trava. Quarenta por cento não sabem."
   - 17 a 24 s (7 s, 17 palavras): "Não é preguiça. É um padrão, e ele tem nome. São cinco. O diagnóstico mostra o seu."
 - **CTA (24 a 30 s, 6 s, 15 palavras):** "Dia três de novembro, às oito da noite, no YouTube. Cadastro no link, sem custo."
 - **Texto na tela:** "Quantas vezes você já recomeçou?" (0 a 3 s) → "40% não sabem o que trava (pesquisa com mais de 7 mil pessoas)" (10 a 17 s) → "5 padrões" (17 a 24 s) → "03/11 · 20h · ao vivo · sem custo" (24 a 30 s).
@@ -48,7 +48,7 @@
 - **Gancho (0 a 3 s, 6 palavras):** Dra. segura um termostato de parede real (ou uma foto grande dele): "Entrou um extra, apareceu uma conta?" Texto igual na tela.
 - **Desenvolvimento:**
   - 3 a 11 s (8 s, 19 palavras): "Mais da metade de quem respondeu à minha pesquisa de presença disse que isso acontece. Tem nome: Termostato Invisível."
-  - 11 a 23 s (12 s, 29 palavras): "Um termostato não mede o clima. Ele decide a temperatura que você aceita. Com o dinheiro também: a mente aprende um número aceitável, e algo puxa de volta quando passa dele."
+  - 11 a 23 s (12 s, 29 palavras): "Um termostato não mede o clima. Ele decide a temperatura que você aceita. Com o dinheiro, a mente aprende um número aceitável, e algo puxa de volta se passa dele."
   - 23 a 33 s (10 s, 21 palavras): "Não é azar nem preguiça. Trabalhar mais é ligar um aquecedor no quarto: enquanto o termostato não muda, a temperatura volta."
 - **CTA (33 a 40 s, 7 s, 15 palavras):** "Dia três de novembro, às oito da noite, ao vivo no YouTube. Cadastro no link."
 - **Texto na tela:** "Entrou um extra, apareceu uma conta?" → "51,9% das pessoas que responderam à pesquisa de presença disseram sim" → "Termostato Invisível: o teto que a sua mente aceita (é uma analogia)" → "03/11 · 20h · sem custo".
@@ -61,7 +61,7 @@
 - **Gancho (0 a 3 s):** o frame 0 já mostra a frase completa "Não é preguiça." na tela, com o texto inteiro visível desde o primeiro quadro (o efeito de digitação entra só nas frases seguintes).
 - **Desenvolvimento (3 a 15 s):** cada frase fica de 3 a 4 segundos, em tamanho crescente: "Não é falta de esforço." (3 a 7 s) → "É um padrão." (7 a 10 s) → "E padrão tem nome." (10 a 15 s).
 - **CTA (15 a 20 s):** a tela muda de estado e mostra "5 padrões. Qual é o seu?" e, abaixo, "Diagnóstico + live 03/11 · 20h · sem custo".
-- **Texto na tela:** o próprio roteiro (não há fala). Leitura: 20 palavras em 20 s. A palavra "padrão" recebe destaque.
+- **Texto na tela:** o próprio roteiro (não há fala). Leitura: cerca de 26 palavras em 20 s. A palavra "padrão" recebe destaque.
 - **Posição:** frase no centro; CTA no terço inferior, fora da safe zone.
 - **O que gravar:** nada; é motion (After Effects, CapCut ou Canva). Sem trilha ou com um som contínuo grave e baixo, sem letra. Exportar uma versão com contraste invertido para testar leitura.
 - **Entrega ao editor:** textos acima, marca `[[PENDENTE: identidade visual]]`, link com UTM do ID VID-03.
@@ -72,7 +72,7 @@
 - **Desenvolvimento (3 a 24 s):**
   - Esquerda, texto na tela: "Sozinho(a), o padrão de sempre faz parar no meio."
   - Direita, texto na tela: "Ao vivo, você vê o padrão em tempo real, com a Dra. conduzindo."
-  - 3 a 24 s, voz off da Dra. (21 s, 24 palavras): "Descobrir sozinho, o padrão faz você parar no meio. Ao vivo, você vê o padrão em tempo real, comigo conduzindo."
+  - 3 a 24 s, voz off da Dra. (21 s, 20 palavras): "Descobrir sozinho, o padrão faz você parar no meio. Ao vivo, você vê o padrão em tempo real, comigo conduzindo."
 - **CTA (24 a 30 s, 6 s, 14 palavras):** "Cadastre-se pelo botão. Live dia três de novembro, às oito da noite. Sem custo."
 - **Texto na tela:** os dois títulos das colunas e a frase de cada lado; um contador regressivo discreto no canto superior que marca os dias até 03/11 (vira "HOJE" no dia). `[[CONFIRMAR: contador atualizado por arte]]` (uma versão do vídeo por dia de veiculação).
 - **O que gravar:** locução da Dra. em estúdio (áudio limpo), 20 s; plano de apoio da Dra. sorrindo e apontando para a direita. O resto é motion.
@@ -85,7 +85,7 @@
 - **Desenvolvimento (3 a 33 s):** cada padrão fica 6 s: a frase da audiência, o nome do padrão em destaque e um ícone. Voz off:
   1. 3 a 9 s (8 palavras): "Entrou um extra, apareceu uma conta. Termostato Invisível."
   2. 9 a 15 s (9 palavras): "Eu sei o que fazer e não faço. Autossabotagem."
-  3. 15 a 21 s (15 palavras): "Por fora, tudo em dia. Por dentro, no limite. Cobrança Que Você Só Faz Com Você."
+  3. 15 a 21 s (14 palavras): "Por fora, em dia. Por dentro, no limite. Cobrança Que Você Só Faz Com Você."
   4. 21 a 27 s (8 palavras): "A cada passo, retrocedo. Traumas Que Ainda Decidem."
   5. 27 a 33 s (14 palavras): "Eu cuido de todo mundo e ninguém cuida de mim. Culpa de Querer Mais."
 - **CTA (33 a 45 s, 12 s, 27 palavras):** "Faça o diagnóstico e descubra o seu. Dia três de novembro, às oito da noite, eu revelo ao vivo o que construí para quem cansou de recomeçar."
@@ -96,7 +96,7 @@
 
 ### VID-06 | "Curso que ficou pela metade" | 25 s | Dra. direto para a câmera | Remarketing | Consciência 3 a 4
 - **Gancho (0 a 3 s, 5 palavras):** "Curso que ficou pela metade?" (Dra. em close). Texto igual na tela.
-- **Desenvolvimento (3 a 19 s, 16 s, 38 palavras):** "Mais de uma em cada dez pessoas que responderam à minha pesquisa já compraram outros cursos e não tiveram resultado. Às vezes o problema é o que vem depois, quando é preciso ficar. Eu construí um caminho para ficar."
+- **Desenvolvimento (3 a 19 s, 16 s, 39 palavras):** "Mais de uma em cada dez pessoas que responderam à minha pesquisa já compraram outros cursos e não tiveram resultado. Às vezes o problema é o que vem depois, quando é preciso ficar. Eu construí um caminho para ficar."
 - **CTA (19 a 25 s, 6 s, 15 palavras):** "Dia três de novembro, às oito da noite, ao vivo. Cadastro no link, sem custo."
 - **Texto na tela:** "Curso que ficou pela metade?" → "Mais de 1 em cada 10 já comprou outros e não teve resultado (pesquisa com mais de 7 mil pessoas)" → "Ao vivo · 03/11 · 20h".
 - **O que gravar:** mesma luz e cenário do VID-01, para parecer continuidade; plano de detalhe de uma pilha de cursos impressos ou cadernos (3 s) para a abertura.
@@ -105,8 +105,8 @@
 
 ### VID-07 | "É amanhã" | 15 s | Dra. em close, gravação espontânea | Lembrete (02/11, feriado de Finados) | Consciência 4 a 5
 - **Tom:** sóbrio. É segunda-feira, 02/11, feriado de Finados: roupa neutra, voz calma, sem sorriso de festa, sem música.
-- **Gancho (0 a 3 s, 6 palavras):** "Amanhã, às oito da noite, ao vivo." Texto igual na tela.
-- **Desenvolvimento (3 a 11 s, 8 s, 14 palavras):** "A live de revelação é no YouTube. Sem pressa e sem pressão: deixe o aviso combinado."
+- **Gancho (0 a 3 s, 7 palavras):** "Amanhã, às oito da noite, ao vivo." Texto igual na tela.
+- **Desenvolvimento (3 a 11 s, 8 s, 16 palavras):** "A live de revelação é no YouTube. Sem pressa e sem pressão: deixe o aviso combinado."
 - **CTA (11 a 15 s, 4 s, 9 palavras):** "Cadastre-se hoje. Amanhã eu abro tudo o que construí."
 - **Texto na tela:** "É AMANHÃ" (0 a 3 s) → "03/11 · 20h" (3 a 15 s).
 - **O que gravar:** vertical, celular, luz natural, sem retoque: a sensação é de recado, não de produção. Duas tomadas.
@@ -120,7 +120,7 @@
 ### VID-08 | "Virada de lote" | 30 s | Motion com contador, voz off | Escassez | Consciência 5 | Modelo: AD 10 e AD 11 do Desafio
 - **Condição:** só roda com a data do lote confirmada. Se o Lote Especial valer só ao vivo `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`, abrir com "O Primeiro Lote vira em ..." em vez de "O Lote Especial vira em ...".
 - **Gancho (0 a 3 s):** contador regressivo real, já na tela, até `[[PENDENTE: data do lote]]`, com a frase "O Lote Especial vira em [[PENDENTE: data do lote]]". Sem fala nos 3 primeiros segundos.
-- **Desenvolvimento (3 a 24 s):** placar na tela: "Lote atual: [[PREÇO LOTE ALUNAS]]. Próximo lote: [[PREÇO PRÓXIMO LOTE ALUNAS]]." (versão alunas) ou "Lote atual: [[PREÇO LOTE NÃO-ALUNAS]]. Próximo lote: [[PREÇO PRÓXIMO LOTE NÃO-ALUNAS]]." (versão não-alunas). Voz off, 4 a 10 s (6 s, 14 palavras): "Esta condição não se repete. O que vier depois é outra oferta, com outro preço."
+- **Desenvolvimento (3 a 24 s):** placar na tela: "Lote atual: [[PREÇO LOTE ALUNAS]]. Próximo lote: [[PREÇO PRÓXIMO LOTE ALUNAS]]." (versão alunas) ou "Lote atual: [[PREÇO LOTE NÃO-ALUNAS]]. Próximo lote: [[PREÇO PRÓXIMO LOTE NÃO-ALUNAS]]." (versão não-alunas). Voz off, 4 a 10 s (6 s, 15 palavras): "Esta condição não se repete. O que vier depois é outra oferta, com outro preço."
 - **CTA (24 a 30 s, 6 s, 13 palavras):** "Toque no botão e entre no acesso vitalício, antes que o lote vire."
 - **Texto na tela:** o placar e o contador; a data em destaque.
 - **O que gravar:** locução da Dra., 15 s, e a foto dela de apoio. O contador e o placar são motion; produzir 2 versões (alunas e não-alunas), cada uma com um só placeholder de preço.
@@ -132,19 +132,19 @@
 - **Condição:** só pode ser publicado com todos os preços avulsos confirmados e realmente praticados (`[[CONFIRMAR: preços avulsos praticados]]`).
 - **Gancho (0 a 3 s, 7 palavras):** "Fiz a conta de comprar tudo separado." Planilha desenhada na tela, frase igual na tela.
 - **Desenvolvimento:**
-  - 3 a 27 s (24 s, 41 palavras), voz off lendo os 12 itens, um a cada 2 segundos, cada um na tela com `[[PENDENTE: preço avulso]]`: "Clube Secreto. Fórmula da Riqueza. Workshop Terapeuta de Elite. Os três Áudios de Reprogramação. Código de Ativação Próton. Imersão Desbloqueie o Poder da Sua Mente. Desafio A Nova Realidade. Cura da Criança Interior. Instagram Profissional. Destrave o Dinheiro. Cura da Escassez Financeira. Sequências Numéricas de Grabovoi."
+  - 3 a 27 s (24 s, 46 palavras), voz off lendo os 12 itens, um a cada 2 segundos, cada um na tela com `[[PENDENTE: preço avulso]]`: "Clube Secreto. Fórmula da Riqueza. Workshop Terapeuta de Elite. Os três Áudios de Reprogramação. Código de Ativação Próton. Imersão Desbloqueie o Poder da Sua Mente. Desafio A Nova Realidade. Cura da Criança Interior. Instagram Profissional. Destrave o Dinheiro. Cura da Escassez Financeira. Sequências Numéricas de Grabovoi."
   - 27 a 31 s: na tela, o total `[[PENDENTE: soma dos preços avulsos]]` com menos peso e riscado; sem fala.
-  - 31 a 38 s (7 s, 17 palavras), voz off: "Tudo isso em acesso vitalício, em um pagamento único. E tem outra conta: mais um ano no mesmo lugar." Na tela: o preço do lote, "[[PREÇO LOTE ALUNAS]]" (versão alunas) ou "[[PREÇO LOTE NÃO-ALUNAS]]" (versão não-alunas), em destaque.
-- **CTA (38 a 45 s, 7 s, 15 palavras):** "Toque no botão e veja a condição. Parcelas: [[CONFIRMAR: nº de parcelas e valor]]."
+  - 31 a 38 s (7 s, 16 palavras), voz off: "Tudo isso em acesso vitalício, em pagamento único. E tem outra conta: mais um ano igual." Na tela: o preço do lote, "[[PREÇO LOTE ALUNAS]]" (versão alunas) ou "[[PREÇO LOTE NÃO-ALUNAS]]" (versão não-alunas), em destaque.
+- **CTA (38 a 45 s, 7 s, 12 palavras, contando o placeholder como 4 falados):** "Toque no botão e veja a condição. Parcelas: [[CONFIRMAR: nº de parcelas e valor]]."
 - **Texto na tela:** a lista, o total riscado e o preço do lote.
 - **O que gravar:** locução da Dra. em estúdio, ritmo de quem faz uma conta (pausas entre itens). Tela de planilha em motion; estilo a definir.
 - **Entrega ao editor:** locução, lista dos 12 itens, preços avulsos, marca `[[PENDENTE: identidade visual]]`, link do checkout `[[LINK: checkout por lote e segmento]]`.
 - **Legenda:** LEG-VIT-02.
 
 ### VID-10 | "A última vez que você precisa recomeçar" | 30 s | Dra. direto para a câmera | Venda | Consciência 4 a 5
-- **Gancho (0 a 3 s, 8 palavras):** "A última vez que você vai precisar recomeçar." (Dra., em close, tom firme). A frase completa está na tela no frame 0; a fala termina em cerca de 3,2 s.
-- **Desenvolvimento (3 a 23 s, 20 s, 46 palavras):** "Em trezentos e sessenta e cinco dias passam cinquenta e duas semanas. Dá para passar por elas recomeçando, como nas últimas, ou decidir uma vez. Eu não prometo resultado. O que muda é o acesso: sem prazo, e com um lugar para ficar."
-- **CTA (23 a 30 s, 7 s, 17 palavras):** "Aberto até [[PENDENTE: data do lote]]. Esta condição não se repete. Toque no botão e decida."
+- **Gancho (0 a 3,2 s, 8 palavras):** "A última vez que você vai precisar recomeçar." (Dra., em close, tom firme). A frase completa está na tela no frame 0; a fala termina em 3,2 s, a única exceção ao limite de 3 s, porque a frase-guia não pode ser cortada.
+- **Desenvolvimento (3 a 23 s, 20 s, 43 palavras):** "Em trezentos e sessenta e cinco dias passam cinquenta e duas semanas. Dá para passar por elas recomeçando, como nas últimas, ou decidir uma vez. Eu não prometo resultado. O que muda é o acesso: sem prazo, e com um lugar para ficar."
+- **CTA (23 a 30 s, 7 s, 16 palavras, contando o placeholder como 4 falados):** "Aberto até [[PENDENTE: data do lote]]. Esta condição não se repete. Toque no botão e decida."
 - **Texto na tela:** "A última vez que você vai precisar recomeçar" → "365 dias · 52 semanas" → "Esta condição não se repete".
 - **O que gravar:** plano fechado com a Dra. em pé, câmera um pouco abaixo da linha dos olhos (autoridade sem arrogância), fundo desfocado. Duas tomadas: uma firme, uma acolhedora.
 - **Entrega ao editor:** vídeo bruto, `[[FOTO DRA]]`, marca `[[PENDENTE: identidade visual]]`, data do lote, link do checkout `[[LINK: checkout por lote e segmento]]`.

@@ -25,7 +25,7 @@
 `Bem-vinda(o) à Black Próton Vitalícia da Dra. Próton. A partir de agora você não precisa recomeçar de novo. Sem prazo para dar conta e sem o mês que você perdeu.`
 
 **Linha de contexto**
-`O Clube Secreto e os 11 produtos do catálogo atual são seus, para sempre. Mas você não precisa abrir tudo agora. Siga os passos abaixo, na ordem, e o resto fica esperando por você.`
+`O Clube Secreto e os 11 produtos do catálogo atual são seus, com acesso vitalício. Mas você não precisa abrir tudo agora. Siga os passos abaixo, na ordem, e o resto fica esperando por você.`
 
 **Aviso do primeiro passo (destaque)**
 `Seu primeiro passo cabe em 48 horas. É pequeno de propósito.`
@@ -65,7 +65,7 @@
 **Texto**
 `Os avisos do Clube, as aulas ao vivo toda terça e o suporte entre as alunas chegam pelo grupo. Quem não entra perde os avisos, e os avisos são o que ajuda você a não se perder.`
 
-`Lá você vai encontrar centenas de pessoas que decidiram a mesma coisa que você, trocando o que sentem e se apoiando.`
+`Lá você vai encontrar outras pessoas que decidiram a mesma coisa que você, trocando o que sentem e se apoiando.`
 
 **Botão**
 `ENTRAR NO GRUPO DA VITALÍCIA` [[LINK: grupo, por segmento]]
@@ -87,12 +87,12 @@ Bloco central. Destaque visual (caixa), fonte maior.
 **Texto**
 `Eu sei o que costuma acontecer depois de comprar: a empolgação cai, o dia a dia volta, e o produto fica esperando. Eu quero que isso não aconteça com você.`
 
-`Por isso o seu primeiro passo é um só, e cabe em 48 horas:`
+`Por isso o seu primeiro passo tem três partes pequenas, e cabe em 48 horas:`
 
 **Checklist**
 
 - `☐ 1. Fazer o primeiro acesso à Área de Membros.`
-- `☐ 2. Fazer o diagnóstico dos 5 perfis (se ainda não fez) e anotar o seu padrão.` [[BOTÃO: FAZER MEU DIAGNÓSTICO]] [[LINK: diagnóstico]]
+- `☐ 2. Fazer o diagnóstico dos 5 perfis (se ainda não fez) e anotar o seu padrão.` (botão: FAZER MEU DIAGNÓSTICO) [[LINK: diagnóstico]]
 - `☐ 3. [[PENDENTE: primeiro passo do ciclo 1 do Clube: primeira aula/prática]]` `[[CONFIRMAR: qual é o primeiro conteúdo; o 1º ciclo do Clube é o do dinheiro]]`
 
 **Texto de fechamento**
@@ -102,7 +102,7 @@ Bloco central. Destaque visual (caixa), fonte maior.
 `COMEÇAR MEU PRIMEIRO PASSO` [[LINK: primeira aula]]
 
 **Microcopy**
-`Quem dá o primeiro passo em 48 horas tem muito mais chance de continuar.` `[[CONFIRMAR: só afirmar se houver dado interno; se não, trocar por "Dar o primeiro passo cedo ajuda a não deixar esfriar."]]`
+`Dar o primeiro passo cedo ajuda a não deixar esfriar.`
 
 **Lembrete (e-mail e WhatsApp, 24 horas depois)**
 Ver `06_emails` e `05_whatsapp_api`: mensagem "falta pouco para o seu primeiro passo".
@@ -123,7 +123,7 @@ Ver `06_emails` e `05_whatsapp_api`: mensagem "falta pouco para o seu primeiro p
 `FAZER MEU DIAGNÓSTICO` [[LINK: diagnóstico]]
 
 **Se já fez**
-`Seu padrão mais forte foi {{perfil}}. A trilha abaixo já mostra por onde começar.` [[BOTÃO: REFAZER]]
+`Seu padrão mais forte foi {{perfil}}. A trilha abaixo já mostra por onde começar.` (botão: REFAZER)
 
 **Aviso**
 `O diagnóstico identifica padrões de comportamento. Não é avaliação clínica e não substitui acompanhamento profissional.`
@@ -161,7 +161,7 @@ O Clube e os 11 produtos são seus. Mas ninguém entra em tudo ao mesmo tempo. A
 
 | Seu padrão | Comece a etapa 4 por | Por quê |
 |---|---|---|
-| Termostato Invisível | **Destrave o Dinheiro** | Crenças e bloqueios com dinheiro (386 pessoas apontaram isso na pesquisa de diagnóstico) |
+| Termostato Invisível | **Destrave o Dinheiro** | Crenças e bloqueios com dinheiro, um dos temas mais citados nas pesquisas com a base |
 | Autossabotagem | **Os 3 Áudios de Reprogramação** (já na etapa 3, repetir) | Reprogramação diária sem depender de decidir toda vez |
 | Cobrança Que Você Só Faz Com Você | **Imersão Desbloqueie o Poder da Sua Mente** (rever) | Entender o padrão antes de agir |
 | Traumas Que Ainda Decidem | **Cura da Criança Interior** | É prática de reprogramação com a criança interior. Não substitui terapia, e se algo pesado aparecer, procure um profissional de saúde |
@@ -219,7 +219,7 @@ Versão A (se mantiver os 7 dias do Clube Secreto): `Se, em até 7 dias depois d
 Versão B (outro prazo): `Em até [[PENDENTE: prazo da garantia]] depois da compra, você pode pedir o reembolso, sem justificativa.`
 
 **Como pedir**
-`Fale com o suporte, ou peça direto pela plataforma de pagamento.` [[BOTÃO: PEDIR REEMBOLSO]] [[LINK: suporte]]
+`Fale com o suporte, ou peça direto pela plataforma de pagamento.` (botão: PEDIR REEMBOLSO) [[LINK: suporte]]
 
 **Linha**
 `Mas eu prefiro que você fique. Dê o seu primeiro passo antes de decidir.`
@@ -267,7 +267,7 @@ Versão B (outro prazo): `Em até [[PENDENTE: prazo da garantia]] depois da comp
 ## Bloco 10: Fecho emocional e rodapé
 
 **Fecho**
-`Lembre-se: você não chegou até aqui por acaso. Você decidiu uma vez só. Você não é preguiçosa, não é indisciplinada, não é fraca. Você só estava rodando um padrão antigo.`
+`Lembre-se: você não chegou até aqui por acaso. Você decidiu uma vez só. O que fazia você recomeçar não era falta de força: era um padrão antigo.`
 
 `Eu termino tudo o que eu começo.`
 
@@ -277,7 +277,7 @@ Versão B (outro prazo): `Em até [[PENDENTE: prazo da garantia]] depois da comp
 `Dra. Próton`
 
 **Rodapé**
-`Política de Privacidade · Termos de Uso`
+`[[LINK: Política de Privacidade]] · [[LINK: Termos de Uso]]`
 `Copyright © 2026 Todos os direitos reservados, Instituto Dra. Próton`
 
 ---

@@ -5,19 +5,19 @@
 | **Peça** | Fluxo automatizado de direct do Instagram (@dra.proton) acionado por comentário ou por resposta ao story com palavra-chave. Entrega (1) o diagnóstico dos 5 padrões e (2) o ingresso personalizado da live de 03/11. Inclui resposta pública ao comentário, 4 ramos, mensagens de acompanhamento e a versão pós-live |
 | **Canal** | Instagram Direct via ManyChat, com integração ao formulário de reserva, ao grupo de WhatsApp e à Hotmart |
 | **Público** | Frio e morno que chega por reels, estáticos e stories (consciência 1 a 3). Quem já reservou a vaga volta pelo mesmo fluxo para emitir o ingresso |
-| **Momento** | De 13/10 a 03/11, 20h (pré-live). A partir da abertura do carrinho, o mesmo gatilho muda para a versão de vagas abertas (seção 6) |
+| **Momento** | De 13/10 a 03/11, 20h (pré-live). De 20h até a abertura do link do checkout (previsto 21h28), o gatilho devolve o link da live (MC-BF-D01). A partir da abertura do link, o mesmo gatilho muda para a versão de vagas abertas (seção 6) |
 | **Objetivo** | Transformar um comentário em: reserva da vaga na live, diagnóstico feito, entrada no grupo e ingresso compartilhado nos stories |
 | **Trabalho contratado** | "Dar nome ao padrão" para decidir uma vez. O diagnóstico é a porta de entrada; o ingresso é a prova de presença e a isca de compartilhamento |
 | **Momento de vida** | 79% mulheres, 60% com 45 anos ou mais: mensagens curtas, uma ação por mensagem, botões grandes |
 | **Modelo no Desafio** | fluxo de ingresso do Desafio no ManyChat (palavra-chave INGRESSO, ramo A "ainda não comprou", ramo B "já comprou", presente atrás do story, notas de montagem e disparo por API). Também documento de captação e automação do Desafio (lista de passos de integração) |
 
 **O que mudou em relação ao Desafio.**
-- O Desafio vendia um ingresso de R$ 35. Aqui o ingresso da live é **gratuito**: o Ramo A leva à página de reserva, não ao checkout, e nenhum preço aparece.
+- O Desafio vendia um ingresso pago. Aqui o ingresso da live é **gratuito**: o Ramo A leva à página de reserva, não ao checkout, e nenhum preço aparece.
 - No Desafio o "presente" era o Quiz da Frequência da Vida, entregue só depois do story. Na Black o **diagnóstico** é a entrega principal e vem antes do pedido de story, porque 29% a 40% da base não sabe o que a trava e é pelo diagnóstico que ela entra no funil. O presente de compartilhamento passa a ser `[[CONFIRMAR: presente de compartilhamento]]`.
-- O Desafio usava o contador do lote ("1º lote em R$ 35, sobe para R$ 97") no Ramo A. Aqui não existe lote antes da live. A urgência é a data da live.
+- O Desafio usava o contador do lote (preço do 1º lote e valor de subida) no Ramo A. Aqui não existe lote antes da live. A urgência é a data da live.
 - Acrescentei um terceiro caminho (palavra-chave DIAGNÓSTICO) que entrega o diagnóstico primeiro, e uma pergunta de auto-classificação em 5 botões (porque o ManyChat não lê o resultado do diagnóstico sem integração).
 
-**Regras de forma:** "para" e não "pra". Uma ação por mensagem. Instagram aceita até 3 botões por mensagem e quick replies; o texto de cada mensagem fica abaixo de 640 caracteres `[[CONFIRMAR: limites da plataforma]]`. Links com UTM `manychat` (seção 1).
+**Regras de forma:** "para" e não "pra". Uma ação por mensagem. No Instagram, no máximo 3 botões por mensagem; respostas rápidas (quick replies) aceitam mais opções, como as 5 do resultado do diagnóstico. O texto de cada mensagem fica abaixo de 640 caracteres `[[CONFIRMAR: limites da plataforma]]`. As regras de formato de WhatsApp (linha em branco entre linhas, rodapé SAIR) não se aplicam ao direct do Instagram. Links com UTM `manychat` (seção 1).
 
 ---
 
@@ -58,9 +58,9 @@ Para comentários que não têm a palavra-chave mas pedem o link ("link", "como 
 **MC-BF-01** (mensagem 1)
 
 ```text
-Olá {{nome}}! Chegou a hora de pegar o seu ingresso da live *Black Próton Vitalícia*, com a Dra. Próton: terça, 03/11, às 20h, ao vivo no YouTube.
+{{nome}}, o seu ingresso gratuito da live *Black Próton Vitalícia*, com a Dra. Próton, está pronto para sair: terça, 03/11, às 20h, ao vivo no YouTube.
 
-E ainda ganhar o seu diagnóstico dos 5 padrões que fazem a gente recomeçar. Posso te enviar?
+E você ainda recebe o diagnóstico dos 5 padrões que fazem a gente recomeçar. Posso te enviar?
 ```
 
 Botão: `[ Sim! ]`
@@ -230,7 +230,7 @@ Recebi! 🤍 [[CONFIRMAR: entrega do presente de compartilhamento]]
 **MC-BF-B11** (grupo, obrigatório)
 
 ```text
-Agora só falta uma coisa, e ela é obrigatória: entra no grupo de WhatsApp da live 👇
+Agora falta um passo: entra no grupo de WhatsApp da live, o canal oficial dos avisos 👇
 
 [[LINK: grupo de WhatsApp, por segmento]]
 ```
@@ -238,7 +238,7 @@ Agora só falta uma coisa, e ela é obrigatória: entra no grupo de WhatsApp da 
 **MC-BF-B12**
 
 ```text
-O link da live sai só no grupo. Quem não está no grupo não recebe e fica de fora. Te vejo dia 03/11, às 20h. 🤍
+O grupo é o canal oficial da live: o link e os avisos saem primeiro lá. Te vejo dia 03/11, às 20h. 🤍
 ```
 
 ---
@@ -248,7 +248,7 @@ O link da live sai só no grupo. Quem não está no grupo não recebe e fica de 
 **MC-BF-C01**
 
 ```text
-Oi {{nome}}! Aqui está o seu diagnóstico dos 5 padrões 👇
+{{nome}}, aqui está o seu diagnóstico dos 5 padrões 👇
 
 [[LINK: diagnóstico dos 5 perfis]]
 
@@ -270,7 +270,7 @@ Cada botão envia a mensagem `MC-BF-B08-xx` do perfil, grava a tag e segue para:
 **MC-BF-C03**
 
 ```text
-Agora que você sabe o nome do padrão, quer entender como parar de repetir ele? 
+Agora que você sabe o nome do padrão, quer entender como parar de repetir ele?
 
 No dia 03/11, às 20h, eu faço isso ao vivo, e mostro o que construí para você não precisar recomeçar. Quer reservar a sua vaga?
 ```
@@ -279,9 +279,19 @@ Botão: `[ Quero reservar ]` (volta para MC-BF-02)
 
 ---
 
-## 6. Versão pós-live (a partir da abertura do carrinho, 03/11, 20h)
+## 6. Versão pós-live (a partir da abertura do link do checkout, 03/11, previsto 21h28)
 
-O gatilho é o mesmo, mas uma condição por data muda o fluxo. Pessoas com a tag `bf_aluna` recebem o preço de alunas; as demais, o de não-alunas (match por e-mail ou telefone com a Hotmart, como na nota de integração do Desafio).
+O gatilho é o mesmo, mas uma condição por horário muda o fluxo. Pessoas com a tag `bf_aluna` recebem a MC-BF-V01-A (preço de alunas); as demais, a MC-BF-V01 (preço de não-alunas), com match por e-mail ou telefone com a Hotmart, como na nota de integração do Desafio. Entre 20h e a abertura do link, vale a MC-BF-D01.
+
+**MC-BF-D01** (durante a live, antes de o link do checkout abrir)
+
+```text
+{{nome}}, a live já está no ar. 🔴
+
+Entra agora pelo link:
+
+[[LINK: live no YouTube, 03/11]]
+```
 
 **MC-BF-V01** (todos, palavra-chave VITALÍCIA depois da abertura)
 
@@ -290,7 +300,19 @@ Olá {{nome}}! A condição da *Black Próton Vitalícia* foi revelada ao vivo e
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
-🏷️ *{{lote_atual}}:* [[PREÇO LOTE NÃO-ALUNAS]] (alunas: [[PREÇO LOTE ALUNAS]]) [[CONFIRMAR: parcelamento]]
+🏷️ *{{lote_atual}}:* [[PREÇO LOTE NÃO-ALUNAS]] [[CONFIRMAR: parcelamento]]
+
+⏳ Vale até {{data_virada}}.
+```
+
+**MC-BF-V01-A** (mesma mensagem, tag `bf_aluna`)
+
+```text
+{{nome}}, a condição da *Black Próton Vitalícia* para alunas do Clube foi revelada ao vivo e está aberta. 🔓
+
+*Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
+
+🏷️ *{{lote_atual}} para alunas:* [[PREÇO LOTE ALUNAS]] [[CONFIRMAR: parcelamento]]
 
 ⏳ Vale até {{data_virada}}.
 ```
@@ -306,7 +328,9 @@ Olá {{nome}}! A condição da *Black Próton Vitalícia* foi revelada ao vivo e
 **MC-BF-V03**
 
 ```text
-Ficou com dúvida? Me conta por aqui, ou fala direto com o suporte: [[LINK: suporte WhatsApp]]
+Ficou com dúvida? Me conta por aqui, ou fala direto com o suporte:
+
+[[LINK: suporte WhatsApp]]
 ```
 
 ---
@@ -343,7 +367,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 **MC-BF-L04**
 
 ```text
-{{nome}}, falta o grupo para você receber o link da live. Entra aqui 👇
+{{nome}}, falta o grupo para você receber os avisos da live em primeira mão. Entra aqui 👇
 
 [[LINK: grupo de WhatsApp, por segmento]]
 ```
@@ -357,7 +381,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 | Reservou a vaga | Entra a API de onboarding (`api_onboarding.md`) |
 | Fez o diagnóstico e se auto-classificou | Tag do perfil entra no ListBoss/DataCrazy, e a API de quiz pós-live usa o perfil (`convite_vip_alunas_e_quiz.md`, API-BF-06.2) |
 | Postou o ingresso | Resposta manual ou automática com o presente `[[PENDENTE]]` |
-| Chegou 03/11, 20h | O fluxo muda para a versão pós-live (seção 6) |
+| Chegou 03/11, 20h | O fluxo devolve o link da live (MC-BF-D01) e, quando o link do checkout abrir, muda para a versão pós-live (seção 6) |
 
 ---
 
@@ -365,7 +389,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 
 | Peça do Desafio | Decisão | Motivo |
 |---|---|---|
-| MSG 5 do Ramo A com lote e checkout de R$ 35 | Trocada pela página de reserva (gratuita) | Não há preço antes da live |
+| MSG 5 do Ramo A com lote e checkout do ingresso pago | Trocada pela página de reserva (gratuita) | Não há preço antes da live |
 | Presente = Quiz da Frequência da Vida atrás do story | Trocado: o diagnóstico é a entrega principal e não fica atrás do story | O diagnóstico é a porta de entrada; o story vira presente extra |
 | MSG 11 "Teste de Bloqueios" exclusiva do Desafio | Substituída pela MC-BF-B06 e B07 | O diagnóstico está no centro do fluxo |
 | Ebook de Grabovoi como presente | **Proibido** | A LP o vende como exclusivo do Clube e a Vitalícia inclui o produto "Sequências Numéricas de Grabovoi": dar de graça quebra a exclusividade |
@@ -380,7 +404,8 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 3. `[[CONFIRMAR: presente de compartilhamento]]`: pode ser o bônus de 15 minutos da live (`08_live_e_pitch`) ou um áudio. Não inventar. Se não existir, apagar MC-BF-B09, B10 e os lembretes L02 e L03 e manter só o ingresso.
 4. Integração Hotmart e formulário de reserva para ManyChat: o Desafio listava "confirmar se já existe integração ou se precisa de middleware (n8n, Make ou Zapier)". O mesmo vale aqui, com o formulário da página de captura no lugar do evento de compra: a tag `bf_reservou` precisa chegar em minutos.
 5. `[[CONFIRMAR: limites de caracteres e de botões do Instagram]]`.
-6. Mensagens após 24 horas da última interação não podem ser enviadas pelo Instagram. Os lembretes da seção 7 respeitam a janela. Para o dia 03/11 usar WhatsApp (grupo e API), não Instagram.
+6. Mensagens após 24 horas da última interação não podem ser enviadas pelo Instagram. Os lembretes da seção 7 respeitam a janela. Para o dia 03/11 usar WhatsApp (grupo e API), não Instagram, exceto as respostas automáticas ao comentário (MC-BF-D01 e V01).
+7. Um ManyChat de WhatsApp (se for usado no lugar do Instagram) precisaria de templates aprovados na Meta. Este fluxo é só de Instagram e não tem template.
 
 **Testes A/B sugeridos**
 1. Palavra-chave VITALÍCIA contra RECOMEÇAR no mesmo criativo, para medir qual gera mais reservas.

@@ -7,14 +7,14 @@
 **Objetivo:** Reafirmar o que ela está comprando e o lote em que está, na hora da decisão final, sem abrir uma nova objeção. Reduz abandono de carrinho
 **Consciência:** 5
 **Trabalho contratado:** "Eu quero ter certeza de que estou decidindo uma vez só"
-**Modelo no Desafio:** "Banner Checkout Desafio" (foto da Dra., título do produto, promessa curta, data e acesso, "De R$ 997,00 por apenas R$ 17,50"). Estrutura mantida: foto + nome + uma linha + datas/acesso + preço
+**Modelo no Desafio:** "Banner Checkout Desafio" (foto da Dra., título do produto, promessa curta, data e acesso, e uma linha de "de/por"). Estrutura mantida: foto + nome + uma linha + datas/acesso + preço
 
 **Regras desta peça**
 - Os preços só entram em peça pós-live (este banner só existe depois da live).
-- "De R$ X por R$ Y" **só** se `[[PENDENTE: preço avulso]]` for um preço real praticado. Sem ele, usar a linha sem "de/por".
+- "De X por Y" **só** se `[[PENDENTE: preço avulso]]` for um preço real praticado. Sem ele, usar a linha sem "de/por".
 - Nenhuma promessa de ganho ou de cura. Nenhum "neurociência descobre".
 - Nenhum "última chance de ter acesso vitalício". Escassez só pelo lote e por "esta condição não se repete".
-- Nota ao implementador (nunca no banner): escada do briefing. Alunas: 1.997 / 2.997 / 3.997. Não-alunas: 2.997 / 3.997 / 4.997.
+- A escada do briefing está só nas Notas ao implementador (nunca no banner).
 
 `[[CONFIRMAR: dimensão e peso do banner aceitos pela plataforma de checkout]]`
 
@@ -52,12 +52,12 @@
 ### Versão 1: Alunas, Lote Especial
 
 **Linha de lote**
-`🎟 Lote Especial para alunas do Clube Secreto · até [[PENDENTE: data do lote]]`
+`🎟 Lote Especial para alunas do Clube Secreto · até [[PENDENTE: data do lote]]` [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
 **Valor**
 `[[SE: existe preço avulso real]]` `De ~[[PENDENTE: soma dos preços avulsos]]~ por apenas` `[[FIM SE]]`
 `[[PREÇO LOTE ALUNAS: Especial]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]]`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_alunas}}`
 
 ### Versão 2: Alunas, Primeiro Lote
 
@@ -67,7 +67,7 @@
 **Valor**
 `[[SE: existe preço avulso real]]` `De ~[[PENDENTE: soma dos preços avulsos]]~ por apenas` `[[FIM SE]]`
 `[[PREÇO LOTE ALUNAS: Primeiro Lote]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]]`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_alunas}}`
 
 ### Versão 3: Alunas, Último Lote
 
@@ -77,7 +77,7 @@
 **Valor**
 `[[SE: existe preço avulso real]]` `De ~[[PENDENTE: soma dos preços avulsos]]~ por apenas` `[[FIM SE]]`
 `[[PREÇO LOTE ALUNAS: Último Lote]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]]`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_alunas}}`
 
 ### Versão 4: Não-alunas, Lote Especial
 
@@ -87,7 +87,7 @@
 **Valor**
 `[[SE: existe preço avulso real]]` `De ~[[PENDENTE: soma dos preços avulsos]]~ por apenas` `[[FIM SE]]`
 `[[PREÇO LOTE NÃO-ALUNAS: Especial]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA NÃO-ALUNAS]]`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_nao_alunas}}`
 
 ### Versão 5: Não-alunas, Primeiro Lote
 
@@ -97,7 +97,7 @@
 **Valor**
 `[[SE: existe preço avulso real]]` `De ~[[PENDENTE: soma dos preços avulsos]]~ por apenas` `[[FIM SE]]`
 `[[PREÇO LOTE NÃO-ALUNAS: Primeiro Lote]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA NÃO-ALUNAS]]`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_nao_alunas}}`
 
 ### Versão 6: Não-alunas, Último Lote
 
@@ -107,7 +107,7 @@
 **Valor**
 `[[SE: existe preço avulso real]]` `De ~[[PENDENTE: soma dos preços avulsos]]~ por apenas` `[[FIM SE]]`
 `[[PREÇO LOTE NÃO-ALUNAS: Último Lote]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA NÃO-ALUNAS]]`
+`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_nao_alunas}}`
 
 ---
 
@@ -116,7 +116,7 @@
 | ID | Linha | Observação |
 |---|---|---|
 | **K0 (principal)** | A última vez que você vai precisar recomeçar. | Frase-guia |
-| K1 | Pague uma vez. Sem renovar. Sem recomeçar. | Fala do mecanismo |
+| K1 | Pague uma vez. Sem prazo. Sem recomeçar. | Fala do mecanismo |
 | K2 | Clube Secreto e tudo o que a Dra. Próton já criou, para sempre. | Correção de "todas as Imersões". `[[CONFIRMAR: catálogo]]` |
 | K3 | Uma decisão que você só precisa tomar uma vez. | Trabalho contratado |
 | K4 | Sem prazo para dar conta. | Responde "medo de não implementar" |
@@ -131,7 +131,7 @@
 **Resumo**
 `Black Próton Vitalícia · Clube Secreto + 11 produtos do catálogo atual · pagamento único · acesso vitalício`
 
-**Linha de garantia** `[[PENDENTE: garantia]]`
+**Linha de garantia** `[[PENDENTE: garantia]]` (usar uma só versão, conforme a decisão)
 Versão A (7 dias, se confirmado): `7 dias de garantia. Se não for para você, eu devolvo o seu dinheiro.`
 Versão B: `[[PENDENTE: prazo da garantia]] de garantia.`
 Versão C: `Direito legal de desistência em até 7 dias.` `[[CONFIRMAR: jurídico]]`
@@ -154,7 +154,7 @@ Versão C: `Direito legal de desistência em até 7 dias.` `[[CONFIRMAR: jurídi
 
 - **Pagamento recusado:** `Seu pagamento não foi aprovado. Tente outro cartão ou use o Pix. Você não precisa recomeçar: o lote atual continua aberto.` (alinhado com `06_emails`, evento "compra recusada")
 - **Pix emitido:** `Seu Pix foi gerado. Pague em até [[PENDENTE: prazo do Pix]] para garantir o lote atual.` `[[CONFIRMAR: o Pix mantém o lote até pagar?]]`
-- **Lote virou:** `O lote atual acabou de virar. O novo valor é [[PREÇO]]. Esta condição não se repete.` (**só se o lote realmente virou**, nunca como pressão fabricada)
+- **Lote virou:** `O lote atual acabou de virar. O novo valor é {{preco_novo}}. Esta condição não se repete.` (**só se o lote realmente virou**, nunca como pressão fabricada)
 
 ---
 
@@ -162,7 +162,7 @@ Versão C: `Direito legal de desistência em até 7 dias.` `[[CONFIRMAR: jurídi
 
 1. **Pendências:** `[[FOTO DRA]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: nº de parcelas]]`, `[[PENDENTE: preço avulso]]`, 6 `[[LINK: checkout por lote e segmento]]`, `[[CONFIRMAR: dimensão do banner]]`.
 2. **Troca do banner por lote:** a ferramenta precisa trocar o banner no horário do lote. Preparar os 6 arquivos antes de 03/11 e testar a virada em um checkout de teste.
-3. **"De/por":** no Desafio o banner usava "De R$ 997,00 por apenas R$ 17,50" (o preço "de" não era o preço da página). Na Black, só usar o "de" se existir preço avulso real, sem inflar. Se não existir, apagar a linha.
+3. **"De/por":** no Desafio o banner usava "De R$ 997,00 por apenas R$ 17,50" (o preço "de" não era o preço da página). Na Black, só usar o "de" se existir preço avulso real, sem inflar. Se não existir, apagar a linha. Escada do briefing, só para quem implementa: alunas 1.997 / 2.997 / 3.997; não-alunas 2.997 / 3.997 / 4.997.
 4. **O que o Desafio tinha e a Black muda:** o Desafio dizia "28/09 a 02/10 · 1 ano de acesso · Ao vivo". Aqui não há data de aula: o que vai na linha de acesso é "pagamento único · acesso vitalício". A promessa "aumente sua capacidade geradora de riqueza em 5 noites e se torne um ímã de dinheiro" **não foi mantida**, por ser promessa de ganho financeiro e de resultado em prazo.
 5. **Testes A/B:** (1) K0 contra K1 contra K4; (2) com "de/por" contra sem (se existir preço avulso real); (3) parcelas em destaque contra preço total em destaque.
 6. **Dependências:** `pagina_de_vendas_vitalicia.md` (mesmos lotes e valores), `pagina_cupom_alunas.md` (versão alunas), `06_emails` (eventos de pagamento), `04_criativos` (arte da foto da Dra.).

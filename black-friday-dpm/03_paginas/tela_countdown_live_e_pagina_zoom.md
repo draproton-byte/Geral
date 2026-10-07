@@ -7,9 +7,9 @@
 **Objetivo:** Fazer a pessoa **estar na live**, chegar preparada e saber onde clicar quando a condição for revelada. Reduz a perda por "esqueci" e "não achei o link"
 **Consciência:** 3 a 5
 **Trabalho contratado:** "Eu quero não perder essa live"
-**Modelo no Desafio:** Links de aula do Desafio (por grupo de WhatsApp, 20h), lembretes de grupo, e a lógica "entre antes do início". O Desafio usou aula ao vivo em plataforma com link por noite; aqui a live é no **YouTube**, sem sala de Zoom
+**Modelo no Desafio:** Links de aula do Desafio (por grupo de WhatsApp, 20h), lembretes de grupo, e a lógica "entre antes do início". O Desafio usou aula ao vivo em plataforma com link por noite; aqui a live é no **YouTube**, com player embutido e sem sala em outra plataforma
 
-> **Sobre o "Zoom":** a live de revelação é no YouTube (briefing). Não existe sala de Zoom, e dizer "Zoom" para a base cria o erro "baixei o Zoom e não achei a sala". Esta página é, portanto, a **página da live** com player do YouTube embutido. O nome do arquivo mantém "pagina_zoom" para a equipe achar, mas o texto nunca usa a palavra "Zoom". `[[CONFIRMAR: a live é só no YouTube; se houver transmissão paralela em outra plataforma, ajustar]]`
+> **Sobre o nome do arquivo:** a live de revelação é no YouTube (briefing). Não existe sala de reunião em outra plataforma, e citar uma para a base cria o erro "baixei o aplicativo e não achei a sala". Esta página é, portanto, a **página da live** com player do YouTube embutido, e nenhum texto dela cita outra plataforma. O nome do arquivo guarda um termo antigo e será renovado conforme a decisão 54 de `12_decisoes_e_pendencias.md`. `[[CONFIRMAR: a live é só no YouTube; se houver transmissão paralela em outra plataforma, ajustar]]`
 
 ---
 
@@ -37,7 +37,7 @@
 `{{dias}} dias · {{horas}}h · {{minutos}}min · {{segundos}}s`
 
 **Texto**
-`03 de novembro, às 20h, ao vivo no YouTube. Salve a data e entre no grupo para receber o link.`
+`03 de novembro, às 20h, ao vivo no YouTube. Salve a data e entre no grupo para receber o link primeiro.`
 
 **Botões**
 - `SALVAR A DATA` [[LINK: arquivo de calendário]]
@@ -74,13 +74,13 @@
 `Enquanto você espera, faça isto. São 4 coisas.`
 
 **1. Separe papel e caneta.**
-`Anote o que te pegar na live. A ficha vai cair, e anotar ajuda você a não esquecer.`
+`Anote o que te pegar na live. Anotar ajuda você a não esquecer.`
 
 **2. Combine o horário com quem mora com você.**
 `Avise que às 20h esse horário é seu. Se puder, fique em um lugar em que ninguém interrompa. Fones de ouvido ajudam.`
 
 **3. Faça (ou refaça) o seu diagnóstico.**
-`Chegue sabendo qual dos 5 padrões domina em você. Leva poucos minutos.` [[BOTÃO: FAZER MEU DIAGNÓSTICO]] [[LINK: diagnóstico]]
+`Chegue sabendo qual dos 5 padrões domina em você. Leva poucos minutos.` (botão: FAZER MEU DIAGNÓSTICO) [[LINK: diagnóstico]]
 
 **4. Responda a pergunta que eu vou fazer.**
 `Quantas vezes você já recomeçou? Escreva o número que vier primeiro. Não pense muito.`
@@ -89,14 +89,14 @@
 ### Bloco 03: Uma conta para fazer antes de começar
 
 **Título**
-`Uma conta, para você fazer sozinha, antes das 20h`
+`Uma conta, para você fazer sozinha(o), antes das 20h`
 
 **Texto**
 `Na live eu vou fazer uma conta com você. Chegue com o papel pronto:`
 
 1. `Quanto você investiu em você nos últimos seis meses?`
 2. `Quantas vezes você recomeçou no último ano?`
-3. `O que você se prometeu e não cumpriu?`
+3. `O que você já se prometeu e quer muito cumprir?`
 
 `Não precisa mostrar para ninguém. Essa conta é só sua.`
 
@@ -108,7 +108,7 @@
 `Você já entrou no grupo?`
 
 **Texto**
-`O link da live chega pelo grupo. Se você ainda não entrou, entre agora. É o passo mais importante.`
+`O link da live chega primeiro pelo grupo, e também por e-mail. Se você ainda não entrou, entre agora. É o passo mais importante.`
 
 **Botão**
 `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo]]
@@ -134,9 +134,7 @@
 `Entre mesmo assim. A condição só é revelada no meio da live, depois da pergunta de abertura e de tudo o que entra. Mas o ideal é estar presente desde o início.` `[[CONFIRMAR: a revelação do valor acontece no meio da live; não prometer o minuto]]`
 
 **Vai ter replay?**
-`[[PENDENTE: replay]]`
-- Sem replay: `A revelação acontece ao vivo, sem replay.`
-- Com replay: `O replay fica disponível até [[PENDENTE: fechamento]].`
+`[[PENDENTE: replay]]` (nenhuma versão afirma nem nega replay até a decisão; redações possíveis nas Notas ao implementador)
 
 **Vou ver o valor antes?**
 `Não. O valor só é revelado ao vivo, nesta live. Ninguém da equipe fala de preço antes.`
@@ -205,10 +203,10 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 ## Estado 5: Pós-live (depois do fim da transmissão)
 
 **Título**
-`A live acabou. A sua decisão não precisa.`
+`A live terminou. Aqui está o seu caminho.`
 
 **Texto**
-`Se você assistiu e ficou com a ficha caída, aqui está o seu caminho:`
+`Se você assistiu e a ficha caiu, é por aqui:`
 
 **Botões**
 - `VER A CONDIÇÃO` [[LINK: pagina_de_vendas_vitalicia]]
@@ -219,9 +217,7 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 `A condição que a Dra. mostrou não se repete. O que vier depois é outra oferta, com outro preço.` `[[PENDENTE: fechamento]]`
 
 **Se perdeu a live**
-`[[PENDENTE: replay]]`
-- Com replay: `Não conseguiu assistir? O replay está aqui.` [[LINK: replay]]
-- Sem replay: `Você perdeu a live. Entre na lista de espera para ser avisada(o).` [[LINK: lista_de_espera]]
+`[[PENDENTE: replay]]` (usar uma só versão, depois da decisão: com replay, "Não conseguiu assistir? O replay está aqui." [[LINK: replay]]; sem replay, "Você perdeu a live. Entre na lista de espera para ser avisada(o)." [[LINK: lista_de_espera]])
 
 ---
 
@@ -229,11 +225,9 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 
 Os disparos do dia ficam em `05_whatsapp_api` e `06_emails`. O que esta página exige deles:
 
-- 12h: aviso "a espera abriu".
-- 17h: lembrete "faltam 3 horas".
-- 19h30: "a sala abre em 15 minutos".
-- 19h50: "a sala está aberta".
-- 20h: "estamos ao vivo".
+- 07h (e-mail) e 11h30 (grupos): "é hoje", com o link desta página (a espera abre às 12h).
+- 19h45: "a sala está aberta" `[[CONFIRMAR: disparo extra no dia da live; o modelo BFV/26 tem só 11h30 e 20h nos grupos]]`.
+- 20h (grupos): "estamos ao vivo".
 
 Todos com `{{link}}` desta página, em linha própria e separado do CTA (guia, seção 1).
 
@@ -241,10 +235,10 @@ Todos com `{{link}}` desta página, em linha própria e separado do CTA (guia, s
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[PENDENTE: momento da abertura do carrinho]]`, `[[PENDENTE: replay]]`, `[[LINK: YouTube, live (embed)]]`, `[[LINK: grupo]]`, `[[LINK: arquivo de calendário]]`, `[[LINK: aviso de WhatsApp]]`, `[[CONFIRMAR: live só no YouTube]]`, `[[CONFIRMAR: chat aberto]]`.
+1. **Pendências:** `[[PENDENTE: momento da abertura do carrinho]]`, `[[PENDENTE: replay]]` (sem replay: "A revelação acontece ao vivo, sem replay."; com replay: "O replay fica disponível até [[PENDENTE: fechamento]]."), `[[LINK: YouTube, live (embed)]]`, `[[LINK: grupo]]`, `[[LINK: arquivo de calendário]]`, `[[LINK: aviso de WhatsApp]]`, `[[CONFIRMAR: live só no YouTube]]`, `[[CONFIRMAR: chat aberto]]`.
 2. **Contagem:** usar horário de Brasília (UTC-3) fixo. Se a pessoa estiver em outro fuso, mostrar o horário local abaixo (há alunos em 44 países).
 3. **Capacidade:** o YouTube suporta a audiência. Mas o botão do carrinho deve ficar em CDN próprio, para a página de vendas não cair. `[[CONFIRMAR: testar carga com a equipe técnica]]`
-4. **Gênero:** "atrasada(o)", "tranquila(o)". Em e-mail e grupo de quem já comprou, o feminino é aceito (guia, seção 1, item 6).
+4. **Gênero:** a página é para toda a base (21% é masculina), por isso usa formas neutras ou duplas, como "atrasada(o)" e "tranquila(o)". Em e-mail e grupo de quem já comprou, o feminino é aceito (guia, seção 1, item 6).
 5. **Testes A/B:** nenhum de texto. Medir apenas entrada na sala (estado 3) por canal de aviso.
 6. **Dependências:** `obrigado_e_pesquisa.md`, `pagina_de_vendas_vitalicia.md`, `pagina_cupom_alunas.md`, `08_live_e_pitch` (roteiro: pergunta de abertura, conta, momento da revelação, momento do botão), `05_whatsapp_api` e `06_emails` (disparos do dia).
 7. **Onde o Desafio tinha uma peça e a Black precisa de outra:** no Desafio, as 5 aulas tinham link por noite entregue no grupo, e a aula era uma sala própria. Aqui a live é única, no YouTube, e a página precisa fazer três coisas que as noites não faziam: **segurar a pessoa por horas antes da live** (espera), **esconder o preço** até a revelação, e **ligar o botão do carrinho no momento certo**.

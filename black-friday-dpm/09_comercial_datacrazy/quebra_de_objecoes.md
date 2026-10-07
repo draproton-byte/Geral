@@ -479,7 +479,7 @@ Só 10% da ficha declara conforto acima de R$ 1.000 (7% de R$ 1.001 a R$ 3.000 e
 **Resposta 1:**
 
 ```
-Dá, {{nome}}. Você pode pagar em até [[PENDENTE: parcelamento máximo]] vezes de [[PENDENTE: valor da parcela]], no cartão.
+Dá, {{nome}}. Você pode pagar em até [[PENDENTE: parcelamento máximo]] vezes, no cartão. [[CONFIRMAR: valor da parcela por lote e segmento]]
 
 [[CONFIRMAR: Pix à vista, boleto, entrada mais parcelas]]
 
@@ -523,7 +523,7 @@ Sobre a garantia da Vitalícia, {{nome}}: [[PENDENTE: garantia]].
 ```
 A Dra. prefere devolver do que ter alguém aqui sem querer estar.
 
-Para pedir, é só me falar por aqui ou usar: [[LINK: instrução de reembolso]].
+Para pedir, é só me falar por aqui ou usar: [[LINK: instrução de reembolso]]. Vale dentro do prazo definido em [[PENDENTE: garantia]].
 ```
 
 **Encerramento:**

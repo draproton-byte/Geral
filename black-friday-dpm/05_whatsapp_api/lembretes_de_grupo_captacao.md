@@ -1829,7 +1829,7 @@ Reage com 🔴 se você vai estar ao vivo.
 ## Notas ao implementador
 
 **Pendências**
-1. `[[LINK: ...]]`: reserva da live, diagnóstico, live no YouTube, áudio de Grabovoi. Cada um com UTM por ID de copy.
+1. Links (`[[LINK: página de reserva da live]]`, `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: live no YouTube, 03/11]]` e `[[LINK: áudio de Grabovoi da noite]]`): cada um com UTM por ID de copy.
 2. `[[DEPOIMENTO REAL]]`: 4 slots precisam de print autorizado (CP-BF-25, 31, 41, 56). Se não houver 4, repetir o melhor e apagar os outros slots em vez de inventar. Pedir autorização por escrito.
 3. `[[CONFIRMAR: ordem de entrada da trilha]]` (CP-BF-38): a trilha de entrada precisa de pelo menos 3 passos definidos antes de o slot ir ao ar.
 4. `[[PENDENTE: replay]]` (CP-BF-29, em reserva): decidir antes de usar a copy.

@@ -1104,7 +1104,7 @@ Digite SAIR se não quiser mais receber mensagens
 2. `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[PENDENTE: preço avulso]]` (para a "conta do que custaria tudo separado") e `[[PENDENTE: replay]]`.
 3. `[[CONFIRMAR: regra de migração]]`: o que acontece com o acesso atual de quem já é aluna. É a primeira pergunta do grupo de alunas depois da live.
 4. `[[CONFIRMAR: parcelamento]]`: confirmar parcelas máximas, Pix, boleto e uso de dois cartões no checkout.
-5. `[[LINK: checkout ...]]`: um checkout por lote e por segmento (seis links). Cada um com UTM `src=api` ou `src=grupo`.
+5. Links de checkout (`[[LINK: checkout Lote Especial alunas]]` e as demais combinações de lote e segmento): um checkout por lote e por segmento (seis links). Cada um com UTM `src=api` ou `src=grupo`.
 6. Escada de preços para o implementador: está no briefing, em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1 (três lotes para alunas e três para não-alunas, com vantagem fixa de aluna por lote). Nenhum valor é repetido neste arquivo e nenhum aparece em texto público antes da live.
 7. Trocas de nome e capa do grupo estão indicadas em cada peça (estados da tabela de `grupos_descricao_e_grupo_cheio.md`).
 

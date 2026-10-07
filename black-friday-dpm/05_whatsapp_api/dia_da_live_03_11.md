@@ -692,7 +692,7 @@ Digite SAIR se não quiser mais receber mensagens
 ## Notas ao implementador
 
 **Pendências**
-1. `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O Desafio usava o áudio com a sequência "520 741 8" e a frase "ative a atração de dinheiro". **Não copiar a frase.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e CP-BF-77 e manter só a versão P.S. do carrinho.
+1. `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O Desafio usava o áudio com uma sequência numérica e uma frase de promessa de dinheiro. **Não copiar a frase nem a promessa.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e CP-BF-77 e manter só a versão P.S. do carrinho.
 2. `[[CONFIRMAR: vídeo da Dra.]]` do disparo das 19h50 (o Desafio também esperava o vídeo).
 3. Preço, data do lote, garantia, bônus e parcelamento: tudo o que está nas seções 4 e 5 com placeholder só fecha depois da revelação (`[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[CONFIRMAR: parcelamento]]`). As peças saem prontas e o preço é preenchido por busca no momento em que a Dra. falar. A escada de preços do briefing está em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1, e não é repetida aqui.
 4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma que o menor preço é só para quem estiver ao vivo. Esse texto aparece em CP-BF-66 e CP-BF-71.

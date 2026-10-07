@@ -380,7 +380,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 |---|---|
 | Reservou a vaga | Entra a API de onboarding (`api_onboarding.md`) |
 | Fez o diagnóstico e se auto-classificou | Tag do perfil entra no ListBoss/DataCrazy, e a API de quiz pós-live usa o perfil (`convite_vip_alunas_e_quiz.md`, API-BF-06.2) |
-| Postou o ingresso | Resposta manual ou automática com o presente `[[PENDENTE]]` |
+| Postou o ingresso | Resposta manual ou automática com o presente `[[CONFIRMAR: presente de compartilhamento]]` |
 | Chegou 03/11, 20h | O fluxo devolve o link da live (MC-BF-D01) e, quando o link do checkout abrir, muda para a versão pós-live (seção 6) |
 
 ---
@@ -399,7 +399,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 ## Notas ao implementador
 
 **Pendências**
-1. `[[LINK: ...]]` de captura, diagnóstico, live, grupo por segmento e suporte. As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat.
+1. Links (`[[LINK: página de captura da Black]]`, `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: live no YouTube, 03/11]]`, `[[LINK: grupo de WhatsApp, por segmento]]` e `[[LINK: suporte WhatsApp]]`). As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat.
 2. `[[CONFIRMAR: template da arte do ingresso]]`: o Desafio usava um serviço de imagem dinâmica (Bannerbear, Placid ou Canva com API). A arte do ingresso é da área `04_criativos`. Sem ela, o Ramo B pula direto da B03 para a B06.
 3. `[[CONFIRMAR: presente de compartilhamento]]`: pode ser o bônus de 15 minutos da live (`08_live_e_pitch`) ou um áudio. Não inventar. Se não existir, apagar MC-BF-B09, B10 e os lembretes L02 e L03 e manter só o ingresso.
 4. Integração Hotmart e formulário de reserva para ManyChat: o Desafio listava "confirmar se já existe integração ou se precisa de middleware (n8n, Make ou Zapier)". O mesmo vale aqui, com o formulário da página de captura no lugar do evento de compra: a tag `bf_reservou` precisa chegar em minutos.

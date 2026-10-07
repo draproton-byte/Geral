@@ -186,7 +186,7 @@ Dra. Próton
 
 Gatilho: evento `abandono de carrinho` da Hotmart. Disparo 1 até 1 hora depois; disparo 2 cerca de 24 horas depois; disparo 3 apenas nas últimas horas do lote vigente, se ainda não comprou.
 
-Escassez só por lote real. O lote e o preço aparecem pelos placeholders `[[PREÇO LOTE ...]]`, que a automação substitui pelo lote vigente (`{{lote_atual}}`).
+Escassez só por lote real. O lote e o preço aparecem pelos placeholders `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`, que a automação substitui pelo lote vigente (`{{lote_atual}}`).
 
 ### API-BF-C01 | Disparo 1 (até 1 hora) | N
 

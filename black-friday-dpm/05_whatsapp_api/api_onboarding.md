@@ -258,7 +258,7 @@ Digite SAIR se não quiser mais receber mensagens
 ## Notas ao implementador
 
 **Pendências**
-1. `[[LINK: ...]]`: três links de rodízio (geral, alunas, Desafio/Imersão), diagnóstico e lembrete da live. O botão "Entrar no grupo" precisa de UTM de origem `api`.
+1. Links (placeholders `[[LINK: grupo geral]]`, `[[LINK: diagnóstico dos 5 perfis]]` e `[[LINK: lembrete da live no YouTube]]`): três links de rodízio (geral, alunas, Desafio/Imersão), diagnóstico e lembrete da live. O botão "Entrar no grupo" precisa de UTM de origem `api`.
 2. Segmentar na entrada: tag de aluna ativa do Clube (A), tag de comprador de Desafio/Imersão/Aulão sem Clube (D) e restante (N). Tamanho do segmento A: `[[CONFIRMAR: contagem de alunas do Clube]]`.
 3. `[[LINK: suporte WhatsApp]]`: usar o número oficial de suporte. Não usar telefone pessoal.
 4. Aprovação de template: o botão "Parar mensagens" e o rodapé de SAIR seguem o padrão do Desafio. O motivo do recebimento ("você reservou sua vaga") fica no consentimento da página de reserva e não no template, porque o rodapé da Meta aceita um só texto de até 60 caracteres e ele já é o SAIR.

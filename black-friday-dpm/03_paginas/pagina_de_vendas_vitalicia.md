@@ -30,12 +30,12 @@ Blocos condicionais marcados `[[SE: ALUNA]]` ... `[[FIM SE]]` e `[[SE: NÃO-ALUN
 **Quando:** até o início da revelação, 03/11, 20h. Se alguém abrir antes (ex.: a URL vazou), cai aqui.
 
 **Título**
-`A condição é revelada ao vivo, hoje às 20h.`
+`A condição é revelada ao vivo, em 03/11, às 20h.`
 
 **Texto**
 `A Dra. Próton abre a Black Próton Vitalícia ao vivo. Nenhum valor é divulgado antes da live.`
 
-**Contagem:** `Começa em {{horas}}h {{minutos}}min {{segundos}}s`
+**Contagem:** `Começa em {{dias}}d {{horas}}h {{minutos}}min {{segundos}}s` (ocultar os dias quando for 0)
 
 **Botão**
 `IR PARA A LIVE` [[LINK: página da live]]
@@ -47,16 +47,16 @@ Blocos condicionais marcados `[[SE: ALUNA]]` ... `[[FIM SE]]` e `[[SE: NÃO-ALUN
 Elemento fixo. Mostra o **lote real** e **o relógio do próximo virar**. Não há "% de vagas preenchidas", porque a Vitalícia não tem limite de vagas declarado. Escassez só por lote.
 
 **Estado 1: Lote Especial aberto**
-`🎟 Lote Especial · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS ou NÃO-ALUNAS: Especial]]`
+`🎟 Lote Especial · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento` [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
 **Estado 2: Primeiro Lote aberto**
-`🎟 Primeiro Lote · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS ou NÃO-ALUNAS: Primeiro Lote]]`
+`🎟 Primeiro Lote · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento`
 
 **Estado 3: Último Lote aberto**
-`🎟 Último Lote · aberto até [[PENDENTE: fechamento]] · [[PREÇO LOTE ALUNAS ou NÃO-ALUNAS: Último Lote]]`
+`🎟 Último Lote · aberto até [[PENDENTE: fechamento]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento`
 
 **Estado 4: Últimas horas (últimas 24h antes do fechamento ou do virar de lote)**
-`⏳ Faltam {{horas}}h {{minutos}}min para o fim do [[LOTE ATUAL]]. Depois, o valor muda.`
+`⏳ Faltam {{horas}}h {{minutos}}min para o fim do {{lote_atual}}. Depois, o valor muda.` (no Último Lote: `⏳ Faltam {{horas}}h {{minutos}}min para o fim do carrinho. Depois, o carrinho se encerra.`)
 
 **Estado 5: Encerrado**
 `O carrinho da Black Próton Vitalícia foi encerrado.` e botão `ENTRAR NA LISTA DE ESPERA` [[LINK: lista_de_espera]]
@@ -76,7 +76,7 @@ Este bloco precisa converter mesmo que a pessoa não role a página.
 `A última vez que você vai precisar recomeçar.`
 
 **Subtítulo**
-`O Clube Secreto e tudo o que a Dra. Próton já criou, com acesso vitalício. Um pagamento. Sem renovar. Sem recomeçar.`
+`O Clube Secreto e tudo o que a Dra. Próton já criou, com acesso vitalício. Um pagamento. Sem prazo. Sem recomeçar.` [[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]
 
 **Linha de apoio**
 `Clube Secreto + 11 produtos do catálogo atual. Sem promessa de lançamentos futuros: o que existe hoje.`
@@ -109,7 +109,7 @@ Este bloco precisa converter mesmo que a pessoa não role a página.
 
 **Função:** a pessoa já assistiu à live. Aqui compra quem já decidiu. O parcelamento aparece com o preço porque a ficha mostrou o cartão parcelado como a forma mais escolhida.
 
-**Headlines alternativas para teste:** B1 "O Clube Secreto e tudo o que a Dra. Próton já criou, para sempre, por um pagamento único." · B2 "A última chance que a autossabotagem vai ter de decidir por você." · B3 "Pare de comprar curso com medo de deixar de lado."
+**Headlines alternativas para teste (mesmos IDs da captura B):** B1 "O Clube Secreto e tudo o que a Dra. Próton já criou, para sempre, por um pagamento único." · B2 "A última chance que a autossabotagem vai ter de decidir por você." · B4 "Pare de comprar curso com medo de deixar de lado."
 
 ---
 
@@ -134,15 +134,14 @@ Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
 **Copy**
 
-`Você não é preguiçosa. Você não é indisciplinada. Você não é fraca.`
+`Talvez você já tenha pensado que o problema é preguiça, falta de disciplina ou fraqueza. Não é.`
 
 `Você já começou. Várias vezes. Começou, parou, recomeçou. E alguma parte de você passou a acreditar que o problema é você.`
 
-`Eu perguntei para mais de 7 mil pessoas o que mais as impede. As respostas que mais apareceram:`
+`Eu perguntei para mais de 7 mil pessoas o que mais impede cada uma de ganhar o dinheiro que gostaria. As respostas que mais apareceram:`
 
 > **"Não sei exatamente o que está me impedindo."** (40%)
-> "Procrastino e não consigo colocar as coisas em prática."
-> "Autossabotagem."
+> "Procrastino e não consigo colocar as coisas em prática." (22%)
 
 `Existem cinco jeitos de o padrão se esconder:`
 
@@ -187,11 +186,11 @@ Bloco principal. No mobile, em carrossel (card 1, card 2, card 3...).
 Título: `Entrar é uma decisão. Continuar tem um caminho.`
 
 **Passo 1. Você entra, uma vez**
-`Você faz o pagamento único e o acesso é liberado. Sem renovar.`
+`Você faz o pagamento único e o acesso é liberado.`
 `Você sai com: acesso vitalício ao Clube Secreto e aos 11 produtos.`
 
 **Passo 2. Seu primeiro passo, em 48 horas**
-`Antes de qualquer outra coisa, você faz um passo: o seu diagnóstico e o primeiro acesso. Pequeno de propósito.`
+`Antes de qualquer outra coisa, você faz um primeiro passo, pequeno de propósito: o primeiro acesso, o seu diagnóstico e a primeira prática do Clube. Cabe em 48 horas.`
 `Você sai com: o seu padrão nomeado e o ponto de partida na trilha.` `[[CONFIRMAR: o primeiro passo de 48 horas, ver onboarding_vitalicia.md]]`
 
 **Passo 3. A trilha de entrada**
@@ -227,28 +226,29 @@ Título: `O que entra na Black Próton Vitalícia`
 | | |
 |---|---|
 | **Função** | Um protocolo de 21 dias repetido em ciclos, com aulas ao vivo toda terça com a Dra., suporte no WhatsApp e a comunidade. É o acompanhamento. |
-| **Dor a que responde** | "Eu começo e paro. Ninguém me conduz." |
+| **Dor a que responde** | "Eu tenho muito conhecimento, mas na hora de colocar em prática eu me perco." |
 
 ### Os 11 produtos
 
 | # | Produto | Função em uma linha | Dor a que responde |
 |---|---|---|---|
-| 1 | **Fórmula da Riqueza** | Trabalha a relação com a riqueza. `[[CONFIRMAR: descrição oficial]]` | "O dinheiro entra e vai embora" (Termostato Invisível) |
-| 2 | **Workshop Terapeuta de Elite** | Para quem quer transformar o que aprendeu em caminho para atender outras pessoas. `[[CONFIRMAR: descrição oficial]]` | "Eu tenho muito conhecimento e não sei como aplicá-lo em um trabalho" |
-| 3 | **Os 3 Áudios de Reprogramação** | Três áudios de reprogramação mental para ouvir no seu tempo. | "Eu sei o que fazer e não faço" (Autossabotagem) |
-| 4 | **Código de Ativação Próton** | Uma prática de ativação do método. `[[CONFIRMAR: descrição oficial]]` | "Preciso de um gesto simples para começar" |
+| 1 | **Fórmula da Riqueza** | Trabalha a relação com a riqueza. `[[CONFIRMAR: descrição oficial]]` | "Remo, remo e não saio do lugar." (Termostato Invisível) |
+| 2 | **Workshop Terapeuta de Elite** | Para quem quer transformar o que aprendeu em caminho para atender outras pessoas. `[[CONFIRMAR: descrição oficial]]` | "Por que eu tenho tantas habilidades e não saio do lugar?" |
+| 3 | **Os 3 Áudios de Reprogramação** | Três áudios de reprogramação mental para ouvir no seu tempo. `[[CONFIRMAR: descrição oficial]]` | "Eu sei o que fazer e não faço" (Autossabotagem) |
+| 4 | **Código de Ativação Próton** | Uma prática de ativação do método. `[[CONFIRMAR: descrição oficial]]` | "Ter clareza do caminho a seguir e confiar em mim." |
 | 5 | **Imersão Desbloqueie o Poder da Sua Mente** | A imersão em que a Dra. mostra o diagnóstico dos 5 perfis e o que roda por baixo. | "Não sei exatamente o que está me impedindo" |
 | 6 | **Desafio A Nova Realidade** | As 5 noites ao vivo: quem está comandando a sua vida, o lixo emocional, os relacionamentos, a mente de riqueza e a criação da nova realidade, com práticas. `[[CONFIRMAR: gravações e materiais incluídos]]` | "Eu sei que consigo mais, só não sei por onde começar" |
 | 7 | **Cura da Criança Interior** | Prática de reprogramação com a criança interior. É prática de reprogramação, não tratamento. `[[CONFIRMAR: descrição oficial]]` | "Sinto que a cada passo que dou, retrocedo" (Traumas Que Ainda Decidem) |
 | 8 | **Instagram Profissional** | Para quem quer usar o Instagram no próprio trabalho. `[[CONFIRMAR: descrição oficial]]` | "Para parar de me esconder e de sentir vergonha de vender" |
 | 9 | **Destrave o Dinheiro** | Trabalha crenças e bloqueios com dinheiro. `[[CONFIRMAR: descrição oficial]]` | "Tenho muitas crenças e bloqueios com dinheiro" |
 | 10 | **Cura da Escassez Financeira** | Trabalha a escassez financeira. Não promete quitar dívida. `[[CONFIRMAR: descrição oficial]]` | "Por que o dinheiro entra na minha vida mas vai embora fácil?" |
-| 11 | **Sequências Numéricas de Grabovoi** | As sequências que a Dra. ensina na prática, como a do Modo Obcecado. É prática ensinada, não promessa. | "Preciso de algo simples para lembrar de mim ao longo do dia" |
+| 11 | **Sequências Numéricas de Grabovoi** | As sequências que a Dra. ensina na prática, como a do Modo Obcecado. É prática ensinada, não promessa. | "Sinto que preciso arrumar várias áreas ao mesmo tempo e não sei por onde começar." |
 
 **Regras do bloco**
 - As funções acima foram escritas a partir do **nome de cada produto** e do que as fontes dizem do Clube, do Desafio e da Imersão. As fontes lidas **não** descrevem o conteúdo dos outros produtos. Cada linha marcada com `[[CONFIRMAR: descrição oficial]]` precisa de validação do time de produto antes de ir ao ar. Nada foi inventado além disso.
 - Os nomes "Cura da Criança Interior" e "Cura da Escassez Financeira" são nomes de produto. Em qualquer frase da página, usar "prática de reprogramação" e nunca "cura" como promessa.
 - Sequência 5207418: só como prática, nunca como "traz dinheiro".
+- As frases da coluna "Dor a que responde" são frases reais da audiência (`01_PESQUISAS_INSIGHTS.md`, seção 2, e as opções das pesquisas), usadas em primeira pessoa e sem atribuir a ninguém.
 
 ### Bônus
 
@@ -256,7 +256,7 @@ Título: `O que entra na Black Próton Vitalícia`
 
 ### Linha de valor (sem número ainda)
 
-`Se você comprasse tudo separado, a conta seria outra. Veja no bloco 08.`
+`Se você comprasse tudo separado, a conta seria outra. Veja no bloco 08.` (apagar esta linha se a Parte 2 do bloco 08 for apagada)
 
 ---
 
@@ -292,7 +292,7 @@ Título: `O que entra na Black Próton Vitalícia`
 `Não é uma conta de dinheiro só. Faça comigo, com um papel:`
 
 1. `Quanto você investiu em você nos últimos seis meses?` (campo para digitar um valor, opcional, não é salvo)
-2. `Quanto você gastou, nos últimos dois anos, em cursos, terapias ou mentorias que você não terminou?` (campo)
+2. `Quanto você gastou, nos últimos dois anos, em cursos, terapias ou mentorias?` (campo)
 3. `Quantas vezes você recomeçou no último ano?` (campo numérico)
 
 `Agora responda, só para você:`
@@ -305,11 +305,11 @@ Título: `O que entra na Black Próton Vitalícia`
 
 `1 vezes 0 é zero. 1 bilhão vezes 0 continua zero.`
 
-`Essa conta não fica parada. Cada ano no mesmo lugar cobra mais caro que o anterior.`
+`Ficar no mesmo lugar também custa: tempo, energia e confiança em você.`
 
-`Eu não vou comparar a Vitalícia com a minha mentoria individual. [[CONFIRMAR: ainda existe a mentoria individual de R$ 120 mil como âncora]] Não é a mesma coisa, e eu não vou fingir que é.`
+`Eu não vou comparar a Vitalícia com a minha mentoria individual. [[CONFIRMAR: ainda existe a mentoria individual como âncora (valor no guia, seção 8)]] Não é a mesma coisa, e eu não vou fingir que é.`
 
-**Função:** a conta de ficar parada, sem inventar nenhum número. A pessoa faz a conta dela, não a nossa. Os campos não são salvos (nem enviados), para não parecerem coleta de dado sensível. **Nenhuma promessa de ganho.** A frase sobre investir em si mesma é intocável (guia, seção 4). `[[CONFIRMAR: que a Dra. de fato fez essa pergunta e deu a resposta "nada" na Aula 3, como consta no guia de narrativa do Clube]]`
+**Função:** a conta de ficar parada, sem inventar nenhum número. A pessoa faz a conta dela, não a nossa. Os campos não são salvos (nem enviados), para não parecerem coleta de dado sensível. **Nenhuma promessa de ganho.** A frase sobre investir em si mesma é intocável (guia, seção 4). (Fonte da pergunta e da resposta "nada": manual da Aula 03 do Desafio e narrativa do Clube, do Comercial.)
 
 ### Parte 2: A conta do catálogo avulso
 
@@ -331,7 +331,7 @@ Título: `O que entra na Black Próton Vitalícia`
 | Sequências Numéricas de Grabovoi | `[[PENDENTE: preço avulso]]` |
 | **Total separado** | `[[PENDENTE: soma dos preços avulsos]]` |
 
-**Regra:** esta tabela só vai ao ar se os preços avulsos forem preços reais de venda praticados. Se não existirem, **apagar a Parte 2 inteira** e **não escrever "de R$ X por R$ Y"** em nenhum botão ou tarja.
+**Nota ao implementador (remover antes de publicar):** esta tabela só vai ao ar se os preços avulsos forem preços reais de venda praticados. Se não existirem, **apagar a Parte 2 inteira** e não escrever "de X por Y" em nenhum botão ou tarja.
 
 **Linha de fechamento**
 `Eu não quero que você pague por tudo. Eu quero que você pague uma vez.`
@@ -344,7 +344,7 @@ Aqui compra quem já estava decidida.
 
 **Copy**
 
-`🎟 [[LOTE ATUAL]] · aberto até [[PENDENTE: data do lote]]`
+`🎟 {{lote_atual}} · aberto até [[PENDENTE: data do lote]]`
 
 `[[SE: ALUNA]]`
 
@@ -381,7 +381,7 @@ Aqui compra quem já estava decidida.
 **Formas de pagamento (ícones)**
 `Visa · Mastercard · Amex · Pix · [[CONFIRMAR: boleto]]`
 
-**Compliance:** "o valor sobe a cada lote" só se a escada for real (briefing: sobe R$ 1.000 a cada virada). Não escrever "última chance de ter acesso vitalício" (proibido).
+**Nota ao implementador (remover antes de publicar):** "o valor sobe a cada lote" só se a escada for real (briefing: sobe R$ 1.000 a cada virada). Não escrever frases de "última chance" sobre o vitalício (guia, seção 3).
 
 ---
 
@@ -391,11 +391,11 @@ Aqui compra quem já estava decidida.
 
 `Agora eu preciso ser honesta com você.`
 
-`Eu não estou prometendo que a autossabotagem acaba. Não estou prometendo dinheiro, nem cura. Estou abrindo, de uma vez, o que construí para você parar de recomeçar.`
+`Eu não prometo o fim da autossabotagem. Não prometo dinheiro, nem tratamento. Estou abrindo, de uma vez, o que construí para você parar de recomeçar.`
 
 ### Objeção 1: "Tenho medo de comprar e não colocar em prática."
 
-`Esse medo tem nome: autossabotagem. Toda vez que você vive algo transformador, aparece a vontade de parar. Eu falei disso nas aulas.`
+`Esse medo é comum, e faz sentido. Toda vez que você vive algo transformador, aparece a vontade de parar. Eu falei disso nas aulas.`
 
 `A Vitalícia foi pensada para esse medo:`
 
@@ -406,9 +406,9 @@ Aqui compra quem já estava decidida.
 
 ### Objeção 2: "Já comprei outras coisas e não funcionou."
 
-`Essa é a frase que eu mais ouço. Nos outros você precisou aplicar sozinha depois. E é sempre aí que trava, porque o padrão que você quer mudar é o mesmo que sabota a mudança. Você tentou vencer o freio com força de vontade, e força de vontade é justamente o que ele consome.`
+`É uma frase que eu ouço muito. Em muitos cursos, a aplicação fica por sua conta depois, e é aí que costuma travar, porque o padrão que você quer mudar é o mesmo que atrapalha a mudança. Força de vontade sozinha costuma não bastar.`
 
-`Na Vitalícia você não aplica sozinha. Tem aula ao vivo, tem suporte, tem a comunidade, tem o ciclo.`
+`Na Vitalícia você não precisa aplicar sozinha. Tem aula ao vivo, tem suporte, tem a comunidade, tem o ciclo.`
 
 `[[CONFIRMAR: aulas ao vivo, suporte e comunidade continuam na Vitalícia]]`
 
@@ -436,9 +436,9 @@ Título: `Quem vai conduzir você`
 
 `Mais de 70 mil alunos em 44 países e 1,4 milhão de seguidores.`
 
-`Ela não é só uma terapeuta. Ela é o resultado de tudo o que precisou curar em si mesma.`
+`Ela transformou a própria história em método.`
 
-`Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo, cresceu ouvindo que sucesso era coisa de rico, não de gente como ela. Trabalhou em telemarketing, vendeu cartão, foi camelô. Estudou neurociência, física quântica, espiritualidade, hipnose e reprogramação mental para sobreviver, e nesse processo criou um método que já mudou dezenas de milhares de vidas.`
+`Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo, cresceu ouvindo que sucesso era coisa de rico, não de gente como ela. Trabalhou em telemarketing, vendeu cartão, foi camelô. Estudou neurociência, física quântica, espiritualidade, hipnose e reprogramação mental, e nesse processo criou um método que já passou por mais de 70 mil alunos.`
 
 `Formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL. Reconhecida pela Academia Mundial de Letras com o título honorário de Doutora Honoris Causa em Neurociência.`
 
@@ -453,13 +453,13 @@ Aqui compra quem precisou ouvir tudo. Este bloco leva a garantia.
 
 **Copy**
 
-`🎟 [[LOTE ATUAL]] · aberto até [[PENDENTE: data do lote]]`
+`🎟 {{lote_atual}} · aberto até [[PENDENTE: data do lote]]`
 
 `[[SE: ALUNA]]` `[[PREÇO LOTE ALUNAS: lote atual]] à vista ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]]` `[[FIM SE]]`
 `[[SE: NÃO-ALUNA]]` `[[PREÇO LOTE NÃO-ALUNAS: lote atual]] à vista ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA NÃO-ALUNAS]]` `[[FIM SE]]`
 
 **Botão**
-`ENTRAR DE VEZ · [[PREÇO DO SEGMENTO]]`
+`ENTRAR DE VEZ · {{preco_segmento}}`
 
 **Garantia**
 
@@ -484,7 +484,7 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `O carrinho fecha em [[PENDENTE: fechamento]]. Antes disso, o valor muda a cada lote: [[PENDENTE: data do lote]].`
 
 **O que significa "vitalício"?**
-`Você paga uma vez e não precisa renovar. O acesso acompanha enquanto o produto existir.` `[[CONFIRMAR: definição de "vitalício" nos termos de uso, para não prometer mais do que a plataforma entrega]]`
+`Você paga uma vez e o acesso não tem prazo. O acesso acompanha enquanto o produto existir.` `[[CONFIRMAR: definição de "vitalício" nos termos de uso, para não prometer mais do que a plataforma entrega]]`
 
 **O que entra, exatamente?**
 `O Clube Secreto e os 11 produtos do catálogo atual: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Código de Ativação Próton, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade, Cura da Criança Interior, Instagram Profissional, Destrave o Dinheiro, Cura da Escassez Financeira e Sequências Numéricas de Grabovoi. Não há promessa de lançamentos futuros.`
@@ -511,16 +511,19 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `Veja o bloco de garantia acima.` `[[PENDENTE: garantia]]`
 
 **Isso é terapia?**
-`Não. A Vitalícia é um caminho de desenvolvimento e reprogramação. Não é tratamento, não substitui terapia, e eu não prometo cura. Se você está em sofrimento agudo, procure um profissional de saúde.`
+`Não. A Vitalícia é um caminho de desenvolvimento e reprogramação. Não é tratamento, não substitui terapia, e eu não prometo resultado clínico. Se você está em sofrimento agudo, procure um profissional de saúde. No Brasil, o CVV atende 24 horas pelo 188.`
 
 **E se eu não conseguir aplicar?**
 `Por isso existe a trilha de entrada, o primeiro passo de 48 horas e a ausência de prazo. Se o momento não for esse, a garantia está acima.`
+
+**O dinheiro não dá agora. O que eu faço?**
+`Eu prefiro que você não se endivide para entrar. Veja o parcelamento no cartão e, se ainda assim não couber, deixe seu nome na lista de espera. [[LINK: lista_de_espera]]`
 
 **Vou receber ofertas de outros produtos depois?**
 `Você vai receber a trilha de entrada e os avisos do Clube. Ofertas novas, se existirem, são apresentadas, nunca impostas.`
 
 **Botão (repete)**
-`ENTRAR DE VEZ · [[PREÇO DO SEGMENTO]]`
+`ENTRAR DE VEZ · {{preco_segmento}}`
 
 ---
 
@@ -566,5 +569,5 @@ Cada estado existe em duas versões (alunas e não-alunas). Checkout por lote e 
    - A tarja do Desafio mostrava "% de vagas preenchidas". **Não usar na Black**: não há limite de vagas, e declarar vagas que não existem é escassez falsa.
 4. **Testes A/B:** (1) headline B0 contra B1 contra B3; (2) tabela de lotes completa contra só lote atual (mede se mostrar os próximos lotes acelera a compra); (3) bloco 08 parte 1 (conta interativa) contra texto fixo; (4) botão "ENTRAR DE VEZ" contra "QUERO PARAR DE RECOMEÇAR".
 5. **Parcelamento:** aparece no bloco 01, no bloco 09, no bloco 12 e no FAQ, sempre na mesma tela do preço. A ficha mostrou cartão parcelado como a forma mais escolhida, e 53% se diz confortável com até R$ 297. Por isso o valor da parcela deve aparecer em destaque, ao lado do preço total.
-6. **Compliance (checagem final):** nenhum "cura", nenhum "vai ganhar", nenhum "última chance de ter acesso vitalício", nenhum preço antes da live, nenhum "sequência traz dinheiro", nenhum depoimento sem autorização.
+6. **Compliance (checagem final):** nenhuma promessa clínica ou de resolução do padrão, nenhuma promessa de ganho, nenhuma frase de "última chance" sobre o vitalício, nenhum preço antes da live, nenhuma frase de que sequência numérica traz dinheiro, nenhum depoimento sem autorização.
 7. **Dependências:** `pagina_cupom_alunas.md`, `onboarding_vitalicia.md` (próxima página), `banner_checkout.md`, `lista_de_espera.md`, `08_live_e_pitch` (a ordem da live deve coincidir com a ordem dos blocos 03 a 12), `10_pos_compra`.

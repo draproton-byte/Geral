@@ -352,10 +352,10 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 **Q10. Pergunta aberta (a mais importante):** `Se você pudesse sentar uma hora com a Dra. Próton, o que você perguntaria?` (texto livre, até 400 caracteres, opcional)
 
 **Placeholder**
-`Escreva com suas palavras. A Dra. lê as perguntas.`
+`Escreva com suas palavras.`
 
 **Texto de ajuda**
-`Eu leio as respostas e escolho algumas para responder ao vivo, sem citar o nome de ninguém.`
+`A equipe lê as respostas para preparar a live. Algumas podem ser respondidas ao vivo, sem citar o nome de ninguém.`
 `[[CONFIRMAR: a Dra. de fato lê e responde na live; sem confirmação, usar "A equipe lê as respostas para preparar a live"]]`
 
 **Observação:** em português neutro, sem pedir nome ou dado sensível no texto livre. Aviso no campo: `Não escreva documentos, senhas ou dados de cartão.`

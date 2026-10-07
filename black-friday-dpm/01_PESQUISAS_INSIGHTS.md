@@ -143,6 +143,6 @@ Das respostas abertas da ficha e do Aulão. Estas são as palavras que mais volt
 
 ## 4. O que falta medir
 
-1. UTM estava vazia na planilha de compras do Desafio (dossiê). Para a Black, a captação precisa de UTM por página e por perfil. A BFV/26 do modelo já usa um domínio de UTM por canal (email, api, youtube, canal, manychat, stories, bio, lista de espera, wpp, live-ig, tiktok, grupos antigos, telegram).
+1. UTM estava vazia na planilha de compras do Desafio (dossiê). Para a Black, a captação precisa de UTM por página e por perfil. A planilha "UTMs Black Friday" do modelo (copiada de lançamentos anteriores, Imersão e Aulão, ainda não adaptada à Black) já usa um UTM por canal (email, api, yt, canal, manychat, stories, bio, lista de espera, wpp, live-ig, tiktok, grupos antigos, telegram).
 2. Taxa de abertura e CTOR por assunto dos e-mails de captação (não existem para a Black; as planilhas do Desafio não têm esses campos preenchidos).
 3. Contagem de alunas atuais do Clube (define o tamanho da sequência de upgrade).

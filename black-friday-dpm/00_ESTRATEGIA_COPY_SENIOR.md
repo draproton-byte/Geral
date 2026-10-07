@@ -123,7 +123,7 @@ O limite real do funil é preço contra capacidade declarada.
 | Grupo | Tamanho | Capacidade declarada | Ação |
 |---|---|---|---|
 | Alunas atuais do Clube | `[[PENDENTE: contagem de alunas]]` | Maior prioridade, lote R$ 1.997 | Sequência própria de upgrade |
-| Ficha quente | 151 | 141 declaram mais de R$ 500; 80 acima de R$ 1.000 | Comercial 1 a 1 no dia 03/11 (ver `09_comercial`) |
+| Ficha quente | 151 | 141 declaram mais de R$ 500; 80 acima de R$ 1.000 | Comercial 1 a 1 no dia 03/11 (ver `09_comercial_datacrazy`) |
 | Compradores do Desafio (R$ 35) | 2.220 unidades vendidas (dossiê) | Provaram que pagam e que viveram o método | Lista principal de captação. Segmento "Desafio" separado |
 | Aulão com renda acima de R$ 5.000 | 1.108 | Capacidade existe, 44% ainda diz "sem dinheiro agora" | Criativo de "conta do custo de ficar parada" + parcelamento |
 | Aulão com renda até R$ 3.000 | 4.761 | Dificilmente fecha R$ 2.997+ | Não gastar esforço comercial. Mantém na lista de avisos e no diagnóstico |
@@ -161,8 +161,10 @@ O maior grupo, porém, é "não sei exatamente o que está me impedindo" (29% a 
 | `08_live_e_pitch` | Roteiro da live de revelação, pitch, bônus de 15 minutos | Estrutura de aula e pitch do Desafio |
 | `09_comercial_datacrazy` | Copies por evento do pipeline, objeções, régua do silêncio, aberturas | Narrativa, pipeline, régua, aberturas do Clube |
 | `10_pos_compra` | Certificado, manual do participante, NPS | Certificado e manual do Desafio |
+| `13_modelo_dr_joao` | Versões de captação, grupo cheio, API e e-mail de onboarding no formato de arquivo do modelo de lançamento | Mesmos arquivos do modelo, com "o que mudou" ao final |
 | `11_matriz_desafio_para_black.md` | Peça a peça: o que existia, o que virou, o que ficou pendente | |
 | `12_decisoes_e_pendencias.md` | Tudo que a equipe precisa decidir ou fornecer antes de publicar | |
+| `14_revisao` | Rubrica de revisão e logs por área | |
 
 ---
 

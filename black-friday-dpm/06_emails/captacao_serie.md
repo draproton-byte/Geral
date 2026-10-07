@@ -4,16 +4,43 @@
 |---|---|
 | Peça | Série EM-BF-01 a EM-BF-22 |
 | Canal | E-mail, todos os dias às 07h |
-| Público | Todos os inscritos e a base de e-mail (S3 não-alunas e base fria como núcleo; S1 e S2 recebem todas, exceto nos 12 dias em que recebem o e-mail segmentado das 09h, ver regra de exclusão abaixo) |
+| Público | Todos os inscritos e a base de e-mail (S3 não-alunas e base fria como núcleo). S1 e S2 recebem a série, exceto nas 11 datas de exclusão da tabela abaixo (12 envios segmentados), em que recebem o e-mail segmentado das 09h no lugar |
 | Momento | 13/10 a 03/11, uma ideia por dia, na ordem da tabela |
 | Objetivo | Levar a pessoa de "isso é comigo" até estar na live de 03/11 às 20h, no grupo, e com a decisão já pensada. Não vende produto nem cita preço |
 | Consciência | Fase 1 (13 a 19/10): 1 a 2. Fase 2 (20 a 27/10): 2 a 4. Fase 3 (28/10 a 03/11): 4 a 5 |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Cada e-mail mostra um pedaço do ciclo de recomeçar e aponta para a live |
 | Modelo no Desafio | Sequência de e-mails por noite do Desafio (EMAIL 01 a 05 do lembrete: abre com o que a pessoa já fez, nomeia a dor do dia, diz o que ela sai tendo na mão, botão grande, "até às 20h"). Aqui a unidade é a ideia do dia, não a noite |
 
-**Frequência e exclusão.** Regra recomendada: nos dias em que S1 (Alunas) ou S2 (Desafio, Imersão, Aulão) recebem o e-mail segmentado das 09h (arquivo `segmentados_09h.md`), esse segmento é **excluído** do envio das 07h daquele dia. Isso evita dois e-mails promocionais no mesmo dia para quem já está mais quente. Os dias de exclusão estão no arquivo dos segmentados, na primeira tabela.
+**Regra de exclusão (07h x 09h).** Nos dias em que S1 (Alunas) ou S2 (Desafio, Imersão, Aulão) recebem o e-mail segmentado das 09h (`segmentados_09h.md`), esse segmento é **excluído** do envio das 07h daquele dia. Assim ninguém recebe dois e-mails promocionais sobre o mesmo assunto no mesmo dia. A tabela abaixo é a mesma do arquivo dos segmentados; se uma data mudar, mude nos dois arquivos.
 
-**Padrão de cada e-mail.** Assunto principal (A), variante (B) com outra frase da audiência para teste, linha de preview, corpo, botão. O botão é um dos três: `[BOTÃO 1]` RESERVAR MINHA VAGA NA LIVE (para quem ainda não se inscreveu, leva para a captura), `[BOTÃO 2]` ENTRAR NO GRUPO DA LIVE (para inscritos que não entraram no grupo), `[BOTÃO 3]` FAZER MEU DIAGNÓSTICO. O sistema escolhe o botão pelo estado do contato. Cada e-mail abaixo traz o botão principal e, entre colchetes, o alternativo.
+| Data | Segmento excluído das 07h | E-mail das 07h que ele não recebe | E-mail das 09h que recebe no lugar |
+|---|---|---|---|
+| 14/10 | S1 | EM-BF-02 | SA-01 |
+| 16/10 | S2 | EM-BF-04 | SD-01 |
+| 18/10 | S1 | EM-BF-06 | SA-02 |
+| 20/10 | S2 | EM-BF-08 | SD-02 |
+| 22/10 | S1 | EM-BF-10 | SA-03 |
+| 23/10 | S2 | EM-BF-11 | SD-03 |
+| 26/10 | S1 | EM-BF-14 | SA-04 |
+| 27/10 | S2 | EM-BF-15 | SD-04 |
+| 29/10 | S1 | EM-BF-17 | SA-05 |
+| 30/10 | S2 | EM-BF-18 | SD-05 |
+| 01/11 | S1 e S2 | EM-BF-20 | SA-06 (S1) e SD-06 (S2) |
+
+São 11 datas e 12 envios segmentados (em 01/11, S1 e S2 recebem cada um o seu).
+
+**Regra do lembrete das 12h e dos dias 02/11 e 03/11.** O lembrete operacional das 12h (`lembretes_da_live.md`) vai só para quem tem a tag "inscrito na live". Para não repetir assunto no mesmo dia:
+
+1. Nos dias 29/10 (S1), 30/10 (S2) e 01/11 (S1 e S2), o segmento que recebeu o segmentado das 09h **não recebe** o lembrete das 12h daquele dia (LV-29, LV-30 e LV-01). O segmentado já leva o botão do grupo e a data.
+2. Em 02/11 e 03/11, quem tem a tag "inscrito na live" recebe apenas o operacional (LV-02 em 02/11; LV-03-01 a LV-03-06 em 03/11). Os e-mails EM-BF-21 e EM-BF-22 das 07h vão só para quem **não** tem a tag. Nesses dois dias o botão principal é o `[BOTÃO 1]`.
+3. Nos demais dias de 28/10 a 01/11, quem é inscrito recebe o das 07h (ideia de identidade) e o das 12h (logística), que têm ideias diferentes. Monitorar descadastro.
+4. Os e-mails de onboarding (OB) são transacionais e não entram na conta.
+
+**Padrão de cada e-mail.** Assunto principal (A), variante (B) com outra frase da audiência para teste, linha de preview, corpo, **um único botão**. O botão é um dos três: `[BOTÃO 1]` QUERO ASSISTIR À LIVE (para quem ainda não se inscreveu, leva para a captura), `[BOTÃO 2]` ENTRAR NO GRUPO DA LIVE (para inscritos que não entraram no grupo), `[BOTÃO 3]` FAZER MEU DIAGNÓSTICO. O sistema escolhe o botão pelo estado do contato, e cada pessoa vê só um. Cada e-mail abaixo traz o botão principal e, entre colchetes, o alternativo.
+
+**Legibilidade e acessibilidade (vale para todos os e-mails deste arquivo).** Texto simples, sem imagem com texto. Fonte de pelo menos 16 px, entrelinha 1,5, contraste alto (40% da base tem mais de 50 anos). Botão feito de texto, nunca de imagem, com o endereço do link escrito por extenso logo abaixo (link visível). Se o modelo de e-mail levar imagem ou logo, o texto alternativo é descritivo (por exemplo, "Dra. Próton sorrindo", `[[FOTO DRA]]`) e nada depende de cor ou de emoji para ser entendido. Assunto até 50 caracteres sempre que possível; a exceção está marcada.
+
+**Gênero.** O público é misto (79% mulheres, 21% homens) e parte dele é base fria. O texto da série usa construções neutras ("você", "quem"); o feminino fica para as peças de quem já comprou.
 
 **Links.** `[[LINK: captura]]`, `[[LINK: grupo WhatsApp]]`, `[[LINK: diagnóstico dos 5 padrões]]`. Sugestão de UTM: `utm_source=email`, `utm_medium=email`, `utm_campaign=black-vitalicia`, `utm_content=em-bf-NN`. Assinatura padrão: "Dra. Próton".
 
@@ -23,38 +50,42 @@
 
 | ID | Data (07h) | Fase | Ideia do dia | Tipo |
 |---|---|---|---|---|
-| EM-BF-01 | 13/10 | 1 | Quantas vezes você já recomeçou? | Identidade + diagnóstico |
-| EM-BF-02 | 14/10 | 1 | Termostato Invisível | Dor 1 |
-| EM-BF-03 | 15/10 | 1 | Autossabotagem | Dor 2 |
-| EM-BF-04 | 16/10 | 1 | Cobrança Que Você Só Faz Com Você | Dor 3 |
-| EM-BF-05 | 17/10 | 1 | Traumas Que Ainda Decidem | Dor 4 |
-| EM-BF-06 | 18/10 | 1 | Culpa de Querer Mais | Dor 5 |
-| EM-BF-07 | 19/10 | 1 | "Não sei o que me trava": o diagnóstico | Diagnóstico |
-| EM-BF-08 | 20/10 | 2 | "Não é quem nós somos. É quem nós estamos." | Identidade |
-| EM-BF-09 | 21/10 | 2 | "Já comprei outros e não tive resultado" | Objeção |
-| EM-BF-10 | 22/10 | 2 | Quem já esteve ao vivo comigo | Prova |
-| EM-BF-11 | 23/10 | 2 | "Tenho medo de comprar e não colocar em prática" | Objeção |
-| EM-BF-12 | 24/10 | 2 | O que a live vai abrir (sem preço) | Revelação sem preço |
-| EM-BF-13 | 25/10 | 2 | Transformei dor em método | Prova (história) |
-| EM-BF-14 | 26/10 | 2 | "O dinheiro não dá agora" | Objeção |
-| EM-BF-15 | 27/10 | 2 | Você não aplica sozinha | Mecanismo |
-| EM-BF-16 | 28/10 | 3 | O "depois" é o inimigo | Inimigo comum |
-| EM-BF-17 | 29/10 | 3 | Para quem NÃO é | Qualificação |
-| EM-BF-18 | 30/10 | 3 | Quando você sobe, a casa sobe junto | Identidade |
-| EM-BF-19 | 31/10 | 3 | O mês que você perdeu | Mecanismo (sem prazo) |
-| EM-BF-20 | 01/11 | 3 | O que fazer antes de terça | Preparação |
-| EM-BF-21 | 02/11 | 3 | Amanhã você decide uma vez | Identidade |
-| EM-BF-22 | 03/11 | 3 | Hoje, 20h | Dia da live (07h) |
+| EM-BF-01 | 13/10 (ter) | 1 | Quantas vezes você já recomeçou? | Identidade + diagnóstico |
+| EM-BF-02 | 14/10 (qua) | 1 | Termostato Invisível | Dor 1 |
+| EM-BF-03 | 15/10 (qui) | 1 | Autossabotagem | Dor 2 |
+| EM-BF-04 | 16/10 (sex) | 1 | Cobrança Que Você Só Faz Com Você | Dor 3 |
+| EM-BF-05 | 17/10 (sáb) | 1 | Traumas Que Ainda Decidem | Dor 4 |
+| EM-BF-06 | 18/10 (dom) | 1 | Culpa de Querer Mais | Dor 5 |
+| EM-BF-07 | 19/10 (seg) | 1 | "Não sei o que me trava": o diagnóstico | Diagnóstico |
+| EM-BF-08 | 20/10 (ter) | 2 | "Não é quem nós somos. É quem nós estamos." | Identidade |
+| EM-BF-09 | 21/10 (qua) | 2 | "Já comprei outros e não tive resultado" | Objeção |
+| EM-BF-10 | 22/10 (qui) | 2 | Quem já esteve ao vivo comigo | Prova |
+| EM-BF-11 | 23/10 (sex) | 2 | "Tenho medo de comprar e não colocar em prática" | Objeção |
+| EM-BF-12 | 24/10 (sáb) | 2 | O que a live vai abrir (sem preço) | Revelação sem preço |
+| EM-BF-13 | 25/10 (dom) | 2 | Transformei dor em método | Prova (história) |
+| EM-BF-14 | 26/10 (seg) | 2 | "O dinheiro não dá agora" | Objeção |
+| EM-BF-15 | 27/10 (ter) | 2 | Uma ordem para não se perder | Mecanismo |
+| EM-BF-16 | 28/10 (qua) | 3 | O "depois" é o inimigo | Inimigo comum |
+| EM-BF-17 | 29/10 (qui) | 3 | Para quem NÃO é | Qualificação |
+| EM-BF-18 | 30/10 (sex) | 3 | Quando você sobe, a casa sobe junto | Identidade |
+| EM-BF-19 | 31/10 (sáb) | 3 | O mês que você perdeu | Mecanismo (sem prazo) |
+| EM-BF-20 | 01/11 (dom) | 3 | O que fazer antes de terça | Preparação |
+| EM-BF-21 | 02/11 (seg, Finados) | 3 | Amanhã você decide uma vez | Identidade, tom sóbrio |
+| EM-BF-22 | 03/11 (ter) | 3 | Hoje, 20h | Dia da live (07h) |
 
 **Se for preciso cortar a série** (prioridade, do mais ao menos essencial): 01, 07, 12, 21, 22, 02, 03, 11, 09, 14, 15, 16, 10, 18, 20, 04, 05, 06, 08, 13, 17, 19.
 
-**Inclusão no dia 03/11.** EM-BF-22 é o e-mail das 07h. Os seis e-mails operacionais do dia (09h, 19h, 20h, 20h25, 21h15, 22h30) estão em `lembretes_da_live.md` com os IDs LV-03-01 a LV-03-06.
+**Inclusão no dia 03/11.** EM-BF-22 é o e-mail das 07h para quem ainda não se inscreveu. Os seis e-mails operacionais do dia (09h, 19h, 20h, 20h25, 21h15, 22h30) estão em `lembretes_da_live.md` com os IDs LV-03-01 a LV-03-06.
+
+**Tom de 02/11 (Finados).** EM-BF-21 e LV-02 saem num dia de recolhimento para muita gente: sem emoji, sem exclamação, frases curtas, nenhum apelo de urgência.
+
+**03/11 é terça, dia da aula ao vivo do Clube.** Para S1, o aviso sobre a aula está em OB-02 (S1) e SA-06, com `[[CONFIRMAR]]` até a equipe decidir.
 
 ---
 
 ## FASE 1. RECONHECIMENTO (13 a 19/10)
 
-### EM-BF-01. Quantas vezes você já recomeçou? (13/10, 07h)
+### EM-BF-01. Quantas vezes você já recomeçou? (13/10, terça, 07h)
 
 Ideia: abrir pela pergunta-âncora e oferecer o diagnóstico. Consciência 1 a 2.
 
@@ -68,116 +99,116 @@ Quantas vezes você já recomeçou?
 
 Começou a dieta, o curso, o hábito, o negócio, o projeto de ficar bem. Parou. Voltou. Parou de novo. E em algum momento passou a achar que o problema era você.
 
-Eu quero te contar uma coisa que muda esse olhar: você não é preguiçosa, não é indisciplinada, não é fraca. Você está rodando um padrão que ninguém nunca te ensinou a desligar.
+Eu quero te contar uma coisa que muda esse olhar: isso não é preguiça nem falta de caráter. É um padrão que ninguém nunca te ensinou a desligar.
 
-No dia 03/11, às 20h, eu faço uma live ao vivo no YouTube para abrir o que construí, de uma vez só, para desarmar esse padrão. A condição completa só é revelada na live.
+No dia 03/11, às 20h, eu faço uma live no YouTube para abrir, de uma vez só, o que construí contra esse padrão. A condição completa só é revelada na live.
 
-Até lá, o primeiro passo é saber qual padrão é o seu. São cinco, e leva poucos minutos descobrir.
+Até lá, o primeiro passo é saber qual padrão é o seu. São cinco, e leva poucos minutos para descobrir.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO DOS 5 PADRÕES
-[Alternativo: **Botão 1** RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
 P.S. Você já me ouviu dizer: "Reset. Chega de migalhas." Começa aqui.
 
-### EM-BF-02. Termostato Invisível (14/10, 07h)
+### EM-BF-02. Termostato Invisível (14/10, quarta, 07h)
 
-Ideia: dor 1, o dinheiro que evapora. Dado: 51,9% (dossiê do Desafio). Consciência 2.
+Ideia: dor 1, o dinheiro que evapora. Dado: 51,9% das pessoas que responderam à pesquisa de presença do Desafio (dossiê do Desafio). Consciência 2.
 
 **Assunto A:** Quando entra um dinheiro a mais, aparece uma conta
-**Assunto B:** Por que o dinheiro entra e vai embora sem eu ver por onde foi?
-**Linha de preview:** Isso tem nome. Chama Termostato Invisível
+**Assunto B:** Por que o dinheiro entra e some sem eu ver?
+**Linha de preview:** Isso tem nome: Termostato Invisível
 
 {{nome}},
 
 Entrou um dinheiro a mais e, do nada, apareceu uma conta. O carro quebrou, alguém da família precisou, uma despesa que não estava no mapa.
 
-Nas minhas pesquisas, mais da metade das pessoas que me acompanham diz que isso acontece com elas. Não é azar. É um padrão, e eu chamo de Termostato Invisível.
+Na pesquisa de presença do Desafio, 51,9% das pessoas que responderam disseram que isso acontece com elas. Não é azar. É um padrão, e eu chamo de Termostato Invisível.
 
-Funciona como um termostato de casa: você pode esquentar o ambiente, mas, se a temperatura programada é baixa, o sistema desliga e volta para ela. Com o dinheiro é igual. A mente tem um "valor programado" de quanto você pode ter, e puxa de volta qualquer coisa que passe.
+Pense num termostato de casa: você pode esquentar o ambiente, mas, se a temperatura programada é baixa, o sistema desliga e volta para ela. Com o dinheiro, é como se a mente tivesse um "valor programado" de quanto você pode ter, e puxasse de volta o que passa disso.
 
-Esse é um dos 5 padrões que eu vou trabalhar na live do dia 03/11, às 20h. Descubra se é o seu.
+Esse é um dos 5 padrões que eu trabalho na live do dia 03/11, às 20h. Descubra se é o seu.
 
 **Botão 3:** DESCOBRIR MEU PADRÃO
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-03. Autossabotagem (15/10, 07h)
+### EM-BF-03. Autossabotagem (15/10, quinta, 07h)
 
-Ideia: dor 2. Dado: 27% no Aulão e 19% na ficha escolheriam "parar de me sabotar". Consciência 2.
+Ideia: dor 2. Dado: 27% no Aulão (26,9% na pesquisa de presença) e 19% na ficha escolheriam "parar de me sabotar". Consciência 2.
 
 **Assunto A:** Eu sei o que fazer e não faço
-**Assunto B:** Eu tenho muito conhecimento, mas na hora de colocar em prática eu me perco
+**Assunto B:** Eu sei muito, mas na hora de praticar me perco
 **Linha de preview:** Não é falta de informação. É um padrão
 
 {{nome}},
 
 "Eu sei o que fazer e não faço."
 
-Se essa frase é sua, saiba que você está longe de estar sozinha. Na pesquisa do Aulão, 27% das pessoas escolheram "parar de me sabotar" como o maior problema emocional da vida delas.
+Se essa frase é sua, você não está só. Na pesquisa do Aulão, 27% das pessoas escolheram "parar de me sabotar" como o problema emocional que mais gostariam de resolver.
 
 A autossabotagem não aparece quando é fácil. Ela chega bem na hora de agir. É a voz que diz "isso não é para mim", "depois eu começo", "amanhã eu faço". Ela sempre teve um depois para se esconder.
 
-O que eu aprendi, depois de anos acompanhando milhares de alunos, é que força de vontade não ganha desse padrão. Ele é mais antigo do que a sua decisão de hoje.
+Eu acompanho milhares de alunos e vejo isto se repetir: força de vontade, sozinha, não ganha desse padrão. Ele é mais antigo do que a decisão de hoje.
 
-Dia 03/11, às 20h, eu vou mostrar ao vivo como parar de depender da decisão do dia.
+Na live de 03/11, às 20h, eu mostro ao vivo como parar de depender da decisão do dia.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-04. Cobrança Que Você Só Faz Com Você (16/10, 07h)
+### EM-BF-04. Cobrança Que Você Só Faz Com Você (16/10, sexta, 07h)
 
 Ideia: dor 3. Dado: 16% (ficha). Consciência 2.
 
-**Assunto A:** Estou funcional, mas exausta por dentro
-**Assunto B:** Você cobra de si o que nunca cobraria de uma amiga?
+**Assunto A:** Cumpro tudo, mas por dentro estou no limite
+**Assunto B:** Você se cobra o que nunca cobraria dos outros?
 **Linha de preview:** O nome disso é Cobrança Que Você Só Faz Com Você
 
 {{nome}},
 
-Você cumpre tudo. Trabalha, cuida, resolve, responde, entrega. Por fora, está funcionando. Por dentro, está exausta.
+Você cumpre tudo. Trabalha, cuida, resolve, responde, entrega. Por fora, funciona. Por dentro, está no limite.
 
-Eu chamo esse padrão de Cobrança Que Você Só Faz Com Você. Você nunca falaria com outra pessoa do jeito que fala consigo. "Você devia ter feito mais." "Isso não é suficiente." "Olha como os outros conseguem."
+Eu chamo esse padrão de Cobrança Que Você Só Faz Com Você. Você nunca falaria com outra pessoa do jeito que fala consigo: "Você devia ter feito mais." "Isso não é suficiente." "Olha como os outros conseguem."
 
-O efeito é perverso: quanto mais você se cobra, mais cansada fica, e quanto mais cansada, menos faz, e mais se cobra. É um ciclo que se alimenta sozinho.
+O efeito é perverso. Quanto mais você se cobra, mais cansado fica. Quanto mais cansado, menos faz, e mais se cobra. É um ciclo que se alimenta sozinho.
 
-Na live do dia 03/11, às 20h, eu abro uma forma de sair dele sem depender de mais disciplina. Se você se viu aqui, o diagnóstico mostra se esse é o seu padrão principal.
+Se você se viu aqui, o diagnóstico mostra se esse é o seu padrão principal. E na live do dia 03/11, às 20h, eu abro uma forma de sair desse ciclo sem depender de mais disciplina.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-### EM-BF-05. Traumas Que Ainda Decidem (17/10, 07h)
+### EM-BF-05. Traumas Que Ainda Decidem (17/10, sábado, 07h)
 
 Ideia: dor 4. Dado: 14% (ficha), 13% (Aulão). Consciência 2.
 
 **Assunto A:** Sinto que a cada passo que dou, retrocedo
-**Assunto B:** Frases da infância que ecoam toda vez que vou dar um passo
+**Assunto B:** Frases da infância que ecoam a cada passo
 **Linha de preview:** Quem decide por você quando você tem medo?
 
 {{nome}},
 
-"Sinto que a cada passo que tento seguir em frente, retrocedo e volto à estaca zero."
+Você dá um passo e, poucos dias depois, está de volta onde começou. Sem nenhum motivo claro.
 
-Essa frase eu leio com frequência nas respostas que vocês me mandam. Muitas vezes vem junto com outra: "guardo frases e atitudes da infância que ecoam toda vez que vou dar um passo."
+Eu leio isto com frequência nas respostas das pesquisas: "sinto que a cada passo que tento seguir em frente, retrocedo e volto à estaca zero." Muitas vezes vem junto com outra frase: "guardo frases e atitudes da infância que ecoam toda vez que vou dar um passo."
 
 Esse é o padrão que eu chamo de Traumas Que Ainda Decidem. Não é o que aconteceu com você, é o que ainda decide por você, hoje, em silêncio.
 
-Eu fui criada pelos meus avós, na periferia do interior de São Paulo, filha de mãe solo. Sei muito bem como uma frase dita aos sete anos pode ser a mesma que freia uma decisão aos quarenta.
+Eu cresci na periferia do interior de São Paulo, criada pelos meus avós. Sei como uma frase ouvida na infância ainda pode frear uma decisão aos quarenta anos.
 
-Esse padrão tem saída, e na live de 03/11, às 20h, eu mostro como ela aparece na prática.
+Esse padrão tem saída, e eu mostro como ela aparece na prática na live de 03/11, às 20h.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-06. Culpa de Querer Mais (18/10, 07h)
+### EM-BF-06. Culpa de Querer Mais (18/10, domingo, 07h)
 
 Ideia: dor 5. Dado: 10,9% (quiz). Consciência 2.
 
@@ -187,38 +218,38 @@ Ideia: dor 5. Dado: 10,9% (quiz). Consciência 2.
 
 {{nome}},
 
-"Eu cuido de todo mundo, mas ninguém cuida de mim."
+Quem cuida de todo mundo costuma ficar por último na própria fila.
 
-Talvez você tenha lido isso em voz alta, em silêncio. Se sim, este e-mail é para você.
+"Eu cuido de todo mundo, mas ninguém cuida de mim." Talvez você tenha lido isso em voz alta, ou só em silêncio. Se sim, este e-mail é para você.
 
-O padrão se chama Culpa de Querer Mais. Funciona assim: você consegue dar um passo, melhorar um pouco, e logo vem a culpa. Culpa de ter mais do que a sua mãe teve, mais do que suas amigas têm, mais do que "era para ser".
+O padrão se chama Culpa de Querer Mais. Você consegue dar um passo, melhorar um pouco, e logo vem a culpa. Culpa de ter mais do que a sua mãe teve, mais do que seus amigos têm, mais do que "era para ser".
 
-A culpa é o freio mais bem disfarçado que existe. Ela se veste de humildade, de gratidão, de "não preciso de tanto". E, no fim, é ela que decide o seu teto.
+A culpa é o freio mais bem disfarçado que existe. Ela se veste de humildade, de gratidão, de "não preciso de tanto". E é ela que decide o seu teto.
 
 Querer mais não tira nada de ninguém. Na live de 03/11, às 20h, eu falo disso sem rodeio.
 
 **Botão 3:** DESCOBRIR SE ESSE É O MEU PADRÃO
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-07. O diagnóstico (19/10, 07h)
+### EM-BF-07. O diagnóstico (19/10, segunda, 07h)
 
 Ideia: o maior grupo (29% a 40%) "não sabe o que está me impedindo". Consciência 2 a 3.
 
 **Assunto A:** Não sei exatamente o que está me impedindo
-**Assunto B:** Quatro em cada dez não sabem o que as trava. E você?
+**Assunto B:** Você sabe o que realmente te trava?
 **Linha de preview:** Dar nome ao padrão é o primeiro passo para sair dele
 
 {{nome}},
 
-Durante a semana eu te apresentei os cinco padrões: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem e Culpa de Querer Mais.
+Nos últimos dias eu te apresentei os cinco padrões: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem e Culpa de Querer Mais.
 
-Mas existe uma resposta que apareceu mais do que todas as outras nas minhas pesquisas: "não sei exatamente o que está me impedindo." Na pesquisa do Aulão, 4 em cada 10 pessoas responderam isso.
+Mas uma resposta apareceu mais do que todas as outras nas pesquisas: "não sei exatamente o que está me impedindo." Na pesquisa do Aulão, 4 em cada 10 pessoas responderam isso.
 
-Se é o seu caso, você não está atrasada. Você só precisa de um nome. O diagnóstico faz isso: em poucos minutos mostra qual dos cinco é o que mais pesa hoje.
+Se é o seu caso, você não está atrasado. Você só precisa de um nome. O diagnóstico faz isso: em poucos minutos mostra qual dos cinco pesa mais hoje.
 
-E o que muda depois que você sabe? Você para de lutar contra tudo ao mesmo tempo e começa a trabalhar no ponto certo.
+E o que muda depois? Você para de lutar contra tudo ao mesmo tempo e começa a trabalhar no ponto certo.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO AGORA
 
@@ -230,7 +261,7 @@ Dra. Próton
 
 ## FASE 2. PROVA E QUEBRA DE MEDO (20 a 27/10)
 
-### EM-BF-08. Não é quem nós somos (20/10, 07h)
+### EM-BF-08. Não é quem nós somos (20/10, terça, 07h)
 
 Ideia: identidade. Frase intocável. Consciência 2 a 3.
 
@@ -240,49 +271,49 @@ Ideia: identidade. Frase intocável. Consciência 2 a 3.
 
 {{nome}},
 
-"Não é quem nós somos. É quem nós estamos."
+Existe uma frase minha que eu gostaria que você levasse hoje para o dia.
 
-Eu repeti essa frase em quase todas as minhas aulas, e ela ainda é a que mais pessoas me escrevem sobre.
+"Não é quem nós somos. É quem nós estamos."
 
 Quando você acredita que "é assim que eu sou", qualquer recomeço vira uma tentativa de ser outra pessoa. E toda tentativa de ser outra pessoa cansa, e perde.
 
-Quando você entende que é um estado, uma programação de agora, ela deixa de ser sentença. Deixa de ser "a que sempre desiste". Passa a ser "a que está num padrão".
+Quando você entende que é um estado, uma programação de agora, deixa de ser sentença. Deixa de ser "quem sempre desiste". Passa a ser "quem está num padrão".
 
-A aluna que cansou de recomeçar não precisa virar outra. Precisa de um caminho que não dependa de recomeçar.
+Quem cansou de recomeçar não precisa virar outra pessoa. Precisa de um caminho que não dependa de recomeçar.
 
-É isso que eu vou abrir no dia 03/11, às 20h, ao vivo.
+É isso que eu abro no dia 03/11, às 20h, ao vivo.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-09. Já comprei outros e não tive resultado (21/10, 07h)
+### EM-BF-09. Já comprei outros e não tive resultado (21/10, quarta, 07h)
 
 Ideia: objeção "já comprei outros" (14% ficha, 11% Aulão). Consciência 3.
 
 **Assunto A:** Já comprei outros cursos e não tive resultado
-**Assunto B:** Se você já pagou por curso e ficou parado, leia isto
+**Assunto B:** Se já pagou por curso e ficou parado, leia
 **Linha de preview:** Eu sei. E por isso eu desenhei diferente
 
 {{nome}},
 
-"Já comprei outros e não tive resultado."
+Se você já pagou por um curso e ele ficou parado numa aba, este e-mail é franco com você.
 
-Eu sei. Eu entendo, e não vou te dizer que esse medo é bobagem. Ele é uma proteção. Depois de ter investido e ficado com a sensação de que "não era para mim", é natural se defender.
+"Já comprei outros e não tive resultado." Eu entendo, e não vou dizer que esse medo é bobagem. Ele é uma proteção. Depois de investir e ficar com a sensação de que "não era para mim", é natural se defender.
 
-Mas olha o que costuma acontecer: na maioria dos cursos, você aprende e depois precisa aplicar sozinha. É exatamente aí que o padrão de autossabotagem trava tudo de novo.
+Em muitos cursos, você aprende e depois precisa aplicar sozinho. É exatamente aí que o padrão de autossabotagem costuma travar tudo de novo.
 
-Por isso, o que eu construí não depende só de disciplina. Tem prática guiada, tem trilha, tem apoio para você não ficar sozinha na hora de aplicar.
+Por isso o que eu construí não depende só de disciplina: a ideia é ter prática guiada, trilha e apoio na hora de aplicar. [[CONFIRMAR: prática guiada, trilha e apoio fazem parte da oferta]]
 
-Na live de 03/11, às 20h, eu mostro como isso está montado. Se não fizer sentido para você, você sai de lá sem ter gasto nada.
+Assistir à live não custa nada. Eu mostro como isso está montado no dia 03/11, às 20h, e você decide depois de ver.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-10. Quem já esteve ao vivo comigo (22/10, 07h)
+### EM-BF-10. Quem já esteve ao vivo comigo (22/10, quinta, 07h)
 
 Ideia: prova social, com depoimento real e fatos do guia. Consciência 3.
 
@@ -292,22 +323,22 @@ Ideia: prova social, com depoimento real e fatos do guia. Consciência 3.
 
 {{nome}},
 
-Eu já ajudei mais de 70 mil alunos, em 44 países. Não é para me gabar. É para te contar o que eles têm em comum: ninguém chegou com tudo resolvido.
+Mais de 70 mil alunos, em 44 países. Não conto isso para me gabar, e sim para dizer o que eles têm em comum: ninguém chegou com tudo resolvido.
 
-Chegaram cansados de recomeçar. Chegaram querendo "voltar a acreditar no meu potencial", ou "ter clareza do caminho a seguir e confiar em mim". Frases como essas eu leio todos os dias.
+Quase todos chegaram cansados de recomeçar. Nas respostas das pesquisas, eu leio frases como "voltar a acreditar no meu potencial" e "ter clareza do caminho a seguir e confiar em mim". São frases que se repetem.
 
-[[DEPOIMENTO REAL: print autorizado de aluna sobre sair do ciclo de recomeçar]]
+[[DEPOIMENTO REAL: print autorizado de aluno ou aluna sobre sair do ciclo de recomeçar]]
 
-O que mudou não foi mágica. Foi aparecer, ao vivo, e ter um método que continua depois que a transmissão acaba.
+O que muda não é mágica. É aparecer, ao vivo, e ter um método que continua depois que a transmissão acaba.
 
 Na live do dia 03/11, às 20h, você vê o que eu montei para quem quer ficar de vez.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-11. Medo de comprar e não colocar em prática (23/10, 07h)
+### EM-BF-11. Medo de comprar e não colocar em prática (23/10, sexta, 07h)
 
 Ideia: objeção "tenho medo de comprar e não colocar em prática" (12% ficha, 27 pessoas na ficha quente). Consciência 3 a 4.
 
@@ -317,128 +348,128 @@ Ideia: objeção "tenho medo de comprar e não colocar em prática" (12% ficha, 
 
 {{nome}},
 
-O medo que mais aparece nas respostas de quem está pronta para entrar é este: "e se eu comprar e não colocar em prática?"
+Entre quem está pronto para entrar, um medo aparece mais do que qualquer outro: "e se eu comprar e não colocar em prática?"
 
-Pense em onde esse medo mora. Mora no prazo. Em "preciso usar logo, senão perco o que paguei". Em "pelo menos preciso terminar esse mês". Esse prazo é a pressão que faz a procrastinação crescer.
+Pense em onde ele mora. Mora no prazo. Em "preciso usar logo, senão perco o que paguei". Em "pelo menos preciso terminar este mês". Esse prazo é a pressão que faz a procrastinação crescer.
 
-Então, quando eu desenhei a oferta, tirei o prazo. Acesso vitalício, sem relógio correndo contra você. E tirei também o "falta alguma coisa", porque tudo entra de uma vez.
+Então, quando desenhei a oferta, tirei o prazo. Acesso vitalício, sem relógio correndo contra você. E tirei também o "falta alguma coisa", porque tudo entra de uma vez.
 
-E para não virar o "comprei e não usei", existe uma trilha de entrada: um primeiro passo, claro, nas primeiras 48 horas. Eu mostro como funciona na live de 03/11, às 20h.
+Para não virar o "comprei e não usei", existe uma trilha de entrada: um primeiro passo, claro, nas primeiras 48 horas. Eu mostro como funciona na live de 03/11, às 20h.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-P.S. [[CONFIRMAR: a trilha e o primeiro passo em 48 horas estão fechados para a oferta]]
+[[CONFIRMAR: a trilha e o primeiro passo em 48 horas estão fechados para a oferta]]
 
-### EM-BF-12. O que a live vai abrir (24/10, 07h)
+### EM-BF-12. O que a live vai abrir (24/10, sábado, 07h)
 
 Ideia: o que será revelado, sem preço. Consciência 3 a 4.
 
-**Assunto A:** O que eu vou abrir na live de 03/11 (sem contar o preço ainda)
+**Assunto A:** O que eu vou abrir na live de 03/11 (sem preço)
 **Assunto B:** Três coisas que eu só conto ao vivo
 **Linha de preview:** Dia 03/11, às 20h, no YouTube
 
 {{nome}},
 
-Sei que a curiosidade já bateu, então vou te adiantar o que dá. O que eu vou mostrar ao vivo, no dia 03/11, às 20h:
+Três coisas que eu vou mostrar ao vivo, no dia 03/11, às 20h:
 
 1. O que entra: o Clube Secreto e tudo o que eu já criei, reunido num acesso só, vitalício.
-2. Como começar sem se perder: a trilha de entrada, para você não ficar com 11 coisas na mão e não saber por onde ir.
+2. Como começar sem se perder: a trilha de entrada, para você não ficar com 11 produtos na mão sem saber por onde ir.
 3. A condição completa: valor, formas de pagamento e prazos. Só ao vivo.
 
 O que eu não vou fazer é te empurrar. Eu prefiro que você não compre do que compre e não viva.
 
-Se você já decidiu que quer ouvir tudo, é só garantir o lugar.
+Se você já quer ouvir tudo, é só confirmar a sua presença.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-P.S. [[CONFIRMAR: número de produtos exato e se a transmissão terá replay antes de citar]]
+[[CONFIRMAR: número exato de produtos e trilha de entrada fechada]] [[PENDENTE: replay]]
 
-### EM-BF-13. Transformei dor em método (25/10, 07h)
+### EM-BF-13. Transformei dor em método (25/10, domingo, 07h)
 
-Ideia: história da Dra., fatos do guia. Consciência 3.
+Ideia: história da Dra., fatos do guia (seção 8). Consciência 3.
 
-**Assunto A:** De camelô a doutora: por que eu faço isso
+**Assunto A:** Fui camelô. Hoje eu ensino isso
 **Assunto B:** Transformei dor em método
-**Linha de preview:** O que eu precisei curar sozinha virou o que eu ensino
+**Linha de preview:** O que eu atravessei sozinha virou o que eu ensino
 
 {{nome}},
 
-Eu fui criada pelos meus avós, na periferia do interior de São Paulo. Filha de mãe solo. Trabalhei em telemarketing, vendi cartão, fui camelô. Precisei chegar muito perto de perder a vida para entender que o jeito como eu vivia era o que estava me levando embora.
+Antes de qualquer título, eu vendi cartão por telefone e fui camelô. Trabalhei em telemarketing. Fui criada pelos meus avós, na periferia do interior de São Paulo, filha de mãe solo.
 
-Foi daí que eu comecei a estudar. Neurociência, física quântica, hipnose, reprogramação mental. Hoje sou formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL, e Doutora Honoris Causa em Neurociência pela Academia Mundial de Letras.
+Depois, eu fui estudar. Hoje sou formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL, e Doutora Honoris Causa em Neurociência pela Academia Mundial de Letras. [[CONFIRMAR: credenciais conforme o material do Comercial]]
 
 Mas o título que mais me importa é outro: eu transformei dor em método.
 
-Tudo o que eu vou abrir na live do dia 03/11 vem desse caminho. Não é teoria. É o que eu precisei fazer comigo primeiro.
+Tudo o que eu abro na live do dia 03/11 vem desse caminho. Não é teoria.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-14. O dinheiro não dá agora (26/10, 07h)
+### EM-BF-14. O dinheiro não dá agora (26/10, segunda, 07h)
 
 Ideia: objeção "não tenho o dinheiro agora" (68% Aulão, 30% ficha) sem preço. Consciência 3 a 4.
 
 **Assunto A:** E se o dinheiro não der agora?
 **Assunto B:** Pago as contas, mas quase nunca sobra
-**Linha de preview:** A conta que ninguém faz: quanto custa ficar mais um ano no mesmo lugar
+**Linha de preview:** A conta que ninguém faz: quanto custa mais um ano parado
 
 {{nome}},
 
-Se a primeira coisa que você pensou foi "não tenho esse dinheiro agora", eu quero que você leia com calma.
+Vou começar pelo que quase ninguém diz em lançamento: o dinheiro importa.
 
-Eu não vou falar de valor aqui, porque ele só é revelado na live. Mas posso te dizer o seguinte: eu sei que 3 em cada 10 pessoas na minha lista têm essa objeção, e que muita gente me escreve dizendo que paga as contas, mas quase nunca sobra.
+Eu não vou falar de valor aqui, porque ele só é revelado na live. Mas sei que, na ficha de interesse do Clube, 3 em cada 10 pessoas disseram que o que as impede de comprar é não ter o dinheiro disponível agora. No Aulão, foram quase 7 em cada 10. E muita gente me escreve dizendo que paga as contas, mas quase nunca sobra.
 
-Por isso, na live eu vou mostrar as formas de pagamento, incluindo parcelado. [[CONFIRMAR: parcelamento e número de parcelas]]
+Por isso, na live eu mostro as formas de pagamento, incluindo parcelado. [[CONFIRMAR: parcelamento e número de parcelas]]
 
-E tem uma conta que quase ninguém faz: quanto custa ficar mais um ano exatamente no mesmo lugar? Não é uma pergunta para te pressionar. É para você olhar com honestidade.
+E existe uma conta que quase ninguém faz: quanto custa ficar mais um ano exatamente no mesmo lugar? Não é uma pergunta para te pressionar. É para você olhar com honestidade.
 
-Não é para você se endividar. É para você decidir com todas as informações na mão.
+Não é para você se endividar. É para decidir com todas as informações na mão.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-15. Você não aplica sozinha (27/10, 07h)
+### EM-BF-15. Uma ordem para não se perder (27/10, terça, 07h)
 
 Ideia: mecanismo, prova de que a oferta reduz o abandono. Consciência 3 a 4.
 
-**Assunto A:** "Sinto que preciso arrumar várias áreas e não sei por onde começar"
-**Assunto B:** Você não precisa aplicar sozinha
+**Assunto A:** Não sei por onde começar
+**Assunto B:** Uma ordem para não se perder
 **Linha de preview:** Uma trilha para você não se perder no meio de tanta coisa
 
 {{nome}},
 
-Um dos pedidos que mais aparece nas respostas é: "sinto que preciso arrumar várias áreas ao mesmo tempo e não sei por onde começar."
+Oferta grande tem um risco: virar material parado.
 
-Esse é o risco de qualquer oferta grande: virar um monte de material parado. Eu sei. Por isso, a pergunta que eu me fiz foi: como alguém entra e não se perde?
+Um dos pedidos que mais aparece nas respostas é: "sinto que preciso arrumar várias áreas ao mesmo tempo e não sei por onde começar." Por isso, a pergunta que eu me fiz foi: como alguém entra e não se perde?
 
-A resposta é uma trilha de entrada. Uma ordem. Um primeiro passo nas primeiras 48 horas. E um apoio para você não aplicar sozinha.
+A resposta é uma trilha de entrada. Uma ordem. Um primeiro passo nas primeiras 48 horas. E um apoio para você não aplicar sozinho.
 
-Quem já esteve comigo nas noites ao vivo sabe: quando a prática acontece junto, a gente não precisa depender da disciplina de depois.
+Quem já esteve comigo nas noites ao vivo sabe: quando a prática acontece junto, a gente não depende da disciplina de depois.
 
-Na live do dia 03/11, às 20h, eu mostro essa trilha na tela.
+Eu mostro essa trilha na tela, na live do dia 03/11, às 20h.
 
-**Botão 1:** RESERVAR MINHA VAGA NA LIVE
-[Alternativo: Botão 2 ENTRAR NO GRUPO DA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-P.S. [[PENDENTE: ordem de entrada da trilha; apoio ao aluno após a compra]]
+[[CONFIRMAR: ordem de entrada da trilha e apoio ao aluno após a compra]]
 
 ---
 
 ## FASE 3. ANTECIPAÇÃO (28/10 a 03/11)
 
-### EM-BF-16. O "depois" é o inimigo (28/10, 07h)
+### EM-BF-16. O "depois" é o inimigo (28/10, quarta, 07h)
 
 Ideia: inimigo comum. Consciência 4.
 
@@ -450,23 +481,23 @@ Ideia: inimigo comum. Consciência 4.
 
 "Depois eu começo." "Depois eu pago." "Depois eu faço."
 
-A autossabotagem sempre teve um depois para se esconder. Ela não te diz "nunca". Diz "ainda não". E "ainda não" é a frase mais cara que existe, porque custa tempo, e tempo não volta.
+A autossabotagem sempre teve um depois para se esconder. Ela não diz "nunca". Diz "ainda não". E "ainda não" é a frase mais cara que existe, porque custa tempo, e tempo não volta.
 
-A decisão que eu vou abrir no dia 03/11 foi desenhada para tirar o prazo e tirar a desculpa. Não é sobre pressa. É sobre parar de ter que decidir de novo, toda segunda-feira, se vale a pena tentar mais uma vez.
+A decisão que eu abro no dia 03/11 foi desenhada para tirar o prazo e tirar a desculpa. Não é sobre pressa. É sobre parar de ter que decidir de novo, toda segunda-feira, se vale a pena tentar mais uma vez.
 
-Faltam poucos dias. Se você já sabe que quer estar lá, entre no grupo, que é por onde o link chega.
+Se você já sabe que quer estar lá, entre no grupo, que é por onde o link chega.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-### EM-BF-17. Para quem NÃO é (29/10, 07h)
+### EM-BF-17. Para quem NÃO é (29/10, quinta, 07h)
 
 Ideia: qualificação honesta. Frase intocável. Consciência 4.
 
-**Assunto A:** Eu prefiro que você não compre do que compre e não viva
-**Assunto B:** Para quem a live de 03/11 não é
+**Assunto A:** Para quem a live de 03/11 não é
+**Assunto B:** Eu prefiro que você não compre do que compre e não viva
 **Linha de preview:** Uma conversa franca sobre quem deveria ficar de fora
 
 {{nome}},
@@ -481,18 +512,18 @@ Não é para quem decide por impulso e depois se arrepende.
 
 E é para quem?
 
-Para quem já se prometeu muitas vezes que ia ser diferente, e está pronta para uma decisão que não precise ser refeita.
+Para quem já se prometeu muitas vezes que ia ser diferente e está pronto para uma decisão que não precise ser refeita.
 
-Se você se enxergou nesse segundo grupo, vem. Dia 03/11, às 20h, ao vivo. Eu te mostro tudo, e você decide com calma.
+Se você se enxergou nesse segundo grupo, venha. Dia 03/11, às 20h, ao vivo. Eu mostro tudo, e você decide com calma.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-### EM-BF-18. Quando você sobe, a casa sobe junto (30/10, 07h)
+### EM-BF-18. Quando você sobe, a casa sobe junto (30/10, sexta, 07h)
 
-Ideia: identidade, para mulheres casadas (55% da ficha). Frase real da Aula 02 (ver nota). Consciência 4.
+Ideia: identidade, para pessoas casadas (55% da ficha). Frase real da Aula 02 (conferida no manual da Aula 02 do Desafio). Consciência 4.
 
 **Assunto A:** Quando você sobe, a casa sobe junto
 **Assunto B:** Quando você melhora, quem mais melhora?
@@ -500,49 +531,47 @@ Ideia: identidade, para mulheres casadas (55% da ficha). Frase real da Aula 02 (
 
 {{nome}},
 
-Eu repito isso nas aulas: quando você sobe, a casa sobe junto.
+Quem mais, na sua casa, sente quando você está bem?
 
-Quando você melhora o seu estado, muda o jeito como você fala com os filhos, como você pede, como você escuta, como lida com dinheiro dentro de casa. Não é só sobre você. Mas começa em você.
+Eu repito nas aulas: quando você sobe, a casa sobe junto. Quando você melhora o seu estado, muda o jeito como você fala com os filhos, como pede, como escuta, como lida com dinheiro dentro de casa. Não é só sobre você. Mas começa em você.
 
-Se você é daquelas que cuida de todo mundo e deixa a si por último, eu quero te propor uma inversão: cuidar de você não é tirar de ninguém. É o que sustenta quem está ao seu redor.
+Se você é de quem cuida de todo mundo e deixa a si por último, eu proponho uma inversão: cuidar de você não é tirar de ninguém. É o que sustenta quem está ao seu redor.
 
-No dia 03/11, às 20h, eu vou abrir o que construí para você poder ficar de vez nesse caminho. Se a decisão envolve conversar em casa, avise antes. A live acontece uma vez, e a condição é revelada ali.
+No dia 03/11, às 20h, eu abro o que construí para você poder ficar de vez nesse caminho. Se a decisão envolve conversar em casa, avise antes. A condição é revelada ali, na live.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-P.S. [[CONFIRMAR: a frase "quando você sobe, a casa sobe junto" está na Aula 02 do Desafio]]
-
-### EM-BF-19. O mês que você perdeu (31/10, 07h)
+### EM-BF-19. O mês que você perdeu (31/10, sábado, 07h)
 
 Ideia: mecanismo, sem prazo. Consciência 4.
 
 **Assunto A:** O mês que você perdeu
-**Assunto B:** E se você não precisasse mais dar conta de tudo neste mês?
+**Assunto B:** E se não existisse mais o "mês que perdi"?
 **Linha de preview:** O que muda quando o acesso deixa de ter prazo
 
 {{nome}},
 
-Quem já esteve num programa com prazo conhece a sensação: o mês passou e você não deu conta. Agora vai ter que renovar, ou perder o que já pagou. Ou pior: ficar com a culpa de ter "deixado passar".
+Programa com prazo tem um custo escondido: o mês que passa e não volta.
+
+Quem já esteve num programa assim conhece a sensação. O mês acaba e você não deu conta. Fica a culpa de ter "deixado passar".
 
 Essa culpa é o que faz muita gente desistir antes de terminar.
 
-A Vitalícia que eu vou abrir no dia 03/11 não tem esse relógio. É um pagamento único, com acesso para sempre. Você segue o ritmo possível, ciclo por ciclo, sem o "mês que eu perdi".
+A Vitalícia que eu abro no dia 03/11 não tem esse relógio. É um pagamento único, com acesso para sempre. Você segue o ritmo possível, ciclo por ciclo, sem o "mês que eu perdi".
 
-E o protocolo continua sendo o que sempre foi: 21 dias por ciclo, 12 ciclos por ano. Só que agora você não precisa dar conta de tudo no calendário que não é seu.
+O protocolo continua sendo o que sempre foi: 21 dias por ciclo, 12 ciclos por ano. Só que agora você não precisa dar conta de tudo num calendário que não é seu. [[CONFIRMAR: protocolo de 21 dias por ciclo e 12 ciclos continuam iguais dentro da Vitalícia]]
 
 Dia 03/11, às 20h, ao vivo.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-P.S. [[CONFIRMAR: protocolo de 21 dias por ciclo e 12 ciclos continuam iguais dentro da Vitalícia]]
-
-### EM-BF-20. O que fazer antes de terça (01/11, 07h)
+### EM-BF-20. O que fazer antes de terça (01/11, domingo, 07h)
 
 Ideia: preparação para a decisão. Consciência 4 a 5. 03/11/2026 cai numa terça-feira.
 
@@ -555,22 +584,22 @@ Ideia: preparação para a decisão. Consciência 4 a 5. 03/11/2026 cai numa ter
 Terça-feira, 03/11, às 20h. Antes dela, quatro coisas para ter na mão:
 
 1. O link da live, no grupo. Se ainda não entrou, entre agora.
-2. Um caderno e uma caneta. A live tem conta para fazer, e é melhor no papel.
+2. Um caderno e uma caneta. A live tem uma conta para fazer, e é melhor no papel.
 3. Seu meio de pagamento por perto, se você decidir na hora. Eu vou mostrar as formas de pagamento e não vou te apressar.
-4. Uma pergunta para fazer a você mesma: "o que eu quero que seja diferente daqui a um ano?"
+4. Uma pergunta para fazer a si mesmo: "o que eu quero que seja diferente daqui a um ano?"
 
-Eu não quero que você decida por impulso. Quero que você decida por clareza.
+Eu não quero que você decida por impulso. Quero que decida por clareza.
 
 Qualquer dúvida de acesso, é só responder este e-mail.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+[Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
 
-### EM-BF-21. Amanhã você decide uma vez (02/11, 07h)
+### EM-BF-21. Amanhã você decide uma vez (02/11, segunda, Finados, 07h)
 
-Ideia: identidade, véspera. Consciência 5. Frase-guia.
+Ideia: identidade, véspera. Consciência 5. Frase-guia. Tom sóbrio por ser Finados: sem emoji, sem exclamação, sem urgência. Vai só para quem não tem a tag "inscrito na live".
 
 **Assunto A:** A última vez que você vai precisar recomeçar
 **Assunto B:** Amanhã, às 20h
@@ -578,24 +607,26 @@ Ideia: identidade, véspera. Consciência 5. Frase-guia.
 
 {{nome}},
 
+Hoje é Finados, um dia de recolhimento para muita gente. Por isso, escrevo curto.
+
 Amanhã, às 20h, eu abro a live.
 
 Você já se prometeu que dessa vez seria diferente. Já começou, parou, voltou, e carregou a culpa de cada recomeço. Eu não quero te dar mais um recomeço. Quero te dar uma decisão que você só precisa tomar uma vez.
 
-Não é uma promessa de que a autossabotagem some. Ela pode continuar aparecendo. A diferença é que você deixa de depender de começar do zero cada vez que ela vence.
+Isso não é a promessa de que a autossabotagem some. Ela pode continuar aparecendo. A diferença é que você deixa de depender de começar do zero cada vez que ela vence.
 
 A última vez que você vai precisar recomeçar.
 
-Amanhã eu te conto tudo, ao vivo. Deixe o horário livre e entre no grupo para receber o link.
+Deixe o horário livre amanhã. Para receber o link, basta confirmar a sua presença.
 
-**Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
 
-### EM-BF-22. Hoje, 20h (03/11, 07h)
+### EM-BF-22. Hoje, 20h (03/11, terça, 07h)
 
-Ideia: dia da live. O e-mail das 07h abre o dia com identidade; os operacionais saem a partir das 09h. Consciência 5.
+Ideia: dia da live. O e-mail das 07h abre o dia com identidade para quem ainda não se inscreveu; quem é inscrito recebe os operacionais a partir das 09h (LV-03-01). Consciência 5.
 
 **Assunto A:** Hoje você decide uma vez
 **Assunto B:** Hoje, às 20h, eu abro tudo
@@ -605,16 +636,16 @@ Ideia: dia da live. O e-mail das 07h abre o dia com identidade; os operacionais 
 
 Hoje é o dia.
 
-Às 20h, no YouTube, eu abro a Black Próton Vitalícia. É a primeira e a última vez que ela existe com essas condições. O que vier depois é outra oferta, com outro preço.
+Às 20h, no YouTube, eu abro a Black Próton Vitalícia. Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
 Reserve esta noite para você. Avise em casa. Deixe o celular carregado e o caderno ao lado.
 
 E lembre: eu prefiro que você não compre do que compre e não viva. Venha ouvir, venha perguntar, e decida com clareza.
 
-Ao longo do dia eu te mando os avisos práticos. Entre no grupo para não depender só do e-mail.
+Se ainda não se inscreveu, leva um minuto, e o link da live chega para você.
 
-**Botão 2:** ENTRAR NO GRUPO DA LIVE
-[Alternativo: Botão 1 RESERVAR MINHA VAGA NA LIVE]
+**Botão 1:** QUERO ASSISTIR À LIVE
+[Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Até às 20h,
 Dra. Próton
@@ -623,11 +654,11 @@ Dra. Próton
 
 ## Notas ao implementador
 
-1. **Dados citados.** 51,9% (dossiê do Desafio, "mais da metade"), 27% (Aulão, "parar de me sabotar"), "4 em cada 10" (Aulão, 40% "não sei o que me impede"), "3 em cada 10" (ficha, 30% sem dinheiro agora). Todos vêm de `01_PESQUISAS_INSIGHTS.md`. Conferir se a equipe aprova citar a pesquisa como "minhas pesquisas".
+1. **Origem dos números.** 51,9% (pesquisa de presença do Desafio, dossiê do Desafio; "das pessoas que responderam"), 27% (Aulão, "parar de me sabotar"; recalculado: 26,9% de 7.323), "4 em cada 10" (Aulão, 40,4% "não sei o que me impede de ganhar"), "3 em cada 10" (ficha de interesse, 30% sem dinheiro agora) e "quase 7 em cada 10" (Aulão, 67,6%). Prova social: "mais de 70 mil alunos em 44 países" (guia, seção 8). Todos vêm de `01_PESQUISAS_INSIGHTS.md` ou do guia. Nenhum outro número aparece nos e-mails.
 2. **Depoimento.** EM-BF-10 depende de `[[DEPOIMENTO REAL]]` autorizado. Sem ele, enviar a versão sem o bloco.
-3. **EM-BF-11, 12, 15 e 19** citam trilha, 21 dias por ciclo, 12 ciclos e apoio: confirmar com a equipe antes de enviar (placeholders no rodapé de cada um). O texto diz "Vitalícia" e "pagamento único" porque a página de captura já publica isso.
+3. **EM-BF-09, 11, 12, 15 e 19** citam trilha, 21 dias por ciclo, 12 ciclos e apoio: confirmar com a equipe antes de enviar (placeholders no corpo de cada um). O texto diz "Vitalícia" e "pagamento único" porque a página de captura já publica isso. Os fatos do Clube (21 dias por ciclo, 12 ciclos, aulas ao vivo toda terça, suporte no WhatsApp) estão nos materiais atuais do Clube.
 4. **Fechamento e lotes.** Nenhum e-mail desta série fala de lote nem de data de fechamento. A escassez real só entra após a live.
-5. **Teste A/B.** Em cada e-mail, assunto A contra assunto B, 20% da lista cada, vencedor para o resto. Começar por EM-BF-01 e EM-BF-02, que definem o padrão de abertura.
-6. **Gênero.** O texto está no feminino quando fala da leitora, porque a base é 79% feminina. Para a parcela masculina (21%), a ferramenta pode trocar por variáveis de gênero se existirem. Se não, em lista fria usar a variante neutra dos assuntos B.
-7. **Dependências.** Tags de estado do contato (inscrito, no grupo, diagnóstico feito) para escolher o botão certo.
-8. **Pendência de data.** 03/11/2026 é terça-feira (conferido no calendário). A live às 20h e "sem replay" estão na página de captura; manter "sem replay" fora dos e-mails até `[[PENDENTE: replay]]`.
+5. **Teste A/B.** Em cada e-mail, assunto A contra assunto B, 20% da lista cada, vencedor para o resto. Começar por EM-BF-01 e EM-BF-02, que definem o padrão de abertura. Exceção de tamanho: o assunto B de EM-BF-17 é uma frase intocável da Dra. e passa de 50 caracteres; por isso o assunto A é a versão curta.
+6. **Gênero.** O texto é neutro. Quando a ferramenta tiver variável de gênero, as peças pós-compra podem usar o feminino.
+7. **Dependências.** Tags de estado do contato (inscrito na live, no grupo, diagnóstico feito) para escolher o botão certo e aplicar as regras de exclusão.
+8. **Pendência de data.** 03/11/2026 é terça-feira (conferido no calendário). 02/11 é Finados (segunda). A live às 20h e "sem replay" estão na página de captura; manter "sem replay" fora dos e-mails até `[[PENDENTE: replay]]`.

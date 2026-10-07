@@ -35,6 +35,8 @@ Exemplo: `[[LINK: captura A | wpp | cp-bf-12]]` vira `https://draproton.com.br/b
 | tutorial de acesso | Passo a passo para entrar na área de membros | Suporte | Onboarding, e-mails de pós-compra |
 | degrau de entrada | Oferta de entrada para a base de baixa renda (só se a Dra. decidir que existe) | Dra. e Lançamento | Lista de espera |
 | verificação de números | Página que confere o número do grupo e orienta contra golpe | Web designer | Suporte, grupos |
+| NPS | Formulário de satisfação pós-compra e pós-live | Marketing | Pós-compra, e-mails de NPS |
+| certificado | Entrega do certificado (PDF anexo ou página) | Suporte | E-mail de certificado |
 
 ## 2. Canais (segundo token) e links curtos
 

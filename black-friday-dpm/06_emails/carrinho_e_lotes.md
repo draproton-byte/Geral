@@ -239,7 +239,7 @@ Duas perguntas que ajudam a decidir:
 1. Eu quero parar de ter que recomeçar?
 2. Esta é a forma que eu consigo, agora, dentro da minha realidade?
 
-Se as duas respostas forem sim, entre. Se uma delas for não, tudo bem. Mas decida. Indecisão também é uma decisão, e eu prefiro que seja uma que você escolheu.
+Se as duas respostas forem sim, entre. Se uma delas for não, tudo bem. Eu prefiro que a sua resposta seja uma escolha, e não um adiamento.
 
 **[ALUNAS]** [[PREÇO LOTE ALUNAS]]
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]

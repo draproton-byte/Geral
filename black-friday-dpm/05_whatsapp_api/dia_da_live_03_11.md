@@ -14,7 +14,7 @@
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha "mantra" de Grabovoi de manhã e à noite com a promessa "ative a atração de dinheiro". O guia proíbe essa promessa. O ritual vira o **áudio de Grabovoi da manhã e da noite**, apresentado como prática (existe nas fontes: sequências numéricas ensinadas nos grupos do Desafio e produto "Sequências Numéricas de Grabovoi" da Vitalícia). O arquivo de áudio e a sequência do dia estão em `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`.
 - O Desafio tinha a "lista de interesse" e a "carta" às 09h e 13h30 para avisar da abertura do Clube. Na Black, a pessoa já reservou o lugar. A manhã vira reforço de presença e a carta fala de recomeçar.
-- O Desafio revelava a condição no meio de uma aula. Na Black, a live é a revelação. O disparo das 21h00 ("melhor parte") passa a anunciar a revelação da condição, nove minutos antes de o preço aparecer no roteiro.
+- O Desafio revelava a condição no meio de uma aula. Na Black, a live é a revelação. O disparo das 21h00 ("a parte que decide") passa a anunciar a revelação da condição, nove minutos antes de o preço aparecer no roteiro.
 - Nenhum preço aparece antes da revelação. Todas as peças pós-revelação usam `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`.
 
 **"Carrinho aberto para cada lote".** Durante a live só o **Lote Especial** abre. Por isso a seção 4 traz o carrinho aberto do Lote Especial para os dois preços (alunas e não-alunas) em grupo e API. O carrinho aberto do Primeiro Lote e do Último Lote está em `vagas_abertas_e_virada_de_lote.md` (virada de lote).
@@ -57,8 +57,8 @@
 | 20:05 | API | API-BF-14 | Reservaram | Estou ao vivo | API 08 |
 | 20:15 | Grupos | CP-BF-74 | Todos os grupos | Cadê você? | CP 38 |
 | 20:20 | API | API-BF-15 | Dentro da janela de 24 h | Cadê você? | (Aulão: "cadê você", janela de interação) |
-| 21:00 | Grupos | CP-BF-75 | Todos os grupos | A melhor parte: a condição vai ser revelada (preço previsto às 21h09) | CP 39 |
-| 21:05 | API | API-BF-16 | Dentro da janela de 24 h | A melhor parte | |
+| 21:00 | Grupos | CP-BF-75 | Todos os grupos | A parte que decide: a condição vai ser revelada (preço previsto às 21h09) | CP 39 |
+| 21:05 | API | API-BF-16 | Dentro da janela de 24 h | A parte que decide | |
 | 21:28 (manual) | Grupos | CP-BF-76 e CP-BF-76-DS (geral e Desafio/Imersão); CP-BF-76-AL (alunas) | Cada grupo | Carrinho aberto, Lote Especial. Dispara quando o link do checkout abrir na tela (bloco 15 do roteiro) | CP 01 de 01/10 |
 | 21:28 (manual) | E-mail (referência) | `06_emails` | Reservaram | Abertura de carrinho | |
 | 21:30 (manual) | API | API-BF-17 | Reservaram (N e D) | Carrinho aberto, Lote Especial | API 09 / carrinho aberto |
@@ -399,7 +399,7 @@ Ainda dá tempo de entrar 👇
 Reage com 🏃 se você está entrando agora.
 ```
 
-### CP-BF-75 | 21:00 | A melhor parte (modelo: CP 39)
+### CP-BF-75 | 21:00 | A parte que decide (modelo: CP 39)
 
 Alinhado ao roteiro: o preço aparece no bloco 12, por volta de 21h09. Se a live atrasar, mover o disparo junto `[[CONFIRMAR: roteiro da live, ver 08_live_e_pitch]]`.
 
@@ -671,7 +671,7 @@ Você reservou o seu lugar. Dá tempo de entrar 👇
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-### API-BF-16 | 21:05 | A melhor parte (apenas dentro da janela de 24 horas)
+### API-BF-16 | 21:05 | A parte que decide (apenas dentro da janela de 24 horas)
 
 ```text
 {{nome}}, a condição da *Black Próton Vitalícia* está perto de ser revelada.

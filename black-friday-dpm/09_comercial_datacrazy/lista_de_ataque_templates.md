@@ -114,7 +114,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 ### T03. Cobrança viva: boleto
 
 - **Abertura:** E3b, toque 1 na manhã seguinte, toque 2 na manhã do vencimento.
-- **Argumento-chave (AC03):** "Seu boleto está aberto. Não deixa para o último dia, porque pode levar até 3 dias úteis para compensar." `[[CONFIRMAR]]`
+- **Argumento-chave (AC03):** "Seu boleto está aberto. Não deixa para o último dia, porque pode levar até 3 dias úteis para compensar." `[[CONFIRMAR: prazo de compensação]]`
 - **Próximo passo:** devolver o boleto.
 - **Não fazer:** nunca confundir com Pix.
 
@@ -212,7 +212,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 | Código | Objeção declarada | Argumento-chave (AC) | Próximo passo |
 |---|---|---|---|
 | a | Sem dinheiro agora | Perguntar para separar a natureza. Aperto real: honestidade e saída com dignidade. Prioridade: um vezes zero | Pergunta que separa; depois parcelamento (l) ou encerramento |
-| b | Acho caro | O que entra e o custo de ficar parada | Lista do que entra; soma dos avulsos `[[PENDENTE]]` |
+| b | Acho caro | O que entra e o custo de ficar parada | Lista do que entra; soma dos avulsos `[[PENDENTE: preço avulso]]` |
 | c | Já comprei outros e não tive resultado | Concordar: você precisou aplicar sozinha. Aqui tem trilha e ciclo conduzido | Pergunta "o que você comprou e parou?" |
 | d | Medo de comprar e não colocar em prática | Autossabotagem; sem prazo; primeiro passo em 48 horas | Pergunta "se o primeiro passo fosse de 15 minutos?" |
 | e | Onze produtos, vou me perder | Você não começa pelos onze, começa pela trilha | Pergunta "qual área primeiro?" |
@@ -222,7 +222,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 | i | Será que funciona para mim | Honestidade; a Dra. não promete, desafia; garantia | Pergunta "você sentiu algo mudar?" |
 | j | Estou endividada | A Vitalícia não paga dívida; trabalho de raiz; não entre endividando. Acolhe, não vende, sem link | Diagnóstico se ela quiser; esperar; registrar só a letra |
 | k | E se a Vitalícia voltar mais barata | Só as formas aprovadas: esta condição não se repete | Decidir pelo agora |
-| l | Parcelamento e entrada | `[[PENDENTE: parcelamento máximo]]` e `[[CONFIRMAR]]` | Qual forma cabe melhor |
+| l | Parcelamento e entrada | `[[PENDENTE: parcelamento máximo]]` e `[[CONFIRMAR: entrada mais parcelas]]` | Qual forma cabe melhor |
 | m | Garantia | `[[PENDENTE: garantia]]` | Link do lote |
 
 ---

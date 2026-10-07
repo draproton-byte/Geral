@@ -199,7 +199,7 @@ Título: `Entrar é uma decisão. Continuar tem um caminho.`
 
 **Passo 4. O Clube Secreto, ciclo a ciclo**
 `O Clube é um protocolo de 21 dias, repetido em ciclos. Cada ciclo trabalha uma área da sua vida, com aulas ao vivo toda terça com a Dra. e suporte no WhatsApp. Reprogramação de 20 a 30 minutos por dia, só com o celular.`
-`Você sai com: um ritmo que não depende de força de vontade.`
+`Você sai com: um ritmo que conduz você, ciclo a ciclo.`
 `[[CONFIRMAR: ciclos, aulas ao vivo e suporte continuam na Vitalícia; o que acontece depois do 12º ciclo (repete?)]]`
 
 **Passo 5. Os produtos, no seu tempo**
@@ -499,13 +499,13 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
 
 **Quanto tempo preciso por dia?**
-`O Clube pede de 20 a 30 minutos por dia, só com o celular, em ciclos de 21 dias. Os demais produtos você abre no seu tempo.` `[[CONFIRMAR]]`
+`O Clube pede de 20 a 30 minutos por dia, só com o celular, em ciclos de 21 dias. Os demais produtos você abre no seu tempo.` `[[CONFIRMAR: 20 a 30 minutos por dia continua valendo na Vitalícia]]`
 
 **Como recebo o acesso?**
 `Assim que o pagamento é confirmado, você recebe o acesso por e-mail e entra na Área de Membros (Próton Flix). Em seguida, você recebe a trilha de entrada e o primeiro passo.` `[[CONFIRMAR: plataforma de acesso (Hotmart / Próton Flix)]]`
 
 **Preciso estar ao vivo no Clube?**
-`O ideal é sim, porque as aulas de terça são ao vivo. Se você perder, o material fica disponível.` `[[CONFIRMAR]]`
+`O ideal é sim, porque as aulas de terça são ao vivo. Se você perder, o material fica disponível.` `[[CONFIRMAR: as aulas de terça ficam gravadas na Vitalícia]]`
 
 **Tem garantia?**
 `Veja o bloco de garantia acima.` `[[PENDENTE: garantia]]`
@@ -567,7 +567,7 @@ Cada estado existe em duas versões (alunas e não-alunas). Checkout por lote e 
    - Bloco 09: de 3 lotes de R$ 35, R$ 97, R$ 147 para 3 lotes (Especial, Primeiro e Último) por segmento.
    - Bloco 12: garantia (mantida) com três versões conforme a decisão.
    - A tarja do Desafio mostrava "% de vagas preenchidas". **Não usar na Black**: não há limite de vagas, e declarar vagas que não existem é escassez falsa.
-4. **Testes A/B:** (1) headline B0 contra B1 contra B3; (2) tabela de lotes completa contra só lote atual (mede se mostrar os próximos lotes acelera a compra); (3) bloco 08 parte 1 (conta interativa) contra texto fixo; (4) botão "ENTRAR DE VEZ" contra "QUERO PARAR DE RECOMEÇAR".
+4. **Testes A/B:** (1) headline B0 contra B1 contra B4; (2) tabela de lotes completa contra só lote atual (mede se mostrar os próximos lotes acelera a compra); (3) bloco 08 parte 1 (conta interativa) contra texto fixo; (4) botão "ENTRAR DE VEZ" contra "QUERO PARAR DE RECOMEÇAR".
 5. **Parcelamento:** aparece no bloco 01, no bloco 09, no bloco 12 e no FAQ, sempre na mesma tela do preço. A ficha mostrou cartão parcelado como a forma mais escolhida, e 53% se diz confortável com até R$ 297. Por isso o valor da parcela deve aparecer em destaque, ao lado do preço total.
 6. **Compliance (checagem final):** nenhuma promessa clínica ou de resolução do padrão, nenhuma promessa de ganho, nenhuma frase de "última chance" sobre o vitalício, nenhum preço antes da live, nenhuma frase de que sequência numérica traz dinheiro, nenhum depoimento sem autorização.
 7. **Dependências:** `pagina_cupom_alunas.md`, `onboarding_vitalicia.md` (próxima página), `banner_checkout.md`, `lista_de_espera.md`, `08_live_e_pitch` (a ordem da live deve coincidir com a ordem dos blocos 03 a 12), `10_pos_compra`.

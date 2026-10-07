@@ -9,7 +9,7 @@
 | Objetivo | Fazer a pessoa abrir a live na hora, em um canal que não depende de internet no momento do aviso |
 | Consciência | 4 a 5 |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Não perder o dia em que ela acontece |
-| Modelo no Desafio | `desafio_ura_sms.md` (URA de véspera às 17h, SMS "FALTA 1 HORA" às 19h, URA "estou ao vivo" às 20h, SMS "ESTOU AO VIVO") e a aba "Disparos URASMS" da planilha de disparos (antecipação, ao vivo, atrasados, SMS flash, custo unitário de 0,08 por URA e 0,07 por SMS, flash 0,13, em reais) |
+| Modelo no Desafio | o arquivo de URA e SMS do Desafio (URA de véspera às 17h, SMS "FALTA 1 HORA" às 19h, URA "estou ao vivo" às 20h, SMS "ESTOU AO VIVO") e a aba "Disparos URASMS" da planilha de disparos (antecipação, ao vivo, atrasados, SMS flash, custo unitário de 0,08 por URA e 0,07 por SMS, flash 0,13, em reais) |
 
 **Estrutura mantida do Desafio:** SMS teste antes do disparo, um bloco por dia, URA com nome de áudio, SMS "FALTA 1 HORA" e "ESTOU AO VIVO". **Troca:** o Desafio tinha 5 dias de disparo, a Black tem 1 dia de live e a véspera, então tudo se concentra em 02/11 e 03/11.
 
@@ -47,11 +47,11 @@ Enviar um SMS teste antes de cada disparo para os números da equipe `[[CONFIRMA
 
 ## ROTEIROS DE URA (áudio, Dra. Próton, até 30 segundos)
 
-**Direção de voz.** Voz próxima, tom de quem avisa alguém de confiança, sem tom de propaganda. Ritmo médio. Pausa curta depois de cada ponto. Gravar arquivo `.ogg`. Referência de duração: 2,3 a 2,7 palavras por segundo, então 69 palavras ocupam de 26 a 30 segundos. Nenhum roteiro abaixo passa de 69 palavras.
+**Direção de voz.** Voz próxima, tom de quem avisa alguém de confiança, sem tom de propaganda. Ritmo médio. Pausa curta depois de cada ponto. Gravar em formato .ogg. Referência de duração: 2,3 a 2,7 palavras por segundo, então 69 palavras ocupam de 26 a 30 segundos. Nenhum roteiro abaixo passa de 69 palavras.
 
 ### URA-01. Antecipação (URA-01a em 02/11 às 13h e URA-01b em 03/11 às 14h30)
 
-Arquivos: `URA 01a antecipacao vespera.ogg` e `URA 01b antecipacao hoje.ogg`
+Arquivos de áudio (.ogg): "URA 01a antecipacao vespera" e "URA 01b antecipacao hoje"
 
 > Oi, aqui é a Dra. Próton. Passando para te lembrar: terça-feira, às 20 horas, eu faço a live de revelação da Black Próton Vitalícia, ao vivo, no YouTube. Você já se prometeu que dessa vez ia ser diferente. Nessa noite eu abro, de uma vez, o que construí para você parar de recomeçar. Procure Dra. Próton no YouTube. Te espero. Para não receber mais ligações, digite 9.
 
@@ -61,7 +61,7 @@ Contagem: 67 palavras. Duração estimada: 25 a 29 segundos.
 
 ### URA-02. Ao vivo (03/11 às 20h)
 
-Arquivo: `URA 02 estou ao vivo.ogg`
+Arquivo de áudio (.ogg): "URA 02 estou ao vivo"
 
 > Dra. Próton aqui. Estou ao vivo agora. A live de revelação já começou, e você ainda pode entrar. Procure Dra. Próton no YouTube, ou toque no link do seu WhatsApp. A condição completa é revelada ao vivo. Entre agora, eu te espero lá. Para não receber mais ligações, digite 9.
 
@@ -69,7 +69,7 @@ Contagem: 50 palavras. Duração estimada: 19 a 22 segundos.
 
 ### URA-03. Atrasados (03/11 às 20h20)
 
-Arquivo: `URA 03 atrasados.ogg`
+Arquivo de áudio (.ogg): "URA 03 atrasados"
 
 > Oi, é a Dra. Próton. Eu comecei a live e ainda não vi você por lá. Ainda dá tempo. O que eu já mostrei vai fazer sentido, e a parte mais importante ainda está por vir. Procure Dra. Próton no YouTube e entre agora. Eu te espero. Para não receber mais ligações, digite 9.
 
@@ -77,7 +77,7 @@ Contagem: 54 palavras. Duração estimada: 20 a 23 segundos.
 
 ### URA-04. Flash (03/11, no momento da revelação)
 
-Arquivo: `URA 04 flash revelacao.ogg`
+Arquivo de áudio (.ogg): "URA 04 flash revelacao"
 
 > Dra. Próton. Eu estou revelando a condição agora, ao vivo. Se você parou de assistir, volte. Procure Dra. Próton no YouTube. Para não receber mais ligações, digite 9.
 
@@ -125,7 +125,7 @@ Valores unitários da planilha do Desafio, a conferir com o contrato atual.
 1. **Verba e público.** O Desafio disparou para 11 a 12 mil contatos de URA e 16 mil de SMS. Para a Black, a lista depende de `[[CONFIRMAR: meta de leads]]`. Calibrar os 6 SMS convencionais para o número real.
 2. **Atrasados** só para quem não clicou no link da live. Se a ferramenta não separa quem clicou, trocar SMS-05 e SMS-06 por um único disparo para todos.
 3. **URA-04 e SMS-08** (flash da revelação) são disparados manualmente por quem acompanha a live, no minuto 00:51 do roteiro (20h51, início do bloco 9, "A revelação da oferta"), nunca no preço (21h09) e nunca no carrinho aberto (21h28). Combinar o sinal com a equipe de live (`08_live_e_pitch`). O e-mail LV-03-05 está marcado para 21h15 em `06_emails/lembretes_da_live.md`: alinhar com 20h51.
-4. **Gravação da URA.** As duas variantes de URA-01 (véspera e hoje) precisam de duas gravações. Combinar com a Dra. e entregar os `.ogg` com os nomes acima.
+4. **Gravação da URA.** As duas variantes de URA-01 (véspera e hoje) precisam de duas gravações. Combinar com a Dra. e entregar os arquivos .ogg com os nomes acima.
 5. **Teste A/B sugerido.** SMS-02: "HOJE as 20h eu revelo" contra "HOJE as 20h voce decide uma vez". Mede clique no link.
 5b. **Replay.** Nenhum SMS nem URA afirma ou nega replay (`[[PENDENTE: replay]]`). Por isso não existe a frase "só é dito uma vez" nestas peças.
 6. **Compliance.** Nenhum disparo cita valor, bônus ou garantia. A revelação do valor é só ao vivo. O SMS é só um aviso; qualquer oferta é feita na live.

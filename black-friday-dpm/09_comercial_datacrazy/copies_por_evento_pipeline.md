@@ -131,7 +131,7 @@ Foi o pagamento, ou foi a dúvida de "será que eu vou dar conta"?
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-### Toque 2. No dia seguinte (automático, ramificado pela resposta)
+### Toque 2. No dia seguinte (humano se ela respondeu, sem rodapé; automático se não respondeu)
 
 **Se ela respondeu "o pagamento / o valor":**
 
@@ -141,8 +141,6 @@ Entendi, {{nome}}. Tem o parcelamento em até [[PENDENTE: parcelamento máximo]]
 [[CONFIRMAR: entrada mais parcelas, se existir]]
 
 Quer ver qual forma cabe melhor?
-
-Digite SAIR se não quiser mais receber mensagens.
 ```
 
 **Se ela respondeu "a dúvida de dar conta":**
@@ -153,8 +151,6 @@ Esse medo é comum, {{nome}}. É o padrão de recomeçar que a Dra. ensina a rec
 Por isso você não começa pelos onze produtos. Você começa pela trilha, com o primeiro passo em 48 horas, e não existe prazo para terminar.
 
 Quer que eu te mostre por onde você começaria?
-
-Digite SAIR se não quiser mais receber mensagens.
 ```
 
 **Se ela não respondeu (sem link: quem está em silêncio não recebe link de pagamento):**
@@ -422,7 +418,7 @@ Quer tentar?
 ```
 Sem problema, {{nome}}. Já encaminhei o seu reembolso.
 
-A Dra. prefere devolver do que ter alguém aqui sem querer estar.
+Ninguém precisa ficar onde não quer estar.
 
 Se em outro momento fizer sentido, você vai ser bem-vinda de volta.
 ```
@@ -505,7 +501,7 @@ Foi o valor, ou foi a dúvida do que muda para quem já é do Clube?
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-### Toque 2. No dia seguinte (automático, ramificado)
+### Toque 2. No dia seguinte (humano se ela respondeu, sem rodapé; automático se não respondeu)
 
 **Se foi "o que muda":**
 
@@ -519,8 +515,6 @@ A diferença é que o acesso deixa de ter prazo, e entram os onze produtos do ca
 [[PENDENTE: regra de migração]]
 
 Quer que eu te explique o seu caso?
-
-Digite SAIR se não quiser mais receber mensagens.
 ```
 
 **Se foi o valor:**
@@ -531,8 +525,6 @@ Digite SAIR se não quiser mais receber mensagens.
 {{link}}
 
 Se o pagamento for o que trava, tem o parcelamento em até [[PENDENTE: parcelamento máximo]] vezes. Me fala qual caminho cabe melhor.
-
-Digite SAIR se não quiser mais receber mensagens.
 ```
 
 **Se não respondeu (sem link):**

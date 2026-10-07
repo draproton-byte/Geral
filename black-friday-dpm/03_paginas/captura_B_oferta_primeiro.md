@@ -114,10 +114,10 @@ Título: `Reserve seu lugar na live`
 - S3: `Você já se prometeu que dessa vez ia ser diferente. Dia 03/11, a Dra. Próton abre, de uma vez, tudo o que ela construiu para desarmar esse padrão.`
 
 **Botões alternativos**
-- B1: `QUERO MEU LUGAR NA LIVE`
-- B2: `RESERVAR MEU LUGAR NA LIVE`
-- B3: `QUERO OUVIR A CONDIÇÃO AO VIVO`
-- B4: `QUERO DECIDIR UMA VEZ SÓ`
+- BT1 (padrão): `QUERO MEU LUGAR NA LIVE`
+- BT2: `RESERVAR MEU LUGAR NA LIVE`
+- BT3: `QUERO OUVIR A CONDIÇÃO AO VIVO`
+- BT4: `QUERO DECIDIR UMA VEZ SÓ`
 
 ---
 
@@ -167,7 +167,7 @@ Título: `O que a Vitalícia coloca na sua mão, de uma vez só`
 `O que cada um faz e por onde começar você vê na live e recebe, depois, em uma trilha de entrada.`
 
 **Linha de valor (sem número)**
-`Quanto custaria comprar tudo separado? Essa conta eu faço com você, ao vivo, em 03/11.` `[[PENDENTE: preço avulso]]`
+`Quanto custaria comprar tudo separado? Essa conta eu faço com você, ao vivo, em 03/11.` `[[PENDENTE: preço avulso]]` (se não existir preço avulso real, apagar esta linha)
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
@@ -331,7 +331,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 
 1. **Pendências que bloqueiam:** `[[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]`, `[[CONFIRMAR: comparação com mensalidade]]`, `[[PENDENTE: replay]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
 2. **Sobre B3:** "a última vez que você entra" é a alternativa do briefing e é aprovada, mas pode ser lida como porta que se fecha. Se rodar, manter logo abaixo a frase "esta condição não se repete. O que vier depois é outra oferta". Se o time de compliance não aprovar, dropar B3.
-3. **Testes A/B sugeridos:** (1) B0 contra B1 contra B4; (2) bloco 03 (catálogo sem preço) contra sem bloco 03 (mede se mostrar o catálogo antes da live tira ou traz lead); (3) botão B1 contra B3.
+3. **Testes A/B sugeridos:** (1) B0 contra B1 contra B4; (2) bloco 03 (catálogo sem preço) contra sem bloco 03 (mede se mostrar o catálogo antes da live tira ou traz lead); (3) botão BT1 contra BT3.
 4. **Roteamento:** a captura B é a destino do remarketing e da lista de interesse. A mesma URL base com UTM por segmento (`utm_content=ficha-quente`, `utm_content=seguidor-longo`, `utm_content=desafio`). Se o e-mail já existe na base de alunas do Clube, redirecionar para `captura_C`.
 5. **Dependências:** `obrigado_e_pesquisa.md` (mesmo obrigado das demais), `pagina_de_vendas_vitalicia.md` (é onde o catálogo ganha a função de cada produto e o preço), `lista_de_espera.md`.
 6. **Onde o Desafio tinha uma peça e a Black não precisa:** o calendário de 5 noites e o bloco de "bônus do ingresso" não têm equivalente na captura. O catálogo sem preço (bloco 03) é novo e só existe em B.

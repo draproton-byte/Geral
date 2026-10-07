@@ -367,7 +367,7 @@ Dra. Próton
 3. **S2 (Desafio, Imersão, Aulão sem Clube).** Estão na versão Não-alunas. `[[CONFIRMAR: decisão da Dra.]]`.
 4. **Quem já comprou sai da lista** de todos os e-mails deste arquivo no momento da compra aprovada (tag "compra aprovada Black").
 5. **Teste A/B.** UH-01: assunto "Amanhã o carrinho fecha" contra "Faltam poucas horas". UH-03 com e sem a menção ao pagamento. CL-01 com e sem a lista dos 11 produtos no corpo.
-6. **Honestidade de escassez.** ES-01 existe para tirar do texto qualquer sugestão de "nunca mais vai ter vitalício" e também qualquer promessa de que vai ter. Se a equipe cortar o e-mail, os demais continuam coerentes porque só usam "esta condição".
+6. **Honestidade de escassez.** ES-01 existe para tirar do texto qualquer sugestão de que a Vitalícia jamais voltará e também qualquer promessa de que voltará. Se a equipe cortar o e-mail, os demais continuam coerentes porque só usam "esta condição".
 7. **Onde o Desafio tinha peça e a Black não.** A abertura de vendas do dia 01/10 vendia no meio das noites. Aqui o equivalente é CL-01. O desconto "Golden Ticket" não tem par na Black (seria preço antes da live).
 8. **FE-02.** "Lista de espera" depende do degrau de entrada para a base de baixa renda ainda indefinido na estratégia (seção 5 do arquivo 00). Se não existir lista de espera, trocar por "me siga para ser avisado".
 9. **Pix e boleto perto do fechamento.** O Pix vale 48 horas e o boleto 4 a 5 dias (Manual do Comercial). Quem gera Pix ou boleto perto do fechamento pode pagar depois dele: `[[CONFIRMAR: o checkout honra o lote e o carrinho para Pix gerado antes do fechamento e pago depois]]`. Enquanto não houver resposta, UH-03 e FE-01 não prometem prazo de pagamento.

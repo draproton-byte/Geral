@@ -226,7 +226,7 @@ Dra. Próton
 1. **Trigger e exclusão.** OB-02 sai no cadastro. OB-01 só para quem não tem a tag "entrou no grupo". OB-03 só para quem não tem "entrou no grupo". Quem entra no grupo cancela o resto da automação.
 2. **Teste A/B sugerido.** Assunto de OB-01 S3: "Você já se prometeu que seria diferente?" contra "Falta um passo, {{nome}}". Medir abertura e entrada no grupo.
 3. **Dependências.** Links do grupo por segmento (S1 pode ter grupo separado, ver `05_whatsapp_api`), e tag de "entrou no grupo". Se S1 e S2 usarem o mesmo grupo, usar o link de S3.
-4. **Afirmações a confirmar.** A frase "existe uma condição para alunas" em S1 depende de o preço de aluna ser mesmo diferenciado (briefing: sim). Nenhum valor aparece. A página de captura diz "menor preço só para quem estiver ao vivo" e "sem replay": os e-mails dizem apenas "revelada ao vivo", para não prometer o que ainda está em `[[PENDENTE: replay]]`.
+4. **Afirmações a confirmar.** A frase "existe uma condição para alunas" em S1 depende de o preço de aluna ser mesmo diferenciado (briefing: sim). Nenhum valor aparece. A página de captura traz frases sobre o menor preço só ao vivo e sobre replay: os e-mails dizem apenas "revelada ao vivo", para não prometer o que ainda está em `[[PENDENTE: replay]]`.
 5. **Onde o Desafio tinha peça e a Black não.** O e-mail "venda do ingresso" não existe aqui, porque a inscrição é gratuita. A venda só começa na live. A reativação (OB-03) cumpre o papel de recuperar quem não deu o passo.
 6. **Pendência.** `[[CONFIRMAR: contagem de alunas do Clube]]` define se S1 precisa de lista própria de grupo.
 7. **Aula de terça.** 03/11 é terça, dia da aula ao vivo do Clube: a decisão está marcada em OB-02 (S1) e em SA-06.

@@ -6,9 +6,9 @@
 **Momento:** 03/11/2026, do minuto 01:28 (abertura do link, 21h28) ao minuto 01:43 (fim do bônus, 21h43), com contagens aos 01:28, 01:33, 01:38 e 01:42 (21h28, 21h33, 21h38 e 21h42). Os horários são os do cronograma do comercial (`09_comercial_datacrazy/playbook_do_dia_da_live.md`), e o cronômetro começa no mesmo instante do disparo de carrinho aberto
 **Objetivo:** transformar a decisão em ação dentro da live, com escassez verdadeira, sem pressão falsa, e sem prejudicar quem precisa de mais tempo
 **Estágio de consciência:** 5 (pronto para decidir)
-**Modelo no Desafio:** "Bônus de escassez . 15 min . reprogramação mental" (arte `pitch-04-bonus-15-minutos.png`, listada na aba COMERCIAL de Links Úteis), arquivo de vídeo "Cronômetro 15 minutos para bônus" (aba GERAL), linha "Escassez de bônus" do cronograma da planilha de controle (um minuto antes das considerações finais), aba "Bônus escassez" da planilha (bônus por faixa de primeiros compradores)
+**Modelo no Desafio:** "Bônus de escassez . 15 min . reprogramação mental" (arte de bônus de 15 minutos do Desafio, listada na aba COMERCIAL de Links Úteis), arquivo de vídeo "Cronômetro 15 minutos para bônus" (aba GERAL), linha "Escassez de bônus" do cronograma da planilha de controle (um minuto antes das considerações finais), aba "Bônus escassez" da planilha (bônus por faixa de primeiros compradores)
 
-> **Aviso sobre a fonte.** A arte `pitch-04-bonus-15-minutos.png` não pôde ser lida (é imagem). O modelo abaixo foi reconstruído a partir do nome do arquivo ("Bônus de escassez, 15 min, reprogramação mental"), do vídeo de cronômetro de 15 minutos e do uso do mesmo tipo de bônus por quantidade na planilha de controle. Se a arte original tem texto que precisa ser mantido (por exemplo, o nome do bônus ou um prazo diferente), comparar antes de gravar o slide.
+> **Aviso sobre a fonte.** A arte de bônus de 15 minutos do Desafio não pôde ser lida (é imagem). O modelo abaixo foi reconstruído a partir do nome do arquivo ("Bônus de escassez, 15 min, reprogramação mental"), do vídeo de cronômetro de 15 minutos e do uso do mesmo tipo de bônus por quantidade na planilha de controle. Se a arte original tem texto que precisa ser mantido (por exemplo, o nome do bônus ou um prazo diferente), comparar antes de gravar o slide.
 
 ---
 
@@ -37,7 +37,7 @@ O bônus de escassez do Desafio funcionava por três razões, e as três valem p
 |---|---|---|---|
 | **A. Bônus de 15 minutos** | `[[PENDENTE: bônus]]` existe e é liberável por tempo | "Quem finalizar em 15 minutos leva [[PENDENTE: bônus]]" | Cronômetro de 15 min, 4 contagens |
 | **B. Sem bônus, relógio do lote** | Não há bônus; o Lote Especial tem data e hora reais | "O Lote Especial vale até [[PENDENTE: data do lote]]" | Relógio do lote, 4 contagens de "tempo até a virada" quando fizer sentido (se a virada for em dias, não usar cronômetro) |
-| **C. Bônus por quantidade** | Existe bônus com estoque real para os primeiros N compradores (como na planilha: 50, 100, 300 primeiros). A live não tem limite de vagas: só o bônus pode ter estoque. [[CONFIRMAR: bônus por quantidade, com estoque real e contagem do checkout]] | "Os primeiros [[CONFIRMAR: quantidade]] levam [[PENDENTE: bônus]]" | Contador só com número real do checkout; nunca contador estimado e nunca "últimas vagas" |
+| **C. Bônus por quantidade** | Existe bônus com estoque real para os primeiros N compradores (como na planilha: 50, 100, 300 primeiros). A live não tem limite de vagas: só o bônus pode ter estoque. [[CONFIRMAR: bônus por quantidade, com estoque real e contagem do checkout]] | "Os primeiros [[CONFIRMAR: quantidade]] levam [[PENDENTE: bônus]]" | Contador só com número real do checkout; nunca contador estimado e nunca com anúncio de fim de vagas |
 
 **Recomendação de copy:** modo A, com um bônus de ativação (acelera o primeiro passo), porque combina o tempo curto da live com o risco de "não começar".
 
@@ -154,7 +154,7 @@ O que eu posso é te ajudar a escolher o melhor caminho de pagamento dentro do v
 Quer que eu te explique as opções?
 
 - Quem comprou depois do prazo é tratada igual a quem comprou antes em tudo o que não é o bônus (acesso, trilha, suporte, garantia).
-- Nenhuma peça posterior (e-mail de carrinho aberto, virada de lote, grupo, comercial) anuncia o bônus de novo, nem como "última chance do bônus".
+- Nenhuma peça posterior (e-mail de carrinho aberto, virada de lote, grupo, comercial) anuncia o bônus de novo, nem como contagem final de bônus.
 
 ---
 
@@ -168,7 +168,7 @@ Quer que eu te explique as opções?
 | Últimas horas | `[[PENDENTE: fechamento]]` | Sim |
 
 **Frases de escassez permitidas:** "esta condição não se repete", "o lote vira em [[PENDENTE: data do lote]]", "o bônus vale até o fim do cronômetro".
-**Frases de escassez proibidas:** "últimas vagas", "vagas acabando", "cupons limitados", "está acabando", "nunca mais vai ter vitalício", "última chance da vida", "a porta fecha para sempre", "só mais hoje" depois do cronômetro, bônus prorrogado, contador regressivo sem relógio real por trás.
+**Frases de escassez proibidas:** todas as da seção 3 de `02_GUIA_DE_COPY.md`, qualquer frase de vagas ou cupons limitados sem lote real, "está acabando", "só mais hoje" depois do cronômetro, bônus prorrogado e contador regressivo sem relógio real por trás.
 
 ---
 

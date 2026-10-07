@@ -221,7 +221,7 @@ Quem tem mais de uma tag vale pelo primeiro segmento da lista S1, S2, S3. A fich
 | Autossabotagem | "Eu sei o que fazer e não faço" | 22% procrastinam (Aulão), 20% (ficha); 19% a 27% escolheriam "parar de me sabotar" como maior problema emocional |
 | Cobrança Que Você Só Faz Com Você | "Estou funcional, mas exausta por dentro" | 16% (ficha) |
 | Traumas Que Ainda Decidem | "Sinto que a cada passo que dou, retrocedo" | 14% (ficha), 13% (Aulão) |
-| Culpa de Querer Mais | "Eu cuido de todo mundo, mas ninguém cuida de mim" | 10,9% (quiz) |
+| Culpa de Querer Mais | "Eu cuido de todo mundo, mas ninguém cuida de mim" | 10,9% (quiz, dossiê do Desafio) |
 
 O maior grupo não se encaixa em nenhum: 29% a 40% respondem "não sei exatamente o que está me impedindo". Para esse grupo, o argumento não é a oferta, é o diagnóstico.
 

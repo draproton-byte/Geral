@@ -28,7 +28,7 @@
 | LINK (novo) | momento de liberar um link no chat, no grupo e na tela |
 | TIME (novo) | instrução para a equipe de apoio, fora do ar |
 
-**Frases da Dra. em voz de vídeo podem usar "pra". Mensagens de WhatsApp do time sempre usam "para".**
+**As falas da Dra. em vídeo seguem a voz natural dela. Mensagens de WhatsApp do time usam sempre a forma completa "para".**
 
 ---
 
@@ -56,7 +56,7 @@
 | 01:48 | 21h48 | 17. Encerramento | 8 min | 137 | 51 a 60 s | 7 min 05 s |
 | 01:56 | 21h56 | Fim | Soma: 116 min | 2557 | 15.8 a 18.5 min | |
 
-**Como ler a tabela.** "Palavras de fala" conta só o texto entre aspas das etiquetas FALA, FRASE, AÇÃO, CHAT e REAÇÃO (placeholders contam como 1 palavra; no bloco 9, as 7 frases de produto ainda em `[[CONFIRMAR]]` entram com 12 palavras cada). Nenhum bloco passa de 2,7 palavras por segundo: o texto literal ocupa 16 a 19 minutos dos 116. O resto é chat, escrita no papel, leitura de comentários, slides de produto e silêncio, mais o improviso condutor da Dra. (comentar as respostas do chat), que não é lido do roteiro. Soma das durações: 116 minutos, igual à duração prevista.
+**Como ler a tabela.** "Palavras de fala" conta só o texto entre aspas das etiquetas FALA, FRASE, AÇÃO, CHAT e REAÇÃO (cada placeholder conta como 1 palavra; no bloco 9, as 7 frases de produto ainda em `[[CONFIRMAR]]` entram com 12 palavras cada). Nenhum bloco passa de 2,7 palavras por segundo: o texto literal ocupa 16 a 19 minutos dos 116. O resto é chat, escrita no papel, leitura de comentários, slides de produto e silêncio, mais o improviso condutor da Dra. (comentar as respostas do chat), que não é lido do roteiro. Soma das durações: 116 minutos, igual à duração prevista.
 
 **Zona de pitch:** blocos 9 a 15 (do minuto 00:51 ao 01:33, 42 minutos com interação). O pitch corrido de 12 minutos (arquivo `pitch_e_ancoragem.md`) é a espinha dessa zona e vira plano B se a live atrasar mais de 10 minutos: pula-se do bloco 8 direto para o pitch corrido (que cobre os blocos 9 a 15, com o link abrindo no fim da Parte 8) e volta-se ao roteiro no bloco 16.
 
@@ -146,7 +146,7 @@
 - FALA: "Se está assim, é um estado. E estado muda."
 - CHAT: "Reset. Escreve RESET se a ficha caiu."
 
-**Observação de compliance:** nesta conta nunca prometer que o dinheiro "vai parar de sumir" nem que a pessoa "vai ganhar mais". O que a Dra. oferece é trabalhar o ponto de regulagem.
+**Observação de compliance:** nesta conta nunca prometer que o dinheiro "vai parar de sumir" nem que a pessoa vá receber mais dinheiro. O que a Dra. oferece é trabalhar o ponto de regulagem.
 
 ---
 
@@ -253,7 +253,7 @@
   7. **Cura da Criança Interior**: [[CONFIRMAR: uma frase]]
   8. **Instagram Profissional**: [[CONFIRMAR: uma frase]]
   9. **Destrave o Dinheiro**: [[CONFIRMAR: uma frase]]
-  10. **Cura da Escassez Financeira**: [[CONFIRMAR: uma frase; o nome tem "Cura": usar como nome do produto, nunca prometer cura]]
+  10. **Cura da Escassez Financeira**: [[CONFIRMAR: uma frase; o nome tem "Cura": usar como nome do produto, sem promessa de resultado]]
   11. **Sequências Numéricas de Grabovoi**: "a sequência que eu ensino na prática." (prática ensinada, nunca promessa de dinheiro)
 - REAÇÃO: a cada três produtos, parar 5 segundos e pedir: "Quem já fez um desses? Escreve qual."
 - FALA (fecho): "São onze produtos mais o Clube. Eu sei o que você está pensando: 'onze coisas, eu vou me perder'. Eu vou te mostrar já já como você começa sem se perder."
@@ -302,7 +302,7 @@
 
 **Objetivo emocional:** a decisão. A pessoa ouve o número do lote dela, entende que existe uma escada e que esta condição não se repete. Silêncio e clareza.
 **Estágio atendido:** 5.
-**Regra:** o preço é dito uma vez por segmento, devagar, com o slide correspondente. Nunca "por apenas". Nunca comparar com "mensalidade" (`[[CONFIRMAR: comparação com mensalidade]]`).
+**Regra:** o preço é dito uma vez por segmento, devagar, com o slide correspondente. Nunca "por apenas". Nunca comparar com cobrança recorrente (`[[CONFIRMAR: comparação com mensalidade]]`).
 
 - TIME: liberar as telas de preço (slides 36 e 37). Fixar no chat a mensagem: "O valor do seu lote está na tela agora. Seu segmento: aluna do Clube ou ainda não é do Clube."
 - FALA: "Existem dois grupos aqui hoje. Quem já é aluna do Clube Secreto. E quem ainda não é. Eu vou falar dos dois, e você escuta o seu."
@@ -394,7 +394,7 @@
 - FALA (depois da contagem 4): "O link continua aberto até [[PENDENTE: data do lote]], mas o bônus acabou." (se aplicável)
 - AÇÃO: continuar perguntas até 01:48.
 
-**Regra:** a Dra. nunca diz "últimas vagas" nem "acabando". Só diz "faltam X minutos" quando o cronômetro estiver real.
+**Regra:** a Dra. nunca fala de vagas ou de fim de estoque, porque a live não tem limite de vagas. Só diz "faltam X minutos" quando o cronômetro estiver real.
 
 ---
 
@@ -425,7 +425,7 @@
 | Atraso de mais de 10 minutos | Do bloco 8 saltar para o pitch corrido de 12 minutos (substitui os blocos 9 a 15) e voltar ao bloco 16. O link abre quando o pitch corrido termina, e o disparo de carrinho aberto e o cronômetro acompanham esse instante, não as 21h28 |
 | Link do checkout cai | Segundo link em reserva fixado no chat em 30 segundos; mensagem no grupo; o comercial responde caso a caso |
 | Comentário ofensivo ou golpe de falso suporte | Moderadora remove, avisa no chat que o único suporte é o do link oficial |
-| Pergunta sobre cura, dinheiro garantido, dívida | A Dra. usa a resposta de `quebra_de_objecoes.md` (objeção j e a conversa 1 do bloco 14); nunca promete |
+| Pergunta sobre tratamento, resultado financeiro garantido ou dívida | A Dra. usa a resposta de `quebra_de_objecoes.md` (objeção j e a conversa 1 do bloco 14); nunca promete |
 | Alguém em sofrimento agudo no chat | Pausa curta, acolhimento em uma frase, moderadora aciona o canal humano (ver playbook, escalonamento). Não vender nessa hora |
 | Queda de sinal | Slide de espera com a frase-guia; retomar do início do bloco que caiu |
 
@@ -445,7 +445,7 @@
 9. Ordem de entrada (trilha) para o bloco 11.
 
 **Decisões que a equipe precisa validar:**
-- A página de captura (briefing) diz "mais barato do que a mensalidade" e "a porta do pagamento único fecha e não reabre". Este roteiro não usa as duas. A primeira depende de existir mensalidade recorrente (`[[CONFIRMAR: comparação com mensalidade]]`) e a segunda contradiz a regra de linguagem do briefing. Usa-se "esta condição não se repete".
+- A página de captura (briefing) tem duas formulações que este roteiro não usa. A comparação com cobrança recorrente depende de existir cobrança recorrente de verdade (`[[CONFIRMAR: comparação com mensalidade]]`). A imagem da porta que não reabre contradiz a regra de linguagem do briefing. Usa-se "esta condição não se repete".
 - O roteiro usa a conta do Termostato Invisível (51,9%) como "tapa na cara" do bloco 4, no papel que "Quanto vale 30 dias da sua vida?" cumpria na Aula 02. Foi uma troca consciente: a conta de 30 dias é mais emocional, mas depende de pedir valores de renda, o que na Black empurra a pessoa para comparação de preço antes da oferta.
 - A prática do bloco 6 é respiração e escrita, 6 minutos, sem hipnose, sem contagem regressiva, sem aprofundamento e sem indução. A Aula 02 usava hipnose de 24 minutos; na revelação ela não entra: tiraria o foco da oferta, aumentaria o risco de compliance e há gente dirigindo ou fazendo outras coisas durante a live. Hipnose, se a Dra. quiser, fica para um evento próprio, nunca para a live de revelação.
 - Garantia: o Clube atual tem 7 dias de garantia incondicional (fonte: materiais do Clube). Isso não vale automaticamente para a Vitalícia. Até `[[PENDENTE: garantia]]` ser fechado, nenhuma fala afirma ou nega garantia.

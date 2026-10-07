@@ -31,7 +31,7 @@
 
 | # | Item | Quem | Pronto? |
 |---|---|---|---|
-| 1 | Todos os `[[PENDENTE]]` e `[[CONFIRMAR]]` de preço avulso, lotes, datas, garantia, bônus, fechamento, replay, parcelamento, ordem de entrada | Coordenação com a Dra. | |
+| 1 | Todos os placeholders PENDENTE e CONFIRMAR de preço avulso, lotes, datas, garantia, bônus, fechamento, replay, parcelamento, ordem de entrada | Coordenação com a Dra. | |
 | 2 | Links de checkout por lote e segmento, testados no celular, com crédito de venda | Coordenação e checkout | |
 | 3 | Pipelines da Vitalícia (1) e do upgrade de aluna (2) criados no CRM com as copys de `copies_por_evento_pipeline.md` | Comercial líder | |
 | 4 | Tags do CRM por segmento: S1, S2, S3 e as situações (aluna ativa, aluna inativa, Desafio 5 noites, Imersão, Aulão, ficha quente, morna, fria, assistiu live, não assistiu, carrinho, recusada, Pix, boleto, aprovada, reembolso, sem retorno, acolhimento, pediu para parar). **Nenhuma tag com prefixo `[GATILHO]` sem saber o que dispara** | Comercial líder | |

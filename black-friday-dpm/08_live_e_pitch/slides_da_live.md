@@ -184,7 +184,7 @@ Linha: "Cinco noites: consciência, libertação, reconexão, prosperidade, cria
 
 **Slide 29. Cura da Criança Interior**
 Título: "Cura da Criança Interior"
-Linha: [[CONFIRMAR: uma frase; nunca prometer cura]]
+Linha: [[CONFIRMAR: uma frase; sem promessa de resultado]]
 
 **Slide 30. Instagram Profissional**
 Título: "Instagram Profissional"

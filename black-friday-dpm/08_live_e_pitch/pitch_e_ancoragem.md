@@ -63,7 +63,7 @@ Cinco. A Imersão Desbloqueie o Poder da Sua Mente. A que ensinou os cinco padr�
 
 Seis. O Desafio A Nova Realidade. As cinco noites: consciência, libertação, reconexão, prosperidade e criação.
 
-Sete. Cura da Criança Interior. [[CONFIRMAR: uma frase; nunca prometer cura]]
+Sete. Cura da Criança Interior. [[CONFIRMAR: uma frase; sem promessa de resultado]]
 
 Oito. Instagram Profissional. [[CONFIRMAR: uma frase]]
 
@@ -114,7 +114,7 @@ Se você comprasse tudo separado, seriam [[PENDENTE: preço avulso]] (a soma)."
 1. O preço avulso só pode ser dito se for o preço real de venda avulsa praticado nos últimos [[CONFIRMAR: período mínimo de venda avulsa praticada]] dias. Se algum produto nunca foi vendido avulso, escrever "valor de referência" na tela e na fala, nunca "de R$ X por R$ Y".
 2. Nunca dizer "de" e "por" para o valor da Vitalícia. A ancoragem é a soma dos avulsos, não um preço "cortado".
 3. O número que ancora a decisão não é a soma, é o custo de ficar parada. A soma é só a régua.
-4. A comparação com "mensalidade" fica fora até `[[CONFIRMAR: comparação com mensalidade]]` ser respondido por quem conhece o modelo de cobrança do Clube.
+4. A comparação com cobrança recorrente fica fora até `[[CONFIRMAR: comparação com mensalidade]]` ser respondido por quem conhece o modelo de cobrança do Clube.
 
 [FALA da conta do custo de ficar parada]
 
@@ -238,7 +238,7 @@ Agora, se a sua decisão já está tomada, o link está no chat. Aluna clica no 
 | 2. O custo de ficar parada | A pergunta "quanto custa mais um ano no mesmo lugar?" e o um vezes zero | Número que a pessoa escreve no chat (investimento nos últimos seis meses) | Parte 3 |
 | 3. O custo por ciclo de uso | Preço do lote dividido por 12 ciclos e por 365 dias de primeiro ano | `[[CONFIRMAR: preço do lote vigente ÷ 12]]` e `[[CONFIRMAR: preço do lote vigente ÷ 365]]` | Parte 5, depois do preço, em uma frase: "no primeiro ano, dá [[CONFIRMAR: preço do lote vigente ÷ 12]] por ciclo, e depois ele continua seu" |
 
-**Nunca ancorar em:** valor de mentoria individual (exceto o contraste sem número da nota acima, se a âncora for confirmada), ganho futuro, comparação com mensalidade, "pizza" como justificativa de preço (a pizza serve para o um vezes zero, não para o preço).
+**Nunca ancorar em:** valor de mentoria individual (exceto o contraste sem número da nota acima, se a âncora for confirmada), ganho futuro, comparação com cobrança recorrente, "pizza" como justificativa de preço (a pizza serve para o um vezes zero, não para o preço).
 
 ---
 
@@ -269,7 +269,7 @@ Agora, se a sua decisão já está tomada, o link está no chat. Aluna clica no 
 **Decisões de copy para validar:**
 - O pitch fala "uma frase por produto" porque, na pesquisa, o risco da oferta é o excesso (11 produtos de uma vez). Cada produto precisa ter um "para que serve" de uma linha, ou vira lista.
 - As quatro conversas sérias do roteiro estão aqui (Parte 7); a trilha (Parte 4) responde "onze coisas, vou me perder" por estrutura, e a conversa 4 responde em voz.
-- Usei "esta condição não se repete" em todo lugar em que a página de captura dizia "a porta fecha". Troca aprovada na estratégia.
+- Usei "esta condição não se repete" em todo lugar em que a página de captura usava a imagem da porta. Troca aprovada na estratégia.
 
 **Testes A/B sugeridos:**
 - Fala de saída honrosa antes versus depois do link: medir cliques e pedidos de reembolso.

@@ -19,7 +19,7 @@
 
 **Gênero.** Quem já comprou aceita o feminino.
 
-**Compliance.** Nenhum e-mail promete resultado financeiro, cura ou fim da autossabotagem, e nenhum culpa quem pede reembolso ou não começou.
+**Compliance.** Nenhum e-mail promete resultado financeiro, tratamento ou fim da autossabotagem, e nenhum culpa quem pede reembolso ou não começou.
 
 **O risco que esta sequência trata.** A estratégia identifica que o risco novo da oferta é o excesso: 11 produtos de uma vez podem virar o "comprei e não implementei" que 12% da ficha e 8% do Aulão já temem. A trilha de entrada é a resposta, e a sequência existe para a pessoa não ficar sozinha no silêncio depois da compra.
 
@@ -227,7 +227,7 @@ Dra. Próton
 ## Notas ao implementador
 
 1. **Parada.** Todos os e-mails param ao entrar a tag de reembolso. Os de D7 e D21 pulam quem não fez nenhum login (tag "nunca acessou"), que recebe no lugar um e-mail curto do suporte: "Vimos que você ainda não entrou. Posso ajudar?" (a criar).
-2. **Compliance.** Nenhum e-mail promete resultado financeiro, cura ou fim da autossabotagem. D7 pede explicitamente depoimentos sem resultado financeiro.
+2. **Compliance.** Nenhum e-mail promete resultado financeiro, tratamento ou fim da autossabotagem. D7 pede explicitamente depoimentos sem resultado financeiro.
 3. **Dependência de conteúdo.** A trilha (D1) é o item mais importante e o mais pendente. Sem ela, D1 deve sair apenas com o passo de entrada e a promessa "amanhã eu te mostro". Priorizar com a equipe de conteúdo antes de 03/11.
 4. **Teste A/B.** D2: assunto "Você já fez o seu primeiro passo?" contra "20 minutos, na hora que der". D14: com e sem benefício de indicação.
 5. **NPS.** O link em D21 leva ao formulário de `10_pos_compra/certificado_manual_nps.md`. O e-mail de pedido de NPS dedicado também está lá.

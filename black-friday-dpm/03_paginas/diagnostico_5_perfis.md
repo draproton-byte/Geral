@@ -165,7 +165,7 @@ De cima para baixo:
 
 1. **Título do resultado**
 `Seu padrão mais forte: {{nome do perfil}} ({{percentual}}%)`
-2. **Barras dos 5 perfis**, com o principal destacado e o secundário em segundo
+2. **Barras dos 5 perfis**, com o principal destacado e o secundário em segundo (cada barra traz o nome e o percentual em texto, para não depender de cor)
 3. **Texto do perfil** (as devolutivas abaixo)
 4. **O que fazer na live** (3 itens, no formato de lista)
 5. **Passos finais** (grupo, salvar a data, voltar para a página de obrigado)
@@ -254,7 +254,7 @@ Regras: sem diagnóstico clínico, sem prometer resultado, sem prometer ganho. "
 `"Sinto que a cada passo que dou, retrocedo."`
 
 **Espelho em 3 frases**
-`Uma frase, um olhar, um medo antigo virou regra sem você perceber. Ele não avisa. Decide na hora em que você vai dar o passo. Por isso, quanto mais você se esforça, mais parece que volta ao mesmo lugar.`
+`Uma frase, um olhar, um medo antigo viraram regra sem você perceber. Eles não avisam. Decidem na hora em que você vai dar o passo. Por isso, quanto mais você se esforça, mais parece que volta ao mesmo lugar.`
 
 **O que isso custa**
 `Custa a sensação de viver sempre na estaca zero. Você avança, algo antigo puxa, e você recua. É um cansaço que não vem do que você faz hoje, mas do que você carrega.`
@@ -350,5 +350,5 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 5. **Uso nas peças:** o perfil principal vira a variável `{{perfil}}` nas mensagens de WhatsApp, nos e-mails de captação, no comercial (abertura por perfil) e na trilha de entrada do onboarding.
 6. **Testes A/B:** (1) 7 perguntas contra 5 (mede abandono); (2) resultado só com o perfil principal contra resultado com os 5 percentuais; (3) botão "Entrar no grupo" antes do texto do perfil contra depois.
 7. **Dependências:** `obrigado_e_pesquisa.md`, `onboarding_vitalicia.md` (trilha por perfil), `captura_A_diagnostico_primeiro.md` (usa os mesmos espelhos de 2 linhas nos chips).
-8. **LGPD:** o resultado é dado pessoal sensível por proximidade (fala de saúde emocional). Pedir consentimento específico e não usar o resultado em anúncio individualizado sem base legal. `[[CONFIRMAR: parecer jurídico]]`.
+8. **LGPD:** o resultado é dado pessoal sensível por proximidade (fala de saúde emocional). A tela de abertura já traz o aviso de consentimento; pedir consentimento específico e não usar o resultado em anúncio individualizado sem base legal. `[[CONFIRMAR: parecer jurídico]]`.
 9. **Onde o Desafio tinha uma peça e a Black precisa de outra:** o Teste de Bloqueios do Desafio era um formulário único de 8 perguntas que misturava qualificação e perfil. Na Black ele é separado em duas camadas (qualificação em `obrigado_e_pesquisa.md`; padrão neste arquivo) para o resultado aparecer antes das perguntas de renda e objeção, o que reduz abandono.

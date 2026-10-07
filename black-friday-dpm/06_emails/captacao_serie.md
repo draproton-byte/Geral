@@ -665,4 +665,4 @@ Dra. Próton
 5. **Teste A/B.** Em cada e-mail, assunto A contra assunto B, 20% da lista cada, vencedor para o resto. Começar por EM-BF-01 e EM-BF-02, que definem o padrão de abertura. Exceção de tamanho: o assunto B de EM-BF-17 é uma frase intocável da Dra. e passa de 50 caracteres; por isso o assunto A é a versão curta.
 6. **Gênero.** O texto é neutro. Quando a ferramenta tiver variável de gênero, as peças pós-compra podem usar o feminino.
 7. **Dependências.** Tags de estado do contato (inscrito na live, no grupo, diagnóstico feito) para escolher o botão certo e aplicar as regras de exclusão.
-8. **Pendência de data.** 03/11/2026 é terça-feira (conferido no calendário). 02/11 é Finados (segunda). A live às 20h e "sem replay" estão na página de captura; manter "sem replay" fora dos e-mails até `[[PENDENTE: replay]]`.
+8. **Pendência de data.** 03/11/2026 é terça-feira (conferido no calendário). 02/11 é Finados (segunda). A live às 20h e uma frase sobre replay estão na página de captura; manter qualquer afirmação sobre replay fora dos e-mails até `[[PENDENTE: replay]]`.

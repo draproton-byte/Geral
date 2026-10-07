@@ -132,10 +132,10 @@ Testar **uma variável por vez**. Ordem sugerida: A0 contra A1 contra A4 (as tr�
 
 **Botões alternativos**
 
-- B1 (padrão): `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
-- B2: `LIBERAR MEU DIAGNÓSTICO GRATUITO`
-- B3: `RESERVAR MEU LUGAR NA LIVE`
-- B4 (baixa fricção): `QUERO VER QUAL É O MEU`
+- BT1 (padrão): `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
+- BT2: `LIBERAR MEU DIAGNÓSTICO GRATUITO`
+- BT3: `RESERVAR MEU LUGAR NA LIVE`
+- BT4 (baixa fricção): `QUERO VER QUAL É O MEU`
 
 ---
 
@@ -432,7 +432,7 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 1. **Pendências que bloqueiam o publicar:** `[[PENDENTE: replay]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]` (mínimo 3), `[[LINK: política e termos]]`, `[[CONFIRMAR: espelhos dos 5 perfis]]`.
 2. **UTMs:** a página deve receber utm_source, utm_medium, utm_campaign, utm_content e utm_term e gravá-los junto do lead (a UTM estava vazia no Desafio). Criar uma variante por perfil de anúncio (`utm_content=perfil-termostato`, `perfil-autossabotagem`, `perfil-cobranca`, `perfil-traumas`, `perfil-culpa`, `perfil-nao-sei`). Quando a pessoa vem de um criativo de um perfil, o chip desse perfil já abre destacado.
 3. **Menor preço só para quem estiver ao vivo:** o briefing não confirma que o Lote Especial é exclusivo de quem assiste ao vivo `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. Enquanto não houver confirmação, a copy diz apenas que "a condição é revelada ao vivo e a condição que a Dra. mostrar não se repete". Se for confirmado, voltar à frase com a regra explícita e a data do lote.
-4. **Testes A/B sugeridos (ordem):** (1) A0 contra A1 contra A4 (headline); (2) botão B1 contra B2; (3) hero com os 5 chips contra hero com só uma linha dos 5 nomes (mede se os chips ajudam ou distraem); (4) formulário no hero contra formulário depois do bloco 03 (mede se a base fria precisa ler antes).
+4. **Testes A/B sugeridos (ordem):** (1) A0 contra A1 contra A4 (headline); (2) botão BT1 contra BT2; (3) hero com os 5 chips contra hero com só uma linha dos 5 nomes (mede se os chips ajudam ou distraem); (4) formulário no hero contra formulário depois do bloco 03 (mede se a base fria precisa ler antes).
 5. **Mobile e leitura 50+:** 40% da base tem mais de 50 anos. Fonte mínima de 17 px no corpo, headline em no máximo 3 linhas, subtítulo em no máximo 2 frases, um único botão por tela com no máximo 6 palavras e 48 px de altura, contraste alto. Chips dos perfis com toque de 44 px. Nada que dependa de cor para ser entendido.
 6. **Dependências:** `obrigado_e_pesquisa.md` (destino), `diagnostico_5_perfis.md` (conteúdo do diagnóstico), `lista_de_espera.md` (estado 4), `captura_B/C/D` (variantes por segmento, mesmo formulário), `vsl_headlines_e_paginas.md` (página com vídeo).
 7. **Onde o Desafio tinha uma peça e a Black não precisa dela:** o bloco "Passo a passo da solução" (5 noites) do Desafio não existe aqui, porque a captura não tem calendário de aula. Foi substituído pelo bloco 05 (5 perfis) e pelo bloco 06 (o que acontece em 03/11). Os blocos de "tudo que você recebe", "ancoragem com preço" e "valor" ficam só em `pagina_de_vendas_vitalicia.md`, depois da live.

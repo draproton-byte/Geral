@@ -9,7 +9,7 @@
 | Objetivo | Reconhecer a participação, reduzir o "comprei e não implementei" com um mapa claro, e descobrir o que quase impediu a compra e o que ainda trava quem entrou |
 | Consciência | 5 (já decidiu) para o manual e o NPS A. 4 a 5 para o NPS B |
 | Trabalho contratado | "Parar de ter que decidir de novo." O manual transforma 11 produtos em uma trilha de passos |
-| Modelo no Desafio | `desafio_copy_certificado.md` (certificado), `desafio_copy_manual_do_participante_desafio_a_nova_realidade.md` (manual de 9 páginas) e `desafio_copy_arte_do_form_nps.md` ("O que faltou para você andar comigo por 365 dias?") |
+| Modelo no Desafio | o certificado do Desafio, o manual do participante do Desafio (9 páginas) e a arte do formulário NPS do Desafio ("O que faltou para você andar comigo por 365 dias?") |
 
 ---
 
@@ -23,9 +23,9 @@
 
 **Critério de emissão:** [[CONFIRMAR: critério de emissão, por exemplo tempo mínimo de presença na transmissão ao vivo]].
 
-**Nota do jurídico (obrigatória antes de qualquer impressão ou envio).** (1) O texto do Desafio citava "Decreto nº 5.154/4", número incompleto; o decreto correto, se houver, precisa ser informado pelo jurídico. (2) Não está confirmado que a base legal citada seja adequada a um certificado de participação em uma live de uma noite; o jurídico decide se a citação fica, muda ou sai. (3) A carga horária só entra com o número real da transmissão e com o critério de presença definido; nenhum número é inventado aqui. Enquanto os três itens estiverem em `[[CONFIRMAR]]`, o certificado e o e-mail de entrega não são emitidos.
+**Nota do jurídico (obrigatória antes de qualquer impressão ou envio).** (1) O texto do Desafio citava "Decreto nº 5.154/4", número incompleto; o decreto correto, se houver, precisa ser informado pelo jurídico. (2) Não está confirmado que a base legal citada seja adequada a um certificado de participação em uma live de uma noite; o jurídico decide se a citação fica, muda ou sai. (3) A carga horária só entra com o número real da transmissão e com o critério de presença definido; nenhum número é inventado aqui. Enquanto os três itens estiverem marcados como CONFIRMAR, o certificado e o e-mail de entrega não são emitidos.
 
-**O que mudou em relação ao Desafio.** Nome do evento, data única (o Desafio foi de 28/09 a 02/10), carga horária, decreto e critério como `[[CONFIRMAR]]` (o Desafio tinha 10h por 5 noites de 1h mais prática; uma live avulsa não tem a mesma conta), cidade e data da emissão.
+**O que mudou em relação ao Desafio.** Nome do evento, data única (o Desafio foi de 28/09 a 02/10), carga horária, decreto e critério como CONFIRMAR (o Desafio tinha 10h por 5 noites de 1h mais prática; uma live avulsa não tem a mesma conta), cidade e data da emissão.
 
 **Dois alertas.** (a) O decreto aparece como "5.154/4" no original, que pode ser a forma abreviada de um decreto de 2004. `[[CONFIRMAR: jurídico]]` antes de imprimir. (b) Se o certificado entra como bônus para quem **comprou**, a redação deve citar o conjunto (live mais trilha) e não a live isolada. `[[CONFIRMAR: o certificado é só da live, ou também da trilha]]`
 

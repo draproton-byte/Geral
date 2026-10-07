@@ -152,7 +152,7 @@ Versão C: `Direito legal de desistência em até 7 dias.` `[[CONFIRMAR: jurídi
 
 ## Textos de erro e estados do checkout (referência)
 
-- **Pagamento recusado:** `Seu pagamento não foi aprovado. Tente outro cartão ou use o Pix. Você não precisa recomeçar: o lote atual continua aberto.` (alinhado com `06_emails`, evento "compra recusada")
+- **Pagamento recusado:** `Seu pagamento não foi aprovado. Tente outro cartão ou use o Pix. Você não precisa recomeçar: é só tentar de novo.` (alinhado com `06_emails`, evento "compra recusada")
 - **Pix emitido:** `Seu Pix foi gerado. Pague em até [[PENDENTE: parcelamento, prazo do Pix]] para garantir o lote atual.` `[[CONFIRMAR: o Pix mantém o lote até pagar?]]`
 - **Lote virou:** `O lote atual acabou de virar. O novo valor é {{preco_novo}}. Esta condição não se repete.` (**só se o lote realmente virou**, nunca como pressão fabricada)
 

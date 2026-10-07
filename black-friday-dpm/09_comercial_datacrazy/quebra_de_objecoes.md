@@ -166,6 +166,8 @@ Essa é a frase que a Dra. mais ouve, {{nome}}, e ela não discorda de você.
 Nos outros, quase sempre você precisou aplicar sozinha depois. É sempre aí que trava.
 
 O padrão que você quer mudar é o mesmo que atrapalha a mudança.
+
+Faz sentido para você?
 ```
 
 **Resposta 2 (o que é diferente aqui):**
@@ -176,6 +178,8 @@ O que muda na Vitalícia é que você não aplica sozinha.
 Você começa por uma trilha de entrada, com o primeiro passo em 48 horas, e dentro do Clube é um ciclo de 21 dias por vez, com a Dra. conduzindo.
 
 E não existe prazo. O produto que você não abriu hoje continua lá amanhã.
+
+Isso responde o que travou você nos outros?
 ```
 
 **Encerramento:**
@@ -200,6 +204,8 @@ Esse medo tem nome, {{nome}}: autossabotagem.
 Na Aula 2, a Dra. descreveu o momento: toda vez que você vive algo transformador, aparece a tentação de parar. Ela chamou isso de escassez.
 
 Por isso é protocolo, e não curso solto.
+
+Você se reconhece nisso?
 ```
 
 **Resposta 2:**
@@ -210,6 +216,8 @@ E tem uma coisa que muda tudo na Vitalícia: não tem prazo para usar.
 Ninguém te cobra "use este mês, senão perde". O que você não abriu hoje continua lá amanhã.
 
 E o primeiro passo é um só, em 48 horas, pela trilha. Não é você que precisa lembrar. É o ciclo que te leva.
+
+Isso ajuda?
 ```
 
 **Encerramento:**
@@ -236,6 +244,8 @@ Faz todo sentido você pensar nisso, {{nome}}.
 E é por isso que você não começa pelos onze. Você começa pela trilha de entrada: [[PENDENTE: ordem de entrada]].
 
 Um passo por vez, sem prazo para terminar.
+
+Faz sentido começar assim?
 ```
 
 **Resposta 2:**
@@ -246,6 +256,8 @@ O que travou você nos outros cursos foi o prazo, e aqui ele não existe.
 O que você não abriu hoje continua lá amanhã. Quando fizer sentido, você abre o próximo.
 
 Você pode terminar o primeiro produto e só depois pensar no segundo.
+
+Isso te deixa mais tranquila?
 ```
 
 **Encerramento:**
@@ -267,7 +279,7 @@ Fico por aqui, sem pressa.
 ```
 Pensar é legítimo, {{nome}}.
 
-Posso te falar uma coisa com carinho? Isso aqui é o momento que a Dra. descreveu na Aula 2: você vive algo forte e aparece a tentação de parar.
+Isso aqui é o momento que a Dra. descreveu na Aula 2: você vive algo forte e aparece a tentação de parar.
 
 "Não trave o processo." "Obediência é maturidade."
 
@@ -308,16 +320,16 @@ Claro, {{nome}}. E faz todo sentido.
 Só para te ajudar nessa conversa: lembra do que apareceu na Aula 2, que quando você eleva a sua frequência ela respinga dentro de casa?
 
 Quando você sobe, a casa sobe junto.
+
+Quer que eu te ajude a levar isso para essa conversa?
 ```
 
 **Resposta 2 (facilitar):**
 
 ```
-Quer que eu te mande um resumo de um minuto para você mostrar para ele(a)?
+Para a conversa ficar mais fácil, tem um resumo de um minuto com o que entra, como funciona e a garantia: [[PENDENTE: garantia]].
 
-Tem o que entra, como funciona e a garantia: [[PENDENTE: garantia]].
-
-Assim a conversa fica mais fácil.
+Quer que eu te mande para você mostrar para ele(a)?
 ```
 
 **Encerramento:**
@@ -344,6 +356,8 @@ O que você já fez no Clube conta. Você não recomeça do zero.
 O que muda é que o acesso deixa de ter prazo, e entram os onze produtos do catálogo, organizados em uma trilha para você não se perder.
 
 [[PENDENTE: regra de migração]]
+
+Isso responde a sua dúvida?
 ```
 
 **Resposta 2 (o lote de aluna e a honestidade):**
@@ -390,6 +404,8 @@ Se você sentiu, eu não preciso te vender mais nada. Me conta o que você quer 
 Se você ainda não viveu nada, tem o diagnóstico dos cinco padrões, para você ver qual é o seu.
 
 Sobre a garantia: [[PENDENTE: garantia]].
+
+Qual desses caminhos faz mais sentido para você?
 ```
 
 **Encerramento:**
@@ -414,6 +430,8 @@ Obrigada por confiar em me contar isso, {{nome}}.
 Vou ser honesta com você: a Vitalícia não paga dívida, e a Dra. não promete isso.
 
 O que o trabalho dela faz é mexer na relação com o dinheiro, o padrão que levou até aqui. É trabalho de raiz, não de emergência.
+
+Como você está se sentindo com tudo isso?
 ```
 
 **Resposta 2:**
@@ -450,6 +468,8 @@ Eu não sei, {{nome}}, e não vou te dizer que sei.
 O que eu sei é que esta condição, com este catálogo e este valor, não se repete. O que vier depois é outra oferta, com outro preço, outras regras.
 
 Eu não vou te prometer que vai ser mais cara, nem mais barata.
+
+Faz sentido?
 ```
 
 **Resposta 2:**
@@ -457,7 +477,9 @@ Eu não vou te prometer que vai ser mais cara, nem mais barata.
 ```
 Eu não decidiria por medo de perder, nem por esperança de pagar menos.
 
-Decida pelo que você precisa agora. O lote vira em {{data_lote}}. Sobre a garantia: [[PENDENTE: garantia]].
+Sobre a garantia: [[PENDENTE: garantia]]. O lote vira em {{data_lote}}.
+
+Decida pelo que você precisa agora. O que pesa mais para você hoje?
 ```
 
 **Encerramento:**
@@ -493,7 +515,7 @@ Se o limite do cartão for o problema, me fala.
 
 [[CONFIRMAR: parcelamento no cartão consome o limite total; parcelamento recorrente da plataforma consome só a parcela]]
 
-O que eu não quero é que você se endivide para estar aqui.
+O que eu não quero é que você se endivide para estar aqui. Qual forma cabe melhor?
 ```
 
 **Encerramento:**
@@ -513,15 +535,17 @@ Me fala a forma que você prefere e eu te mando o link certo.
 **Resposta 1:**
 
 ```
-Sobre a garantia da Vitalícia, {{nome}}: [[PENDENTE: garantia]].
+Sobre a garantia da Vitalícia, {{nome}}: [[PENDENTE: garantia]]. [[CONFIRMAR: a Vitalícia mantém os 7 dias do Clube]]
 
-[[CONFIRMAR: a Vitalícia mantém os 7 dias do Clube]] Definido o prazo, o pedido é simples: você me fala por aqui, sem formulário difícil.
+Definido o prazo, o pedido é simples: você me fala por aqui, sem formulário difícil.
+
+Faz sentido?
 ```
 
 **Resposta 2:**
 
 ```
-A Dra. prefere devolver do que ter alguém aqui sem querer estar.
+Ninguém precisa ficar onde não quer estar.
 
 Para pedir, é só me falar por aqui ou usar: [[LINK: instrução de reembolso]]. Vale dentro do prazo definido em [[PENDENTE: garantia]].
 ```
@@ -531,8 +555,10 @@ Para pedir, é só me falar por aqui ou usar: [[LINK: instrução de reembolso]]
 ```
 A garantia não é para você usar de primeira, {{nome}}. É para você decidir com informação, e não com medo.
 
-Quer o link do seu lote? (só depois de 21h28 de 03/11)
+Quer o link do seu lote?
 ```
+
+O link só existe a partir de 21h28 de 03/11.
 
 **Regra:** **nunca dificulte o reembolso.** A garantia sem atrito é o argumento mais forte que o time tem, e só vale se for verdadeira.
 

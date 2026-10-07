@@ -221,7 +221,7 @@ Quem esteve comigo já ouviu essa frase. Ela diz: depois de começar, o maior ri
 
 Você já tem o conhecimento. Já viveu a prática. O que falta, para muita gente, é um chão que não dependa de recomeçar a cada vez.
 
-Lembra do 1 vezes 0? Se você investe zero em você, o resultado é zero, não importa o tamanho do número que vem antes. E investir não é só dinheiro: é tempo, corpo, mente. Parar é uma forma silenciosa de investir zero.
+Lembra do 1 vezes 0? "Se você não investe em você, o resultado da sua vida sempre será zero." E investir não é só dinheiro: é tempo, corpo, mente. Parar é uma forma silenciosa de não investir.
 
 No dia 03/11, às 20h, eu mostro como continuar sem precisar de força de vontade todo dia.
 
@@ -315,7 +315,7 @@ Dra. Próton
 
 1. **Pendências que travam SA.** `[[CONFIRMAR: regra para aluna com acesso ativo]]` (crédito do tempo restante, desconto fixo ou apenas preço de aluna) e a lista de produtos que cada aluna já possui. Sem isso, SA-02, SA-03 e SA-05 saem com as frases genéricas já escritas.
 2. **Conflito de agenda.** O Clube tem aula ao vivo toda terça, e 03/11/2026 é terça. A decisão (a aula é substituída pela live, muda de horário ou continua) está marcada em SA-06 (se reaproveitado), em OB-02 (S1) e no e-mail 08 do canônico das alunas. Avisar as alunas.
-3. **Cobrança do Clube.** Os materiais do Desafio descrevem o Clube com pagamento à vista ou parcelado e acesso de 365 dias, enquanto o briefing da Black fala em cobrança recorrente. Por isso nenhum e-mail aqui usa "mensalidade" ou "renovar". `[[CONFIRMAR: modelo atual de cobrança do Clube]]`.
+3. **Cobrança do Clube.** Os materiais do Desafio descrevem o Clube com pagamento à vista ou parcelado e acesso de 365 dias, enquanto o briefing da Black fala em cobrança recorrente. Por isso nenhum e-mail aqui fala em cobrança recorrente. `[[CONFIRMAR: modelo atual de cobrança do Clube]]`.
 4. **Preço.** Nada citado antes da live. A escada de preços do briefing só aparece nas peças pós-live, em notas para quem monta o e-mail.
 5. **Quem fez Desafio, Imersão e Aulão é "não-aluna" para efeito de preço?** Assumi que sim (paga a tabela de não-alunas). Decisão para a Dra. Se houver condição própria para esse grupo, SD-05 e SD-06 precisam de uma linha a mais.
 6. **Teste A/B.** SA-01 assunto A contra B; SD-01 assunto A contra B. Medir abertura e entrada no grupo.

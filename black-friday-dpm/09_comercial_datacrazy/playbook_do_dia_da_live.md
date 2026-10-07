@@ -11,7 +11,7 @@
 
 > **Regra de ouro herdada do Desafio:** quanto mais perto a pessoa chegou de pagar, menos você vende. Quem gerou Pix ou cartão e não pagou não precisa de argumento, precisa do código de volta antes do prazo. Argumento de venda para quem já decidiu passa a mensagem de que ninguém viu que ela já tinha comprado, e isso irrita.
 
-> **Segurança.** Este documento nunca traz dado pessoal de lead, credencial do CRM, nem telefone pessoal de ninguém. Os contatos operacionais são sempre os oficiais: `[[CONFIRMAR: número oficial do comercial]]`, `[[LINK: suporte WhatsApp]]`. Quem precisar de acesso ao CRM pede à coordenação.
+> **Segurança.** Este documento nunca traz dado pessoal de lead, credencial do CRM, nem telefone pessoal de ninguém. Os contatos operacionais são sempre os oficiais: `[[CONFIRMAR: número oficial do comercial]]`, `[[LINK: suporte WhatsApp | comercial | comercial-ID-VENDEDOR]]`. Quem precisar de acesso ao CRM pede à coordenação.
 
 ---
 
@@ -58,14 +58,14 @@
 | 07h a 08h | Janela de abertura 1 | Última mensagem de relacionamento para a ficha quente que confirmou presença (A6, pré-live). Sem valor |
 | 09h a 12h | Coordenação confere links, tags e telas | Comercial confere o próprio posto: número, CRM, respostas rápidas |
 | 16h a 17h | Janela de abertura 2 | Nenhum disparo novo do comercial. Os lembretes de grupo e de API seguem a grade de `05_whatsapp_api/dia_da_live_03_11.md` |
-| 19h | Janela de abertura 3 | Último disparo do comercial: lembrete "hoje, 20h, papel e caneta" (E1 toque 2 e U1 toque 2, automáticos). Em seguida, **pausar todo disparo ativo do comercial** |
+| 19h | Janela de abertura 3 | Último disparo do comercial antes da live: lembrete "hoje, 20h, papel e caneta" (E1 toque 2 e U1 toque 2, automáticos). Em seguida, **pausar todo disparo ativo do comercial** |
 | 19h45 | Sala aberta | Comercial no posto, CRM aberto, sem disparar |
-| 20h | Live começa | **Modo escuta (20h às 22h).** Nenhum disparo do comercial. Só responde quem chamar. Grupos e API seguem a grade do time de disparo (CP-BF-73 e API-BF-14 às 20h; CP-BF-74 e API-BF-15 às 20h15; CP-BF-75 e API-BF-16 às 20h45) |
+| 20h | Live começa | **Modo escuta (20h às 22h).** Nenhum disparo do comercial. Só responde quem chamar. Grupos e API seguem a grade do time de disparo (CP-BF-73 às 20h e API-BF-14 às 20h05; CP-BF-74 às 20h15 e API-BF-15 às 20h20; CP-BF-75 às 21h e API-BF-16 às 21h05) |
 | 20h a 20h51 | Blocos 1 a 8 (conteúdo, sem oferta e sem preço) | Responde dúvidas práticas (acesso, horário). Nada de oferta |
-| 20h51 | Bloco 9: a oferta é revelada (o que entra), ainda sem preço | Responde, sem citar valor |
+| 20h51 | Bloco 9: a oferta é revelada (o que entra), ainda sem preço | Responde sobre o que entra e como funciona, sem citar valor e sem link |
 | 21h09 | Bloco 12: o preço é revelado | **Atenção redobrada.** Aparecem perguntas de parcelamento, lote, aluna ou não. Respostas rápidas prontas, **sem link**: o checkout ainda não abriu |
 | 21h15 a 21h28 | Blocos 13 e 14: parcelamento, garantia, bônus, conversas sérias | Responde individualmente, sem link até o instante em que ele abrir. `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]` |
-| 21h28 | O link abre (bloco 15). O "carrinho aberto" sai em grupo e API (CP-BF-76 e API-BF-17), disparo manual do time de disparo, nunca do comercial. Se houver bônus, o cronômetro de 15 minutos começa | **Prioridade um: cartão recusado.** Atendimento humano imediato (E4, toque 1 em até 10 minutos), com o link do lote e do segmento da pessoa |
+| 21h28 | O link abre (bloco 15). O "carrinho aberto" sai no grupo (CP-BF-76 e variantes, 21h28) e na API logo em seguida (API-BF-17 às 21h30 e API-BF-17-A às 21h32), disparo manual do time de disparo, nunca do comercial. Se houver bônus, o cronômetro de 15 minutos começa | **Prioridade um: cartão recusado.** Atendimento humano imediato (E4, toque 1 em até 10 minutos), com o link do lote e do segmento da pessoa |
 | 21h28 a 21h43 | Janela do bônus (só se houver `[[PENDENTE: bônus]]`) | Responder rápido a quem trava no pagamento. Não mandar nada além do necessário |
 | 21h48 a 21h56 | Encerramento (bloco 17) | Última leva de ajuda a quem ficou travado |
 | 22h | Fim do modo escuta e da janela de abertura | Sai a leva de carrinho abandonado (E2) retida desde as 20h. **Último disparo do dia.** Depois disso, só respostas. Pix ou boleto gerado depois das 22h tem o toque 1 às 7h do dia seguinte |
@@ -263,7 +263,7 @@ O que não está no CRM não aconteceu. Sem registro, o trabalho do dia não vir
 ```
 {{nome}}, sinto muito por você estar passando por isso.
 
-Antes de qualquer outra coisa: você está bem agora? Tem alguém aí com você?
+Antes de qualquer outra coisa: você está bem agora?
 ```
 
 **Se houver risco de vida:** orientar a ligar para o CVV (188, 24 horas) ou para o SAMU (192), e **avisar a coordenação na hora**. `[[CONFIRMAR: protocolo de crise aprovado pela Dra.]]`. Nunca prometa que a Vitalícia ou o Clube resolvem uma crise.
@@ -286,8 +286,8 @@ O que eu preciso: [decisão ou orientação]
 
 Para imprimir e deixar do lado do computador.
 
-1. **Antes das 20h:** só lembrete. Sem valor. Último disparo do comercial às 19h.
-2. **Das 20h às 21h09:** modo escuta. Só responde quem chamar. Nada de valor.
+1. **Antes das 20h:** só lembrete. Sem valor. Último disparo do comercial antes da live às 19h.
+2. **Das 20h às 21h09:** modo escuta. Só responde quem chamar. A oferta é revelada às 20h51, mas o valor só às 21h09.
 3. **21h09 a 21h28:** perguntas de lote e parcelamento: respostas prontas, **sem link**, porque o checkout ainda não abriu.
 4. **21h28 a 21h43:** link aberto, **cartão recusado primeiro**, humano, em até 10 minutos, com o link do segmento certo.
 5. **Depois da live:** compra aprovada (confirma), cobrança viva (devolve o código), carrinho abandonado (pergunta, sem link; a leva sai às 22h).
@@ -317,3 +317,14 @@ Para imprimir e deixar do lado do computador.
 **Testes A/B sugeridos:** toque 1 do Pix às 2 horas versus às 6 horas; toque 2 do boleto na manhã do vencimento versus na véspera à noite; abertura A6 pós-live às 7h versus às 16h.
 
 **Dependências:** `copies_por_evento_pipeline.md`, `quebra_de_objecoes.md`, `aberturas_por_segmento.md`, `regua_do_silencio_black.md`, `lista_de_ataque_templates.md`, `08_live_e_pitch/roteiro_live_de_revelacao.md`.
+
+---
+
+## Links desta peça
+
+Documento interno: as únicas mensagens para o público são a confirmação de saída, o acolhimento e o escalonamento (seções 6.1 e 8), e nenhuma delas leva link (acolhimento e saída nunca levam). O único token é o contato de suporte da segurança do documento. Canal `comercial`, ID `comercial-ID-VENDEDOR`. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| Segurança (contatos operacionais) | `[[LINK: suporte WhatsApp \| comercial \| comercial-ID-VENDEDOR]]` | Aponta o número oficial de suporte para o time (nunca telefone pessoal) | Suporte |
+| Confirmação de saída (6.1), acolhimento (8.1), escalonamento (8.2) | nenhum | Sem link por regra | n/a |

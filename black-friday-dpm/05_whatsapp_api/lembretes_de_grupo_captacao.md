@@ -1,20 +1,20 @@
 # Lembretes de grupo da captação (13/10 a 02/11): banco de reserva e testes
 
-> **Nota de uso: este arquivo é o BANCO DE RESERVA E TESTES, e não o calendário.** A cadência canônica de grupo é de **2 disparos por dia, às 11h30 e às 20h** (modelo BFV/26), e quem agenda é o `cronograma_de_disparos.md`. Este arquivo foi escrito com 3 copys por dia (63, com o slot das 16h30). Resultado: **42 copys estão agendadas (slots de 11h30 e 20h)** e **21 copys estão em RESERVA (slot das 16h30, marcadas "RESERVA" no título)**. Nenhuma copy foi apagada e nenhum ID mudou. A reserva serve para: (1) teste A/B contra a copy agendada do mesmo dia; (2) troca de emergência se uma copy agendada precisar sair (depoimento que não chegou, notícia do dia, feriado); (3) reforço de um grupo que esfriou. Quatro copys de 16h30 foram **promovidas** ao slot das 20h para o calendário não perder cobertura de objeção (ver seção 2): CP-BF-11, 26, 32 e 35. As suas colegas de dia (CP-BF-12, 27, 33 e 36) foram para a reserva.
+> **Nota de uso: este arquivo é BANCO DE RESERVA E TESTES, e não o calendário.** A série canônica de captação por grupo é `13_modelo_dr_joao/wpp_captacao.md` (cp-00a, cp-00b e cp-01 a cp-42, às 11h30 e às 20h de 13/10 a 02/11, mais as 09h30 e 16h30 de abertura em 13/10) e, para o grupo de alunas, `13_modelo_dr_joao/wpp_grupo_alunas_captacao.md` (ca-01 a ca-06). Quem agenda é o `cronograma_de_disparos.md`, e ele não agenda nenhum CP-BF-01 a CP-BF-63. Este arquivo foi escrito com 3 copys por dia (63, com o slot das 16h30) antes de a série canônica ser fechada; nenhuma copy foi apagada e nenhum ID mudou, e a data e a hora de cada título são a posição original da copy. A reserva serve para: (1) teste A/B contra a mensagem canônica do mesmo dia e do mesmo horário (metade do rodízio recebe cada texto; nunca os dois para a mesma pessoa); (2) troca de emergência se uma mensagem canônica precisar sair (depoimento que não chegou, notícia do dia, feriado); (3) reforço de um grupo que esfriou, sempre no lugar de um disparo canônico e nunca como terceiro disparo do dia. Para não colidir de assunto, confira a coluna "Canônica no mesmo horário" da seção 2 antes de usar uma copy.
 
 | Campo | Conteúdo |
 |---|---|
-| **Peça** | Banco de 63 copys de grupo de WhatsApp (21 dias, de 13/10 a 02/11), das quais 42 agendadas (11h30 e 20h) e 21 em reserva (16h30), mais 16 variantes para o grupo de alunas e para o grupo de quem fez Desafio/Imersão (9 agendadas e 7 em reserva). Cada uma com ID, data e horário. Aprofundamento: dor, prova, o que entra, objeções, trilha de entrada e diagnóstico |
+| **Peça** | Banco de reserva de 63 copys de grupo de WhatsApp (21 dias, de 13/10 a 02/11; 42 nas posições de 11h30 e 20h e 21 na posição original de 16h30), mais 16 variantes para o grupo de alunas e para o grupo de quem fez Desafio/Imersão. Nenhuma está agendada: o calendário usa a série canônica da pasta 13. Cada uma com ID, data e horário de origem. Aprofundamento: dor, prova, o que entra, objeções, trilha de entrada e diagnóstico |
 | **Canal** | Grupos de WhatsApp (geral, alunas, Desafio/Imersão), via SendFlow |
 | **Público** | Geral: reservaram o lugar e a base fria (consciência 1 a 3). Alunas: estágio 4. Desafio/Imersão: estágio 4 a 5 |
 | **Momento** | 13/10 a 02/11. Fase 1, reconhecimento (13 a 19/10). Fase 2, prova e quebra de medo (20 a 27/10). Fase 3, antecipação (28/10 a 02/11) |
-| **Objetivo** | Manter a pessoa no grupo, levá-la a fazer o diagnóstico, reservar o lugar e chegar na live de 03/11 sabendo o nome do padrão. Cada copy termina com pergunta ou reação |
+| **Objetivo** | Manter a pessoa no grupo, levá-la a fazer o diagnóstico, reservar o lugar e chegar na live de 03/11 sabendo o nome do padrão. Cada copy termina com pergunta ou reação e traz o link de reserva, do diagnóstico ou da live em linha própria |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada copy desloca a pessoa um passo em direção a essa decisão: reconhecer, confiar, entender o que entra, decidir estar na live |
 | **Momento de vida** | Aperto real (34%), funcional e exausta (32%, 60% com 45+), confortável querendo mais (18%), sozinha (20%), casada sem conexão (55% casadas). Cada copy traz o momento predominante |
 | **Modelo no Desafio** | copys de lembrete de grupo do Desafio (CP 01 a 51): "Contagem regressiva", "É hoje", "Lembrete 1 + evento", "Lembrete 2", "Falta 1 hora", "Carta", "Lista de interesse", "Mantra" (aqui, ritual de Grabovoi), quebra de objeção (CP 34) |
 
 **O que mudou em relação ao Desafio.**
-- O Desafio tinha 5 noites e uma sequência diária de CP em torno do horário da aula (09h, 13h, 17h, 19h, 20h, 20h15, 20h45). A Black tem **uma live** em 03/11, então a cadência de 13/10 a 02/11 é de **aquecimento**: 2 disparos por dia, em 11h30 e 20h. A cadência de horários da BFV/26 (grupos às 11h30 e 20h) é a canônica. O terceiro slot (16h30) não entra no calendário e vira banco de reserva. O dia 03/11 usa a grade completa do dia da live (`dia_da_live_03_11.md`).
+- O Desafio tinha 5 noites e uma sequência diária de CP em torno do horário da aula (09h, 13h, 17h, 19h, 20h, 20h15, 20h45). A Black tem **uma live** em 03/11, então a cadência de 13/10 a 02/11 é de **aquecimento**: 2 disparos por dia, em 11h30 e 20h (a cadência da BFV/26), com a série canônica da pasta 13. Este banco entra só como teste ou troca, nunca como terceiro disparo. O dia 03/11 usa a grade completa do dia da live (`dia_da_live_03_11.md`).
 - O Desafio tinha o "mantra" de Grabovoi com a promessa "ative a atração de dinheiro". O guia proíbe a promessa. Em CP-BF-15, 45 e 60, o ritual é o **áudio de Grabovoi da noite**, apresentado como prática.
 - O Desafio tinha uma "Lista de Interesse" para quem queria saber antes da abertura. Na Black, a captação inteira cumpre esse papel: a pessoa já reservou o lugar.
 - O Desafio vendia com lote e preço. Aqui **nenhum preço aparece**. A escassez pré-live é a data da live e a condição revelada só ao vivo.
@@ -25,13 +25,13 @@
 
 | Slot | Horário | Função |
 |---|---|---|
-| A | 11h30 | Agendado. Dor, perfil ou frase da audiência (abre o dia) |
-| B | 16h30 | **RESERVA**, fora do calendário. Prova, o que entra, objeção ou diagnóstico (aprofunda). Teste A/B ou troca de emergência |
-| C | 20h | Agendado. Pergunta, enquete, ritual, prova ou convite (fecha o dia) |
+| A | 11h30 | Posição de abertura do dia (dor, perfil ou frase da audiência). Reserva: só em teste contra a mensagem canônica do mesmo horário |
+| B | 16h30 | Posição original de aprofundamento (prova, o que entra, objeção ou diagnóstico). Fora do calendário: teste A/B ou troca de emergência no horário de 11h30 ou de 20h |
+| C | 20h | Posição de fechamento do dia (pergunta, enquete, ritual, prova ou convite). Reserva: só em teste contra a mensagem canônica do mesmo horário |
 
 **Regras de forma.** Sempre "para", nunca a forma reduzida. Uma linha em branco entre todas as linhas. Negrito com asterisco. Link em linha própria e separado do CTA. No máximo 12 linhas e fim em pergunta ou reação. Nenhuma contagem de dias dentro do texto: datas fixas ("terça, 03/11, às 20h").
 
-**Tokens de link:** `[[LINK: página de reserva da live]]`, `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: live no YouTube, 03/11]]`, `[[LINK: áudio de Grabovoi da noite]]`. Cada link tem UTM com o ID da copy (ex.: `utm_content=cp-bf-12`).
+**Links:** cada copy traz um token no formato `destino | canal | ID da copy`, com o canal `wpp` e o ID da própria copy em minúsculas (ex.: captura A, canal wpp, `cp-bf-12`). O destino de reserva é a captura A no grupo geral, a captura C nas variantes -AL e a captura D nas variantes -DS; o diagnóstico usa o destino diagnóstico; o lembrete usa live YouTube; o ritual da noite usa áudio do dia. A seção "Links desta peça" no fim do arquivo lista todos.
 
 **Legenda de reações dos 5 perfis (usada em CP-BF-17, na enquete de domingo):**
 
@@ -43,85 +43,85 @@
 | ⚓ | Traumas Que Ainda Decidem |
 | 🎁 | Culpa de Querer Mais |
 
-**O que acontece depois do clique.** O link de reserva leva à página de captura; ao reservar, a pessoa recebe a API de onboarding (`api_onboarding.md`). O link do diagnóstico leva à página do diagnóstico e depois à reserva. O link da live leva ao YouTube e pede para ativar o lembrete.
+**O que acontece depois do clique.** O link de reserva leva à página de captura; ao reservar, a pessoa recebe a API de onboarding (canônica: `13_modelo_dr_joao/api_onboarding.md`; reserva: `api_onboarding.md`). O link do diagnóstico leva à página do diagnóstico e depois à reserva. O link da live leva ao YouTube e pede para ativar o lembrete.
 
-**Como variar.** A tabela da seção 2 distribui os 5 perfis e as objeções ao longo das 3 semanas. No calendário de 42 slots, cada perfil aparece em pelo menos 3 slots (Autossabotagem 7, Termostato Invisível 5, Traumas Que Ainda Decidem 4, Cobrança Que Você Só Faz Com Você 3, Culpa de Querer Mais 3) e a objeção de dinheiro aparece em CP-BF-26 e CP-BF-40. As objeções "medo de não aplicar" (CP-BF-24, 31, 37, 49), "já comprei e não tive resultado" (CP-BF-24) e "não confio" (CP-BF-11 e 43) aparecem no calendário e voltam em mais copys na reserva (CP-BF-05, 20, 23, 38, 56).
+**Como variar.** A tabela da seção 2 distribui os 5 perfis e as objeções ao longo das 3 semanas, na ordem em que o banco foi escrito: objeção de dinheiro em CP-BF-26 e CP-BF-40; "medo de não aplicar" em CP-BF-05, 24, 31, 37, 38 e 49; "já comprei e não tive resultado" em CP-BF-20, 23, 24 e 56; "não confio" em CP-BF-11 e 43. A série canônica cobre os mesmos temas nas suas próprias datas; use a coluna "Canônica no mesmo horário" para trocar sem repetir assunto.
 
-**Substituições por grupo.** No grupo de alunas e no grupo de Desafio/Imersão, a copy da seção 4 entra no lugar da copy-base. No calendário: 4 variantes de alunas (CP-BF-01-AL, 22-AL, 43-AL, 63-AL) e 5 de Desafio/Imersão (CP-BF-01-DS, 19-DS, 26-DS, 40-DS, 46-DS). As outras 7 (4 de alunas e 3 de Desafio/Imersão) estão em reserva, junto com a copy-base do slot das 16h30.
+**Substituições por grupo.** No grupo de alunas e no grupo de Desafio/Imersão, a copy da seção 4 entra no lugar da copy-base do mesmo slot, e só quando a copy-base também for usada (teste ou troca). São 8 variantes de alunas (CP-BF-01-AL, 08-AL, 22-AL, 29-AL, 43-AL, 56-AL, 62-AL e 63-AL) e 8 de Desafio/Imersão (CP-BF-01-DS, 05-DS, 19-DS, 26-DS, 40-DS, 46-DS, 53-DS e 62-DS). O grupo de alunas tem série canônica própria em cinco datas (ca-01 a ca-06), e nelas nenhuma variante -AL pode sair.
 
 **Frases intocáveis usadas, copiadas literalmente:** "Eu termino tudo o que eu começo." (CP-BF-06), "Quando você sobe, a casa sobe junto." (CP-BF-14, frase da Aula 02), "Eu prefiro que você não compre do que compre e não viva." (CP-BF-44, em reserva), "O deserto é o que define se uma pessoa explode ou não." (CP-BF-55), "Não trave o processo." (CP-BF-19-DS).
 
 ---
 
-## 2. Mapa dos 63 slots (42 agendados e 21 em reserva)
+## 2. Mapa dos 63 slots (banco de reserva, com a mensagem canônica de cada horário)
 
-Slots das 16h30 estão marcados "reserva". Foram promovidos ao slot das 20h: CP-BF-11 (confiança na Dra.), CP-BF-26 (objeção de dinheiro), CP-BF-32 (o que entra, dinheiro) e CP-BF-35 (o que entra, raiz emocional), no lugar de CP-BF-12, 27, 33 e 36, que ficaram na reserva. Os demais mantêm o horário original.
+Todos os 63 estão em reserva. A coluna "Canônica no mesmo horário" diz qual mensagem da série canônica (`13_modelo_dr_joao/wpp_captacao.md`) ocupa o horário original da copy; nos horários de 16h30 não há mensagem canônica, e a coluna aponta os dois disparos do dia. As quatro copys promovidas ao slot das 20h na primeira versão do cronograma (CP-BF-11, 26, 32 e 35) voltaram à reserva junto com todas as outras.
 
-| ID | Data | Hora | Tema | Perfil | Objeção do dia | Momento de vida |
-|---|---|---|---|---|---|---|
-| CP-BF-01 | Ter 13/10 | 11h30 | ABRIU | Todos (frase-guia) | Nenhuma (abertura) | Todos |
-| CP-BF-02 | Ter 13/10 | 16h30 (reserva) | O NOME DO PADRÃO | Não sei o que me trava | Não sei o que me impede | Todos |
-| CP-BF-03 | Ter 13/10 | 20h00 | A CONTA APARECE | Termostato Invisível | Dinheiro que não fica | Funcional e exausta |
-| CP-BF-04 | Qua 14/10 | 11h30 | EU SEI E NÃO FAÇO | Autossabotagem | Procrastino | Todos |
-| CP-BF-05 | Qua 14/10 | 16h30 (reserva) | CURSO NA PASTA | Autossabotagem | Medo de comprar e não colocar em prática | Aperto real |
-| CP-BF-06 | Qua 14/10 | 20h00 | EU TERMINO | Autossabotagem | Medo de não funcionar para mim | Todos |
-| CP-BF-07 | Qui 15/10 | 11h30 | FUNCIONAL, MAS EXAUSTA | Cobrança Que Você Só Faz Com Você | Não sei o que me impede | Funcional e exausta |
-| CP-BF-08 | Qui 15/10 | 16h30 (reserva) | PAGO AS CONTAS, MAS NÃO SOBRA | Termostato Invisível | Dinheiro que não fica | Aperto real e funcional |
-| CP-BF-09 | Qui 15/10 | 20h00 | ANOTA A DATA | Todos | Ao vivo / agenda | Todos |
-| CP-BF-10 | Sex 16/10 | 11h30 | RETROCEDO | Traumas Que Ainda Decidem | Medo de não funcionar para mim | Funcional e exausta |
-| CP-BF-11 | Sex 16/10 | 20h00 | QUEM É A DRA | Todos | Não confio facilmente | Todos |
-| CP-BF-12 | Sex 16/10 | 16h30 (reserva) | A PROMESSA DO ANO | Cobrança Que Você Só Faz Com Você | Não sei o que me impede | Funcional e exausta |
-| CP-BF-13 | Sáb 17/10 | 11h30 | NINGUÉM CUIDA DE MIM | Culpa de Querer Mais | Não sei o que me impede | Funcional e exausta |
-| CP-BF-14 | Sáb 17/10 | 16h30 (reserva) | A CASA SOBE JUNTO | Culpa de Querer Mais | Cuidar de mim é egoísmo? | Casada, relação sem conexão |
-| CP-BF-15 | Sáb 17/10 | 20h00 | RITUAL DA NOITE | Todos | Ritual | Todos |
-| CP-BF-16 | Dom 18/10 | 11h30 | NÃO SEI O QUE ME TRAVA | Não sei o que me trava | Não sei o que me impede | Todos |
-| CP-BF-17 | Dom 18/10 | 16h30 (reserva) | QUAL É O SEU? | Os 5 perfis (enquete) | Não sei o que me impede | Todos |
-| CP-BF-18 | Dom 18/10 | 20h00 | SEGUNDA EU COMEÇO | Cobrança Que Você Só Faz Com Você | Procrastino | Funcional e exausta |
-| CP-BF-19 | Seg 19/10 | 11h30 | A CONTA DOS 12 MESES | Termostato Invisível | Dinheiro que não fica | Aperto real e funcional |
-| CP-BF-20 | Seg 19/10 | 16h30 (reserva) | VOCÊ JÁ SABE COMEÇAR | Culpa de Querer Mais | Já comprei e não tive resultado | Confortável querendo mais |
-| CP-BF-21 | Seg 19/10 | 20h00 | A SEMANA QUE VEM | Todos | Curiosidade (o que entra) | Todos |
-| CP-BF-22 | Ter 20/10 | 11h30 | TERÇA É DIA DE AULA | Todos | O que é o Clube Secreto | Todos |
-| CP-BF-23 | Ter 20/10 | 16h30 (reserva) | JÁ COMPREI E NÃO TIVE RESULTADO | Autossabotagem | Já comprei outros e não tive resultado | Todos |
-| CP-BF-24 | Ter 20/10 | 20h00 | UMA DECISÃO SÓ | Todos (JTBD) | Cansei de recomeçar; já comprei e não tive resultado | Todos |
-| CP-BF-25 | Qua 21/10 | 11h30 | DEPOIMENTO 1 | Termostato Invisível | Medo de não funcionar para mim | Todos |
-| CP-BF-26 | Qua 21/10 | 20h00 | A OBJEÇÃO DO DINHEIRO | Termostato Invisível | Não tenho o dinheiro disponível agora | Aperto real |
-| CP-BF-27 | Qua 21/10 | 16h30 (reserva) | 3 SINAIS DO TERMOSTATO | Termostato Invisível | Dinheiro que não fica | Funcional e exausta |
-| CP-BF-28 | Qui 22/10 | 11h30 | OS 40 ANOS | Traumas Que Ainda Decidem | Medo de não funcionar para mim | Funcional e exausta |
-| CP-BF-29 | Qui 22/10 | 16h30 (reserva) | E SE EU NÃO CONSEGUIR ASSISTIR? | Todos | Não sei se vou conseguir assistir ao vivo | Todos |
-| CP-BF-30 | Qui 22/10 | 20h00 | O DEPOIS | Autossabotagem | Procrastino | Todos |
-| CP-BF-31 | Sex 23/10 | 11h30 | DEPOIMENTO 2 | Autossabotagem | Medo de comprar e não colocar em prática | Todos |
-| CP-BF-32 | Sex 23/10 | 20h00 | O QUE ENTRA 1: DINHEIRO | Termostato Invisível | Curiosidade (o que entra) | Aperto real e funcional |
-| CP-BF-33 | Sex 23/10 | 16h30 (reserva) | ENQUETE: O QUE EXPLICAR PRIMEIRO? | Todos | Curiosidade (o que entra) | Todos |
-| CP-BF-34 | Sáb 24/10 | 11h30 | DESCANSO SEM CULPA | Cobrança Que Você Só Faz Com Você | Cuidar de mim é egoísmo? | Funcional e exausta |
-| CP-BF-35 | Sáb 24/10 | 20h00 | O QUE ENTRA 2: EMOCIONAL | Traumas Que Ainda Decidem | Curiosidade (o que entra) | Todos |
-| CP-BF-36 | Sáb 24/10 | 16h30 (reserva) | EU ME ESCOLHO | Culpa de Querer Mais | Cuidar de mim é egoísmo? | Funcional e exausta |
-| CP-BF-37 | Dom 25/10 | 11h30 | O QUE ENTRA 3: CARREIRA | Culpa de Querer Mais | Curiosidade (o que entra); medo de não aplicar | Confortável querendo mais |
-| CP-BF-38 | Dom 25/10 | 16h30 (reserva) | 11 PRODUTOS É MUITO? | Autossabotagem | Medo de comprar e não colocar em prática | Todos |
-| CP-BF-39 | Dom 25/10 | 20h00 | A CASA CHEIA, VOCÊ SOZINHA | Culpa de Querer Mais | Sozinha / sem conexão | Sozinha |
-| CP-BF-40 | Seg 26/10 | 11h30 | O CUSTO DE FICAR PARADA | Termostato Invisível | Não tenho o dinheiro disponível agora | Aperto real |
-| CP-BF-41 | Seg 26/10 | 16h30 (reserva) | DEPOIMENTO 3 | Culpa de Querer Mais | Medo de não funcionar para mim | Funcional e exausta |
-| CP-BF-42 | Seg 26/10 | 20h00 | ANOTA A DATA 2 | Todos | Ao vivo / agenda | Todos |
-| CP-BF-43 | Ter 27/10 | 11h30 | VOCÊ NÃO É A ÚNICA | Todos | Não confio facilmente | Todos |
-| CP-BF-44 | Ter 27/10 | 16h30 (reserva) | E SE NÃO FUNCIONAR PARA MIM? | Todos | Medo de não funcionar para mim | Todos |
-| CP-BF-45 | Ter 27/10 | 20h00 | RITUAL DA NOITE 2 | Todos | Ritual | Todos |
-| CP-BF-46 | Qua 28/10 | 11h30 | SALVA A DATA | Todos | Ao vivo / agenda | Todos |
-| CP-BF-47 | Qua 28/10 | 16h30 (reserva) | O QUE SEPARAR | Todos | Ao vivo / preparo | Todos |
-| CP-BF-48 | Qua 28/10 | 20h00 | O PADRÃO VAI TENTAR TE TIRAR DA LIVE | Autossabotagem | Procrastino | Todos |
-| CP-BF-49 | Qui 29/10 | 11h30 | O QUE VAI ACONTECER NA LIVE | Todos | Curiosidade (o que acontece); medo de não aplicar | Todos |
-| CP-BF-50 | Qui 29/10 | 16h30 (reserva) | SEGUNDA EU COMEÇO (ENCAMINHA) | Autossabotagem | Procrastino | Todos |
-| CP-BF-51 | Qui 29/10 | 20h00 | FALTA O DIAGNÓSTICO | Todos (5 perfis) | Não sei o que me impede | Todos |
-| CP-BF-52 | Sex 30/10 | 11h30 | ATIVA O LEMBRETE | Todos | Ao vivo / agenda | Todos |
-| CP-BF-53 | Sex 30/10 | 16h30 (reserva) | ENQUETE: O QUE VOCÊ QUER OUVIR | Todos | Curiosidade | Todos |
-| CP-BF-54 | Sex 30/10 | 20h00 | SEXTA: O DEPOIS | Autossabotagem | Procrastino | Todos |
-| CP-BF-55 | Sáb 31/10 | 11h30 | O DESERTO | Traumas Que Ainda Decidem | Medo de não funcionar para mim | Funcional e exausta |
-| CP-BF-56 | Sáb 31/10 | 16h30 (reserva) | DEPOIMENTO 4 | Traumas Que Ainda Decidem | Já comprei e não tive resultado | Todos |
-| CP-BF-57 | Sáb 31/10 | 20h00 | A ÚLTIMA VEZ QUE EU RECOMEÇO | Autossabotagem | Cansei de recomeçar | Todos |
-| CP-BF-58 | Dom 01/11 | 11h30 | CHECKLIST DA LIVE | Todos | Ao vivo / preparo | Todos |
-| CP-BF-59 | Dom 01/11 | 16h30 (reserva) | SE COBRAR POR NÃO TER FEITO | Cobrança Que Você Só Faz Com Você | Cuidar de mim é egoísmo? | Funcional e exausta |
-| CP-BF-60 | Dom 01/11 | 20h00 | RITUAL DA NOITE 3 | Todos | Ritual | Todos |
-| CP-BF-61 | Seg 02/11 | 11h30 | É AMANHÃ | Todos | Ao vivo / agenda | Todos |
-| CP-BF-62 | Seg 02/11 | 16h30 (reserva) | AS 3 RESPOSTAS | Todos | Medo de não implementar / já comprei / dinheiro | Todos |
-| CP-BF-63 | Seg 02/11 | 20h00 | QUANTAS VEZES | Todos (frase-guia) | Cansei de recomeçar | Todos |
+| ID | Data | Hora | Tema | Perfil | Objeção do dia | Momento de vida | Canônica no mesmo horário |
+|---|---|---|---|---|---|---|---|
+| CP-BF-01 | Ter 13/10 | 11h30 | ABRIU | Todos (frase-guia) | Nenhuma (abertura) | Todos | cp-01 |
+| CP-BF-02 | Ter 13/10 | 16h30 (reserva) | O NOME DO PADRÃO | Não sei o que me trava | Não sei o que me impede | Todos | cp-00b (16h30) |
+| CP-BF-03 | Ter 13/10 | 20h00 | A CONTA APARECE | Termostato Invisível | Dinheiro que não fica | Funcional e exausta | cp-02 |
+| CP-BF-04 | Qua 14/10 | 11h30 | EU SEI E NÃO FAÇO | Autossabotagem | Procrastino | Todos | cp-03 |
+| CP-BF-05 | Qua 14/10 | 16h30 (reserva) | CURSO NA PASTA | Autossabotagem | Medo de comprar e não colocar em prática | Aperto real | sem par no horário; testar contra cp-03 (11h30) ou cp-04 (20h) |
+| CP-BF-06 | Qua 14/10 | 20h00 | EU TERMINO | Autossabotagem | Medo de não funcionar para mim | Todos | cp-04 |
+| CP-BF-07 | Qui 15/10 | 11h30 | FUNCIONAL, MAS EXAUSTA | Cobrança Que Você Só Faz Com Você | Não sei o que me impede | Funcional e exausta | cp-05 |
+| CP-BF-08 | Qui 15/10 | 16h30 (reserva) | PAGO AS CONTAS, MAS NÃO SOBRA | Termostato Invisível | Dinheiro que não fica | Aperto real e funcional | sem par no horário; testar contra cp-05 (11h30) ou cp-06 (20h) |
+| CP-BF-09 | Qui 15/10 | 20h00 | ANOTA A DATA | Todos | Ao vivo / agenda | Todos | cp-06 |
+| CP-BF-10 | Sex 16/10 | 11h30 | RETROCEDO | Traumas Que Ainda Decidem | Medo de não funcionar para mim | Funcional e exausta | cp-07 |
+| CP-BF-11 | Sex 16/10 | 20h00 | QUEM É A DRA | Todos | Não confio facilmente | Todos | cp-08 |
+| CP-BF-12 | Sex 16/10 | 16h30 (reserva) | A PROMESSA DO ANO | Cobrança Que Você Só Faz Com Você | Não sei o que me impede | Funcional e exausta | sem par no horário; testar contra cp-07 (11h30) ou cp-08 (20h) |
+| CP-BF-13 | Sáb 17/10 | 11h30 | NINGUÉM CUIDA DE MIM | Culpa de Querer Mais | Não sei o que me impede | Funcional e exausta | cp-09 |
+| CP-BF-14 | Sáb 17/10 | 16h30 (reserva) | A CASA SOBE JUNTO | Culpa de Querer Mais | Cuidar de mim é egoísmo? | Casada, relação sem conexão | sem par no horário; testar contra cp-09 (11h30) ou cp-10 (20h) |
+| CP-BF-15 | Sáb 17/10 | 20h00 | RITUAL DA NOITE | Todos | Ritual | Todos | cp-10 |
+| CP-BF-16 | Dom 18/10 | 11h30 | NÃO SEI O QUE ME TRAVA | Não sei o que me trava | Não sei o que me impede | Todos | cp-11 |
+| CP-BF-17 | Dom 18/10 | 16h30 (reserva) | QUAL É O SEU? | Os 5 perfis (enquete) | Não sei o que me impede | Todos | sem par no horário; testar contra cp-11 (11h30) ou cp-12 (20h) |
+| CP-BF-18 | Dom 18/10 | 20h00 | SEGUNDA EU COMEÇO | Cobrança Que Você Só Faz Com Você | Procrastino | Funcional e exausta | cp-12 |
+| CP-BF-19 | Seg 19/10 | 11h30 | A CONTA DOS 12 MESES | Termostato Invisível | Dinheiro que não fica | Aperto real e funcional | cp-13 |
+| CP-BF-20 | Seg 19/10 | 16h30 (reserva) | VOCÊ JÁ SABE COMEÇAR | Culpa de Querer Mais | Já comprei e não tive resultado | Confortável querendo mais | sem par no horário; testar contra cp-13 (11h30) ou cp-14 (20h) |
+| CP-BF-21 | Seg 19/10 | 20h00 | A SEMANA QUE VEM | Todos | Curiosidade (o que entra) | Todos | cp-14 |
+| CP-BF-22 | Ter 20/10 | 11h30 | TERÇA É DIA DE AULA | Todos | O que é o Clube Secreto | Todos | cp-15 |
+| CP-BF-23 | Ter 20/10 | 16h30 (reserva) | JÁ COMPREI E NÃO TIVE RESULTADO | Autossabotagem | Já comprei outros e não tive resultado | Todos | sem par no horário; testar contra cp-15 (11h30) ou cp-16 (20h) |
+| CP-BF-24 | Ter 20/10 | 20h00 | UMA DECISÃO SÓ | Todos (JTBD) | Cansei de recomeçar; já comprei e não tive resultado | Todos | cp-16 |
+| CP-BF-25 | Qua 21/10 | 11h30 | DEPOIMENTO 1 | Termostato Invisível | Medo de não funcionar para mim | Todos | cp-17 |
+| CP-BF-26 | Qua 21/10 | 20h00 | A OBJEÇÃO DO DINHEIRO | Termostato Invisível | Não tenho o dinheiro disponível agora | Aperto real | cp-18 |
+| CP-BF-27 | Qua 21/10 | 16h30 (reserva) | 3 SINAIS DO TERMOSTATO | Termostato Invisível | Dinheiro que não fica | Funcional e exausta | sem par no horário; testar contra cp-17 (11h30) ou cp-18 (20h) |
+| CP-BF-28 | Qui 22/10 | 11h30 | OS 40 ANOS | Traumas Que Ainda Decidem | Medo de não funcionar para mim | Funcional e exausta | cp-19 |
+| CP-BF-29 | Qui 22/10 | 16h30 (reserva) | E SE EU NÃO CONSEGUIR ASSISTIR? | Todos | Não sei se vou conseguir assistir ao vivo | Todos | sem par no horário; testar contra cp-19 (11h30) ou cp-20 (20h) |
+| CP-BF-30 | Qui 22/10 | 20h00 | O DEPOIS | Autossabotagem | Procrastino | Todos | cp-20 |
+| CP-BF-31 | Sex 23/10 | 11h30 | DEPOIMENTO 2 | Autossabotagem | Medo de comprar e não colocar em prática | Todos | cp-21 |
+| CP-BF-32 | Sex 23/10 | 20h00 | O QUE ENTRA 1: DINHEIRO | Termostato Invisível | Curiosidade (o que entra) | Aperto real e funcional | cp-22 |
+| CP-BF-33 | Sex 23/10 | 16h30 (reserva) | ENQUETE: O QUE EXPLICAR PRIMEIRO? | Todos | Curiosidade (o que entra) | Todos | sem par no horário; testar contra cp-21 (11h30) ou cp-22 (20h) |
+| CP-BF-34 | Sáb 24/10 | 11h30 | DESCANSO SEM CULPA | Cobrança Que Você Só Faz Com Você | Cuidar de mim é egoísmo? | Funcional e exausta | cp-23 |
+| CP-BF-35 | Sáb 24/10 | 20h00 | O QUE ENTRA 2: EMOCIONAL | Traumas Que Ainda Decidem | Curiosidade (o que entra) | Todos | cp-24 |
+| CP-BF-36 | Sáb 24/10 | 16h30 (reserva) | EU ME ESCOLHO | Culpa de Querer Mais | Cuidar de mim é egoísmo? | Funcional e exausta | sem par no horário; testar contra cp-23 (11h30) ou cp-24 (20h) |
+| CP-BF-37 | Dom 25/10 | 11h30 | O QUE ENTRA 3: CARREIRA | Culpa de Querer Mais | Curiosidade (o que entra); medo de não aplicar | Confortável querendo mais | cp-25 |
+| CP-BF-38 | Dom 25/10 | 16h30 (reserva) | 11 PRODUTOS É MUITO? | Autossabotagem | Medo de comprar e não colocar em prática | Todos | sem par no horário; testar contra cp-25 (11h30) ou cp-26 (20h) |
+| CP-BF-39 | Dom 25/10 | 20h00 | A CASA CHEIA, VOCÊ SOZINHA | Culpa de Querer Mais | Sozinha / sem conexão | Sozinha | cp-26 |
+| CP-BF-40 | Seg 26/10 | 11h30 | O CUSTO DE FICAR PARADA | Termostato Invisível | Não tenho o dinheiro disponível agora | Aperto real | cp-27 |
+| CP-BF-41 | Seg 26/10 | 16h30 (reserva) | DEPOIMENTO 3 | Culpa de Querer Mais | Medo de não funcionar para mim | Funcional e exausta | sem par no horário; testar contra cp-27 (11h30) ou cp-28 (20h) |
+| CP-BF-42 | Seg 26/10 | 20h00 | ANOTA A DATA 2 | Todos | Ao vivo / agenda | Todos | cp-28 |
+| CP-BF-43 | Ter 27/10 | 11h30 | VOCÊ NÃO É A ÚNICA | Todos | Não confio facilmente | Todos | cp-29 |
+| CP-BF-44 | Ter 27/10 | 16h30 (reserva) | E SE NÃO FUNCIONAR PARA MIM? | Todos | Medo de não funcionar para mim | Todos | sem par no horário; testar contra cp-29 (11h30) ou cp-30 (20h) |
+| CP-BF-45 | Ter 27/10 | 20h00 | RITUAL DA NOITE 2 | Todos | Ritual | Todos | cp-30 |
+| CP-BF-46 | Qua 28/10 | 11h30 | SALVA A DATA | Todos | Ao vivo / agenda | Todos | cp-31 |
+| CP-BF-47 | Qua 28/10 | 16h30 (reserva) | O QUE SEPARAR | Todos | Ao vivo / preparo | Todos | sem par no horário; testar contra cp-31 (11h30) ou cp-32 (20h) |
+| CP-BF-48 | Qua 28/10 | 20h00 | O PADRÃO VAI TENTAR TE TIRAR DA LIVE | Autossabotagem | Procrastino | Todos | cp-32 |
+| CP-BF-49 | Qui 29/10 | 11h30 | O QUE VAI ACONTECER NA LIVE | Todos | Curiosidade (o que acontece); medo de não aplicar | Todos | cp-33 |
+| CP-BF-50 | Qui 29/10 | 16h30 (reserva) | SEGUNDA EU COMEÇO (ENCAMINHA) | Autossabotagem | Procrastino | Todos | sem par no horário; testar contra cp-33 (11h30) ou cp-34 (20h) |
+| CP-BF-51 | Qui 29/10 | 20h00 | FALTA O DIAGNÓSTICO | Todos (5 perfis) | Não sei o que me impede | Todos | cp-34 |
+| CP-BF-52 | Sex 30/10 | 11h30 | ATIVA O LEMBRETE | Todos | Ao vivo / agenda | Todos | cp-35 |
+| CP-BF-53 | Sex 30/10 | 16h30 (reserva) | ENQUETE: O QUE VOCÊ QUER OUVIR | Todos | Curiosidade | Todos | sem par no horário; testar contra cp-35 (11h30) ou cp-36 (20h) |
+| CP-BF-54 | Sex 30/10 | 20h00 | SEXTA: O DEPOIS | Autossabotagem | Procrastino | Todos | cp-36 |
+| CP-BF-55 | Sáb 31/10 | 11h30 | O DESERTO | Traumas Que Ainda Decidem | Medo de não funcionar para mim | Funcional e exausta | cp-37 |
+| CP-BF-56 | Sáb 31/10 | 16h30 (reserva) | DEPOIMENTO 4 | Traumas Que Ainda Decidem | Já comprei e não tive resultado | Todos | sem par no horário; testar contra cp-37 (11h30) ou cp-38 (20h) |
+| CP-BF-57 | Sáb 31/10 | 20h00 | A ÚLTIMA VEZ QUE EU RECOMEÇO | Autossabotagem | Cansei de recomeçar | Todos | cp-38 |
+| CP-BF-58 | Dom 01/11 | 11h30 | CHECKLIST DA LIVE | Todos | Ao vivo / preparo | Todos | cp-39 |
+| CP-BF-59 | Dom 01/11 | 16h30 (reserva) | SE COBRAR POR NÃO TER FEITO | Cobrança Que Você Só Faz Com Você | Cuidar de mim é egoísmo? | Funcional e exausta | sem par no horário; testar contra cp-39 (11h30) ou cp-40 (20h) |
+| CP-BF-60 | Dom 01/11 | 20h00 | RITUAL DA NOITE 3 | Todos | Ritual | Todos | cp-40 |
+| CP-BF-61 | Seg 02/11 | 11h30 | É AMANHÃ | Todos | Ao vivo / agenda | Todos | cp-41 |
+| CP-BF-62 | Seg 02/11 | 16h30 (reserva) | AS 3 RESPOSTAS | Todos | Medo de não implementar / já comprei / dinheiro | Todos | sem par no horário; testar contra cp-41 (11h30) ou cp-42 (20h) |
+| CP-BF-63 | Seg 02/11 | 20h00 | QUANTAS VEZES | Todos (frase-guia) | Cansei de recomeçar | Todos | cp-42 |
 
 ---
 
@@ -340,7 +340,7 @@ Frases que ouviu na infância, atitudes que se repetem. Elas voltam toda vez que
 
 É o padrão dos *Traumas Que Ainda Decidem*.
 
-Dia 03/11, às 20h, eu mostro ao vivo por onde isso se desfaz.
+Dia 03/11, às 20h, eu mostro ao vivo por onde começar a trabalhar isso.
 
 👇 Reserva o seu lugar:
 
@@ -616,11 +616,11 @@ Perfil: Autossabotagem. Objeção: Já comprei outros e não tive resultado. Mom
 
 Essa é uma das frases que mais aparecem nas pesquisas. E eu entendo.
 
-Mas olha o que costuma acontecer: você teve que *aplicar por conta própria depois*.
+Mas olha o que costuma acontecer: você teve que *aplicar por conta própria depois*, sem ninguém ao lado.
 
-E o mesmo padrão que você queria mudar foi o que sabotou a aplicação.
+E aí o padrão antigo volta a decidir por você.
 
-Por isso o que eu criei é guiado, com suporte, e não um curso solto.
+Por isso o Clube é guiado, com suporte, e não um curso solto.
 
 Dia 03/11, às 20h, eu mostro ao vivo.
 
@@ -706,7 +706,7 @@ Perfil: Termostato Invisível. Objeção: Dinheiro que não fica. Momento de vid
 
 2️⃣ Você chega perto de um valor e algo atrapalha.
 
-3️⃣ Você se sente culpada quando sobra.
+3️⃣ Sobra um pouco e, em seguida, a culpa aparece.
 
 Nada disso é falta de esforço. É um padrão que pode ser enxergado e trabalhado.
 
@@ -810,7 +810,7 @@ Perfil: Termostato Invisível. Objeção: Curiosidade (o que entra). Momento de 
 
 🔓 Destrave o Dinheiro
 
-🧠 O trabalho com a escassez financeira
+🧠 Cura da Escassez Financeira
 
 🔢 Sequências Numéricas de Grabovoi
 
@@ -823,7 +823,6 @@ Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só 
 Reage com 💰 se esse é o seu ponto de partida.
 ```
 
-Nota: o nome oficial de um dos produtos desta lista tem uma palavra vetada pelo guia de copy (seção 3, promessa de resultado). Por compliance a copy descreve o tema em vez de citar o nome. `[[CONFIRMAR: nome do produto na divulgação]]`
 
 #### CP-BF-33 | Sex 23/10, 16h30 (RESERVA) | ENQUETE: O QUE EXPLICAR PRIMEIRO?
 
@@ -874,7 +873,7 @@ Perfil: Traumas Que Ainda Decidem. Objeção: Curiosidade (o que entra). Momento
 ```text
 🔓 O que entra na Vitalícia, parte 2: *a raiz emocional*.
 
-👶 O trabalho com a criança interior
+👶 Cura da Criança Interior
 
 🎧 Os 3 Áudios de Reprogramação
 
@@ -891,7 +890,6 @@ Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só 
 Reage com 👶 se a sua raiz é emocional.
 ```
 
-Nota: mesmo critério do CP-BF-32 para o produto cujo nome oficial tem a palavra vetada. `[[CONFIRMAR: nome do produto na divulgação]]`
 
 #### CP-BF-36 | Sáb 24/10, 16h30 (RESERVA) | EU ME ESCOLHO
 
@@ -922,7 +920,7 @@ Perfil: Culpa de Querer Mais. Objeção: Curiosidade (o que entra); medo de não
 ```text
 🔓 O que entra na Vitalícia, parte 3: *prática e profissão*.
 
-🎓 Workshop para terapeutas
+🎓 Workshop Terapeuta de Elite
 
 📱 Instagram Profissional
 
@@ -939,7 +937,6 @@ Preço e condição só ao vivo, dia 03/11, às 20h.
 Reage com 🌟 se você quer ver tudo reunido.
 ```
 
-Nota: o nome oficial do produto é "Workshop Terapeuta de Elite" e deve ser usado sempre que o workshop for citado.
 
 #### CP-BF-38 | Dom 25/10, 16h30 (RESERVA) | 11 PRODUTOS É MUITO?
 
@@ -1454,7 +1451,9 @@ Antes da live, as 3 perguntas que mais aparecem:
 
 3️⃣ "Não tenho dinheiro agora." Eu mostro as formas de pagamento ao vivo [[CONFIRMAR: parcelamento]].
 
-Dia 03/11, às 20h, eu respondo cada uma.
+Dia 03/11, às 20h, eu respondo cada uma. Ativa o lembrete:
+
+[[LINK: live YouTube | wpp | cp-bf-62]]
 
 Reage com 1️⃣, 2️⃣ ou 3️⃣ na que mais te pega.
 ```
@@ -1483,7 +1482,7 @@ Reage com 🔴 se você vai estar ao vivo.
 
 ## 4. Variantes por grupo (16 copys)
 
-Cada variante **substitui** a copy-base do mesmo slot no grupo indicado (ver `cronograma_de_disparos.md`). Sufixo -AL = grupo de alunas do Clube. Sufixo -DS = grupo de quem fez Desafio, Imersão ou Aulão sem Clube.
+Cada variante **substitui** a copy-base do mesmo slot no grupo indicado, quando a copy-base for usada em teste ou troca (a série canônica e o `cronograma_de_disparos.md` não agendam variantes). Sufixo -AL = grupo de alunas do Clube. Sufixo -DS = grupo de quem fez Desafio, Imersão ou Aulão sem Clube.
 
 ### Grupo: Alunas do Clube
 
@@ -1556,7 +1555,7 @@ Reage com 🙋 se você quer entender como funciona para alunas.
 O que muda: Aborda o medo específico da aluna: acabar o prazo e perder o ritmo.
 
 ```text
-Já aconteceu de o prazo do seu acesso apertar e a pressão de "preciso usar logo" atrapalhar?
+Já aconteceu de o prazo do seu acesso apertar e a pressão de "preciso usar logo" atrapalhar? [[CONFIRMAR: prazo atual do acesso ao Clube]]
 
 Essa pressão é onde o medo de não dar conta age.
 
@@ -1626,7 +1625,9 @@ Para as alunas do Clube, eu vou mostrar:
 
 3️⃣ Como entrar sem prazo
 
-Fica atenta ao grupo.
+Ativa o lembrete da live:
+
+[[LINK: live YouTube | wpp | cp-bf-62-al]]
 
 Reage com 💜 se você vai estar comigo.
 ```
@@ -1810,6 +1811,10 @@ Para quem viveu o Desafio ou a Imersão, eu vou mostrar:
 
 3️⃣ A condição de entrada
 
+Ativa o lembrete da live:
+
+[[LINK: live YouTube | wpp | cp-bf-62-ds]]
+
 Reage com 🔴 se você vai estar ao vivo.
 ```
 
@@ -1829,7 +1834,7 @@ Reage com 🔴 se você vai estar ao vivo.
 ## Notas ao implementador
 
 **Pendências**
-1. Links (`[[LINK: página de reserva da live]]`, `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: live no YouTube, 03/11]]` e `[[LINK: áudio de Grabovoi da noite]]`): cada um com UTM por ID de copy.
+1. Links: captura A, captura C, captura D, diagnóstico, live YouTube e áudio do dia, cada um com UTM do canal `wpp` e o ID da copy (ver "Links desta peça"). Nenhum desses destinos existe ainda.
 2. `[[DEPOIMENTO REAL]]`: 4 slots precisam de print autorizado (CP-BF-25, 31, 41, 56). Se não houver 4, repetir o melhor e apagar os outros slots em vez de inventar. Pedir autorização por escrito.
 3. `[[CONFIRMAR: ordem de entrada da trilha]]` (CP-BF-38): a trilha de entrada precisa de pelo menos 3 passos definidos antes de o slot ir ao ar.
 4. `[[PENDENTE: replay]]` (CP-BF-29, em reserva): decidir antes de usar a copy.
@@ -1838,17 +1843,17 @@ Reage com 🔴 se você vai estar ao vivo.
 7. `[[CONFIRMAR: áudio e sequência da noite]]` (CP-BF-15, 45, 60): a Dra. precisa aprovar o áudio. Se não houver áudio novo, trocar os 3 slots por copys da reserva do mesmo dia (sem apagar os rituais) e manter o slot C com a pergunta do dia.
 8. Números usados: 51,9% (dossiê do Desafio, pesquisa de presença), 4 em cada 10 / 40% (pesquisa do Aulão, recalculado: 40,4% e 39,6% sobre 7.323 respostas), 12% (ficha de interesse, recalculado: 11,7% sobre as respostas da ficha), 32% (ficha, recalculado: 31,9%) e 70 mil alunos em 44 países (guia, seção 8).
 9. A frase "Eu fui criada pelos meus avós..." (CP-BF-11) vem dos fatos da Dra. no guia, mas em primeira pessoa. Precisa da aprovação dela.
-10. 02/11 é feriado (Finados). Os 2 slots do dia (CP-BF-61 e 63) usam tom sóbrio: sem exclamação, sem emoji festivo, sem "última chamada". A copy de reserva do dia (CP-BF-62) segue o mesmo tom.
+10. 02/11 é feriado (Finados). As copys do dia (CP-BF-61, 62 e 63) usam tom sóbrio: sem exclamação, sem emoji festivo, sem "última chamada".
 11. 03/11 cai numa terça, dia da aula do Clube. Confirmar o que acontece com a aula (CP-BF-22-AL). O grupo geral não cita a aula de 03/11 `[[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]`.
-12. Os 21 slots de 16h30 são reserva. Para usar um como teste A/B, enviar a copy de reserva para metade do rodízio de grupos e a copy agendada para a outra metade, sempre no horário agendado (11h30 ou 20h), nunca em um terceiro horário.
+12. O arquivo inteiro é reserva. Para usar uma copy como teste A/B, enviar a copy do banco para metade do rodízio de grupos e a mensagem canônica do mesmo horário para a outra metade, sempre às 11h30 ou às 20h, nunca em um terceiro horário.
 
 **Testes A/B sugeridos**
-1. Copy agendada contra a copy de reserva do mesmo dia (nunca um terceiro disparo). Medir reações, cliques e saída do grupo.
+1. Mensagem canônica contra a copy de reserva do mesmo horário (nunca um terceiro disparo). Medir reações, cliques e saída do grupo.
 2. Slot C com ritual (CP-BF-15, 45, 60) contra slot C com pergunta. Medir saída do grupo e reações.
 3. CP-BF-17 (enquete de perfis) contra CP-BF-51 (diagnóstico direto). Medir cliques no diagnóstico.
 4. Copys com dado de pesquisa (CP-BF-02, 03, 05, 08) contra versões sem dado.
 
 **Dependências**
 - O diagnóstico e a página de reserva precisam estar publicados antes de 13/10 (`03_paginas`).
-- O cronograma (`cronograma_de_disparos.md`) define quando cada ID sobe.
+- O cronograma (`cronograma_de_disparos.md`) agenda a série canônica da pasta 13; nenhum CP-BF-01 a 63 sobe sem decisão de teste ou troca.
 - Segmentação dos três grupos em SendFlow/DataCrazy.

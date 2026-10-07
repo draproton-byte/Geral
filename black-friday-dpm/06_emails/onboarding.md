@@ -1,3 +1,6 @@
+> Valem como canônicas as versões S1 (alunas do Clube) deste arquivo, como manda `13_modelo_dr_joao/email_onboarding.md`. As versões S2 e S3 são banco de reserva do canônico `13_modelo_dr_joao/email_onboarding.md`.
+> Se uma versão de reserva for usada, não enviar junto com o e-mail equivalente do canônico para a mesma pessoa.
+
 # E-mails de onboarding da captação (3 e-mails x 3 segmentos)
 
 | Campo | Conteúdo |
@@ -11,7 +14,7 @@
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Aqui o trabalho é só um: não perder o dia em que a decisão aparece |
 | Modelo no Desafio | "E-mails de onboarding Desafio" (01 bem-vinda para entrar no grupo, 02 inscrição confirmada, 03 venda do ingresso). Mantida a ordem e o tom de "estou feliz que você está aqui". O Teste de Bloqueios virou o diagnóstico dos 5 padrões, que agora mora na série |
 
-**Regras que valem para os 9 e-mails.** Nenhum preço. A condição é "revelada ao vivo". Sem contagem de dias dentro do texto (data fixa). Um botão por e-mail (entrar no grupo). Variável: `{{nome}}`. O botão de cada e-mail traz o token do grupo do segmento, em linha própria, no formato `[[LINK: <destino> | email | <ID>]]`: `grupo alunas` (S1), `grupo viveu o método` (S2) e `grupo geral` (S3). O ID leva o segmento (por exemplo `ob-01-s1`) para medir cada versão. Os links só existem quando a automação criar o rodízio de grupos; até lá o token fica no texto.
+**Regras que valem para os 9 e-mails.** Nenhum preço. A condição é "revelada ao vivo". Sem contagem de dias dentro do texto (data fixa). Um botão por e-mail (entrar no grupo). Variável: `{{nome}}`. O botão de cada e-mail traz o token do grupo do segmento, em linha própria, no formato (destino, canal e ID do e-mail): `grupo alunas` (S1), `grupo viveu o método` (S2) e `grupo geral` (S3). O ID leva o segmento (por exemplo `ob-01-s1`) para medir cada versão. Os links só existem quando a automação criar o rodízio de grupos; até lá o token fica no texto.
 
 **Ordem de leitura do segmento.** O sistema de envio deve escolher a versão pela tag do contato: S1 se tem tag de aluna ativa do Clube, S2 se tem tag de compra de Desafio, Imersão ou Aulão e não tem tag de aluna, S3 para todo o resto. Se a mesma pessoa cai em S1 e S2, vale S1.
 

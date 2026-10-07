@@ -220,7 +220,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 | g | Preciso falar com marido ou esposa | Facilitar: resumo de um minuto; quando você sobe, a casa sobe junto | Enviar resumo |
 | h | Já sou do Clube | O que já fez conta; sem prazo; onze produtos; lote de aluna | Pergunta "você usa o Clube hoje?" |
 | i | Será que funciona para mim | Honestidade; a Dra. não promete, desafia; garantia | Pergunta "você sentiu algo mudar?" |
-| j | Estou endividada | A Vitalícia não paga dívida; trabalho de raiz; não entre endividando. Acolhe, não vende, sem link | Diagnóstico se ela quiser; esperar; registrar só a letra |
+| j | Estou endividada | A Vitalícia não paga dívida; trabalho de raiz; não entre endividando. Acolhe, não vende, sem link e sem oferta | Acolher e esperar; registrar só a letra; sem diagnóstico, sem link e sem oferta nas mensagens seguintes |
 | k | E se a Vitalícia voltar mais barata | Só as formas aprovadas: esta condição não se repete | Decidir pelo agora |
 | l | Parcelamento e entrada | `[[PENDENTE: parcelamento máximo]]` e `[[CONFIRMAR: entrada mais parcelas]]` | Qual forma cabe melhor |
 | m | Garantia | `[[PENDENTE: garantia]]` | Link do lote |
@@ -285,3 +285,13 @@ Só linhas com `status` igual a Pix, boleto ou recusada. Ordem por `vencimento_c
 **Teste A/B sugerido:** ordenar T10 (ficha morna) por faixa de conforto versus por data da ficha. Métrica: taxa de resposta.
 
 **Dependências:** `aberturas_por_segmento.md`, `quebra_de_objecoes.md`, `copies_por_evento_pipeline.md`, `playbook_do_dia_da_live.md`, `regua_do_silencio_black.md`.
+
+---
+
+## Links desta peça
+
+A planilha é estrutura de trabalho e não traz mensagem para o público nem link. O link do lote de cada pessoa é registrado na coluna `lote_segmento_link` como código (por exemplo, S3 e Primeiro Lote), nunca como URL, e os tokens canônicos de checkout estão em `copies_por_evento_pipeline.md` e `quebra_de_objecoes.md`.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| Abas, colunas e trilhas T01 a T16 | nenhum | Planilha de estrutura, sem mensagem e sem link | n/a |

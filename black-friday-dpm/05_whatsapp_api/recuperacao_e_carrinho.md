@@ -13,7 +13,7 @@
 
 **Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; até 12 linhas; negrito com asterisco; link em linha própria e separado do CTA (ou no botão); rodapé "Digite SAIR se não quiser mais receber mensagens" em todos os templates; no máximo 3 botões; nenhum template começa nem termina com variável; nenhuma contagem de dias no texto (data fixa ou variável: sem referência relativa como "dia anterior"). Preços só por `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]` e só depois da live; no template de API o preço entra por variável preenchida no envio.
 
-**Variáveis de ferramenta:** `{{nome}}`, `{{link_grupo}}`, `{{link_checkout}}` (um por lote e segmento), `{{codigo_pix}}`, `{{link_boleto}}`, `{{lote_atual}}`, `{{data_virada}}`, `{{link_onboarding}}`. `{{lote_atual}}`, `{{data_virada}}` e `{{link_onboarding}}` são novas e precisam existir na ferramenta, senão trocar por `[[PENDENTE: data do lote]]` escrito à mão.
+**Variáveis de ferramenta:** `{{nome}}`, `{{codigo_pix}}`, `{{link_boleto}}` (link do boleto gerado pela Hotmart, dinâmico), `{{lote_atual}}` e `{{data_virada}}`. As duas últimas são novas e precisam existir na ferramenta, senão trocar por `[[PENDENTE: data do lote]]` escrito à mão. Os links de grupo, de checkout, de onboarding e de suporte entram como token em cada peça; o checkout mostra o primeiro lote em que a peça pode disparar (S3-ESP ou S1-ESP) e a automação troca por 1L ou UL conforme `{{lote_atual}}` (ver "Links desta peça").
 
 ---
 
@@ -23,7 +23,7 @@ No Desafio, a recuperação atingia quem **comprou** e não estava em grupo (fil
 
 ### 1.1 Recuperação pré-live: reservou o lugar e não entrou em nenhum grupo
 
-**Público:** `Reservou o lugar na live` sem tag de grupo. Rodar em lote nos dias 20/10, 27/10 e 31/10 (mensagem 1), na manhã de 03/11 (mensagem 2) e às 19h de 03/11 (mensagem 3). Cada pessoa recebe no máximo uma mensagem por dia e só a mensagem seguinte se continuar fora do grupo. "Fora do grupo" é a ausência da tag de grupo no SendFlow/DataCrazy (status "não confirmou": reservou e não entrou no grupo).
+**Público:** `Reservou o lugar na live` sem tag de grupo. Rodar em lote nos dias 20/10, 27/10 e 31/10 às 10h (mensagem 1), na manhã de 03/11 (mensagem 2) e às 19h10 de 03/11 (mensagem 3). Cada pessoa recebe no máximo uma mensagem por dia e só a mensagem seguinte se continuar fora do grupo. Convivência com o onboarding canônico (`13_modelo_dr_joao/api_onboarding.md`): a api-onb-03 ("não confirmada") sai algumas horas depois do cadastro; o lote da mensagem 1 só pega quem continua sem tag de grupo mais de 48 horas depois do cadastro e quem não recebeu nenhuma outra API no dia (por exemplo as APIs canônicas das 09h), para a mesma pessoa não ouvir o mesmo pedido duas vezes. "Fora do grupo" é a ausência da tag de grupo no SendFlow/DataCrazy (status "não confirmou": reservou e não entrou no grupo).
 
 #### API-BF-R01 | Mensagem 1: lote de recuperação (20/10, 27/10, 31/10)
 
@@ -157,7 +157,7 @@ Digite SAIR se não quiser mais receber mensagens
 
 Referência para a área `06_emails`.
 
-**Assunto:** A sua entrada está garantida, mas você está fora do grupo
+**Assunto:** A sua entrada está confirmada, mas você está fora do grupo
 
 **Preheader:** É lá que chega o primeiro passo da trilha
 
@@ -613,12 +613,12 @@ Digite SAIR se não quiser mais receber mensagens
 ## Notas ao implementador
 
 **Pendências**
-1. `{{lote_atual}}`, `{{data_virada}}`, `{{link_checkout}}` por lote e segmento, `{{link_onboarding}}`: precisam existir no ListBoss/DataCrazy. São a causa mais provável de erro (lote errado no texto). Testar com compra de teste em cada lote.
+1. `{{lote_atual}}`, `{{data_virada}}` e os links de checkout por lote e segmento (seis, mais três de S2) e de onboarding: precisam existir no ListBoss/DataCrazy. São a causa mais provável de erro (lote errado no texto). Testar com compra de teste em cada lote. Onde a peça dispara por evento (carrinho abandonado, Pix, boleto, recusada), a automação escolhe o checkout do lote vigente; quem está na lista D usa o checkout S2 do mesmo lote.
 2. `[[CONFIRMAR: primeiro passo da trilha]]` e `[[CONFIRMAR: ordem de entrada da trilha]]`: sem eles, API-BF-R05, OK1 e OK3 ficam vazias. É o ponto mais importante contra o "comprei e não implementei".
 3. `[[CONFIRMAR: parcelamento]]`, formas de pagamento no checkout (dois cartões, cartão + Pix, boleto parcelado) e preço do boleto por lote.
 4. `[[PENDENTE: garantia]]`: as peças C01, C02, P04, V03 (outro arquivo) e RF1/RF2 dependem.
 5. `[[CONFIRMAR: regra de migração]]` (alunas).
-6. Número de suporte: usar o oficial (`[[LINK: suporte WhatsApp]]`). Não copiei os números dos arquivos do Desafio por serem números de atendimento em uso.
+6. Número de suporte: usar o oficial (token suporte WhatsApp). Não copiei os números dos arquivos do Desafio por serem números de atendimento em uso.
 7. Os e-mails equivalentes (carrinho abandonado, Pix, boleto, recusada, aprovada) ficam em `06_emails`. Os dois e-mails de recuperação aqui são só referência.
 
 **Testes A/B sugeridos**
@@ -628,18 +628,35 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Aprovação de template (Meta)**
 
-| ID | Categoria sugerida | Botões | Status |
-|---|---|---|---|
-| API-BF-R01, R02, R03 | Marketing | 2 a 3 (ENTRAR NO GRUPO, JÁ ENTREI NO GRUPO, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO** |
-| API-BF-R04, R05, R06 | Utilidade (compra feita) `[[CONFIRMAR: a Meta pode reclassificar para marketing]]` | 2 a 3 | **PRECISA DE APROVAÇÃO** |
-| API-BF-C01, C01-A, C02, C02-A, C03 | Marketing | 2 | **PRECISA DE APROVAÇÃO**. Lote e preço por variável, sem valor digitado |
-| API-BF-P01 a P08 | Utilidade (pagamento pendente). P02, P04 e P08 têm tom persuasivo e podem ser reclassificadas | 0 (o código e o link vão no corpo) | **PRECISA DE APROVAÇÃO** |
-| API-BF-X01, X02 | Utilidade | 0 a 2 | **PRECISA DE APROVAÇÃO** |
-| API-BF-OK1, OK1-A, OK2, OK3 | Utilidade | 1 a 3 | **PRECISA DE APROVAÇÃO** |
-| API-BF-OK4 | Marketing (pede depoimento) | 0 | **PRECISA DE APROVAÇÃO** |
-| API-BF-RF1, RF2 | Utilidade, só se a garantia for mantida | 0 a 1 | **PRECISA DE APROVAÇÃO** depois de `[[PENDENTE: garantia]]` |
+Estrutura de cada template: cabeçalho de texto (até 60 caracteres, sem variável e sem emoji), corpo (o bloco da peça), rodapé SAIR e botões (no máximo 3, de até 25 caracteres; onde a coluna diz 0, o código ou o link vão no corpo).
 
-Todos com rodapé SAIR, sem cabeçalho, sem preço digitado e sem escassez inventada: a escassez só existe por lote real, pela variável `{{data_virada}}`.
+| ID | Cabeçalho | Categoria sugerida | Botões | Status |
+|---|---|---|---|---|
+| API-BF-R01, R02 | Falta entrar no grupo da live | Marketing | 3 (ENTRAR NO GRUPO, JÁ ENTREI NO GRUPO, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO** |
+| API-BF-R03 | Falta 1 hora para a live | Marketing | 2 (ENTRAR NO GRUPO, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO** |
+| API-BF-R04, R05 | Entre no grupo da Vitalícia | Utilidade (compra feita) `[[CONFIRMAR: a Meta pode reclassificar para marketing]]` | 3 (ENTRAR NO GRUPO, JÁ ENTREI NO GRUPO, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO** |
+| API-BF-R06 | Posso te ajudar a entrar no grupo? | Utilidade (compra feita) | 3 (ENTRAR NO GRUPO, FALAR COM O SUPORTE, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO** |
+| API-BF-C01, C01-A | Seu checkout ficou aberto | Marketing | 2 (VOLTAR AO CHECKOUT, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Lote e preço por variável, sem valor digitado |
+| API-BF-C02, C02-A | Sua condição segue aberta | Marketing | 2 (VOLTAR AO CHECKOUT, FALAR COM O SUPORTE) | **PRECISA DE APROVAÇÃO**. Lote e data por variável |
+| API-BF-C03 | Últimas horas do lote atual | Marketing | 2 (VOLTAR AO CHECKOUT, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Lote e data por variável |
+| API-BF-P01 | Seu Pix foi gerado | Utilidade (pagamento pendente) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P02 | Seu Pix ainda não foi pago | Utilidade (pagamento pendente); tom persuasivo, pode ser reclassificada | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P03 | Seu Pix expirou | Utilidade (pagamento pendente) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P04 | Falta um passo para entrar | Utilidade (pagamento pendente); tom persuasivo, pode ser reclassificada | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P05 | Seu boleto foi gerado | Utilidade (pagamento pendente) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P06 | Seu boleto vence em breve | Utilidade (pagamento pendente) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P07 | Seu boleto venceu | Utilidade (pagamento pendente) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-P08 | Falta um passo para entrar | Utilidade (pagamento pendente); tom persuasivo, pode ser reclassificada | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-X01 | Pagamento não aprovado | Utilidade | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-X02 | Seu pagamento não passou | Utilidade | 2 (TENTAR DE NOVO, FALAR COM O SUPORTE) | **PRECISA DE APROVAÇÃO** |
+| API-BF-OK1, OK1-A | Sua entrada está confirmada | Utilidade | 3 (ABRIR O ONBOARDING, ENTRAR NO GRUPO, FALAR COM O SUPORTE) | **PRECISA DE APROVAÇÃO** |
+| API-BF-OK2 | Pagamento aprovado | Utilidade | 1 (ABRIR O ONBOARDING) | **PRECISA DE APROVAÇÃO** |
+| API-BF-OK3 | Seu primeiro passo da trilha | Utilidade | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-OK4 | Um pedido da Dra. Próton | Marketing (pede depoimento) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-RF1 | Pedido de reembolso recebido | Utilidade, só se a garantia for mantida | 1 (FALAR COM O SUPORTE) | **PRECISA DE APROVAÇÃO** depois de `[[PENDENTE: garantia]]` |
+| API-BF-RF2 | Reembolso concluído | Utilidade, só se a garantia for mantida | 0 | **PRECISA DE APROVAÇÃO** depois de `[[PENDENTE: garantia]]` |
+
+Todos com rodapé SAIR, sem preço digitado e sem escassez inventada: a escassez só existe por lote real, pela variável `{{data_virada}}`.
 
 **Dependências**
 - Eventos da Hotmart no ListBoss: compra aprovada, recusada, boleto gerado, aguardando pagamento, abandono, reembolso (documento de captação e automação do projeto).

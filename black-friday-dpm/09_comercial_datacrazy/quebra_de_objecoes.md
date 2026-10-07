@@ -21,7 +21,7 @@
 3. É objeção de **verdade** (aperto real, medo) ou de **prioridade** (educada, escondendo outra coisa)?
 4. O checkout já abriu? Antes de 21h28 de 03/11 não existe link: onde o roteiro diz "link do seu lote", troque por "eu te aviso quando abrir". Depois, o link só vai com a pessoa em conversa aberta, nunca para quem está em silêncio.
 
-**Formato das mensagens:** curtas, uma linha em branco entre as linhas, sempre "para", link em linha própria, sempre no token do mapa de links (`[[LINK: <destino> | comercial | comercial-ID-VENDEDOR]]`, `ID-VENDEDOR` é o identificador de quem atende).
+**Formato das mensagens:** curtas, uma linha em branco entre as linhas, sempre "para", link em linha própria, sempre no token do mapa de links (destino, canal `comercial` e ID `comercial-ID-VENDEDOR`, em que `ID-VENDEDOR` é o identificador de quem atende).
 
 **Qual checkout.** S1 usa `checkout S1-...`, S2 usa `checkout S2-...` e S3 usa `checkout S3-...`. Nos blocos abaixo o token está no Primeiro Lote (`-1L`), o lote das conversas de 04/11 em diante, enquanto o Lote Especial for só da noite da live `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. Se o Lote Especial durar mais, trocar por `-ESP`; na virada de lote, por `-UL` (`[[PENDENTE: data do lote]]`).
 
@@ -528,9 +528,9 @@ Me fala a forma que você prefere, {{nome}}, e eu te acompanho até o fim do pag
 O link do seu lote está aqui:
 
 [[LINK: checkout S3-1L | comercial | comercial-ID-VENDEDOR]]
+```
 
 Para S1 (alunas), o token passa a `[[LINK: checkout S1-1L | comercial | comercial-ID-VENDEDOR]]`; para S2, a `[[LINK: checkout S2-1L | comercial | comercial-ID-VENDEDOR]]`.
-```
 
 ---
 

@@ -1,3 +1,5 @@
+> BANCO DE RESERVA para os textos de descrição e de boas-vindas (seções 2 e 3). Os textos canônicos são `13_modelo_dr_joao/wpp_descricao_do_grupo.md` (desc-geral) e `13_modelo_dr_joao/wpp_grupo_cheio.md` (gc-alunas e gc-viveu). Este arquivo continua sendo a fonte do nome e da capa de cada estado do grupo (seção 1) e das versões alternativas para teste.
+
 # Grupos de WhatsApp: nome, capa, descrição, boas-vindas e grupo cheio
 
 | Campo | Conteúdo |
@@ -12,7 +14,7 @@
 
 **O que mudou em relação ao Desafio.** O Desafio tinha 5 noites e um ingresso de valor baixo, então a descrição listava as noites. A Black tem uma live única e uma oferta revelada nela. A descrição, portanto, lista (1) a data e o formato da live, (2) o que a pessoa recebe no grupo até lá e (3) o diagnóstico dos 5 padrões como porta de entrada. Nenhum preço aparece antes da live.
 
-**Tokens de ferramenta usados abaixo:** `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: lembrete da live no YouTube]]`, `[[LINK: página de reserva da live]]`, `[[LINK: grupo geral]]` etc. Troque por busca.
+**Links:** cada texto das seções 2 e 3 tem um ID próprio (desc-geral, desc-alunas, desc-viveu, bv-geral, bv-alunas, bv-viveu, bv-curta) e traz tokens no formato `destino | canal | ID`, com o canal `wpp`. Nas descrições, que são campo de configuração, há mais de um token; o principal é sempre o lembrete da live (ver "Links desta peça").
 
 ---
 
@@ -24,7 +26,7 @@ Regras: o nome cabe no topo do celular (curto). A capa tem no máximo duas linha
 
 | Estado | Quando troca | Nome do grupo | Texto da capa (linha 1 / linha 2 / rodapé pequeno) |
 |---|---|---|---|
-| **Captação** | 13/10, janela de 11h15 a 11h25, antes do CP-BF-01 | Black Próton Vitalícia: Grupo Oficial | `A ÚLTIMA VEZ QUE VOCÊ VAI PRECISAR RECOMEÇAR` / `Live de revelação: 03/11, 20h` / `Reserve seu lugar no link da descrição` |
+| **Captação** | 13/10, janela de 09h15 a 09h25, antes da primeira mensagem do grupo (cp-00a, 09h30) | Black Próton Vitalícia: Grupo Oficial | `A ÚLTIMA VEZ QUE VOCÊ VAI PRECISAR RECOMEÇAR` / `Live de revelação: 03/11, 20h` / `Reserve seu lugar no link da descrição` |
 | **Dia da live, antes de começar** | 03/11, janela de 05h45 a 05h55, antes do CP-BF-64 | Black Próton Vitalícia: É HOJE, 20h | `É HOJE ÀS 20H` / `Live de revelação da Black Próton Vitalícia` / `Ative o lembrete` |
 | **Ao vivo** | 03/11, janela de 19h30 a 19h45 (15 min, duas pessoas), antes do CP-BF-72. Não há troca às 19h59 nem às 20h | 🔴 AO VIVO HOJE, 20H: Black Próton Vitalícia | `AO VIVO HOJE ÀS 20H` / `Entre pelo link do grupo` / `[[FOTO DRA]]` |
 | **Carrinho aberto** | 03/11, janela de 21h35 a 21h50 (15 min), depois de o CP-BF-76 sair com o link do checkout aberto (previsto 21h28). Condição de uso do Lote Especial `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` | 🔓 Carrinho Aberto: Black Próton Vitalícia | `CARRINHO ABERTO` / `Black Próton Vitalícia` / `Condição do Lote Especial no link do grupo` |

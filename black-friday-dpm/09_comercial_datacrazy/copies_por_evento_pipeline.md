@@ -17,10 +17,10 @@
 
 1. **Mensagem curta**, quebrada em linhas, **uma linha em branco entre cada linha**. Nada de parágrafo de e-mail.
 2. **Sempre "para".** Negrito com um asterisco de cada lado (`*assim*`).
-3. **Link em linha própria, separado do CTA.** Um link só por mensagem, sempre no token do mapa de links (`[[LINK: <destino> | comercial | comercial-ID-VENDEDOR]]`). O código Pix e o boleto da própria pessoa (`{{codigo_pix}}`, `{{link_boleto}}`) vêm do evento do checkout e não são destino do mapa.
+3. **Link em linha própria, separado do CTA.** Um link só por mensagem, sempre no token do mapa de links (destino, canal `comercial` e ID `comercial-ID-VENDEDOR`, nessa ordem, no formato do mapa). O código Pix e o boleto da própria pessoa (`{{codigo_pix}}`, `{{link_boleto}}`) vêm do evento do checkout e não são destino do mapa.
 4. **Resposta dela interrompe a régua e cai para humano.** Quem pede para parar ("sair", "parar", "agora não") sai na hora, com uma única confirmação de remoção e nenhuma mensagem depois.
 5. **Dois toques por evento e para.** Depois do toque 2, registrar e encerrar. Nada de terceiro toque e nenhuma mensagem que insista depois do toque 2 sem resposta.
-6. **Sempre o checkout do lote e do segmento dela:** é ele que credita a venda. S1 usa o token `checkout S1-...`; S2, `checkout S2-...`; S3, `checkout S3-...` (S2 paga como não-aluna até decisão contrária `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão]]`). Nos blocos abaixo o token está no Lote Especial (`-ESP`), o lote da noite da live, que é quando nascem os eventos; se o evento nascer depois da virada, o time troca `-ESP` por `-1L` e depois por `-UL`, conforme `[[PENDENTE: data do lote]]`.
+6. **Sempre o checkout do lote e do segmento dela:** é ele que credita a venda. S1 usa o token `checkout S1-...`; S2, `checkout S2-...`; S3, `checkout S3-...` (S2 paga como não-aluna até decisão contrária `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão]]`). Nos blocos abaixo o token está no Lote Especial (`-ESP`) `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`, o lote da noite da live, que é quando nascem os eventos; se o evento nascer depois da virada, o time troca `-ESP` por `-1L` e depois por `-UL`, conforme `[[PENDENTE: data do lote]]`.
 7. **Nunca prometa ganho financeiro, tratamento ou fim da autossabotagem.** Nunca cite valor antes da live. Nenhuma fórmula de vagas contadas ou de fim iminente. Escassez só por lote real: "esta condição não se repete".
 8. **Rodapé de saída (R):** toda mensagem disparada por automação, sem humano, termina com a linha *Digite SAIR se não quiser mais receber mensagens.* Mensagem escrita por humano em conversa aberta não leva o rodapé.
 9. **Gênero.** As mensagens estão no feminino (79% da base). Para os 21% de homens, o time troca antes de enviar quando o nome indicar. `[[CONFIRMAR: campo de gênero no CRM]]`.
@@ -32,7 +32,7 @@
 
 **Variáveis.** `{{nome}}` primeiro nome. `{{codigo_pix}}` copia e cola do Pix gerado pela própria pessoa. `{{link_boleto}}` boleto gerado pela própria pessoa. `{{lote}}` lote vigente. `{{data_lote}}` data de virada do lote vigente. `{{data_vencimento}}` dia e hora do vencimento do Pix (por exemplo, 05/11, às 21h30). `{{motivo}}` motivo registrado de recusa ou reembolso. `{{solucao}}` solução curta registrada no CRM. Os links de checkout, live, diagnóstico, onboarding e suporte não são variáveis: entram como token do mapa (tabela abaixo).
 
-**Os links da operação (todos ainda a criar).** Todos no formato `[[LINK: <destino> | comercial | comercial-ID-VENDEDOR]]`, em que `ID-VENDEDOR` é o identificador de quem atende `[[CONFIRMAR: lista de IDs de vendedor]]`.
+**Os links da operação (todos ainda a criar).** Todos no formato do mapa (destino, canal `comercial`, ID `comercial-ID-VENDEDOR`), em que `ID-VENDEDOR` é o identificador de quem atende `[[CONFIRMAR: lista de IDs de vendedor]]`.
 
 | O que é | Token usado nesta peça |
 |---|---|
@@ -267,7 +267,7 @@ Digite SAIR se não quiser mais receber mensagens.
 
 ## E4. COMPRA RECUSADA
 
-**A maior conversão de toda a base**, porque a pessoa quis pagar e o banco barrou. Muitas nem sabem. É o primeiro segmento a abordar na noite da live. Se possível, **atendimento humano** em vez de automático.
+**Costuma ser a maior conversão da base (dado medido do Desafio)**, porque a pessoa quis pagar e o banco barrou. Muitas nem sabem. É o primeiro segmento a abordar na noite da live. Se possível, **atendimento humano** em vez de automático.
 
 ### Toque 1. Até 10 minutos depois da recusa (humano, sem rodapé; se for automático, leva o rodapé de saída)
 
@@ -482,9 +482,9 @@ Segmento S1. Mesma estrutura, outra conversa. Aqui a pessoa já está dentro e j
 ```
 {{nome}}, sua reserva na live de 03/11, às 20h, está confirmada.
 
-Como aluna do Clube, você tem uma condição só sua, e a Dra. conta tudo ao vivo.
+Como aluna do Clube, você já fez o caminho até aqui.
 
-O que você mais espera ouvir nessa noite?
+O que você mais espera ouvir da Dra. nessa noite?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -731,7 +731,7 @@ Como você já é aluna do Clube, existe uma condição só sua.
 Posso te ajudar a acertar isso para você não pagar a mais?
 ```
 
-### Toque 2. No mesmo dia ou no dia seguinte
+### Toque 2. No mesmo dia ou no dia seguinte (humano, sem rodapé)
 
 ```
 {{nome}}, para acertar, eu preciso de uma coisa só: me confirma que o seu pedido foi feito com o e-mail do Clube.
@@ -755,7 +755,7 @@ Evento: upgrade aprovado e plano atual com cobrança futura. **Mensagem de cuida
 Quero que você não seja cobrada duas vezes. Posso te explicar o seu caso?
 ```
 
-### Toque 2. 72 horas depois, se não respondeu
+### Toque 2. 72 horas depois, se não respondeu (humano, sem rodapé)
 
 ```
 {{nome}}, só para fechar o assunto do plano atual.

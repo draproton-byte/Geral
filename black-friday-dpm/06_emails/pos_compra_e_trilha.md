@@ -11,7 +11,7 @@
 | Trabalho contratado | "Parar de ter que decidir de novo." Aqui o trabalho é transformar a decisão em primeiro passo |
 | Modelo no Desafio | Manual do participante (páginas "Etapas para viver o Desafio na prática" e "Tudo o que está incluso") e e-mails de onboarding (grupo, diagnóstico, data). O Desafio tinha 5 noites; a Black tem 11 produtos, então a "etapa" é uma trilha. Também a promessa do Clube: "reprogramações de 20 minutos" como primeiro passo |
 
-**Variável.** `{{nome}}`. **Links.** Cada e-mail traz um token em linha própria, abaixo do botão, no formato `[[LINK: <destino> | email | <ID>]]`: `onboarding` (D0, D1 e D2; a página de boas-vindas leva à Área de Membros e à trilha), `suporte WhatsApp` (D3), `depoimento` (D7 e D21) e `lista de espera` (D14, `[[CONFIRMAR: destino do convite de indicação; o mapa de links só tem a lista de espera para quem chega depois]]`).
+**Variável.** `{{nome}}`. **Links.** Cada e-mail traz um token em linha própria, abaixo do botão, no formato (destino, canal e ID do e-mail): `onboarding` (D0, D1 e D2; a página de boas-vindas leva à Área de Membros e à trilha), `suporte WhatsApp` (D3), `depoimento` (D7 e D21) e `lista de espera` (D14, `[[CONFIRMAR: destino do convite de indicação; o mapa de links só tem a lista de espera para quem chega depois]]`).
 
 **Um botão por e-mail.** O link sempre vem com o endereço visível abaixo do botão.
 

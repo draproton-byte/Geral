@@ -46,7 +46,7 @@ São 11 datas e 14 envios segmentados (8 de S1 e 6 de S2). Quem já se inscreveu
 
 **Gênero.** O público é misto (79% mulheres, 21% homens) e parte dele é base fria. O texto da série usa construções neutras ("você", "quem"); o feminino fica para as peças de quem já comprou.
 
-**Links.** Cada e-mail tem um único link principal, no token abaixo do botão, no formato `[[LINK: <destino> | email | <ID do e-mail>]]`. `[BOTÃO 1]` = `captura A`, `[BOTÃO 2]` = `grupo geral`, `[BOTÃO 3]` = `diagnóstico`. O sistema escolhe o botão pelo estado do contato e cada pessoa vê só um; o token do botão alternativo vem na tabela "Links desta peça", no fim do arquivo. Nas datas em que S1 ou S2 recebem esta série (sem exclusão), a ferramenta troca `captura A` por `captura C` (S1) ou `captura D` (S2) e `grupo geral` por `grupo alunas` ou `grupo viveu o método`, mantendo o mesmo ID. A UTM é montada pela fórmula do `16_MAPA_DE_LINKS.md`, seção 3. Assinatura padrão: "Dra. Próton".
+**Links.** Cada e-mail tem um único link principal, no token abaixo do botão, no formato (destino, canal e ID do e-mail, por exemplo [[LINK: captura A | email | em-bf-01]]). `[BOTÃO 1]` = `captura A`, `[BOTÃO 2]` = `grupo geral`, `[BOTÃO 3]` = `diagnóstico`. O sistema escolhe o botão pelo estado do contato e cada pessoa vê só um; o token do botão alternativo vem na tabela "Links desta peça", no fim do arquivo. Nas datas em que S1 ou S2 recebem esta série (sem exclusão), a ferramenta troca `captura A` por `captura C` (S1) ou `captura D` (S2) e `grupo geral` por `grupo alunas` ou `grupo viveu o método`, mantendo o mesmo ID. A UTM é montada pela fórmula do `16_MAPA_DE_LINKS.md`, seção 3. Assinatura padrão: "Dra. Próton".
 
 ---
 
@@ -110,7 +110,7 @@ No dia 03/11, às 20h, eu faço uma live no YouTube para abrir, de uma vez só, 
 Até lá, o primeiro passo é saber qual padrão é o seu. São cinco, e leva poucos minutos para descobrir.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO DOS 5 PADRÕES
-`[[LINK: diagnóstico | email | EM-BF-01]]`
+[[LINK: diagnóstico | email | em-bf-01]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -136,7 +136,7 @@ Pense num termostato de casa: você pode esquentar o ambiente, mas, se a tempera
 Esse é um dos 5 padrões que eu trabalho na live do dia 03/11, às 20h. Descubra se é o seu.
 
 **Botão 3:** DESCOBRIR MEU PADRÃO
-`[[LINK: diagnóstico | email | EM-BF-02]]`
+[[LINK: diagnóstico | email | em-bf-02]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -162,7 +162,7 @@ Eu acompanho milhares de alunos e vejo isto se repetir: força de vontade, sozin
 Na live de 03/11, às 20h, eu mostro ao vivo como parar de depender da decisão do dia.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-03]]`
+[[LINK: captura A | email | em-bf-03]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -186,7 +186,7 @@ O efeito é perverso. Quanto mais você se cobra, mais cansaço. Quanto mais can
 Se você se viu aqui, o diagnóstico mostra se esse é o seu padrão principal. E na live do dia 03/11, às 20h, eu abro uma forma de sair desse ciclo sem depender de mais disciplina.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO
-`[[LINK: diagnóstico | email | EM-BF-04]]`
+[[LINK: diagnóstico | email | em-bf-04]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -212,7 +212,7 @@ Eu cresci na periferia do interior de São Paulo, criada pelos meus avós. Sei c
 Esse padrão tem saída, e eu mostro como ela aparece na prática na live de 03/11, às 20h.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-05]]`
+[[LINK: captura A | email | em-bf-05]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -238,7 +238,7 @@ A culpa é o freio mais bem disfarçado que existe. Ela se veste de humildade, d
 Querer mais não tira nada de ninguém. Na live de 03/11, às 20h, eu falo disso sem rodeio.
 
 **Botão 3:** DESCOBRIR SE ESSE É O MEU PADRÃO
-`[[LINK: diagnóstico | email | EM-BF-06]]`
+[[LINK: diagnóstico | email | em-bf-06]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -264,7 +264,7 @@ E o que muda depois? Você para de lutar contra tudo ao mesmo tempo e começa a 
 Na live de 03/11, às 20h, eu parto desse diagnóstico para te mostrar o que construí.
 
 **Botão 3:** FAZER MEU DIAGNÓSTICO AGORA
-`[[LINK: diagnóstico | email | EM-BF-07]]`
+[[LINK: diagnóstico | email | em-bf-07]]
 
 Dra. Próton
 
@@ -295,7 +295,7 @@ Quem cansou de recomeçar não precisa virar outra pessoa. Precisa de um caminho
 É isso que eu abro no dia 03/11, às 20h, ao vivo.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-08]]`
+[[LINK: captura A | email | em-bf-08]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -321,7 +321,7 @@ Por isso o que eu construí não depende só de disciplina: a ideia é ter prát
 Assistir à live não custa nada. Eu mostro como isso está montado no dia 03/11, às 20h, e você decide depois de ver.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-09]]`
+[[LINK: captura A | email | em-bf-09]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -347,7 +347,7 @@ O que muda não é mágica. É aparecer, ao vivo, e ter um método que continua 
 Na live do dia 03/11, às 20h, você vê o que eu montei para quem quer ficar de vez.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-10]]`
+[[LINK: captura A | email | em-bf-10]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -371,7 +371,7 @@ Então, quando desenhei a oferta, tirei o prazo. Acesso vitalício, sem relógio
 Para não virar o "comprei e não usei", existe uma trilha de entrada: um primeiro passo, claro, nas primeiras 48 horas. Eu mostro como funciona na live de 03/11, às 20h.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-11]]`
+[[LINK: captura A | email | em-bf-11]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -399,7 +399,7 @@ O que eu não vou fazer é te empurrar. Quero que você decida com todas as info
 Se você já quer ouvir tudo, é só confirmar a sua presença.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-12]]`
+[[LINK: captura A | email | em-bf-12]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -425,7 +425,7 @@ Mas o título que mais me importa é outro: eu transformei dor em método.
 Tudo o que eu abro na live do dia 03/11 vem desse caminho. Não é teoria.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-13]]`
+[[LINK: captura A | email | em-bf-13]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -451,7 +451,7 @@ E existe uma conta que quase ninguém faz: quanto custa ficar mais um ano exatam
 Não é para você se endividar. É para decidir com todas as informações na mão.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-14]]`
+[[LINK: captura A | email | em-bf-14]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -477,7 +477,7 @@ Quem já esteve comigo nas noites ao vivo sabe: quando a prática acontece junto
 Eu mostro essa trilha na tela, na live do dia 03/11, às 20h.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-15]]`
+[[LINK: captura A | email | em-bf-15]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -507,7 +507,7 @@ A decisão que eu abro no dia 03/11 foi desenhada para tirar o prazo e tirar a d
 Se você já sabe que quer estar lá, entre no grupo, que é por onde o link chega.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-`[[LINK: grupo geral | email | EM-BF-16]]`
+[[LINK: grupo geral | email | em-bf-16]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -537,7 +537,7 @@ Para quem já se prometeu muitas vezes que ia ser diferente e quer uma decisão 
 Se você se enxergou nesse segundo grupo, venha. Dia 03/11, às 20h, ao vivo. Eu mostro tudo, e você decide com calma.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-`[[LINK: grupo geral | email | EM-BF-17]]`
+[[LINK: grupo geral | email | em-bf-17]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -561,7 +561,7 @@ Se você é de quem cuida de todo mundo e deixa a si por último, eu proponho um
 No dia 03/11, às 20h, eu abro o que construí para você poder ficar de vez nesse caminho. Se a decisão envolve conversar em casa, avise antes. A condição é revelada ali, na live.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-`[[LINK: grupo geral | email | EM-BF-18]]`
+[[LINK: grupo geral | email | em-bf-18]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -589,7 +589,7 @@ O protocolo continua sendo o que sempre foi: 21 dias por ciclo, 12 ciclos por an
 Dia 03/11, às 20h, ao vivo.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-`[[LINK: grupo geral | email | EM-BF-19]]`
+[[LINK: grupo geral | email | em-bf-19]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -616,7 +616,7 @@ Eu não quero que você decida por impulso. Quero que decida por clareza.
 Qualquer dúvida de acesso, é só responder este e-mail.
 
 **Botão 2:** ENTRAR NO GRUPO DA LIVE
-`[[LINK: grupo geral | email | EM-BF-20]]`
+[[LINK: grupo geral | email | em-bf-20]]
 [Alternativo: **Botão 1** QUERO ASSISTIR À LIVE]
 
 Dra. Próton
@@ -644,7 +644,7 @@ A última vez que você vai precisar recomeçar.
 Deixe o horário livre amanhã. Para receber o link, basta confirmar a sua presença.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-21]]`
+[[LINK: captura A | email | em-bf-21]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Dra. Próton
@@ -670,7 +670,7 @@ E lembre: eu prefiro que você não compre do que compre e não viva. Venha ouvi
 Se ainda não se inscreveu, leva um minuto, e o link da live chega para você.
 
 **Botão 1:** QUERO ASSISTIR À LIVE
-`[[LINK: captura A | email | EM-BF-22]]`
+[[LINK: captura A | email | em-bf-22]]
 [Alternativo: **Botão 2** ENTRAR NO GRUPO DA LIVE]
 
 Até às 20h,
@@ -694,25 +694,25 @@ Dra. Próton
 
 | ID da peça | Token principal (botão) | O que o link faz | Token alternativo (por estado do contato) | Quem cria |
 |---|---|---|---|---|
-| EM-BF-01 | `[[LINK: diagnóstico | email | EM-BF-01]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: captura A | email | EM-BF-01]]` | Web designer |
-| EM-BF-02 | `[[LINK: diagnóstico | email | EM-BF-02]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: grupo geral | email | EM-BF-02]]` | Web designer |
-| EM-BF-03 | `[[LINK: captura A | email | EM-BF-03]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-03]]` | Web designer |
-| EM-BF-04 | `[[LINK: diagnóstico | email | EM-BF-04]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: captura A | email | EM-BF-04]]` | Web designer |
-| EM-BF-05 | `[[LINK: captura A | email | EM-BF-05]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-05]]` | Web designer |
-| EM-BF-06 | `[[LINK: diagnóstico | email | EM-BF-06]]` | Leva ao diagnóstico dos 5 padrões | `[[LINK: grupo geral | email | EM-BF-06]]` | Web designer |
-| EM-BF-07 | `[[LINK: diagnóstico | email | EM-BF-07]]` | Leva ao diagnóstico dos 5 padrões | nenhum | Web designer |
-| EM-BF-08 | `[[LINK: captura A | email | EM-BF-08]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-08]]` | Web designer |
-| EM-BF-09 | `[[LINK: captura A | email | EM-BF-09]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-09]]` | Web designer |
-| EM-BF-10 | `[[LINK: captura A | email | EM-BF-10]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-10]]` | Web designer |
-| EM-BF-11 | `[[LINK: captura A | email | EM-BF-11]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-11]]` | Web designer |
-| EM-BF-12 | `[[LINK: captura A | email | EM-BF-12]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-12]]` | Web designer |
-| EM-BF-13 | `[[LINK: captura A | email | EM-BF-13]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-13]]` | Web designer |
-| EM-BF-14 | `[[LINK: captura A | email | EM-BF-14]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-14]]` | Web designer |
-| EM-BF-15 | `[[LINK: captura A | email | EM-BF-15]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-15]]` | Web designer |
-| EM-BF-16 | `[[LINK: grupo geral | email | EM-BF-16]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-16]]` | Automação |
-| EM-BF-17 | `[[LINK: grupo geral | email | EM-BF-17]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-17]]` | Automação |
-| EM-BF-18 | `[[LINK: grupo geral | email | EM-BF-18]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-18]]` | Automação |
-| EM-BF-19 | `[[LINK: grupo geral | email | EM-BF-19]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-19]]` | Automação |
-| EM-BF-20 | `[[LINK: grupo geral | email | EM-BF-20]]` | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | `[[LINK: captura A | email | EM-BF-20]]` | Automação |
-| EM-BF-21 | `[[LINK: captura A | email | EM-BF-21]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-21]]` | Web designer |
-| EM-BF-22 | `[[LINK: captura A | email | EM-BF-22]]` | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | `[[LINK: grupo geral | email | EM-BF-22]]` | Web designer |
+| EM-BF-01 | [[LINK: diagnóstico | email | em-bf-01]] | Leva ao diagnóstico dos 5 padrões | [[LINK: captura A | email | em-bf-01]] | Web designer |
+| EM-BF-02 | [[LINK: diagnóstico | email | em-bf-02]] | Leva ao diagnóstico dos 5 padrões | [[LINK: grupo geral | email | em-bf-02]] | Web designer |
+| EM-BF-03 | [[LINK: captura A | email | em-bf-03]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-03]] | Web designer |
+| EM-BF-04 | [[LINK: diagnóstico | email | em-bf-04]] | Leva ao diagnóstico dos 5 padrões | [[LINK: captura A | email | em-bf-04]] | Web designer |
+| EM-BF-05 | [[LINK: captura A | email | em-bf-05]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-05]] | Web designer |
+| EM-BF-06 | [[LINK: diagnóstico | email | em-bf-06]] | Leva ao diagnóstico dos 5 padrões | [[LINK: grupo geral | email | em-bf-06]] | Web designer |
+| EM-BF-07 | [[LINK: diagnóstico | email | em-bf-07]] | Leva ao diagnóstico dos 5 padrões | nenhum | Web designer |
+| EM-BF-08 | [[LINK: captura A | email | em-bf-08]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-08]] | Web designer |
+| EM-BF-09 | [[LINK: captura A | email | em-bf-09]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-09]] | Web designer |
+| EM-BF-10 | [[LINK: captura A | email | em-bf-10]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-10]] | Web designer |
+| EM-BF-11 | [[LINK: captura A | email | em-bf-11]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-11]] | Web designer |
+| EM-BF-12 | [[LINK: captura A | email | em-bf-12]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-12]] | Web designer |
+| EM-BF-13 | [[LINK: captura A | email | em-bf-13]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-13]] | Web designer |
+| EM-BF-14 | [[LINK: captura A | email | em-bf-14]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-14]] | Web designer |
+| EM-BF-15 | [[LINK: captura A | email | em-bf-15]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-15]] | Web designer |
+| EM-BF-16 | [[LINK: grupo geral | email | em-bf-16]] | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | [[LINK: captura A | email | em-bf-16]] | Automação |
+| EM-BF-17 | [[LINK: grupo geral | email | em-bf-17]] | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | [[LINK: captura A | email | em-bf-17]] | Automação |
+| EM-BF-18 | [[LINK: grupo geral | email | em-bf-18]] | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | [[LINK: captura A | email | em-bf-18]] | Automação |
+| EM-BF-19 | [[LINK: grupo geral | email | em-bf-19]] | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | [[LINK: captura A | email | em-bf-19]] | Automação |
+| EM-BF-20 | [[LINK: grupo geral | email | em-bf-20]] | Abre o convite do grupo de WhatsApp da live (rodízio SendFlow) para inscrito que não entrou no grupo | [[LINK: captura A | email | em-bf-20]] | Automação |
+| EM-BF-21 | [[LINK: captura A | email | em-bf-21]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-21]] | Web designer |
+| EM-BF-22 | [[LINK: captura A | email | em-bf-22]] | Leva à página de captura A (diagnóstico acima da dobra) para quem ainda não se inscreveu na live | [[LINK: grupo geral | email | em-bf-22]] | Web designer |

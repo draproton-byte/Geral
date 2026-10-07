@@ -31,7 +31,7 @@
 
 **Arte.** Nome da participante (campo variável), "Black Próton Vitalícia", "Live de Revelação", data, carga horária e assinatura da Dra. Próton. Sem logotipo de produto de terceiros.
 
-**E-mail de entrega do certificado** (curto):
+**E-mail de entrega do certificado, CT-01** (curto; o certificado vai em PDF anexo, sem link, porque o mapa de links não tem destino "certificado"; se a equipe preferir link, criar o destino e trocar o anexo pelo token):
 
 **Assunto:** {{nome}}, seu certificado de participação está aqui
 **Preview:** Você esteve na live de revelação. Baixe o seu
@@ -40,10 +40,7 @@
 
 Obrigada por ter estado comigo na live de revelação da Black Próton Vitalícia, no dia 03/11.
 
-Seu certificado de participação está pronto:
-
-**Botão:** BAIXAR MEU CERTIFICADO
-`[[LINK: certificado]]`
+Seu certificado de participação está em anexo, em PDF. Guarde o arquivo e, se não conseguir abrir, responda este e-mail que a equipe ajuda.
 
 `[[CONFIRMAR: critério de emissão, por exemplo tempo mínimo de visualização ao vivo]]`
 
@@ -66,7 +63,7 @@ Dra. Próton
 
 Dra. Próton é fundadora de uma comunidade de transformação pessoal e prosperidade com mais de 70 mil alunos em 44 países e 1,4 milhão de seguidores. `[[CONFIRMAR: superlativo, se a equipe quiser "uma das maiores comunidades"]]`
 
-Ela não é só uma terapeuta. Ela é o resultado de tudo o que precisou atravessar sozinha. Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo, trabalhou em telemarketing, vendeu cartão, foi camelô, até quase perder a vida. Foi esse ponto de virada que a levou a estudar neurociência, física quântica, espiritualidade, hipnose e reprogramação mental.
+Ela não é só uma terapeuta. Ela é o resultado de tudo o que precisou atravessar sozinha. Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo, trabalhou em telemarketing, vendeu cartão e foi camelô. Depois, estudou.
 
 Formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL. Doutora Honoris Causa em Neurociência pela Academia Mundial de Letras.
 
@@ -84,7 +81,8 @@ Comece pelo pouco e continue. É melhor do que começar por tudo e parar. **Não
 
 ### Página 3. Sua jornada já começou
 
-O primeiro passo é você saber qual padrão mais te segura. Faça o seu diagnóstico, se ainda não fez: `[[LINK: diagnóstico dos 5 padrões]]`
+O primeiro passo é você saber qual padrão mais te segura. Faça o seu diagnóstico, se ainda não fez:
+[[LINK: diagnóstico | email | man-01]]
 
 Os cinco padrões: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem e Culpa de Querer Mais.
 
@@ -125,11 +123,17 @@ Na tabela, a coluna "Para que serve" resume o que cada produto faz **na sua tril
 
 ### Página 6. Etapas para viver a trilha na prática
 
-1. **Etapa 1.** Acesse a Área de Membros e assista ao vídeo de boas-vindas. `{{link_area_membros}}`
-2. **Etapa 2.** Entre no grupo e salve o suporte. `{{link_suporte}}`
-3. **Etapa 3.** Faça o seu diagnóstico dos 5 padrões. `[[LINK: diagnóstico]]`
+1. **Etapa 1.** Acesse a Área de Membros e assista ao vídeo de boas-vindas.
+   [[LINK: onboarding | email | man-01]]
+2. **Etapa 2.** Entre no grupo da Vitalícia.
+   [[LINK: grupo vitalícia | email | man-01]]
+   E salve o suporte:
+   [[LINK: suporte WhatsApp | email | man-01]]
+3. **Etapa 3.** Faça o seu diagnóstico dos 5 padrões.
+   [[LINK: diagnóstico | email | man-01]]
 4. **Etapa 4.** Em até 48 horas, faça o primeiro passo da trilha. Só um. Marque na agenda.
-5. **Etapa 5.** Depois de 7 dias, conte como foi. `{{link_formulario_depoimento}}`
+5. **Etapa 5.** Depois de 7 dias, conte como foi.
+   [[LINK: depoimento | email | man-01]]
 
 ### Página 7. Tudo o que está incluso
 
@@ -160,7 +164,10 @@ Na tabela, a coluna "Para que serve" resume o que cada produto faz **na sua tril
 
 ### Página 9. Suporte
 
-Está com dúvidas? Chame no suporte: `{{link_suporte}}`. Instagram: @dra.proton.
+Está com dúvidas? Chame no suporte:
+[[LINK: suporte WhatsApp | email | man-01]]
+
+Instagram: `[[CONFIRMAR: perfil oficial do Instagram]]`.
 
 "Quem não está crescendo está morrendo." Cresça no seu ritmo.
 
@@ -232,7 +239,7 @@ Te vejo dentro. Um abraço, Dra. Próton
 ### NP-01. Compradoras (D10)
 
 **Assunto:** Como foi a sua decisão de entrar, {{nome}}?
-**Preview:** 2 minutos. A equipe lê as respostas
+**Preview:** 2 minutos, para melhorar a trilha de quem vem depois
 
 {{nome}},
 
@@ -243,7 +250,7 @@ Você entrou na Black Próton Vitalícia faz alguns dias. Eu quero saber como es
 São 9 perguntas curtas e leva 2 minutos.
 
 **Botão:** RESPONDER AGORA
-{{link_nps}}
+[[LINK: NPS | email | np-01]]
 
 Se você teve alguma dificuldade, conte no campo aberto. Sua resposta me ajuda a ajustar a trilha.
 
@@ -263,7 +270,7 @@ O que pesou na sua decisão? Pode ser qualquer motivo, inclusive um que a gente 
 São 5 perguntas, e a sua resposta é tratada com cuidado.
 
 **Botão:** RESPONDER AGORA
-`[[LINK: NPS versão B]]`
+[[LINK: NPS | email | np-02]]
 
 Obrigada por ter ficado até aqui.
 
@@ -276,8 +283,22 @@ Dra. Próton
 1. **Quem emite o certificado.** Definir o critério (assistiu ao vivo, assistiu parte, comprou). A estratégia diz que o replay `[[PENDENTE: replay]]` ainda não está decidido; sem replay, o critério "presença na transmissão" é o único objetivo.
 2. **Carga horária.** O roteiro prevê 15 minutos de sala aberta e 116 minutos de transmissão oficial. A carga horária da arte é o número validado pelo jurídico em conjunto com o critério de presença, nunca um número arredondado e nunca as "10h" do Desafio.
 3. **Manual.** O PDF só pode ser fechado depois que a trilha e as descrições de produto existirem. Sem elas, publicar a versão curta (capa, páginas 1, 2, 3, 6, 7, 8, 9), com a página 4 em branco marcada "em atualização".
-4. **PC-D21 e NP-01.** O link de NPS de PC-D21 deve ir só para quem não respondeu ao NP-01.
+4. **PC-D21 e NP-01.** PC-D21 coleta depoimento (token `depoimento`) e não leva ao NPS; o NPS das compradoras é só o NP-01, no D10.
 5. **Teste A/B.** NP-01: assunto "Como foi a sua decisão de entrar?" contra "Como foram seus primeiros dias?" (os dois neutros). NP-02: com e sem a pergunta "quer receber um aviso se houver outra oportunidade".
 6. **Dados pessoais.** Nenhuma resposta do formulário deve ser publicada com nome. Frase de depoimento só com autorização do campo 9.
 7. **Onde o Desafio tinha peça e a Black precisa de duas.** O NPS do Desafio era um só ("O que faltou para você andar comigo por 365 dias?"). A Black separa quem comprou de quem não comprou, porque as perguntas e as ações são diferentes.
-8. **Marcas.** Nenhum material usa o nome ou o logotipo de produtos de terceiros da BFV/26 de referência.
+8. **Links.** Todos os links do manual usam o ID `man-01` (um PDF, vários destinos) e o canal `email`; a tabela "Links desta peça" lista cada um. O destino `NPS` (formulário A e B) não existe na seção 1 de `16_MAPA_DE_LINKS.md`: pedir ao dono do mapa para incluí-lo (Marketing cria). O certificado vai anexo, sem link.
+9. **Marcas.** Nenhum material usa o nome ou o logotipo de produtos de terceiros da BFV/26 de referência.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| CT-01 | nenhum | Certificado em PDF anexo ao e-mail, sem link por desenho | Automação |
+| MAN-01 (página 3 e etapa 3) | [[LINK: diagnóstico | email | man-01]] | Diagnóstico dos 5 padrões | Web designer |
+| MAN-01 (etapa 1) | [[LINK: onboarding | email | man-01]] | Página de boas-vindas, com a Área de Membros | Web designer |
+| MAN-01 (etapa 2) | [[LINK: grupo vitalícia | email | man-01]] | Convite do grupo de WhatsApp da Vitalícia | Automação |
+| MAN-01 (etapa 2 e página 9) | [[LINK: suporte WhatsApp | email | man-01]] | Número oficial de suporte | Suporte |
+| MAN-01 (etapa 5) | [[LINK: depoimento | email | man-01]] | Formulário de depoimento e autorização | Marketing |
+| NP-01 | [[LINK: NPS | email | np-01]] | Formulário NPS versão A (compradoras). Destino ausente do mapa: ver nota 8 | Marketing |
+| NP-02 | [[LINK: NPS | email | np-02]] | Formulário NPS versão B (quem não comprou). Destino ausente do mapa: ver nota 8 | Marketing |

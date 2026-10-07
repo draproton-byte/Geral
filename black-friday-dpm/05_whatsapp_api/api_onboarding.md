@@ -1,3 +1,5 @@
+> BANCO DE RESERVA. A série canônica de onboarding por API é `13_modelo_dr_joao/api_onboarding.md` (api-onb-01 a 04, versão geral e versão alunas). Equivalência de gatilho: API-BF-01 = api-onb-01 (cadastro); API-BF-02 = api-onb-03 (reservou e não entrou no grupo); API-BF-03 = api-onb-04 (saiu do grupo); a api-onb-02 (entrou no grupo) não tem par aqui. Nunca disparar as duas séries para a mesma pessoa no mesmo gatilho: vale a canônica, e este arquivo serve para teste A/B e para a versão D (quem viveu o método, sem Clube), que a série canônica trata como geral.
+
 # API de onboarding: bem-vinda, não confirmou, "aconteceu alguma coisa?"
 
 | Campo | Conteúdo |
@@ -30,7 +32,7 @@ O esqueleto das três mensagens é o mesmo nos três segmentos. Só quatro bloco
 
 Tudo o mais (data, horário, "a condição é revelada ao vivo", rodapé, botão de saída) é igual.
 
-**Variáveis:** `{{nome}}`, `{{link_grupo}}` (um link de rodízio por segmento), `{{link_diagnostico}}`, `{{link_lembrete}}`.
+**Variável:** `{{nome}}`. Os links entram como token em cada botão: grupo (um link de rodízio por segmento: geral, alunas, quem viveu o método), obrigado e diagnóstico ou diagnóstico, e live YouTube.
 
 **Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" (componente de rodapé do template, 48 caracteres); botões escritos em maiúsculas (no máximo 3 por template); link nunca na mesma linha do CTA; nenhum template começa nem termina com variável.
 
@@ -258,11 +260,11 @@ Digite SAIR se não quiser mais receber mensagens
 ## Notas ao implementador
 
 **Pendências**
-1. Links (placeholders `[[LINK: grupo geral]]`, `[[LINK: diagnóstico dos 5 perfis]]` e `[[LINK: lembrete da live no YouTube]]`): três links de rodízio (geral, alunas, Desafio/Imersão), diagnóstico e lembrete da live. O botão "Entrar no grupo" precisa de UTM de origem `api`.
+1. Links: três links de rodízio (grupo geral, grupo alunas, grupo viveu o método), a página obrigado e diagnóstico, o diagnóstico e a live YouTube. O botão "Entrar no grupo" sai com UTM de origem `api` e o ID da mensagem (ver "Links desta peça").
 2. Segmentar na entrada: tag de aluna ativa do Clube (A), tag de comprador de Desafio/Imersão/Aulão sem Clube (D) e restante (N). Tamanho do segmento A: `[[CONFIRMAR: contagem de alunas do Clube]]`.
-3. `[[LINK: suporte WhatsApp]]`: usar o número oficial de suporte. Não usar telefone pessoal.
+3. Suporte WhatsApp: usar o número oficial de suporte (token suporte WhatsApp). Não usar telefone pessoal.
 4. Aprovação de template: o botão "Parar mensagens" e o rodapé de SAIR seguem o padrão do Desafio. O motivo do recebimento ("você reservou seu lugar") fica no consentimento da página de reserva e não no template, porque o rodapé da Meta aceita um só texto de até 60 caracteres e ele já é o SAIR.
-5. Confirmar `{{link_diagnostico}}`: a página de obrigado/pesquisa da Black ainda não existe (`03_paginas`).
+5. Confirmar o destino do diagnóstico: a página obrigado e diagnóstico da Black ainda não existe (`03_paginas`).
 
 **Testes A/B sugeridos**
 1. API-BF-01: com os dois botões (grupo e diagnóstico) contra só o botão do grupo. Medir taxa de entrada no grupo em 24 horas.
@@ -270,13 +272,17 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Aprovação de template (Meta)**
 
-| ID | Categoria sugerida | Botões | Variáveis | Status |
-|---|---|---|---|---|
-| API-BF-01-N, 01-A, 01-D | Utilidade (confirmação de reserva) `[[CONFIRMAR: a Meta pode reclassificar para marketing]]` | 2 (URL: ENTRAR NO GRUPO, FAZER O DIAGNÓSTICO ou ATIVAR LEMBRETE) | `{{nome}}`; URLs dos botões: `{{link_grupo}}`, `{{link_diagnostico}}`, `{{link_lembrete}}` | **PRECISA DE APROVAÇÃO** |
-| API-BF-02-N, 02-A, 02-D | Marketing | 2 (URL: ENTRAR NO GRUPO; resposta rápida: PARAR MENSAGENS) | `{{nome}}`, `{{link_grupo}}` | **PRECISA DE APROVAÇÃO** |
-| API-BF-03-N, 03-A, 03-D | Marketing | 2 (URL: VOLTAR PARA O GRUPO, FALAR COM O SUPORTE) | `{{nome}}`, `{{link_grupo}}` | **PRECISA DE APROVAÇÃO** |
+Estrutura de cada template: cabeçalho de texto (até 60 caracteres, sem variável e sem emoji), corpo (o bloco da peça, menos de 600 caracteres), rodapé SAIR (48 caracteres) e botões (no máximo 3; aqui são 2, de até 25 caracteres).
 
-Todos com rodapé SAIR (componente de rodapé), sem cabeçalho, sem preço, sem lote e sem escassez. Corpo com menos de 600 caracteres.
+| ID | Cabeçalho | Categoria sugerida | Botões | Variáveis | Status |
+|---|---|---|---|---|---|
+| API-BF-01-N | Reserva confirmada: live de 03/11, 20h | Utilidade (confirmação de reserva) `[[CONFIRMAR: a Meta pode reclassificar para marketing]]` | 2 (URL: ENTRAR NO GRUPO, FAZER O DIAGNÓSTICO) | `{{nome}}`; os URLs dos botões vêm dos tokens de link da peça | **PRECISA DE APROVAÇÃO** |
+| API-BF-01-A | Reserva confirmada: condição das alunas | Utilidade (confirmação de reserva) | 2 (URL: ENTRAR NO GRUPO, ATIVAR LEMBRETE) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-01-D | Reserva confirmada: live de 03/11, 20h | Utilidade (confirmação de reserva) | 2 (URL: ENTRAR NO GRUPO, FAZER O DIAGNÓSTICO) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-02-N, 02-A, 02-D | Falta um passo: entrar no grupo | Marketing | 2 (URL: ENTRAR NO GRUPO; resposta rápida: PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-03-N, 03-A, 03-D | Você saiu do grupo da Black | Marketing | 2 (URL: VOLTAR PARA O GRUPO, FALAR COM O SUPORTE) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+
+Todos com rodapé SAIR (componente de rodapé), sem preço, sem lote e sem escassez.
 
 **Dependências**
 - `grupos_descricao_e_grupo_cheio.md` (texto que a pessoa encontra ao clicar).

@@ -188,14 +188,14 @@ Modelo: capas de grupo do Desafio e a descrição de grupo. Formato: 1080 × 108
 - **Linha principal (N1):** **ESTOU AO VIVO**
 - **Texto secundário (N2):** Entre agora no YouTube
 - **Foto:** `[[FOTO DRA]]`
-- **Uso:** trocar a capa do grupo de captação às 19h59 do dia 03/11, junto com a troca de nome do grupo.
+- **Uso:** trocar a capa do grupo de captação na janela de 19h30 a 19h45 do dia 03/11, junto com a troca de nome do grupo (grade de `05_whatsapp_api/dia_da_live_03_11.md`).
 - Link de destino: [[LINK: live YouTube | wpp | ART-WPP-02]]
 
 ### ART-WPP-03 | Grupo de acesso aberto
 - **Linha principal (N1):** **ACESSO ABERTO**
 - **Texto secundário (N2):** Acesso vitalício ao Clube Secreto + 11 produtos · lote até [[PENDENTE: data do lote]]
 - **Foto:** `[[FOTO DRA]]`
-- **Uso:** trocar a capa quando a Dra. abrir o carrinho na live (momento manual, `[[CONFIRMAR: horário de abertura do carrinho]]`). A capa não traz preço, para não ficar pública em grupo de convite.
+- **Uso:** trocar a capa na janela de 21h35 a 21h50 do dia 03/11, depois do disparo de carrinho aberto das 21h28 (troca manual, grade de `05_whatsapp_api/dia_da_live_03_11.md`). A capa não traz preço, para não ficar pública em grupo de convite.
 - Link de destino: [[LINK: página de vendas | wpp | ART-WPP-03]]
 - Link de destino do grupo de alunas: [[LINK: página das alunas | wpp | ART-WPP-03]]
 
@@ -363,7 +363,7 @@ Nenhuma URL real é escrita aqui; a fórmula está na seção 3 de `16_MAPA_DE_L
 | ART-WPP-01 | `[[LINK: live YouTube \| wpp \| ART-WPP-01]]` | Abre a transmissão de 03/11, 20h, no YouTube. Link da descrição do grupo de captação. | Equipe de YouTube |
 | ART-WPP-02 | `[[LINK: live YouTube \| wpp \| ART-WPP-02]]` | Abre a transmissão de 03/11, 20h, no YouTube. Link da descrição do grupo durante a live. | Equipe de YouTube |
 | ART-WPP-03 | `[[LINK: página de vendas \| wpp \| ART-WPP-03]]` | Página de vendas (S2 e S3), que mostra o lote vigente. Link da descrição do grupo depois da abertura do carrinho (a capa não leva preço). | Web designer |
-| ART-WPP-03 | `[[LINK: página das alunas \| wpp \| ART-WPP-03]]` | Página das alunas (S1), com a condição de aluna. Link da descrição do grupo depois da abertura do carrinho (a capa não leva preço). | Web designer |
+| ART-WPP-03 (S1) | `[[LINK: página das alunas \| wpp \| ART-WPP-03]]` | Página das alunas (S1), com a condição de aluna. Link da descrição do grupo depois da abertura do carrinho (a capa não leva preço). | Web designer |
 | ART-YT-01 | `[[LINK: captura A \| yt \| ART-YT-01]]` | Captura A: cadastro, diagnóstico e grupo da live. Link na descrição do vídeo agendado. | Web designer |
 | ART-YT-02 | `[[LINK: captura A \| yt-live \| ART-YT-02]]` | Captura A: cadastro, diagnóstico e grupo da live. Link na descrição durante a live (para quem chega sem cadastro); o link de vendas é fixado pela equipe da live a partir de 21h28. | Web designer |
 | ART-YT-03 | `[[LINK: página de vendas \| yt \| ART-YT-03]]` | Página de vendas (S2 e S3), que mostra o lote vigente. Link na descrição do vídeo depois da live. | Web designer |

@@ -133,7 +133,7 @@ Qual foi a sua linha três: a decisão que você só toma uma vez?
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-Se ela responder, a pergunta natural na sequência é: **"e o que você vai terminar agora?"** É a melhor ponte para a Vitalícia que existe nesta base, porque sai da boca dela.
+Se ela responder, a pergunta natural na sequência é: **"e o que você vai terminar agora?"** É a ponte mais natural para a Vitalícia nesta base, porque sai da boca dela.
 
 ### Toque 4, cinco dias depois: a opinião dela
 
@@ -341,3 +341,14 @@ Marque com a tag de **sem retorno** quem passou pelos cinco toques. Essas pessoa
 **Testes A/B sugeridos:** toque 1 com replay versus resumo; toque 3 com certificado versus linha três do papel; toque 5 com a saída honrosa curta versus com a pergunta "posso te perguntar o motivo?".
 
 **Dependências:** `aberturas_por_segmento.md` (para onde ir quando ela responde), `copies_por_evento_pipeline.md` (travou no checkout), `playbook_do_dia_da_live.md`.
+
+---
+
+## Links desta peça
+
+Os toques da régua perguntam e não trazem link. O único token deste arquivo é a entrega do diagnóstico, depois do "sim" dela. Nenhum toque da régua leva link de checkout. Canal `comercial`, ID `comercial-ID-VENDEDOR`. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| Toques 1 a 5, textos por segmento e régua pré-live | nenhum | Silêncio se quebra com entrega, e a entrega vem depois da resposta | n/a |
+| Entrega do diagnóstico (seção 3, depois do toque 1) | `[[LINK: diagnóstico \| comercial \| comercial-ID-VENDEDOR]]` | Entrega o diagnóstico dos cinco padrões depois do "sim" dela | Web designer |

@@ -1,5 +1,5 @@
-> BANCO DE RESERVA (parte A, Golden Ticket das alunas). O arquivo canônico da captação por API para alunas do Clube é `13_modelo_dr_joao/api_alunas_captacao.md`.
-> Se algum Golden Ticket for reaproveitado, não disparar em dia que tenha mensagem do canônico (15/10, 21/10, 23/10, 27/10, 29/10, 31/10, 02/11, 03/11).
+> BANCO DE RESERVA e OPCIONAL (parte A, Golden Ticket das alunas). O arquivo canônico da captação por API para alunas do Clube é `13_modelo_dr_joao/api_alunas_captacao.md`. O Golden Ticket só sai se a condição existir `[[CONFIRMAR: condição do Golden Ticket]]`.
+> Para não colidir com a série canônica de alunas (API em 15/10, 21/10, 23/10, 27/10, 29/10, 31/10, 02/11 e 03/11; e-mail em 15/10, 20/10, 23/10, 27/10, 29/10, 31/10, 02/11 e 03/11; grupo em 27/10, 29/10, 31/10, 02/11 e 03/11), as datas do Golden Ticket são 22/10 (05.1), 26/10 (05.2) e 01/11 (05.3), todas às 09h, e o aviso de grupo CP-BF-GT01 sai em 22/10, 11h30. A parte B (diagnóstico) não é alterada.
 
 # Golden Ticket da Black (convite VIP para alunas do Clube) e disparo para quem fez o diagnóstico
 
@@ -8,7 +8,7 @@
 | **Peça** | Parte A: Golden Ticket da Black, 3 mensagens de API (templates a aprovar) + 1 variante + 1 aviso em grupo, sem preço e com a condição como placeholder. Parte B: disparo de API para quem fez o diagnóstico dos 5 padrões, em duas versões (pré-live e pós-live), com a mensagem 2 em 5 variantes (uma por perfil) |
 | **Canal** | WhatsApp API oficial (templates com imagem de cabeçalho, texto e botões, **a aprovar na Meta**) e grupo de alunas |
 | **Público** | A: alunas ativas do Clube Secreto (consciência 4). B: quem fez o diagnóstico e ainda não reservou o lugar (pré-live) ou ainda não comprou (pós-live) (consciência 3 a 4) |
-| **Momento** | A: 22/10 (convite), 29/10 (reforço), 02/11 (última chamada). B: pré-live de 14/10 a 02/11; pós-live a partir de 04/11, nos dias de lote |
+| **Momento** | A (opcional): 22/10 (convite), 26/10 (reforço), 01/11 (último aviso). B: pré-live de 14/10 a 02/11; pós-live a partir de 04/11, nos dias de lote |
 | **Objetivo** | A: fazer a aluna sentir que a Black foi pensada primeiro para ela e levá-la à live. B: transformar o resultado do diagnóstico em reserva de lugar (pré) ou em entrada (pós) |
 | **Trabalho contratado** | A: "ficar" (a aluna que já provou que sabe continuar). B: "dar nome ao padrão" e decidir uma vez |
 | **Momento de vida** | A: no meio do processo, às vezes volta ao automático. B: não sabia o que a travava (29% a 40% da base) e agora sabe |
@@ -67,7 +67,7 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ CONFIRMAR OS DETALHES ]` → `[[LINK: página das alunas | api | api-bf-05.1v]]` · `[ PARAR MENSAGENS ]`
 
-## API-BF-05.2 | Reforço | 29/10, 09:00 | Quem não ativou
+## API-BF-05.2 | Reforço | 26/10, 09:00 | Quem não ativou
 
 ```text
 O seu Golden Ticket da *Black Próton Vitalícia* ainda não foi ativado, {{nome}}. 🪙
@@ -83,9 +83,9 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: página das alunas | api | api-bf-05.2]]` · `[ PARAR MENSAGENS ]`
 
-## API-BF-05.3 | Último aviso | 02/11, 09:00 | Quem ativou e quem não ativou
+## API-BF-05.3 | Último aviso | 01/11, 09:00 | Quem ativou e quem não ativou
 
-Dois textos, um por grupo. 02/11 é Finados: tom sóbrio, sem exclamação e sem emoji festivo. Os textos usam data fixa (03/11) e não "amanhã", porque o envio pode escorregar de dia.
+Dois textos, um por grupo. Os textos usam data fixa (03/11) e não "amanhã", porque o envio pode escorregar de dia. O dia 02/11 fica livre para a série canônica de alunas, que tem tom sóbrio por ser Finados.
 
 **Quem ativou:**
 
@@ -117,7 +117,7 @@ Digite SAIR se não quiser mais receber mensagens
 
 ## CP-BF-GT01 | 22/10, 11:30 | Aviso no grupo de alunas
 
-Sai só no grupo de alunas e **substitui o CP-BF-28 nesse grupo** (o grupo geral e o do Desafio/Imersão recebem o CP-BF-28). Mantém os dois disparos do dia.
+Sai só no grupo de alunas e **substitui, nesse grupo, a mensagem 19 da série canônica** (`13_modelo_dr_joao/wpp_captacao.md`, 22/10, 11h30). O grupo geral e o do Desafio/Imersão recebem a mensagem 19. Mantém os dois disparos do dia.
 
 ```text
 🪙 *GOLDEN TICKET PARA ALUNAS DO CLUBE*
@@ -130,6 +130,10 @@ A live é *terça, 03/11, às 20h*, ao vivo no YouTube.
 
 Olha a sua caixa de mensagens e ativa o seu. Ativar não custa nada.
 
+👇 Se a mensagem não chegou, ativa por aqui:
+
+[[LINK: página das alunas | wpp | cp-bf-gt01]]
+
 Reage com 🪙 se você recebeu.
 ```
 
@@ -141,7 +145,7 @@ Reage com 🪙 se você recebeu.
 
 ## B1. Versão pré-live (14/10 a 02/11)
 
-**Público:** fez o diagnóstico e não reservou o lugar na live. Excluir alunas ativas do Clube (que recebem a parte A).
+**Público:** fez o diagnóstico e não reservou o lugar na live. Excluir alunas ativas do Clube (que recebem a série canônica de alunas e, se existir, a parte A). Datas: 14/10, 21/10 e 26/10, às 09h10 (cronograma), sempre em dia sem API canônica para a lista D; a base que já reservou fica de fora.
 
 ### API-BF-06.1 | Mensagem 1: abordagem
 
@@ -174,7 +178,7 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo, com a
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve o seu lugar, é gratuita 👇
+Reserve o seu lugar, é gratuito 👇
 
 [[LINK: captura A | api | api-bf-06.2-ti]]
 
@@ -196,7 +200,7 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve o seu lugar, é gratuita 👇
+Reserve o seu lugar, é gratuito 👇
 
 [[LINK: captura A | api | api-bf-06.2-as]]
 
@@ -218,7 +222,7 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve o seu lugar, é gratuita 👇
+Reserve o seu lugar, é gratuito 👇
 
 [[LINK: captura A | api | api-bf-06.2-cb]]
 
@@ -240,7 +244,7 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve o seu lugar, é gratuita 👇
+Reserve o seu lugar, é gratuito 👇
 
 [[LINK: captura A | api | api-bf-06.2-tr]]
 
@@ -262,7 +266,7 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve o seu lugar, é gratuita 👇
+Reserve o seu lugar, é gratuito 👇
 
 [[LINK: captura A | api | api-bf-06.2-cq]]
 
@@ -357,7 +361,7 @@ Digite SAIR se não quiser mais receber mensagens
 1. `[[CONFIRMAR: condição do Golden Ticket]]`: o convite VIP é só uma mensagem enquanto a condição não existir. Decisões possíveis a levar à Dra. (sugestões, não definição): (a) acesso ao checkout do Lote Especial antes da live; (b) um bônus de antecipação `[[PENDENTE: bônus]]` só para alunas; (c) mais tempo para decidir dentro do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]]. Qualquer uma precisa de regra clara de prazo e de checkout próprio.
 2. Escassez de ticket: o Desafio usava "100 cupons". O template do Golden Ticket **não** traz número de tickets nem "quando acabarem". Só criar uma versão com limite se a regra existir de fato `[[CONFIRMAR: o número de tickets é real]]`, e ela exige novo template aprovado.
 3. Arte do Golden Ticket: o criativo é da área `04_criativos` (modelo: a arte do Golden Ticket do Desafio). Sem preço e sem cor definitiva.
-4. Segmento A: lista de alunas ativas do Clube `[[CONFIRMAR: contagem de alunas do Clube]]`. A lista deve vir do Hotmart/ListBoss, não de planilhas antigas.
+4. Segmento A: lista de alunas ativas do Clube `[[CONFIRMAR: contagem de alunas do Clube]]`. A lista deve vir do Hotmart/ListBoss, não de planilhas antigas. A ativação do Golden Ticket usa o token página das alunas `[[CONFIRMAR: a ativação do Golden Ticket fica numa seção da página das alunas]]`.
 5. A pergunta do diagnóstico "Resultado do Diagnóstico" tem 5 valores. A planilha de estrutura do Desafio registra 4.032 respostas, enquanto o arquivo 01 cita 1.562 no dossiê. `[[CONFIRMAR: tamanho real da base de diagnóstico com perfil]]` antes de dimensionar o custo de API.
 6. O disparo "Primeiros 50" do Desafio (reprogramação intrauterina, link só no grupo exclusivo) **não é repetido**. Se existir um bônus de antecipação, a mensagem equivalente é uma API de grupo exclusivo para quem entrar nas primeiras vendas, com o placeholder `[[PENDENTE: bônus]]`. Não inventar o bônus.
 7. O "Lote 0 com 50% OFF" do quiz do Desafio não tem equivalente. Se a equipe quiser uma condição própria para quem fez o diagnóstico, definir antes da live e acrescentar `[[CONFIRMAR: condição especial do diagnóstico]]`.
@@ -369,17 +373,20 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Aprovação de template (Meta)**
 
-| ID | Categoria | Botões | Variáveis | Status |
-|---|---|---|---|---|
-| API-BF-05.1 | Marketing, cabeçalho de imagem | 2 (URL: ATIVAR MEU GOLDEN TICKET; resposta rápida: PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**, e só depois que a condição do Golden Ticket existir. Sem preço, sem número de tickets |
-| API-BF-05.1V | Marketing | 2 | nenhuma (a variante não usa nome) | **PRECISA DE APROVAÇÃO** |
-| API-BF-05.2 | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
-| API-BF-05.3 (ativou e não ativou) | Marketing | 2 cada | `{{nome}}` | **PRECISA DE APROVAÇÃO** (2 templates) |
-| API-BF-06.1 | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
-| API-BF-06.P1 | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço no corpo; o preço só aparece na 06.P2 |
-| API-BF-06.2 (5 perfis), 06.3, 06.P2, 06.P3 | Mensagem de sessão (janela de 24 h) | 0 | `{{nome}}`, `{{perfil}}`, `{{lote_atual}}`, `{{data_virada}}`, `{{link_checkout}}` | Sem aprovação. 06.P2 só vai depois da revelação |
+Estrutura de cada template: cabeçalho (imagem na 05.1; nas demais, texto de até 60 caracteres, sem variável e sem emoji), corpo (o bloco da peça, menos de 600 caracteres), rodapé SAIR e botões (no máximo 3; aqui são 2, de até 25 caracteres).
 
-Todos os templates com rodapé SAIR, sem escassez inventada e com corpo curto (menos de 600 caracteres).
+| ID | Cabeçalho | Categoria | Botões | Variáveis | Status |
+|---|---|---|---|---|---|
+| API-BF-05.1 | Imagem `[[CONFIRMAR: arte do Golden Ticket Black Próton Vitalícia]]` | Marketing | 2 (URL: ATIVAR MEU GOLDEN TICKET; resposta rápida: PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**, e só depois que a condição do Golden Ticket existir. Sem preço, sem número de tickets |
+| API-BF-05.1V | Golden Ticket para alunas do Clube | Marketing | 2 | nenhuma (a variante não usa nome) | **PRECISA DE APROVAÇÃO** |
+| API-BF-05.2 | Seu Golden Ticket aguarda ativação | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-05.3 (ativou) | Golden Ticket ativo | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-05.3 (não ativou) | Seu Golden Ticket está à espera | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-06.1 | Seu diagnóstico dos 5 padrões está pronto | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-06.P1 | A condição da Black está aberta | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço no corpo; o preço só aparece na 06.P2 |
+| API-BF-06.2 (5 perfis), 06.3, 06.P2, 06.P3 | Não se aplica (mensagem de sessão, janela de 24 h) | Não se aplica | 0 | `{{nome}}`, `{{perfil}}`, `{{lote_atual}}`, `{{data_virada}}` | Sem aprovação. 06.P2 só vai depois da revelação |
+
+Todos os templates com rodapé SAIR, sem escassez inventada e sem preço pré-live.
 
 **Dependências**
 - Página de reserva da live e página de resultado do diagnóstico (`03_paginas`).

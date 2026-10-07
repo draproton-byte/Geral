@@ -242,7 +242,7 @@ Entre dinheiro, emocional e relacionamento, qual é o que mais tira o seu sono h
 ```
 {{nome}}, você preencheu a ficha e acompanhou a live.
 
-Qual parte ficou mais na sua cabeça?
+O que a Dra. falou que mais combinou com o que você marcou na ficha?
 ```
 
 **Se responder:** use a tabela de escuta (seção 6). Ofertar só no verde, e com cuidado com a faixa de conforto declarada (13% da ficha confortável com R$ 501 a R$ 1.000).

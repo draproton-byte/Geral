@@ -29,10 +29,10 @@
 | Palavra-chave do diagnóstico | **DIAGNÓSTICO** (aceitar também DIAGNOSTICO, "meu diagnóstico") |
 | Palavras-chave opcionais (teste por criativo de dor) | TERMOSTATO, SABOTAGEM, COBRANÇA, TRAUMA, CULPA (todas caem no caminho DIAGNÓSTICO e gravam a tag do perfil) |
 | Formato | Direct do Instagram, `@dra.proton`, acionado por comentário em post e reel, e por resposta a story |
-| Página de reserva (captura) | `[[LINK: página de captura da Black]]` com `?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico` |
-| Diagnóstico dos 5 padrões | `[[LINK: diagnóstico dos 5 perfis]]` |
-| Live no YouTube | `[[LINK: live no YouTube, 03/11]]` |
-| Grupo de WhatsApp | Um link por segmento: geral, alunas, Desafio/Imersão (o fluxo escolhe pela tag) |
+| Página de reserva (captura) | Token captura A, canal manychat e ID da mensagem (A05 e L01). O UTM `utm_source=manychat` e o ID da mensagem vêm do próprio token (fórmula de `16_MAPA_DE_LINKS.md`, seção 3) |
+| Diagnóstico dos 5 padrões | Token diagnóstico, canal manychat (B07 e C01) |
+| Live no YouTube | Token live YouTube, canal manychat (D01) |
+| Grupo de WhatsApp | Um token por segmento: grupo geral, grupo alunas (tag `bf_aluna`) e grupo viveu o método (tag `bf_aluno_desafio`). A peça B11 traz o token de grupo geral e o fluxo troca o destino pela tag |
 | Ingresso personalizado | `[[CONFIRMAR: template da arte do ingresso, com {{nome}}]]` (serviço de imagem dinâmica) |
 | Presente de compartilhamento | `[[CONFIRMAR: presente de compartilhamento]]` |
 | Objetivo principal | Reserva do lugar e diagnóstico feito. Objetivo secundário: ingresso postado nos stories com marcação em @dra.proton |
@@ -100,7 +100,7 @@ Reservar o lugar é de graça.
 ```text
 👇 Reserve o seu lugar aqui:
 
-[[LINK: captura A | manychat | mc-bf-a05]]?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico
+[[LINK: captura A | manychat | mc-bf-a05]]
 ```
 
 **MC-BF-A06**
@@ -154,7 +154,7 @@ Botão: `[ ✅ Pegar ingresso ]`
 **MC-BF-B06** (entrega do diagnóstico)
 
 ```text
-Ótimo, agora a sua presença está garantida. E como combinamos, eu tenho o seu diagnóstico dos 5 padrões: ele mostra qual deles faz você recomeçar.
+Ótimo, agora a sua presença está confirmada. E como combinamos, eu tenho o seu diagnóstico dos 5 padrões: ele mostra qual deles faz você recomeçar.
 
 Quer receber?
 ```
@@ -281,7 +281,7 @@ Botão: `[ Quero reservar ]` (volta para MC-BF-02)
 
 ## 6. Versão pós-live (a partir da abertura do link do checkout, 03/11, previsto 21h28)
 
-O gatilho é o mesmo, mas uma condição por horário muda o fluxo. Pessoas com a tag `bf_aluna` recebem a MC-BF-V01-A (preço de alunas); as demais, a MC-BF-V01 (preço de não-alunas), com match por e-mail ou telefone com a Hotmart, como na nota de integração do Desafio. Entre 20h e a abertura do link, vale a MC-BF-D01.
+O gatilho é o mesmo, mas uma condição por horário muda o fluxo. Pessoas com a tag `bf_aluna` recebem a MC-BF-V01-A e a MC-BF-V02-A (preço e checkout de alunas); as demais, a MC-BF-V01 e a MC-BF-V02 (preço e checkout de não-alunas; quem tem a tag `bf_aluno_desafio` usa o checkout S2), com match por e-mail ou telefone com a Hotmart, como na nota de integração do Desafio. Entre 20h e a abertura do link, vale a MC-BF-D01.
 
 **MC-BF-D01** (durante a live, antes de o link do checkout abrir)
 
@@ -296,7 +296,7 @@ Entra agora pelo link:
 **MC-BF-V01** (todos, palavra-chave VITALÍCIA depois da abertura)
 
 ```text
-Olá {{nome}}! A condição da *Black Próton Vitalícia* foi revelada ao vivo e está aberta. 🔓
+{{nome}}, a condição da *Black Próton Vitalícia* foi revelada ao vivo e está aberta. 🔓
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
@@ -325,6 +325,14 @@ Olá {{nome}}! A condição da *Black Próton Vitalícia* foi revelada ao vivo e
 [[LINK: checkout S3-ESP | manychat | mc-bf-v02]]
 ```
 
+**MC-BF-V02-A** (mesma mensagem, tag `bf_aluna`)
+
+```text
+👇 Garanta o seu lugar, aluna:
+
+[[LINK: checkout S1-ESP | manychat | mc-bf-v02-a]]
+```
+
 **MC-BF-V03**
 
 ```text
@@ -349,7 +357,7 @@ Ficou com dúvida? Me conta por aqui, ou fala direto com o suporte:
 ```text
 {{nome}}, o seu lugar na live ainda está aqui esperando. 🤍 É só tocar para reservar:
 
-[[LINK: captura A | manychat | mc-bf-l01]]?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico
+[[LINK: captura A | manychat | mc-bf-l01]]
 ```
 
 **MC-BF-L02**
@@ -399,7 +407,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 ## Notas ao implementador
 
 **Pendências**
-1. Links (`[[LINK: página de captura da Black]]`, `[[LINK: diagnóstico dos 5 perfis]]`, `[[LINK: live no YouTube, 03/11]]`, `[[LINK: grupo de WhatsApp, por segmento]]` e `[[LINK: suporte WhatsApp]]`). As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat.
+1. Links: captura A (A05 e L01), diagnóstico (B07 e C01), live YouTube (D01), grupo geral com troca por tag (B11 e L04), checkout S3-ESP e S1-ESP (V02 e V02-A) e suporte WhatsApp (V03). As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat. O token de checkout mostra o primeiro lote (Lote Especial); depois das viradas o fluxo troca por 1L e UL conforme `{{lote_atual}}`.
 2. `[[CONFIRMAR: template da arte do ingresso]]`: o Desafio usava um serviço de imagem dinâmica (Bannerbear, Placid ou Canva com API). A arte do ingresso é da área `04_criativos`. Sem ela, o Ramo B pula direto da B03 para a B06.
 3. `[[CONFIRMAR: presente de compartilhamento]]`: pode ser o bônus de 15 minutos da live (`08_live_e_pitch`) ou um áudio. Não inventar. Se não existir, apagar MC-BF-B09, B10 e os lembretes L02 e L03 e manter só o ingresso.
 4. Integração Hotmart e formulário de reserva para ManyChat: o Desafio listava "confirmar se já existe integração ou se precisa de middleware (n8n, Make ou Zapier)". O mesmo vale aqui, com o formulário da página de captura no lugar do evento de compra: a tag `bf_reservou` precisa chegar em minutos.

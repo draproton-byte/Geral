@@ -5,7 +5,7 @@
 | Peça | Título e 3 alternativas, descrição do YouTube (versão pré-live e versão pós-live, as duas sem preço), capítulos, capas (copy de miniatura) e 4 textos fixados no chat |
 | Canal | YouTube (página da transmissão, miniatura e chat ao vivo) |
 | Público | Quem encontra a live pelo YouTube (busca, sugeridos, link de e-mail e WhatsApp). Mistura dos 3 segmentos e tráfego frio |
-| Momento | Descrição e capa: publicadas assim que a transmissão agendada existir (idealmente em 13/10, com a captação). Fixados do chat: 03/11, 20h em diante (20h, 21h09, 21h28 e 21h48) |
+| Momento | Descrição e capa: publicadas assim que a transmissão agendada existir (idealmente em 13/10, com a captação). Fixados do chat: 03/11, 20h em diante (20h, 21h09, 21h28 e 21h48; IDs YT-FX1 a YT-FX4) |
 | Objetivo | Aumentar o clique no link da página da live, o lembrete ativado e a presença às 20h; levar para o grupo e para o diagnóstico; no chat, converter a revelação em clique no checkout |
 | Consciência | 2 a 5 (a descrição serve a quem chega frio e a quem já está pronta) |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." |
@@ -30,7 +30,7 @@ A Última Vez Que Você Vai Precisar Recomeçar | Live com a Dra. Próton
 
 ---
 
-## 2. DESCRIÇÃO, VERSÃO PRÉ-LIVE (até 03/11, 20h)
+## 2. DESCRIÇÃO, VERSÃO PRÉ-LIVE (até 03/11, 20h), ID YT-D1
 
 > 🔴 AO VIVO 03/11, às 20h: live com a Dra. Próton, que revela, de uma vez só, o que construiu para você parar de recomeçar. Ative o lembrete.
 >
@@ -57,10 +57,10 @@ A Última Vez Que Você Vai Precisar Recomeçar | Live com a Dra. Próton
 > 🫁 Nesta live há uma prática de 6 minutos de respiração e escrita. Se você estiver dirigindo ou fazendo algo que exige atenção, não feche os olhos.
 >
 > 🚨 ENTRE NO GRUPO EXCLUSIVO DA LIVE E RECEBA O LINK NO SEU WHATSAPP:
-> [[LINK: grupo WhatsApp]]
+> [[LINK: grupo geral | yt | yt-d1]]
 >
 > 🔎 FAÇA O DIAGNÓSTICO DOS 5 PADRÕES (leva poucos minutos):
-> [[LINK: diagnóstico dos 5 padrões]]
+> [[LINK: captura A | yt | yt-d1]]
 >
 > ⏱️ CAPÍTULOS [[CONFIRMAR: tempos conferidos no vídeo gravado; a base é o roteiro com a transmissão iniciando às 19h45]]
 > 00:00 Sala aberta
@@ -86,7 +86,7 @@ A Última Vez Que Você Vai Precisar Recomeçar | Live com a Dra. Próton
 
 ---
 
-## 3. DESCRIÇÃO, VERSÃO PÓS-LIVE (se houver replay, `[[PENDENTE: replay]]`)
+## 3. DESCRIÇÃO, VERSÃO PÓS-LIVE (se houver replay, `[[PENDENTE: replay]]`), ID YT-D2
 
 > A condição da Black Próton Vitalícia foi revelada ao vivo em 03/11. Assista ao que a Dra. Próton mostrou e veja se esta é a forma de você parar de recomeçar.
 >
@@ -96,14 +96,14 @@ A Última Vez Que Você Vai Precisar Recomeçar | Live com a Dra. Próton
 >
 > Garantia: [[PENDENTE: garantia]]
 >
-> 👉 ALUNAS DO CLUBE SECRETO: [[LINK: checkout alunas, lote vigente]]
-> 👉 QUEM AINDA NÃO É DO CLUBE: [[LINK: checkout não-alunas, lote vigente]]
+> 👉 ALUNAS DO CLUBE SECRETO: [[LINK: checkout S1-ESP | yt | yt-d2]]
+> 👉 QUEM AINDA NÃO É DO CLUBE: [[LINK: checkout S3-ESP | yt | yt-d2]]
 >
 > O carrinho fecha em [[PENDENTE: fechamento]]. Esta condição não se repete. O que vier depois será outra oferta, com outro preço.
 >
 > Capítulos: os mesmos da versão pré-live, com os tempos reais do vídeo gravado.
 >
-> Dúvidas: [[LINK: suporte WhatsApp]]
+> Dúvidas: [[LINK: suporte WhatsApp | yt | yt-d2]]
 >
 > #DraPróton #PareDeRecomeçar #BlackPrótonVitalícia
 
@@ -129,21 +129,21 @@ Formato 1280 x 720. **Frame 0** (o que faz parar o scroll): no máximo 2 linhas 
 
 ## 5. TEXTO FIXADO NO CHAT (3 momentos)
 
-### Fixado 1: abertura da live (20h)
+### Fixado 1 (YT-FX1): abertura da live (20h)
 
-> 💜 Boas-vindas à live! Escreva "ESTOU AQUI" no chat para eu te ver. Antes de começar: entre no grupo para receber os avisos no WhatsApp ([[LINK: grupo WhatsApp]]) e faça o diagnóstico dos 5 padrões ([[LINK: diagnóstico dos 5 padrões]]). A condição completa será revelada ao vivo, nesta noite. Hoje há uma prática de 6 minutos de respiração e escrita: se estiver dirigindo, não feche os olhos.
+> 💜 Boas-vindas à live! Escreva "ESTOU AQUI" no chat para eu te ver. Antes de começar: entre no grupo para receber os avisos no WhatsApp ([[LINK: grupo geral | yt-live | yt-fx1]]). A condição completa será revelada ao vivo, nesta noite. Hoje há uma prática de 6 minutos de respiração e escrita: se estiver dirigindo, não feche os olhos.
 
-### Fixado 2: no preço (21h09, minuto 01:09, quando a Dra. liberar as telas de preço)
+### Fixado 2 (YT-FX2): no preço (21h09, minuto 01:09, quando a Dra. liberar as telas de preço)
 
 > O valor do seu lote está na tela agora. Seu segmento: aluna do Clube ou ainda não é do Clube. O link de pagamento abre mais adiante, ainda nesta live.
 
-### Fixado 3: na abertura do link (21h28, minuto 01:28, no mesmo instante do disparo de carrinho aberto)
+### Fixado 3 (YT-FX3): na abertura do link (21h28, minuto 01:28, no mesmo instante do disparo de carrinho aberto)
 
-> 🔴 O LINK ABRIU. Alunas do Clube Secreto: [[LINK: checkout alunas, lote vigente]] | Quem ainda não é do Clube: [[LINK: checkout não-alunas, lote vigente]]. Parcelamento visível no checkout. Garantia: [[PENDENTE: garantia]]. Dúvidas aqui no chat ou no suporte: [[LINK: suporte WhatsApp]].
+> 🔴 O LINK ABRIU. Alunas do Clube Secreto: [[LINK: checkout S1-ESP | yt-live | yt-fx3]] | Quem ainda não é do Clube: [[LINK: checkout S3-ESP | yt-live | yt-fx3]]. Parcelamento visível no checkout. Garantia: [[PENDENTE: garantia]]. Dúvidas: aqui no chat.
 
-### Fixado 4: fim da live (21h48, minuto 01:48)
+### Fixado 4 (YT-FX4): fechamento da live (21h48, minuto 01:48; a transmissão termina às 21h56)
 
-> Obrigada por ter ficado até aqui. 💜 O carrinho está aberto até [[PENDENTE: fechamento]]. Esta condição não se repete. Alunas: [[LINK: checkout alunas, lote vigente]] | Demais: [[LINK: checkout não-alunas, lote vigente]]. Eu prefiro que você não compre do que compre e não viva. Decida com calma e tire suas dúvidas no suporte: [[LINK: suporte WhatsApp]].
+> Obrigada por ter ficado até aqui. 💜 O carrinho está aberto até [[PENDENTE: fechamento]]. Esta condição não se repete. Alunas: [[LINK: checkout S1-ESP | yt-live | yt-fx4]] | Demais: [[LINK: checkout S3-ESP | yt-live | yt-fx4]]. Eu prefiro que você não compre do que compre e não viva. Decida com calma e tire suas dúvidas no suporte: [[LINK: suporte WhatsApp | yt-live | yt-fx4]].
 
 **Moderação do chat.** Responder "ESTOU AQUI" em rodadas, ler 3 a 5 mensagens por bloco e nunca prometer resultado individual. Mensagens de pessoas sobre dinheiro ou saúde: direcionar ao suporte.
 
@@ -155,6 +155,23 @@ Formato 1280 x 720. **Frame 0** (o que faz parar o scroll): no máximo 2 linhas 
 2. **Capítulos.** Os tempos acima são a base do roteiro (minuto do roteiro mais 15). Conferir no ensaio e na edição. O YouTube exige o primeiro em 00:00, pelo menos 3 capítulos e pelo menos 10 segundos cada. Se não houver replay, os capítulos só servem para o vídeo de resumo de 04/11.
 3. **Depende de `[[PENDENTE: replay]]`.** A página de captura diz "sem replay". Se houver replay, a versão pós-live existe e os fixados mudam de "ao vivo" para "assista".
 4. **Link do checkout dentro do chat.** O YouTube pode bloquear link no chat de contas novas ou limitar links. Testar antes e, se necessário, usar o link da descrição e dizer "o link está fixado e na descrição".
-5. **Link da descrição (tráfego).** Usar UTMs separadas por posição: `descricao-videos-youtube` (UTM já usada em outros eventos).
+5. **Links.** Todos no token do mapa (tabela "Links desta peça"). A descrição usa o canal `yt`; o chat fixado usa `yt-live`. Nos fixados 3 e 4 o chat é público e mistura segmentos: usa `checkout S1-ESP` para alunas e `checkout S3-ESP` para os demais (S2 entra pelo S3 e perde a medição à parte). Nas peças pós-live o lote do token (`ESP`) muda para `1L` e `UL` junto com o redirecionamento do link curto a cada virada de lote. O fixado 2 não tem link por desenho: o link só abre às 21h28.
 6. **Compliance.** O aviso "este conteúdo é educativo e de desenvolvimento pessoal" está na descrição porque hipnose é prática, não tratamento (regra do guia, seção 3).
 7. **Onde o Desafio tinha peça e a Black não.** O Desafio tinha 5 legendas (uma por noite) e 5 capas. A Black tem uma live, então 1 descrição (com 2 versões), 3 capas de teste e 4 fixados.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| YT-D1 | [[LINK: grupo geral | yt | yt-d1]] | Convite do grupo de WhatsApp da live (principal) | Automação |
+| YT-D1 | [[LINK: captura A | yt | yt-d1]] | Cadastro e diagnóstico dos 5 padrões (apoio) | Web designer |
+| YT-D2 | [[LINK: checkout S1-ESP | yt | yt-d2]] | Checkout das alunas (trocar o lote a cada virada) | Financeiro / Hotmart |
+| YT-D2 | [[LINK: checkout S3-ESP | yt | yt-d2]] | Checkout de quem não é do Clube (trocar o lote a cada virada) | Financeiro / Hotmart |
+| YT-D2 | [[LINK: suporte WhatsApp | yt | yt-d2]] | Dúvidas (apoio) | Suporte |
+| YT-FX1 | [[LINK: grupo geral | yt-live | yt-fx1]] | Convite do grupo de WhatsApp, no chat (único link) | Automação |
+| YT-FX2 | nenhum | Sem link por desenho: o checkout abre às 21h28 | n/a |
+| YT-FX3 | [[LINK: checkout S1-ESP | yt-live | yt-fx3]] | Checkout das alunas, aberto às 21h28 | Financeiro / Hotmart |
+| YT-FX3 | [[LINK: checkout S3-ESP | yt-live | yt-fx3]] | Checkout de quem não é do Clube, aberto às 21h28 | Financeiro / Hotmart |
+| YT-FX4 | [[LINK: checkout S1-ESP | yt-live | yt-fx4]] | Checkout das alunas, no fechamento da live | Financeiro / Hotmart |
+| YT-FX4 | [[LINK: checkout S3-ESP | yt-live | yt-fx4]] | Checkout de quem não é do Clube, no fechamento da live | Financeiro / Hotmart |
+| YT-FX4 | [[LINK: suporte WhatsApp | yt-live | yt-fx4]] | Dúvidas (apoio) | Suporte |

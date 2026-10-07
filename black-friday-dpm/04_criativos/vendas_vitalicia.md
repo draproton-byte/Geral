@@ -124,7 +124,7 @@ Usada nas peças VIT-13, VIT-19, LEG-VIT-02, RMV-09, LEG-RMV-04, VID-09 (em `rot
 
 ### VIT-07 | Modelo CR7 | Ambos
 - **Texto na arte:** N1 "E se o bloqueio nunca foi falta de esforço?"
-- **Texto do anúncio:** O que trava a vida costuma começar lá atrás, e dá para olhar para isso sem pressa. Não é terapia: é prática guiada, com acesso vitalício.
+- **Texto do anúncio:** Muita coisa que trava hoje vem de lá atrás, e dá para olhar para isso sem pressa. Não é terapia: é prática guiada, com acesso vitalício.
 - **CTA (botão):** Saiba mais
 - **Formato:** F e S · **Kit:** A
 - **Frame 0:** "nunca foi falta de esforço" em destaque, a pergunta em duas linhas. Para o scroll porque desculpa o esforço e abre a causa.
@@ -160,7 +160,7 @@ Usada nas peças VIT-13, VIT-19, LEG-VIT-02, RMV-09, LEG-RMV-04, VID-09 (em `rot
 
 ### VIT-11 | Modelo CR11 | Ambos
 - **Texto na arte:** N1 "O padrão que se quer mudar é o mesmo que sabota a mudança."
-- **Texto do anúncio:** Por isso, sem apoio, muita gente trava no mesmo lugar. No Clube Secreto o método não se aplica no escuro: aplica-se com a Dra. Próton e com a trilha de entrada.
+- **Texto do anúncio:** Por isso, sem apoio, muita gente trava no mesmo lugar. No Clube Secreto o método não se aplica sem guia: aplica-se com a Dra. Próton e com a trilha de entrada.
 - **CTA (botão):** Saiba mais
 - **Formato:** F e S · **Kit:** C
 - **Frame 0:** duas setas em sentido contrário, uma delas em destaque, e a frase abaixo. Para o scroll porque o conflito é visual e a frase é uma sentença sobre o que acontece com muita gente.
@@ -230,7 +230,7 @@ Usada nas peças VIT-13, VIT-19, LEG-VIT-02, RMV-09, LEG-RMV-04, VID-09 (em `rot
 - **Texto do anúncio:** A que continuou recomeçando, ou a que parou de recomeçar? A última vez que você vai precisar recomeçar começa agora.
 - **CTA (botão):** Saiba mais
 - **Formato:** F e S · **Kit:** C
-- **Frame 0:** duas silhuetas lado a lado, uma com menos peso e outra em destaque. Para o scroll porque é uma bifurcação visual simples.
+- **Frame 0:** dois caminhos desenhados a partir do mesmo ponto, um em círculo e outro em linha reta, sem pessoas na imagem, o segundo em destaque. Para o scroll porque é uma bifurcação visual simples.
 - Link de destino: [[LINK: página de vendas | ads-meta | VIT-18]]
 - Link de destino do conjunto S1: [[LINK: página das alunas | ads-meta | VIT-18]]
 
@@ -543,7 +543,7 @@ Clique em "Saiba mais" e garanta o seu acesso.
 3. **Cobrança recorrente:** nenhuma peça compara o preço com cobrança recorrente nem fala em prorrogação do acesso. Se a equipe confirmar que existe cobrança recorrente de verdade, a comparação entra com a pendência de comparação prevista no guia (seção 3) e volta para revisão.
 4. **Gênero:** todos os anúncios estão em texto neutro. VIT-22, LEG-VIT-04 e as peças de S1 aceitam o feminino se o time quiser. Em tráfego de remarketing frio, manter o neutro.
 5. **Peças do Desafio sem equivalente:** CR13 e CR8 ("por dia" e "por mês") partem de um acesso de 365 dias; na Vitalícia, não há prazo para dividir o preço. Foram substituídos pela conta de tudo separado e pelo parcelamento. Os Ad 10 e Ad 16 do remarketing do Clube ("por dia" e "durante 1 ano") foram excluídos pela mesma razão.
-6. **Testes A/B:** (a) VIT-13 (conta) contra VIT-15 (365 dias) em lookalike; (b) VIT-22 (upgrade) contra VIT-04 em alunas; (c) VIT-20 (parcelamento em destaque) contra VIT-03 (preço na etiqueta).
+6. **Testes A/B:** a) VIT-13 (conta) contra VIT-15 (365 dias) em lookalike; b) VIT-22 (upgrade) contra VIT-04 em alunas; c) VIT-20 (parcelamento em destaque) contra VIT-03 (preço na etiqueta).
 7. **Compliance:** nenhuma peça promete ganho, tratamento ou fim da autossabotagem; "decida uma vez" refere-se à escolha, não ao resultado. Nenhuma peça usa palavra de limite de lugares.
 8. **Contagens:** VIT-01 a VIT-24 (24), LEG-VIT-01 a 05 (5), RMV-01 a RMV-12 (12), LEG-RMV-01 a 04 (4): 45 IDs.
 

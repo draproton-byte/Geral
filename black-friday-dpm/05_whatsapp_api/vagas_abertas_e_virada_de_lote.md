@@ -4,7 +4,7 @@
 |---|---|
 | **Peça** | Sequência pós-live: carrinho aberto (dia seguinte), objeções, últimas horas do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]], virada para Primeiro Lote, últimas horas, virada para Último Lote, último dia, últimas horas e última hora do fechamento, encerramento e saída honrosa. Grupo (16 momentos) e API (8 momentos), cada um em duas versões: não-alunas e alunas |
 | **Canal** | Grupos de WhatsApp (geral e Desafio/Imersão usam a versão não-alunas; grupo de alunas usa a versão -AL) e WhatsApp API oficial (templates a aprovar na Meta; ver "Aprovação de template" nas notas) |
-| **Público** | Reservaram o lugar e não compraram. Consciência 5 (pronto). Dois segmentos de preço: alunas do Clube e não-alunas (inclui Desafio/Imersão/Aulão sem Clube) |
+| **Público** | Reservaram o lugar e não compraram. Consciência 5 (pronto). Dois segmentos de preço: alunas do Clube e não-alunas (inclui Desafio/Imersão/Aulão sem Clube, que paga como não-aluna até decisão contrária e usa o checkout S2 do mesmo lote; o token de cada peça traz o checkout S3 e a lista D troca por S2) |
 | **Momento** | De 04/11 até o fechamento. Datas de virada e de fechamento: `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]` |
 | **Objetivo** | Converter a decisão tomada na live, respondendo as três objeções (dinheiro, medo de não aplicar, "já comprei e não tive resultado") com escassez só por lote real |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada virada de lote é um prazo real para tomar essa decisão, sem pressão artificial |
@@ -357,7 +357,7 @@ Modelo: CP 34 (01/10). Lote: Primeiro Lote. Público: não-alunas (grupo geral e
 
 Eu escuto isso o tempo todo. E eu entendo.
 
-Mas olha o que costuma acontecer: você aplica *por conta própria* depois, e o mesmo padrão que você queria mudar sabota a aplicação.
+Mas olha o que costuma acontecer: você aplica *por conta própria* depois, sem ninguém ao lado, e o padrão antigo volta a decidir por você.
 
 Aqui você tem acompanhamento e uma trilha de entrada.
 
@@ -379,7 +379,7 @@ Modelo: CP 34 (01/10). Lote: Primeiro Lote. Público: alunas do Clube.
 
 Eu escuto isso o tempo todo. E eu entendo.
 
-Mas olha o que costuma acontecer: você aplica *por conta própria* depois, e o mesmo padrão que você queria mudar sabota a aplicação.
+Mas olha o que costuma acontecer: você aplica *por conta própria* depois, sem ninguém ao lado, e o padrão antigo volta a decidir por você.
 
 Você que é do Clube conhece esse acompanhamento por dentro.
 
@@ -1100,19 +1100,27 @@ Digite SAIR se não quiser mais receber mensagens
 2. `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[PENDENTE: preço avulso]]` (para a "conta do que custaria tudo separado") e `[[PENDENTE: replay]]`.
 3. `[[CONFIRMAR: regra de migração]]`: o que acontece com o acesso atual de quem já é aluna. É a primeira pergunta do grupo de alunas depois da live.
 4. `[[CONFIRMAR: parcelamento]]`: confirmar parcelas máximas, Pix, boleto e uso de dois cartões no checkout.
-5. Links de checkout (`[[LINK: checkout Lote Especial alunas]]` e as demais combinações de lote e segmento): um checkout por lote e por segmento (seis links). Cada um com UTM `src=api` ou `src=grupo`.
+5. Links de checkout: um por lote e por segmento (S1 alunas, S2 quem viveu o método, S3 não-alunas, cada um em ESP, 1L e UL: nove checkouts). Cada um com UTM do canal (`wpp` ou `api`) e o ID da peça, que vêm do token (ver "Links desta peça").
 6. Escada de preços para o implementador: está no briefing, em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1 (três lotes para alunas e três para não-alunas, com vantagem fixa de aluna por lote). Nenhum valor é repetido neste arquivo e nenhum aparece em texto público antes da live.
 7. Trocas de nome e capa do grupo estão indicadas em cada peça (estados da tabela de `grupos_descricao_e_grupo_cheio.md`).
 
 **Aprovação de template (Meta)**
 
-| ID | Categoria | Botões | Status |
-|---|---|---|---|
-| API-BF-V01, V01-A | Marketing | 2 (URL: GARANTIR MEU LUGAR; resposta rápida: PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Preço e lote por variável (`{{preco_lote}}`, `{{lote_atual}}`, `{{data_virada}}`), com valor de exemplo neutro no texto enviado à Meta |
-| API-BF-V02 a V07 (e -A) | Marketing | 2 | **PRECISA DE APROVAÇÃO**, um por lote e segmento. Só entram em uso depois da revelação |
-| API-BF-V08, V08-A | Marketing | 2 (URL: lista de espera; PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**, só se houver lista de espera `[[CONFIRMAR: lista de espera, decisão da Dra.]]` |
+Estrutura de cada template: cabeçalho de texto (até 60 caracteres, sem variável e sem emoji), corpo (o bloco da peça, menos de 450 caracteres), rodapé SAIR e botões (no máximo 3; aqui são 2, de até 25 caracteres).
 
-Todos com rodapé SAIR, sem cabeçalho, corpo curto (menos de 450 caracteres) e sem contagem de lugares ou de unidades: a escassez é só por lote real.
+| ID | Cabeçalho | Categoria | Botões | Status |
+|---|---|---|---|---|
+| API-BF-V01 | A Black Próton Vitalícia está aberta | Marketing | 2 (URL: GARANTIR MEU LUGAR; resposta rápida: PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Preço e lote por variável (`{{preco_lote}}`, `{{lote_atual}}`, `{{data_virada}}`), com valor de exemplo neutro no texto enviado à Meta |
+| API-BF-V01-A | Sua condição de aluna está aberta | Marketing | 2 (URL: GARANTIR MEU LUGAR; resposta rápida: PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Mesma regra de variáveis |
+| API-BF-V02, V02-A | Último dia do Lote Especial | Marketing | 2 | **PRECISA DE APROVAÇÃO**. Só entra em uso depois da revelação |
+| API-BF-V03, V03-A | Virou o Primeiro Lote | Marketing | 2 | **PRECISA DE APROVAÇÃO** |
+| API-BF-V04, V04-A | Último dia do Primeiro Lote | Marketing | 2 | **PRECISA DE APROVAÇÃO** |
+| API-BF-V05, V05-A | Virou o Último Lote | Marketing | 2 | **PRECISA DE APROVAÇÃO** |
+| API-BF-V06, V06-A | Último dia da Black Próton Vitalícia | Marketing | 2 | **PRECISA DE APROVAÇÃO** |
+| API-BF-V07, V07-A | Falta 1 hora para fechar | Marketing | 2 | **PRECISA DE APROVAÇÃO** |
+| API-BF-V08, V08-A | O carrinho da Black fechou | Marketing | 2 (URL: lista de espera; PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**, só se houver lista de espera `[[CONFIRMAR: lista de espera, decisão da Dra.]]` |
+
+Todos com rodapé SAIR, sem preço digitado e sem contagem de lugares ou de unidades: a escassez é só por lote real.
 
 **Testes A/B sugeridos**
 1. CP-BF-V04 (último dia): com a frase "Depois disso, o valor sobe" contra uma versão que mostra os dois preços lado a lado. Medir cliques em checkout.

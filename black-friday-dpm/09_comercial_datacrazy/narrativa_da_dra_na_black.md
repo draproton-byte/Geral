@@ -140,7 +140,7 @@ Disse, na Aula 02, que a única característica de quem muda de vida é obediên
 
 **Nota ao implementador (remover antes de distribuir ao time; nunca no texto público pré-live):** escada do briefing. Alunas: R$ 1.997 (Especial), R$ 2.997 (Primeiro), R$ 3.997 (Último). Não-alunas: R$ 2.997, R$ 3.997, R$ 4.997. Estes números só entram em material do comercial depois da fala do bloco 12 da live.
 
-**O valor depois da live.** Use sempre `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`, `[[PENDENTE: parcelamento máximo]]` e `[[PENDENTE: garantia]]`. Use sempre o link do lote e do segmento certos, porque é ele que credita a venda: `[[LINK: checkout por lote e segmento]]`.
+**O valor depois da live.** Use sempre `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`, `[[PENDENTE: parcelamento máximo]]` e `[[PENDENTE: garantia]]`. Use sempre o checkout do lote e do segmento certos, porque é ele que credita a venda: S1, S2 ou S3 e, no lote, ESP, 1L ou UL, no formato `[[LINK: checkout S2-1L | comercial | comercial-ID-VENDEDOR]]` (ID-VENDEDOR é o identificador de quem atende).
 
 **A garantia.** `[[PENDENTE: garantia]]`. Hoje o Clube tem 7 dias de garantia (processada pela plataforma de pagamento). `[[CONFIRMAR: a Vitalícia mantém os mesmos 7 dias]]`.
 
@@ -181,7 +181,7 @@ As travas do Desafio continuam e ganham cinco novas, específicas da Black.
 
 **Nunca cite valor antes da live.** Nem "a partir de", nem "em torno de", nem "cabe no bolso". Resposta única: "A condição é revelada ao vivo, na live de 03/11, às 20h."
 
-**Nunca prometa que a autossabotagem acaba.** A pesquisa mostra que ela continua, mesmo dentro do Clube. A "última vez" é sobre o recomeço (decidir), nunca sobre resultado. Diga: "a última vez que você vai precisar recomeçar".
+**Nunca prometa o fim da autossabotagem.** A pesquisa mostra que ela continua, mesmo dentro do Clube. A "última vez" é sobre o recomeço (decidir), nunca sobre resultado. Diga: "a última vez que você vai precisar recomeçar".
 
 **Nunca compare o valor com cobranças recorrentes nem com a mentoria individual.** Esse tipo de comparação depende de existir cobrança recorrente real (`[[CONFIRMAR: comparação de valor com cobrança recorrente]]`). A mentoria individual, a própria Dra. diz que não é a mesma coisa.
 
@@ -275,3 +275,13 @@ A ficha quente trava no **medo de não implementar** (27 pessoas), em **"já com
 - A frase "Eu prefiro que você não compre do que compre e não viva" entra na lista de intocáveis conforme o guia de copy. Ela só deve ser usada pelo comercial depois de a pessoa ter dito que está em aperto real ou que não pretende abrir o conteúdo.
 
 **Dependências:** `quebra_de_objecoes.md`, `copies_por_evento_pipeline.md`, `aberturas_por_segmento.md`, `regua_do_silencio_black.md`, `playbook_do_dia_da_live.md`, `lista_de_ataque_templates.md`.
+
+---
+
+## Links desta peça
+
+Guia de voz interno, sem mensagem pronta para o público. O único token é o exemplo de formato da seção 4. Canal `comercial`, ID `comercial-ID-VENDEDOR`. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| Seção 4, exemplo de formato | `[[LINK: checkout S2-1L \| comercial \| comercial-ID-VENDEDOR]]` | Mostra ao time o formato do checkout do segmento (S2) e do lote (Primeiro Lote); S1 e S3 trocam o segmento, e o lote muda com a virada | Financeiro / Hotmart |

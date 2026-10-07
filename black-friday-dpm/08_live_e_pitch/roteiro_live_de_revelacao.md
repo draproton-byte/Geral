@@ -73,7 +73,7 @@
 - TIME: música de espera baixa, sem locução. Slide 2 (regras da noite) aparece nos últimos 3 minutos.
 - TIME: fixar também no chat o aviso de segurança: "Hoje tem 6 minutos de respiração e escrita. Se você estiver dirigindo ou fazendo algo que exige atenção, não feche os olhos: pule essa parte e volte quando puder."
 - TIME: a grade de disparos de `05_whatsapp_api/dia_da_live_03_11.md` cuida dos avisos de WhatsApp: às 19h50 o grupo recebe o CP-BF-72 (falta 10 minutos, vídeo da Dra. e sala aberta) e às 19h55 a API recebe o API-BF-13 (faltam 5 minutos). Este roteiro não cria mensagem própria nesse horário; o link da live, nessas duas peças, vai em linha própria e separado do CTA, no token canônico definido lá.
-- TIME: confirmar que o cronômetro de 15 minutos (arquivo de vídeo do Desafio) está carregado e testado, e que os dois links de checkout do Lote Especial estão abrindo no celular, com crédito de venda: `[[LINK: checkout S1-ESP | yt-live | live-roteiro-b0]]` (alunas) e `[[LINK: checkout S3-ESP | yt-live | live-roteiro-b0]]` (quem ainda não é do Clube).
+- TIME: confirmar que o cronômetro de 15 minutos (arquivo de vídeo do Desafio) está carregado e testado, e que os dois links de checkout do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]] estão abrindo no celular, com crédito de venda: `[[LINK: checkout S1-ESP | yt-live | live-roteiro-b0]]` (alunas) e `[[LINK: checkout S3-ESP | yt-live | live-roteiro-b0]]` (quem ainda não é do Clube).
 - TIME: confirmar que as telas de preço (slides 34, 36 e 37) estão no modo "oculto" até a Dra. liberar. Nenhum valor pode vazar em preview, miniatura ou legenda.
 
 ---
@@ -231,7 +231,7 @@
 - CHAT: "Qual é o seu 'depois'? Escreve a frase que você mais usa."
 - REAÇÃO: ler 6 respostas e voltar ao número do bloco 2: "Você escreveu {{número}} vezes. Se o 'depois' sempre venceu, eu entendo. Hoje você pode decidir diferente."
 
-**Cola de compliance:** a Dra. não diz "a autossabotagem acaba". Diz "o recomeço acaba", "a decisão você toma uma vez". O "última vez" é sobre decidir, nunca sobre resultado.
+**Cola de compliance:** a Dra. não promete o fim da autossabotagem. Diz "o recomeço acaba", "a decisão você toma uma vez". O "última vez" é sobre decidir, nunca sobre resultado.
 
 ---
 

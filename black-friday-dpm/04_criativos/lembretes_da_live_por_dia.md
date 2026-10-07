@@ -149,7 +149,7 @@
 
 ### LEM-D3-1 | Dor / identificação
 - **Texto na arte:** N1 "A cada passo que dou, retrocedo." · N3 "faltam 3 dias · 03/11 · 20h"
-- **Texto do anúncio:** 13% das mais de 7 mil pessoas que responderam à minha pesquisa apontaram feridas do passado como o que mais pesa na paz do dia a dia. Dia 03/11, às 20h, eu mostro ao vivo como o passado segue decidindo no presente. É prática guiada, não terapia.
+- **Texto do anúncio:** 13% das mais de 7 mil pessoas que responderam à minha pesquisa apontaram feridas do passado como o que as impede de ter paz e equilíbrio emocional. Dia 03/11, às 20h, eu mostro ao vivo como o passado segue decidindo no presente. É prática guiada, não terapia.
 - **CTA (botão):** Cadastre-se
 - **Formato:** F e S · **Kit:** C
 - **Frame 0:** uma escada com duas sombras, uma que sobe e outra que desce, a frase no alto. Para o scroll porque o retrato do "dois passos para a frente, um para trás" é imediato.
@@ -208,7 +208,7 @@ Tom sóbrio nas três peças: sem exclamação, sem tom de festa, sem cobrança.
 
 ### LEM-D1-1 | Dor / identificação
 - **Texto na arte:** N1 "Amanhã, 20h, ao vivo." · N3 "03/11 · YouTube"
-- **Texto do anúncio:** Amanhã, 03/11, às 20h, eu estou ao vivo no YouTube. Sem pressa e sem pressão: deixe o aviso combinado para não perder o horário. Cadastro sem custo.
+- **Texto do anúncio:** Amanhã, 03/11, às 20h, eu estou ao vivo no YouTube. Sem pressa e sem pressão: deixe o lembrete ativado para não perder o horário. Cadastro sem custo.
 - **CTA (botão):** Cadastre-se
 - **Formato:** F e S · **Kit:** A
 - **Frame 0:** "Amanhã" como maior elemento e "20h" ao lado, fundo liso. Para o scroll porque a palavra "amanhã" é o imediato e o tamanho dispensa leitura.
@@ -298,9 +298,9 @@ Nota para S1 (alunas do Clube): 03/11 é o dia da aula ao vivo do Clube. Estas p
 Modelo: legenda de lembrete do Desafio (lembrete + autoridade e contagem regressiva). Aqui a escassez é de data, não de lote. Nenhuma legenda cita preço, limite de lugares ou lote.
 
 ### LEG-LEM-01 | Falta 7 | 27/10
-Daqui a 7 dias, dia 03/11, às 20h, eu estou ao vivo no YouTube.
+Entra um dinheiro a mais e aparece uma conta.
 
-Entra um dinheiro a mais e aparece uma conta: esse padrão tem nome, e eu mostro como ele funciona.
+Esse padrão tem nome, e eu mostro como ele funciona: dia 03/11, às 20h, ao vivo no YouTube. Faltam 7 dias.
 
 A condição completa só é revelada na live.
 
@@ -333,9 +333,9 @@ Qual é a sua cobrança mais antiga? Conta nos comentários e clique em "Saiba m
 - Link de destino: [[LINK: captura A | ads-meta | LEG-LEM-03]]
 
 ### LEG-LEM-04 | Falta 3 | 31/10
-13% das mais de 7 mil pessoas que responderam à minha pesquisa apontaram feridas do passado como o que mais pesa na paz do dia a dia.
-
 "Sinto que a cada passo que dou, retrocedo."
+
+13% das mais de 7 mil pessoas que responderam à minha pesquisa apontaram feridas do passado como o que as impede de ter paz e equilíbrio emocional.
 
 O que eu faço não é terapia. É um trabalho prático de reprogramação mental.
 
@@ -355,7 +355,7 @@ Faltam 2 dias. Clique em "Saiba mais" e faça o seu cadastro, sem custo.
 ### LEG-LEM-06 | Falta 1 | 02/11 (tom sóbrio)
 Amanhã, às 20h, eu estou ao vivo.
 
-Sem pressa e sem pressão. Só deixe o aviso combinado para não perder o horário.
+Sem pressa e sem pressão. Só deixe o lembrete ativado para não perder o horário.
 
 A última vez que você vai precisar recomeçar começa a ser decidida amanhã.
 
@@ -364,9 +364,9 @@ Clique em "Saiba mais" e faça o seu cadastro, sem custo.
 - Link de destino: [[LINK: captura A | ads-meta | LEG-LEM-06]]
 
 ### LEG-LEM-07 | É hoje, manhã | 03/11
-É hoje.
+É hoje, às 20h, ao vivo no YouTube.
 
-Às 20h, ao vivo no YouTube, eu abro tudo o que construí para quem cansou de recomeçar. A condição completa é revelada na live.
+Eu abro tudo o que construí para quem cansou de recomeçar. A condição completa é revelada na live.
 
 Deixe o celular carregado e o aviso ativo.
 

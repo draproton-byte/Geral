@@ -7,10 +7,10 @@
 | **Formato** | 1080 × 1920 px (9:16), MP4 (H.264). Área segura: 250 px livres no topo e 340 px na base em stories; em reels, 250 px no topo, 670 px na base e 65 px nas laterais `[[CONFIRMAR: gabarito vigente da Meta no dia da produção]]`. Thumbnail de feed em 1080 × 1350 px (4:5) com o gancho |
 | **Público** | Tráfego frio e morno (pré-live); lista quente e remarketing (pós-live). Mulheres 45+ no núcleo; texto neutro de gênero |
 | **Momento** | 13/10 a `[[PENDENTE: fechamento]]`. Pré-live: VID-01 a 07. Pós-live: VID-08 a 10, que só podem ir ao ar depois de 03/11, 21h09 (preço revelado) e, se levarem ao checkout, depois de 21h28 (carrinho aberto) |
-| **Objetivo** | Pré-live: cadastro (diagnóstico + aviso da live de 03/11, 20h). Pós-live: compra no checkout do lote vigente |
+| **Objetivo** | Pré-live: cadastro (diagnóstico + aviso da live de 03/11, 20h). Pós-live: compra, pelo checkout do lote (VID-08) ou pela página de vendas (VID-09 e 10) |
 | **Consciência** | 1 a 5, indicada em cada roteiro |
 | **Modelo no Desafio** | Criativos em vídeo da escassez do Desafio (AD 10, vídeo de 30 s com contador; AD 11, bônus) e o motion de contagem |
-| **O que acontece depois do clique** | Pré-live: página de captura → grupo de WhatsApp da live. Pós-live: checkout do lote |
+| **O que acontece depois do clique** | Pré-live: página de captura → grupo de WhatsApp da live. Pós-live: checkout do lote (VID-08) ou página de vendas (VID-09 e 10) |
 
 **Identidade visual: `[[PENDENTE: identidade visual]]`.** Cor, fonte, logo, estilo de motion e de ícone ainda não existem. Os roteiros definem texto na tela, ordem, tempo e posição; o acabamento visual entra depois. "Destaque" é a palavra ou o número de maior contraste na identidade futura. Até lá, o editor entrega uma versão neutra (texto simples sobre fundo liso) só para validar ritmo e texto.
 
@@ -113,7 +113,7 @@
 ### VID-07 | "É amanhã" | 15 s | Dra. em close, gravação espontânea | Lembrete (02/11, feriado de Finados) | Consciência 4 a 5
 - **Tom:** sóbrio. É segunda-feira, 02/11, feriado de Finados: roupa neutra, voz calma, sem sorriso de festa, sem música.
 - **Gancho (0 a 3 s, 5 palavras):** "Amanhã, às oito da noite." Texto na tela: "Amanhã, 20h, ao vivo."
-- **Desenvolvimento (3 a 11 s, 8 s, 16 palavras):** "A live de revelação é no YouTube. Sem pressa e sem pressão: deixe o aviso combinado."
+- **Desenvolvimento (3 a 11 s, 8 s, 16 palavras):** "A live de revelação é no YouTube. Sem pressa e sem pressão: deixe o lembrete ativado."
 - **CTA (11 a 15 s, 4 s, 6 palavras):** "Cadastre-se hoje. Amanhã eu abro tudo."
 - **Texto na tela:** "É AMANHÃ" (0 a 3 s) → "03/11 · 20h" (3 a 15 s).
 - **O que gravar:** vertical, celular, luz natural, sem retoque: a sensação é de recado, não de produção. Duas tomadas.
@@ -173,7 +173,7 @@
 1. **Gravação:** a Dra. grava em vídeo VID-01, 02, 06, 07 (pré-live) e VID-10 (pós-live), e só a locução de VID-04, 05, 08 e 09. Sugerido: gravar tudo em uma sessão de 2 horas, com 3 roupas, antes de 13/10. VID-07 usa roupa sóbria. Os trechos pós-live dependem de datas e preços: gravar sem os valores e inserir os números em motion depois.
 2. **Pendências:** `[[FOTO DRA]]` (apoio), preços avulsos, `[[PENDENTE: data do lote]]`, parcelamento, bônus, `[[PENDENTE: identidade visual]]` e aprovação da Dra. da fala do VID-10.
 3. **Termos novos:** "Termostato Invisível" é explicado em VID-02. Nos demais vídeos em que aparece, repetir a explicação em uma frase na legenda.
-4. **Testes A/B:** (a) VID-01 (Dra. em close) contra VID-03 (texto na tela): o que converte mais cadastro por mil impressões; (b) VID-04 (contador) contra VID-07 (recado gravado em celular) no mesmo público de remarketing; (c) VID-08 com e sem a linha do bônus.
+4. **Testes A/B:** a) VID-01 (Dra. em close) contra VID-03 (texto na tela): o que converte mais cadastro por mil impressões; b) VID-04 (contador) contra VID-07 (recado gravado em celular) no mesmo público de remarketing; c) VID-08 com e sem a linha do bônus.
 5. **Frames de abertura e thumbnail:** em todo vídeo, o frame 0 é a frase do gancho em letra grande; o thumbnail para o feed repete o gancho com o rosto da Dra. (VID-01, 02, 06, 07, 10).
 6. **Peça do Desafio sem equivalente:** o "motion" do Desafio fechava sempre com o preço do ingresso e o do lote seguinte. Na Black, a pré-live não tem preço; só os vídeos pós-live (VID-08 a 10) têm placeholders de preço.
 7. **Áudio:** usar trilha licenciada, sem letra; a base é sensível a áudio muito alto (50+). Normalizar em -14 LUFS.

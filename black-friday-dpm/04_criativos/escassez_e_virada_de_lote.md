@@ -289,7 +289,7 @@ Estas peças só vão ao ar nas últimas horas reais antes de `[[PENDENTE: fecha
 3. **Parcelamento visível:** a pesquisa mostra que o cartão parcelado é a forma de pagamento mais escolhida; sem as parcelas em todo anúncio, a conversão cai. As peças trazem o placeholder para forçar a definição.
 4. **Troca de arte na virada do lote:** quando um lote vira, desativar a família anterior e ativar a seguinte na mesma hora, e trocar o preço da arte. Se o lote virar por quantidade (em vez de data), trocar "vira em [[PENDENTE: data do lote]]" por "vira quando [[CONFIRMAR: critério de virada]]" e não usar expressão de "a qualquer momento" sem ser verdade.
 5. **Peças do Desafio sem equivalente:** os anúncios do Desafio que citavam ingressos já vendidos ou poucos lugares exigem dado real de quantidade e foram excluídos; o Ad 18 ("a única vez que o Desafio custa o valor de ingresso") foi reescrito como "esta condição não se repete", sem afirmar que o valor não volta a cair.
-6. **Testes A/B:** (a) placar (01 e 02) contra fato do bolso (03 e 04) na virada do Lote Especial; (b) vídeo com contador (NSR-05 e 06) contra estático (NSR-03 e 04); (c) "Entrar de vez" contra "Garantir meu acesso" em alunas.
+6. **Testes A/B:** a) placar (01 e 02) contra fato do bolso (03 e 04) na virada do Lote Especial; b) vídeo com contador (NSR-05 e 06) contra estático (NSR-03 e 04); c) "Entrar de vez" contra "Garantir meu acesso" em alunas.
 7. **Compliance:** em nenhum anúncio há promessa de dinheiro, de tratamento ou de fim da autossabotagem. A frase "decida uma vez" é sobre a escolha, não sobre resultado.
 8. **Contagens:** 24 anúncios por família (4 famílias × 6) mais 2 condicionais = 26 IDs: ESC-ESP-01 a 06, ESC-PRI-01 a 06, ESC-ULT-01 a 06, ESC-NSR-01 a 06, ESC-BON-01 e 02.
 

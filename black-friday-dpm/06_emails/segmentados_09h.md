@@ -62,7 +62,7 @@ Eu não vou falar de valor por e-mail. Vou falar na live. Mas quero que você sa
 Se você já vê o Termostato Invisível agindo (o dinheiro que entra e vai embora), eu falo disso na live.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura C | email | SA-01]]
+[[LINK: captura C | email | sa-01]]
 
 Dra. Próton
 
@@ -85,7 +85,7 @@ A conversa da live de 03/11 não é para você recomeçar. É para você ficar. 
 Eu explico tudo ao vivo, às 20h, no YouTube.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura C | email | SA-02]]
+[[LINK: captura C | email | sa-02]]
 
 Dra. Próton
 
@@ -108,7 +108,7 @@ Eu também vou explicar como fica o seu acesso atual quando você faz a mudança
 Dia 03/11, às 20h, no YouTube.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura C | email | SA-03]]
+[[LINK: captura C | email | sa-03]]
 
 Dra. Próton
 
@@ -129,7 +129,7 @@ Essa aluna não ficou mais forte do que você. Ela só não saiu do caminho. E o
 No dia 03/11, às 20h, eu abro a condição completa para quem já é do Clube.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura C | email | SA-04]]
+[[LINK: captura C | email | sa-04]]
 
 Dra. Próton
 
@@ -162,7 +162,7 @@ Pode ser que você já tenha feito algum. Pode ser que nenhum. Em qualquer caso,
 Dia 03/11, às 20h.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura C | email | SA-05]]
+[[LINK: captura C | email | sa-05]]
 
 Dra. Próton
 
@@ -185,7 +185,7 @@ Tenha à mão o seu meio de pagamento se for decidir na hora, mas só decida se 
 Te vejo terça, às 20h.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura C | email | SA-06]]
+[[LINK: captura C | email | sa-06]]
 
 Dra. Próton
 
@@ -208,7 +208,7 @@ Mas eu preciso ser honesta, como fui no último dia: um plano no papel não muda
 No dia 03/11, às 20h, eu vou abrir, ao vivo, uma condição para você não precisar voltar para o começo.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura D | email | SD-01]]
+[[LINK: captura D | email | sd-01]]
 
 Dra. Próton
 
@@ -233,7 +233,7 @@ Lembra do 1 vezes 0? "Se você não investe em você, o resultado da sua vida se
 No dia 03/11, às 20h, eu mostro como continuar sem precisar de força de vontade todo dia.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura D | email | SD-02]]
+[[LINK: captura D | email | sd-02]]
 
 Dra. Próton
 
@@ -254,7 +254,7 @@ Eu pergunto sem julgar, porque quase todo mundo deixa na gaveta. Não por pregui
 Se você quer retomar do ponto onde parou, e não do zero, a live de 03/11 é para você. Às 20h, ao vivo, no YouTube.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura D | email | SD-03]]
+[[LINK: captura D | email | sd-03]]
 
 Dra. Próton
 
@@ -277,7 +277,7 @@ Você não vai precisar decidir tudo sozinha de novo.
 Dia 03/11, às 20h, no YouTube. Confirme a sua presença para receber o link.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura D | email | SD-04]]
+[[LINK: captura D | email | sd-04]]
 
 Dra. Próton
 
@@ -296,7 +296,7 @@ Esta é a resposta que eu tinha guardado. O Clube Secreto é um caminho: protoco
 Eu não vou contar o valor por e-mail. Vou contar ao vivo.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura D | email | SD-05]]
+[[LINK: captura D | email | sd-05]]
 
 Dra. Próton
 
@@ -317,7 +317,7 @@ Terça-feira, às 20h, eu abro essa decisão para quem esteve comigo. Será ao v
 Eu prefiro que você não compre do que compre e não viva. Se não for para você agora, tudo bem. Mas ouça antes de decidir.
 
 **Botão:** QUERO ASSISTIR À LIVE
-[[LINK: captura D | email | SD-06]]
+[[LINK: captura D | email | sd-06]]
 
 Dra. Próton
 
@@ -338,15 +338,15 @@ Dra. Próton
 
 | ID da peça | Token principal (botão QUERO ASSISTIR À LIVE) | O que o link faz | Token se já inscrito e fora do grupo | Token se já está no grupo | Quem cria |
 |---|---|---|---|---|---|
-| SA-01 | [[LINK: captura C | email | SA-01]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-01]] | [[LINK: calendário | email | SA-01]] | Web designer (captura); Automação (grupo e calendário) |
-| SA-02 | [[LINK: captura C | email | SA-02]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-02]] | [[LINK: calendário | email | SA-02]] | Web designer (captura); Automação (grupo e calendário) |
-| SA-03 | [[LINK: captura C | email | SA-03]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-03]] | [[LINK: calendário | email | SA-03]] | Web designer (captura); Automação (grupo e calendário) |
-| SA-04 | [[LINK: captura C | email | SA-04]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-04]] | [[LINK: calendário | email | SA-04]] | Web designer (captura); Automação (grupo e calendário) |
-| SA-05 | [[LINK: captura C | email | SA-05]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-05]] | [[LINK: calendário | email | SA-05]] | Web designer (captura); Automação (grupo e calendário) |
-| SA-06 | [[LINK: captura C | email | SA-06]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | SA-06]] | [[LINK: calendário | email | SA-06]] | Web designer (captura); Automação (grupo e calendário) |
-| SD-01 | [[LINK: captura D | email | SD-01]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-01]] | [[LINK: calendário | email | SD-01]] | Web designer (captura); Automação (grupo e calendário) |
-| SD-02 | [[LINK: captura D | email | SD-02]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-02]] | [[LINK: calendário | email | SD-02]] | Web designer (captura); Automação (grupo e calendário) |
-| SD-03 | [[LINK: captura D | email | SD-03]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-03]] | [[LINK: calendário | email | SD-03]] | Web designer (captura); Automação (grupo e calendário) |
-| SD-04 | [[LINK: captura D | email | SD-04]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-04]] | [[LINK: calendário | email | SD-04]] | Web designer (captura); Automação (grupo e calendário) |
-| SD-05 | [[LINK: captura D | email | SD-05]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-05]] | [[LINK: calendário | email | SD-05]] | Web designer (captura); Automação (grupo e calendário) |
-| SD-06 | [[LINK: captura D | email | SD-06]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | SD-06]] | [[LINK: calendário | email | SD-06]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-01 | [[LINK: captura C | email | sa-01]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | sa-01]] | [[LINK: calendário | email | sa-01]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-02 | [[LINK: captura C | email | sa-02]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | sa-02]] | [[LINK: calendário | email | sa-02]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-03 | [[LINK: captura C | email | sa-03]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | sa-03]] | [[LINK: calendário | email | sa-03]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-04 | [[LINK: captura C | email | sa-04]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | sa-04]] | [[LINK: calendário | email | sa-04]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-05 | [[LINK: captura C | email | sa-05]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | sa-05]] | [[LINK: calendário | email | sa-05]] | Web designer (captura); Automação (grupo e calendário) |
+| SA-06 | [[LINK: captura C | email | sa-06]] | Leva à captura das alunas do Clube (inscrição na live e condição de aluna) | [[LINK: grupo alunas | email | sa-06]] | [[LINK: calendário | email | sa-06]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-01 | [[LINK: captura D | email | sd-01]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | sd-01]] | [[LINK: calendário | email | sd-01]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-02 | [[LINK: captura D | email | sd-02]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | sd-02]] | [[LINK: calendário | email | sd-02]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-03 | [[LINK: captura D | email | sd-03]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | sd-03]] | [[LINK: calendário | email | sd-03]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-04 | [[LINK: captura D | email | sd-04]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | sd-04]] | [[LINK: calendário | email | sd-04]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-05 | [[LINK: captura D | email | sd-05]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | sd-05]] | [[LINK: calendário | email | sd-05]] | Web designer (captura); Automação (grupo e calendário) |
+| SD-06 | [[LINK: captura D | email | sd-06]] | Leva à captura de quem viveu Desafio, Imersão ou Aulão (inscrição na live) | [[LINK: grupo viveu o método | email | sd-06]] | [[LINK: calendário | email | sd-06]] | Web designer (captura); Automação (grupo e calendário) |

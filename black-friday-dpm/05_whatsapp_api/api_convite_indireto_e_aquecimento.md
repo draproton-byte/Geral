@@ -29,7 +29,7 @@
 ```text
 Por que a gente recomeça tanto, {{nome}}?
 
-Separei uma informação rápida e gratuita sobre isso. Quase ninguém explica assim.
+Separei uma informação rápida e gratuita sobre isso, em poucas linhas.
 
 Posso te mandar?
 
@@ -321,10 +321,14 @@ Digite SAIR se não quiser mais receber mensagens
 
 Só a mensagem 1 é template. As demais saem como mensagem de sessão, dentro das 24 horas após o clique em SIM.
 
-| ID | Tipo | Categoria | Botões | Variáveis | Status |
+Estrutura de cada template: cabeçalho de texto (coluna "Cabeçalho": até 60 caracteres, sem variável e sem emoji), corpo (o bloco da peça, menos de 300 caracteres), rodapé SAIR e botões (no máximo 3; aqui são 2, de até 25 caracteres).
+
+| ID | Cabeçalho | Categoria | Botões | Variáveis | Status |
 |---|---|---|---|---|---|
-| API-BF-04.1-N, 04.1-D, 04.1-A | Template com rodapé SAIR | Marketing | 2 (resposta rápida: SIM, MANDA e AGORA NÃO) | `{{nome}}` no meio do corpo | **PRECISA DE APROVAÇÃO**. Corpo curto (menos de 300 caracteres), sem preço, sem lote, sem escassez |
-| API-BF-04.2 a 04.5 e 04.N (N, D, A) | Mensagem de sessão (janela de 24 h) | Não se aplica | 04.4 tem 1 botão de resposta rápida | `{{nome}}` | Sem aprovação. Não enviar fora da janela |
+| API-BF-04.1-N | Uma informação rápida e gratuita | Marketing | 2 (resposta rápida: SIM, MANDA e AGORA NÃO) | `{{nome}}` no meio do corpo | **PRECISA DE APROVAÇÃO**. Sem preço, sem lote, sem escassez |
+| API-BF-04.1-A | Para as alunas do Clube Secreto | Marketing | 2 (resposta rápida: SIM, MANDA e AGORA NÃO) | `{{nome}}` no meio do corpo | **PRECISA DE APROVAÇÃO**. Sem preço, sem lote, sem escassez |
+| API-BF-04.1-D (reserva) | Para quem já viveu o método comigo | Marketing | 2 (resposta rápida: SIM, MANDA e AGORA NÃO) | `{{nome}}` no meio do corpo | Só aprovar se a versão D sair da reserva |
+| API-BF-04.2 a 04.5 e 04.N (N, D, A) | Não se aplica (mensagem de sessão, janela de 24 h) | Não se aplica | 04.4 tem 1 botão de resposta rápida | `{{nome}}` | Sem aprovação. Não enviar fora da janela |
 
 **Dependências**
 - Página de reserva (`03_paginas`), com o formulário de nome, e-mail e WhatsApp.

@@ -7,7 +7,7 @@ Lista:
 ✅ Envio para a base de quem já viveu o método comigo e não é do Clube Secreto: compradores do Desafio A Nova Realidade, da Imersão Desbloqueie o Poder da Sua Mente, do Aulão e demais produtos.
 ❌ Excluir alunas do Clube Secreto (inclusive quem está na janela de garantia de 7 dias)
 ❌ Excluir quem já é Vitalício (se existir)
-❌ Excluir já cadastradas na live (a partir da mensagem 03) [[CONFIRMAR: excluir quem já reservou a vaga para não repetir a captação]]
+❌ Excluir já cadastradas na live (a partir da mensagem 03) [[CONFIRMAR: excluir quem já reservou o lugar para não repetir a captação]]
 ❌ Em 13/10 e 20/10, quem receber no mesmo dia a API-BF-04.x (versão -D) de `05_whatsapp_api/api_convite_indireto_e_aquecimento.md` recebe só a mensagem desta série (01 e 03) [[CONFIRMAR: deduplicar a lista no ListBoss]]
 
 Legenda:
@@ -21,7 +21,7 @@ Botões: [ Saiba Mais ] e [ SAIR ] (2 botões, textos curtos). Todas as mensagen
 
 ____________________________________________________________
 
-🔄 01. API CAPTAÇÃO, terça-feira, 13, às 09h
+🔄 01. API CAPTAÇÃO, terça-feira, 13/10, às 09h
 
 ♾️ *UMA DECISÃO. UM ÚNICO PAGAMENTO. SEM RECOMEÇAR.*
 
@@ -38,7 +38,7 @@ Esta condição não se repete. O que vier depois é outra oferta, com outro pre
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-01]]
 
 [ SAIR ]
 
@@ -46,7 +46,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 ──────────────────────────────────────────────────
 
-🔄 02. API CAPTAÇÃO, sexta-feira, 16, às 09h
+🔄 02. API CAPTAÇÃO, sexta-feira, 16/10, às 09h
 
 *TUDO O QUE EU CONSTRUÍ, EM UMA DECISÃO SÓ*
 
@@ -63,7 +63,7 @@ Um único pagamento e sem recomeçar. Sem prazo para dar conta de tudo.
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-02]]
 
 [ SAIR ]
 
@@ -71,7 +71,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 ──────────────────────────────────────────────────
 
-🔄 03. API CAPTAÇÃO, terça-feira, 20, às 09h
+🔄 03. API CAPTAÇÃO, terça-feira, 20/10, às 09h
 
 *O CLUBE SECRETO E MAIS 11 PRODUTOS, DE UMA VEZ SÓ, COM UMA CONDIÇÃO QUE NÃO SE REPETE.*
 
@@ -79,14 +79,14 @@ Nessa Black, eu vou abrir acesso vitalício ao Clube Secreto e a 11 produtos que
 
 Mas a oferta completa, com todos os detalhes, só é revelada na *live de revelação, terça, 03/11, às 20h, ao vivo no YouTube.*
 
-Quem não estiver lá na hora, perde o Lote Especial (o menor valor de toda a Black Próton Vitalícia). [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
+O Lote Especial (o menor valor de toda a Black Próton Vitalícia) é para quem estiver lá na hora. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
 👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-03]]
 
 [ SAIR ]
 
@@ -94,7 +94,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 ──────────────────────────────────────────────────
 
-🔄 04. API CAPTAÇÃO, sexta-feira, 23, às 09h
+🔄 04. API CAPTAÇÃO, sexta-feira, 23/10, às 09h
 
 *L-O-U-C-A.*
 
@@ -102,7 +102,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 Só que eu não estou fazendo isso por impulso. Estou fazendo porque você, que já viveu o método comigo, merece uma decisão que só precisa tomar uma vez.
 
-Essa é a minha *Black Próton Vitalícia*. Quem estiver comigo na live, terça, 03/11, às 20h, ao vivo no YouTube, garante o Lote Especial, o menor valor de toda a oferta.
+Essa é a minha *Black Próton Vitalícia*. Quem estiver comigo na live, terça, 03/11, às 20h, ao vivo no YouTube, tem acesso ao Lote Especial, o menor valor de toda a oferta.
 
 Os detalhes completos eu só revelo ao vivo. 😉
 
@@ -111,7 +111,7 @@ Os detalhes completos eu só revelo ao vivo. 😉
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-04]]
 
 [ SAIR ]
 
@@ -119,7 +119,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 ──────────────────────────────────────────────────
 
-🔄 05. API CAPTAÇÃO, terça-feira, 27, às 09h
+🔄 05. API CAPTAÇÃO, terça-feira, 27/10, às 09h
 
 *NA MINHA BLACK, VOU FAZER O QUE O CLUBE SECRETO NUNCA FEZ ANTES.*
 
@@ -127,14 +127,14 @@ Vou abrir acesso vitalício ao Clube Secreto e a 11 produtos, do Desafio à Imer
 
 ⚠️ Os detalhes completos, incluindo o Lote Especial, eu só revelo ao vivo, na *live de revelação da Black Próton Vitalícia, terça, 03/11, às 20h.*
 
-Quem não estiver lá no horário, perde a chance de garantir o menor valor da oferta.
+O menor valor da oferta, o Lote Especial, é para quem estiver ao vivo no horário.
 
 👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-05]]
 
 [ SAIR ]
 
@@ -142,7 +142,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 ──────────────────────────────────────────────────
 
-🔄 06. API CAPTAÇÃO, sexta-feira, 30, às 09h
+🔄 06. API CAPTAÇÃO, sexta-feira, 30/10, às 09h
 
 *"DEPOIS EU VEJO."*
 
@@ -155,14 +155,14 @@ A minha *Black Próton Vitalícia* tira o prazo e tira a desculpa: acesso vital�
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Quem estiver comigo ao vivo garante o Lote Especial. O resto eu só revelo na live.
+O Lote Especial é para quem estiver comigo ao vivo. O resto eu só revelo na live.
 
 👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-06]]
 
 [ SAIR ]
 
@@ -187,7 +187,7 @@ _Quantas vezes você já recomeçou?_
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-07]]
 
 [ SAIR ]
 
@@ -195,7 +195,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 ──────────────────────────────────────────────────
 
-🔄 08. API CAPTAÇÃO, terça-feira, 03, às 09h
+🔄 08. API CAPTAÇÃO, terça-feira, 03/11, às 09h
 
 *É HOJE: às 20h eu revelo a Black Próton Vitalícia.*
 
@@ -212,7 +212,7 @@ Esta condição não se repete. O que vier depois é outra oferta, com outro pre
 Se não quiser mais receber mensagens digite "SAIR"
 
 [ Saiba Mais ]
-[[LINK: Saiba Mais (API)]]
+[[LINK: captura D | api | api-viveu-08]]
 
 [ SAIR ]
 
@@ -242,8 +242,8 @@ O que mudou em relação ao modelo (mensagem a mensagem)
 
 Pendências e [[CONFIRMAR]] que ficaram
 1. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (primeira ocorrência, mensagem 03). Confirmar antes de aprovar 03 a 08.
-2. [[CONFIRMAR: excluir quem já reservou a vaga]] na lista, para não repetir a captação para quem já se cadastrou.
-3. [[LINK: Saiba Mais (API)]]: a URL do botão precisa existir (página de captura segmentada para "quem já viveu o método").
+2. [[CONFIRMAR: excluir quem já reservou o lugar]] na lista, para não repetir a captação para quem já se cadastrou.
+3. Links: captura D (quem viveu o método e não é do Clube), token por peça (tabela "Links desta peça" ao fim). A página precisa existir.
 4. Segmento: os compradores do Desafio, da Imersão e do Aulão precisam de uma tag única "viveu o método e não é do Clube" no ListBoss e no DataCrazy, com exclusão automática de alunas do Clube e de Vitalícios. [[CONFIRMAR: contagem da lista]]
 5. Mensagem 07 cai em 02/11 (Finados): confirmar se a equipe quer disparar no feriado (o texto já está sóbrio).
 6. Nome do produto: usar sempre o nome oficial "Workshop Terapeuta de Elite". "Elite" só é vestígio do Dr. João quando aparece fora desse nome.
@@ -255,3 +255,16 @@ Conflitos entre o modelo e as regras da Dra.
 - O modelo cita "evento presencial": removido.
 - O modelo dá "a maior oferta que eu já fiz": trocado por "a oferta que o Clube Secreto nunca fez antes".
 - Live fechada: o modelo para "demais alunos" não tem live fechada, então não há pendência de live fechada neste documento.
+
+____________________________________________________________
+
+LINKS DESTA PEÇA (ID da peça | token | o que o link faz | quem cria)
+
+- api-viveu-01 | [[LINK: captura D | api | api-viveu-01]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-02 | [[LINK: captura D | api | api-viveu-02]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-03 | [[LINK: captura D | api | api-viveu-03]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-04 | [[LINK: captura D | api | api-viveu-04]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-05 | [[LINK: captura D | api | api-viveu-05]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-06 | [[LINK: captura D | api | api-viveu-06]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-07 | [[LINK: captura D | api | api-viveu-07]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer
+- api-viveu-08 | [[LINK: captura D | api | api-viveu-08]] | Faz: Captura de quem viveu o método e não é do Clube: reservar o lugar na live (botão Saiba Mais) | Cria: Web designer

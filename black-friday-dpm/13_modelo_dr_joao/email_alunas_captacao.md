@@ -18,7 +18,7 @@ Lista:
 ❌ Excluir já cadastradas na live
 ❌ Excluir da série de 07h (`06_emails/captacao_serie.md`), nas mesmas datas, as alunas que recebem este e-mail: EM-BF-03 (15/10), EM-BF-08 (20/10), EM-BF-11 (23/10), EM-BF-15 (27/10), EM-BF-17 (29/10), EM-BF-19 (31/10), EM-BF-21 (02/11) e EM-BF-22 (03/11)
 
-Botão de todos os e-mails: >> RESERVAR MINHA CONDIÇÃO DE ALUNA << (link: [[LINK: página das alunas]])
+Botão de todos os e-mails: >> RESERVAR MINHA CONDIÇÃO DE ALUNA << (cada e-mail leva o token captura C, canal email, com o ID da própria peça: em-alunas-01 a em-alunas-08)
 
 Regra de agenda: esta série substitui a série SA de `06_emails/segmentados_09h.md` (banco de reserva). Nenhuma aluna recebe e-mail desta série e e-mail SA no mesmo dia.
 
@@ -48,10 +48,10 @@ Nenhum valor sai antes disso. É ao vivo, para todas ao mesmo tempo.
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
 
-Reserve agora a sua vaga e a sua condição de aluna: 👇🏽
+Reserve agora o seu lugar e a sua condição de aluna: 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-01]]
 
 Espero você ao vivo.
 
@@ -80,10 +80,10 @@ E, por você já ser aluna, essa condição é só sua. Ela não se repete. O qu
 
 Tem um detalhe importante: a condição é revelada só ao vivo.
 
-Por isso, reserve agora a sua vaga e a sua condição de aluna: 👇🏽
+Por isso, reserve agora o seu lugar e a sua condição de aluna: 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-02]]
 
 Nos vemos no dia 03.
 
@@ -115,7 +115,7 @@ Depois de reservar, faça o diagnóstico dos 5 padrões. São poucos minutos, e 
 Reservar leva um minuto. O que costuma travar é o "depois eu vejo". 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-03]]
 
 Eu conto uma vez. Quero você lá.
 
@@ -139,7 +139,7 @@ Será a oportunidade de ficar no Clube para sempre, com mais 11 produtos, por um
 
 Mas essa condição será para as alunas que estiverem presentes na live de 03/11.
 
-Reservar a sua vaga leva um minuto e garante o aviso e o lembrete da live.
+Reservar o seu lugar leva um minuto e garante o aviso e o lembrete da live.
 
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
@@ -147,7 +147,7 @@ Reservar a sua vaga leva um minuto e garante o aviso e o lembrete da live.
 Toque no botão abaixo e reserve agora: 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-04]]
 
 Te espero na terça.
 
@@ -176,10 +176,10 @@ Mas essa condição tem uma regra: ela será para as alunas que estiverem presen
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
 
-Se você ainda não reservou a sua vaga, faça isso agora. Depois da reserva, você entra no grupo oficial, onde chegam o link da live e os avisos: 👇🏽
+Se você ainda não reservou o seu lugar, faça isso agora. Depois da reserva, você entra no grupo oficial, onde chegam o link da live e os avisos: 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-05]]
 
 Te espero lá.
 
@@ -208,10 +208,10 @@ A condição é contada uma vez, ao vivo. Ela não se repete: o que vier depois 
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
 
-Se você ainda não reservou a sua vaga, não deixe para depois. 👇🏽
+Se você ainda não reservou o seu lugar, não deixe para depois. 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-06]]
 
 Até terça.
 
@@ -243,7 +243,7 @@ Uma frase que eu repito muito: "Nunca mais eu deixo de investir em mim." Para mi
 Se ainda não reservou, o botão abaixo leva à sua reserva: 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-07]]
 
 Até amanhã.
 
@@ -255,7 +255,7 @@ ________________________________________________________________
 ________________________________________________________________
 
 Assunto: Hoje, às 20h: a oferta que o Clube Secreto nunca fez antes
-Linha: Reserve a sua vaga e a sua condição de aluna até a live começar
+Linha: Reserve o seu lugar e a sua condição de aluna até a live começar
 
 ________________________________________________________________
 
@@ -267,7 +267,7 @@ Por já ser do Clube, você tem uma vantagem que o público geral não tem: a co
 
 Será a oportunidade de ficar no Clube para sempre, com mais 11 produtos, por um único pagamento. Sem recomeçar.
 
-Se você ainda não reservou, esta é a última chamada: reserve a sua vaga e a sua condição de aluna antes de a live começar.
+Se você ainda não reservou, faça isso agora: reserve o seu lugar e a sua condição de aluna antes de a live começar.
 
 Eu prefiro que você não compre do que compre e não viva. Então venha ouvir. Quem decide é você, depois de ouvir.
 
@@ -277,7 +277,7 @@ Eu prefiro que você não compre do que compre e não viva. Então venha ouvir. 
 Toque no botão abaixo, reserve agora e entre no grupo: 👇🏽
 
 >> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
-[[LINK: página das alunas]]
+[[LINK: captura C | email | em-alunas-08]]
 
 Te espero ao vivo.
 
@@ -302,27 +302,40 @@ O que mudou em relação ao modelo (e-mail a e-mail)
 - 01: alunos do modelo viram alunas do Clube. "Todos os meus cursos para sempre, inclusive os novos" virou "o Clube mais 11 produtos, por um único pagamento, tudo o que existe hoje, sem prazo para dar conta". A live fechada com acesso um dia antes do público virou a mesma live de 03/11, com a condição de aluna revelada ali. O "menor valor liberado ao vivo" virou Lote Especial só para quem estiver assistindo (marcado para confirmação). O botão de resgate virou reserva da vaga e da condição de aluna.
 - 02: o superlativo do modelo virou "a oferta que o Clube Secreto nunca fez antes". Removidos os lançamentos futuros. "Condição exclusiva que não será liberada depois" virou "ela não se repete, o que vier depois é outra oferta, com outro preço".
 - 03: no modelo é o reenvio do 01. Reescrito inteiro, com o mesmo papel (reforço da condição revelada só ao vivo), com o ângulo "começar, parar, voltar" e o diagnóstico dos 5 padrões. Para manter o reenvio literal do 01, enviar o 01 de novo só a quem não abriu.
-- 04: a validade de sete dias do modelo virou contagem até a live. A frase de reservas limitadas do modelo foi REMOVIDA (não há limite de vagas na live).
+- 04: a validade de sete dias do modelo virou contagem até a live. A frase de reservas limitadas do modelo foi REMOVIDA (não há limite de lugares na live).
 - 05: mesma ideia (uma Black igual para todos e, desta vez, diferente para quem já é da casa), com a regra de estar presente na live.
 - 06: removidos o número de formações do modelo e os cursos futuros. Entra a lista dos 11 produtos. "Uma única noite... depois não estará mais disponível" virou "contada uma vez, ao vivo. Não se repete".
 - 07: tom sóbrio por ser Finados, sem emoji nem caixa alta no assunto. Frase intocável "Nunca mais eu deixo de investir em mim." usada literalmente.
-- 08: o superlativo do modelo virou "a oferta que o Clube Secreto nunca fez antes". "Última chance de resgatar" virou "última chamada" apenas para a reserva, nunca para o acesso vitalício. Frase intocável "Eu prefiro que você não compre do que compre e não viva." usada literalmente.
+- 08: o superlativo do modelo virou "a oferta que o Clube Secreto nunca fez antes". "Última chance de resgatar" virou "faça isso agora" apenas para a reserva, nunca para o acesso vitalício (a reserva segue aberta até a live começar). Frase intocável "Eu prefiro que você não compre do que compre e não viva." usada literalmente.
 - Em todos: assuntos entre 31 e 58 caracteres, sem emoji e sem caixa alta; linha de preview entre 53 e 66; primeira linha diferente em cada e-mail; nenhum preço, parcela ou promessa de resultado; "a melhor condição de todos os lotes" trocada por "o menor valor de todos os lotes, o Lote Especial" (fato do briefing); expressões de cobrança recorrente e de reserva limitada removidas.
 
 Pendências e [[CONFIRMAR]]
 1. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (e-mail 01, primeira ocorrência; vale para os demais e-mails que repetem a ideia).
-2. [[LINK: página das alunas]] (botão de todos os e-mails).
+2. Links: captura C (botão de todos os e-mails), token por peça, tabela "Links desta peça" ao fim.
 3. [[CONFIRMAR: live fechada para alunas? Se sim, trocar data e horário]]. O modelo tinha uma live fechada só para alunos, um dia antes da abertura. Aqui a condição das alunas é revelada na mesma live de 03/11. Se a equipe decidir por uma live fechada, trocar data, horário e "ao vivo no YouTube" nos e-mails 01 a 08.
-4. Conferir se a reserva é, de fato, o que identifica a aluna para a condição. Se for só o grupo que recebe o aviso, ajustar "reserve a sua vaga e a sua condição de aluna".
+4. Conferir se a reserva é, de fato, o que identifica a aluna para a condição. Se for só o grupo que recebe o aviso, ajustar "reserve o seu lugar e a sua condição de aluna".
 5. [[CONFIRMAR: a aula de terça de 03/11 muda de horário, é substituída pela live ou continua]] antes de agendar o e-mail 08 (03/11 é terça, dia da aula ao vivo do Clube).
 6. A lista exclui "já cadastradas na live". Quem já reservou recebe os lembretes e o convite VIP, por isso os botões falam de "se você ainda não reservou".
 7. Nome do produto: usar sempre o nome oficial "Workshop Terapeuta de Elite". "Elite" só é vestígio do Dr. João quando aparece fora desse nome.
-8. O e-mail 03 diz que o diagnóstico vem depois da reserva, como no onboarding (`api_onboarding.md`). Se a página das alunas já traz o diagnóstico, trocar para "ao reservar".
+8. O e-mail 03 diz que o diagnóstico vem depois da reserva, como no onboarding (`api_onboarding.md`). Se a captura C já traz o diagnóstico, trocar para "ao reservar".
 
 Conflitos entre o modelo e as regras da Dra.
 - Promessa de lançamentos futuros do modelo (e-mails 01, 02, 04, 05, 06, 07, 08): removida em todos.
 - "20 formações, cursos, imersões e livros digitais": trocado por "o Clube Secreto e mais 11 produtos".
-- Escassez de código de resgate do modelo (limite de unidades e validade de sete dias): removida. Não há limite de vagas na live. O prazo virou contagem até a live.
-- "Última chance" do e-mail 08: mantida só como "última chamada" para a reserva.
+- Escassez de código de resgate do modelo (limite de unidades e validade de sete dias): removida. Não há limite de lugares na live. O prazo virou contagem até a live.
+- "Última chance" do e-mail 08: removida; fica só "faça isso agora" para a reserva.
 - Superlativos "maior oferta da minha história" e "melhor oferta que já fiz": trocados por "a oferta que o Clube Secreto nunca fez antes". "A melhor condição de todos os lotes": trocada por "o menor valor de todos os lotes, o Lote Especial".
 - "Preço que eu nunca pratiquei antes, com entregáveis que nunca existiram" (e-mail 01 do modelo): removido, é afirmação sem lastro para a Dra.
+
+________________________________________________________________
+
+LINKS DESTA PEÇA (ID da peça | token | o que o link faz | quem cria)
+
+- em-alunas-01 | [[LINK: captura C | email | em-alunas-01]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-02 | [[LINK: captura C | email | em-alunas-02]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-03 | [[LINK: captura C | email | em-alunas-03]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-04 | [[LINK: captura C | email | em-alunas-04]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-05 | [[LINK: captura C | email | em-alunas-05]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-06 | [[LINK: captura C | email | em-alunas-06]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-07 | [[LINK: captura C | email | em-alunas-07]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer
+- em-alunas-08 | [[LINK: captura C | email | em-alunas-08]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna | Cria: Web designer

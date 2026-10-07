@@ -18,7 +18,7 @@ Excluir alunas do Clube na janela de garantia de 7 dias. Excluir quem já é Vit
 
 
 ______________________________________________________________
-🔄 00-A. Captação, terça-feira, 13, 09h30 (Quando der)
+🔄 00-A. Captação, terça-feira, 13, 09h30
 ______________________________________________________________
 
 
@@ -37,9 +37,9 @@ Você decide uma única vez e tem acesso para sempre ao *Clube Secreto e a mais 
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-00a]]
 
 Nos vemos lá,
 *Dra. Próton*
@@ -65,9 +65,9 @@ O que eu faço é abrir um caminho com prática e acompanhamento. Por isso a *Bl
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-00b]]
 
 Te espero na live!
 *Dra. Próton*
@@ -93,9 +93,9 @@ Uma única decisão, com acesso para sempre ao Clube e a mais 11 produtos.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-01]]
 
 Te espero lá.
 *Dra. Próton*
@@ -117,9 +117,9 @@ A condição completa é revelada na live.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-02]]
 
 Até a live.
 *Dra. Próton*
@@ -143,9 +143,9 @@ No dia *03/11*, eu abro ao vivo tudo o que construí para desarmar esse padrão.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-03]]
 
 Te espero na live!
 *Dra. Próton*
@@ -170,9 +170,9 @@ A condição é revelada ao vivo.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-04]]
 
 Nos vemos dia 03.
 *Dra. Próton*
@@ -196,11 +196,11 @@ No dia *03/11*, eu mostro essa conta ao vivo.
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-05]]
 
-Te espero na live!
+Te vejo dia 03.
 *Dra. Próton*
 
 
@@ -222,9 +222,9 @@ A *Black Próton Vitalícia* nasceu para tirar o prazo desse caminho. Com uma ú
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-06]]
 
 Até lá.
 *Dra. Próton*
@@ -246,11 +246,11 @@ No dia *03/11*, eu falo ao vivo desse cansaço que não passa com descanso, e mo
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-07]]
 
-Te espero na live!
+Estarei esperando você.
 *Dra. Próton*
 
 
@@ -272,9 +272,9 @@ Os detalhes da condição eu revelo na live.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-08]]
 
 Estou te esperando.
 *Dra. Próton*
@@ -291,7 +291,7 @@ Enviar depoimento: [[DEPOIMENTO REAL: print autorizado de aluna sobre o Termosta
 
 Mais um depoimento de quem vive o método comigo.
 
-Eu não prometo ganho nem cura, e o resultado de cada pessoa é só dela. O que eu mostro é o caminho, a prática e o acompanhamento.
+Eu não prometo ganho, e o resultado de cada pessoa é só dela. O que eu mostro é o caminho, a prática e o acompanhamento.
 
 Na *Black Próton Vitalícia*, esse caminho fica aberto sem prazo.
 
@@ -300,9 +300,9 @@ Na *Black Próton Vitalícia*, esse caminho fica aberto sem prazo.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-09]]
 
 Te espero na live!
 *Dra. Próton*
@@ -326,9 +326,9 @@ Você volta quantas vezes precisar, sem recomeçar do zero.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-10]]
 
 Nos vemos na live.
 *Dra. Próton*
@@ -352,11 +352,11 @@ No dia *03/11*, eu mostro ao vivo por onde começar.
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-11]]
 
-Te espero na live!
+Vem comigo.
 *Dra. Próton*
 
 
@@ -378,9 +378,9 @@ Ao vivo, eu faço essa conta com você. Os valores só aparecem na live.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-12]]
 
 Te espero ao vivo.
 *Dra. Próton*
@@ -404,11 +404,11 @@ O que muda o jogo não é força de vontade. É ter para onde voltar e com quem 
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-13]]
 
-Te espero na live!
+Combinado? Te espero.
 *Dra. Próton*
 
 
@@ -428,9 +428,9 @@ O que vier depois é outra oferta, com outro preço. E só quem estiver ao vivo 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-14]]
 
 Até terça, 03/11.
 *Dra. Próton*
@@ -454,9 +454,9 @@ Hoje é terça, dia de aula no Clube Secreto. E no dia *03/11* eu falo ao vivo d
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-15]]
 
 Te espero na live!
 *Dra. Próton*
@@ -480,9 +480,9 @@ A *Black Próton Vitalícia* vem com uma *trilha de entrada*: você não começa
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-16]]
 
 Nos vemos lá.
 *Dra. Próton*
@@ -502,11 +502,11 @@ Por isso, *acesso vitalício* não significa apenas "ter muitos produtos". Signi
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-17]]
 
-Te espero na live!
+Nos vemos em 03/11.
 *Dra. Próton*
 
 
@@ -528,9 +528,9 @@ Na *Black Próton Vitalícia*, você junta tudo em um acesso só: *o Clube Secre
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-18]]
 
 Te espero na live.
 *Dra. Próton*
@@ -554,11 +554,11 @@ Na *Black Próton Vitalícia*, você já entra com tudo à sua disposição, ant
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-19]]
 
-Te espero na live!
+Até a noite de terça.
 *Dra. Próton*
 
 
@@ -580,9 +580,9 @@ Na *live de revelação*, eu vou apresentar uma condição criada justamente par
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-20]]
 
 Até a live.
 *Dra. Próton*
@@ -606,9 +606,9 @@ Na live, eu revelo uma condição para você ter acesso ao *Clube Secreto e a ma
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-21]]
 
 Te espero na live!
 *Dra. Próton*
@@ -619,13 +619,13 @@ ______________________________________________________________
 ______________________________________________________________
 
 
-🙋 *"Já comprei outras coisas e não tive resultado."*
+🙋 *"Já comprei outras coisas e não consegui colocar em prática."*
 
-Essa frase aparece nas nossas pesquisas, e eu entendo.
+Essa preocupação aparece nas nossas pesquisas, e eu entendo.
 
-Repare no que costuma acontecer: você aplica sem apoio depois, e o padrão que queria mudar volta justamente na hora de aplicar.
+Curso solto costuma deixar a pessoa sozinha justamente na hora de aplicar, quando o padrão antigo volta.
 
-No Clube Secreto, você aplica com prática e acompanhamento, e não com um curso solto.
+No Clube Secreto, você tem prática e acompanhamento para essa hora.
 
 Na live, eu mostro como funciona.
 
@@ -634,9 +634,9 @@ Na live, eu mostro como funciona.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Faça o diagnóstico, reserve a sua vaga e entre para o Grupo 👇🏽
+Faça o diagnóstico, reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: reserva e diagnóstico]]
+[[LINK: captura A | wpp | cp-22]]
 
 Nos vemos lá.
 *Dra. Próton*
@@ -658,11 +658,11 @@ Na *Black Próton Vitalícia*, você garante tudo o que já existe hoje, sem pra
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-23]]
 
-Te espero na live!
+Te espero em 03/11.
 *Dra. Próton*
 
 
@@ -684,9 +684,9 @@ Na live de *03/11*, eu abro ao vivo o que construí para essa escolha deixar de 
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-24]]
 
 Até terça.
 *Dra. Próton*
@@ -710,9 +710,9 @@ Para ter acesso à condição do Lote Especial, você precisa estar comigo ao vi
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-25]]
 
 Te espero na live.
 *Dra. Próton*
@@ -736,9 +736,9 @@ Você decide com a conta na mão.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-26]]
 
 Nos vemos na live.
 *Dra. Próton*
@@ -762,9 +762,9 @@ A *Black Próton Vitalícia* abre esse acompanhamento sem prazo.
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-27]]
 
 Te espero na live!
 *Dra. Próton*
@@ -788,9 +788,9 @@ No dia *03/11, às 20h*, eu abro ao vivo o caminho que construí para essa trave
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-28]]
 
 Estou te esperando.
 *Dra. Próton*
@@ -812,9 +812,9 @@ Dia *03/11*, eu respondo ao vivo.
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-29]]
 
 Te espero lá.
 *Dra. Próton*
@@ -827,7 +827,7 @@ ______________________________________________________________
 
 🙏 *"E se não funcionar para mim?"*
 
-É um medo legítimo, e eu prefiro ser clara com você: eu não prometo ganho nem cura. Eu mostro um caminho, com prática e acompanhamento.
+É um medo legítimo, e eu prefiro ser clara com você: eu não prometo ganho nem resultado igual para todas. Eu mostro um caminho, com prática e acompanhamento.
 
 E digo sempre: *"Eu prefiro que você não compre do que compre e não viva."*
 
@@ -838,11 +838,11 @@ Na live de *03/11*, eu explico tudo ao vivo para você decidir com clareza.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-30]]
 
-Te espero na live!
+Até lá, com calma.
 *Dra. Próton*
 
 
@@ -858,7 +858,7 @@ ______________________________________________________________
 
 Ative o lembrete para o aviso tocar no seu celular. Quem não ativa costuma descobrir tarde que a live já começou 👇🏽
 
-[[LINK: live no YouTube]]
+[[LINK: live YouTube | wpp | cp-31]]
 
 Te espero lá.
 *Dra. Próton*
@@ -882,9 +882,9 @@ Vai aparecer um compromisso. Um cansaço. Um "depois eu vejo". Não negocia com 
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-32]]
 
 Estarei lá.
 *Dra. Próton*
@@ -908,11 +908,11 @@ ______________________________________________________________
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-33]]
 
-Te espero na live!
+Anota e me encontra lá.
 *Dra. Próton*
 
 
@@ -932,9 +932,9 @@ E ainda libera [[PENDENTE: bônus]] (bônus de check-in).
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Faça o diagnóstico, reserve a sua vaga e entre para o Grupo 👇🏽
+Faça o diagnóstico, reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: reserva e diagnóstico]]
+[[LINK: captura A | wpp | cp-34]]
 
 Nos vemos na live.
 *Dra. Próton*
@@ -958,7 +958,7 @@ A condição da *Black Próton Vitalícia* só é revelada ao vivo. Sobre replay
 
 Ative o lembrete aqui 👇🏽
 
-[[LINK: live no YouTube]]
+[[LINK: live YouTube | wpp | cp-35]]
 
 Te espero lá.
 *Dra. Próton*
@@ -973,7 +973,7 @@ Enviar depoimento: [[DEPOIMENTO REAL: print autorizado de aluna sobre parar de r
 
 💬 _*"[[DEPOIMENTO REAL: frase da aluna, com autorização]]"*_
 
-Mais um relato de quem vive o método comigo. Cada história é de quem a viveu, e eu não prometo resultado financeiro nem cura.
+Mais um relato de quem vive o método comigo. Cada história é de quem a viveu, e eu não prometo resultado financeiro.
 
 Dia *03/11*, eu mostro o que construí ao vivo.
 
@@ -982,9 +982,9 @@ Dia *03/11*, eu mostro o que construí ao vivo.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-36]]
 
 Até terça.
 *Dra. Próton*
@@ -1008,9 +1008,9 @@ Tudo o que você viu até aqui já é muito. *O que ainda falta, eu vou revelar 
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-37]]
 
 Te espero ao vivo.
 *Dra. Próton*
@@ -1032,9 +1032,9 @@ Guarda o papel. No dia *03/11, às 20h*, eu te peço para olhar ele de novo, ao 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-38]]
 
 Até terça.
 *Dra. Próton*
@@ -1058,9 +1058,9 @@ Tudo o que existe hoje, sem prazo para dar conta.
 
 ⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-39]]
 
 Nos vemos terça.
 *Dra. Próton*
@@ -1083,9 +1083,9 @@ Falta alguma? Resolve hoje.
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Faça o diagnóstico, reserve a sua vaga e entre para o Grupo 👇🏽
+Faça o diagnóstico, reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: reserva e diagnóstico]]
+[[LINK: captura A | wpp | cp-40]]
 
 Te espero na terça.
 *Dra. Próton*
@@ -1104,7 +1104,7 @@ Amanhã, *terça, 03/11, às 20h*, eu abro a *Black Próton Vitalícia* ao vivo.
 
 Seu lembrete da live fica aqui:
 
-[[LINK: live no YouTube]]
+[[LINK: live YouTube | wpp | cp-41]]
 
 Até amanhã.
 *Dra. Próton*
@@ -1126,9 +1126,9 @@ Amanhã eu te mostro como fazer dessa a *última vez que você vai precisar reco
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+Reserve o seu lugar e entre para o Grupo 👇🏽
 
-[[LINK: grupo da Black]]
+[[LINK: captura A | wpp | cp-42]]
 
 Boa noite. Até amanhã.
 *Dra. Próton*
@@ -1139,7 +1139,7 @@ Notas ao implementador
 
 1. O que mudou em relação ao modelo (mensagem a mensagem, em uma linha)
 - Estrutura mantida: legenda de status, títulos numerados com dia e hora, bloco de data da live, aviso do Lote Especial, CTA do grupo e assinatura. O modelo tinha 26 mensagens (00-A, 00-B e 01 a 24, em dois disparos por dia); aqui são 42 mensagens (01 a 42, 11h30 e 20h, de 13/10 a 02/11) mais 00-A e 00-B (total 44), porque a captação da Dra. tem 21 dias.
-- 00-A (função do modelo: vídeo de abertura, dia anterior à sequência, 11h): vídeo da Dra. com a pergunta "Quantas vezes você já recomeçou?". Marcador [[VÍDEO: ...]]. Terça 13/10, 09h3030.
+- 00-A (função do modelo: vídeo de abertura, dia anterior à sequência, 11h): vídeo da Dra. com a pergunta "Quantas vezes você já recomeçou?". Marcador [[VÍDEO: ...]]. Terça 13/10, 09h30.
 - 00-B (depoimento no dia anterior, 20h): depoimento de aluna sobre sair do ciclo de começar e parar. Marcador [[DEPOIMENTO REAL]]. Terça 13/10, 16h30.
 - 01 (anúncio da oportunidade): lista aberta, pergunta-guia e anúncio da live. Perfil: todos.
 - 02 ("imagina ter acesso para sempre"): "uma decisão que só se toma uma vez" (identidade). Perfil: todos.
@@ -1186,7 +1186,7 @@ Notas ao implementador
 - [[PENDENTE: ordem de entrada]] (16), [[PENDENTE: replay]] (35), [[CONFIRMAR: roteiro da live, ver 08_live_e_pitch/roteiro_live_de_revelacao.md]] (33).
 - [[DEPOIMENTO REAL]]: 00-B, 09, 13, 27 e 36 precisam de print autorizado. Se não houver todos, apagar os slots em vez de inventar.
 - [[VÍDEO: ...]] em 00-A: a Dra. precisa gravar.
-- Links: [[LINK: grupo da Black]], [[LINK: reserva e diagnóstico]], [[LINK: live no YouTube]].
+- Links: todos no formato do mapa (16_MAPA_DE_LINKS.md), ver a tabela "Links desta peça" ao fim. As páginas de captura A, o encurtador do canal wpp e a live no YouTube ainda não existem.
 - Dados usados: 70 mil alunos em 44 países (guia, seção 8); história da Dra. (precisa de aprovação dela).
 - 00-A e 00-B ficam em terça 13/10 (09h30 e 16h30), primeiro dia da captação do briefing. O modelo os manda no dia anterior à sequência; como 12/10 é feriado e a captação abre em 13/10, a abertura acontece no mesmo dia. 16h30 é o slot de reserva do cronograma, usado só aqui.
 - Perfis: Termostato Invisível (05, 12, 26), Autossabotagem (03, 04, 06, 22, 32, 38), Cobrança (07, 40), Traumas (11, 28, 30), Culpa de Querer Mais (15, 24, 27).
@@ -1194,11 +1194,23 @@ Notas ao implementador
 - Mensagens 31, 35 e 41 têm um único CTA (o lembrete da live); o CTA do grupo foi retirado para manter uma ação só.
 - 02/11 é feriado (Finados): mensagens 41 e 42 em tom sóbrio, sem emoji de alerta e sem urgência. 03/11 é terça, dia de aula do Clube (mencionado em 15 e 29).
 - As alunas do Clube têm sequência própria de convite (05_whatsapp_api/grupos_descricao_e_grupo_cheio.md e 05_whatsapp_api/lembretes_de_grupo_captacao.md, seção 4).
-- [[CONFIRMAR: live fechada para alunas? Se sim, trocar data e horário]]: o modelo tem uma live fechada para as alunas do outro curso; aqui a condição das alunas é revelada na mesma live de 03/11, e nenhuma mensagem deste documento fala de live fechada.
+- Live única: o modelo tem uma live fechada para os alunos do outro curso; aqui a condição das alunas é revelada na mesma live de 03/11 (decisão da revisão final), e nenhuma mensagem deste documento fala de live fechada.
 
 3. Conflitos entre o modelo e as regras da Dra.
 - O modelo promete os cursos futuros em quase todas as mensagens. Removido: o briefing não promete lançamentos futuros. Trocado por "tudo o que existe hoje, sem prazo para dar conta".
 - O modelo usa "nunca mais" e a ideia de última oferta. Trocado por "esta condição não se repete, o que vier depois é outra oferta, com outro preço" e pela frase-guia "a última vez que você vai precisar recomeçar". A única ocorrência de "nunca mais" é a frase intocável da Dra. na mensagem 24.
 - O modelo fala em acesso garantido ao Lote Especial para quem está ao vivo. Mantido, condicionado ao CONFIRMAR.
 - O modelo descreve renovação como realidade do mercado; aqui "renovar" só aparece na fórmula aprovada "sem renovar e sem recomeçar".
-- Nenhum preço, parcela ou promessa de ganho, cura ou fim da autossabotagem antes da live.
+- Nenhum preço, parcela, promessa de ganho ou promessa de fim da autossabotagem antes da live. Sem limite de lugares: a palavra "vaga" não é usada.
+
+4. Links desta peça
+
+Formato `[[LINK: <destino> | wpp | <ID>]]`, um link por mensagem, em linha própria, separado do CTA. O ID é "cp-" mais o número da mensagem (00-A vira cp-00a, 00-B vira cp-00b).
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| 00-A, 00-B, 01 a 30, 32, 33, 36 a 39, 42 | `[[LINK: captura A \| wpp \| cp-NN]]` | Leva à captura A (diagnóstico acima da dobra) para entrar no grupo da live | Web designer |
+| 22, 34, 40 | `[[LINK: captura A \| wpp \| cp-NN]]` | Mesma captura A, com o CTA de fazer o diagnóstico antes de reservar o lugar | Web designer |
+| 31, 35, 41 | `[[LINK: live YouTube \| wpp \| cp-NN]]` | Abre a transmissão de 03/11, 20h, para ativar o lembrete | Equipe de YouTube |
+
+Total: 44 tokens (41 de captura A, 3 de live YouTube).

@@ -12,7 +12,7 @@ ________________________________________________________________
 🔄 01. E-MAIL DE ONBOARDING
 ________________________________________________________________
 
-Assunto: Falta um passo para confirmar sua vaga
+Assunto: Falta um passo para confirmar sua reserva
 Linha: Seu lugar na live de 03/11 depende de dois passos rápidos
 
 ________________________________________________________________
@@ -31,7 +31,7 @@ Antes disso, eu tenho dois recados importantes para você.
 O link da live e todos os avisos chegam só por lá. E tem um detalhe que eu preciso te contar: o Lote Especial, que é o menor valor, é só para quem estiver ao vivo. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
 >> Entrar no grupo <<
-[[LINK: grupo da Black]]
+[[LINK: grupo geral | email | em-onb-01]]
 
 2️⃣ Faça o seu check-in: o diagnóstico dos 5 padrões.
 
@@ -40,7 +40,7 @@ Ele me mostra qual padrão mais te prende: Termostato Invisível, Autossabotagem
 Ao finalizar, você recebe [[PENDENTE: bônus]].
 
 >> Fazer o diagnóstico <<
-[[LINK: reserva e diagnóstico]]
+[[LINK: diagnóstico | email | em-onb-01]]
 
 Espero você na terça.
 
@@ -62,7 +62,7 @@ Agora eu preciso que você faça, se ainda não fez, o check-in: o diagnóstico 
 Posso contar com você?
 
 >> Fazer o diagnóstico agora <<
-[[LINK: reserva e diagnóstico]]
+[[LINK: diagnóstico | email | em-onb-02]]
 
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
@@ -70,12 +70,11 @@ Posso contar com você?
 A condição é revelada só ao vivo. Ative o lembrete agora para não perder o horário. 👇🏽
 
 >> Ativar o lembrete <<
-[[LINK: live no YouTube]]
+[[LINK: live YouTube | email | em-onb-02]]
 
 Para falar com a nossa equipe ou tirar dúvidas, confie só nos administradores do grupo e nos nossos números oficiais:
 
-[[LINK: comercial]]
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | email | em-onb-02]]
 
 Qualquer dúvida, envie uma mensagem para nós.
 
@@ -85,7 +84,7 @@ Abraço,
 Dra. Próton
 
 ⚠️ Permaneça no grupo de WhatsApp: é por ele que enviamos o link da live e os avisos importantes. Clique aqui para entrar no grupo.
-[[LINK: grupo da Black]]
+[[LINK: grupo geral | email | em-onb-02]]
 
 ________________________________________________________________
 🔄 03. E-MAIL DE ONBOARDING
@@ -105,19 +104,18 @@ Aconteceu algo?
 Eu pergunto porque a condição é revelada só ao vivo, na terça, 03/11, às 20h, no YouTube, e o link e os avisos chegam apenas pelo grupo. Sem entrar nele, você corre o risco de não saber a hora.
 
 >> Entrar no grupo <<
-[[LINK: grupo da Black]]
+[[LINK: grupo geral | email | em-onb-03]]
 
 Antes da live, eu também preciso que você faça, se ainda não fez, o check-in: o diagnóstico dos 5 padrões. Assim eu entendo onde você está e falo do que faz sentido para você.
 
 >> Fazer o diagnóstico agora <<
-[[LINK: reserva e diagnóstico]]
+[[LINK: diagnóstico | email | em-onb-03]]
 
 Se foi só a correria do dia, tudo bem. Só não deixe o grupo para depois, porque é no "depois" que o padrão de recomeçar costuma se esconder.
 
 Para falar com a nossa equipe ou tirar dúvidas, confie só nos administradores do grupo e nos nossos números oficiais:
 
-[[LINK: comercial]]
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | email | em-onb-03]]
 
 Qualquer dúvida, envie uma mensagem para nós.
 
@@ -135,14 +133,14 @@ Quantidade: 3 e-mails (o mesmo número do modelo), todos 🔄 em revisão.
 O que mudou em relação ao modelo (e-mail a e-mail)
 - 01: a live de lançamento e a live de abertura do modelo viraram a live de revelação de terça, 03/11, às 20h, ao vivo no YouTube. O grupo "exclusivo" virou "oficial". O presente do modelo (um caso clínico) virou [[PENDENTE: bônus]], e o formulário de check-in virou o diagnóstico dos 5 padrões. A frase "oferta nunca antes vista e que pode nunca mais se repetir" virou "a oferta que o Clube Secreto nunca fez antes... não se repete. O que vier depois é outra oferta, com outro preço". O trecho "garantir a oferta com as melhores condições" virou o Lote Especial (menor valor só para quem estiver ao vivo), marcado para confirmação. Assunto reduzido de 72 para 38 caracteres e sem reticências.
 - 02: mesma função (confirma a inscrição, pede o check-in, lembrete, canais oficiais, aviso de que não há sorteio). A plataforma de vendas e a data de abertura do modelo viraram "canais oficiais" e "só abre na live de 03/11". A dica "não deixe para ver depois" foi trocada por "ative o lembrete para não perder o horário", porque o replay está em aberto.
-- 03: o assunto do modelo ("Vou ter que dar seu lugar para outra pessoa") foi REMOVIDO. Não existe limite de vagas na live (transmissão no YouTube), então seria escassez falsa. Razão honesta no lugar: a condição é revelada só ao vivo e o link chega apenas pelo grupo. O restante (a pergunta "Aconteceu algo?", o grupo, o check-in, os canais oficiais) segue o modelo.
+- 03: o assunto do modelo ("Vou ter que dar seu lugar para outra pessoa") foi REMOVIDO. Não existe limite de lugares na live (transmissão no YouTube), então seria escassez falsa. Razão honesta no lugar: a condição é revelada só ao vivo e o link chega apenas pelo grupo. O restante (a pergunta "Aconteceu algo?", o grupo, o check-in, os canais oficiais) segue o modelo.
 - O modelo tem 3 e-mails e o 03 termina na assinatura. Não há mais nenhum.
 - Aberturas "Olá, tudo bem?" e "Olá!" do modelo foram trocadas por primeiras linhas específicas.
 
 Pendências e [[CONFIRMAR]]
 1. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (e-mail 01, primeira ocorrência).
 2. [[PENDENTE: bônus]] (e-mail 01). Sem ele, apagar a linha "Ao finalizar, você recebe...".
-3. Links: [[LINK: grupo da Black]], [[LINK: reserva e diagnóstico]], [[LINK: live no YouTube]] (lembrete), [[LINK: comercial]], [[LINK: suporte WhatsApp]].
+3. Links: todos no token canônico (tabela "Links desta peça" ao fim). O link "comercial" foi retirado: o único número oficial de contato é o suporte WhatsApp.
 4. [[CONFIRMAR: a Black Próton Vitalícia só abre na live de 03/11 para toda a base]] (e-mails 02 e 03). O briefing diz que o carrinho abre na live.
 5. O modelo não traz variação por segmento nos e-mails de onboarding. Para alunas do Clube, usar as versões já escritas em `06_emails/onboarding.md`.
 6. Gatilhos e horários: o modelo não os informa. Pela função: 01 no cadastro, 02 na confirmação, 03 para quem não deu os passos.
@@ -153,3 +151,17 @@ Conflitos entre o modelo e as regras da Dra.
 - "Oferta que pode nunca mais se repetir": trocada pela formulação aprovada ("esta condição não se repete. O que vier depois é outra oferta, com outro preço").
 - Plataforma de venda citada como canal único no modelo: removida até a equipe confirmar o canal.
 - Presente do check-in: não existe equivalente definido, virou placeholder.
+
+________________________________________________________________
+
+LINKS DESTA PEÇA (ID da peça | token | o que o link faz | quem cria)
+
+- em-onb-01 | [[LINK: grupo geral | email | em-onb-01]] | Faz: Convite do grupo geral de WhatsApp (botão Entrar no grupo) | Cria: Automação (rodízio SendFlow)
+- em-onb-01 | [[LINK: diagnóstico | email | em-onb-01]] | Faz: Diagnóstico dos 5 padrões (botão Fazer o diagnóstico) | Cria: Web designer
+- em-onb-02 | [[LINK: diagnóstico | email | em-onb-02]] | Faz: Diagnóstico dos 5 padrões (botão principal) | Cria: Web designer
+- em-onb-02 | [[LINK: live YouTube | email | em-onb-02]] | Faz: Lembrete da live de 03/11, 20h | Cria: Equipe de YouTube
+- em-onb-02 | [[LINK: suporte WhatsApp | email | em-onb-02]] | Faz: Falar com a equipe (secundário) | Cria: Suporte
+- em-onb-02 | [[LINK: grupo geral | email | em-onb-02]] | Faz: Permanecer no grupo (rodapé do e-mail) | Cria: Automação
+- em-onb-03 | [[LINK: grupo geral | email | em-onb-03]] | Faz: Entrar no grupo geral (botão principal) | Cria: Automação
+- em-onb-03 | [[LINK: diagnóstico | email | em-onb-03]] | Faz: Diagnóstico dos 5 padrões | Cria: Web designer
+- em-onb-03 | [[LINK: suporte WhatsApp | email | em-onb-03]] | Faz: Falar com a equipe (secundário) | Cria: Suporte

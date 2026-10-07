@@ -44,10 +44,11 @@ Estado 2, dia 03/11 até as 17h:
 Estado 3, dia 03/11, de 17h às 20h:
 `Começa em {{minutos}}min {{segundos}}s. Reserve seu lugar e receba o aviso no WhatsApp`
 
-Estado 4, depois das 20h de 03/11 (a captura sai do ar ou vira lista de espera, ver `lista_de_espera.md`):
-`A live de revelação já começou. [[LINK: página da live]]`
+Estado 4, das 20h de 03/11 até o fim da live (depois do fim da live, a captura sai do ar e vira lista de espera, ver `lista_de_espera.md`):
+`A live de revelação já começou. [[LINK: live YouTube | pagina | cap-a-b00]]`
+Leva para: a transmissão da live no YouTube.
 
-**Função:** urgência por data real, nunca por vaga inventada. Não existe "% de vagas preenchidas" na Black, porque a live não tem lotação declarada. Não usar contador fictício.
+**Função:** urgência por data real, nunca por limite de lugares inventado. Não existe contador de lugares preenchidos na Black, porque a live não tem lotação declarada. Não usar contador fictício.
 
 **Regras da tarja:** quando {{dias}} for 0, mostrar só as horas; quando for 1, escrever "1 dia". Em 02/11 (Finados) o texto da tarja segue neutro, sem tom de festa e sem exclamação.
 
@@ -91,6 +92,7 @@ Título do formulário: `Reserve seu lugar e libere seu diagnóstico`
 
 **Botão (principal)**
 `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
+Leva para: a página de obrigado e diagnóstico, depois de enviar o formulário. [[LINK: obrigado e diagnóstico | pagina | cap-a-b01]]
 
 **Botão, estado enviando**
 `Reservando seu lugar...`
@@ -99,7 +101,7 @@ Título do formulário: `Reserve seu lugar e libere seu diagnóstico`
 `Gratuito. Sem compromisso de compra. Você só confirma o seu lugar e recebe o diagnóstico.`
 
 **Microcopy de consentimento (corpo pequeno, obrigatório)**
-`Ao continuar, você concorda em receber avisos da live e o seu diagnóstico por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
+`Ao continuar, você concorda em receber avisos da live e o seu diagnóstico por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: privacidade | pagina | cap-a-b01]]
 
 **Mensagens de erro**
 - Nome vazio: `Diga como posso te chamar.`
@@ -205,6 +207,7 @@ Linha de transição:
 
 **Botão (repete o do hero)**
 `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 ---
 
@@ -245,6 +248,7 @@ Cada perfil em um card (no mobile, carrossel de cards; botão "Ver o meu" abaixo
 
 **Botão (repete o do hero)**
 `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 **Microcopy sob o botão**
 `Diagnóstico de padrões de comportamento. Não é avaliação clínica e não substitui acompanhamento de um profissional de saúde.`
@@ -279,6 +283,7 @@ Linha de escassez (única permitida):
 
 **Botão (repete o do hero)**
 `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 **Função:** diz o que acontece e quando, sem nenhum valor. A frase "esta condição não se repete" é a correção aprovada da antiga frase da página publicada sobre a porta do pagamento único (ver `00_ESTRATEGIA_COPY_SENIOR.md`, seção 2).
 
@@ -369,10 +374,10 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 `A revelação acontece ao vivo, em 03/11, às 20h, no YouTube.` `[[PENDENTE: replay]]`
 
 **Já sou aluna do Clube Secreto. Essa página é para mim?**
-`A live é para você também. Se você já é aluna do Clube, existe uma página própria com o que muda para você. [[LINK: captura_C alunas]]`
+`A live é para você também. Se você já é aluna do Clube, existe uma página própria com o que muda para você. [[LINK: captura C | pagina | cap-a-b10]]`
 
 **Hoje o dinheiro está apertado. Vale a pena?**
-`Vale fazer o diagnóstico e ouvir a live, que são gratuitos. Se, depois de ouvir, o momento não for esse, tudo bem: eu prefiro que você entre quando fizer sentido. Se quiser, deixe seu nome na lista de espera. [[LINK: lista_de_espera]]`
+`Vale fazer o diagnóstico e ouvir a live, que são gratuitos. Se, depois de ouvir, o momento não for esse, tudo bem: eu prefiro que você entre quando fizer sentido. Se quiser, deixe seu nome na lista de espera. [[LINK: lista de espera | pagina | cap-a-b10]]`
 
 **Vou receber muitas mensagens?**
 `Você recebe os avisos da live e o conteúdo do diagnóstico. Para sair, é só digitar SAIR no WhatsApp ou usar o link de descadastro do e-mail.`
@@ -389,6 +394,7 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 
 **Botão**
 `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
+Leva para: o formulário do bloco 01, na mesma página (âncora). O envio leva para obrigado e diagnóstico.
 
 **Microcopy**
 `Gratuito. Sem compromisso de compra.`
@@ -399,7 +405,7 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 
 ## Bloco 12: Rodapé
 
-`Instituto Dra. Próton · Todos os direitos reservados · CNPJ: 24.450.366/0001-20 · [[LINK: Política de Privacidade]] · [[LINK: Termos de Uso]]`
+`Instituto Dra. Próton · Todos os direitos reservados · CNPJ: 24.450.366/0001-20 · [[LINK: privacidade | pagina | cap-a-b12]] · [[LINK: termos | pagina | cap-a-b12]]`
 
 `Este conteúdo é educativo e não substitui acompanhamento médico ou psicológico. Os depoimentos são relatos individuais e não garantem resultados.`
 
@@ -409,7 +415,7 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 
 1. **Sucesso:** redireciona para `obrigado_e_pesquisa.md` (página de obrigado + diagnóstico).
 2. **Já cadastrado:** `Você já reservou seu lugar. Vou te levar para o seu diagnóstico.`
-3. **Fora do ar** (depois de 03/11, 20h): vira `lista_de_espera.md`.
+3. **Fora do ar** (depois do fim da live, 03/11, 21h56): vira `lista_de_espera.md`. Leva para: [[LINK: lista de espera | pagina | cap-a-estados]]
 
 ---
 
@@ -429,7 +435,7 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 
 ## Notas ao implementador
 
-1. **Pendências que bloqueiam o publicar:** `[[PENDENTE: replay]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]` (mínimo 3), `[[LINK: política e termos]]`, `[[CONFIRMAR: espelhos dos 5 perfis]]`.
+1. **Pendências que bloqueiam o publicar:** `[[PENDENTE: replay]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]` (mínimo 3), os links de privacidade e de termos, `[[CONFIRMAR: espelhos dos 5 perfis]]`.
 2. **UTMs:** a página deve receber utm_source, utm_medium, utm_campaign, utm_content e utm_term e gravá-los junto do lead (a UTM estava vazia no Desafio). Criar uma variante por perfil de anúncio (`utm_content=perfil-termostato`, `perfil-autossabotagem`, `perfil-cobranca`, `perfil-traumas`, `perfil-culpa`, `perfil-nao-sei`). Quando a pessoa vem de um criativo de um perfil, o chip desse perfil já abre destacado.
 3. **Menor preço só para quem estiver ao vivo:** o briefing não confirma que o Lote Especial é exclusivo de quem assiste ao vivo `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. Enquanto não houver confirmação, a copy diz apenas que "a condição é revelada ao vivo e a condição que a Dra. mostrar não se repete". Se for confirmado, voltar à frase com a regra explícita e a data do lote.
 4. **Testes A/B sugeridos (ordem):** (1) A0 contra A1 contra A4 (headline); (2) botão BT1 contra BT2; (3) hero com os 5 chips contra hero com só uma linha dos 5 nomes (mede se os chips ajudam ou distraem); (4) formulário no hero contra formulário depois do bloco 03 (mede se a base fria precisa ler antes).
@@ -438,3 +444,17 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 7. **Onde o Desafio tinha uma peça e a Black não precisa dela:** o bloco "Passo a passo da solução" (5 noites) do Desafio não existe aqui, porque a captura não tem calendário de aula. Foi substituído pelo bloco 05 (5 perfis) e pelo bloco 06 (o que acontece em 03/11). Os blocos de "tudo que você recebe", "ancoragem com preço" e "valor" ficam só em `pagina_de_vendas_vitalicia.md`, depois da live.
 8. **Segmentos e ângulos:** esta é a versão base. Aulão sem compra e tráfego frio entram aqui. Ex-participantes do Desafio entram em `captura_D`, alunas em `captura_C`, e quem já conhece a Dra. e a oferta em `captura_B`.
 9. **Replay `[[PENDENTE: replay]]`:** redação sem replay: "A revelação acontece ao vivo, sem replay." Redação com replay: "A live fica disponível até [[PENDENTE: fechamento]]. A condição segue a data do lote." Usar uma só, depois da decisão.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| cap-a-b00 | `[[LINK: live YouTube \| pagina \| cap-a-b00]]` | Leva à transmissão quando a tarja entra no estado 4 (20h até o fim da live) | Equipe de YouTube |
+| cap-a-b01 | `[[LINK: obrigado e diagnóstico \| pagina \| cap-a-b01]]` | Destino do botão principal e dos botões repetidos (blocos 04, 05, 06 e 11) depois do envio do formulário | Web designer |
+| cap-a-b01 | `[[LINK: privacidade \| pagina \| cap-a-b01]]` | Abre a política de privacidade a partir do consentimento | Jurídico |
+| cap-a-b10 | `[[LINK: captura C \| pagina \| cap-a-b10]]` | FAQ da aluna: leva à captura das alunas | Web designer |
+| cap-a-b10 | `[[LINK: lista de espera \| pagina \| cap-a-b10]]` | FAQ do dinheiro apertado: leva à lista de espera | Web designer |
+| cap-a-b12 | `[[LINK: privacidade \| pagina \| cap-a-b12]]` e `[[LINK: termos \| pagina \| cap-a-b12]]` | Rodapé: política de privacidade e termos de uso | Jurídico |
+| cap-a-estados | `[[LINK: lista de espera \| pagina \| cap-a-estados]]` | Estado fora do ar: a captura passa a mostrar a lista de espera | Web designer |

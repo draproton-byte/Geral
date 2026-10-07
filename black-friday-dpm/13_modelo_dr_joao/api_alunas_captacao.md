@@ -14,7 +14,7 @@ Lista:
 ✅ Alunas do Clube Secreto
 ❌ Excluir quem já é Vitalício (se existir)
 ❌ Excluir alunas do Clube na janela de garantia de 7 dias
-❌ Excluir já cadastradas na live (quem já reservou a vaga e a condição de aluna) [[CONFIRMAR: excluir quem já reservou, para não repetir o pedido de reserva]]
+❌ Excluir já cadastradas na live (quem já reservou o lugar e a condição de aluna) [[CONFIRMAR: excluir quem já reservou, para não repetir o pedido de reserva]]
 
 Botão da mensagem 01: [ Reservar minha condição ] (substitui o botão de resgate do modelo). Nas mensagens seguintes, o botão é [ Saiba Mais ], como no modelo. Máximo de 1 botão por mensagem.
 
@@ -23,7 +23,7 @@ Rodapé de todas as mensagens: Digite SAIR se não quiser mais receber mensagens
 Regra de agenda: esta série substitui o Golden Ticket de `05_whatsapp_api/convite_vip_alunas_e_quiz.md` (banco de reserva). Nenhuma aluna recebe duas APIs desta captação no mesmo dia, nem esta série e o Golden Ticket no mesmo dia.
 
 ____________________________________________________________
-🔄 01. Captação, quinta-feira, 15, 09h [[CONFIRMAR: horário; o modelo deixava em branco]]
+🔄 01. Captação, quinta-feira, 15/10, 09h
 (D-19: modelo = quarta, 30/09)
 ____________________________________________________________
 
@@ -43,14 +43,14 @@ Será o *menor valor de todos os lotes*: o Lote Especial, a oferta que o Clube S
 Toque no botão, reserve a sua condição de aluna e confirme sua presença 👇🏽
 
 [ Reservar minha condição ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-01]]
 
 Digite SAIR se não quiser mais receber mensagens
 
 _Você está recebendo essa mensagem porque é aluna da Dra. Próton._
 
 ____________________________________________________________
-🔄 02. Captação, quarta-feira, 21, 09h
+🔄 02. Captação, quarta-feira, 21/10, 09h
 (D-13: modelo = terça, 06)
 ____________________________________________________________
 
@@ -72,14 +72,14 @@ E, como aluna do Clube, você terá acesso ao *menor valor de todos os lotes*.
 Toque no botão, reserve a sua condição de aluna e confirme sua presença 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-02]]
 
 Digite SAIR se não quiser mais receber mensagens
 
 _Você está recebendo essa mensagem porque é aluna da Dra. Próton._
 
 ____________________________________________________________
-🔄 03. Captação, sexta-feira, 23, 09h
+🔄 03. Captação, sexta-feira, 23/10, 09h
 (D-11: modelo = quinta, 08)
 ____________________________________________________________
 
@@ -101,26 +101,26 @@ Como aluna do Clube, você terá uma condição que não é a mesma de quem aind
 Toque em "Saiba Mais", confirme sua presença e descubra tudo o que te espera 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-03]]
 
 Digite SAIR se não quiser mais receber mensagens
 
 _Você está recebendo essa mensagem porque é aluna da Dra. Próton._
 
 ____________________________________________________________
-🔄 04. Captação, terça-feira, 27, 09h
+🔄 04. Captação, terça-feira, 27/10, 09h
 (D-7: modelo = segunda, 12)
 ____________________________________________________________
 
-⚠️ *Falta 1 semana para a sua condição de aluna.*
+⚠️ *A sua condição de aluna será revelada em 03/11.*
 
-Na próxima terça, 03/11, eu vou me reunir com as alunas do Clube para abrir a *Black Próton Vitalícia*, ao vivo no YouTube.
+Na terça, 03/11, eu vou me reunir com as alunas do Clube para abrir a *Black Próton Vitalícia*, ao vivo no YouTube.
 
 E preparei uma condição que será liberada *somente para vocês durante essa live*:
 
 _*O menor valor de todos os lotes: o Lote Especial.*_
 
-Reservar leva um minuto e garante o lembrete da live.
+Reservar leva um minuto e você recebe o lembrete da live.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -128,14 +128,14 @@ Reservar leva um minuto e garante o lembrete da live.
 Toque em "Saiba Mais", reserve agora a sua condição de aluna e receba o lembrete da live 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-04]]
 
 Digite SAIR se não quiser mais receber mensagens
 
 _Você está recebendo essa mensagem porque é aluna da Dra. Próton._
 
 ____________________________________________________________
-🔄 05. Captação, quinta-feira, 29, 20h
+🔄 05. Captação, quinta-feira, 29/10, 20h
 (D-5: modelo = quarta, 14)
 ____________________________________________________________
 
@@ -157,14 +157,14 @@ Nessa live, você poderá ter *o Clube Secreto para sempre e mais 11 produtos, p
 Toque em "Saiba Mais", reserve agora a sua condição de aluna e receba o lembrete da live 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-05]]
 
 Digite SAIR se não quiser mais receber mensagens
 
 _Você está recebendo essa mensagem porque é aluna da Dra. Próton._
 
 ____________________________________________________________
-🔄 06. Captação, sábado, 31, 20h
+🔄 06. Captação, sábado, 31/10, 20h
 (D-3: modelo = sexta, 16)
 ____________________________________________________________
 
@@ -184,7 +184,7 @@ Com um único pagamento, você poderá ter o *Clube Secreto e mais 11 produtos, 
 Toque em "Saiba Mais", reserve agora a sua condição de aluna e receba o lembrete da live 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-06]]
 
 Digite SAIR se não quiser mais receber mensagens
 
@@ -213,14 +213,14 @@ Ao reservar, você faz o diagnóstico dos 5 padrões e recebe [[PENDENTE: bônus
 Toque em "Saiba Mais", reserve a sua condição de aluna e receba o lembrete da live 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-07]]
 
 Digite SAIR se não quiser mais receber mensagens
 
 _Você está recebendo essa mensagem porque é aluna da Dra. Próton._
 
 ____________________________________________________________
-🔄 08. Captação, terça-feira, 03, 09h
+🔄 08. Captação, terça-feira, 03/11, 09h
 (D-0: modelo = segunda, 19)
 ____________________________________________________________
 
@@ -230,7 +230,7 @@ ____________________________________________________________
 
 Por já ser do Clube, você tem uma vantagem que quem ainda não é aluna não tem: *a condição de aluna*, para quem estiver presente na live.
 
-Se você ainda não reservou, esta é a *última chamada para reservar*: reserve para receber o lembrete da live.
+Se você ainda não reservou, reserve agora para receber o lembrete da live.
 
 📅 *HOJE, às 20h*
 💻 *Ao vivo no YouTube*
@@ -238,7 +238,7 @@ Se você ainda não reservou, esta é a *última chamada para reservar*: reserve
 Toque em "Saiba Mais", reserve a sua condição de aluna e receba o lembrete da live 👇🏽
 
 [ Saiba Mais ]
-[[LINK: página das alunas]]
+[[LINK: captura C | api | api-alunas-08]]
 
 Digite SAIR se não quiser mais receber mensagens
 
@@ -251,7 +251,7 @@ NOTAS AO IMPLEMENTADOR
 Quantidade: 8 mensagens (mesma estrutura do modelo, 01 a 08). Todas com status 🔄 em revisão. Nenhum preço, parcela ou valor.
 
 Mapa de datas (modelo para a Dra., por distância até a live de 03/11)
-- 01: qua 30/09 (D-19) vira qui 15/10, 09h [[CONFIRMAR: horário]]
+- 01: qua 30/09 (D-19) vira qui 15/10, 09h
 - 02: ter 06 (D-13) vira qua 21/10, 09h
 - 03: qui 08 (D-11) vira sex 23/10, 09h
 - 04: seg 12 (D-7) vira ter 27/10, 09h
@@ -259,7 +259,7 @@ Mapa de datas (modelo para a Dra., por distância até a live de 03/11)
 - 06: sex 16, 20h (D-3) vira sáb 31/10, 20h
 - 07: dom 18 (D-1) vira seg 02/11, 09h (Finados, sóbrio)
 - 08: seg 19 (D-0) vira ter 03/11, 09h
-As mensagens 05 e 06 mantêm o horário das 20h do modelo. Esse horário coincide com o disparo dos grupos de WhatsApp. [[CONFIRMAR: manter as mensagens 05 e 06 às 20h ou mover para 09h]]
+As mensagens 05 e 06 mantêm o horário das 20h do modelo (série do modelo que já fixa 20h; as demais saem às 09h). Decisão fechada, sem pendência.
 
 Colisões resolvidas
 - Golden Ticket (`05_whatsapp_api/convite_vip_alunas_e_quiz.md`: 22/10, 29/10 e 02/11, 09h): esta série é a canônica e o Golden Ticket vira banco de reserva (nota de duas linhas no topo dele). Coincidências: 29/10 (mensagem 05 aqui, às 20h, e Golden Ticket 05.2, às 09h) e 02/11 (mensagem 07 aqui e Golden Ticket 05.3, às 09h). Regra: se o Golden Ticket for reaproveitado, só pode sair em dias sem mensagem desta série (por exemplo, 22/10), nunca em 15/10, 21/10, 23/10, 27/10, 29/10, 31/10, 02/11 e 03/11. Dependência: o `05_whatsapp_api/cronograma_de_disparos.md` ainda lista o Golden Ticket em 22/10, 29/10 e 02/11 (linhas das alunas); a equipe atualiza o cronograma para as datas desta série.
@@ -270,20 +270,20 @@ O que mudou em relação ao modelo (mensagem a mensagem)
 - 01: o título do modelo virou "Aluna do Clube". "Todos os meus cursos para sempre, inclusive os que vou lançar" virou "o Clube Secreto para sempre e mais 11 produtos, sem prazo para dar conta". O acesso antecipado em live fechada, um dia antes do público geral, virou a live de revelação de 03/11 (ver pendência 1). "Preço que nunca pratiquei, com entregáveis que nunca existiram" virou "a oferta que o Clube Secreto nunca fez antes". O botão de resgate virou "Reservar minha condição" (23 caracteres).
 - 02: "Eu preparei minha melhor oferta. E o resgate é seu." virou "uma condição para as alunas do Clube, e o seu lugar está esperando". A imagem enviada junto virou nota de arte pendente.
 - 03: "Eu quero que você pare de comprar meus cursos" virou "Eu quero que você pare de recomeçar" (mesma lógica: a oferta tira a necessidade de decidir de novo). A condição que não será aberta ao público geral virou "não é a mesma de quem ainda não é aluna".
-- 04: a validade de sete dias do modelo virou "Falta 1 semana". A linha de reservas limitadas foi REMOVIDA (não há limite de vagas na live) e entrou "reservar leva um minuto e garante o lembrete".
+- 04: a validade de sete dias do modelo virou "A sua condição de aluna será revelada em 03/11" (data fixa, sem contagem de dias). A linha de reservas limitadas foi REMOVIDA (não há limite de lugares na live) e entrou "reservar leva um minuto e garante o lembrete".
 - 05: "Vou quebrar uma regra da Black" mantido (mesmo dia, mesma hora, mesmo preço no modelo; aqui, mesma condição, mas diferente para a aluna). A contagem "daqui a 5 dias" saiu: a data fixa já está no texto.
 - 06: "Uma oferta que vai existir por apenas uma noite" virou "uma condição que eu conto uma vez, ao vivo" e "ela não se repete". O número de formações do modelo virou o Clube e 11 produtos, com quatro citados. Lançamentos futuros removidos.
 - 07: tom sóbrio por ser Finados. A lista de entregas virou "Clube para sempre, 11 produtos, pagamento único, sem recomeçar". O benefício de grupo especial do modelo foi trocado pelo check-in (diagnóstico dos 5 padrões) com [[PENDENTE: bônus]]. A linha de reservas limitadas foi REMOVIDA.
-- 08: "É HOJE: a maior oferta da minha história" virou "É HOJE: a condição das alunas do Clube Secreto". "Última chance" ficou só como "última chamada para reservar". "Sem o seu você não entra na live" virou "reserve para receber o lembrete da live" (a live é aberta no YouTube).
+- 08: "É HOJE: a maior oferta da minha história" virou "É HOJE: a condição das alunas do Clube Secreto". "Última chance" saiu; ficou só "reserve agora para receber o lembrete da live". "Sem o seu você não entra na live" virou "reserve para receber o lembrete da live" (a live é aberta no YouTube).
 - Em todas: "a melhor condição de todos os lotes" virou "o menor valor de todos os lotes" (fato do briefing); cobrança recorrente e reservas limitadas não aparecem; cada mensagem tem no máximo 12 linhas de texto.
 
 Pendências e [[CONFIRMAR]] que ficaram
 1. [[CONFIRMAR: live fechada para alunas? Se sim, trocar data e horário]]. O modelo tem live fechada e acesso antecipado em um dia anterior ao público. Aqui todas as menções foram escritas para a live de 03/11. Se a equipe decidir por uma live fechada, trocar o bloco de data nas mensagens 01 a 08 e restaurar "acesso antecipado" na 01.
 2. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (primeira ocorrência, mensagem 01). A regra sustenta as mensagens 02 a 08.
 3. [[PENDENTE: bônus]] (mensagem 07).
-4. [[CONFIRMAR: horário]] da mensagem 01 (o modelo não tinha horário).
-5. Arte da mensagem 02 e [[LINK: página das alunas]].
-6. Contagem "Falta 1 semana" na mensagem 04 está presa à data do cronograma (27/10). Se o disparo deslizar de dia, trocar pela data fixa. A mensagem 07 usa "amanhã" com a data fixa ao lado.
+4. Horário da mensagem 01: 09h, pela cadência de API do projeto (o modelo não tinha horário).
+5. Arte da mensagem 02. Links: captura C, token por peça (tabela "Links desta peça" ao fim).
+6. A mensagem 04 usa só data fixa (03/11). A mensagem 07 usa "amanhã" com a data fixa ao lado.
 7. Nome do produto: usar sempre o nome oficial "Workshop Terapeuta de Elite". "Elite" só é vestígio do Dr. João quando aparece fora desse nome.
 8. 02/11 é Finados: a mensagem 07 não usa urgência.
 9. Texto de template: cada corpo tem menos de 1.024 caracteres, 1 botão de até 25 caracteres, e a primeira linha em negrito faz o papel de título.
@@ -292,5 +292,18 @@ Conflitos entre o modelo e as regras da Dra.
 - Promessa de "todos os cursos que ainda vou lançar": removida (briefing: sem promessa de lançamentos futuros).
 - "Pare de comprar meus cursos": trocado por "pare de recomeçar", alinhado à frase-guia "A última vez que você vai precisar recomeçar" (usada nos e-mails e grupos; aqui a lógica está na mensagem 03).
 - "Melhor oferta que já fiz" e "maior oferta da minha história": trocados por "a oferta que o Clube Secreto nunca fez antes" e "o menor valor de todos os lotes".
-- "Última chance" do modelo: só aparece como "última chamada para reservar", nunca como última chance de ter acesso vitalício.
+- "Última chance" do modelo: removida; a reserva do lugar segue aberta até a live começar.
 - Reserva com prazo e reservas limitadas do modelo: removidas por serem escassez sem lastro.
+
+____________________________________________________________
+
+LINKS DESTA PEÇA (ID da peça | token | o que o link faz | quem cria)
+
+- api-alunas-01 | [[LINK: captura C | api | api-alunas-01]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Reservar minha condição) | Cria: Web designer
+- api-alunas-02 | [[LINK: captura C | api | api-alunas-02]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer
+- api-alunas-03 | [[LINK: captura C | api | api-alunas-03]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer
+- api-alunas-04 | [[LINK: captura C | api | api-alunas-04]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer
+- api-alunas-05 | [[LINK: captura C | api | api-alunas-05]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer
+- api-alunas-06 | [[LINK: captura C | api | api-alunas-06]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer
+- api-alunas-07 | [[LINK: captura C | api | api-alunas-07]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer
+- api-alunas-08 | [[LINK: captura C | api | api-alunas-08]] | Faz: Captura das alunas do Clube: reservar o lugar e a condição de aluna (botão Saiba Mais) | Cria: Web designer

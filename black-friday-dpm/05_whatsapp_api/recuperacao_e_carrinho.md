@@ -447,9 +447,7 @@ Se foi limite ou bloqueio, o Pix costuma resolver em um minuto.
 
 Se foi outra coisa (dúvida, medo, "será que é para mim?"), me conta pelo suporte. Às vezes um ajuste pequeno resolve, e a decisão continua 100% sua.
 
-👇 O link para tentar de novo:
-
-[[LINK: checkout S3-ESP | api | api-bf-x02]]
+Toque no botão para tentar de novo.
 
 Digite SAIR se não quiser mais receber mensagens
 ```

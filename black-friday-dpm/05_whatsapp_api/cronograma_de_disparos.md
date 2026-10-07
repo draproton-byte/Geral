@@ -350,28 +350,35 @@ Cada troca é feita por duas pessoas e tem início e fim. A janela termina antes
 
 **Pendências que bloqueiam o agendamento**
 1. `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]`: a seção 4.3 fica em dias relativos até ser fechada. Prazo sugerido pela estratégia: 10/10.
-2. Links: reserva da live, diagnóstico, live no YouTube, grupos por segmento, checkout por lote e segmento (seis), suporte.
-3. Segmentação em DataCrazy/ListBoss: tags A, D e N, "reservou", "fez o diagnóstico", "aluna ativa", "abriu checkout".
+2. Links: captura A, C e D, obrigado e diagnóstico, diagnóstico, live YouTube, grupos por segmento (geral, alunas, viveu o método, vitalícia), nove checkouts (S1, S2 e S3 em ESP, 1L e UL), onboarding, lista de espera, depoimento, áudio do dia e suporte WhatsApp. Cada peça traz o seu token; o mapa está em `16_MAPA_DE_LINKS.md`.
+3. Segmentação em DataCrazy/ListBoss: tags A, D e N, "reservou", "fez o diagnóstico", "aluna ativa", "abriu checkout", e a exclusão automática de quem já reservou nas listas das séries canônicas de API (`[[CONFIRMAR: excluir quem já reservou, para não repetir o pedido de reserva]]`).
 4. `[[CONFIRMAR: contagem de alunas do Clube]]`: define o custo e o tamanho do grupo de alunas.
 5. Aprovação dos templates de API na Meta: são dezenas de templates novos (ver a tabela "Aprovação de template" no fim de cada arquivo de API). Pedir aprovação com antecedência de pelo menos 7 dias do primeiro uso. Templates pós-live (API-BF-17 em diante) precisam ser aprovados **antes** da live e não podem trazer preço digitado: o preço e o lote entram por variável no envio.
 6. `[[DEPOIMENTO REAL]]`, áudio de Grabovoi, vídeo da Dra. (19h50) e artes (capas, Golden Ticket, ingresso). Nenhuma arte tem cor, fonte ou logo definitivos, porque a identidade visual ainda não existe.
 
 **Decisões a validar**
-1. **Slot de 16h30 em reserva (decisão fechada).** A cadência canônica de grupo é de 2 disparos por dia (11h30 e 20h), como na BFV/26. As 21 copys de 16h30 ficam como banco de reserva e testes. Quatro delas (CP-BF-11, 26, 32 e 35) foram promovidas ao slot de 20h para o calendário não perder cobertura de objeção (confiança na Dra., dinheiro e o que entra); as de 20h do mesmo dia (CP-BF-12, 27, 33 e 36) foram para a reserva. Para desfazer uma promoção, trocar os horários na tabela da seção 2 e nos títulos do arquivo de copys.
-2. **Variantes por grupo.** O grupo geral usa a copy-base; alunas e Desafio/Imersão têm 8 variantes cada (4 e 5 no calendário, 4 e 3 em reserva), em slots escolhidos pela diferença de público. Se a equipe quiser menos trabalho, usar a copy-base nos três grupos e as variantes só nos 4 slots de maior diferença (CP-BF-01, 22, 56 e 62).
-3. **Onboarding.** Os gatilhos da planilha de setembro do Desafio parecem trocados (ver `api_onboarding.md`). Adotei o que o texto pede. "Não confirmou" significa "reservou e não entrou no grupo".
-4. **Quem fez Desafio/Imersão paga preço de não-alunas** até a equipe decidir o contrário.
-5. **Ritual de Grabovoi** substitui o mantra, sem promessa de dinheiro. Se a Dra. não aprovar, trocar CP-BF-15, 45, 60, 64 e 77 por copys da reserva ou por perguntas do dia, sem deixar o slot vazio.
-7. **Dia 03/11 (terça).** O dia da live é a única exceção à cadência de 2 por dia. A grade usa um minuto por disparo, janelas fechadas para troca de nome e capa e modo escuta do comercial das 20h às 22h. Terça é dia de aula do Clube `[[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]`.
-8. **02/11 (Finados).** Mantém os dois disparos, com tom sóbrio.
-6. **Replay.** Nenhuma peça afirma ou nega replay.
+1. **Série canônica da pasta 13 (decisão fechada).** O calendário agenda cp-00a a cp-42, ca-01 a ca-06, api-alunas-01 a 08, api-viveu-01 a 08 e api-onb-01 a 04. Os arquivos equivalentes desta pasta são banco de reserva. Nenhuma data, hora ou assunto se repete para o mesmo público: onde havia colisão, a série canônica ficou e a peça desta pasta mudou de dia (06.1 e 06.2 de 27/10 para 26/10; convite indireto de alunas de 20/10 para 18/10; Golden Ticket para 22/10, 26/10 e 01/11) ou saiu do calendário (versão D do convite indireto).
+2. **Slot de 16h30.** É reserva, com uma única exceção: o cp-00b de 13/10 (decisão da revisão final: 00-A e 00-B ficam em terça 13/10, às 09h30 e 16h30). Se a equipe achar 4 disparos em 13/10 pesado, fundir o cp-00b ao cp-02.
+3. **APIs canônicas das alunas às 20h.** api-alunas-05 e api-alunas-06 ficam às 20h (a série do modelo fixa esse horário, decisão da revisão final) e saem às 20h05, cinco minutos depois do grupo, pela regra de um disparo de WhatsApp por minuto.
+4. **E-mail e API da mesma aluna no mesmo dia** (15/10, 23/10, 27/10, 29/10, 02/11 e 03/11): é um toque em dois canais, como no modelo `[[CONFIRMAR: aceitar e-mail e API da mesma aluna no mesmo dia ou escalonar por canal]]`.
+5. **Variantes por grupo.** O grupo geral e o de Desafio/Imersão recebem a mensagem canônica geral; o de alunas recebe a série ca nas cinco datas dela. As variantes -AL e -DS do banco de reserva ficam fora do calendário. Se a equipe quiser variantes -DS no grupo de Desafio/Imersão, usar uma por semana em teste A/B contra a mensagem canônica do mesmo horário.
+6. **Onboarding.** Vale a série canônica api-onb. As API-BF-01 a 03 ficam em reserva e atendem a versão D (quem viveu o método, sem Clube). Nunca as duas para a mesma pessoa no mesmo gatilho. "Não confirmou" significa "reservou e não entrou no grupo".
+7. **Quem fez Desafio/Imersão paga preço de não-alunas** até a equipe decidir o contrário (checkout S2, preço de não-alunas).
+8. **Ritual de Grabovoi** substitui o mantra, sem promessa de dinheiro. Se a Dra. não aprovar, trocar CP-BF-64 e 77 do dia 03/11 por perguntas do dia, sem deixar o slot vazio.
+9. **Dia 03/11 (terça).** O dia da live é a exceção à cadência de 2 por dia. A grade usa um minuto por disparo, janelas fechadas para troca de nome e capa e modo escuta do comercial das 20h às 22h. Terça é dia de aula do Clube `[[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]`.
+10. **02/11 (Finados).** Mantém os dois disparos de grupo, com tom sóbrio.
+11. **Replay.** Nenhuma peça afirma ou nega replay.
 
 **Testes A/B sugeridos**
-1. Copy agendada contra a copy de reserva do mesmo dia (metade do rodízio cada), sempre em 11h30 ou 20h.
+1. Mensagem canônica contra a copy de reserva do mesmo horário (metade do rodízio cada), sempre em 11h30 ou 20h.
 2. Slot C com ritual contra slot C com pergunta.
-3. Primeira API de convite indireto às 09h contra 12h.
+3. Primeira API de convite indireto às 09h05 contra 12h.
 4. Dia 03/11: a ordem de CP-BF-68 (carta) e CP-BF-69 (o que acontece hoje).
 
 **Dependências**
-- Todos os arquivos desta pasta. Os e-mails equivalentes estão em `06_emails`.
+- Todos os arquivos desta pasta e `13_modelo_dr_joao`. Os e-mails equivalentes estão em `06_emails` e em `13_modelo_dr_joao`.
 - O comercial 1 a 1 (`09_comercial_datacrazy`) entra a partir de 03/11 e usa os mesmos lotes.
+
+**Links desta peça**
+
+O cronograma é uma agenda e não envia mensagem: não tem token de link próprio. Cada ID agendado traz o seu token no arquivo indicado na seção 1.1, e a lista de tokens de cada arquivo está na sua seção "Links desta peça".

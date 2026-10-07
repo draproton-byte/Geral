@@ -407,7 +407,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 ## Notas ao implementador
 
 **Pendências**
-1. Links: captura A (A05 e L01), diagnóstico (B07 e C01), live YouTube (D01), grupo geral com troca por tag (B11 e L04), checkout S3-ESP e S1-ESP (V02 e V02-A) e suporte WhatsApp (V03). As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat. O token de checkout mostra o primeiro lote (Lote Especial); depois das viradas o fluxo troca por 1L e UL conforme `{{lote_atual}}`.
+1. Links: captura A (A05 e L01), diagnóstico (B07 e C01), live YouTube (D01), grupo geral com troca por tag (B11 e L04), checkout S3-ESP e S1-ESP (V02 e V02-A) e suporte WhatsApp (V03). As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat. O token de checkout mostra o primeiro lote (Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]]); depois das viradas o fluxo troca por 1L e UL conforme `{{lote_atual}}`.
 2. `[[CONFIRMAR: template da arte do ingresso]]`: o Desafio usava um serviço de imagem dinâmica (Bannerbear, Placid ou Canva com API). A arte do ingresso é da área `04_criativos`. Sem ela, o Ramo B pula direto da B03 para a B06.
 3. `[[CONFIRMAR: presente de compartilhamento]]`: pode ser o bônus de 15 minutos da live (`08_live_e_pitch`) ou um áudio. Não inventar. Se não existir, apagar MC-BF-B09, B10 e os lembretes L02 e L03 e manter só o ingresso.
 4. Integração Hotmart e formulário de reserva para ManyChat: o Desafio listava "confirmar se já existe integração ou se precisa de middleware (n8n, Make ou Zapier)". O mesmo vale aqui, com o formulário da página de captura no lugar do evento de compra: a tag `bf_reservou` precisa chegar em minutos.

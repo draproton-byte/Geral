@@ -1103,10 +1103,6 @@ A live é dia 03/11, às 20h.
 
 Você vai estar?
 
-👇 Reserva o seu lugar:
-
-[[LINK: captura A | wpp | cp-bf-45]]
-
 Reage com 🌙 se fez o ritual hoje.
 ```
 
@@ -1191,7 +1187,9 @@ O que vai acontecer na live de 03/11:
 
 [[CONFIRMAR: roteiro da live, ver 08_live_e_pitch]]
 
-Terça, 03/11, às 20h, no YouTube.
+Terça, 03/11, às 20h, no YouTube. Ativa o lembrete:
+
+[[LINK: live YouTube | wpp | cp-bf-49]]
 
 Reage com 👀 se você quer ver tudo.
 ```
@@ -1221,7 +1219,7 @@ Perfil: Todos (5 perfis). Objeção: Não sei o que me impede. Momento de vida: 
 ```text
 Falta pouco para a live.
 
-E uma coisa te ajuda a chegar lá sabendo quem você é: o *diagnóstico dos 5 padrões*.
+E uma coisa te ajuda a chegar lá sabendo qual é o seu padrão: o *diagnóstico dos 5 padrões*.
 
 Quem faz chega na live sabendo se o seu padrão é Termostato Invisível, Autossabotagem, Cobrança, Traumas ou Culpa de Querer Mais.
 
@@ -1546,6 +1544,10 @@ Quem já é aluna tem uma condição própria, diferente de quem ainda não é d
 [[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]
 
 Você já está no processo. A pergunta é: quer ficar nele sem prazo?
+
+👇 Reserva o seu lugar e a condição de aluna:
+
+[[LINK: captura C | wpp | cp-bf-22-al]]
 
 Reage com 🙋 se você quer entender como funciona para alunas.
 ```

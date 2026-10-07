@@ -96,7 +96,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-08: 30/10, 09h10 (diagnóstico pendente)
 
 ```text
-Falta um passo para chegar à live sabendo quem você é, {{nome}}.
+Falta um passo para chegar à live sabendo qual é o seu padrão, {{nome}}.
 
 O *diagnóstico dos 5 padrões* mostra se o seu padrão é Termostato Invisível, Autossabotagem, Cobrança, Traumas ou Culpa de Querer Mais.
 
@@ -690,24 +690,34 @@ Digite SAIR se não quiser mais receber mensagens
 ## Notas ao implementador
 
 **Pendências**
-1. `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O Desafio usava o áudio com uma sequência numérica e uma frase de promessa de dinheiro. **Não copiar a frase nem a promessa.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e CP-BF-77 e manter só a versão P.S. do carrinho.
+1. `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O áudio da noite precisa estar fixado no grupo antes das 22h00 (CP-BF-77 remete a ele). O Desafio usava o áudio com uma sequência numérica e uma frase de promessa de dinheiro. **Não copiar a frase nem a promessa.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e trocar o primeiro parágrafo do CP-BF-77 por uma pergunta do dia, mantendo o P.S. do carrinho.
 2. `[[CONFIRMAR: vídeo da Dra.]]` do disparo das 19h50 (o Desafio também esperava o vídeo).
 3. Preço, data do lote, garantia, bônus e parcelamento: tudo o que está nas seções 4 e 5 com placeholder só fecha depois da revelação (`[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[CONFIRMAR: parcelamento]]`). As peças saem prontas e o preço é preenchido por busca no momento em que a Dra. falar. A escada de preços do briefing está em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1, e não é repetida aqui.
-4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma que o menor preço é só para quem estiver ao vivo. Esse texto aparece em CP-BF-66 e CP-BF-71.
+4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma que o menor preço é só para quem estiver ao vivo. Esse texto aparece em CP-BF-66 e CP-BF-71 (no grupo de alunas, o mesmo aviso está no ca-06, pasta 13).
 5. `[[CONFIRMAR: roteiro da live]]` (`08_live_e_pitch/roteiro_live_de_revelacao.md`): os horários 21h00 (CP-BF-75), 21h28 (carrinho aberto) e 22h00 foram alinhados ao roteiro atual (preço no bloco 12, link no bloco 15). Se o roteiro mudar, mover os disparos junto.
 6. Quem fez Desafio/Imersão paga o preço de não-alunas, a menos que a equipe decida criar uma condição própria `[[CONFIRMAR: condição própria para quem fez Desafio ou Imersão]]`. Os textos assumem preço de não-alunas.
 7. Replay: nenhum texto afirma "sem replay". Quando `[[PENDENTE: replay]]` fechar, acrescentar uma linha em CP-BF-71.
 
 **Aprovação de template (Meta)**
 
-| ID | Categoria | Botões | Variáveis | Status |
-|---|---|---|---|---|
-| API-BF-07, 08, 09 | Marketing | 2 (URL + PARAR MENSAGENS) | `{{nome}}`, `{{link_diagnostico}}` | **PRECISA DE APROVAÇÃO** |
-| API-BF-10, 10-A, 11, 12, 13, 14 | Marketing | 2 | `{{nome}}` | **PRECISA DE APROVAÇÃO** (6 templates). Sem preço |
-| API-BF-15, 16 | Mensagem de sessão (janela de 24 h) | 0 | `{{nome}}` | Sem aprovação. Só para quem interagiu nas últimas 24 h |
-| API-BF-17, 17-A | Marketing, pós-live | 2 | `{{nome}}` e preço e data do lote por variável (`{{preco_lote}}`, `{{data_virada}}`) `[[CONFIRMAR: nomes das variáveis na ferramenta]]` | **PRECISA DE APROVAÇÃO ANTES DA LIVE**. O texto enviado à Meta usa valores de exemplo neutros: o preço real só existe depois da revelação e nunca é digitado no template |
+Estrutura de cada template: cabeçalho de texto (até 60 caracteres, sem variável e sem emoji), corpo (o bloco da peça, menos de 450 caracteres), rodapé SAIR e botões (no máximo 3; aqui são 2, de até 25 caracteres).
 
-Todos os templates com rodapé SAIR, sem cabeçalho e com corpo curto (menos de 450 caracteres).
+| ID | Cabeçalho | Categoria | Botões | Variáveis | Status |
+|---|---|---|---|---|---|
+| API-BF-07 | A live de 03/11 já tem data | Marketing | 2 (URL: ATIVAR LEMBRETE; resposta rápida: PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-08 | Falta o diagnóstico dos 5 padrões | Marketing | 2 (URL: FAZER O DIAGNÓSTICO; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-09 | A live é em 03/11, às 20h | Marketing | 2 (URL: ATIVAR LEMBRETE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO** |
+| API-BF-10 | A live é hoje, às 20h | Marketing | 2 (URL: ATIVAR LEMBRETE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço |
+| API-BF-10-A | Hoje, às 20h: a condição das alunas | Marketing | 2 (URL: ATIVAR LEMBRETE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço |
+| API-BF-11 | Hoje, às 20h, ao vivo | Marketing | 2 (URL: ATIVAR LEMBRETE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço |
+| API-BF-12 | Falta 1 hora para a live | Marketing | 2 (URL: ENTRAR NA LIVE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço |
+| API-BF-13 | Faltam 5 minutos para a live | Marketing | 2 (URL: ENTRAR NA LIVE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço |
+| API-BF-14 | Estou ao vivo agora | Marketing | 2 (URL: ENTRAR NA LIVE; PARAR MENSAGENS) | `{{nome}}` | **PRECISA DE APROVAÇÃO**. Sem preço |
+| API-BF-15, 16 | Não se aplica (mensagem de sessão, janela de 24 h) | Não se aplica | 0 (o link vai no corpo) | `{{nome}}` | Sem aprovação. Só para quem interagiu nas últimas 24 h |
+| API-BF-17 | Carrinho aberto: Lote Especial | Marketing, pós-live | 2 (URL: GARANTIR MEU LUGAR; PARAR MENSAGENS) | `{{nome}}` e preço e data do lote por variável (`{{preco_lote}}`, `{{data_virada}}`) `[[CONFIRMAR: nomes das variáveis na ferramenta]]` | **PRECISA DE APROVAÇÃO ANTES DA LIVE**. O texto enviado à Meta usa valores de exemplo neutros: o preço real só existe depois da revelação e nunca é digitado no template |
+| API-BF-17-A | Carrinho aberto: condição das alunas | Marketing, pós-live | 2 (URL: GARANTIR MEU LUGAR; PARAR MENSAGENS) | Igual à API-BF-17 | **PRECISA DE APROVAÇÃO ANTES DA LIVE** (mesma regra de variáveis) |
+
+Todos os templates com rodapé SAIR e sem preço pré-live.
 
 **Testes A/B sugeridos**
 1. CP-BF-68 (carta) com e sem a frase "Eu não prometo ganho nem resultado igual para todo mundo. Prometo um caminho, com acompanhamento." Medir reações e cliques.
@@ -715,6 +725,6 @@ Todos os templates com rodapé SAIR, sem cabeçalho e com corpo curto (menos de 
 3. CP-BF-70 (antes de decidir) contra a quebra de objeção direta da CP 34 do Desafio. Medir cliques no checkout nas 2 horas seguintes à abertura.
 
 **Dependências**
-- Carrinho aberto depende dos links de checkout por lote e segmento (`[[LINK: checkout Lote Especial alunas]]` e `...não-alunas`) e da decisão sobre o Lote Especial.
+- Carrinho aberto depende dos links de checkout por lote e segmento (checkout S1-ESP para alunas, S2-ESP para quem viveu o método e S3-ESP para não-alunas) e da decisão sobre o Lote Especial.
 - As janelas de troca de nome e capa dos grupos (05h45 a 05h55, 19h30 a 19h45 e 21h35 a 21h50) entram no cronograma.
 - A atuação do comercial 1 a 1 no dia 03/11 está em `09_comercial_datacrazy`.

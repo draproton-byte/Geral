@@ -4,10 +4,10 @@
 
 | Fonte | Respostas | Observação |
 |---|---|---|
-| Pesquisa de confirmação de presença do Aulão DNR (14/09 a 24/09) | 7.323 | Sobrepõe-se ao Desafio. Inclui renda, objeção de compra e há quanto tempo acompanha a Dra. |
-| Pesquisa / ficha de interesse do Clube Secreto | 893 | Arquivo chamado "RESPOSTAS PESQUISA ALUNOS CLUBE SECRETO" na planilha de links, mas as respostas têm score e classificação quente/morno/frio de uma **ficha de interesse**, não de alunas que já compraram. O Comercial a chama de "ficha de 877 pessoas". Tratei como ficha de interesse. **Confirmar com a equipe**, porque muda a leitura de "alunas". |
-| Dossiê de audiência do Desafio (Comercial) | 5.486 + 722 quiz + 1.562 diagnóstico | Já tem os dados demográficos |
-| Pesquisa do Desafio por quiz | 3.226 | Só estrutura lida (sem dados pessoais) |
+| Pesquisa de confirmação de presença do Aulão DNR (14/09 a 05/10; `aulao.csv`) | 7.323 linhas (6.382 e-mails distintos) | Sobrepõe-se ao Desafio. Inclui renda, objeção de compra e há quanto tempo acompanha a Dra. Não traz gênero nem idade: esses dois vêm do dossiê (5.486 respostas até 23/09) |
+| Pesquisa / ficha de interesse do Clube Secreto (`alunos.csv`, 14/08 a 05/10) | 893 linhas (844 e-mails distintos) | Arquivo chamado "RESPOSTAS PESQUISA ALUNOS CLUBE SECRETO" na planilha de links, mas as respostas têm score e classificação quente/morno/frio de uma **ficha de interesse**, não de alunas que já compraram. O Comercial a chama de "ficha de 877 pessoas" (o arquivo traz 893 linhas, 844 e-mails distintos). Tratei como ficha de interesse. **Confirmar com a equipe**, porque muda a leitura de "alunas". |
+| Dossiê de audiência do Desafio (Comercial, 23/09) | 5.486 presença + 722 quiz + 1.562 diagnóstico (todos entre 14 e 23/09) | Já tem os dados demográficos. Os percentuais do dossiê usam a base de 5.486 e diferem em até 0,5 ponto dos do `aulao.csv` (7.323) |
+| Pesquisa do Desafio por quiz | 3.226 linhas na planilha (722 no dossiê, até 23/09) | Só estrutura lida (sem dados pessoais) |
 | Briefing da Black | n/a | Cita a Imersão e o diagnóstico de 5 perfis |
 
 > Não consegui ler: planilhas de respostas dos compradores da Imersão e do NPS do Desafio; pesquisa para não alunos (formulário externo); as artes (imagens).
@@ -40,7 +40,7 @@ Consequência: a porta de entrada é o diagnóstico, não o catálogo. "Veja qua
 - Área da vida que mais precisa ser arrumada: **66% dinheiro** (Aulão); **34% dinheiro e 39% "várias áreas ao mesmo tempo"** (ficha).
 - Situação financeira (ficha): **34%** "o dinheiro não dá para pagar tudo"; **32%** "pago as contas, mas quase nunca sobra"; 13% confortável querendo mais; 9% "consigo guardar um pouco".
 - Quanto gostariam de ganhar por mês (ficha): 27% R$ 100 mil ou mais; 19% R$ 10 mil; 17% R$ 20 mil; 15% R$ 30 mil; 15% R$ 50 mil.
-- Dossiê: **51,9%** respondem que quando entra dinheiro a mais, aparece uma conta ou um problema. Esse é o "Termostato Invisível".
+- **51,9%** das pessoas que responderam à pesquisa de presença (dossiê do Desafio, base de 5.486) dizem que, quando entra dinheiro a mais, aparece uma conta ou um problema. Esse é o "Termostato Invisível". A pergunta não está no `aulao.csv`.
 - Primeiro assunto que querem aprender (ficha): reprogramar a mente para o dinheiro (23%), mudar a vida financeira (21%), parar de procrastinar e agir (12%), eliminar crenças e bloqueios (11%), Lei da Atração na prática (8%).
 - O que querem destravar: ficha, "liberdade financeira" (43%), sair das dívidas (12%), fazer o negócio crescer (11%), ganhar R$ 10 mil por mês (8%).
 
@@ -48,13 +48,13 @@ Consequência: a porta de entrada é o diagnóstico, não o catálogo. "Veja qua
 
 | Dado | Ficha (893) | Aulão (7.323) / Dossiê |
 |---|---|---|
-| Faixa etária | 45 a 54: 37%; 35 a 44: 31%; 55 a 64: 17%; 65+: 6% | 78,4% têm 40+, 40% têm 50+ |
-| Gênero | n/a | 79,2% mulheres, 20,8% homens |
+| Faixa etária | 45 a 54: 37%; 35 a 44: 31%; 55 a 64: 17%; 65+: 6% (60% têm 45 ou mais) | Dossiê: 78,4% têm 40+, 40% têm 50+ |
+| Gênero | n/a | Dossiê: 79,2% mulheres, 20,8% homens |
 | Situação amorosa | Casadas: 55%; solteiras: 18%; separadas: 16% | n/a |
 | Relacionamento | "Bom, poderia ser melhor" 26%; "sozinha, não encontro alguém" 20%; "estável, mas falta conexão" 15%; "desgastante e cheio de conflito" 11% | n/a |
 | Trabalho | CLT 20%, autônoma 18%, empreendedora 13%, funcionária pública 12%, aposentada 8% | n/a |
-| Renda | R$ 3.001 a 5.000: 23%; R$ 5.001 a 10.000: 23%; R$ 1.501 a 3.000: 18%; R$ 10.001 a 20.000: 15% | Até R$ 1.500: 34%; R$ 1.501 a 3.000: 31%; R$ 3.001 a 5.000: 20%; acima de R$ 5.000: 15% |
-| Há quanto tempo acompanham a Dra. | n/a | Primeira vez: 25%; menos de 1 mês: 19%; 1 a 6 meses: 26%; 6 meses a 1 ano: 15%; mais de 1 ano: 15% |
+| Renda | R$ 3.001 a 5.000: 23%; R$ 5.001 a 10.000: 23%; R$ 1.501 a 3.000: 18%; R$ 10.001 a 20.000: 15% | Até R$ 1.500: 34%; R$ 1.501 a 3.000: 31% (65% até R$ 3.000, 4.761 pessoas); R$ 3.001 a 5.000: 20%; acima de R$ 5.000: 15% (1.108 pessoas) |
+| Há quanto tempo acompanham a Dra. | n/a | Primeira vez: 25%; menos de 1 mês: 19% (juntos, 44%); 1 a 6 meses: 26%; 6 meses a 1 ano: 15%; mais de 1 ano: 15% |
 | Origem (Aulão) | n/a | Instagram (feed, reels, stories) e Facebook somam a maior parte; 30% sem origem rastreada |
 
 ### 1.5 A objeção de compra tem duas naturezas
@@ -92,7 +92,7 @@ Conforto declarado na ficha para investir hoje em um programa que resolva o maio
 | R$ 1.001 a R$ 3.000 | 7% |
 | Acima de R$ 3.000 | 3% |
 
-A menor faixa da Vitalícia (R$ 1.997 para alunas, R$ 2.997 para não-alunas) fica na zona de **10%** da base. A conversão desse pacote depende de parcelamento visível (cartão parcelado foi a forma de pagamento mais escolhida na ficha) e do argumento de custo de ficar parada. Valores nunca aparecem antes da live.
+Os dois pontos de partida da Vitalícia (R$ 1.997 para alunas, R$ 2.997 para não-alunas) caem nas faixas acima de R$ 1.000, que juntas somam **10%** da base (7% de R$ 1.001 a R$ 3.000 e 3% acima de R$ 3.000). Os lotes de R$ 3.997 e R$ 4.997 ficam na faixa de 3%. Só 53% se dizem confortáveis com até R$ 297. A conversão desse pacote depende de parcelamento visível (cartão parcelado foi a forma de pagamento mais escolhida na ficha, segundo o briefing; a coluna de pagamento não está no CSV lido) e do argumento de custo de ficar parada. Valores nunca aparecem antes da live.
 
 ---
 

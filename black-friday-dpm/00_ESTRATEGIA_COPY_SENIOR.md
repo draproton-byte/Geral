@@ -2,6 +2,8 @@
 
 Documento-base de todas as copys da campanha. Lido junto com `01_PESQUISAS_INSIGHTS.md` (números) e `02_GUIA_DE_COPY.md` (regras de escrita).
 
+Documento interno: os valores em R$ daqui (lotes, tráfego, faixas de renda e de conforto) são de planejamento e não vão para nenhuma peça pública antes da revelação ao vivo (03/11, 20h).
+
 **Critério de sucesso:** uma pessoa que cai em qualquer peça (anúncio, grupo, e-mail, página, mensagem do comercial) entende, em 5 segundos, que a oferta é *entrar de vez e parar de recomeçar*, e se reconhece em uma das cinco dores já validadas nas pesquisas. Nenhuma peça promete resultado financeiro, cura ou fim da autossabotagem.
 
 ---
@@ -13,8 +15,8 @@ Documento-base de todas as copys da campanha. Lido junto com `01_PESQUISAS_INSIG
 | Item | Valor |
 |---|---|
 | Oferta | Acesso vitalício ao Clube Secreto + 11 produtos do catálogo atual, pagamento único |
-| Captação | 13/10 a 03/11 |
-| Live de revelação | 03/11, 20h, YouTube. Preço e lotes só revelados ao vivo |
+| Captação | terça 13/10 a segunda 02/11 (21 dias) |
+| Live de revelação | terça 03/11, 20h, ao vivo no YouTube. Preço e lotes só revelados ao vivo |
 | Tráfego | R$ 200.000 |
 | Alunas do Clube | Lote Especial R$ 1.997, Primeiro Lote R$ 2.997, Último Lote R$ 3.997 |
 | Não-alunas | Lote Especial R$ 2.997, Primeiro Lote R$ 3.997, Último Lote R$ 4.997 |
@@ -26,11 +28,15 @@ Documento-base de todas as copys da campanha. Lido junto com `01_PESQUISAS_INSIG
 1. Preço avulso dos 11 produtos (sem ele não existe a conta "quanto custaria tudo separado").
 2. Datas e horas de virada entre os três lotes.
 3. Garantia da Vitalícia (o Clube tem 7 dias; falta confirmar se mantém).
-4. Bônus de antecipação ou de quem assiste ao vivo.
-5. Quando fecha o carrinho depois da live.
-6. Se existe replay da live (a página de captura diz "sem replay").
-7. Foto da Dra. na página de captura (hoje é placeholder).
-8. Meta de faturamento e de leads (sem ela não dá para calibrar volume de disparo nem CPL).
+4. Parcelamento (número de parcelas, entrada, boleto, Pix).
+5. Bônus de antecipação ou de quem assiste ao vivo.
+6. Quando fecha o carrinho depois da live.
+7. Se existe replay da live (a página de captura diz "sem replay").
+8. Se o preço do lote fica travado no Pix e no boleto quando o lote vira antes da compensação.
+9. Foto da Dra. na página de captura (hoje é placeholder).
+10. Meta de faturamento e de leads (sem ela não dá para calibrar volume de disparo nem CPL).
+
+Os itens 1 a 8 bloqueiam as peças de venda (fechar até 10/10); 9 e 10 bloqueiam a captação (fechar antes de 13/10). A lista completa, com quem decide, está em `12_decisoes_e_pendencias.md`.
 
 ---
 
@@ -53,7 +59,7 @@ Documento-base de todas as copys da campanha. Lido junto com `01_PESQUISAS_INSIG
 | Alunas atuais do Clube Secreto | 4, comparação | Ela conhece o produto. Copy fala de upgrade: "você já está dentro, falta ficar para sempre" e do que muda. |
 | Quem comprou Desafio, Imersão ou Aulão e não entrou no Clube | 4 a 5 | Viveu o método. Copy retoma o "não trave o processo" e a lógica 1 vezes 0. |
 | Lista de interesse / ficha quente (151) | 5, pronto | Fala direto da condição, do parcelamento e da garantia. |
-| Aulão sem compra (base grande, 43,8% conhecem a Dra. há menos de 1 mês) | 2 a 3, dor e solução | Copy abre pelo diagnóstico e pelo nome da dor. Não abre pelo catálogo. |
+| Aulão sem compra (base grande, 44,2% conhecem a Dra. há menos de 1 mês ou a viram hoje pela primeira vez) | 2 a 3, dor e solução | Copy abre pelo diagnóstico e pelo nome da dor. Não abre pelo catálogo. |
 | Tráfego frio | 1 a 2 | Anúncio nomeia o padrão (recomeçar), não vende o produto. |
 
 ### 3.2 Trabalho contratado (JTBD)
@@ -68,10 +74,10 @@ Frase de trabalho que orienta todas as peças: *"Eu quero uma decisão que eu s�
 |---|---|---|
 | Aperto real | 34% "o dinheiro não dá para pagar tudo" | Parcelamento, garantia, a conta de continuar parada. Sem pressão de status. |
 | Funcional e exausta | 32% "pago as contas, mas nunca sobra"; 60% têm 45 anos ou mais | "Eu cuido de todo mundo, mas ninguém cuida de mim" (frase validada em 10,9%) |
-| Confortável querendo mais | 18% | Patrimônio e ritmo: "você já provou que sabe começar" |
+| Confortável querendo mais | 18% (ficha: 12,5% "vida confortável, mas quero ganhar mais" + 5,4% "ganho bem, mas quero aumentar muito") | Patrimônio e ritmo: "você já provou que sabe começar" |
 | Sozinha | 20% | Ângulo emocional do Clube (mês de solidão e conexão), nunca promessa de encontrar parceiro |
-| Casada, relação sem conexão | 55% casadas | "Quando você sobe, a casa sobe junto" (frase real da Aula 02) |
-| Homem | ~21% do Aulão | Versões de headline neutras ("quem", "você") em todo criativo de tráfego |
+| Casada, relação sem conexão | 55% casadas (ficha); 15% descrevem a relação como estável, mas sem conexão | "Quando você sobe, a casa sobe junto" (frase real da Aula 02) |
+| Homem | 20,8% (dossiê do Desafio, base de 5.486 respostas; o CSV do Aulão não traz gênero) | Versões de headline neutras ("quem", "você") em todo criativo de tráfego |
 
 ### 3.4 Scroll stopper (frame 0)
 
@@ -91,7 +97,7 @@ Cada criativo no arquivo `04_criativos` tem o frame 0 definido. Regras gerais: 4
 
 **Inimigo comum.** O "depois". A autossabotagem sempre teve um depois para se esconder: "depois eu começo", "depois eu pago", "depois eu faço". A Vitalícia tira o prazo e tira a desculpa.
 
-**Mecanismo.** Pagamento único, acesso vitalício, protocolo de 21 dias por ciclo, 12 ciclos por ano, sem prazo para dar conta. O que muda é que não existe mais "o mês que eu perdi".
+**Mecanismo.** Pagamento único, acesso vitalício, protocolo de 21 dias por ciclo, 12 ciclos (um por mês, segundo o briefing e o manual do Comercial), sem prazo para dar conta. O que muda é que não existe mais "o mês que eu perdi".
 
 **Prova de que não é truque.** A própria Dra. disse nas aulas: "Não trave o processo", "Obediência é maturidade", "Quem não está crescendo está morrendo". A Vitalícia é essa fala virando oferta. Usar as frases intocáveis literalmente (lista no guia).
 
@@ -104,9 +110,9 @@ Cada criativo no arquivo `04_criativos` tem o frame 0 definido. Regras gerais: 4
 | 3. Antecipação | 28/10 a 02/11 | "Eu não posso perder essa live" | Contagem, lembretes por dia, convite para as alunas |
 | 4. Revelação | 03/11 | "Eu decido hoje" | Live, abertura de carrinho, comercial no WhatsApp |
 | 5. Virada de lote | pós-live, datas pendentes | "Se eu não entrar agora, entro mais caro" | Escassez por lote, ex-live |
-| 6. Fechamento | `[[PENDENTE]]` | "É agora" | Últimas horas, saída honrosa |
+| 6. Fechamento | `[[PENDENTE: fechamento]]` | "É agora" | Últimas horas, saída honrosa |
 
-Cadência de disparo modelada na BFV/26 do João Pithon (única referência acessível do modelo): e-mail diário às 07h, grupos de WhatsApp às 11h30 e 20h, e envio segmentado às 09h (alunas e demais alunos têm lista, tag, checkout e ListBoss próprios).
+Cadência de disparo modelada na BFV/26 (única referência acessível do modelo): grupos de WhatsApp às 11h30 e 20h todos os dias; e-mail às 07h (09h para segmentos); API às 09h. O terceiro slot das 16h30 é banco de reserva e não entra no cronograma. Alunas e demais alunos têm lista, tag, checkout e ListBoss próprios.
 
 ---
 
@@ -116,9 +122,9 @@ O limite real do funil é preço contra capacidade declarada.
 
 | Grupo | Tamanho | Capacidade declarada | Ação |
 |---|---|---|---|
-| Alunas atuais do Clube | `[[PENDENTE: contagem]]` | Maior prioridade, lote R$ 1.997 | Sequência própria de upgrade |
+| Alunas atuais do Clube | `[[PENDENTE: contagem de alunas]]` | Maior prioridade, lote R$ 1.997 | Sequência própria de upgrade |
 | Ficha quente | 151 | 141 declaram mais de R$ 500; 80 acima de R$ 1.000 | Comercial 1 a 1 no dia 03/11 (ver `09_comercial`) |
-| Compradores do Desafio (R$ 35) | 2.220 pagantes | Provaram que pagam e que viveram o método | Lista principal de captação. Segmento "Desafio" separado |
+| Compradores do Desafio (R$ 35) | 2.220 unidades vendidas (dossiê) | Provaram que pagam e que viveram o método | Lista principal de captação. Segmento "Desafio" separado |
 | Aulão com renda acima de R$ 5.000 | 1.108 | Capacidade existe, 44% ainda diz "sem dinheiro agora" | Criativo de "conta do custo de ficar parada" + parcelamento |
 | Aulão com renda até R$ 3.000 | 4.761 | Dificilmente fecha R$ 2.997+ | Não gastar esforço comercial. Mantém na lista de avisos e no diagnóstico |
 | Tráfego frio | R$ 200.000 | Quase sem relação com a marca | Anúncio de dor e diagnóstico. Não vende produto |
@@ -133,13 +139,13 @@ A Imersão já ensinou o público a se reconhecer em cinco perfis, e os números
 
 | Perfil | Frase que a audiência já usa | Dado |
 |---|---|---|
-| Termostato Invisível | "Quando entra um dinheiro a mais, aparece uma conta" | 51,9% (dossiê do Desafio, enquete de presença) |
-| Autossabotagem | "Eu sei o que fazer e não faço" | 15% (o que tira a paz); 19% a 27% escolheriam "parar de me sabotar" como maior problema emocional |
-| Cobrança Que Você Só Faz Com Você | "Estou funcional, mas exausta por dentro" | 16% (ficha) |
+| Termostato Invisível | "Quando entra um dinheiro a mais, aparece uma conta" | 51,9% das pessoas que responderam à pesquisa de presença (dossiê do Desafio, base de 5.486) |
+| Autossabotagem | "Eu sei o que fazer e não faço" | 15% (o que tira a paz, ficha e Aulão); 19% (ficha) a 27% (Aulão) escolheriam "parar de me sabotar" como maior problema emocional |
+| Cobrança Que Você Só Faz Com Você | "Estou funcional, mas exausta por dentro" | 22,5% escolhem essa frase como saúde emocional (ficha); 16% apontam a cobrança excessiva como o que tira a paz (ficha) |
 | Traumas Que Ainda Decidem | "Sinto que a cada passo que dou, retrocedo" | 14% (ficha), 13% (Aulão) |
 | Culpa de Querer Mais | "Eu cuido de todo mundo, mas ninguém cuida de mim" | 10,9% (quiz) |
 
-O maior grupo, porém, é "não sei exatamente o que está me impedindo" (29% a 40%). Esse grupo entra pelo diagnóstico, não por um perfil. Por isso a página de captura e o primeiro e-mail oferecem o diagnóstico antes da oferta.
+O maior grupo, porém, é "não sei exatamente o que está me impedindo" (29% a 40%: ficha 29% no dinheiro e 34% na paz; Aulão 40% nos dois). Esse grupo entra pelo diagnóstico, não por um perfil. Por isso a página de captura e o primeiro e-mail oferecem o diagnóstico antes da oferta.
 
 ---
 
@@ -162,7 +168,7 @@ O maior grupo, porém, é "não sei exatamente o que está me impedindo" (29% a 
 
 ## 8. Recomendação final
 
-1. Fechar as oito pendências da seção 1 até 10/10. As peças de captação saem sem elas; tudo o que cita lote, garantia e bônus depende delas.
+1. Fechar os itens 1 a 8 da seção 1 até 10/10 e os itens 9 e 10 antes de 13/10. As peças de captação saem sem os de 1 a 8; tudo o que cita lote, garantia, parcelamento e bônus depende deles.
 2. Publicar a página de captura com a troca da frase da "porta" e com o diagnóstico acima da dobra.
 3. Rodar primeiro o criativo de dor (cinco perfis) e só depois o de oferta. A pesquisa mostra que 29% a 40% da base não sabe nomear o que a trava.
 4. Decidir o degrau de entrada para a base de baixa renda antes do dia 13.

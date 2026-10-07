@@ -31,7 +31,7 @@ Data da análise: 07/10/2026 (quarta). Faltam 6 dias para a abertura da captaç�
 | Passo 2, Hotmart | Eventos de ListBoss do produto novo: aprovada, recusada, boleto gerado, aguardando pagamento, abandono, reembolso | Descrito | Seção 6, ampliado para 8 eventos e 3 segmentos |
 | Passo 3, API oficial | Aprovar a mensagem de compra aprovada, criar o fluxo no ManyChat, ligar ao integrador (webhook), colocar o link do webhook da API oficial no fluxo de onboarding do DataCrazy | Descrito | Seções 4 e 5 |
 | Passo 4, DataCrazy pipeline | Criar o pipeline, passar o nome à equipe, criar o link de integração, colocá-lo no fluxo de onboarding | Descrito, **sem nome de pipeline nem etapas** | Seção 7 com 2 pipelines e etapas |
-| Passo 5 | "Testar tudo" | Uma linha | Seção 10, com 40 testes e critério de aceite |
+| Passo 5 | "Testar tudo" | Uma linha | Seção 10, com 45 testes e critério de aceite |
 
 Fontes de apoio do Desafio que o doc não contém, mas que a automação usa: `desafio_copy_fluxo_ingresso_desafio.md` (palavra-chave, ramos A e B, gatilho por API Hotmart), `desafio_5_copies_por_evento_do_pipeline_clube_secreto.md` (E1 a E8 e D1 a D7, variáveis `{{nome}}`, `{{link}}`, `{{codigo_pix}}`, `{{link_aula}}`, regra "resposta dela interrompe a régua"), `desafio_comercial_7_regua_do_silencio.md`, as 7 abas de links úteis e as planilhas de disparos.
 
@@ -51,7 +51,7 @@ Fontes de apoio do Desafio que o doc não contém, mas que a automação usa: `d
 | 8 | Dados de rastreio de pessoa dentro do link do grupo | O link do grupo no doc carrega um parâmetro `sck` com identificadores de navegador | Vazamento de dado de uma pessoa e atribuição errada para todas | Doc final usa só `[[LINK: ...]]`. Nunca copiar link de grupo com parâmetros de sessão |
 | 9 | Webhook e domínio de terceiros escritos no doc | A aba GERAL de links tem endereço do integrador | Segredo e endpoint expostos em doc compartilhado | Doc final usa `[[LINK: webhook ...]]` e pede cofre de senhas |
 | 10 | Sem regra de interrupção por doc | Só aparece no Manual do Comercial e nas copies | A automação nova não sabe parar | Seção 7.3: resposta humana, SAIR, compra aprovada, reembolso |
-| 11 | Sem tags de segmento ou de estado de funil | O doc só pede 6 tags de evento | Impossível excluir, priorizar ou medir | Seção 2: 50 tags com regra de entrada e saída |
+| 11 | Sem tags de segmento ou de estado de funil | O doc só pede 6 tags de evento | Impossível excluir, priorizar ou medir | Seção 2: 53 tags com regra de entrada e saída |
 | 12 | Sem cronograma de configuração | "Testar tudo" no fim | Descobre-se o erro na noite da live | Seção 9 regressiva a partir de 13/10 |
 | 13 | Sem critério de aceite | Nenhum | "Testado" sem padrão | Seção 10 |
 | 14 | Link de suporte com número direto | Aba SUPORTE do Desafio tem números de atendimento em uso | Número pessoal circulando em doc | Doc final usa `[[LINK: suporte WhatsApp]]`, e a verificação de números cobre o resto |
@@ -81,7 +81,7 @@ Fontes de apoio do Desafio que o doc não contém, mas que a automação usa: `d
 | **Virada de lote real depois da live** | Escassez só por lote (guia seção 3) | Oferta anterior sai, próxima entra, banner, link, texto de API e grupo mudam juntos | Seção 6.2: roteiro de virada com responsável e teste |
 | **Diagnóstico dos 5 perfis mais "padrão sem nome"** (devolutiva 6) | 29% a 40% da base não sabe o que a trava | 7 perguntas pontuadas viram campos e tags; a ManyChat não lê o resultado sem integração | Seção 5.2 e `BFP/26-DIAG-<perfil>` mais `BFP/26-DIAG-SEM-NOME` |
 | **Pesquisa em 3 partes** (Q1 a Q5, D1 a D7, Q6 a Q10) | Renda, objeção e pagamento depois do resultado | Dado sensível por proximidade (LGPD) | Seção 5.5: acesso restrito e consentimento |
-| **Trilha de entrada** | O risco da oferta é o excesso de 11 produtos | Onboarding com primeiro passo em 48 h; PC-D0 a D21; API-BF-OK3 e OK4 | Seção 1 (etapas 26 e 27), seção 7 (etapa "Onboarding 48 h") |
+| **Trilha de entrada** | O risco da oferta é o excesso de 11 produtos | Onboarding com primeiro passo em 48 h; PC-D0 a D21; API-BF-OK3 e OK4 | Seção 1 (etapas 27 e 28), seção 7 (etapa "Onboarding 48 h") |
 | **Upgrade de aluna** | Aluna conhece o produto, teme pagar duas vezes | Pipeline 2 com U1 a U9, "pagou no link errado" e "plano atual" | Seção 7.2 |
 | **Modo escuta do comercial** (20h a 22h de 03/11) | A live dura quase duas horas; disparo competiria com a Dra. | Pausar automações de venda do pipeline; só exceções | Seção 7.5 |
 | **Exclusões entre séries** | Dois e-mails promocionais no mesmo dia, duas APIs, captação para quem já reservou ou comprou | Filtros em cada disparo | Seção 2.5 (matriz de exclusões) |

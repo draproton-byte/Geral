@@ -174,7 +174,7 @@ E você, por ser *aluna do Clube*, terá direito a ela.
 
 Na terça, 03/11, eu abro a live de revelação da *Black Próton Vitalícia*, com a condição de aluna.
 
-Com um único pagamento, você poderá ter o *Clube Secreto e mais 11 produtos, para sempre*: Fórmula da Riqueza, Workshop Terapeuta, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente e os demais.
+Com um único pagamento, você poderá ter o *Clube Secreto e mais 11 produtos, para sempre*: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente e os demais.
 
 *É a oferta que o Clube Secreto nunca fez antes*, e o Lote Especial é para quem estiver ao vivo. Ela não se repete: o que vier depois é outra oferta, com outro preço.
 
@@ -284,7 +284,7 @@ Pendências e [[CONFIRMAR]] que ficaram
 4. [[CONFIRMAR: horário]] da mensagem 01 (o modelo não tinha horário).
 5. Arte da mensagem 02 e [[LINK: página das alunas]].
 6. Contagem "Falta 1 semana" na mensagem 04 está presa à data do cronograma (27/10). Se o disparo deslizar de dia, trocar pela data fixa. A mensagem 07 usa "amanhã" com a data fixa ao lado.
-7. Nome do produto: "Workshop Terapeuta" é a forma curta do nome comercial. [[CONFIRMAR: nome comercial completo do workshop]].
+7. Nome do produto: usar sempre o nome oficial "Workshop Terapeuta de Elite". "Elite" só é vestígio do Dr. João quando aparece fora desse nome.
 8. 02/11 é Finados: a mensagem 07 não usa urgência.
 9. Texto de template: cada corpo tem menos de 1.024 caracteres, 1 botão de até 25 caracteres, e a primeira linha em negrito faz o papel de título.
 

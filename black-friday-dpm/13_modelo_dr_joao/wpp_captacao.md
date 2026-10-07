@@ -13,12 +13,12 @@ Legenda:
 ✅ aprovada para agendar
 💻 agendada
 
-Lista: grupos gerais da Black Próton Vitalícia (2 disparos por dia, 11h30 e 20h, de terça 13/10 a segunda 02/11; 03/11 é o dia da live; 00-A e 00-B abrem o grupo na segunda 12/10).
+Lista: grupos gerais da Black Próton Vitalícia (2 disparos por dia, 11h30 e 20h, de terça 13/10 a segunda 02/11; 03/11 é o dia da live; 00-A e 00-B abrem o grupo na própria terça 13/10, às 09h30 e 16h30).
 Excluir alunas do Clube na janela de garantia de 7 dias. Excluir quem já é Vitalício (se existir). Excluir já cadastradas na live (nas mensagens com link de reserva, quando o disparo for segmentado).
 
 
 ______________________________________________________________
-🔄 00-A. Captação, segunda-feira, 12, 11h30 (Quando der)
+🔄 00-A. Captação, terça-feira, 13, 09h30 (Quando der)
 ______________________________________________________________
 
 
@@ -46,7 +46,7 @@ Nos vemos lá,
 
 
 ______________________________________________________________
-🔄 00-B. Captação, segunda-feira, 12, 20h00
+🔄 00-B. Captação, terça-feira, 13, 16h30
 ______________________________________________________________
 
 
@@ -1139,8 +1139,8 @@ Notas ao implementador
 
 1. O que mudou em relação ao modelo (mensagem a mensagem, em uma linha)
 - Estrutura mantida: legenda de status, títulos numerados com dia e hora, bloco de data da live, aviso do Lote Especial, CTA do grupo e assinatura. O modelo tinha 26 mensagens (00-A, 00-B e 01 a 24, em dois disparos por dia); aqui são 42 mensagens (01 a 42, 11h30 e 20h, de 13/10 a 02/11) mais 00-A e 00-B (total 44), porque a captação da Dra. tem 21 dias.
-- 00-A (função do modelo: vídeo de abertura, dia anterior à sequência, 11h): vídeo da Dra. com a pergunta "Quantas vezes você já recomeçou?". Marcador [[VÍDEO: ...]]. Segunda 12/10, 11h30.
-- 00-B (depoimento no dia anterior, 20h): depoimento de aluna sobre sair do ciclo de começar e parar. Marcador [[DEPOIMENTO REAL]]. Segunda 12/10, 20h.
+- 00-A (função do modelo: vídeo de abertura, dia anterior à sequência, 11h): vídeo da Dra. com a pergunta "Quantas vezes você já recomeçou?". Marcador [[VÍDEO: ...]]. Terça 13/10, 09h3030.
+- 00-B (depoimento no dia anterior, 20h): depoimento de aluna sobre sair do ciclo de começar e parar. Marcador [[DEPOIMENTO REAL]]. Terça 13/10, 16h30.
 - 01 (anúncio da oportunidade): lista aberta, pergunta-guia e anúncio da live. Perfil: todos.
 - 02 ("imagina ter acesso para sempre"): "uma decisão que só se toma uma vez" (identidade). Perfil: todos.
 - 03 ("está chegando"): "Eu sei o que fazer e não faço". Perfil: Autossabotagem.
@@ -1188,7 +1188,7 @@ Notas ao implementador
 - [[VÍDEO: ...]] em 00-A: a Dra. precisa gravar.
 - Links: [[LINK: grupo da Black]], [[LINK: reserva e diagnóstico]], [[LINK: live no YouTube]].
 - Dados usados: 70 mil alunos em 44 países (guia, seção 8); história da Dra. (precisa de aprovação dela).
-- 00-A e 00-B foram para segunda 12/10 (feriado de Nossa Senhora Aparecida), 11h30 e 20h, como o modelo faz no dia anterior à sequência. Se a equipe preferir abrir o grupo só em 13/10, mandar 00-A às 10h00 "quando der" e fundir 00-B ao 02; o horário de 16h30 é banco de reserva e não entra no cronograma.
+- 00-A e 00-B ficam em terça 13/10 (09h30 e 16h30), primeiro dia da captação do briefing. O modelo os manda no dia anterior à sequência; como 12/10 é feriado e a captação abre em 13/10, a abertura acontece no mesmo dia. 16h30 é o slot de reserva do cronograma, usado só aqui.
 - Perfis: Termostato Invisível (05, 12, 26), Autossabotagem (03, 04, 06, 22, 32, 38), Cobrança (07, 40), Traumas (11, 28, 30), Culpa de Querer Mais (15, 24, 27).
 - O aviso do Lote Especial aparece na maioria das mensagens, como no modelo. Nas mensagens emocionais, sóbrias ou com outro CTA (05, 07, 11, 14, 17, 23, 25, 27, 29, 31, 33, 35, 38, 40, 41, 42) foi omitido ou diluído no próprio texto (14 e 25 citam o Lote Especial na frase).
 - Mensagens 31, 35 e 41 têm um único CTA (o lembrete da live); o CTA do grupo foi retirado para manter uma ação só.

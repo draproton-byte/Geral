@@ -939,7 +939,7 @@ Preço e condição só ao vivo, dia 03/11, às 20h.
 Reage com 🌟 se você quer ver tudo reunido.
 ```
 
-Nota: o nome oficial do workshop de formação de terapeutas não é citado por conter um termo que a revisão de compliance veta. `[[CONFIRMAR: nome do produto na divulgação]]`
+Nota: o nome oficial do produto é "Workshop Terapeuta de Elite" e deve ser usado sempre que o workshop for citado.
 
 #### CP-BF-38 | Dom 25/10, 16h30 (RESERVA) | 11 PRODUTOS É MUITO?
 

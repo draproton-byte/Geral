@@ -251,7 +251,7 @@ Todos os valores anteriores arredondam para o recalculado (meio para cima), exce
 - 02 §2: o conjunto de placeholders do guia tinha 6 PENDENTE, mas as peças usam 5 temas a mais (parcelamento, ordem de entrada, regra de migração, contagem de alunas, degrau de entrada), os placeholders de preço e a regra do Lote Especial só ao vivo. Acrescentados à tabela, com a regra de que o texto depois dos dois pontos pode detalhar o tema.
 - 02 §1.3 e §3: faltavam "até 12 linhas, termina em pergunta, reação ou CTA", "a porta fecha", "garantido que a autossabotagem acaba", "últimas vagas", "cupons limitados" e superlativos.
 - 12 G.1 e G.3 documentavam como decisão o que a cadência canônica proíbe (e-mail de lembrete às 12h; terceiro slot de grupo às 16h30). Reescritos e levados a E (item 53).
-- 12 G.8 citava a palavra proibida da ferramenta de reunião; reescrito. O arquivo `03_paginas/tela_countdown_live_e_pagina_zoom.md` tem esse nome no próprio caminho (item 54 de 12; matriz 11 o cita).
+- 12 G.8 citava a palavra proibida da ferramenta de reunião; reescrito. O arquivo `03_paginas/tela_countdown_live.md` tem esse nome no próprio caminho (item 54 de 12; matriz 11 o cita).
 - 00 §7 citava `09_comercial` (não existe). Corrigido.
 - 11: contagens de escassez (24 para 26), vendas (24 + 12 para 24 + 12 + 9) e caminhos abreviados (`captura_A` a `captura_D`, `legendas_captacao.md`, `quebra_de_objecoes.md` e outros sem pasta) completados com o caminho inteiro.
 
@@ -416,7 +416,7 @@ Marcações de operação ou fora do conjunto do guia (cada uma deve ser conferi
 | `03_paginas/onboarding_vitalicia.md` | 2 | 7 | 9 | 12 | 0 | 0 | 0 | 5 | 35 |
 | `03_paginas/pagina_cupom_alunas.md` | 12 | 8 | 6 | 13 | 7 | 0 | 0 | 2 | 48 |
 | `03_paginas/pagina_de_vendas_vitalicia.md` | 37 | 15 | 25 | 9 | 25 | 2 | 2 | 33 | 148 |
-| `03_paginas/tela_countdown_live_e_pagina_zoom.md` | 6 | 3 | 8 | 22 | 0 | 0 | 0 | 5 | 44 |
+| `03_paginas/tela_countdown_live.md` | 6 | 3 | 8 | 22 | 0 | 0 | 0 | 5 | 44 |
 | `03_paginas/verificacao_de_numeros.md` | 0 | 0 | 5 | 7 | 0 | 0 | 0 | 1 | 13 |
 | `03_paginas/vsl_headlines_e_paginas.md` | 0 | 9 | 3 | 0 | 0 | 0 | 0 | 0 | 12 |
 | `04_criativos/antecipacao_e_aquecimento.md` | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 3 |
@@ -495,7 +495,7 @@ Resultado nos cinco arquivos desta área (ocorrências por arquivo, na ordem 00,
 | Travessão ou meia-risca | 0 | 0 | 0 | 0 | 0 | 0 em uso |
 | Nome da gestora do projeto | 0 | 0 | 0 | 0 | 0 | 0 em uso |
 | harmonização, injetáveis, FEP, congresso | 0 | 0 | 0 | 0 | 0 | 0 em uso |
-| Zoom (palavra) | 0 | 0 | 0 | 0 | 0 | 0 como palavra; o nome do arquivo `tela_countdown_live_e_pagina_zoom.md` contém "zoom" e é citado em 11 e 12 (caminho, sem texto de peça) |
+| Zoom (palavra) | 0 | 0 | 0 | 0 | 0 | 0 como palavra; o nome do arquivo `tela_countdown_live.md` contém "zoom" e é citado em 11 e 12 (caminho, sem texto de peça) |
 | Elite | 1 | 0 | 0 | 0 | 0 | "Workshop Terapeuta de Elite", produto da Dra. no briefing |
 | TODO, lorem, XXX | 0 | 0 | 0 | 0 | 0 | 0 em uso |
 | Frases proibidas | 1 | 0 | 9 | 0 | 1 | são citações das frases proibidas (00 §2, 02 §3 e item 21 de 12), não uso |
@@ -512,7 +512,7 @@ Verificação informativa no restante do repositório (fora desta área; cada do
 | Travessão ou meia-risca | 0 | 0 | nenhum |
 | Nome da gestora do projeto | 0 | 0 | nenhum |
 | harmonização, injetáveis, FEP, congresso | 2 | 1 | `07_listboss_ura_sms/listboss_api_e_email.md` (2) |
-| Zoom (palavra) | 6 | 1 | `03_paginas/tela_countdown_live_e_pagina_zoom.md` (6) |
+| Zoom (palavra) | 6 | 1 | `03_paginas/tela_countdown_live.md` (6) |
 | Elite | 24 | 16 | `03_paginas/pagina_de_vendas_vitalicia.md` (3), `13_modelo_dr_joao/wpp_captacao.md` (3), `03_paginas/onboarding_vitalicia.md` (2), `04_criativos/vendas_vitalicia.md` (2) |
 | TODO, lorem, XXX | 0 | 0 | nenhum |
 

@@ -15,7 +15,7 @@ Documento interno: os valores em R$ daqui (lotes, tráfego, faixas de renda e de
 | Item | Valor |
 |---|---|
 | Oferta | Acesso vitalício ao Clube Secreto + 11 produtos do catálogo atual, pagamento único |
-| Captação | terça 13/10 a segunda 02/11 (21 dias) |
+| Captação | 13/10 a 03/11 (briefing). Disparos diários de captação de terça 13/10 a segunda 02/11 (21 dias); 03/11 é o dia da live |
 | Live de revelação | terça 03/11, 20h, ao vivo no YouTube. Preço e lotes só revelados ao vivo |
 | Tráfego | R$ 200.000 |
 | Alunas do Clube | Lote Especial R$ 1.997, Primeiro Lote R$ 2.997, Último Lote R$ 3.997 |

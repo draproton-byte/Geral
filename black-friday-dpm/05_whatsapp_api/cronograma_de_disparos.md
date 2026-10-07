@@ -99,9 +99,9 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 | 21/10 | Qua | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-25 | Depoimento 1. Perfil: Termostato Invisível |
 | 21/10 | Qua | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-26 (Desafio/Imersão: CP-BF-26-DS) | A objeção do dinheiro (promovida da reserva). Perfil: Termostato Invisível |
 | 22/10 | Qui | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
-| 22/10 | Qui | 09h00 | API | Alunas ativas do Clube | API-BF-05.1 (e 05.1V) | Golden Ticket: convite VIP |
+| 22/10 | Qui | 09h00 | API | Alunas ativas do Clube | API-BF-05.1 (e 05.1V) | OPCIONAL (só se a condição do Golden Ticket existir) Golden Ticket: convite VIP |
 | 22/10 | Qui | 11h30 | Wpp Grupos | Grupos geral e Desafio/Imersão | CP-BF-28 | Os 40 anos. Perfil: Traumas Que Ainda Decidem |
-| 22/10 | Qui | 11h30 | Wpp Grupos | Grupo de alunas | CP-BF-GT01 (no lugar do CP-BF-28 só no grupo de alunas) | Golden Ticket: aviso no grupo (ver API-BF-05.1) |
+| 22/10 | Qui | 11h30 | Wpp Grupos | Grupo de alunas | CP-BF-GT01 (no lugar do CP-BF-28 só no grupo de alunas) | OPCIONAL (só se a condição do Golden Ticket existir) Golden Ticket: aviso no grupo (ver API-BF-05.1) |
 | 22/10 | Qui | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-30 | O depois. Perfil: Autossabotagem |
 | 23/10 | Sex | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
 | 23/10 | Sex | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-31 | Depoimento 2. Perfil: Autossabotagem |
@@ -128,7 +128,7 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 | 28/10 | Qua | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-46 (Desafio/Imersão: CP-BF-46-DS) | Salva a data. Perfil: Todos |
 | 28/10 | Qua | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-48 | O padrão vai tentar te tirar da live. Perfil: Autossabotagem |
 | 29/10 | Qui | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
-| 29/10 | Qui | 09h00 | API | Alunas que não ativaram o Golden Ticket | API-BF-05.2 | Golden Ticket: reforço |
+| 29/10 | Qui | 09h00 | API | Alunas que não ativaram o Golden Ticket | API-BF-05.2 | OPCIONAL (só se a condição do Golden Ticket existir) Golden Ticket: reforço |
 | 29/10 | Qui | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-49 | O que vai acontecer na live. Perfil: Todos |
 | 29/10 | Qui | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-51 | Falta o diagnóstico. Perfil: Todos (5 perfis) |
 | 30/10 | Sex | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
@@ -144,7 +144,7 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 | 01/11 | Dom | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-60 | Ritual da noite 3. Perfil: Todos |
 | 02/11 | Seg | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
 | 02/11 | Seg | 09h00 | API | Reservaram, exceto alunas ativas (elas recebem a API-BF-05.3) | API-BF-09 | É amanhã (live em 03/11, 20h) |
-| 02/11 | Seg | 09h10 | API | Alunas (ativaram e não ativaram, 2 textos) | API-BF-05.3 | Golden Ticket: último aviso |
+| 02/11 | Seg | 09h10 | API | Alunas (ativaram e não ativaram, 2 textos) | API-BF-05.3 | OPCIONAL (só se a condição do Golden Ticket existir) Golden Ticket: último aviso |
 | 02/11 | Seg | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-61 | É amanhã. Perfil: Todos |
 | 02/11 | Seg | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-63 (alunas: CP-BF-63-AL) | Quantas vezes. Perfil: Todos (frase-guia) |
 | 02/11 | Seg |  | Nota |  |  | Feriado (Finados): tom sóbrio. |

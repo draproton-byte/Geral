@@ -78,8 +78,8 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 50 | Pesquisa de presença: o dossiê usa 5.486 respostas (até 23/09) e o CSV do Aulão 7.323 (até 05/10). Os percentuais diferem em até 0,5 ponto (por exemplo "não sei" 40,5% contra 40,4%; "menos de 1 mês" 43,8% contra 44,2%). Nas peças, usar o CSV; gênero, idade e o 51,9% só existem no dossiê |
 | 51 | Quiz do Desafio: 722 respostas no dossiê (até 23/09) contra 3.226 linhas na planilha |
 | 52 | O briefing diz captação de 13/10 a 03/11; as peças usam terça 13/10 a segunda 02/11 (21 dias) e live na terça 03/11 |
-| 53 | Slots de grupo às 16h30 (`05_whatsapp_api/cronograma_de_disparos.md`, `05_whatsapp_api/lembretes_de_grupo_captacao.md`) e lembretes de e-mail às 12h (`06_emails/lembretes_da_live.md`) divergem da cadência canônica (grupos 11h30 e 20h, e-mail 07h, 09h para segmentos, API 09h; 16h30 é banco de reserva) |
-| 54 | O arquivo `03_paginas/tela_countdown_live_e_pagina_zoom.md` tem o nome de uma ferramenta de reunião que nenhuma peça pode citar. Renomear exige ajustar a matriz (11) |
+| 53 | RESOLVIDO na revisão final: cadência canônica aplicada (grupos 11h30 e 20h, e-mail 07h e 09h para segmentos, API 09h; 16h30 é banco de reserva). Lembretes de e-mail de 28/10 a 02/11 ficam às 09h. Confirmar com a equipe de disparo |
+| 54 | O arquivo `03_paginas/tela_countdown_live.md` tem o nome de uma ferramenta de reunião que nenhuma peça pode citar. Renomear exige ajustar a matriz (11) |
 | 55 | Trilha de entrada: a afirmação "só 8 dos 11 produtos têm descrição nas fontes" não pôde ser conferida (o briefing lista só os nomes dos 11) |
 | 56 | O convite VIP cita um número de tickets e diz que a condição acaba quando eles acabam: isso implica limite de vagas, o que a rubrica proíbe sem confirmação (as mensagens de alunas 01 e 04 do grupo também perguntam "há limite de reservas?") |
 
@@ -92,7 +92,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 
 ## G. Decisões que tomei (revise se discordar)
 
-1. Lembretes de e-mail de 28/10 a 02/11: hoje às 12h para não colidir com a série das 07h e a segmentada das 09h. A cadência canônica manda 07h (09h para segmentos); decidir se os lembretes entram na série das 07h.
+1. Lembretes de e-mail de 28/10 a 02/11: às 09h (cadência canônica). Decidir se entram na série das 07h.
 2. Segmento que recebe o e-mail das 09h sai da lista das 07h naquele dia.
 3. Grupos às 11h30 e 20h todos os dias, como na BFV/26. O terceiro slot das 16h30 (precedente nas planilhas do Desafio) é banco de reserva e não entra no cronograma.
 4. Prática de 6 minutos na live, sem hipnose longa (a Aula 02 tinha 24 minutos).

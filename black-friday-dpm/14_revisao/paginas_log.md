@@ -18,7 +18,7 @@ Li por inteiro, linha por linha, os 14 arquivos (4.212 linhas na primeira leitur
 | `pagina_de_vendas_vitalicia.md` | 573 | 14 blocos mais tarja, 6 estados, 11 produtos |
 | `onboarding_vitalicia.md` | 294 | 11 blocos (00 a 10), trilha em 5 etapas |
 | `pagina_cupom_alunas.md` | 215 | tela 0 e 3 estados |
-| `tela_countdown_live_e_pagina_zoom.md` | 244 | 5 estados, 4 itens de espera |
+| `tela_countdown_live.md` | 244 | 5 estados, 4 itens de espera |
 | `banner_checkout.md` | 168 | 6 versões (3 lotes x 2 segmentos), 5 linhas K0 a K4 |
 | `verificacao_de_numeros.md` | 151 | 4 resultados, 6 orientações, 3 textos de divulgação |
 | `vsl_headlines_e_paginas.md` | 195 | 5 headlines (H1 a H5), matriz de teste |
@@ -108,7 +108,7 @@ Li por inteiro, linha por linha, os 14 arquivos (4.212 linhas na primeira leitur
 9. **Ordem de entrada** (trilha do onboarding é proposta) e **primeiro passo do ciclo 1** (e versão aluna).
 10. **Definições dos 5 perfis** (provisórias, a alinhar com a Imersão) e **calibração do diagnóstico** (normalização, limite de 6 pontos, teste com 30 a 50 pessoas).
 11. **Descrições oficiais dos produtos** (8 dos 11 só têm o nome nas fontes; 9 linhas com CONFIRMAR de descrição oficial).
-12. **Nome do arquivo `tela_countdown_live_e_pagina_zoom.md`** contém o termo antigo (decisão 54 de `12`); renomear exige ajustar `11` e `12`.
+12. **Nome do arquivo `tela_countdown_live.md`** contém o termo antigo (decisão 54 de `12`); renomear exige ajustar `11` e `12`.
 13. **Dia da live:** disparos extras às 19h45 e momento de abertura do botão do carrinho (roteiro em `08_live_e_pitch`).
 14. **Mídia e links:** foto da Dra., depoimentos reais, vídeo do obrigado e da VSL (minutagem e tempo de segurança, tema de `12`, item 17), links de grupo, calendário, suporte, política de privacidade e termos.
 15. **Jurídico:** reconhecimento da aluna por e-mail (C e cupom), compartilhamento do resultado, guarda das consultas do validador, CDC na garantia (versão C).

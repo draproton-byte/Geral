@@ -54,7 +54,7 @@ Cada peça listada na planilha "Links úteis Desafio" (e nas do Aulão e da Imer
 |---|---|
 | Obrigado e pesquisa de qualificação (10 perguntas) | `03_paginas/obrigado_e_pesquisa.md` |
 | Lista de espera | `03_paginas/lista_de_espera.md` |
-| Countdown e tela da live | `03_paginas/tela_countdown_live_e_pagina_zoom.md` |
+| Countdown e tela da live | `03_paginas/tela_countdown_live.md` |
 | Diagnóstico dos 5 perfis | `03_paginas/diagnostico_5_perfis.md` |
 | Página de cupom das alunas | `03_paginas/pagina_cupom_alunas.md` (a página da BFV/26 não estava acessível) |
 | Banner de checkout por lote | `03_paginas/banner_checkout.md` |

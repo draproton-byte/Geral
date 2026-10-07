@@ -52,7 +52,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 _Acesso a tudo, sem decidir de novo a cada produto._
 
-Na minha *Black Próton Vitalícia*, você tem acesso vitalício ao Clube Secreto e a mais 11 produtos: Fórmula da Riqueza, Workshop Terapeuta, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade e outros.
+Na minha *Black Próton Vitalícia*, você tem acesso vitalício ao Clube Secreto e a mais 11 produtos: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade e outros.
 
 Um único pagamento e sem recomeçar. Sem prazo para dar conta de tudo.
 
@@ -246,7 +246,7 @@ Pendências e [[CONFIRMAR]] que ficaram
 3. [[LINK: Saiba Mais (API)]]: a URL do botão precisa existir (página de captura segmentada para "quem já viveu o método").
 4. Segmento: os compradores do Desafio, da Imersão e do Aulão precisam de uma tag única "viveu o método e não é do Clube" no ListBoss e no DataCrazy, com exclusão automática de alunas do Clube e de Vitalícios. [[CONFIRMAR: contagem da lista]]
 5. Mensagem 07 cai em 02/11 (Finados): confirmar se a equipe quer disparar no feriado (o texto já está sóbrio).
-6. Nome do produto: "Workshop Terapeuta" é a forma curta do nome comercial. [[CONFIRMAR: nome comercial completo do workshop]].
+6. Nome do produto: usar sempre o nome oficial "Workshop Terapeuta de Elite". "Elite" só é vestígio do Dr. João quando aparece fora desse nome.
 7. Texto de template: cada corpo tem menos de 1.024 caracteres e 2 botões com texto curto. A primeira linha em negrito faz o papel de título.
 
 Conflitos entre o modelo e as regras da Dra.

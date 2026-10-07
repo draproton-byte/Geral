@@ -18,7 +18,7 @@ Lista:
 ❌ Excluir já cadastradas na live
 ❌ Excluir da série de 07h (`06_emails/captacao_serie.md`), nas mesmas datas, as alunas que recebem este e-mail: EM-BF-03 (15/10), EM-BF-08 (20/10), EM-BF-11 (23/10), EM-BF-15 (27/10), EM-BF-17 (29/10), EM-BF-19 (31/10), EM-BF-21 (02/11) e EM-BF-22 (03/11)
 
-Botão de todos os e-mails: >> RESERVAR MINHA VAGA DE ALUNA << (link: [[LINK: página das alunas]])
+Botão de todos os e-mails: >> RESERVAR MINHA CONDIÇÃO DE ALUNA << (link: [[LINK: página das alunas]])
 
 Regra de agenda: esta série substitui a série SA de `06_emails/segmentados_09h.md` (banco de reserva). Nenhuma aluna recebe e-mail desta série e e-mail SA no mesmo dia.
 
@@ -50,7 +50,7 @@ Nenhum valor sai antes disso. É ao vivo, para todas ao mesmo tempo.
 
 Reserve agora a sua vaga e a sua condição de aluna: 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Espero você ao vivo.
@@ -82,7 +82,7 @@ Tem um detalhe importante: a condição é revelada só ao vivo.
 
 Por isso, reserve agora a sua vaga e a sua condição de aluna: 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Nos vemos no dia 03.
@@ -114,7 +114,7 @@ Depois de reservar, faça o diagnóstico dos 5 padrões. São poucos minutos, e 
 
 Reservar leva um minuto. O que costuma travar é o "depois eu vejo". 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Eu conto uma vez. Quero você lá.
@@ -146,7 +146,7 @@ Reservar a sua vaga leva um minuto e garante o aviso e o lembrete da live.
 
 Toque no botão abaixo e reserve agora: 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Te espero na terça.
@@ -178,7 +178,7 @@ Mas essa condição tem uma regra: ela será para as alunas que estiverem presen
 
 Se você ainda não reservou a sua vaga, faça isso agora. Depois da reserva, você entra no grupo oficial, onde chegam o link da live e os avisos: 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Te espero lá.
@@ -197,7 +197,7 @@ ________________________________________________________________
 
 Daqui a 3 dias, vou abrir para as alunas do Clube Secreto uma oportunidade que reúne o Clube e o que eu construí em volta dele.
 
-Com um único pagamento, você poderá ter o Clube e mais 11 produtos, para sempre: Fórmula da Riqueza, Workshop Terapeuta, Os 3 Áudios de Reprogramação, Código de Ativação Próton, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade, Cura da Criança Interior, Instagram Profissional, Destrave o Dinheiro, Cura da Escassez Financeira e Sequências Numéricas de Grabovoi.
+Com um único pagamento, você poderá ter o Clube e mais 11 produtos, para sempre: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Código de Ativação Próton, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade, Cura da Criança Interior, Instagram Profissional, Destrave o Dinheiro, Cura da Escassez Financeira e Sequências Numéricas de Grabovoi.
 
 E não é para você sair correndo atrás de tudo. É o que existe hoje, sem prazo, no seu ritmo.
 
@@ -210,7 +210,7 @@ A condição é contada uma vez, ao vivo. Ela não se repete: o que vier depois 
 
 Se você ainda não reservou a sua vaga, não deixe para depois. 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Até terça.
@@ -242,7 +242,7 @@ Uma frase que eu repito muito: "Nunca mais eu deixo de investir em mim." Para mi
 
 Se ainda não reservou, o botão abaixo leva à sua reserva: 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Até amanhã.
@@ -276,7 +276,7 @@ Eu prefiro que você não compre do que compre e não viva. Então venha ouvir. 
 
 Toque no botão abaixo, reserve agora e entre no grupo: 👇🏽
 
->> RESERVAR MINHA VAGA DE ALUNA <<
+>> RESERVAR MINHA CONDIÇÃO DE ALUNA <<
 [[LINK: página das alunas]]
 
 Te espero ao vivo.
@@ -316,7 +316,7 @@ Pendências e [[CONFIRMAR]]
 4. Conferir se a reserva é, de fato, o que identifica a aluna para a condição. Se for só o grupo que recebe o aviso, ajustar "reserve a sua vaga e a sua condição de aluna".
 5. [[CONFIRMAR: a aula de terça de 03/11 muda de horário, é substituída pela live ou continua]] antes de agendar o e-mail 08 (03/11 é terça, dia da aula ao vivo do Clube).
 6. A lista exclui "já cadastradas na live". Quem já reservou recebe os lembretes e o convite VIP, por isso os botões falam de "se você ainda não reservou".
-7. Nome do produto: "Workshop Terapeuta" é a forma curta do nome comercial na lista do e-mail 06. [[CONFIRMAR: nome comercial completo do workshop]].
+7. Nome do produto: usar sempre o nome oficial "Workshop Terapeuta de Elite". "Elite" só é vestígio do Dr. João quando aparece fora desse nome.
 8. O e-mail 03 diz que o diagnóstico vem depois da reserva, como no onboarding (`api_onboarding.md`). Se a página das alunas já traz o diagnóstico, trocar para "ao reservar".
 
 Conflitos entre o modelo e as regras da Dra.

@@ -1,18 +1,18 @@
-# Vagas abertas e virada de lote: pós-live
+# Carrinho aberto e virada de lote: pós-live
 
 | Campo | Conteúdo |
 |---|---|
 | **Peça** | Sequência pós-live: carrinho aberto (dia seguinte), objeções, últimas horas do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]], virada para Primeiro Lote, últimas horas, virada para Último Lote, último dia, últimas horas e última hora do fechamento, encerramento e saída honrosa. Grupo (16 momentos) e API (8 momentos), cada um em duas versões: não-alunas e alunas |
 | **Canal** | Grupos de WhatsApp (geral e Desafio/Imersão usam a versão não-alunas; grupo de alunas usa a versão -AL) e WhatsApp API oficial (templates a aprovar na Meta; ver "Aprovação de template" nas notas) |
-| **Público** | Reservaram a vaga e não compraram. Consciência 5 (pronto). Dois segmentos de preço: alunas do Clube e não-alunas (inclui Desafio/Imersão/Aulão sem Clube) |
+| **Público** | Reservaram o lugar e não compraram. Consciência 5 (pronto). Dois segmentos de preço: alunas do Clube e não-alunas (inclui Desafio/Imersão/Aulão sem Clube) |
 | **Momento** | De 04/11 até o fechamento. Datas de virada e de fechamento: `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]` |
 | **Objetivo** | Converter a decisão tomada na live, respondendo as três objeções (dinheiro, medo de não aplicar, "já comprei e não tive resultado") com escassez só por lote real |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada virada de lote é um prazo real para tomar essa decisão, sem pressão artificial |
 | **Momento de vida** | Aperto real (parcelamento e custo de ficar parada), funcional e exausta (trilha de entrada, sem excesso) e confortável querendo mais |
-| **Modelo no Desafio** | CP 01 de 01/10 e CP 42 a 46 de 02/10 (copys de vagas abertas do Clube Secreto no Desafio, copys de lembrete de grupo do Desafio), "Último dia" e "Últimas horas" da planilha planilha de disparos de setembro do Desafio, API 09 e 12 (planilha de disparos de outubro do Desafio) |
+| **Modelo no Desafio** | CP 01 de 01/10 e CP 42 a 46 de 02/10 (copys de carrinho aberto do Clube Secreto no Desafio, copys de lembrete de grupo do Desafio), "Último dia" e "Últimas horas" da planilha planilha de disparos de setembro do Desafio, API 09 e 12 (planilha de disparos de outubro do Desafio) |
 
 **O que mudou em relação ao Desafio.**
-- O Desafio tinha uma só condição (à vista ou em 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote real**. Nenhuma peça usa contagem de vagas, de cupons ou de unidades.
+- O Desafio tinha uma só condição (à vista ou em 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote real**. Nenhuma peça usa contagem de lugares, de cupons ou de unidades.
 - O Desafio vendia com garantia de 7 dias. Aqui a garantia é `[[PENDENTE: garantia]]`. Quando fechar, trocar nas peças marcadas.
 - Frases de fechamento seguem o guia: "Esta condição não se repete. O que vier depois é outra oferta, com outro preço." Nenhuma formulação proibida pela seção 3 do guia (a Vitalícia pode voltar em outra edição).
 - Tokens de preço: `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`. O lote ao qual o preço se refere está no texto ao lado do preço, de modo que a mesma busca substitui os valores nas virada de lote.
@@ -58,7 +58,7 @@ Cada peça abaixo tem a versão para alunas logo depois, com o sufixo -AL.
 
 ### CP-BF-V01 | 04/11, 11:30 | A CONDIÇÃO ESTÁ ABERTA
 
-Modelo: CP 43 (02/10, 11h, vagas abertas). Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
+Modelo: CP 43 (02/10, 11h, carrinho aberto). Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
 ☀️ *A Black Próton Vitalícia está aberta.*
@@ -71,16 +71,16 @@ Modelo: CP 43 (02/10, 11h, vagas abertas). Lote: Lote Especial. Público: não-a
 
 Você não entra em tudo de uma vez: existe uma trilha de entrada. [[CONFIRMAR: ordem de entrada da trilha]]
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-v01]]
 
 Reage com 🔓 se você já entrou. Com 💬 se ficou alguma dúvida.
 ```
 
 ### CP-BF-V01-AL | 04/11, 11:30 | A CONDIÇÃO ESTÁ ABERTA
 
-Modelo: CP 43 (02/10, 11h, vagas abertas). Lote: Lote Especial. Público: alunas do Clube.
+Modelo: CP 43 (02/10, 11h, carrinho aberto). Lote: Lote Especial. Público: alunas do Clube.
 
 ```text
 ☀️ *A Black Próton Vitalícia está aberta.*
@@ -95,9 +95,9 @@ Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 
 Você não entra em tudo de uma vez: existe uma trilha de entrada. [[CONFIRMAR: ordem de entrada da trilha]]
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-v01-al]]
 
 Reage com 🔓 se você já entrou. Com 💬 se ficou alguma dúvida.
 ```
@@ -121,7 +121,7 @@ Formas de pagamento: [[CONFIRMAR: parcelamento, Pix, boleto, dois cartões]]
 
 👇 Veja as formas de pagamento:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-v02]]
 
 Reage com 🧮 se você fez a conta.
 ```
@@ -145,7 +145,7 @@ Formas de pagamento: [[CONFIRMAR: parcelamento, Pix, boleto, dois cartões]]
 
 👇 Veja as formas de pagamento:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-v02-al]]
 
 Reage com 🧮 se você fez a conta.
 ```
@@ -171,7 +171,7 @@ O risco de decidir está dito. O de continuar no mesmo lugar, também.
 
 👇 Se for a sua hora:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-v03]]
 
 Reage com ✍️ se você respondeu as 3.
 ```
@@ -199,7 +199,7 @@ O risco de decidir está dito. O de continuar no mesmo lugar, também.
 
 👇 Se for a sua hora:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-v03-al]]
 
 Reage com ✍️ se você respondeu as 3.
 ```
@@ -219,9 +219,9 @@ Depois disso, o valor sobe.
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
-👇 Garanta a sua vaga hoje:
+👇 Garanta o seu lugar hoje:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-v04]]
 
 Reage com 🔥 se você vai entrar hoje.
 ```
@@ -243,9 +243,9 @@ Depois disso, o valor sobe.
 
 *Clube Secreto + 11 produtos, acesso vitalício, pagamento único.*
 
-👇 Garanta a sua vaga hoje:
+👇 Garanta o seu lugar hoje:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-v04-al]]
 
 Reage com 🔥 se você vai entrar hoje.
 ```
@@ -267,7 +267,7 @@ Esta condição não se repete. O que vier depois é outra oferta, com outro pre
 
 👇 Entra antes de virar:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-v05]]
 
 Reage com ⏰ se você está decidindo agora.
 ```
@@ -289,7 +289,7 @@ Esta condição não se repete. O que vier depois é outra oferta, com outro pre
 
 👇 Entra antes de virar:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-v05-al]]
 
 Reage com ⏰ se você está decidindo agora.
 ```
@@ -298,7 +298,7 @@ Reage com ⏰ se você está decidindo agora.
 
 ### CP-BF-V06 | Hora exata da virada do Lote Especial | VIROU O LOTE: PRIMEIRO LOTE
 
-Modelo: CP 03/04 (02/10, vagas abertas). Lote: Primeiro Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
+Modelo: CP 03/04 (02/10, carrinho aberto). Lote: Primeiro Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
 🔔 *O LOTE ESPECIAL ACABOU.*
@@ -313,9 +313,9 @@ Agora a *Black Próton Vitalícia* está no *Primeiro Lote*.
 
 Quem já entrou no Lote Especial garantiu o menor valor.
 
-👇 Garanta a sua vaga no Primeiro Lote:
+👇 Garanta o seu lugar no Primeiro Lote:
 
-[[LINK: checkout Primeiro Lote não-alunas]]
+[[LINK: checkout S3-1L | wpp | cp-bf-v06]]
 
 Reage com 🔓 se você entrou.
 ```
@@ -324,7 +324,7 @@ Reage com 🔓 se você entrou.
 
 ### CP-BF-V06-AL | Hora exata da virada do Lote Especial | VIROU O LOTE: PRIMEIRO LOTE
 
-Modelo: CP 03/04 (02/10, vagas abertas). Lote: Primeiro Lote. Público: alunas do Clube.
+Modelo: CP 03/04 (02/10, carrinho aberto). Lote: Primeiro Lote. Público: alunas do Clube.
 
 ```text
 🔔 *O LOTE ESPECIAL ACABOU.*
@@ -339,9 +339,9 @@ Agora a *Black Próton Vitalícia* está no *Primeiro Lote*.
 
 Quem já entrou no Lote Especial garantiu o menor valor.
 
-👇 Garanta a sua vaga no Primeiro Lote:
+👇 Garanta o seu lugar no Primeiro Lote:
 
-[[LINK: checkout Primeiro Lote alunas]]
+[[LINK: checkout S1-1L | wpp | cp-bf-v06-al]]
 
 Reage com 🔓 se você entrou.
 ```
@@ -365,7 +365,7 @@ Aqui você tem acompanhamento e uma trilha de entrada.
 
 👇 Entra quando for a sua hora:
 
-[[LINK: checkout Primeiro Lote não-alunas]]
+[[LINK: checkout S3-1L | wpp | cp-bf-v07]]
 
 Reage com 🙋 se essa frase é sua.
 ```
@@ -389,7 +389,7 @@ Aqui você tem acompanhamento e uma trilha de entrada.
 
 👇 Entra quando for a sua hora:
 
-[[LINK: checkout Primeiro Lote alunas]]
+[[LINK: checkout S1-1L | wpp | cp-bf-v07-al]]
 
 Reage com 🙋 se essa frase é sua.
 ```
@@ -407,9 +407,9 @@ Depois, entra o Último Lote, com valor maior.
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE NÃO-ALUNAS]]
 
-👇 Garanta a sua vaga hoje:
+👇 Garanta o seu lugar hoje:
 
-[[LINK: checkout Primeiro Lote não-alunas]]
+[[LINK: checkout S3-1L | wpp | cp-bf-v08]]
 
 Reage com 🔥 se você vai entrar hoje.
 ```
@@ -427,9 +427,9 @@ Depois, entra o Último Lote, com valor maior.
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE ALUNAS]]
 
-👇 Garanta a sua vaga hoje:
+👇 Garanta o seu lugar hoje:
 
-[[LINK: checkout Primeiro Lote alunas]]
+[[LINK: checkout S1-1L | wpp | cp-bf-v08-al]]
 
 Reage com 🔥 se você vai entrar hoje.
 ```
@@ -449,7 +449,7 @@ Esta condição não se repete.
 
 👇 Entra antes de virar:
 
-[[LINK: checkout Primeiro Lote não-alunas]]
+[[LINK: checkout S3-1L | wpp | cp-bf-v09]]
 
 Reage com ⏰ se você está decidindo agora.
 ```
@@ -469,7 +469,7 @@ Esta condição não se repete.
 
 👇 Entra antes de virar:
 
-[[LINK: checkout Primeiro Lote alunas]]
+[[LINK: checkout S1-1L | wpp | cp-bf-v09-al]]
 
 Reage com ⏰ se você está decidindo agora.
 ```
@@ -491,9 +491,9 @@ Agora a *Black Próton Vitalícia* está no *Último Lote*.
 
 Depois do Último Lote, esta condição não se repete.
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Último Lote não-alunas]]
+[[LINK: checkout S3-UL | wpp | cp-bf-v10]]
 
 Reage com 🔓 se você entrou.
 ```
@@ -515,9 +515,9 @@ Agora a *Black Próton Vitalícia* está no *Último Lote*.
 
 Depois do Último Lote, esta condição não se repete.
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Último Lote alunas]]
+[[LINK: checkout S1-UL | wpp | cp-bf-v10-al]]
 
 Reage com 🔓 se você entrou.
 ```
@@ -537,7 +537,7 @@ Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. 
 
 👇 Entra no seu ritmo:
 
-[[LINK: checkout Último Lote não-alunas]]
+[[LINK: checkout S3-UL | wpp | cp-bf-v11]]
 
 Reage com 🧭 se você quer começar por um passo só.
 ```
@@ -557,7 +557,7 @@ Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. 
 
 👇 Entra no seu ritmo:
 
-[[LINK: checkout Último Lote alunas]]
+[[LINK: checkout S1-UL | wpp | cp-bf-v11-al]]
 
 Reage com 🧭 se você quer começar por um passo só.
 ```
@@ -577,9 +577,9 @@ Hoje, às [[PENDENTE: fechamento]], o carrinho fecha.
 
 Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-👇 Garanta a sua vaga hoje:
+👇 Garanta o seu lugar hoje:
 
-[[LINK: checkout Último Lote não-alunas]]
+[[LINK: checkout S3-UL | wpp | cp-bf-v12]]
 
 Reage com 🔥 se você vai entrar hoje.
 ```
@@ -599,9 +599,9 @@ Hoje, às [[PENDENTE: fechamento]], o carrinho fecha.
 
 Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-👇 Garanta a sua vaga hoje:
+👇 Garanta o seu lugar hoje:
 
-[[LINK: checkout Último Lote alunas]]
+[[LINK: checkout S1-UL | wpp | cp-bf-v12-al]]
 
 Reage com 🔥 se você vai entrar hoje.
 ```
@@ -623,7 +623,7 @@ Se não foi, está tudo bem. Eu prefiro que você não compre do que compre e n�
 
 👇 Se for a sua hora:
 
-[[LINK: checkout Último Lote não-alunas]]
+[[LINK: checkout S3-UL | wpp | cp-bf-v13]]
 
 Reage com ⏰ se você está decidindo agora.
 ```
@@ -645,7 +645,7 @@ Se não foi, está tudo bem. Eu prefiro que você não compre do que compre e n�
 
 👇 Se for a sua hora:
 
-[[LINK: checkout Último Lote alunas]]
+[[LINK: checkout S1-UL | wpp | cp-bf-v13-al]]
 
 Reage com ⏰ se você está decidindo agora.
 ```
@@ -665,7 +665,7 @@ Em 1 hora, o carrinho da *Black Próton Vitalícia* fecha.
 
 👇 Última chamada:
 
-[[LINK: checkout Último Lote não-alunas]]
+[[LINK: checkout S3-UL | wpp | cp-bf-v14]]
 
 Reage com 🚨 se você vai entrar agora.
 ```
@@ -687,7 +687,7 @@ Em 1 hora, o carrinho da *Black Próton Vitalícia* fecha.
 
 👇 Última chamada:
 
-[[LINK: checkout Último Lote alunas]]
+[[LINK: checkout S1-UL | wpp | cp-bf-v14-al]]
 
 Reage com 🚨 se você vai entrar agora.
 ```
@@ -741,7 +741,7 @@ Você não perdeu o jeito de começar. Só não era a hora desta condição.
 
 Se quiser receber um aviso caso exista uma nova oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
 
-[[LINK: lista de espera]]
+[[LINK: lista de espera | wpp | cp-bf-v16]]
 
 Eu não prometo que vai ter outra. Se tiver, será uma oferta diferente, com outro preço.
 
@@ -761,7 +761,7 @@ Você não perdeu o jeito de começar. Só não era a hora desta condição.
 
 Se quiser receber um aviso caso exista uma nova oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
 
-[[LINK: lista de espera]]
+[[LINK: lista de espera | wpp | cp-bf-v16-al]]
 
 Eu não prometo que vai ter outra. Se tiver, será uma oferta diferente, com outro preço.
 
@@ -776,7 +776,7 @@ Reage com 💜 se quer receber o aviso.
 
 ### API-BF-V01 | 04/11, 09:00 | A condição está aberta
 
-Modelo: API 09 (01/10) e API 12 (02/10), vagas abertas. Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
+Modelo: API 09 (01/10) e API 12 (02/10), carrinho aberto. Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
 ```text
 A *Black Próton Vitalícia* está aberta, {{nome}}. 🔓
@@ -787,16 +787,16 @@ A *Black Próton Vitalícia* está aberta, {{nome}}. 🔓
 
 ⏳ Vale até [[PENDENTE: data do lote]].
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Lote Especial não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-ESP | api | api-bf-v01]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V01-A | 04/11, 09:00 | A condição está aberta
 
-Modelo: API 09 (01/10) e API 12 (02/10), vagas abertas. Lote: Lote Especial. Público: alunas do Clube.
+Modelo: API 09 (01/10) e API 12 (02/10), carrinho aberto. Lote: Lote Especial. Público: alunas do Clube.
 
 ```text
 A *Black Próton Vitalícia* está aberta, {{nome}}. 🔓
@@ -809,12 +809,12 @@ Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 
 ⏳ Vale até [[PENDENTE: data do lote]].
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Lote Especial alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-ESP | api | api-bf-v01-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V02 | Dia da virada do Lote Especial, 09:00 | Último dia do Lote Especial
 
@@ -832,7 +832,7 @@ Toque no botão para entrar antes de virar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Lote Especial não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-ESP | api | api-bf-v02]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V02-A | Dia da virada do Lote Especial, 09:00 | Último dia do Lote Especial
 
@@ -850,7 +850,7 @@ Toque no botão para entrar antes de virar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Lote Especial alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-ESP | api | api-bf-v02-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V03 | Hora da virada do Lote Especial | Virou: Primeiro Lote
 
@@ -865,12 +865,12 @@ Agora a *Black Próton Vitalícia* está no *Primeiro Lote*.
 
 ⏳ Vale até [[PENDENTE: data do lote]].
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Primeiro Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-1L | api | api-bf-v03]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V03-A | Hora da virada do Lote Especial | Virou: Primeiro Lote
 
@@ -885,12 +885,12 @@ Agora a *Black Próton Vitalícia* está no *Primeiro Lote*.
 
 ⏳ Vale até [[PENDENTE: data do lote]].
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Primeiro Lote alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-1L | api | api-bf-v03-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V04 | Dia da virada do Primeiro Lote, 09:00 | Último dia do Primeiro Lote
 
@@ -908,7 +908,7 @@ Toque no botão para entrar antes de virar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Primeiro Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-1L | api | api-bf-v04]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V04-A | Dia da virada do Primeiro Lote, 09:00 | Último dia do Primeiro Lote
 
@@ -926,7 +926,7 @@ Toque no botão para entrar antes de virar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Primeiro Lote alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-1L | api | api-bf-v04-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V05 | Hora da virada do Primeiro Lote | Virou: Último Lote
 
@@ -941,12 +941,12 @@ Agora a *Black Próton Vitalícia* está no *Último Lote*.
 
 ⏳ Vale até [[PENDENTE: fechamento]].
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Último Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-UL | api | api-bf-v05]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V05-A | Hora da virada do Primeiro Lote | Virou: Último Lote
 
@@ -961,12 +961,12 @@ Agora a *Black Próton Vitalícia* está no *Último Lote*.
 
 ⏳ Vale até [[PENDENTE: fechamento]].
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Último Lote alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-UL | api | api-bf-v05-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V06 | Dia do fechamento, 09:00 | Último dia
 
@@ -979,12 +979,12 @@ Hoje o carrinho da *Black Próton Vitalícia* fecha, {{nome}}. 🔥
 
 Fecha às [[PENDENTE: fechamento]]. Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Último Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-UL | api | api-bf-v06]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V06-A | Dia do fechamento, 09:00 | Último dia
 
@@ -997,12 +997,12 @@ Hoje o carrinho da *Black Próton Vitalícia* fecha, {{nome}}. 🔥
 
 Fecha às [[PENDENTE: fechamento]]. Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Último Lote alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-UL | api | api-bf-v06-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-V07 | Dia do fechamento, 1 hora antes | Última hora (só quem clicou e não comprou)
 
@@ -1020,7 +1020,7 @@ Toque no botão para entrar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Último Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-UL | api | api-bf-v07]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Enviar só a quem abriu o checkout e não comprou (usar a mesma segmentação do carrinho abandonado).
 
@@ -1040,7 +1040,7 @@ Toque no botão para entrar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Último Lote alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-UL | api | api-bf-v07-a]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Enviar só a quem abriu o checkout e não comprou (usar a mesma segmentação do carrinho abandonado).
 
@@ -1058,7 +1058,7 @@ Se quiser receber um aviso caso exista uma nova oferta, toque no botão.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera | api | api-bf-v08]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
 
@@ -1076,7 +1076,7 @@ Se quiser receber um aviso caso exista uma nova oferta, toque no botão.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera | api | api-bf-v08-a]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
 
@@ -1108,11 +1108,11 @@ Digite SAIR se não quiser mais receber mensagens
 
 | ID | Categoria | Botões | Status |
 |---|---|---|---|
-| API-BF-V01, V01-A | Marketing | 2 (URL: GARANTIR MINHA VAGA; resposta rápida: PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Preço e lote por variável (`{{preco_lote}}`, `{{lote_atual}}`, `{{data_virada}}`), com valor de exemplo neutro no texto enviado à Meta |
+| API-BF-V01, V01-A | Marketing | 2 (URL: GARANTIR MEU LUGAR; resposta rápida: PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Preço e lote por variável (`{{preco_lote}}`, `{{lote_atual}}`, `{{data_virada}}`), com valor de exemplo neutro no texto enviado à Meta |
 | API-BF-V02 a V07 (e -A) | Marketing | 2 | **PRECISA DE APROVAÇÃO**, um por lote e segmento. Só entram em uso depois da revelação |
 | API-BF-V08, V08-A | Marketing | 2 (URL: lista de espera; PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**, só se houver lista de espera `[[CONFIRMAR: lista de espera, decisão da Dra.]]` |
 
-Todos com rodapé SAIR, sem cabeçalho, corpo curto (menos de 450 caracteres) e sem contagem de vagas ou de unidades: a escassez é só por lote real.
+Todos com rodapé SAIR, sem cabeçalho, corpo curto (menos de 450 caracteres) e sem contagem de lugares ou de unidades: a escassez é só por lote real.
 
 **Testes A/B sugeridos**
 1. CP-BF-V04 (último dia): com a frase "Depois disso, o valor sobe" contra uma versão que mostra os dois preços lado a lado. Medir cliques em checkout.

@@ -50,6 +50,7 @@ De cima para baixo:
 **Texto principal:** `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 **Microcopy:** `Gratuito. Sem compromisso de compra. Live de revelação em 03/11, às 20h.`
 **Ação:** abre o formulário em tela (nome, e-mail, WhatsApp), igual ao da captura A.
+**Leva para:** a página de obrigado e diagnóstico, depois de enviar o formulário. [[LINK: obrigado e diagnóstico | pagina | vsl-btn]]
 
 **Regras do botão**
 - Aparece em `[[PENDENTE: minutagem do vídeo]]`, no mesmo ponto do vídeo em que a Dra. fala do convite para a live (combinar com a edição).
@@ -155,7 +156,7 @@ Métricas: taxa de play, retenção até `[[PENDENTE: minutagem do vídeo]]`, cl
 
 ## Blocos abaixo do vídeo (iguais nas 5)
 
-Reaproveitar da `captura_A_diagnostico_primeiro.md`, **na mesma ordem**, sem o hero:
+Reaproveitar da `captura_A_diagnostico_primeiro.md`, **na mesma ordem**, sem o hero (os botões e os links desses blocos seguem a tabela de links da captura A; aqui o botão leva ao formulário em tela e depois à página de obrigado e diagnóstico):
 
 1. Bloco 02, Prova
 2. Bloco 03, A dor que não sabe o nome
@@ -193,3 +194,11 @@ Antes de publicar, nenhuma das frases abaixo pode aparecer na página, no texto 
 4. **Dependências:** `captura_A_diagnostico_primeiro.md` (blocos reaproveitados), `obrigado_e_pesquisa.md` (destino do cadastro), `diagnostico_5_perfis.md`.
 5. **Testes A/B:** ver matriz. Testar só headline na página, mantendo o vídeo. Se for testar vídeo, manter a headline.
 6. **Mobile:** player com largura total, altura mínima de 16:9 e legenda embutida (parte do público 45+ assiste sem som em trânsito). Botão fixo no rodapé de 56 px depois da minutagem.
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| vsl-btn | `[[LINK: obrigado e diagnóstico \| pagina \| vsl-btn]]` | Destino do botão (principal e de cada headline H1 a H5) depois do envio do formulário | Web designer |

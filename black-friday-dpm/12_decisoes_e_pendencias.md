@@ -79,7 +79,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 51 | Quiz do Desafio: 722 respostas no dossiê (até 23/09) contra 3.226 linhas na planilha |
 | 52 | O briefing diz captação de 13/10 a 03/11; as peças usam terça 13/10 a segunda 02/11 (21 dias) e live na terça 03/11 |
 | 53 | RESOLVIDO na revisão final: cadência canônica aplicada (grupos 11h30 e 20h, e-mail 07h e 09h para segmentos, API 09h; 16h30 é banco de reserva). Lembretes de e-mail de 28/10 a 02/11 ficam às 09h. Confirmar com a equipe de disparo |
-| 54 | O arquivo `03_paginas/tela_countdown_live.md` tem o nome de uma ferramenta de reunião que nenhuma peça pode citar. Renomear exige ajustar a matriz (11) |
+| 54 | RESOLVIDO: arquivo renomeado para `03_paginas/tela_countdown_live.md` |
 | 55 | Trilha de entrada: a afirmação "só 8 dos 11 produtos têm descrição nas fontes" não pôde ser conferida (o briefing lista só os nomes dos 11) |
 | 56 | O convite VIP cita um número de tickets e diz que a condição acaba quando eles acabam: isso implica limite de vagas, o que a rubrica proíbe sem confirmação (as mensagens de alunas 01 e 04 do grupo também perguntam "há limite de reservas?") |
 

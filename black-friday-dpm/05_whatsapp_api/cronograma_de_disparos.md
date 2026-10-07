@@ -4,7 +4,7 @@
 |---|---|
 | **Peça** | Cronograma dia a dia de 13/10 a 03/11 e do pós-live, com **2 disparos de grupo por dia (11h30 e 20h)**, data, horário, canal, lista/base, ID da copy e objetivo. O terceiro slot (16h30) está em reserva e fora do calendário. Cobre grupos de WhatsApp, API oficial e ManyChat (as peças de e-mail aparecem só como referência, pois são da pasta `06_emails`) |
 | **Canal** | WhatsApp (grupos), WhatsApp API oficial, ManyChat (Instagram). E-mail como referência |
-| **Público** | Três grupos: geral (reservaram a vaga), alunas do Clube, quem fez Desafio/Imersão/Aulão sem Clube. Em API: Lista 2026, leads antigos, reservaram, fizeram o diagnóstico, alunas ativas |
+| **Público** | Três grupos: geral (reservaram o lugar), alunas do Clube, quem fez Desafio/Imersão/Aulão sem Clube. Em API: Lista 2026, leads antigos, reservaram, fizeram o diagnóstico, alunas ativas |
 | **Momento** | 13/10 a 03/11 (captação), 03/11 (live), pós-live até o fechamento (datas `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]`) |
 | **Objetivo** | Dar ao implementador a ordem exata de cada disparo, para agendar sem decisão adicional. Cada disparo tem ID e o ID aponta o arquivo onde está o texto |
 | **Consciência** | 1 a 3 na captação do grupo geral; 4 nas alunas; 4 a 5 em quem viveu o método; 5 no pós-live |
@@ -20,7 +20,7 @@
 |---|---|---|
 | CP-BF-01 a CP-BF-63 | Grupo, captação (13/10 a 02/11): 42 agendadas (11h30 e 20h) e 21 em reserva (16h30). Sufixos -AL (alunas) e -DS (Desafio/Imersão) marcam variantes | `lembretes_de_grupo_captacao.md` (banco de reserva e testes) |
 | CP-BF-64 a CP-BF-77 | Grupo, dia da live (03/11) | `dia_da_live_03_11.md` |
-| CP-BF-V01 a CP-BF-V16 | Grupo, pós-live (vagas abertas, virada de lote, fechamento) | `vagas_abertas_e_virada_de_lote.md` |
+| CP-BF-V01 a CP-BF-V16 | Grupo, pós-live (carrinho aberto, virada de lote, fechamento) | `vagas_abertas_e_virada_de_lote.md` |
 | CP-BF-GT01 | Grupo, aviso do Golden Ticket | `convite_vip_alunas_e_quiz.md` |
 | API-BF-01 a 03 (-N, -D, -A) | API de onboarding (gatilho) | `api_onboarding.md` |
 | API-BF-04.1 a 04.5 (-N, -D, -A) | API de convite indireto e aquecimento | `api_convite_indireto_e_aquecimento.md` |
@@ -39,9 +39,9 @@ Segmentos: **A** = alunas do Clube, **D** = demais alunos (Desafio, Imersão, Au
 | Nome na coluna | O que é |
 |---|---|
 | Grupos geral, Desafio/Imersão e alunas | Os três grupos de WhatsApp (rodízio SendFlow). Mesmo horário, copy-base ou variante |
-| Lista 2026 e leads antigos | Quem ainda não reservou a vaga (alvo do convite indireto) |
+| Lista 2026 e leads antigos | Quem ainda não reservou o lugar (alvo do convite indireto) |
 | Reservaram | Quem preencheu a página de captura (alvo do onboarding e dos lembretes) |
-| Fez o diagnóstico e não reservou | Quem fez o diagnóstico dos 5 padrões e não reservou a vaga |
+| Fez o diagnóstico e não reservou | Quem fez o diagnóstico dos 5 padrões e não reservou o lugar |
 | Alunas ativas do Clube | Tag de aluna ativa (alvo do Golden Ticket e da condição própria) |
 | Abriu checkout e não comprou | Evento de abandono de carrinho (pós-live) |
 
@@ -65,7 +65,7 @@ Todos os disparos de grupo vão para os três grupos no mesmo horário. Onde exi
 |---|---|---|---|---|---|---|
 | **FASE 1** | | | | | **Reconhecimento** | |
 | 13/10 | Ter | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
-| 13/10 | Ter | 09h00 | API | Lista 2026 e leads antigos que não reservaram, por segmento | API-BF-04.1 a 04.5 (-N, -D, -A), onda 1 | Convite indireto: aquecer e levar à reserva da vaga |
+| 13/10 | Ter | 09h00 | API | Lista 2026 e leads antigos que não reservaram, por segmento | API-BF-04.1 a 04.5 (-N, -D, -A), onda 1 | Convite indireto: aquecer e levar à reserva do lugar |
 | 13/10 | Ter | 11h30 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-01 (alunas: CP-BF-01-AL; Desafio/Imersão: CP-BF-01-DS) | Abriu. Perfil: Todos (frase-guia) |
 | 13/10 | Ter | 20h00 | Wpp Grupos | Grupos geral, Desafio/Imersão e alunas | CP-BF-03 | A conta aparece. Perfil: Termostato Invisível |
 | 14/10 | Qua | 07h00 | E-mail | Lista do lançamento atual (referência) | Ver pasta `06_emails` | E-mail diário da captação |
@@ -219,7 +219,7 @@ Regras de execução desta grade: um disparo de WhatsApp por minuto; cada troca 
 | 03/11 | 21:28 (manual) | E-mail (referência) | Reservaram | `06_emails` | Abertura de carrinho |
 | 03/11 | 21:30 (manual) | API | Reservaram (N e D) | API-BF-17 | Carrinho aberto, Lote Especial |
 | 03/11 | 21:32 (manual) | API | Reservaram (A) | API-BF-17-A | Carrinho aberto, Lote Especial (alunas) |
-| 03/11 | 21:35 a 21:50 (manual) | Grupos | Todos os grupos | Trocar nome e capa para "VAGAS ABERTAS" | Janela de 15 min, depois do CP-BF-76 |
+| 03/11 | 21:35 a 21:50 (manual) | Grupos | Todos os grupos | Trocar nome e capa para "CARRINHO ABERTO" | Janela de 15 min, depois do CP-BF-76 |
 | 03/11 | 22:00 | Grupos | Todos os grupos | CP-BF-77 (-AL) | Ritual da noite + P.S. do carrinho |
 | 03/11 | 22:05 | Comercial | Pipeline do comercial | Fim do modo escuta, último disparo do dia | Depois disso, só respostas |
 | 03/11 | Contínuo até 20:00 | ManyChat | Quem comenta VITALÍCIA ou DIAGNÓSTICO | MC-BF-01 a B12, C01 a C03 | Ingresso, diagnóstico e reserva (antes de 20h) |
@@ -312,7 +312,7 @@ Cada troca é feita por duas pessoas e tem início e fim. A janela termina antes
 | 13/10 | 11h15 a 11h25 (antes do CP-BF-01, 11h30) | Captação | `grupos_descricao_e_grupo_cheio.md`, seção 1 |
 | 03/11, manhã | 05h45 a 05h55 (antes do CP-BF-64, 06h00) | Dia da live, antes de começar | idem |
 | 03/11, à noite | 19h30 a 19h45 (antes do CP-BF-72, 19h50) | Ao vivo ("AO VIVO HOJE, 20H"). Não há troca às 19h59 | idem |
-| 03/11, carrinho aberto | 21h35 a 21h50 (depois do CP-BF-76, 21h28) | Vagas abertas | idem |
+| 03/11, carrinho aberto | 21h35 a 21h50 (depois do CP-BF-76, 21h28) | Carrinho aberto | idem |
 | Em cada virada de lote | 15 min depois do disparo de virada | Virada de lote | idem |
 | Manhã de E3 | 11h15 a 11h25 (antes do CP-BF-V12) | Último dia | idem |
 | Últimas horas de E1, E2 e E3 | termina 5 min antes do disparo de "últimas horas" | Últimas horas | idem |

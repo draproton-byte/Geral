@@ -200,7 +200,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 | **B. Seu padrão** | D1 a D7 do `diagnostico_5_perfis.md` | Depois da parte A; termina com o resultado |
 | **C. Prepare a live** | Q6 a Q10 | **Depois** do resultado, como "mais cinco perguntas para eu te conhecer" |
 
-**Por que o perfil que a pessoa reconhece (Q1) fica antes do resultado:** para comparar percepção com resultado sem contaminar a resposta. **Por que as perguntas de renda e objeção (Q6 a Q8) ficam depois do resultado:** a pessoa já recebeu valor e responde mais honestamente, e o abandono nessas perguntas sensíveis não perde o diagnóstico. No Desafio, tudo estava no mesmo formulário (P1 a P9), e a renda vinha antes do resultado.
+**Por que o perfil que a pessoa reconhece (Q1) fica antes do resultado:** para comparar percepção com resultado sem contaminar a resposta. **Por que as perguntas de renda e objeção (Q6 a Q8) ficam depois do resultado:** a pessoa já recebeu valor e responde com mais franqueza, e o abandono nessas perguntas sensíveis não perde o diagnóstico. No Desafio, tudo estava no mesmo formulário (P1 a P9), e a renda vinha antes do resultado.
 
 **Mapa de origem (Desafio para Black)**
 
@@ -233,7 +233,7 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 Leva para: a pergunta Q1, na mesma página.
 
 **Aviso**
-`Suas respostas ficam com o Instituto Dra. Próton e só são usadas para preparar a live, personalizar as mensagens e o atendimento. Você pode pular qualquer pergunta.` [[LINK: privacidade | pagina | obr-pA]]
+`Suas respostas ficam com o Instituto Dra. Próton e só são usadas para preparar a live, personalizar as mensagens e o atendimento. Você pode pular qualquer pergunta.` [[LINK: privacidade | pagina | obr-pa]]
 
 ---
 
@@ -292,7 +292,7 @@ Leva para: a pergunta Q1, na mesma página.
 `Pronto. Agora vem a parte que você quer: descobrir qual padrão domina. Sete perguntas.`
 
 **Botão**
-`SEGUIR PARA O MEU DIAGNÓSTICO` [[LINK: diagnóstico | pagina | obr-pB]]
+`SEGUIR PARA O MEU DIAGNÓSTICO` [[LINK: diagnóstico | pagina | obr-pb]]
 Leva para: a pergunta D1 do diagnóstico.
 
 (A parte B está em `diagnostico_5_perfis.md`: D1 a D7, resultado e devolutiva.)
@@ -424,6 +424,6 @@ Leva para: o grupo da live (do segmento da pessoa) e o arquivo de calendário.
 | obr-b06 | `[[LINK: suporte WhatsApp \| pagina \| obr-b06]]` | Botão de suporte | Suporte |
 | obr-b06 | `[[LINK: verificação de números \| pagina \| obr-b06]]` | Leva à página validadora de números | Web designer |
 | obr-b07 | `[[LINK: privacidade \| pagina \| obr-b07]]` e `[[LINK: termos \| pagina \| obr-b07]]` | Rodapé: política de privacidade e termos de uso | Jurídico |
-| obr-pA | `[[LINK: privacidade \| pagina \| obr-pA]]` | Aviso da parte A: política de privacidade | Jurídico |
-| obr-pB | `[[LINK: diagnóstico \| pagina \| obr-pB]]` | Botão da transição para a parte B (diagnóstico D1 a D7) | Web designer |
+| obr-pa | `[[LINK: privacidade \| pagina \| obr-pa]]` | Aviso da parte A: política de privacidade | Jurídico |
+| obr-pb | `[[LINK: diagnóstico \| pagina \| obr-pb]]` | Botão da transição para a parte B (diagnóstico D1 a D7) | Web designer |
 | obr-final | `[[LINK: grupo geral \| pagina \| obr-final]]` e `[[LINK: calendário \| pagina \| obr-final]]` | Tela final: entrar no grupo e salvar a data | Automação |

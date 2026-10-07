@@ -13,7 +13,7 @@
 
 **Atenção ao gatilho (decisão a validar).** Na planilha de disparos de setembro do Desafio, as três mensagens têm gatilhos que não casam com o texto: "Bem-vinda" aparece como "NÃO CLICOU LINK", "Não confirmada" como "AO ENTRAR NA LISTA" e "Aconteceu alguma coisa?" como "SAIU DO GRUPO". O texto indica o contrário nas duas primeiras. Adotei o que o texto pede: 01 ao entrar na lista, 02 para quem reservou e não entrou no grupo, 03 para quem saiu. `[[CONFIRMAR: como o gatilho foi configurado de fato no Desafio]]`.
 
-**O que a Black muda no onboarding.** O Desafio tinha ingresso pago, então "não confirmada" cobrava o pagamento e citava a virada de lote. Na Black a captação é gratuita, não há limite de vagas na live e nenhum preço aparece antes da live. "Não confirmou" passa a significar uma coisa só: **reservou a vaga e ainda não entrou no grupo**. A reserva já está feita, então nenhum texto diz que a vaga "não está confirmada" ou que pode ser perdida. O argumento é o grupo como canal oficial (o link da live e os avisos saem primeiro lá, e o link também chega por API e e-mail), nunca lote ou escassez.
+**O que a Black muda no onboarding.** O Desafio tinha ingresso pago, então "não confirmada" cobrava o pagamento e citava a virada de lote. Na Black a captação é gratuita, não há limite de lugares na live e nenhum preço aparece antes da live. "Não confirmou" passa a significar uma coisa só: **reservou o lugar e ainda não entrou no grupo**. A reserva já está feita, então nenhum texto diz que o lugar "não está confirmado" ou que pode ser perdida. O argumento é o grupo como canal oficial (o link da live e os avisos saem primeiro lá, e o link também chega por API e e-mail), nunca lote ou escassez.
 
 ---
 
@@ -45,7 +45,7 @@ Tudo o mais (data, horário, "a condição é revelada ao vivo", rodapé, botão
 ```text
 Parabéns, {{nome}}! 🎉
 
-✅ A sua vaga na live *Black Próton Vitalícia*, com a Dra. Próton, está reservada.
+✅ O seu lugar na live *Black Próton Vitalícia*, com a Dra. Próton, está reservado.
 
 Você chegou até aqui porque já recomeçou mais de uma vez. Dessa vez, a gente começa por entender o padrão.
 
@@ -60,7 +60,7 @@ Para aproveitar a live, siga 2 passos:
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FAZER O DIAGNÓSTICO ]` → `{{link_diagnostico}}`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo geral | api | api-bf-01-n]]` · `[ FAZER O DIAGNÓSTICO ]` → `[[LINK: obrigado e diagnóstico | api | api-bf-01-n]]`
 
 ### API-BF-01-A (alunas do Clube)
 
@@ -69,7 +69,7 @@ Digite SAIR se não quiser mais receber mensagens
 ```text
 Parabéns, {{nome}}! 🎉
 
-✅ A sua vaga na live *Black Próton Vitalícia*, com a Dra. Próton, está reservada.
+✅ O seu lugar na live *Black Próton Vitalícia*, com a Dra. Próton, está reservado.
 
 Você já está dentro do Clube Secreto, e o que você já fez conta. Na live, eu revelo a condição própria para você, aluna, ficar para sempre.
 
@@ -84,7 +84,7 @@ Para aproveitar a live, siga 2 passos:
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ ATIVAR LEMBRETE ]` → `{{link_lembrete}}`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo alunas | api | api-bf-01-a]]` · `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-01-a]]`
 
 ### API-BF-01-D (Desafio, Imersão, Aulão sem Clube)
 
@@ -93,7 +93,7 @@ Digite SAIR se não quiser mais receber mensagens
 ```text
 Parabéns, {{nome}}! 🎉
 
-✅ A sua vaga na live *Black Próton Vitalícia*, com a Dra. Próton, está reservada.
+✅ O seu lugar na live *Black Próton Vitalícia*, com a Dra. Próton, está reservado.
 
 Você já viveu o método comigo ao vivo. Na live, eu mostro como não deixar o processo travar de novo.
 
@@ -108,7 +108,7 @@ Para aproveitar a live, siga 2 passos:
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FAZER O DIAGNÓSTICO ]` → `{{link_diagnostico}}`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo viveu o método | api | api-bf-01-d]]` · `[ FAZER O DIAGNÓSTICO ]` → `[[LINK: diagnóstico | api | api-bf-01-d]]`
 
 ---
 
@@ -121,7 +121,7 @@ Gatilho: algumas horas depois do cadastro, para quem **reservou e não entrou no
 **Corpo**
 
 ```text
-Falta um passo, {{nome}}: a sua vaga na live já está reservada.
+Falta um passo, {{nome}}: o seu lugar na live já está reservado.
 
 Você ainda não entrou no grupo oficial da *Black Próton Vitalícia*.
 
@@ -132,14 +132,14 @@ O link da live de *03/11, às 20h*, e os avisos saem primeiro no grupo. A condi�
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo geral | api | api-bf-02-n]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-02-A
 
 **Corpo**
 
 ```text
-Falta um passo, {{nome}}: a sua vaga na live já está reservada.
+Falta um passo, {{nome}}: o seu lugar na live já está reservado.
 
 Você ainda não entrou no grupo das alunas do Clube Secreto.
 
@@ -150,14 +150,14 @@ A condição própria para alunas é revelada ao vivo, em *03/11, às 20h*. O li
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo alunas | api | api-bf-02-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-02-D
 
 **Corpo**
 
 ```text
-Falta um passo, {{nome}}: a sua vaga na live já está reservada.
+Falta um passo, {{nome}}: o seu lugar na live já está reservado.
 
 Você ainda não entrou no grupo de quem viveu o método comigo.
 
@@ -168,7 +168,7 @@ O link da live de *03/11, às 20h*, e os avisos saem primeiro no grupo. Você j�
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo viveu o método | api | api-bf-02-d]]` · `[ PARAR MENSAGENS ]`
 
 ---
 
@@ -196,7 +196,7 @@ Eu quero você na live de *03/11, às 20h*. O padrão que faz a gente recomeçar
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR PARA O GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ VOLTAR PARA O GRUPO ]` → `[[LINK: grupo geral | api | api-bf-03-n]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-03-n]]`
 
 ### API-BF-03-A
 
@@ -218,7 +218,7 @@ A condição própria para alunas é revelada ao vivo, em *03/11, às 20h*, e eu
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR PARA O GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ VOLTAR PARA O GRUPO ]` → `[[LINK: grupo alunas | api | api-bf-03-a]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-03-a]]`
 
 ### API-BF-03-D
 
@@ -240,7 +240,7 @@ Você já sabe como é fazer a prática ao vivo. A live de *03/11, às 20h*, é 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR PARA O GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ VOLTAR PARA O GRUPO ]` → `[[LINK: grupo viveu o método | api | api-bf-03-d]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-03-d]]`
 
 ---
 
@@ -249,7 +249,7 @@ Digite SAIR se não quiser mais receber mensagens
 | Evento | Próxima mensagem |
 |---|---|
 | Entrou no grupo | Mensagem de boas-vindas do grupo (`grupos_descricao_e_grupo_cheio.md`, seção 3) |
-| Fez o diagnóstico | Redirecionar para a página de resultado e, em seguida, `api_convite_indireto_e_aquecimento.md` só se NÃO reservou a vaga (quem já reservou não recebe convite) |
+| Fez o diagnóstico | Redirecionar para a página de resultado e, em seguida, `api_convite_indireto_e_aquecimento.md` só se NÃO reservou o lugar (quem já reservou não recebe convite) |
 | Não entrou no grupo depois do reenvio | Recuperação de grupo (`recuperacao_e_carrinho.md`, seção 1) |
 | Saiu do grupo e não voltou | Parar API 03 e manter só e-mail para essa pessoa até a live |
 
@@ -261,7 +261,7 @@ Digite SAIR se não quiser mais receber mensagens
 1. Links (placeholders `[[LINK: grupo geral]]`, `[[LINK: diagnóstico dos 5 perfis]]` e `[[LINK: lembrete da live no YouTube]]`): três links de rodízio (geral, alunas, Desafio/Imersão), diagnóstico e lembrete da live. O botão "Entrar no grupo" precisa de UTM de origem `api`.
 2. Segmentar na entrada: tag de aluna ativa do Clube (A), tag de comprador de Desafio/Imersão/Aulão sem Clube (D) e restante (N). Tamanho do segmento A: `[[CONFIRMAR: contagem de alunas do Clube]]`.
 3. `[[LINK: suporte WhatsApp]]`: usar o número oficial de suporte. Não usar telefone pessoal.
-4. Aprovação de template: o botão "Parar mensagens" e o rodapé de SAIR seguem o padrão do Desafio. O motivo do recebimento ("você reservou sua vaga") fica no consentimento da página de reserva e não no template, porque o rodapé da Meta aceita um só texto de até 60 caracteres e ele já é o SAIR.
+4. Aprovação de template: o botão "Parar mensagens" e o rodapé de SAIR seguem o padrão do Desafio. O motivo do recebimento ("você reservou seu lugar") fica no consentimento da página de reserva e não no template, porque o rodapé da Meta aceita um só texto de até 60 caracteres e ele já é o SAIR.
 5. Confirmar `{{link_diagnostico}}`: a página de obrigado/pesquisa da Black ainda não existe (`03_paginas`).
 
 **Testes A/B sugeridos**

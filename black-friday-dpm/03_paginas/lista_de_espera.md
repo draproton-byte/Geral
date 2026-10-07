@@ -261,6 +261,8 @@ Leva para: a página do degrau de entrada `[[PENDENTE: degrau de entrada, nome]]
 
 `Dra. Próton`
 
+`Para sair da lista, use o link de descadastro no rodapé deste e-mail.`
+
 ### Mensagem de WhatsApp de confirmação (se houver telefone)
 
 ```

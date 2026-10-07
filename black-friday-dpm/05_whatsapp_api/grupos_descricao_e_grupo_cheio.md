@@ -6,7 +6,7 @@
 | **Canal** | Grupos de WhatsApp (rodízio SendFlow). 3 grupos-tipo: geral, alunas do Clube, quem fez Desafio/Imersão |
 | **Público** | Geral: leads de captação e base fria (consciência 1 a 3). Alunas do Clube: consciência 4. Desafio/Imersão/Aulão sem Clube: consciência 4 a 5 |
 | **Momento** | Do primeiro dia de captação (13/10) ao fechamento do carrinho. O nome e a capa mudam por estado (tabela 1) |
-| **Objetivo** | Fazer a pessoa entender em 5 segundos que o grupo é o canal oficial da live de 03/11, reservar a vaga (diagnóstico + lembrete) e ficar no grupo até a live |
+| **Objetivo** | Fazer a pessoa entender em 5 segundos que o grupo é o canal oficial da live de 03/11, reservar o lugar (diagnóstico + lembrete) e ficar no grupo até a live |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." O grupo é o lugar onde ela acompanha o caminho até essa decisão, sem se perder |
 | **Modelo no Desafio** | descrição de grupo do Desafio, mensagem de grupo cheio do Desafio, documento de captação e automação do Desafio (campos: nome dos grupos, foto de capa, descrição, mensagem de boas-vindas/grupo cheio) |
 
@@ -24,11 +24,11 @@ Regras: o nome cabe no topo do celular (curto). A capa tem no máximo duas linha
 
 | Estado | Quando troca | Nome do grupo | Texto da capa (linha 1 / linha 2 / rodapé pequeno) |
 |---|---|---|---|
-| **Captação** | 13/10, janela de 11h15 a 11h25, antes do CP-BF-01 | Black Próton Vitalícia: Grupo Oficial | `A ÚLTIMA VEZ QUE VOCÊ VAI PRECISAR RECOMEÇAR` / `Live de revelação: 03/11, 20h` / `Reserve sua vaga no link da descrição` |
+| **Captação** | 13/10, janela de 11h15 a 11h25, antes do CP-BF-01 | Black Próton Vitalícia: Grupo Oficial | `A ÚLTIMA VEZ QUE VOCÊ VAI PRECISAR RECOMEÇAR` / `Live de revelação: 03/11, 20h` / `Reserve seu lugar no link da descrição` |
 | **Dia da live, antes de começar** | 03/11, janela de 05h45 a 05h55, antes do CP-BF-64 | Black Próton Vitalícia: É HOJE, 20h | `É HOJE ÀS 20H` / `Live de revelação da Black Próton Vitalícia` / `Ative o lembrete` |
 | **Ao vivo** | 03/11, janela de 19h30 a 19h45 (15 min, duas pessoas), antes do CP-BF-72. Não há troca às 19h59 nem às 20h | 🔴 AO VIVO HOJE, 20H: Black Próton Vitalícia | `AO VIVO HOJE ÀS 20H` / `Entre pelo link do grupo` / `[[FOTO DRA]]` |
-| **Vagas abertas** | 03/11, janela de 21h35 a 21h50 (15 min), depois de o CP-BF-76 sair com o link do checkout aberto (previsto 21h28). Condição de uso do Lote Especial `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` | 🔓 Vagas Abertas: Black Próton Vitalícia | `VAGAS ABERTAS` / `Black Próton Vitalícia` / `Condição do Lote Especial no link do grupo` |
-| **Virada de lote** | Na virada de cada lote (`[[PENDENTE: data do lote]]`), janela de 15 min depois do disparo de virada | 🔓 Vagas Abertas: Primeiro Lote (ou Último Lote) | `VIROU O LOTE` / `Primeiro Lote (ou Último Lote)` / `Veja a condição atual` |
+| **Carrinho aberto** | 03/11, janela de 21h35 a 21h50 (15 min), depois de o CP-BF-76 sair com o link do checkout aberto (previsto 21h28). Condição de uso do Lote Especial `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` | 🔓 Carrinho Aberto: Black Próton Vitalícia | `CARRINHO ABERTO` / `Black Próton Vitalícia` / `Condição do Lote Especial no link do grupo` |
+| **Virada de lote** | Na virada de cada lote (`[[PENDENTE: data do lote]]`), janela de 15 min depois do disparo de virada | 🔓 Carrinho Aberto: Primeiro Lote (ou Último Lote) | `VIROU O LOTE` / `Primeiro Lote (ou Último Lote)` / `Veja a condição atual` |
 | **Último dia** | Manhã do último dia (`[[PENDENTE: fechamento]]`), 15 min antes do disparo das 11h30 | 🔥 Inscrições: Último dia | `ÚLTIMO DIA` / `Black Próton Vitalícia` / `Esta condição não se repete` |
 | **Últimas horas** | Início do bloco de últimas horas | 🔥 Inscrições: Últimas horas | `ÚLTIMAS HORAS` / `Black Próton Vitalícia` / `Esta condição não se repete` |
 | **Encerrado** | Após o fechamento | Black Próton Vitalícia: Encerrado | `ENCERRADO` / `Obrigada por estar comigo` / `O que vier depois é outra oferta, com outro preço` |
@@ -40,7 +40,7 @@ Regras: o nome cabe no topo do celular (curto). A capa tem no máximo duas linha
 | Captação | Clube Secreto: Condição para Alunas | `VOCÊ JÁ ESTÁ DENTRO` / `Falta ficar para sempre` / `Live de revelação: 03/11, 20h` |
 | Dia da live | Clube Secreto: É HOJE, 20h | `É HOJE ÀS 20H` / `Sua condição de aluna é revelada ao vivo` |
 | Ao vivo | 🔴 AO VIVO HOJE, 20H: Condição para Alunas | `AO VIVO HOJE ÀS 20H` / `Entre pelo link do grupo` |
-| Vagas abertas | 🔓 Vagas Abertas: Condição para Alunas | `VAGAS ABERTAS` / `Sua condição de aluna está no link do grupo` |
+| Carrinho aberto | 🔓 Carrinho Aberto: Condição para Alunas | `CARRINHO ABERTO` / `Sua condição de aluna está no link do grupo` |
 | Virada / último dia / últimas horas / encerrado | Igual ao grupo geral, mantendo "Condição para Alunas" no nome | Igual ao geral, com `Condição para Alunas` na linha 2 |
 
 ### 1.3 Grupo de quem fez Desafio ou Imersão (e Aulão, sem Clube)
@@ -50,7 +50,7 @@ Regras: o nome cabe no topo do celular (curto). A capa tem no máximo duas linha
 | Captação | Black Próton Vitalícia: Quem Viveu o Método | `VOCÊ JÁ VIVEU O MÉTODO` / `Agora é continuar` / `Live de revelação: 03/11, 20h` |
 | Dia da live | Black Próton Vitalícia: É HOJE, 20h | `É HOJE ÀS 20H` / `Quem viveu o método vê a condição ao vivo` |
 | Ao vivo | 🔴 AO VIVO HOJE, 20H: Black Próton Vitalícia | `AO VIVO HOJE ÀS 20H` / `Entre pelo link do grupo` |
-| Vagas abertas | 🔓 Vagas Abertas: Black Próton Vitalícia | `VAGAS ABERTAS` / `Condição no link do grupo` |
+| Carrinho aberto | 🔓 Carrinho Aberto: Black Próton Vitalícia | `CARRINHO ABERTO` / `Condição no link do grupo` |
 | Virada / último dia / últimas horas / encerrado | Igual ao grupo geral | Igual ao geral |
 
 **Teste A/B sugerido para a capa de captação:** (A) frase-guia "A última vez que você vai precisar recomeçar" contra (B) pergunta "Quantas vezes você já recomeçou?". Medir saída do grupo nas primeiras 48 horas.
@@ -89,7 +89,7 @@ Este é o canal oficial da live em que eu revelo, de uma vez só, tudo o que con
 [[LINK: suporte WhatsApp]]
 ```
 
-O "check-in obrigatório" da versão anterior saiu: a reserva da vaga é gratuita e não depende de diagnóstico, então dizer que o diagnóstico "confirma a vaga" seria enganoso. O bônus de check-in só volta se existir de verdade `[[PENDENTE: bônus]]`.
+O "check-in obrigatório" da versão anterior saiu: a reserva do lugar é gratuita e não depende de diagnóstico, então dizer que o diagnóstico "confirma o lugar" seria enganoso. O bônus de check-in só volta se existir de verdade `[[PENDENTE: bônus]]`.
 
 ### 2.2 Descrição: grupo de alunas do Clube
 

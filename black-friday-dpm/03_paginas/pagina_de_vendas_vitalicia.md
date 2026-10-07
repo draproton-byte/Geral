@@ -418,9 +418,7 @@ Leva para: o checkout do segmento e do lote em vigor (mesma regra do bloco 01).
 
 ### Fecho
 
-`Uma última coisa. Se você não pretende praticar nada, não entre.`
-
-`Eu prefiro que você não compre do que compre e não viva.`
+`Uma última coisa. Se você não pretende praticar nada, não entre. Eu quero você praticando, não só comprando.`
 
 **Função:** as duas objeções que mais importam para quem está pronta (quente 151: medo de não implementar 27, já comprei e não funcionou 24).
 

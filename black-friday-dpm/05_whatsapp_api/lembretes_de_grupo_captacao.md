@@ -6,9 +6,9 @@
 |---|---|
 | **Peça** | Banco de 63 copys de grupo de WhatsApp (21 dias, de 13/10 a 02/11), das quais 42 agendadas (11h30 e 20h) e 21 em reserva (16h30), mais 16 variantes para o grupo de alunas e para o grupo de quem fez Desafio/Imersão (9 agendadas e 7 em reserva). Cada uma com ID, data e horário. Aprofundamento: dor, prova, o que entra, objeções, trilha de entrada e diagnóstico |
 | **Canal** | Grupos de WhatsApp (geral, alunas, Desafio/Imersão), via SendFlow |
-| **Público** | Geral: reservaram a vaga e a base fria (consciência 1 a 3). Alunas: estágio 4. Desafio/Imersão: estágio 4 a 5 |
+| **Público** | Geral: reservaram o lugar e a base fria (consciência 1 a 3). Alunas: estágio 4. Desafio/Imersão: estágio 4 a 5 |
 | **Momento** | 13/10 a 02/11. Fase 1, reconhecimento (13 a 19/10). Fase 2, prova e quebra de medo (20 a 27/10). Fase 3, antecipação (28/10 a 02/11) |
-| **Objetivo** | Manter a pessoa no grupo, levá-la a fazer o diagnóstico, reservar a vaga e chegar na live de 03/11 sabendo o nome do padrão. Cada copy termina com pergunta ou reação |
+| **Objetivo** | Manter a pessoa no grupo, levá-la a fazer o diagnóstico, reservar o lugar e chegar na live de 03/11 sabendo o nome do padrão. Cada copy termina com pergunta ou reação |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada copy desloca a pessoa um passo em direção a essa decisão: reconhecer, confiar, entender o que entra, decidir estar na live |
 | **Momento de vida** | Aperto real (34%), funcional e exausta (32%, 60% com 45+), confortável querendo mais (18%), sozinha (20%), casada sem conexão (55% casadas). Cada copy traz o momento predominante |
 | **Modelo no Desafio** | copys de lembrete de grupo do Desafio (CP 01 a 51): "Contagem regressiva", "É hoje", "Lembrete 1 + evento", "Lembrete 2", "Falta 1 hora", "Carta", "Lista de interesse", "Mantra" (aqui, ritual de Grabovoi), quebra de objeção (CP 34) |
@@ -16,7 +16,7 @@
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha 5 noites e uma sequência diária de CP em torno do horário da aula (09h, 13h, 17h, 19h, 20h, 20h15, 20h45). A Black tem **uma live** em 03/11, então a cadência de 13/10 a 02/11 é de **aquecimento**: 2 disparos por dia, em 11h30 e 20h. A cadência de horários da BFV/26 (grupos às 11h30 e 20h) é a canônica. O terceiro slot (16h30) não entra no calendário e vira banco de reserva. O dia 03/11 usa a grade completa do dia da live (`dia_da_live_03_11.md`).
 - O Desafio tinha o "mantra" de Grabovoi com a promessa "ative a atração de dinheiro". O guia proíbe a promessa. Em CP-BF-15, 45 e 60, o ritual é o **áudio de Grabovoi da noite**, apresentado como prática.
-- O Desafio tinha uma "Lista de Interesse" para quem queria saber antes da abertura. Na Black, a captação inteira cumpre esse papel: a pessoa já reservou a vaga.
+- O Desafio tinha uma "Lista de Interesse" para quem queria saber antes da abertura. Na Black, a captação inteira cumpre esse papel: a pessoa já reservou o lugar.
 - O Desafio vendia com lote e preço. Aqui **nenhum preço aparece**. A escassez pré-live é a data da live e a condição revelada só ao vivo.
 
 ## 1. Como usar
@@ -144,9 +144,9 @@ No dia *03/11, às 20h*, eu abro ao vivo, no YouTube, a oferta que o Clube Secre
 
 O preço e as condições só são revelados na live.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-01]]
 
 Reage com 🔁 se você já perdeu a conta de quantas vezes recomeçou.
 ```
@@ -166,7 +166,7 @@ São 5 padrões. Um deles costuma estar por trás de cada recomeço.
 
 👇 Descubra o seu:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-02]]
 
 Já fez? Reage com ✅.
 
@@ -190,7 +190,7 @@ Dia 03/11, às 20h, eu mostro essa conta ao vivo.
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-03]]
 
 Reage com 🌡️ se esse padrão é seu.
 ```
@@ -212,7 +212,7 @@ Dia 03/11, às 20h, eu abro ao vivo tudo o que construí para desarmar esse padr
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-04]]
 
 Reage com 🛑 se o seu "depois" já te custou caro.
 ```
@@ -234,7 +234,7 @@ Ao vivo, às 20h, eu mostro como.
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-05]]
 
 Reage com 🙋 se esse medo é seu.
 ```
@@ -258,7 +258,7 @@ Dia 03/11, às 20h, a gente trabalha esse "eu termino" ao vivo.
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-06]]
 
 Reage com ✅ se concordou. Reage com 😬 se fez careta.
 ```
@@ -278,9 +278,9 @@ E mesmo quando faz muito, a conta do dia termina em "podia ter feito mais".
 
 Dia 03/11, às 20h, eu falo ao vivo desse cansaço que não passa com descanso.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-07]]
 
 Reage com 🪫 se a sua bateria está assim.
 ```
@@ -300,7 +300,7 @@ Existe um trabalho de raiz para isso, e ele começa por enxergar o padrão.
 
 👇 Faz o diagnóstico e descobre o seu:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-08]]
 
 Reage com 🙌 se esse é o seu momento.
 ```
@@ -320,9 +320,9 @@ Como vai ser o dia 03/11:
 
 Eu vou abrir, de uma vez, tudo o que construí para você parar de recomeçar.
 
-👇 Reserva a sua vaga e recebe o aviso aqui no grupo:
+👇 Reserva o seu lugar e recebe o aviso aqui no grupo:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-09]]
 
 Reage com 🗓️ se já salvou na agenda.
 ```
@@ -342,9 +342,9 @@ Frases que ouviu na infância, atitudes que se repetem. Elas voltam toda vez que
 
 Dia 03/11, às 20h, eu mostro ao vivo por onde isso se desfaz.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-10]]
 
 Reage com ⚓ se esse é o seu.
 ```
@@ -366,7 +366,7 @@ Dia 03/11, às 20h, eu respondo ao vivo.
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-11]]
 
 Reage com 💜 se você vai estar comigo.
 ```
@@ -386,7 +386,7 @@ Não é para se cobrar. É para enxergar.
 
 Se você não sabe qual padrão está por trás dela, o diagnóstico mostra:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-12]]
 
 Me conta com um emoji: 🤍 se você já tem a sua promessa em mente.
 ```
@@ -408,7 +408,7 @@ Dia 03/11, às 20h, eu falo ao vivo dessa culpa.
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-13]]
 
 Reage com 🎁 se você é quem cuida de todo mundo.
 ```
@@ -428,9 +428,9 @@ Quando você muda, quem está ao lado sente, mesmo sem você dizer uma palavra.
 
 Por isso cuidar de você não é egoísmo.
 
-👇 Reserva a sua vaga na live de 03/11, às 20h:
+👇 Reserva o seu lugar na live de 03/11, às 20h:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-14]]
 
 Reage com 🏡 se você faz a casa funcionar.
 ```
@@ -444,7 +444,7 @@ Perfil: Todos. Objeção: Ritual. Momento de vida: Todos.
 
 O ritual de hoje: ouvir o *áudio de Grabovoi da noite*, com a sequência numérica que eu ensino na prática.
 
-[[LINK: áudio de Grabovoi da noite]]
+[[LINK: áudio do dia | wpp | cp-bf-15]]
 
 Não é promessa. É um minuto de silêncio com você.
 
@@ -468,7 +468,7 @@ Antes de recomeçar, vale descobrir *o que* você está recomeçando.
 
 👇 O diagnóstico mostra o seu padrão:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-16]]
 
 Reage com 🔎 se você quer descobrir.
 ```
@@ -492,7 +492,7 @@ Domingo de enquete. Escolhe o emoji do padrão que mais te representa:
 
 Não sabe qual é o seu? O diagnóstico responde:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-17]]
 
 Reage com o emoji do seu padrão.
 ```
@@ -514,7 +514,7 @@ Dia 03/11, às 20h, eu abro ao vivo o que construí para tirar esse "depois" do 
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-18]]
 
 Reage com 🔁 se você já prometeu "segunda eu começo".
 ```
@@ -536,7 +536,7 @@ Dia 03/11, às 20h, eu faço essa conta ao vivo com você.
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-19]]
 
 Reage com 🌡️ se a resposta te incomodou.
 ```
@@ -556,9 +556,9 @@ Esse é o trabalho da Black Próton Vitalícia: transformar quem começa em quem
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-20]]
 
 Reage com 💪 se você sabe começar, mas quer aprender a ficar.
 ```
@@ -576,9 +576,9 @@ Vou abrir aqui, aos poucos, o que entra na Vitalícia, as dúvidas mais comuns e
 
 Quer acompanhar?
 
-👇 Garante a sua vaga na live de 03/11, às 20h:
+👇 Reserva o seu lugar na live de 03/11, às 20h:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-21]]
 
 Reage com 🔥 se você quer ver o que entra.
 ```
@@ -600,9 +600,9 @@ No dia 03/11, às 20h, eu mostro ao vivo o que muda: um jeito de entrar sem praz
 
 Você não precisa decidir nada agora. Só estar lá.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-22]]
 
 Reage com 🔐 se você quer conhecer o Clube por dentro.
 ```
@@ -626,7 +626,7 @@ Dia 03/11, às 20h, eu mostro ao vivo.
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-23]]
 
 Reage com 🙋 se essa frase é sua.
 ```
@@ -646,7 +646,7 @@ Se você já comprou outras coisas e não aplicou, é por isso que o que eu vou 
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-24]]
 
 Reage com 🙏 se essa é a decisão que você quer tomar.
 ```
@@ -668,7 +668,7 @@ Dia 03/11, às 20h, ao vivo.
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-25]]
 
 Reage com ❤️ se esse relato também é o seu.
 ```
@@ -690,7 +690,7 @@ Você decide com a conta na mão.
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-26]]
 
 Reage com 🧮 se você quer ver essa conta.
 ```
@@ -712,7 +712,7 @@ Nada disso é falta de esforço. É um padrão que pode ser enxergado e trabalha
 
 Quer saber o seu padrão completo?
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-27]]
 
 Reage com 1️⃣, 2️⃣ ou 3️⃣ no sinal que mais te pegou.
 ```
@@ -730,9 +730,9 @@ Está falando de um padrão antigo decidindo no lugar dela.
 
 Dia 03/11, às 20h, eu mostro ao vivo um caminho para trabalhar isso, sem forçar.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-28]]
 
 Reage com ⚓ se isso é com você.
 ```
@@ -750,9 +750,9 @@ Por isso eu quero te dar uma tarefa pequena: salvar o dia *03/11, às 20h*, e at
 
 A condição é revelada ao vivo. Sobre replay: [[PENDENTE: replay]]
 
-👇 Reserva a sua vaga e recebe o lembrete:
+👇 Reserva o seu lugar e recebe o lembrete:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-29]]
 
 Reage com ⏰ se você vai avisar em casa que esse horário é seu.
 ```
@@ -772,9 +772,9 @@ O depois sempre foi o esconderijo da autossabotagem.
 
 Dia 03/11, às 20h, eu revelo ao vivo uma oferta que tira o prazo e tira essa desculpa.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-30]]
 
 Reage com 🛑 se o "depois" já te enganou.
 ```
@@ -792,9 +792,9 @@ Eu não prometo o mesmo para todo mundo. Cada pessoa vive o processo no seu ritm
 
 O que existe é acompanhamento: você não faz isso sem apoio.
 
-👇 Reserva a sua vaga na live de 03/11, às 20h:
+👇 Reserva o seu lugar na live de 03/11, às 20h:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-31]]
 
 Reage com 💜 se você quer fazer acompanhada.
 ```
@@ -818,7 +818,7 @@ Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só 
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-32]]
 
 Reage com 💰 se esse é o seu ponto de partida.
 ```
@@ -840,9 +840,9 @@ O que você quer que eu explique primeiro na live de 03/11?
 
 🔓 A condição de entrada
 
-👇 Se ainda não reservou a sua vaga:
+👇 Se ainda não reservou o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-33]]
 
 Reage com o emoji da sua escolha. Eu vou olhar as reações.
 ```
@@ -862,7 +862,7 @@ Dia 03/11, às 20h, eu falo ao vivo de como sair desse modo cobrança.
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-34]]
 
 Reage com 🪫 se hoje você não descansou de verdade.
 ```
@@ -886,7 +886,7 @@ Tudo isso, mais o Clube Secreto, com acesso vitalício. Preço e condição só 
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-35]]
 
 Reage com 👶 se a sua raiz é emocional.
 ```
@@ -910,7 +910,7 @@ Dia 03/11, às 20h, eu abro ao vivo o que construí para essa escolha deixar de 
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-36]]
 
 Reage com 🤍 se hoje você se escolhe.
 ```
@@ -932,9 +932,9 @@ Somando tudo: *Clube Secreto + 11 produtos*, com acesso vitalício. Você não c
 
 Preço e condição só ao vivo, dia 03/11, às 20h.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-37]]
 
 Reage com 🌟 se você quer ver tudo reunido.
 ```
@@ -956,9 +956,9 @@ Por isso a Vitalícia vem com uma *trilha de entrada*: você não começa por tu
 
 Ao vivo, no dia 03/11, às 20h, eu mostro por onde começar.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-38]]
 
 Reage com 🧭 se você quer começar por um passo só.
 ```
@@ -980,7 +980,7 @@ Dia 03/11, às 20h, eu mostro ao vivo como funciona o acompanhamento.
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-39]]
 
 Reage com 🤝 se hoje você precisa de companhia.
 ```
@@ -1000,7 +1000,7 @@ No dia 03/11, às 20h, eu faço essa conta ao vivo, sem pressão e sem invençã
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-40]]
 
 Reage com 🧮 se você quer fazer essa conta comigo.
 ```
@@ -1022,7 +1022,7 @@ Dia 03/11, às 20h, ao vivo.
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-41]]
 
 Reage com 🤍 se esse relato também fala de você.
 ```
@@ -1042,7 +1042,7 @@ Quem vem ao vivo vê a condição completa primeiro. [[CONFIRMAR: Lote Especial 
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-42]]
 
 Reage com 🗓️ se já está anotado.
 ```
@@ -1060,9 +1060,9 @@ São mais de 70 mil alunos em 44 países.
 
 Você não perdeu o tempo. Está na hora.
 
-👇 Reserva a sua vaga na live de 03/11, às 20h:
+👇 Reserva o seu lugar na live de 03/11, às 20h:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-43]]
 
 Reage com 🌎 se você sente que não está só.
 ```
@@ -1084,9 +1084,9 @@ E digo sempre: *"Eu prefiro que você não compre do que compre e não viva."*
 
 Dia 03/11, às 20h, ao vivo.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-44]]
 
 Reage com 🙏 se você quer ouvir isso ao vivo.
 ```
@@ -1100,15 +1100,15 @@ Perfil: Todos. Objeção: Ritual. Momento de vida: Todos.
 
 Hoje o convite é simples: ouvir o *áudio de Grabovoi da noite* e ficar um minuto em silêncio.
 
-[[LINK: áudio de Grabovoi da noite]]
+[[LINK: áudio do dia | wpp | cp-bf-45]]
 
 A live é dia 03/11, às 20h.
 
 Você vai estar?
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-45]]
 
 Reage com 🌙 se fez o ritual hoje.
 ```
@@ -1126,7 +1126,7 @@ Perfil: Todos. Objeção: Ao vivo / agenda. Momento de vida: Todos.
 
 Ativa o lembrete agora para o aviso tocar no seu celular:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-46]]
 
 Quem não ativa costuma descobrir tarde que a live já começou.
 
@@ -1148,9 +1148,9 @@ Para a live de 03/11, separa:
 
 Eu vou pedir para você anotar algumas coisas, e a conta do Termostato Invisível funciona melhor no papel.
 
-👇 Ainda não reservou a vaga?
+👇 Ainda não reservou o lugar?
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-47]]
 
 Reage com ✍️ se o caderno já está separado.
 ```
@@ -1170,9 +1170,9 @@ Não negocia com ele.
 
 Dia 03/11, às 20h, é a noite marcada.
 
-👇 Reserva a sua vaga e ativa o lembrete:
+👇 Reserva o seu lugar e ativa o lembrete:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-48]]
 
 Reage com 💪 se você vai estar lá.
 ```
@@ -1208,9 +1208,9 @@ Tem alguém na sua vida que vive dizendo *"segunda eu começo"*?
 
 Encaminha esta mensagem para essa pessoa.
 
-A live de 03/11, às 20h, é aberta e gratuita. A pessoa só precisa reservar a vaga:
+A live de 03/11, às 20h, é aberta e gratuita. A pessoa só precisa reservar o lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-50]]
 
 Quem decide se vai entrar é a pessoa. Mas quem avisa pode ser você.
 
@@ -1230,7 +1230,7 @@ Quem faz chega na live sabendo se o seu padrão é Termostato Invisível, Autoss
 
 👇 Faz agora:
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | wpp | cp-bf-51]]
 
 Já fez? Reage com ✅. Ainda não? Reage com 👀.
 ```
@@ -1246,7 +1246,7 @@ Perfil: Todos. Objeção: Ao vivo / agenda. Momento de vida: Todos.
 
 2️⃣ Toca em "Receber notificação"
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-52]]
 
 Terça, 03/11, às 20h.
 
@@ -1272,9 +1272,9 @@ O que você mais quer ouvir no dia 03/11?
 
 🔓 A condição de entrada
 
-👇 Se ainda não reservou a sua vaga:
+👇 Se ainda não reservou o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-53]]
 
 Reage com a sua escolha.
 ```
@@ -1296,7 +1296,7 @@ O resto você decide com calma, ao vivo.
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-54]]
 
 Reage com 🔴 se você vai estar ao vivo.
 ```
@@ -1316,7 +1316,7 @@ Dia 03/11, às 20h, ao vivo.
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-55]]
 
 Reage com ⚓ se você já atravessou um deserto.
 ```
@@ -1336,7 +1336,7 @@ Dia 03/11, às 20h, eu mostro o que construí ao vivo.
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-56]]
 
 Reage com 💜 se esse relato te tocou.
 ```
@@ -1356,7 +1356,7 @@ Guarda o papel. No dia 03/11, às 20h, eu te peço para olhar ele de novo, ao vi
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-57]]
 
 Reage com ✍️ quando completar.
 ```
@@ -1378,9 +1378,9 @@ Checklist para a live de 03/11:
 
 Falta alguma? Resolve hoje.
 
-👇 Se faltou o diagnóstico ou a vaga:
+👇 Se faltou o diagnóstico ou a reserva:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-58]]
 
 Reage com ✅ se o seu checklist está completo.
 ```
@@ -1400,9 +1400,9 @@ Se a lista está vazia, é sinal de que o padrão da cobrança está no comando.
 
 Dia 03/11, às 20h, eu falo ao vivo disso.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-59]]
 
 Reage com 🪫 se a sua lista está vazia.
 ```
@@ -1416,7 +1416,7 @@ Perfil: Todos. Objeção: Ritual. Momento de vida: Todos.
 
 Ouve o *áudio de Grabovoi da noite* e respira fundo três vezes.
 
-[[LINK: áudio de Grabovoi da noite]]
+[[LINK: áudio do dia | wpp | cp-bf-60]]
 
 P.S.: terça, 03/11, às 20h, a gente se encontra ao vivo.
 
@@ -1436,7 +1436,7 @@ Lembrete ativado, caderno separado, noite livre.
 
 👇 Ativa o lembrete aqui:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-61]]
 
 Reage com 🤍 se você vai estar comigo na terça.
 ```
@@ -1474,7 +1474,7 @@ Em 03/11 eu te mostro como fazer dessa a *última vez que você vai precisar rec
 
 Se ainda não reservou, o link está aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-63]]
 
 Reage com 🔴 se você vai estar ao vivo.
 ```
@@ -1504,9 +1504,9 @@ O que você já fez no Clube conta. Ninguém volta ao zero.
 
 O preço e as condições só são revelados na live.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura C | wpp | cp-bf-01-al]]
 
 Reage com 💜 se você é do Clube e quer ver essa condição.
 ```
@@ -1528,7 +1528,7 @@ Dia 03/11, às 20h, ao vivo.
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura C | wpp | cp-bf-08-al]]
 
 Reage com 🔐 se você é do Clube.
 ```
@@ -1566,7 +1566,7 @@ Para alunas, existe uma condição própria.
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura C | wpp | cp-bf-29-al]]
 
 Reage com ⏳ se o prazo já te pesou.
 ```
@@ -1586,7 +1586,7 @@ Os detalhes eu revelo ao vivo, dia 03/11, às 20h.
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura C | wpp | cp-bf-43-al]]
 
 Reage com 💜 se você é do Clube.
 ```
@@ -1606,7 +1606,7 @@ Eu vou explicar ao vivo, dia 03/11, às 20h, sem letra miúda.
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura C | wpp | cp-bf-56-al]]
 
 Reage com ❓ se você tem essa dúvida.
 ```
@@ -1646,7 +1646,7 @@ Eu quero te mostrar como fazer dessa a *última vez que você vai precisar recom
 
 👇 Ativa o lembrete:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-63-al]]
 
 Reage com 🔴 se você vai estar ao vivo.
 ```
@@ -1668,9 +1668,9 @@ Dia *03/11, às 20h*, eu revelo ao vivo como não deixar o processo travar.
 
 O preço e as condições só são revelados na live.
 
-👇 Reserva a sua vaga, é de graça:
+👇 Reserva o seu lugar, é de graça:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura D | wpp | cp-bf-01-ds]]
 
 Reage com 🔁 se você já sentiu o automático voltar depois da live.
 ```
@@ -1690,9 +1690,9 @@ A Vitalícia foi pensada para você não precisar recomeçar a cada evento.
 
 Dia 03/11, às 20h, eu mostro ao vivo.
 
-👇 Reserva a sua vaga:
+👇 Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura D | wpp | cp-bf-05-ds]]
 
 Reage com 🔁 se o automático já voltou.
 ```
@@ -1712,7 +1712,7 @@ Dia 03/11, às 20h, eu abro ao vivo o que construí para o processo não travar 
 
 👇 Reserva o seu lugar na live:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura D | wpp | cp-bf-19-ds]]
 
 Reage com 🔓 se você quer destravar o seu.
 ```
@@ -1732,7 +1732,7 @@ Dia 03/11, às 20h, eu faço essa conta ao vivo, e mostro como entrar de vez.
 
 Se quiser estar lá, é por aqui:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura D | wpp | cp-bf-26-ds]]
 
 Reage com 🧮 se você quer ver essa conta.
 ```
@@ -1752,7 +1752,7 @@ Dia 03/11, às 20h, ao vivo.
 
 👇 Reserva em 1 minuto, é gratuito:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura D | wpp | cp-bf-40-ds]]
 
 Reage com 🌟 se você viveu o Desafio.
 ```
@@ -1770,7 +1770,7 @@ Dia 03/11, às 20h, mais uma noite assim, só que para a decisão de ficar.
 
 Ativa o lembrete agora:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-46-ds]]
 
 Reage com 🔔 se o lembrete já está ativado.
 ```
@@ -1790,7 +1790,7 @@ No dia 03/11, às 20h, eu respondo cada uma dessas três ao vivo.
 
 Ainda não reservou? O link:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura D | wpp | cp-bf-53-ds]]
 
 Reage com 💬 se foi uma delas.
 ```
@@ -1821,8 +1821,8 @@ Reage com 🔴 se você vai estar ao vivo.
 |---|---|---|
 | CP 21 "Depoimentos Tami" (pedido de depoimentos de resultado financeiro no direct) | Não repetido | Pede e promete resultado financeiro. Os depoimentos da Black entram como `[[DEPOIMENTO REAL]]` com autorização, sem leitura de resultado financeiro ao vivo |
 | CP 18, 27, 40, 41 "Mantra de Grabovoi" com "ative a atração de dinheiro" | Trocado por ritual de áudio de Grabovoi sem promessa (CP-BF-15, 45, 60, 64, 77) | Guia, seção 3: "sequência traz dinheiro" é proibido |
-| CP 30, 32, 34 "Lista de interesse + carta" | Fundido na captação inteira e na carta do dia 03/11 (`dia_da_live_03_11.md`, CP-BF-68) | A pessoa já reservou a vaga |
-| CP 42, 44, 46 "Vagas abertas" com preço | Movido para o pós-live (`vagas_abertas_e_virada_de_lote.md`) | Nenhum preço antes da live |
+| CP 30, 32, 34 "Lista de interesse + carta" | Fundido na captação inteira e na carta do dia 03/11 (`dia_da_live_03_11.md`, CP-BF-68) | A pessoa já reservou o lugar |
+| CP 42, 44, 46 "Carrinho aberto" com preço | Movido para o pós-live (`vagas_abertas_e_virada_de_lote.md`) | Nenhum preço antes da live |
 
 ---
 

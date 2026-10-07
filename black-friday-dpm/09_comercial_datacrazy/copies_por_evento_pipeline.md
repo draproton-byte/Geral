@@ -17,31 +17,31 @@
 
 1. **Mensagem curta**, quebrada em linhas, **uma linha em branco entre cada linha**. Nada de parágrafo de e-mail.
 2. **Sempre "para".** Negrito com um asterisco de cada lado (`*assim*`).
-3. **Link em linha própria, separado do CTA.** Um link só por mensagem.
+3. **Link em linha própria, separado do CTA.** Um link só por mensagem, sempre no token do mapa de links (`[[LINK: <destino> | comercial | comercial-ID-VENDEDOR]]`). O código Pix e o boleto da própria pessoa (`{{codigo_pix}}`, `{{link_boleto}}`) vêm do evento do checkout e não são destino do mapa.
 4. **Resposta dela interrompe a régua e cai para humano.** Quem pede para parar ("sair", "parar", "agora não") sai na hora, com uma única confirmação de remoção e nenhuma mensagem depois.
 5. **Dois toques por evento e para.** Depois do toque 2, registrar e encerrar. Nada de terceiro toque e nenhuma mensagem que insista depois do toque 2 sem resposta.
-6. **Sempre o link do lote e do segmento dela** (`{{link}}`): é ele que credita a venda. S1 recebe o lote de aluna; S2 e S3 recebem o de não-aluna. `[[LINK: checkout por lote e segmento]]`.
+6. **Sempre o checkout do lote e do segmento dela:** é ele que credita a venda. S1 usa o token `checkout S1-...`; S2, `checkout S2-...`; S3, `checkout S3-...` (S2 paga como não-aluna até decisão contrária `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão]]`). Nos blocos abaixo o token está no Lote Especial (`-ESP`), o lote da noite da live, que é quando nascem os eventos; se o evento nascer depois da virada, o time troca `-ESP` por `-1L` e depois por `-UL`, conforme `[[PENDENTE: data do lote]]`.
 7. **Nunca prometa ganho financeiro, tratamento ou fim da autossabotagem.** Nunca cite valor antes da live. Nenhuma fórmula de vagas contadas ou de fim iminente. Escassez só por lote real: "esta condição não se repete".
 8. **Rodapé de saída (R):** toda mensagem disparada por automação, sem humano, termina com a linha *Digite SAIR se não quiser mais receber mensagens.* Mensagem escrita por humano em conversa aberta não leva o rodapé.
 9. **Gênero.** As mensagens estão no feminino (79% da base). Para os 21% de homens, o time troca antes de enviar quando o nome indicar. `[[CONFIRMAR: campo de gênero no CRM]]`.
 10. **Janela de horário.** Maior abertura: 7h a 8h, 16h a 17h e 19h a 22h. Exceção: o prazo do Pix ou do boleto manda mais que o horário.
 11. **Sem emoji obrigatório.** Se usar, no máximo um por mensagem, no fim, e nunca em mensagem de reembolso ou de compra recusada.
-12. **Modo escuta (03/11, das 20h às 22h).** Nenhum toque automático de E2 ou E3 sai nesse intervalo: o que for gerado nele sai às 22h (E2) ou às 7h do dia seguinte (E3, respeitado o prazo). Ficam de fora da regra só E4 (atendimento humano) e E6 toque 1 (confirmação de compra, que não vende).
+12. **Modo escuta (03/11, das 20h às 22h).** Nenhum toque automático de E2 ou E3 sai nesse intervalo: o que for gerado nele sai às 22h (E2) ou às 7h do dia seguinte (E3, respeitado o prazo). Ficam de fora da regra só E4 (atendimento humano) e E6 toque 1 (confirmação de compra, que não vende). Fora da noite da live, nenhum toque automático sai entre 22h e 7h: o que cair nesse intervalo sai às 7h, respeitado o prazo do Pix ou do boleto.
 13. **Endividada, luto, doença, crise:** acolher e não vender. A pessoa sai de qualquer régua desta pasta, o comercial escala (nível 2) e o CRM registra só "acolhimento", sem o relato.
 14. **Mensagem de reembolso, recusada e acolhimento não promete nada além do que está escrito.** Garantia sempre como `[[PENDENTE: garantia]]`.
 
-**Variáveis.** `{{nome}}` primeiro nome. `{{link}}` checkout do lote e do segmento. `{{codigo_pix}}` copia e cola. `{{link_boleto}}` boleto. `{{link_live}}` live no YouTube. `{{link_diagnostico}}` diagnóstico dos cinco padrões. `{{link_onboarding}}` onboarding da Vitalícia. `{{lote}}` lote vigente. `{{data_lote}}` data de virada do lote vigente. `{{motivo}}` motivo registrado de recusa ou reembolso.
+**Variáveis.** `{{nome}}` primeiro nome. `{{codigo_pix}}` copia e cola do Pix gerado pela própria pessoa. `{{link_boleto}}` boleto gerado pela própria pessoa. `{{lote}}` lote vigente. `{{data_lote}}` data de virada do lote vigente. `{{data_vencimento}}` dia e hora do vencimento do Pix (por exemplo, 05/11, às 21h30). `{{motivo}}` motivo registrado de recusa ou reembolso. `{{solucao}}` solução curta registrada no CRM. Os links de checkout, live, diagnóstico, onboarding e suporte não são variáveis: entram como token do mapa (tabela abaixo).
 
-**Os links fixos da operação (todos ainda a criar).**
+**Os links da operação (todos ainda a criar).** Todos no formato `[[LINK: <destino> | comercial | comercial-ID-VENDEDOR]]`, em que `ID-VENDEDOR` é o identificador de quem atende `[[CONFIRMAR: lista de IDs de vendedor]]`.
 
-| O que é | Placeholder |
+| O que é | Token usado nesta peça |
 |---|---|
-| Checkout por lote e segmento | `[[LINK: checkout por lote e segmento]]` |
-| Live de revelação no YouTube | `[[LINK: live 03/11]]` |
-| Diagnóstico dos cinco padrões | `[[LINK: diagnóstico dos 5 padrões]]` |
-| Onboarding da Vitalícia (trilha de entrada) | `[[LINK: onboarding Vitalícia]]` |
-| Suporte no WhatsApp | `[[LINK: suporte WhatsApp]]` |
-| Formulário de motivo de reembolso | `[[LINK: formulário de motivo]]` |
+| Checkout das alunas (S1), Lote Especial | `[[LINK: checkout S1-ESP \| comercial \| comercial-ID-VENDEDOR]]` |
+| Checkout de quem viveu Desafio, Imersão ou Aulão (S2), Lote Especial | `[[LINK: checkout S2-ESP \| comercial \| comercial-ID-VENDEDOR]]` |
+| Checkout de não-alunas e base fria (S3), Lote Especial | `[[LINK: checkout S3-ESP \| comercial \| comercial-ID-VENDEDOR]]` |
+| Live de revelação no YouTube | `[[LINK: live YouTube \| comercial \| comercial-ID-VENDEDOR]]` |
+| Diagnóstico dos cinco padrões | `[[LINK: diagnóstico \| comercial \| comercial-ID-VENDEDOR]]` |
+| Onboarding da Vitalícia (trilha de entrada) | `[[LINK: onboarding \| comercial \| comercial-ID-VENDEDOR]]` |
 
 ---
 
@@ -49,23 +49,19 @@
 
 ## E1. LISTA DE INTERESSE (inscrita na live, 13/10 a 03/11)
 
-São as pessoas que reservaram vaga na live pela página de captura. Regra: **relacionamento antes de oferta**. Estas mensagens entregam material e convidam, não vendem, e não citam valor. O comercial só entra em conversa com a ficha quente, com quem fez o Desafio e com quem respondeu.
+São as pessoas que reservaram o lugar na live pela página de captura. Regra: **relacionamento antes de oferta**. A primeira mensagem não oferece nada, não tem link e termina em pergunta; o material (diagnóstico) só vai depois da resposta. Nenhuma mensagem vende ou cita valor. O comercial só entra em conversa com a ficha quente, com quem fez o Desafio e com quem respondeu.
 
 ### Toque 1. Dia da inscrição (automático, até 24 horas depois)
 
 ```
 Oi, {{nome}}! Sua reserva na live de 03/11, às 20h, está confirmada.
 
-Antes dela, a Dra. liberou um diagnóstico só para quem deu esse passo: ele mostra qual dos cinco padrões mais te prende hoje.
-
-{{link_diagnostico}}
-
-Qual dos cinco você acha que é o seu?
+Qual dos cinco padrões da Dra. você acha que é o seu hoje?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-A pergunta no final é o que transforma aviso em conversa. Sem ela, a pessoa lê e não responde, e você perde a chance de abordar depois.
+A pergunta no final é o que transforma aviso em conversa. Sem ela, a pessoa lê e não responde, e você perde a chance de abordar depois. Esta primeira mensagem não leva link nem oferece o diagnóstico: ele vai na resposta abaixo, depois que ela responde.
 
 **Variante para quem fez o Desafio (turma Desafio):**
 
@@ -74,9 +70,19 @@ Oi, {{nome}}! Você fez o Desafio inteiro, e a Dra. revela a oferta que o Clube 
 
 Sua reserva na live está confirmada.
 
-Me conta: o que você ainda não terminou desde aquela semana?
+Depois das cinco noites, o que mudou na sua rotina?
 
 Digite SAIR se não quiser mais receber mensagens.
+```
+
+### Se ela responder qual é o padrão (humano, sem rodapé)
+
+```
+Obrigada por me contar, {{nome}}. Tem muita gente com esse padrão.
+
+O diagnóstico mostra o que mais pesa para você hoje. Quer ver se bate com o que você achava?
+
+[[LINK: diagnóstico | comercial | comercial-ID-VENDEDOR]]
 ```
 
 ### Se ela responder que vai
@@ -94,9 +100,9 @@ Te vejo lá?
 
 Começa às 20h, ao vivo no YouTube.
 
-{{link_live}}
-
 Pega papel e caneta. Te vejo lá?
+
+[[LINK: live YouTube | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -167,6 +173,18 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Se não responder ao toque 2, pare e registre. Nenhuma mensagem insiste depois dele.
 
+**Quando ela pede o link ("link", "me manda", "quero ver as formas"), humano, sem rodapé:**
+
+```
+Aqui está, {{nome}}, o link do seu lote:
+
+[[LINK: checkout S3-ESP | comercial | comercial-ID-VENDEDOR]]
+
+Se travar em qualquer passo, me chama por aqui?
+```
+
+Para quem fez o Desafio (S2), o token passa a `[[LINK: checkout S2-ESP | comercial | comercial-ID-VENDEDOR]]`. Só vai depois do pedido dela, nunca para quem está em silêncio.
+
 ---
 
 ## E3. AGUARDANDO PAGAMENTO
@@ -194,7 +212,7 @@ Digite SAIR se não quiser mais receber mensagens.
 **Toque 2. 8 a 10 horas antes do vencimento (automático; o prazo manda mais que o horário ideal):**
 
 ```
-{{nome}}, esse código vence hoje. Depois eu preciso gerar outro.
+{{nome}}, esse código vence {{data_vencimento}}. Depois eu preciso gerar outro.
 
 {{codigo_pix}}
 
@@ -206,7 +224,7 @@ Digite SAIR se não quiser mais receber mensagens.
 **Variante turma Desafio (toque 2):**
 
 ```
-{{nome}}, esse código vence hoje.
+{{nome}}, esse código vence {{data_vencimento}}.
 
 Você atravessou as cinco noites. A Dra. pediu: "Não trave o processo."
 
@@ -258,12 +276,14 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Não foi nada do seu lado. Acontece muito quando o cartão tem limite por compra, ou quando a operadora bloqueia por segurança.
 
-Sua entrada continua aqui. O Pix cai na hora:
+Sua entrada continua aqui. O Pix cai na hora.
 
-{{link}}
+Quer que eu te ajude a escolher o caminho? O link do seu lote está aqui:
 
-Quer que eu te ajude a escolher o caminho?
+[[LINK: checkout S3-ESP | comercial | comercial-ID-VENDEDOR]]
 ```
+
+Para quem fez o Desafio (S2), o token passa a `[[LINK: checkout S2-ESP | comercial | comercial-ID-VENDEDOR]]`.
 
 Se o problema for limite: `[[CONFIRMAR: parcelamento no cartão consome o limite total; parcelamento recorrente da plataforma consome só a parcela]]`. Só então responder "dá para parcelar sem travar o limite".
 
@@ -290,15 +310,13 @@ Pix ou boleto venceu sem pagamento. A entrada continua disponível, mas o lote p
 ```
 {{nome}}, seu código da Vitalícia venceu.
 
-Se quiser, o link para gerar um novo está aqui:
-
-{{link}}
-
 Importante: o valor depende do lote em que o novo pedido for gerado. [[CONFIRMAR: regra de lote para pedido novo]]
 
-[[PENDENTE: garantia]]. Você entra, olha por dentro, e decide com informação.
+[[PENDENTE: garantia]]
 
-Quer ajuda para escolher a forma de pagamento?
+Quer ajuda para escolher a forma de pagamento? O link para gerar um novo está aqui:
+
+[[LINK: checkout S3-ESP | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -308,11 +326,11 @@ Digite SAIR se não quiser mais receber mensagens.
 ```
 {{nome}}, falo isso uma vez e paro.
 
+Se não for o momento, me fala "agora não" que eu paro de te escrever.
+
 Se quiser retomar, o link está aqui:
 
-{{link}}
-
-Se não for o momento, me fala "agora não" que eu paro de te escrever.
+[[LINK: checkout S3-ESP | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -324,9 +342,11 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Você atravessou as cinco noites. A Dra. pediu: "Não trave o processo."
 
-{{link}}
-
 Se não for o momento, me fala "agora não" que eu paro de te escrever.
+
+Se quiser retomar, o link está aqui:
+
+[[LINK: checkout S2-ESP | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -344,13 +364,11 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Bem-vinda. Essa é a decisão que você só precisa tomar uma vez.
 
-Seu acesso e a trilha de entrada estão aqui:
-
-{{link_onboarding}}
-
 Hoje, só um passo: abre a trilha. Não abre os onze.
 
-Qualquer coisa, me chama direto por aqui.
+Qualquer coisa, me chama direto por aqui. Seu acesso e a trilha de entrada estão aqui:
+
+[[LINK: onboarding | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -362,13 +380,11 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Você não travou o processo, e isso diz muito mais sobre você do que sobre a compra.
 
-Seu acesso e a trilha de entrada estão aqui:
-
-{{link_onboarding}}
-
 Hoje, só um passo: abre a trilha. Não abre os onze.
 
-Qualquer coisa, me chama direto por aqui.
+Qualquer coisa, me chama direto por aqui. Seu acesso e a trilha de entrada estão aqui:
+
+[[LINK: onboarding | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -383,7 +399,7 @@ Me conta o que você abriu primeiro. Quero saber o que te chamou.
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-**Variante turma Desafio (no lugar da segunda pergunta):** "Qual área você quer que mude primeiro? Pergunto porque eu quero te acompanhar nessa."
+**Variante turma Desafio (no lugar da segunda pergunta):** "Qual área você quer que mude primeiro? Pergunto para saber como te ajudar a começar."
 
 (O toque de depoimento em 21 dias e o certificado pertencem a `10_pos_compra`. Aqui não entram.)
 
@@ -464,11 +480,11 @@ Segmento S1. Mesma estrutura, outra conversa. Aqui a pessoa já está dentro e j
 ### Toque 1. Dia da inscrição (automático)
 
 ```
-{{nome}}, você já está dentro do Clube e reservou sua vaga na live de 03/11, às 20h.
+{{nome}}, sua reserva na live de 03/11, às 20h, está confirmada.
 
-Quero levar a sua história para a Dra.
+Como aluna do Clube, você tem uma condição só sua, e a Dra. conta tudo ao vivo.
 
-O que mudou na sua vida desde que você entrou no Clube?
+O que você mais espera ouvir nessa noite?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -480,11 +496,11 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Começa às 20h, ao vivo no YouTube.
 
-{{link_live}}
-
 Como aluna, você tem uma condição só sua. A Dra. conta tudo ao vivo.
 
 Pega papel e caneta. Te vejo lá?
+
+[[LINK: live YouTube | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -520,11 +536,11 @@ Quer que eu te explique o seu caso?
 **Se foi o valor:**
 
 ```
-{{nome}}, como aluna, o seu lote é o das alunas. Te mando o link direto:
+{{nome}}, como aluna, o seu lote é o das alunas.
 
-{{link}}
+Se o pagamento for o que trava, tem o parcelamento em até [[PENDENTE: parcelamento máximo]] vezes. Me fala qual caminho cabe melhor. O link direto está aqui:
 
-Se o pagamento for o que trava, tem o parcelamento em até [[PENDENTE: parcelamento máximo]] vezes. Me fala qual caminho cabe melhor.
+[[LINK: checkout S1-ESP | comercial | comercial-ID-VENDEDOR]]
 ```
 
 **Se não respondeu (sem link):**
@@ -560,7 +576,7 @@ Digite SAIR se não quiser mais receber mensagens.
 **Toque 2. 8 a 10 horas antes do vencimento (automático):**
 
 ```
-{{nome}}, esse código vence hoje. Depois disso, é preciso gerar outro, e o valor depende do lote do novo pedido.
+{{nome}}, esse código vence {{data_vencimento}}. Depois disso, é preciso gerar outro, e o valor depende do lote do novo pedido.
 
 {{codigo_pix}}
 
@@ -604,11 +620,11 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Não foi nada do seu lado. Acontece muito com limite por compra ou bloqueio de segurança.
 
-Sua condição de aluna continua aqui. O Pix cai na hora:
+Sua condição de aluna continua aqui. O Pix cai na hora.
 
-{{link}}
+Quer que eu te ajude a escolher o caminho? O link do seu lote de aluna está aqui:
 
-Quer que eu te ajude a escolher o caminho?
+[[LINK: checkout S1-ESP | comercial | comercial-ID-VENDEDOR]]
 ```
 
 ### Toque 2. No dia seguinte
@@ -632,7 +648,7 @@ Importante: o valor depende do lote do novo pedido. [[CONFIRMAR: regra de lote p
 
 Se quiser, o link para gerar um novo está aqui:
 
-{{link}}
+[[LINK: checkout S1-ESP | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -644,9 +660,11 @@ Digite SAIR se não quiser mais receber mensagens.
 
 Você já provou que sabe começar. A Vitalícia é a decisão que você só precisa tomar uma vez.
 
-{{link}}
-
 Se não for o momento, me fala "agora não" que eu paro de te escrever.
+
+Se quiser retomar, o link está aqui:
+
+[[LINK: checkout S1-ESP | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -658,13 +676,13 @@ Digite SAIR se não quiser mais receber mensagens.
 ```
 {{nome}}, deu certo. Seu upgrade para a Vitalícia está confirmado.
 
-O que você já fez no Clube continua com você. A partir de agora, sem prazo.
+O que você já fez no Clube conta. A partir de agora, sem prazo.
+
+Hoje, só um passo: abre a trilha. Não abre os onze.
 
 Sua trilha de entrada, com os onze produtos organizados, está aqui:
 
-{{link_onboarding}}
-
-Hoje, só um passo: abre a trilha. Não abre os onze.
+[[LINK: onboarding | comercial | comercial-ID-VENDEDOR]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -770,7 +788,7 @@ Me fala por aqui se ficou alguma dúvida.
 ## Notas ao implementador
 
 **Pendências:**
-1. `[[LINK: checkout por lote e segmento]]`, `[[LINK: onboarding Vitalícia]]`, `[[LINK: diagnóstico dos 5 padrões]]`, `[[LINK: live 03/11]]`, `[[LINK: suporte WhatsApp]]`, `[[LINK: formulário de motivo]]`. Nenhum existe ainda.
+1. Os tokens de checkout (S1, S2 e S3, nos lotes ESP, 1L e UL), de live YouTube, diagnóstico e onboarding da tabela de links da operação. Nenhum dos destinos existe ainda (`16_MAPA_DE_LINKS.md`, seção 4).
 2. `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: data do lote]]`.
 3. `[[CONFIRMAR: o valor do lote é travado na hora da geração do Pix ou do boleto]]`. É a pergunta mais importante deste arquivo: define se E3 e E5 podem prometer o mesmo preço ou precisam avisar do lote.
 4. `[[PENDENTE: regra de migração]]`: o que acontece com o plano atual da aluna (U2, U6, U7, U8, U9).
@@ -786,3 +804,25 @@ Me fala por aqui se ficou alguma dúvida.
 - E6 toque 2: pergunta "o que abriu primeiro" versus "qual área você quer que mude primeiro".
 
 **Dependências:** `narrativa_da_dra_na_black.md`, `quebra_de_objecoes.md`, `playbook_do_dia_da_live.md` (ordem de abordagem e escalonamento), `regua_do_silencio_black.md` (o que fazer quando ela não responde).
+
+---
+
+## Links desta peça
+
+Todos os tokens usam o canal `comercial` e o ID `comercial-ID-VENDEDOR` (atribuição por vendedor, `15_automacao/doc_captacao_automacao_black.md`). Os blocos de código estão no Lote Especial (`-ESP`); depois da virada de lote, trocar por `-1L` e `-UL` (regra 6). Nenhuma URL real é inventada. Código Pix e boleto da própria pessoa (`{{codigo_pix}}`, `{{link_boleto}}`) não são tokens do mapa.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| E1, resposta ao toque 1 | `[[LINK: diagnóstico \| comercial \| comercial-ID-VENDEDOR]]` | Entrega o diagnóstico dos cinco padrões depois que ela responde | Web designer |
+| E1, toque 2 | `[[LINK: live YouTube \| comercial \| comercial-ID-VENDEDOR]]` | Leva à transmissão de 03/11, às 20h | Equipe de YouTube |
+| E2, entrega a pedido | `[[LINK: checkout S3-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Checkout de não-alunas e base fria, Lote Especial, só depois que ela pede (S2: `S2-ESP`) | Financeiro / Hotmart |
+| E4, toque 1 | `[[LINK: checkout S3-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Checkout de não-alunas e base fria, Lote Especial, para pagar de novo (S2: `S2-ESP`) | Financeiro / Hotmart |
+| E5, toque 1 | `[[LINK: checkout S3-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Gera um novo pedido de não-aluna depois do vencimento | Financeiro / Hotmart |
+| E5, toque 2 | `[[LINK: checkout S3-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Retoma a compra de não-aluna | Financeiro / Hotmart |
+| E5, toque 2, variante Desafio | `[[LINK: checkout S2-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Retoma a compra de quem viveu o método | Financeiro / Hotmart |
+| E6, toque 1 e variante Desafio | `[[LINK: onboarding \| comercial \| comercial-ID-VENDEDOR]]` | Abre a trilha de entrada depois da compra | Web designer |
+| U1, toque 2 | `[[LINK: live YouTube \| comercial \| comercial-ID-VENDEDOR]]` | Leva à transmissão de 03/11, às 20h | Equipe de YouTube |
+| U2, toque 2, "foi o valor" | `[[LINK: checkout S1-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Checkout das alunas, Lote Especial, depois que ela respondeu | Financeiro / Hotmart |
+| U4, toque 1 | `[[LINK: checkout S1-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Checkout das alunas para pagar de novo | Financeiro / Hotmart |
+| U5, toques 1 e 2 | `[[LINK: checkout S1-ESP \| comercial \| comercial-ID-VENDEDOR]]` | Gera um novo pedido de aluna depois do vencimento | Financeiro / Hotmart |
+| U6, toque 1 | `[[LINK: onboarding \| comercial \| comercial-ID-VENDEDOR]]` | Abre a trilha de entrada do upgrade | Web designer |

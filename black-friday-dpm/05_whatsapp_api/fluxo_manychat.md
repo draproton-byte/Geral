@@ -4,9 +4,9 @@
 |---|---|
 | **Peça** | Fluxo automatizado de direct do Instagram (@dra.proton) acionado por comentário ou por resposta ao story com palavra-chave. Entrega (1) o diagnóstico dos 5 padrões e (2) o ingresso personalizado da live de 03/11. Inclui resposta pública ao comentário, 4 ramos, mensagens de acompanhamento e a versão pós-live |
 | **Canal** | Instagram Direct via ManyChat, com integração ao formulário de reserva, ao grupo de WhatsApp e à Hotmart |
-| **Público** | Frio e morno que chega por reels, estáticos e stories (consciência 1 a 3). Quem já reservou a vaga volta pelo mesmo fluxo para emitir o ingresso |
-| **Momento** | De 13/10 a 03/11, 20h (pré-live). De 20h até a abertura do link do checkout (previsto 21h28), o gatilho devolve o link da live (MC-BF-D01). A partir da abertura do link, o mesmo gatilho muda para a versão de vagas abertas (seção 6) |
-| **Objetivo** | Transformar um comentário em: reserva da vaga na live, diagnóstico feito, entrada no grupo e ingresso compartilhado nos stories |
+| **Público** | Frio e morno que chega por reels, estáticos e stories (consciência 1 a 3). Quem já reservou o lugar volta pelo mesmo fluxo para emitir o ingresso |
+| **Momento** | De 13/10 a 03/11, 20h (pré-live). De 20h até a abertura do link do checkout (previsto 21h28), o gatilho devolve o link da live (MC-BF-D01). A partir da abertura do link, o mesmo gatilho muda para a versão de carrinho aberto (seção 6) |
+| **Objetivo** | Transformar um comentário em: reserva do lugar na live, diagnóstico feito, entrada no grupo e ingresso compartilhado nos stories |
 | **Trabalho contratado** | "Dar nome ao padrão" para decidir uma vez. O diagnóstico é a porta de entrada; o ingresso é a prova de presença e a isca de compartilhamento |
 | **Momento de vida** | 79% mulheres, 60% com 45 anos ou mais: mensagens curtas, uma ação por mensagem, botões grandes |
 | **Modelo no Desafio** | fluxo de ingresso do Desafio no ManyChat (palavra-chave INGRESSO, ramo A "ainda não comprou", ramo B "já comprou", presente atrás do story, notas de montagem e disparo por API). Também documento de captação e automação do Desafio (lista de passos de integração) |
@@ -35,7 +35,7 @@
 | Grupo de WhatsApp | Um link por segmento: geral, alunas, Desafio/Imersão (o fluxo escolhe pela tag) |
 | Ingresso personalizado | `[[CONFIRMAR: template da arte do ingresso, com {{nome}}]]` (serviço de imagem dinâmica) |
 | Presente de compartilhamento | `[[CONFIRMAR: presente de compartilhamento]]` |
-| Objetivo principal | Reserva da vaga e diagnóstico feito. Objetivo secundário: ingresso postado nos stories com marcação em @dra.proton |
+| Objetivo principal | Reserva do lugar e diagnóstico feito. Objetivo secundário: ingresso postado nos stories com marcação em @dra.proton |
 | Tags | `bf_reservou`, `bf_diagnostico`, `bf_ingresso`, `bf_story`, `bf_grupo`, `bf_perfil_termostato`, `bf_perfil_autossabotagem`, `bf_perfil_cobranca`, `bf_perfil_traumas`, `bf_perfil_culpa`, `bf_aluna`, `bf_aluno_desafio` |
 
 ### 1.1 Resposta pública ao comentário
@@ -68,14 +68,14 @@ Botão: `[ Sim! ]`
 **MC-BF-02** (mensagem 2)
 
 ```text
-Você já reservou a sua vaga na live?
+Você já reservou o seu lugar na live?
 ```
 
 Botões rápidos: `[ Sim, já reservei! ]` · `[ Ainda não ]`
 
 ---
 
-## 3. Ramo A: quem AINDA NÃO reservou a vaga
+## 3. Ramo A: quem AINDA NÃO reservou o lugar
 
 **MC-BF-A03**
 
@@ -92,15 +92,15 @@ A live é terça, 03/11, às 20h, ao vivo.
 
 Eu abro a conta do Termostato Invisível e mostro o que construí para você parar de recomeçar. A condição completa só é revelada ao vivo.
 
-Reservar a vaga é de graça.
+Reservar o lugar é de graça.
 ```
 
 **MC-BF-A05**
 
 ```text
-👇 Reserve a sua vaga aqui:
+👇 Reserve o seu lugar aqui:
 
-[[LINK: página de captura da Black]]?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico
+[[LINK: captura A | manychat | mc-bf-a05]]?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico
 ```
 
 **MC-BF-A06**
@@ -117,7 +117,7 @@ Ainda não veio a confirmação da sua reserva aqui. 🤍 Isso pode levar alguns
 
 ---
 
-## 4. Ramo B: quem JÁ reservou a vaga
+## 4. Ramo B: quem JÁ reservou o lugar
 
 **MC-BF-B03** (confirmação do nome)
 
@@ -166,7 +166,7 @@ Botão: `[ ✅ Quero! ]`
 ```text
 Aqui está o seu diagnóstico 👇
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | manychat | mc-bf-b07]]
 
 Quando terminar, volta aqui e me conta qual foi o seu resultado.
 ```
@@ -232,7 +232,7 @@ Recebi! 🤍 [[CONFIRMAR: entrega do presente de compartilhamento]]
 ```text
 Agora falta um passo: entra no grupo de WhatsApp da live, o canal oficial dos avisos 👇
 
-[[LINK: grupo de WhatsApp, por segmento]]
+[[LINK: grupo geral | manychat | mc-bf-b11]]
 ```
 
 **MC-BF-B12**
@@ -250,7 +250,7 @@ O grupo é o canal oficial da live: o link e os avisos saem primeiro lá. Te vej
 ```text
 {{nome}}, aqui está o seu diagnóstico dos 5 padrões 👇
 
-[[LINK: diagnóstico dos 5 perfis]]
+[[LINK: diagnóstico | manychat | mc-bf-c01]]
 
 Ele mostra qual deles faz você recomeçar: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem ou Culpa de Querer Mais.
 ```
@@ -272,7 +272,7 @@ Cada botão envia a mensagem `MC-BF-B08-xx` do perfil, grava a tag e segue para:
 ```text
 Agora que você sabe o nome do padrão, quer entender como parar de repetir ele?
 
-No dia 03/11, às 20h, eu faço isso ao vivo, e mostro o que construí para você não precisar recomeçar. Quer reservar a sua vaga?
+No dia 03/11, às 20h, eu faço isso ao vivo, e mostro o que construí para você não precisar recomeçar. Quer reservar o seu lugar?
 ```
 
 Botão: `[ Quero reservar ]` (volta para MC-BF-02)
@@ -290,7 +290,7 @@ O gatilho é o mesmo, mas uma condição por horário muda o fluxo. Pessoas com 
 
 Entra agora pelo link:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | manychat | mc-bf-d01]]
 ```
 
 **MC-BF-V01** (todos, palavra-chave VITALÍCIA depois da abertura)
@@ -320,9 +320,9 @@ Olá {{nome}}! A condição da *Black Próton Vitalícia* foi revelada ao vivo e
 **MC-BF-V02**
 
 ```text
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | manychat | mc-bf-v02]]
 ```
 
 **MC-BF-V03**
@@ -330,7 +330,7 @@ Olá {{nome}}! A condição da *Black Próton Vitalícia* foi revelada ao vivo e
 ```text
 Ficou com dúvida? Me conta por aqui, ou fala direto com o suporte:
 
-[[LINK: suporte WhatsApp]]
+[[LINK: suporte WhatsApp | manychat | mc-bf-v03]]
 ```
 
 ---
@@ -347,9 +347,9 @@ Ficou com dúvida? Me conta por aqui, ou fala direto com o suporte:
 **MC-BF-L01**
 
 ```text
-{{nome}}, a sua vaga na live ainda está aqui esperando. 🤍 É só tocar para reservar:
+{{nome}}, o seu lugar na live ainda está aqui esperando. 🤍 É só tocar para reservar:
 
-[[LINK: página de captura da Black]]?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico
+[[LINK: captura A | manychat | mc-bf-l01]]?src=manychat&sck=manychat&utm_source=manychat&utm_medium=organico&utm_content=manychat&utm_term=organico&utm_campaign=organico
 ```
 
 **MC-BF-L02**
@@ -369,7 +369,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 ```text
 {{nome}}, falta o grupo para você receber os avisos da live em primeira mão. Entra aqui 👇
 
-[[LINK: grupo de WhatsApp, por segmento]]
+[[LINK: grupo geral | manychat | mc-bf-l04]]
 ```
 
 ---
@@ -378,7 +378,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 
 | Evento | Próximo passo |
 |---|---|
-| Reservou a vaga | Entra a API de onboarding (`api_onboarding.md`) |
+| Reservou o lugar | Entra a API de onboarding (`api_onboarding.md`) |
 | Fez o diagnóstico e se auto-classificou | Tag do perfil entra no ListBoss/DataCrazy, e a API de quiz pós-live usa o perfil (`convite_vip_alunas_e_quiz.md`, API-BF-06.2) |
 | Postou o ingresso | Resposta manual ou automática com o presente `[[CONFIRMAR: presente de compartilhamento]]` |
 | Chegou 03/11, 20h | O fluxo devolve o link da live (MC-BF-D01) e, quando o link do checkout abrir, muda para a versão pós-live (seção 6) |
@@ -410,7 +410,7 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 **Testes A/B sugeridos**
 1. Palavra-chave VITALÍCIA contra RECOMEÇAR no mesmo criativo, para medir qual gera mais reservas.
 2. Pedir o story antes da entrega do diagnóstico (como no Desafio) contra depois (como aqui). Medir taxa de story e taxa de diagnóstico feito.
-3. MC-BF-01 com "ingresso" contra "vaga" no texto.
+3. MC-BF-01 com "ingresso" contra "lugar" no texto.
 
 **Dependências**
 - `api_onboarding.md` (o que acontece depois da reserva).

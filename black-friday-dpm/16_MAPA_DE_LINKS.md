@@ -31,6 +31,10 @@ Exemplo: `[[LINK: captura A | wpp | cp-bf-12]]` vira `https://draproton.com.br/b
 | depoimento | Formulário de depoimento e autorização | Marketing | Pós-compra |
 | privacidade, termos | Política de privacidade e termos de uso | Jurídico | Rodapé de páginas, formulários |
 | áudio do dia | Áudio de Grabovoi (somente se a Dra. gravar) | Conteúdo | Grupos |
+| área de membros | Acesso ao conteúdo comprado (Hotmart Club ou equivalente) | Produto | Onboarding, pós-compra |
+| tutorial de acesso | Passo a passo para entrar na área de membros | Suporte | Onboarding, e-mails de pós-compra |
+| degrau de entrada | Oferta de entrada para a base de baixa renda (só se a Dra. decidir que existe) | Dra. e Lançamento | Lista de espera |
+| verificação de números | Página que confere o número do grupo e orienta contra golpe | Web designer | Suporte, grupos |
 
 ## 2. Canais (segundo token) e links curtos
 
@@ -50,6 +54,7 @@ Exemplo: `[[LINK: captura A | wpp | cp-bf-12]]` vira `https://draproton.com.br/b
 | Lista de espera | `lista-de-espera` | `draproton.com.br/bfp-lista-de-espera` |
 | Anúncios | `ads-meta`, `ads-yt`, `ads-tiktok`, `ads-rmkt` | `draproton.com.br/bfp-ads-<plataforma>` |
 | Segmentos | alunas, viveu, espera | `draproton.com.br/bfp-alunas-<canal>`, `bfp-viveu-<canal>`, `bfp-espera-<canal>` |
+| Página (links entre páginas do funil) | `pagina` | Sem link curto: link direto entre páginas do próprio site, com `utm_content=<ID do bloco>` |
 
 Detalhes e tabelas completas de UTM estão em `15_automacao/doc_captacao_automacao_black.md`, seção 8.
 

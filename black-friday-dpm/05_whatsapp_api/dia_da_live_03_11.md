@@ -4,16 +4,16 @@
 |---|---|
 | **Peça** | Grade completa do dia 03/11: 14 copys de grupo (CP-BF-64 a CP-BF-77, mais variantes para alunas e para quem fez Desafio/Imersão), 3 lembretes de API na véspera (API-BF-07 a 09) e 8 API do dia (API-BF-10 a 17), mais a copy de "carrinho aberto" disparada durante a live |
 | **Canal** | Grupos de WhatsApp (geral, alunas, Desafio/Imersão) e WhatsApp API oficial (templates a aprovar na Meta; ver "Aprovação de template" nas notas) |
-| **Público** | Reservaram a vaga na live. Segmentos: N (não-alunas), D (Desafio/Imersão/Aulão sem Clube) e A (alunas do Clube). Consciência 3 a 5 (a pessoa já decidiu estar na live; falta decidir entrar) |
+| **Público** | Reservaram o lugar na live. Segmentos: N (não-alunas), D (Desafio/Imersão/Aulão sem Clube) e A (alunas do Clube). Consciência 3 a 5 (a pessoa já decidiu estar na live; falta decidir entrar) |
 | **Momento** | Terça, 03/11, das 06h às 22h. Sala aberta às 19h45, live às 20h. Pelo roteiro (`08_live_e_pitch/roteiro_live_de_revelacao.md`), o preço é revelado por volta de 21h09 (bloco 12) e o link do checkout abre por volta de 21h28 (bloco 15); a live termina por volta de 21h56. Se a live atrasar, todos os horários a partir de 20h andam junto |
 | **Objetivo** | Levar o maior número de reservas para dentro da live ao vivo e, ao abrir o carrinho, converter a atenção em entrada no Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]] |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." O dia inteiro prepara a decisão: a pergunta "quantas vezes você já recomeçou?" abre a manhã e a live |
 | **Momento de vida** | Funcional e exausta (maioria 45+): mensagens curtas, uma ideia por mensagem, pergunta ou reação no fim |
-| **Modelo no Desafio** | CP 28 a 40 do dia 01/10 (copys de lembrete de grupo do Desafio), API 07 e 08 (planilha de disparos de outubro do Desafio), copys de API do Desafio, API do Aulão do Desafio (É hoje, Ao vivo, Cadê você, Vagas abertas), copys de vagas abertas do Clube Secreto no Desafio (CP 01 de 01/10) |
+| **Modelo no Desafio** | CP 28 a 40 do dia 01/10 (copys de lembrete de grupo do Desafio), API 07 e 08 (planilha de disparos de outubro do Desafio), copys de API do Desafio, API do Aulão do Desafio (É hoje, Ao vivo, Cadê você, Carrinho aberto), copys de carrinho aberto do Clube Secreto no Desafio (CP 01 de 01/10) |
 
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha "mantra" de Grabovoi de manhã e à noite com a promessa "ative a atração de dinheiro". O guia proíbe essa promessa. O ritual vira o **áudio de Grabovoi da manhã e da noite**, apresentado como prática (existe nas fontes: sequências numéricas ensinadas nos grupos do Desafio e produto "Sequências Numéricas de Grabovoi" da Vitalícia). O arquivo de áudio e a sequência do dia estão em `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`.
-- O Desafio tinha a "lista de interesse" e a "carta" às 09h e 13h30 para avisar da abertura do Clube. Na Black, a pessoa já reservou a vaga. A manhã vira reforço de presença e a carta fala de recomeçar.
+- O Desafio tinha a "lista de interesse" e a "carta" às 09h e 13h30 para avisar da abertura do Clube. Na Black, a pessoa já reservou o lugar. A manhã vira reforço de presença e a carta fala de recomeçar.
 - O Desafio revelava a condição no meio de uma aula. Na Black, a live é a revelação. O disparo das 21h00 ("melhor parte") passa a anunciar a revelação da condição, nove minutos antes de o preço aparecer no roteiro.
 - Nenhum preço aparece antes da revelação. Todas as peças pós-revelação usam `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]`.
 
@@ -21,7 +21,7 @@
 
 **Regras de forma (todas as peças):** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; grupo com no máximo 12 linhas e fim em pergunta ou reação; API com rodapé "Digite SAIR se não quiser mais receber mensagens", no máximo 3 botões e nenhum template começando ou terminando com variável.
 
-**Cadência do dia.** Os dois disparos de grupo canônicos (11h30 e 20h) estão preservados. O dia da live é a única exceção à cadência de 2 por dia, com grade estendida porque a pessoa precisa chegar à sala e porque o carrinho abre durante a live. Cada disparo tem um minuto próprio (nenhum minuto repete dois disparos de WhatsApp) e cada troca de nome e capa tem uma janela com início e fim.
+**Cadência do dia.** Os dois disparos de grupo canônicos (11h30 e 20h) estão preservados. No grupo de alunas, o disparo das 11h30 é o ca-05 e o das 19h é o ca-06 (série canônica de alunas, pasta 13), no lugar do CP-BF-67 e do CP-BF-71 nesse grupo. As APIs canônicas de captação (api-alunas-08 e api-viveu-08) saem às 09h00 e às 09h05, para quem ainda não reservou. O dia da live é a única exceção à cadência de 2 por dia, com grade estendida porque a pessoa precisa chegar à sala e porque o carrinho abre durante a live. Cada disparo tem um minuto próprio (nenhum minuto repete dois disparos de WhatsApp) e cada troca de nome e capa tem uma janela com início e fim.
 
 ---
 
@@ -34,16 +34,18 @@
 | 05:45 a 05:55 | Grupos (manual) | Trocar nome e capa para "É HOJE, 20H" | Todos os grupos | Janela de 10 min, antes do CP-BF-64 | "MUDAR NOME E CAPA" |
 | 06:00 | Grupos | CP-BF-64 | Todos os grupos | Ritual da manhã (áudio de Grabovoi) | CP 28 |
 | 07:00 | Grupos | CP-BF-65 | Todos os grupos | É hoje, reação | CP 29 |
-| 09:00 | API | API-BF-10 | Reservaram (N e D) | É hoje, botão para a live | API 07 |
-| 09:00 | E-mail (referência) | `06_emails` | Reservaram | É hoje | EMAIL 04 |
-| 09:05 | API | API-BF-10-A | Reservaram (A) | É hoje, alunas | API 07 |
-| 09:10 | Grupos | CP-BF-66 (-AL) | Todos os grupos | Quem ainda não reservou | CP 30 |
-| 11:30 | Grupos | CP-BF-67 | Todos os grupos | Lembrete 1 + evento (SendFlow). Slot A canônico | CP 31 |
+| 09:00 | E-mail (referência) | `06_emails` e `13_modelo_dr_joao/email_alunas_captacao.md` (em-alunas-08) | Reservaram e alunas | É hoje | EMAIL 04 |
+| 09:00 | API | api-alunas-08 (`13_modelo_dr_joao/api_alunas_captacao.md`, canônica) | Alunas que ainda não reservaram | É hoje, condição das alunas | API 07 |
+| 09:05 | API | api-viveu-08 (`13_modelo_dr_joao/api_demais_alunos_captacao.md`, canônica) | Quem viveu o método, sem Clube, que ainda não reservou | É hoje, Lote Especial ao vivo | API 07 |
+| 09:10 | API | API-BF-10 | Reservaram (N e D) | É hoje, botão para a live | API 07 |
+| 09:15 | API | API-BF-10-A | Reservaram (A) | É hoje, alunas | API 07 |
+| 09:20 | Grupos | CP-BF-66 | Grupos geral e Desafio/Imersão (o grupo de alunas segue com ca-05 às 11:30; o CP-BF-66-AL fica na reserva) | Quem ainda não reservou | CP 30 |
+| 11:30 | Grupos | CP-BF-67 (grupo de alunas: ca-05, `13_modelo_dr_joao/wpp_grupo_alunas_captacao.md`, no lugar do CP-BF-67) | Todos os grupos | Lembrete 1 + evento (SendFlow). Slot A canônico | CP 31 |
 | 13:30 | Grupos | CP-BF-68 (-AL, -DS) | Todos os grupos | Carta da Dra. | CP 32 |
 | 15:00 | Grupos | CP-BF-69 | Todos os grupos | Lembrete 2: o que acontece hoje | CP 33 |
 | 15:05 | API | API-BF-11 | Quem não clicou no 09h | Lembrete com botão | (Aulão: API 13h) |
 | 17:00 | Grupos | CP-BF-70 | Todos os grupos | Antes de decidir | CP 34 |
-| 19:00 | Grupos | CP-BF-71 | Todos os grupos | Falta 1 hora | CP 35 |
+| 19:00 | Grupos | CP-BF-71 (grupo de alunas: ca-06, `13_modelo_dr_joao/wpp_grupo_alunas_captacao.md`, no lugar do CP-BF-71) | Todos os grupos | Falta 1 hora | CP 35 |
 | 19:05 | API | API-BF-12 | Quem não clicou antes | Falta 1 hora | (Aulão: "falta 1 hora") |
 | 19:10 | API | API-BF-R03 | Reservou e não entrou em grupo | Recuperação de grupo, mensagem 3 (`recuperacao_e_carrinho.md`) | |
 | 19:15 | Comercial | Último lembrete automático e pausa de todo disparo ativo de venda | Pipeline do comercial | Fecha a janela de abertura 3 | Playbook do dia da live |
@@ -59,9 +61,9 @@
 | 21:05 | API | API-BF-16 | Dentro da janela de 24 h | A melhor parte | |
 | 21:28 (manual) | Grupos | CP-BF-76 e CP-BF-76-DS (geral e Desafio/Imersão); CP-BF-76-AL (alunas) | Cada grupo | Carrinho aberto, Lote Especial. Dispara quando o link do checkout abrir na tela (bloco 15 do roteiro) | CP 01 de 01/10 |
 | 21:28 (manual) | E-mail (referência) | `06_emails` | Reservaram | Abertura de carrinho | |
-| 21:30 (manual) | API | API-BF-17 | Reservaram (N e D) | Carrinho aberto, Lote Especial | API 09 / vagas abertas |
-| 21:32 (manual) | API | API-BF-17-A | Reservaram (A) | Carrinho aberto, Lote Especial (alunas) | API 09 / vagas abertas |
-| 21:35 a 21:50 (manual) | Grupos | Trocar nome e capa para "VAGAS ABERTAS" | Todos os grupos | Janela de 15 min, depois do CP-BF-76 | "MUDAR NOME E CAPA (VAGAS ABERTAS)" |
+| 21:30 (manual) | API | API-BF-17 | Reservaram (N e D) | Carrinho aberto, Lote Especial | API 09 / carrinho aberto |
+| 21:32 (manual) | API | API-BF-17-A | Reservaram (A) | Carrinho aberto, Lote Especial (alunas) | API 09 / carrinho aberto |
+| 21:35 a 21:50 (manual) | Grupos | Trocar nome e capa para "CARRINHO ABERTO" | Todos os grupos | Janela de 15 min, depois do CP-BF-76 | "MUDAR NOME E CAPA (CARRINHO ABERTO)" |
 | 22:00 | Grupos | CP-BF-77 (-AL) | Todos os grupos | Ritual da noite + P.S. do carrinho | CP 40 |
 | 22:05 | Comercial | Fim do modo escuta, último disparo do dia | Pipeline do comercial | Depois disso, só respostas | Playbook do dia da live |
 
@@ -71,11 +73,11 @@
 
 ---
 
-## 2. Véspera e manutenção pré-live (API segmentada às 09h)
+## 2. Véspera e manutenção pré-live (API às 09h10)
 
-Três lembretes de API fora do dia 03/11, para quem reservou a vaga e não ativou o lembrete da live. Modelo: copys de API do Desafio (API 01, "É hoje").
+Três lembretes de API fora do dia 03/11, para quem reservou o lugar e não ativou o lembrete da live. Saem às 09h10, depois das APIs canônicas de captação das 09h00 (`13_modelo_dr_joao/api_alunas_captacao.md` e `api_demais_alunos_captacao.md`), que vão para quem ainda não reservou: as listas são diferentes e nenhuma pessoa recebe duas APIs no mesmo dia. Modelo: copys de API do Desafio (API 01, "É hoje").
 
-### API-BF-07: 28/10, 09h (salva a data)
+### API-BF-07: 28/10, 09h10 (salva a data)
 
 ```text
 A live de revelação da *Black Próton Vitalícia* já tem data, {{nome}}.
@@ -89,9 +91,9 @@ Toque no botão abaixo para ativar o lembrete.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-07]]` · `[ PARAR MENSAGENS ]`
 
-### API-BF-08: 30/10, 09h (diagnóstico pendente)
+### API-BF-08: 30/10, 09h10 (diagnóstico pendente)
 
 ```text
 Falta um passo para chegar à live sabendo quem você é, {{nome}}.
@@ -105,11 +107,11 @@ Toque no botão para fazer o diagnóstico.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ FAZER O DIAGNÓSTICO ]` → `{{link_diagnostico}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ FAZER O DIAGNÓSTICO ]` → `[[LINK: diagnóstico | api | api-bf-08]]` · `[ PARAR MENSAGENS ]`
 
 **Quem recebe:** quem reservou e ainda não fez o diagnóstico.
 
-### API-BF-09: 02/11, 09h (é amanhã)
+### API-BF-09: 02/11, 09h10 (é amanhã)
 
 ```text
 A live é *terça, 03/11, às 20h*, {{nome}}.
@@ -123,9 +125,9 @@ Toque no botão para ativar o lembrete.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-09]]` · `[ PARAR MENSAGENS ]`
 
-Nota: 02/11 é feriado (Finados). Tom sóbrio, sem exclamação e sem emoji festivo. Não enviar às alunas ativas, que recebem a API-BF-05.3 no mesmo horário (uma API por pessoa por dia).
+Nota: 02/11 é feriado (Finados). Tom sóbrio, sem exclamação e sem emoji festivo. Não enviar às alunas ativas, que recebem api-alunas-07 às 09h (uma API por pessoa por dia). As séries canônicas saem às 09h00 e esta API às 09h10, para respeitar um disparo por minuto.
 
 ---
 
@@ -136,13 +138,13 @@ Nota: 02/11 é feriado (Finados). Tom sóbrio, sem exclamação e sem emoji fest
 Perfil: todos. Momento: todos. Depois do clique: ouve o áudio e ativa o lembrete.
 
 ```text
-☀️ Bom dia, maravilhosos!
+☀️ *Hoje é o dia.*
 
-Hoje é o dia. Antes de pegar o celular para qualquer outra coisa, um minuto só seu.
+Antes de pegar o celular para qualquer outra coisa, um minuto só seu.
 
 O ritual da manhã: ouvir o *áudio de Grabovoi da manhã* e respirar fundo três vezes.
 
-[[LINK: áudio de Grabovoi da manhã]]
+[[LINK: áudio do dia | wpp | cp-bf-64]]
 
 Não é promessa. É prática, para você chegar por inteiro às 20h.
 
@@ -162,12 +164,12 @@ Separa caderno e caneta.
 
 Ativa o lembrete da live 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-65]]
 
 Reage com 🔥 se você vai estar comigo às 20h!
 ```
 
-### CP-BF-66 | 09:00 | Quem ainda não reservou (modelo: CP 30, "Lista de interesse")
+### CP-BF-66 | 09:20 | Quem ainda não reservou (modelo: CP 30, "Lista de interesse")
 
 ```text
 🔐 HOJE A CONDIÇÃO É REVELADA.
@@ -176,16 +178,16 @@ Reage com 🔥 se você vai estar comigo às 20h!
 
 Quem está na live vê a condição primeiro. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
-Quer receber o aviso em primeira mão assim que o carrinho abrir? Reserva a sua vaga:
+Quer receber o aviso em primeira mão assim que o carrinho abrir? Reserva o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | wpp | cp-bf-66]]
 
 Leva menos de 1 minuto. 💜
 
 Reage com 🙋 se você já reservou.
 ```
 
-#### CP-BF-66-AL | 09:00 | Alunas
+#### CP-BF-66-AL | 09:20 | Alunas (RESERVA: o grupo de alunas segue com o ca-05 às 11:30)
 
 ```text
 🔐 HOJE A CONDIÇÃO PARA ALUNAS É REVELADA.
@@ -196,7 +198,7 @@ O que você já fez no Clube conta. Ninguém volta ao zero.
 
 Ativa o lembrete da live:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-66-al]]
 
 Reage com 💜 se você vai estar comigo às 20h.
 ```
@@ -214,7 +216,7 @@ Tudo isso tem um padrão por trás, e hoje a gente olha para ele ao vivo.
 
 Ativa a notificação da live 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-67]]
 
 Reage com 🔔 se o lembrete já está ativado.
 ```
@@ -224,7 +226,7 @@ Reage com 🔔 se o lembrete já está ativado.
 ```text
 💌 Eu escrevi uma carta para você.
 
-Você já começou muita coisa e já recomeçou muitas vezes. Eu sei, porque eu também precisei recomeçar do zero.
+Você já começou muita coisa e já recomeçou muitas vezes. Eu sei como é: a minha história começou do pouco, entre telemarketing, venda de cartão e camelô.
 
 Mas vou ser direta: um padrão que rodou a vida inteira não se desfaz com mais um recomeço.
 
@@ -296,7 +298,7 @@ Reage com 💜 se você vai estar comigo.
 
 Ativa o lembrete 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-69]]
 
 Reage com 👀 se você quer ver tudo.
 ```
@@ -318,7 +320,7 @@ Eu prefiro que você pense com calma. Se não for para você, tudo bem.
 
 Ativa o lembrete da live 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-70]]
 
 Reage com ✍️ se você vai anotar as respostas.
 ```
@@ -338,7 +340,7 @@ Caderno e caneta na mão.
 
 Te vejo às 20h 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-71]]
 
 Reage com ✅ se você já separou o caderno.
 ```
@@ -356,7 +358,7 @@ A sala da *Black Próton Vitalícia* já está aberta e a live começa às 20h.
 
 Entra com antecedência para não perder a pergunta de abertura 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-72]]
 
 Reage com 🔴 se você já está na sala.
 ```
@@ -374,9 +376,9 @@ A *Black Próton Vitalícia* começou. A primeira pergunta já foi feita:
 
 Não deixa o padrão te tirar da live agora.
 
-👇 Vem para a live, maravilhosos:
+👇 Vem para a live agora:
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-73]]
 
 Reage com 🔴 se você já está aqui.
 ```
@@ -386,13 +388,13 @@ Reage com 🔴 se você já está aqui.
 ```text
 👀 Você ainda não entrou?
 
-A Dra. já está mostrando por que a gente recomeça tanto e a conta que quase ninguém faz.
+Eu já estou mostrando por que a gente recomeça tanto e a conta que quase ninguém faz.
 
-Você reservou a sua vaga, e a live está acontecendo agora.
+Você reservou o seu lugar, e a live está acontecendo agora.
 
 Ainda dá tempo de entrar 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-74]]
 
 Reage com 🏃 se você está entrando agora.
 ```
@@ -404,7 +406,7 @@ Alinhado ao roteiro: o preço aparece no bloco 12, por volta de 21h09. Se a live
 ```text
 🔓 A CONDIÇÃO ESTÁ PERTO DE SER REVELADA.
 
-Tudo o que a Dra. mostrou até aqui foi preparação para este momento.
+Tudo o que eu mostrei até aqui foi preparação para este momento.
 
 Agora: o que entra na Vitalícia, por onde começar e, em seguida, a condição de entrada.
 
@@ -412,7 +414,7 @@ A parte que decide vem agora.
 
 Não sai da live 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | wpp | cp-bf-75]]
 
 Reage com 🔓 se você está esperando a condição.
 ```
@@ -421,12 +423,12 @@ Reage com 🔓 se você está esperando a condição.
 
 ## 4. Carrinho aberto (disparo manual, durante a live)
 
-Disparar quando o link do checkout abrir na tela (previsto 21h28, bloco 15 do roteiro; nenhuma mensagem de venda sai antes disso). Primeiro os disparos, depois a troca de nome e capa para "Vagas abertas" (janela de 15 min, 21h35 a 21h50). Preços só nesta seção em diante, sempre por placeholder. No template de API o preço entra por variável preenchida no envio, nunca digitado no texto submetido à Meta. Para alunas e não-alunas usa-se o mesmo texto com o preço do segmento (escada do briefing: alunas, Lote Especial; não-alunas, Lote Especial).
+Disparar quando o link do checkout abrir na tela (previsto 21h28, bloco 15 do roteiro; nenhuma mensagem de venda sai antes disso). Primeiro os disparos, depois a troca de nome e capa para "Carrinho aberto" (janela de 15 min, 21h35 a 21h50). Preços só nesta seção em diante, sempre por placeholder. No template de API o preço entra por variável preenchida no envio, nunca digitado no texto submetido à Meta. Para alunas e não-alunas usa-se o mesmo texto com o preço do segmento (escada do briefing: alunas, Lote Especial; não-alunas, Lote Especial).
 
 ### CP-BF-76 | Manual, 21:28 | Grupos geral e Desafio/Imersão (não-alunas)
 
 ```text
-🔓 *VAGAS ABERTAS: BLACK PRÓTON VITALÍCIA*
+🔓 *CARRINHO ABERTO: BLACK PRÓTON VITALÍCIA*
 
 A condição acabou de ser revelada ao vivo.
 
@@ -438,9 +440,9 @@ A condição acabou de ser revelada ao vivo.
 
 🛡️ Garantia: [[PENDENTE: garantia]]
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-76]]
 
 Reage com 🔓 se você já entrou.
 ```
@@ -448,7 +450,7 @@ Reage com 🔓 se você já entrou.
 ### CP-BF-76-AL | Manual, 21:28 | Grupo de alunas do Clube
 
 ```text
-🔓 *VAGAS ABERTAS: CONDIÇÃO PARA ALUNAS*
+🔓 *CARRINHO ABERTO: CONDIÇÃO PARA ALUNAS*
 
 A sua condição acabou de ser revelada ao vivo.
 
@@ -460,9 +462,9 @@ A sua condição acabou de ser revelada ao vivo.
 
 O que acontece com o seu acesso atual: [[CONFIRMAR: regra de migração]]
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-76-al]]
 
 Reage com 💜 se você já entrou.
 ```
@@ -470,7 +472,7 @@ Reage com 💜 se você já entrou.
 ### CP-BF-76-DS | Manual, 21:28 | Grupo de quem fez Desafio ou Imersão
 
 ```text
-🔓 *VAGAS ABERTAS: BLACK PRÓTON VITALÍCIA*
+🔓 *CARRINHO ABERTO: BLACK PRÓTON VITALÍCIA*
 
 Você viveu o método comigo. Agora ele fica para sempre.
 
@@ -482,9 +484,9 @@ Você viveu o método comigo. Agora ele fica para sempre.
 
 🛡️ Garantia: [[PENDENTE: garantia]]
 
-👇 Garanta a sua vaga:
+👇 Garanta o seu lugar:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S2-ESP | wpp | cp-bf-76-ds]]
 
 Reage com 🌟 se você já entrou.
 ```
@@ -502,12 +504,12 @@ A condição da *Black Próton Vitalícia* acabou de ser revelada ao vivo, {{nom
 
 ⏳ Vale até [[PENDENTE: data do lote]]. Depois, o valor sobe.
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Lote Especial não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S3-ESP | api | api-bf-17]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-17-A | Manual, 21:32 | Carrinho aberto (alunas)
 
@@ -522,25 +524,23 @@ A sua condição de aluna do Clube acabou de ser revelada ao vivo, {{nome}}. �
 
 ⏳ Vale até [[PENDENTE: data do lote]]. Depois, o valor sobe.
 
-Toque no botão para garantir a sua vaga.
+Toque no botão para garantir o seu lugar.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ GARANTIR MINHA VAGA ]` → `[[LINK: checkout Lote Especial alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ GARANTIR MEU LUGAR ]` → `[[LINK: checkout S1-ESP | api | api-bf-17-a]]` · `[ PARAR MENSAGENS ]`
 
 ### CP-BF-77 | 22:00 | Ritual da noite + P.S. carrinho (modelo: CP 40, "Mantra da noite")
 
 ```text
 🌙 Antes de dormir, um minuto só seu.
 
-Ouve o *áudio de Grabovoi da noite* e respira fundo três vezes. Não é promessa. É um minuto de silêncio com você.
-
-[[LINK: áudio de Grabovoi da noite]]
+Ouve o *áudio de Grabovoi da noite*, que está fixado no grupo, e respira fundo três vezes. Não é promessa. É um minuto de silêncio com você.
 
 P.S.: o carrinho da *Black Próton Vitalícia* está aberto. Se o seu coração disse sim hoje, é por aqui que você entra:
 
-[[LINK: checkout Lote Especial não-alunas]]
+[[LINK: checkout S3-ESP | wpp | cp-bf-77]]
 
 Reage com 🌙 se você fez o ritual.
 ```
@@ -550,13 +550,11 @@ Reage com 🌙 se você fez o ritual.
 ```text
 🌙 Antes de dormir, um minuto só seu.
 
-Ouve o *áudio de Grabovoi da noite* e respira fundo três vezes.
-
-[[LINK: áudio de Grabovoi da noite]]
+Ouve o *áudio de Grabovoi da noite*, que está fixado no grupo, e respira fundo três vezes.
 
 P.S.: a sua condição de aluna está aberta. Se o seu coração disse sim hoje, é por aqui que você entra:
 
-[[LINK: checkout Lote Especial alunas]]
+[[LINK: checkout S1-ESP | wpp | cp-bf-77-al]]
 
 Reage com 🌙 se você fez o ritual.
 ```
@@ -583,7 +581,7 @@ Toque no botão abaixo para ativar o lembrete.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-10]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-10-A | 09:05 | É hoje (alunas)
 
@@ -599,7 +597,7 @@ Toque no botão abaixo para ativar o lembrete.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-10-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-11 | 15:05 | Lembrete (quem não clicou às 09h)
 
@@ -613,7 +611,7 @@ Toque no botão para ativar o lembrete.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-11]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-12 | 19:05 | Falta 1 hora
 
@@ -629,7 +627,7 @@ Toque no botão para entrar quando começar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NA LIVE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NA LIVE ]` → `[[LINK: live YouTube | api | api-bf-12]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-13 | 19:55 | Falta 5 minutos
 
@@ -643,7 +641,7 @@ Toque no botão para entrar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NA LIVE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NA LIVE ]` → `[[LINK: live YouTube | api | api-bf-13]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-14 | 20:05 | Estou ao vivo (modelo: API 08, "Ao vivo")
 
@@ -659,16 +657,16 @@ A condição da *Black Próton Vitalícia* é revelada só aqui, ao vivo.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NA LIVE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NA LIVE ]` → `[[LINK: live YouTube | api | api-bf-14]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-15 | 20:20 | Cadê você? (apenas dentro da janela de 24 horas)
 
 ```text
-{{nome}}, a Dra. Próton já está mostrando ao vivo por que a gente recomeça tanto.
+{{nome}}, eu já estou mostrando ao vivo por que a gente recomeça tanto.
 
-Você reservou a sua vaga. Dá tempo de entrar 👇
+Você reservou o seu lugar. Dá tempo de entrar 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | api | api-bf-15]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -682,7 +680,7 @@ A parte que decide vem agora.
 
 Não sai da live 👇
 
-[[LINK: live no YouTube, 03/11]]
+[[LINK: live YouTube | api | api-bf-16]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```

@@ -13,7 +13,9 @@
 
 **Prazos de pagamento (dados do Manual do Comercial).** O Pix vence em **48 horas** e o boleto em **4 a 5 dias**. A copy não promete prazo diferente desses: onde fala de validade do Pix, diz 48 horas; onde fala de boleto, diz 4 a 5 dias e usa `{{data_vencimento}}` para a data exata. O acesso é liberado quando o pagamento é confirmado, e nenhum texto afirma "na hora" para boleto.
 
-**Variáveis.** `{{nome}}`, `{{link_checkout}}`, `{{codigo_pix}}`, `{{link_boleto}}`, `{{codigo_barras}}`, `{{data_vencimento}}`, `{{link_area_membros}}`, `{{link_suporte}}`, `{{valor}}` (vem do checkout, nunca digitado no texto). Garantia: `[[PENDENTE: garantia]]`. Parcelas: `[[CONFIRMAR: número de parcelas]]`.
+**Variáveis.** `{{nome}}`, `{{codigo_pix}}`, `{{codigo_barras}}`, `{{link_boleto}}`, `{{data_vencimento}}`, `{{valor}}` (vem do checkout, nunca digitado no texto). `{{codigo_pix}}`, `{{codigo_barras}}` e `{{link_boleto}}` são dados do pedido, gerados pela Hotmart para cada pessoa: não são links do mapa. Garantia: `[[PENDENTE: garantia]]`. Parcelas: `[[CONFIRMAR: número de parcelas]]`.
+
+**Links.** Todo link do mapa aparece como token em linha própria, no formato `[[LINK: <destino> | email | <ID>]]`. Nos e-mails de recuperação, o token do botão é o do checkout. Como estes e-mails são disparados por evento, durante todo o carrinho aberto, o token escrito é o do **segmento S3 no Lote Especial** (`checkout S3-ESP`, o primeiro lote da janela). A ferramenta troca `S3` por `S1` ou `S2` pela lista do contato e `ESP` por `1L` ou `UL` pelo lote vigente na hora do envio (o lote muda em `[[PENDENTE: data do lote]]`; `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`). O ID do e-mail fica o mesmo. Compra aprovada leva à página `onboarding`; suporte usa `suporte WhatsApp`.
 
 **O que mudou em relação ao Clube Secreto.** O Clube usava o valor e a garantia do Clube escritos no texto. Nesta campanha, o valor vem do checkout (muda a cada lote) e a garantia é placeholder. Sempre que o Desafio dizia o valor do lote, aqui o texto fala "lote vigente".
 
@@ -48,9 +50,10 @@ Tudo bem. Uma decisão dessas mexe com a gente. Para você não perder o fio, o 
 O lote em que você está vale até [[PENDENTE: data do lote]].
 
 **Botão:** FINALIZAR MINHA ENTRADA
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-ab-01]]
 
-Se alguma dúvida travou, me responda ou chame o suporte: {{link_suporte}}
+Se alguma dúvida travou, me responda ou chame o suporte:
+[[LINK: suporte WhatsApp | email | ep-ab-01]]
 
 Dra. Próton
 
@@ -72,7 +75,7 @@ Se foi a dúvida se vai dar conta: é o medo que muita gente tem, e é por isso 
 Em qualquer um dos dois casos, me responda este e-mail.
 
 **Botão:** VOLTAR PARA O CHECKOUT
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-ab-02]]
 
 Lembre: o lote vigente vale até [[PENDENTE: data do lote]].
 
@@ -97,10 +100,10 @@ Copie o código e cole no app do seu banco, em "Pix Copia e Cola":
 
 Este código vale por 48 horas. Assim que o pagamento for confirmado, o seu acesso é liberado.
 
-Hoje à noite você pode estar fazendo o seu primeiro passo.
+Depois da confirmação, o seu primeiro passo já está esperando por você.
 
 **Botão:** VER MEU PIX
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-px-01]]
 
 Dra. Próton
 
@@ -120,9 +123,9 @@ Falta só um passo: o Pix que você gerou ainda não foi pago.
 O código vale por 48 horas. Se ele expirar, você gera outro pelo link.
 
 **Botão:** VER MEU PIX
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-px-02]]
 
-A decisão que você tomou merece ser concluída.
+Se a decisão ainda está de pé, é só concluir.
 
 Dra. Próton
 
@@ -142,7 +145,7 @@ O código Pix que você gerou para a Black Próton Vitalícia expirou, depois da
 Mas é só gerar outro, leva um minuto.
 
 **Botão:** GERAR NOVO PIX
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-px-03]]
 
 Se preferir, você também pode pagar no cartão, em até [[CONFIRMAR: número de parcelas]].
 
@@ -153,7 +156,7 @@ Dra. Próton
 ### EP-PX-04. 24 horas depois
 
 **Assunto:** Seu Pix expirou. A decisão ainda vale?
-**Preview:** Não vamos deixar um detalhe te impedir
+**Preview:** Se a decisão ainda vale, leva um minuto
 
 {{nome}},
 
@@ -162,7 +165,7 @@ Faz um dia que o seu Pix expirou. Isso acontece com muita gente, geralmente porq
 Eu só queria te dizer: se a decisão ainda está de pé, é só gerar outro. Se mudou, me conta, que eu quero entender.
 
 **Botão:** GERAR NOVO PAGAMENTO
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-px-04]]
 
 Dra. Próton
 
@@ -186,7 +189,8 @@ Importante: o boleto leva até 3 dias úteis para compensar depois do pagamento,
 
 [[CONFIRMAR: regra de lote para boleto, ou seja, qual valor vale se o lote virar antes da compensação]]
 
-Quer começar antes? Se você pagar via Pix, o acesso é liberado assim que o pagamento for confirmado. Para trocar a forma de pagamento, volte ao checkout: {{link_checkout}}
+Quer começar antes? Se você pagar via Pix, o acesso é liberado assim que o pagamento for confirmado. Para trocar a forma de pagamento, volte ao checkout:
+[[LINK: checkout S3-ESP | email | ep-bl-01]]
 
 **Botão:** VISUALIZAR MEU BOLETO
 {{link_boleto}}
@@ -210,7 +214,8 @@ Se perceber que não vai dar tempo, gere um Pix pelo checkout: o acesso é liber
 **Botão:** VISUALIZAR MEU BOLETO
 {{link_boleto}}
 
-Para trocar a forma de pagamento: {{link_checkout}}
+Para trocar a forma de pagamento:
+[[LINK: checkout S3-ESP | email | ep-bl-02]]
 
 Dra. Próton
 
@@ -232,7 +237,7 @@ O boleto passou do vencimento, e tudo bem: dá para resolver em um minuto. Você
 - Boleto: um novo, com nova data (4 a 5 dias de validade)
 
 **Botão:** GERAR NOVO PAGAMENTO
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-bl-03]]
 
 O lote vigente vale até [[PENDENTE: data do lote]].
 
@@ -252,7 +257,7 @@ Eu sei como é: o boleto vira "depois eu vejo", e o "depois" vira outro recomeç
 Se a decisão ainda está de pé, gere um novo pagamento por aqui.
 
 **Botão:** GERAR NOVO PAGAMENTO
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-bl-04]]
 
 Se não está, tudo bem. Me responda e eu ajudo no que for preciso.
 
@@ -281,9 +286,9 @@ Não tem a ver com você. É só tentar de novo.
 Você pode usar outro cartão, dividir em dois cartões [[CONFIRMAR: divisão em dois cartões no checkout]] ou pagar via Pix (o código vale 48 horas).
 
 **Botão:** TENTAR NOVAMENTE
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-rc-01]]
 
-Sua decisão já foi tomada. Não deixe um detalhe te impedir.
+Se não conseguir, me responda este e-mail e a equipe ajuda.
 
 Dra. Próton
 
@@ -296,10 +301,11 @@ Dra. Próton
 
 Se o pagamento de ontem não passou por causa do banco, uma ligação de 2 minutos para o cartão costuma liberar. Se foi o limite, o Pix ou outro cartão resolvem.
 
-Se for outra coisa, me conta. A equipe do suporte pode ajudar: {{link_suporte}}
+Se for outra coisa, me conta. A equipe do suporte pode ajudar:
+[[LINK: suporte WhatsApp | email | ep-rc-02]]
 
 **Botão:** TENTAR DE NOVO
-{{link_checkout}}
+[[LINK: checkout S3-ESP | email | ep-rc-02]]
 
 Dra. Próton
 
@@ -317,13 +323,13 @@ Dra. Próton
 Você acaba de tomar uma decisão que só se toma uma vez. É a última vez que você precisa recomeçar.
 
 **Seus dados de acesso**
-Área de Membros: {{link_area_membros}}
+Área de Membros: pelo botão abaixo
 Login: o e-mail que você usou na compra
 (A plataforma também enviou um e-mail de acesso. Veja a caixa de spam e promoções.)
 
 **Seus 3 primeiros passos**
 1. Acesse a Área de Membros e assista ao vídeo de boas-vindas.
-2. Entre no grupo e no suporte: {{link_suporte}}
+2. Entre no grupo da Vitalícia e salve o suporte. Os dois links estão na página de boas-vindas, no botão abaixo.
 3. Abra a sua trilha de entrada e faça o primeiro passo nas próximas 48 horas. [[CONFIRMAR: ordem de entrada]]
 
 **Como funciona daqui para frente**
@@ -334,7 +340,7 @@ Garantia: [[PENDENTE: garantia]]
 Não espere a segunda-feira. Faça o primeiro passo hoje. Ele ajuda a quebrar o hábito de "começar depois".
 
 **Botão:** ACESSAR A MINHA ÁREA DE MEMBROS
-{{link_area_membros}}
+[[LINK: onboarding | email | ep-ap-01]]
 
 Transformei dor em método. Agora é a sua vez.
 
@@ -354,14 +360,14 @@ Você já era do Clube. Agora é para sempre, e com tudo o que eu criei na mesma
 O seu acesso ao Clube Secreto passa a ser vitalício, e os 11 produtos do catálogo entram junto. [[CONFIRMAR: regra de transição para aluna com acesso ativo]]
 
 **Seus 3 primeiros passos**
-1. Entre na Área de Membros: {{link_area_membros}}
+1. Entre na Área de Membros pelo botão abaixo.
 2. Veja o que foi liberado e abra a sua trilha de entrada. [[CONFIRMAR: ordem de entrada]]
 3. Continue exatamente do ciclo em que você está. O que você já fez conta e não começa do zero.
 
 Garantia: [[PENDENTE: garantia]]
 
 **Botão:** ACESSAR A MINHA ÁREA DE MEMBROS
-{{link_area_membros}}
+[[LINK: onboarding | email | ep-ap-01]]
 
 Obrigada por continuar.
 
@@ -387,7 +393,8 @@ A decisão é sua, e eu respeito. Se você quiser me contar o motivo, eu vou ler
 
 Se o motivo foi um problema de acesso, o suporte resolve, e isso não altera o seu reembolso.
 
-Suporte: {{link_suporte}}
+Suporte:
+[[LINK: suporte WhatsApp | email | ep-rb-01]]
 
 Com carinho,
 Dra. Próton
@@ -424,3 +431,27 @@ Dra. Próton
 8. **EP-AP-01 e PC-D0.** O e-mail de compra aprovada é transacional e sai na hora. O D0 do pós-compra (`pos_compra_e_trilha.md`) sai duas horas depois, com tom de boas-vindas, para não repetir a lista de passos.
 9. **Prazos conferidos.** Pix 48 horas e boleto 4 a 5 dias vêm do Manual do Comercial. Nenhuma peça deste arquivo diz outro prazo. Ao trocar a validade no checkout, trocar também EP-PX-01, EP-PX-02, EP-PX-03, EP-BL-01, EP-BL-03 e EP-RC-01.
 10. **Pix e boleto perto do fechamento.** `[[CONFIRMAR: o checkout honra o lote e o carrinho para Pix ou boleto gerado antes do fechamento e pago depois]]`.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| EP-AB-01 | [[LINK: checkout S3-ESP | email | ep-ab-01]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-AB-01 | [[LINK: suporte WhatsApp | email | ep-ab-01]] | Fala com o suporte (apoio, texto visível) | Suporte |
+| EP-AB-02 | [[LINK: checkout S3-ESP | email | ep-ab-02]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-PX-01 | [[LINK: checkout S3-ESP | email | ep-px-01]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-PX-02 | [[LINK: checkout S3-ESP | email | ep-px-02]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-PX-03 | [[LINK: checkout S3-ESP | email | ep-px-03]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-PX-04 | [[LINK: checkout S3-ESP | email | ep-px-04]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-BL-01 | [[LINK: checkout S3-ESP | email | ep-bl-01]] | Volta ao checkout para trocar a forma de pagamento (apoio); o botão principal usa {{link_boleto}}, o boleto do pedido | Financeiro / Hotmart |
+| EP-BL-02 | [[LINK: checkout S3-ESP | email | ep-bl-02]] | Volta ao checkout para trocar a forma de pagamento (apoio); o botão principal usa {{link_boleto}}, o boleto do pedido | Financeiro / Hotmart |
+| EP-BL-03 | [[LINK: checkout S3-ESP | email | ep-bl-03]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-BL-04 | [[LINK: checkout S3-ESP | email | ep-bl-04]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-RC-01 | [[LINK: checkout S3-ESP | email | ep-rc-01]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-RC-02 | [[LINK: checkout S3-ESP | email | ep-rc-02]] | Retoma o pagamento no checkout do segmento e do lote vigente (botão principal) | Financeiro / Hotmart |
+| EP-RC-02 | [[LINK: suporte WhatsApp | email | ep-rc-02]] | Fala com o suporte (apoio, texto visível) | Suporte |
+| EP-RB-01 | [[LINK: suporte WhatsApp | email | ep-rb-01]] | Fala com o suporte (único link da peça, sem botão por desenho) | Suporte |
+| EP-AP-01 / Não-alunas | [[LINK: onboarding | email | ep-ap-01]] | Página de boas-vindas pós-compra, com o acesso à Área de Membros, o grupo e o suporte (botão principal) | Web designer |
+| EP-AP-01 / Alunas | [[LINK: onboarding | email | ep-ap-01]] | Página de boas-vindas pós-compra, com o acesso à Área de Membros (botão principal) | Web designer |
+| EP-BL-01 e EP-BL-02 (botão) | `{{link_boleto}}` | Boleto do pedido, gerado pela Hotmart (variável do pedido, sem token do mapa) | Financeiro / Hotmart |
+| EP-RB-02 | nenhum | E-mail de acolhimento, sem link nem botão por desenho | n/a |

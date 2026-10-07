@@ -3,7 +3,7 @@
 **Peça:** Banner do checkout da Black Próton Vitalícia (topo da página de pagamento), em 6 versões (3 lotes x 2 segmentos), mais textos de apoio do checkout
 **Canal:** Checkout (página de pagamento, link por lote e por segmento)
 **Público:** Quem clicou em "Entrar de vez" e está na tela de pagamento
-**Momento:** A partir da revelação (03/11, depois das 20h) até o fechamento `[[PENDENTE: fechamento]]`
+**Momento:** A partir da abertura do carrinho (03/11, 21h28) até o fechamento `[[PENDENTE: fechamento]]`
 **Objetivo:** Reafirmar o que ela está comprando e o lote em que está, na hora da decisão final, sem abrir uma nova objeção. Reduz abandono de carrinho
 **Consciência:** 5
 **Trabalho contratado:** "Eu quero ter certeza de que estou decidindo uma vez só"
@@ -51,6 +51,9 @@
 
 ### Versão 1: Alunas, Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
+**Checkout onde este banner entra**
+[[LINK: checkout S1-ESP | pagina | chk-v1]]
+
 **Linha de lote**
 `🎟 Lote Especial para alunas do Clube Secreto · até [[PENDENTE: data do lote]]`
 
@@ -60,6 +63,9 @@
 `ou em até [[PENDENTE: parcelamento]]x de {{parcela_alunas}}`
 
 ### Versão 2: Alunas, Primeiro Lote
+
+**Checkout onde este banner entra**
+[[LINK: checkout S1-1L | pagina | chk-v2]]
 
 **Linha de lote**
 `🎟 Primeiro Lote para alunas do Clube Secreto · até [[PENDENTE: data do lote]]`
@@ -71,6 +77,9 @@
 
 ### Versão 3: Alunas, Último Lote
 
+**Checkout onde este banner entra**
+[[LINK: checkout S1-UL | pagina | chk-v3]]
+
 **Linha de lote**
 `🎟 Último Lote para alunas do Clube Secreto · até [[PENDENTE: fechamento]]`
 
@@ -80,6 +89,9 @@
 `ou em até [[PENDENTE: parcelamento]]x de {{parcela_alunas}}`
 
 ### Versão 4: Não-alunas, Lote Especial
+
+**Checkout onde este banner entra**
+[[LINK: checkout S3-ESP | pagina | chk-v4]]
 
 **Linha de lote**
 `🎟 Lote Especial · até [[PENDENTE: data do lote]]`
@@ -91,6 +103,9 @@
 
 ### Versão 5: Não-alunas, Primeiro Lote
 
+**Checkout onde este banner entra**
+[[LINK: checkout S3-1L | pagina | chk-v5]]
+
 **Linha de lote**
 `🎟 Primeiro Lote · até [[PENDENTE: data do lote]]`
 
@@ -100,6 +115,9 @@
 `ou em até [[PENDENTE: parcelamento]]x de {{parcela_nao_alunas}}`
 
 ### Versão 6: Não-alunas, Último Lote
+
+**Checkout onde este banner entra**
+[[LINK: checkout S3-UL | pagina | chk-v6]]
 
 **Linha de lote**
 `🎟 Último Lote · até [[PENDENTE: fechamento]]`
@@ -146,7 +164,7 @@ Versão C: `Direito legal de desistência em até 7 dias.` `[[CONFIRMAR: jurídi
 `O valor muda a cada lote. Esta condição não se repete.`
 
 **Linha de suporte**
-`Dúvida antes de pagar? Fale com a gente.` [[LINK: WhatsApp do suporte]]
+`Dúvida antes de pagar? Fale com a gente.` [[LINK: suporte WhatsApp | pagina | chk-apoio]]
 
 ---
 
@@ -160,9 +178,23 @@ Versão C: `Direito legal de desistência em até 7 dias.` `[[CONFIRMAR: jurídi
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[FOTO DRA]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: parcelamento]]`, `[[PENDENTE: preço avulso]]`, 6 `[[LINK: checkout por lote e segmento]]`, `[[CONFIRMAR: dimensão do banner]]`.
+1. **Pendências:** `[[FOTO DRA]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: parcelamento]]`, `[[PENDENTE: preço avulso]]`, os 6 checkouts por lote e segmento (S1 e S3, e S2 com o banner das não-alunas), `[[CONFIRMAR: dimensão do banner]]`.
 2. **Troca do banner por lote:** a ferramenta precisa trocar o banner no horário do lote. Preparar os 6 arquivos antes de 03/11 e testar a virada em um checkout de teste.
 3. **"De/por":** no Desafio o banner usava "De R$ 997,00 por apenas R$ 17,50" (o preço "de" não era o preço da página). Na Black, só usar o "de" se existir preço avulso real, sem inflar. Se não existir, apagar a linha. Escada do briefing, só para quem implementa: alunas 1.997 / 2.997 / 3.997; não-alunas 2.997 / 3.997 / 4.997.
 4. **O que o Desafio tinha e a Black muda:** o Desafio dizia "28/09 a 02/10 · 1 ano de acesso · Ao vivo". Aqui não há data de aula: o que vai na linha de acesso é "pagamento único · acesso vitalício". A promessa "aumente sua capacidade geradora de riqueza em 5 noites e se torne um ímã de dinheiro" **não foi mantida**, por ser promessa de ganho financeiro e de resultado em prazo.
 5. **Testes A/B:** (1) K0 contra K1 contra K4; (2) com "de/por" contra sem (se existir preço avulso real); (3) parcelas em destaque contra preço total em destaque.
 6. **Dependências:** `pagina_de_vendas_vitalicia.md` (mesmos lotes e valores), `pagina_cupom_alunas.md` (versão alunas), `06_emails` (eventos de pagamento), `04_criativos` (arte da foto da Dra.).
+
+---
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| chk-v1 | `[[LINK: checkout S1-ESP \| pagina \| chk-v1]]` | Identifica o checkout das alunas no Lote Especial onde o banner 1 entra | Financeiro / Hotmart |
+| chk-v2 | `[[LINK: checkout S1-1L \| pagina \| chk-v2]]` | Checkout das alunas no Primeiro Lote (banner 2) | Financeiro / Hotmart |
+| chk-v3 | `[[LINK: checkout S1-UL \| pagina \| chk-v3]]` | Checkout das alunas no Último Lote (banner 3) | Financeiro / Hotmart |
+| chk-v4 | `[[LINK: checkout S3-ESP \| pagina \| chk-v4]]` | Checkout das não-alunas no Lote Especial (banner 4). O checkout S2-ESP usa o mesmo banner | Financeiro / Hotmart |
+| chk-v5 | `[[LINK: checkout S3-1L \| pagina \| chk-v5]]` | Checkout das não-alunas no Primeiro Lote (banner 5). S2-1L usa o mesmo banner | Financeiro / Hotmart |
+| chk-v6 | `[[LINK: checkout S3-UL \| pagina \| chk-v6]]` | Checkout das não-alunas no Último Lote (banner 6). S2-UL usa o mesmo banner | Financeiro / Hotmart |
+| chk-apoio | `[[LINK: suporte WhatsApp \| pagina \| chk-apoio]]` | Linha de suporte abaixo do banner | Suporte |

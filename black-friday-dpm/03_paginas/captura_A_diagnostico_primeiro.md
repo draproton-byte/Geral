@@ -11,7 +11,7 @@
 **Regra desta peça:** nenhum preço, nenhum valor de lote. A condição é "revelada ao vivo".
 
 > Como ler: cada bloco traz **Copy** (texto que vai para a página, na hierarquia em que deve aparecer), **Função** (uma linha do porquê) e, quando existe, a **Microcopy**.
-> Placeholders no formato do guia: `[[PENDENTE: ...]]`, `[[CONFIRMAR: ...]]`, `[[LINK: ...]]`, `[[DEPOIMENTO REAL]]`, `[[FOTO DRA]]`.
+> Placeholders no formato do guia: `[[PENDENTE: ...]]`, `[[CONFIRMAR: ...]]`, `[[LINK: destino | canal | ID da peça]]`, `[[DEPOIMENTO REAL]]`, `[[FOTO DRA]]`.
 
 ---
 

@@ -5,8 +5,8 @@
 | **Peça** | 3 carrosséis (CAR-TERM, CAR-CONTA, CAR-VIT), 10 cards cada = 30 cards, + 3 legendas |
 | **Canal** | Instagram feed (carrossel 4:5, **1080 × 1350 px** por card); a mesma sequência pode ser exportada para o Facebook e para o LinkedIn da Dra. se houver interesse |
 | **Público** | Seguidores e tráfego morno. Mulheres 45+ no núcleo; texto neutro nos cards 1 e 10 |
-| **Momento** | CAR-TERM: 13/10 a 27/10. CAR-CONTA: 20/10 a 02/11. CAR-VIT: só depois de 03/11, 20h (carrinho aberto). Em 02/11 (segunda, Finados) não publicar card novo; tom sóbrio se houver reaproveitamento |
-| **Objetivo** | Pré-live: comentar a palavra-chave e receber o link da captura no direct. Pós-live: comentar a palavra-chave e receber o link do checkout do lote |
+| **Momento** | CAR-TERM: 13/10 a 27/10. CAR-CONTA: 20/10 a 02/11. CAR-VIT: só depois de 03/11, 21h28 (carrinho aberto; preço revelado às 21h09). Em 02/11 (segunda, Finados) não publicar card novo; tom sóbrio se houver reaproveitamento |
+| **Objetivo** | Pré-live: comentar a palavra-chave e receber o link da captura A no direct. Pós-live: comentar a palavra-chave e receber o link da página de vendas (a que mostra o lote vigente e leva ao checkout) |
 | **Consciência** | CAR-TERM: 1 a 3. CAR-CONTA: 2 a 4. CAR-VIT: 4 a 5 |
 | **Modelo no Desafio** | Carrossel do Clube Secreto no Instagram: 8 slides (gancho, dor, virada, transformação dinheiro, emoções, relacionamentos e identidade, prova, CTA), cada um com um rodapé que empurra para o próximo ("Arrasta →") |
 | **O que acontece depois do clique** | Comentário → resposta automática no direct com o link (captura ou checkout) → mesmo caminho do tráfego pago |
@@ -21,12 +21,12 @@
 
 | Item | Valor |
 |---|---|
-| Formato | 1080 × 1350 px por card, 10 cards por carrossel, na ordem numerada |
+| Formato | 1080 × 1350 px (4:5) por card, 10 cards por carrossel, na ordem numerada, em JPG ou PNG, margem de 65 px em todos os lados. Instagram aceita até 20 cards; aqui são 10 |
 | Hierarquia por card | Título (maior), texto, rodapé (rodapé sempre na mesma posição, na base do card, com tamanho legível para 45+) |
 | Tamanho mínimo de referência | Título 64 px ou mais; texto 44 px ou mais; rodapé 40 px ou mais |
 | Limite de texto | No máximo 35 palavras por card, somando título, texto e rodapé (contagem no log de revisão) |
 | Marca | `[[PENDENTE: identidade visual]]`, na mesma posição em todos os cards |
-| O designer recebe | O texto de cada card, `[[FOTO DRA]]` (cards indicados), `[[DEPOIMENTO REAL]]` (CAR-CONTA, card 9), a palavra-chave de cada carrossel |
+| O designer recebe | O texto de cada card, `[[FOTO DRA]]` (cards indicados), `[[DEPOIMENTO REAL]]` (CAR-CONTA, card 9), a palavra-chave de cada carrossel. O link não vai na arte: o card 10 pede o comentário da palavra e a automação envia o link no direct (token em "Link de destino", no fim de cada carrossel) |
 | Acessibilidade | Nada depende de cor; o rodapé tem texto "Arrasta →" ou frase equivalente, não só uma seta |
 
 **Linguagem (políticas da Meta):** nenhum título afirma condição pessoal do leitor (dinheiro, dívida, saúde, emoção). O fenômeno aparece como frase geral, como pergunta ou como dado de pesquisa em terceira pessoa.
@@ -42,13 +42,13 @@
 - **FRAME 0:** título em duas linhas, a segunda em destaque, e uma ilustração simples de termostato no canto (estilo a definir). Para o scroll porque o fenômeno é reconhecível de imediato e o termo desconhecido gera curiosidade em um feed de textos longos.
 
 ### Card 2 (dado)
-- **Título:** Mais da metade vive isso.
+- **Título:** Mais da metade respondeu sim.
 - **Texto:** 51,9% das pessoas que responderam à pesquisa de presença do Desafio disseram que, quando entra um dinheiro a mais, aparece uma conta ou um problema.
 - **Rodapé:** E tem uma explicação →
 
 ### Card 3 (o que é)
-- **Título:** UM TERMOSTATO NÃO MEDE O CLIMA.
-- **Texto:** Ele decide a temperatura aceita. Com o dinheiro é parecido: existe um número que a mente aprendeu a aceitar. Passou dele, algo puxa de volta.
+- **Título:** UM TERMOSTATO MANTÉM O PONTO AJUSTADO.
+- **Texto:** Passou do ponto, ele puxa de volta. Com o dinheiro é parecido: existe um número que a mente aprendeu a aceitar.
 - **Rodapé:** Como isso aparece? →
 
 ### Card 4 (como age)
@@ -57,7 +57,7 @@
 - **Rodapé:** E de onde vem esse número? →
 
 ### Card 5 (origem)
-- **Título:** O NÚMERO FOI AJUSTADO ANTES DE VOCÊ.
+- **Título:** O NÚMERO COSTUMA SER AJUSTADO CEDO.
 - **Texto:** "Dinheiro não dá em árvore." "Sucesso é para quem nasceu rico." Frases ouvidas cedo regulam o teto aceito hoje.
 - **Rodapé:** Então por que trabalhar mais não resolve? →
 
@@ -84,8 +84,10 @@
 
 ### Card 10 (CTA)
 - **Título:** A ÚLTIMA VEZ QUE VOCÊ VAI PRECISAR RECOMEÇAR.
-- **Texto:** Faça o diagnóstico e cadastre-se. Dia 03/11, às 20h.
+- **Texto:** Cadastre-se e faça o diagnóstico. Dia 03/11, às 20h.
 - **CTA:** Comente a palavra LIVE que eu te envio o link no direct.
+
+- Link de destino: [[LINK: captura A | manychat | CAR-TERM]]
 
 **Legenda:** LEG-CAP-02 (ou LEG-AQC-02).
 
@@ -126,7 +128,7 @@
 
 ### Card 7 (por que não fecha sozinha)
 - **Título:** O PADRÃO QUE SE QUER MUDAR É O QUE SABOTA A MUDANÇA.
-- **Texto:** Por isso, sozinho(a), a conta volta ao mesmo lugar. Não é falta de vontade.
+- **Texto:** Por isso, sem apoio, a conta volta ao mesmo lugar. Não é falta de vontade.
 - **Rodapé:** Tem um jeito de olhar para ela →
 
 ### Card 8 (a live)
@@ -142,8 +144,10 @@
 
 ### Card 10 (CTA)
 - **Título:** A ÚLTIMA VEZ QUE VOCÊ VAI PRECISAR RECOMEÇAR.
-- **Texto:** Faça o diagnóstico e cadastre-se na live de 03/11, às 20h.
+- **Texto:** Cadastre-se e faça o diagnóstico. Live em 03/11, às 20h.
 - **CTA:** Comente a palavra CONTA que eu te envio o link no direct.
+
+- Link de destino: [[LINK: captura A | manychat | CAR-CONTA]]
 
 **Legenda:** LEG-AQC-06 (ou LEG-LEM-05).
 
@@ -208,6 +212,9 @@ Nenhum preço aparece nos cards, exceto o card 8 (conta, só com placeholders). 
 - **Texto:** A que continuou recomeçando, ou a que parou de recomeçar?
 - **CTA:** Comente a palavra VITALÍCIA que eu te envio o link no direct.
 
+- Link de destino: [[LINK: página de vendas | manychat | CAR-VIT]]
+- Link de destino para contato com tag de aluna: [[LINK: página das alunas | manychat | CAR-VIT]]
+
 **Legenda:** LEG-VIT-03 (365 dias) ou LEG-VIT-02 (a conta).
 
 ---
@@ -221,3 +228,16 @@ Nenhum preço aparece nos cards, exceto o card 8 (conta, só com placeholders). 
 5. **Peça do Desafio sem equivalente:** o slide 8 do Clube trazia o preço "de/por" e a opção à vista; CAR-TERM e CAR-CONTA não têm preço, e o CAR-VIT tem só no card 8, com placeholders.
 6. **Teste:** CAR-TERM contra CAR-CONTA em tráfego morno, medindo comentários por mil impressões; salvar e compartilhar como métricas secundárias.
 7. **Contagens:** 3 carrosséis × 10 cards = 30 cards; 3 legendas (referenciadas de `legendas_captacao.md`, `antecipacao_e_aquecimento.md` e `vendas_vitalicia.md`).
+
+---
+
+## Links desta peça
+
+Canal `manychat`: o carrossel não leva link na arte nem na legenda; o link chega no direct pela automação da palavra-chave (LIVE, CONTA, VITALÍCIA). A legenda cita a palavra, não o endereço. Nenhuma URL real é escrita aqui.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| CAR-TERM | `[[LINK: captura A \| manychat \| CAR-TERM]]` | Captura A: cadastro, diagnóstico e entrada no grupo da live, enviada no direct a quem comenta a palavra | Web designer; automação do ManyChat envia |
+| CAR-CONTA | `[[LINK: captura A \| manychat \| CAR-CONTA]]` | Captura A: cadastro, diagnóstico e entrada no grupo da live, enviada no direct a quem comenta a palavra | Web designer; automação do ManyChat envia |
+| CAR-VIT | `[[LINK: página de vendas \| manychat \| CAR-VIT]]` | Página de vendas, enviada no direct a quem comenta a palavra; mostra o lote vigente | Web designer; automação do ManyChat envia |
+| CAR-VIT (alunas) | `[[LINK: página das alunas \| manychat \| CAR-VIT]]` | Página das alunas, enviada no direct se o contato tem tag de aluna | Web designer; automação do ManyChat envia |

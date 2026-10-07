@@ -322,7 +322,7 @@ Foi o pagamento, ou foi a dúvida de "será que eu vou dar conta"?
 **Pós-live, versão A (testar primeiro):**
 
 ```
-{{nome}}, senti sua falta na live de ontem.
+{{nome}}, senti sua falta na live de 03/11.
 
 Aconteceu alguma coisa, ou o dia engoliu?
 ```
@@ -330,7 +330,7 @@ Aconteceu alguma coisa, ou o dia engoliu?
 **Pós-live, versão B:**
 
 ```
-{{nome}}, a live de ontem teve uma conta que muita gente anotou: a do Termostato Invisível.
+{{nome}}, a live de 03/11 teve uma conta que pedia papel e caneta: a do Termostato Invisível.
 
 Quando entra um dinheiro a mais na sua vida, o que costuma aparecer?
 ```
@@ -395,6 +395,32 @@ Deixa eu te falar uma coisa que tem a ver exatamente com isso que você falou.
 
 Essa linha conecta a oferta ao que ela disse. Sem ela, o link cai do céu e soa automático.
 
+**As duas entregas com link, sempre depois da resposta dela e nunca na primeira mensagem.**
+
+Diagnóstico dos cinco padrões (para quem respondeu e deu sinal amarelo ou verde, antes ou depois da live):
+
+```
+Obrigada por me contar, {{nome}}.
+
+O diagnóstico mostra o que mais pesa para você hoje. Quer ver se bate com o que você sente?
+
+[[LINK: diagnóstico | comercial | comercial-ID-VENDEDOR]]
+```
+
+Link do lote (só no sinal verde e só depois de 21h28 de 03/11, nunca para quem fala de dívida, luto, doença ou crise):
+
+```
+Deixa eu te falar uma coisa que tem a ver exatamente com isso que você falou.
+
+O link do seu lote está aqui:
+
+[[LINK: checkout S3-1L | comercial | comercial-ID-VENDEDOR]]
+
+Qualquer dúvida no caminho, me chama por aqui?
+```
+
+O token de checkout está em S3 e no Primeiro Lote (`-1L`), o lote das conversas de 04/11 em diante enquanto o Lote Especial for só da noite da live `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. S1 (alunas) usa `[[LINK: checkout S1-1L | comercial | comercial-ID-VENDEDOR]]`; S2, `[[LINK: checkout S2-1L | comercial | comercial-ID-VENDEDOR]]`. Se o Lote Especial durar mais, trocar por `-ESP`; na virada, por `-UL` (`[[PENDENTE: data do lote]]`).
+
 ---
 
 ## 8. QUANDO NINGUÉM RESPONDE
@@ -402,9 +428,7 @@ Essa linha conecta a oferta ao que ela disse. Sem ela, o link cai do céu e soa 
 Metade do trabalho não é objeção, é silêncio. A abertura é o toque 1. Se não houver resposta, existe um único toque 2, no dia seguinte, com uma pergunta mais fácil e a saída honrosa na mesma mensagem:
 
 ```
-{{nome}}, posso te fazer uma pergunta mais fácil?
-
-Você chegou a ver o diagnóstico dos cinco padrões?
+{{nome}}, uma pergunta mais fácil: você chegou a ver o diagnóstico dos cinco padrões?
 
 Se agora não for o momento, me fala "agora não" que eu paro de te escrever.
 
@@ -471,3 +495,15 @@ Aconteceu isso com você essa semana?
 **Testes A/B sugeridos:** A6 pós-live com a pergunta sobre a ficha versus com a pergunta sobre a live; A8 pré-live com "o que você mais começa e não termina?" versus "qual dos cinco padrões você acha que é o seu?"; A12 versão A versus versão B.
 
 **Dependências:** `quebra_de_objecoes.md` (a próxima etapa), `regua_do_silencio_black.md`, `copies_por_evento_pipeline.md`, `lista_de_ataque_templates.md`.
+
+---
+
+## Links desta peça
+
+Nenhuma das doze aberturas (A1 a A12), das duas versões, do toque 2 e do Extra leva link: a primeira mensagem nunca oferece e nunca tem link. Os dois únicos tokens deste arquivo são das entregas da seção 7, sempre depois da resposta dela. Canal `comercial`, ID `comercial-ID-VENDEDOR`. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| A1 a A12, toque 2 e Extra | nenhum | Primeira abertura sem link por regra | n/a |
+| Seção 7, entrega do diagnóstico | `[[LINK: diagnóstico \| comercial \| comercial-ID-VENDEDOR]]` | Entrega o diagnóstico dos cinco padrões depois da resposta | Web designer |
+| Seção 7, entrega do lote | `[[LINK: checkout S3-1L \| comercial \| comercial-ID-VENDEDOR]]` | Checkout de não-alunas e base fria, Primeiro Lote, só no sinal verde e depois de 21h28 de 03/11 (S1: `S1-1L`; S2: `S2-1L`) | Financeiro / Hotmart |

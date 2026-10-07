@@ -40,7 +40,7 @@ O que o Desafio tinha pronto (replay das cinco noites, manual, certificado, test
 | Ativo | O que é | Existe? | O que ele faz pela conversa |
 |---|---|---|---|
 | **Replay da live de revelação** | A live gravada no YouTube | `[[PENDENTE: replay]]`. Nenhuma mensagem afirma nem nega que haverá replay. Sem decisão, usar "resumo da live" | Resolve a culpa de quem perdeu e devolve a pessoa para dentro do conteúdo |
-| **Diagnóstico dos cinco padrões** | O diagnóstico da Imersão (Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem, Culpa de Querer Mais) | `[[LINK: diagnóstico dos 5 padrões]]` | Dá um motivo de volta que fala do problema dela, não do produto |
+| **Diagnóstico dos cinco padrões** | O diagnóstico da Imersão (Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem, Culpa de Querer Mais) | `[[LINK: diagnóstico \| comercial \| comercial-ID-VENDEDOR]]` | Dá um motivo de volta que fala do problema dela, não do produto |
 | **Manual da live** | PDF com a conta do Termostato, os cinco padrões, o papel das três linhas e a trilha | `[[CONFIRMAR: manual da live]]` | Entrega valor imediato e abre a pergunta sobre o papel |
 | **Depoimentos autorizados** | Relatos de quem passou pelo método | `[[DEPOIMENTO REAL]]`, só com autorização por escrito | Prova social concreta para quem conhece a Dra. há pouco tempo |
 | **Certificado de presença na live** | Reconhece quem esteve ao vivo | `[[CONFIRMAR: haverá certificado da live]]` | É a prova de que ela chegou até o fim, e é gancho forte (o pacto "eu termino tudo o que eu começo") |
@@ -72,14 +72,26 @@ Digite SAIR se não quiser mais receber mensagens.
 **Sem replay:**
 
 ```
-{{nome}}, na live de 03/11 tinha uma conta que muita gente anotou: a do Termostato Invisível.
+{{nome}}, o resumo da live cabe em uma linha: o dinheiro que entra e volta ao mesmo lugar tem nome, Termostato Invisível.
 
-Quer que eu te resuma em uma linha?
+Quer o resumo completo?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
 Pergunta de um clique. Se ela responder qualquer coisa, a conversa abriu e você vai para a abertura do segmento (`aberturas_por_segmento.md`).
+
+**Entrega do diagnóstico (toques que perguntam "Te mando?" sobre o diagnóstico, só depois do "sim" dela; mensagem humana, sem rodapé):**
+
+```
+Aqui está, {{nome}}. Ele mostra qual dos cinco padrões mais te prende hoje.
+
+Me conta se bateu com o que você achava?
+
+[[LINK: diagnóstico | comercial | comercial-ID-VENDEDOR]]
+```
+
+O replay (`[[PENDENTE: replay]]`), o manual (`[[CONFIRMAR: manual da live]]`) e o certificado (`[[CONFIRMAR: haverá certificado da live]]`) só ganham token quando existirem e tiverem destino no mapa de links. Nenhum toque da régua leva link de checkout.
 
 ### Toque 2, dois dias depois: o manual (ou o diagnóstico)
 
@@ -132,7 +144,7 @@ Pedir opinião é mais fácil de atender do que receber oferta, e reabre o canal
 
 Quero levar a sua opinião sobre a live para a Dra.
 
-Me responde aqui mesmo, em uma frase: qual foi a parte que mais pegou em você?
+Me responde aqui mesmo, em uma frase: o que você mudaria nela?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -161,7 +173,7 @@ Mesma estrutura, ativos diferentes, porque o que serve de desculpa honesta é di
 
 | Segmento | Toque 1 | Toque 2 | Toque 3 | Toque 4 | Toque 5 |
 |---|---|---|---|---|---|
-| **S1. Aluna do Clube, ativa** | Pergunta sobre o Clube (não oferta): "o que mudou desde que você entrou?" | Resumo da live com "o que muda para quem já é do Clube" | Linha três do papel | Opinião: "o que você mais usa no Clube hoje?" | Saída honrosa |
+| **S1. Aluna do Clube, ativa** | Pergunta nova sobre a live (não repete a abertura, não oferta): "ficou alguma pergunta que você queria ter feito à Dra.?" | Resumo da live com "o que muda para quem já é do Clube" | Linha três do papel | Opinião: "o que você mais usa no Clube hoje?" | Saída honrosa |
 | **S1. Aluna do Clube, inativa** | "Senti sua falta no Clube" (pergunta) | Diagnóstico dos cinco padrões (qual é o dela hoje) | Linha três do papel | Opinião | Saída honrosa |
 | **S2. Fez o Desafio e assistiu as 5 noites** | Certificado do Desafio (o pacto: "terminou o que começou") | Manual do participante | Replay da live ou linha três | Opinião | Saída honrosa |
 | **S2. Comprou a Imersão** | Diagnóstico dos cinco padrões (ela já conhece) | Resumo da live | Linha três do papel | Opinião | Saída honrosa |
@@ -183,14 +195,12 @@ Mesma estrutura, ativos diferentes, porque o que serve de desculpa honesta é di
 
 ### Textos que mudam por segmento
 
-**Aluna do Clube, toque 1 (pergunta sobre o Clube, sem oferta):**
+**Aluna do Clube, toque 1 (pergunta nova sobre a live, sem oferta e sem repetir a abertura A1):**
 
 ```
 {{nome}}, você já está dentro do Clube e viu a live.
 
-Quero levar a sua história para a Dra.
-
-O que mudou na sua vida desde que você entrou?
+Ficou alguma pergunta que você queria ter feito à Dra. e não deu tempo?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -239,12 +249,12 @@ Te mando por aqui?
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-**Assistiu a live e não comprou, toque 1:**
+**Assistiu a live e não comprou, toque 1 (resumo, sem repetir a pergunta da abertura A9):**
 
 ```
-{{nome}}, vi que você ficou na live até o fim.
+{{nome}}, separei o resumo da live em uma linha: o dinheiro que entra e volta ao mesmo lugar tem nome, Termostato Invisível.
 
-Qual parte ficou mais na sua cabeça?
+Quer o resumo completo?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -296,7 +306,7 @@ Antes da live, o silêncio é de quem **não confirmou presença**. Os ativos s�
 | Toque | Dia | Ativo | Texto |
 |---|---|---|---|
 | 1 | Dia seguinte ao silêncio | Diagnóstico dos cinco padrões | "{{nome}}, o diagnóstico dos cinco padrões está liberado para você. Ele mostra qual deles mais te prende hoje. Te mando?" |
-| 2 | Dois dias depois | A live (data) | "{{nome}}, dia 03/11, às 20h, a Dra. revela ao vivo a oferta que o Clube Secreto nunca fez antes. A sua reserva na live está confirmada. Quer que eu te lembre no dia?" |
+| 2 | Dois dias depois | A live (data) | "{{nome}}, dia 03/11, às 20h, a Dra. revela ao vivo a oferta que o Clube Secreto nunca fez antes. Quer que eu te lembre no dia?" |
 
 Toda mensagem automática leva o rodapé de saída. Se não responder ao toque 2, registre e pare: a pessoa passa para a régua pós-live como **"Não assistiu à live (inscrita)"** só se tiver dado sinal; se nunca deu, fica sem retorno. O lembrete de 03/11, 19h, é o do pipeline (`copies_por_evento_pipeline.md`, E1 toque 2, para quem reservou a live) e é o último disparo antes do modo escuta; a régua não acrescenta um terceiro toque.
 

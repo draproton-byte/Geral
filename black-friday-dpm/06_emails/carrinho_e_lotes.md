@@ -13,7 +13,7 @@
 
 **Como ler.** Cada e-mail tem o corpo comum e dois blocos curtos: **[ALUNAS]** e **[NÃO-ALUNAS]**. Quem monta no sistema cola o corpo e o bloco do segmento. Os preços são sempre placeholders (`[[PREÇO LOTE ALUNAS]]`, `[[PREÇO LOTE NÃO-ALUNAS]]`). Regra de lote: se o texto cita "Lote Especial" ou "Primeiro Lote", a data da virada precisa estar confirmada, senão o e-mail não sai. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` (se o Lote Especial vale só durante a live, o primeiro lote que estas peças tratam como "lote atual" já é o Primeiro Lote).
 
-**Variáveis e placeholders.** `{{nome}}`, `[[LINK: checkout alunas, lote vigente]]`, `[[LINK: checkout não-alunas, lote vigente]]`, `[[LINK: WhatsApp suporte]]`. Garantia: `[[PENDENTE: garantia]]`. Bônus: `[[PENDENTE: bônus]]` (só entra se existir). Nome do lote: `[[CONFIRMAR: nome do lote atual]]` e `[[CONFIRMAR: nome do próximo lote]]`. O valor do próximo lote usa o mesmo placeholder de preço, com a indicação "(próximo lote)".
+**Variáveis, placeholders e links.** `{{nome}}`. O botão de cada versão traz o token do checkout do segmento e do lote da hora do e-mail, em linha própria, no formato `[[LINK: checkout S1-1L | email | cl-01]]` (versão Alunas) e `[[LINK: checkout S3-1L | email | cl-01]]` (versão Não-alunas). Regra de lote por peça: CL-01 e CL-02 usam o Primeiro Lote (1L); VL-01 e VL-02 usam o lote que está acabando e VL-03 o novo (no molde da virada do Primeiro para o Último Lote: 1L e UL); ES-01, UH-01 a UH-03 e FE-01 usam o Último Lote (UL), porque o fechamento só pode ocorrer nele `[[CONFIRMAR: o fechamento cai no Último Lote]]`. S2 (Desafio, Imersão, Aulão) recebe a versão Não-alunas com `checkout S2-*` no lugar de `checkout S3-*` e o mesmo ID. O suporte e a lista de espera são tokens de apoio. Garantia: `[[PENDENTE: garantia]]`. Bônus: `[[PENDENTE: bônus]]` (só entra se existir). Nome do lote: `[[CONFIRMAR: nome do lote atual]]` e `[[CONFIRMAR: nome do próximo lote]]`. O valor do próximo lote usa o mesmo placeholder de preço, com a indicação "(próximo lote)".
 
 **Frase da oferta.** A Vitalícia = acesso vitalício ao Clube Secreto + 11 produtos do catálogo atual, por pagamento único, com parcelamento visível no checkout (`[[CONFIRMAR: número de parcelas]]`). Sem promessa de lançamentos futuros.
 
@@ -61,11 +61,12 @@ Garantia: [[PENDENTE: garantia]]
 **[NÃO-ALUNAS]** O seu valor no lote atual é [[PREÇO LOTE NÃO-ALUNAS]]. As formas de pagamento, com o parcelamento visível, aparecem no checkout.
 
 **Botão [ALUNAS]:** QUERO FICAR DE VEZ
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-1L | email | cl-01]]
 **Botão [NÃO-ALUNAS]:** QUERO PARAR DE RECOMEÇAR
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-1L | email | cl-01]]
 
-Qualquer dúvida, é só chamar: [[LINK: WhatsApp suporte]]
+Qualquer dúvida, é só chamar:
+[[LINK: suporte WhatsApp | email | cl-01]]
 
 Dra. Próton
 
@@ -93,9 +94,9 @@ O checkout mostra o parcelamento. E tem uma conta que vale fazer: quanto custa m
 **[NÃO-ALUNAS]** Se a dúvida for sobre qual produto usar primeiro, a trilha responde.
 
 **Botão [ALUNAS]:** VER MINHA CONDIÇÃO
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-1L | email | cl-02]]
 **Botão [NÃO-ALUNAS]:** VER A CONDIÇÃO
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-1L | email | cl-02]]
 
 Dra. Próton
 
@@ -103,7 +104,7 @@ Dra. Próton
 
 ## VIRADA DE LOTE (3)
 
-Esta trinca é um **molde** usado duas vezes: na virada do Lote Especial para o Primeiro Lote, e na virada do Primeiro Lote para o Último Lote. Trocar `[[CONFIRMAR: nome do lote atual]]`, `[[CONFIRMAR: nome do próximo lote]]` e o valor do próximo lote. Só enviar com `[[PENDENTE: data do lote]]` confirmada.
+Esta trinca é um **molde**. Se o Lote Especial vale só durante a live (`[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`), ela é usada uma vez, na virada do Primeiro Lote para o Último Lote. Se o Lote Especial se estender depois da live, é usada duas vezes: do Lote Especial para o Primeiro Lote (tokens `ESP` em VL-01 e VL-02 e `1L` em VL-03) e do Primeiro Lote para o Último Lote. Trocar `[[CONFIRMAR: nome do lote atual]]`, `[[CONFIRMAR: nome do próximo lote]]` e o valor do próximo lote. Só enviar com `[[PENDENTE: data do lote]]` confirmada.
 
 ### VL-01. Aviso da virada (24 horas antes)
 
@@ -125,9 +126,9 @@ Se você já decidiu, faça no lote em que está.
 Se ainda tem dúvida, responda este e-mail ou chame o suporte. Eu prefiro que você não compre do que compre e não viva.
 
 **Botão [ALUNAS]:** ENTRAR NO LOTE ATUAL
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-1L | email | vl-01]]
 **Botão [NÃO-ALUNAS]:** ENTRAR NO LOTE ATUAL
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-1L | email | vl-01]]
 
 Dra. Próton
 
@@ -151,9 +152,9 @@ Se você está no "depois eu vejo", este é o último e-mail do "depois" nesse v
 As formas de pagamento, com o parcelamento visível, estão no checkout.
 
 **Botão [ALUNAS]:** FECHAR NO LOTE ATUAL
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-1L | email | vl-02]]
 **Botão [NÃO-ALUNAS]:** FECHAR NO LOTE ATUAL
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-1L | email | vl-02]]
 
 Dra. Próton
 
@@ -179,9 +180,9 @@ O que você precisa saber:
 Se o lote anterior ficou para trás, não há culpa nenhuma. O que existe é a decisão de hoje, e ela é sua.
 
 **Botão [ALUNAS]:** ENTRAR NO NOVO LOTE
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-UL | email | vl-03]]
 **Botão [NÃO-ALUNAS]:** ENTRAR NO NOVO LOTE
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-UL | email | vl-03]]
 
 Dra. Próton
 
@@ -211,9 +212,9 @@ O que é real: o carrinho fecha em [[PENDENTE: fechamento]]. Depois disso, quem 
 **[NÃO-ALUNAS]** Você tem hoje o valor da escada de lotes. Depois do fechamento, ele deixa de valer.
 
 **Botão [ALUNAS]:** GARANTIR A MINHA CONDIÇÃO
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-UL | email | es-01]]
 **Botão [NÃO-ALUNAS]:** GARANTIR A MINHA CONDIÇÃO
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-UL | email | es-01]]
 
 Dra. Próton
 
@@ -244,9 +245,9 @@ Se as duas respostas forem sim, entre. Se uma delas for não, tudo bem. Mas deci
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]
 
 **Botão [ALUNAS]:** DECIDIR AGORA
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-UL | email | uh-01]]
 **Botão [NÃO-ALUNAS]:** DECIDIR AGORA
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-UL | email | uh-01]]
 
 Dra. Próton
 
@@ -254,11 +255,11 @@ Dra. Próton
 
 **Assunto [ALUNAS]:** Hoje fecha. Você já está quase lá
 **Assunto [NÃO-ALUNAS]:** Hoje, até [[PENDENTE: fechamento]]
-**Linha de preview:** Se faltou só um empurrão, este é ele
+**Linha de preview:** Uma última conversa, sem empurrão
 
 {{nome}},
 
-No fim, o que trava quase nunca é o valor. É a dúvida se você vai dar conta. É o "e se não for para mim?". Esse medo é de quem já investiu e ficou sem retorno. Hoje o carrinho fecha, e é por isso que eu escrevo.
+Para quem já quer entrar, o que pesa no fim costuma ser a dúvida: "e se eu não der conta?", "e se não for para mim?". Esse medo é de quem já investiu e ficou sem retorno. O valor também pesa, e eu sei. Hoje o carrinho fecha, e é por isso que eu escrevo.
 
 Por isso, a oferta foi desenhada com três coisas:
 
@@ -272,9 +273,9 @@ Se você ainda não entrou, eu quero que entre com tranquilidade, não por impul
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]], com parcelamento visível no checkout.
 
 **Botão [ALUNAS]:** QUERO FICAR
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-UL | email | uh-02]]
 **Botão [NÃO-ALUNAS]:** QUERO ENTRAR
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-UL | email | uh-02]]
 
 Dra. Próton
 
@@ -299,9 +300,9 @@ Mas se você está olhando este e-mail e sentindo que quer, não deixe para depo
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]
 
 **Botão [ALUNAS]:** QUERO ENTRAR AGORA
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-UL | email | uh-03]]
 **Botão [NÃO-ALUNAS]:** QUERO ENTRAR AGORA
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-UL | email | uh-03]]
 
 Dra. Próton
 
@@ -327,9 +328,9 @@ Um último lembrete do que eu disse na live: o objetivo é você parar de ter qu
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]
 
 **Botão [ALUNAS]:** QUERO ENTRAR AGORA
-`[[LINK: checkout alunas, lote vigente]]`
+[[LINK: checkout S1-UL | email | fe-01]]
 **Botão [NÃO-ALUNAS]:** QUERO ENTRAR AGORA
-`[[LINK: checkout não-alunas, lote vigente]]`
+[[LINK: checkout S3-UL | email | fe-01]]
 
 Dra. Próton
 
@@ -343,16 +344,15 @@ Dra. Próton
 
 O carrinho da Black Próton Vitalícia fechou.
 
-Se você entrou, eu te recebo de braços abertos e você recebe, agora mesmo, os próximos passos por e-mail.
-
-Se você não entrou, quero te dizer três coisas:
+Quero te dizer três coisas:
 
 1. Tudo bem. A decisão foi sua, e eu respeito.
 2. Eu não vou te cobrar por isso. Seu padrão não é um defeito.
 3. Esta condição acabou. O que vier depois será outra oferta, com outro preço.
 
 **[ALUNAS]** Você continua sendo aluna do Clube Secreto, com tudo o que isso inclui. Se quiser conversar sobre o que ficou em aberto, me responda.
-**[NÃO-ALUNAS]** Se você quiser receber um aviso caso exista uma nova oportunidade de entrar no Clube, entre na lista de espera: `[[LINK: lista de espera]]`
+**[NÃO-ALUNAS]** Se você quiser receber um aviso caso exista uma nova oportunidade de entrar no Clube, entre na lista de espera:
+[[LINK: lista de espera | email | fe-02]]
 
 Obrigada por ter estado aqui.
 
@@ -370,4 +370,32 @@ Dra. Próton
 6. **Honestidade de escassez.** ES-01 existe para tirar do texto qualquer sugestão de que a Vitalícia jamais voltará e também qualquer promessa de que voltará. Se a equipe cortar o e-mail, os demais continuam coerentes porque só usam "esta condição".
 7. **Onde o Desafio tinha peça e a Black não.** A abertura de vendas do dia 01/10 vendia no meio das noites. Aqui o equivalente é CL-01. O desconto "Golden Ticket" não tem par na Black (seria preço antes da live).
 8. **FE-02.** "Lista de espera" depende do degrau de entrada para a base de baixa renda ainda indefinido na estratégia (seção 5 do arquivo 00). Se não existir lista de espera, trocar por "me siga para ser avisado".
-9. **Pix e boleto perto do fechamento.** O Pix vale 48 horas e o boleto 4 a 5 dias (Manual do Comercial). Quem gera Pix ou boleto perto do fechamento pode pagar depois dele: `[[CONFIRMAR: o checkout honra o lote e o carrinho para Pix gerado antes do fechamento e pago depois]]`. Enquanto não houver resposta, UH-03 e FE-01 não prometem prazo de pagamento.
+9. **Lote de cada token.** O lote de cada peça está na tabela "Links desta peça". Se as datas de virada mudarem a ordem (por exemplo, o Lote Especial se estender), trocar o lote do token e manter o ID.
+10. **Pix e boleto perto do fechamento.** O Pix vale 48 horas e o boleto 4 a 5 dias (Manual do Comercial). Quem gera Pix ou boleto perto do fechamento pode pagar depois dele: `[[CONFIRMAR: o checkout honra o lote e o carrinho para Pix gerado antes do fechamento e pago depois]]`. Enquanto não houver resposta, UH-03 e FE-01 não prometem prazo de pagamento.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| CL-01 / Alunas | [[LINK: checkout S1-1L | email | cl-01]] | Checkout das alunas, lote 1L | Financeiro / Hotmart |
+| CL-01 / Não-alunas | [[LINK: checkout S3-1L | email | cl-01]] | Checkout de não-alunas e base fria, lote 1L; S2 usa `checkout S2-1L` com o mesmo ID | Financeiro / Hotmart |
+| CL-02 / Alunas | [[LINK: checkout S1-1L | email | cl-02]] | Checkout das alunas, lote 1L | Financeiro / Hotmart |
+| CL-02 / Não-alunas | [[LINK: checkout S3-1L | email | cl-02]] | Checkout de não-alunas e base fria, lote 1L; S2 usa `checkout S2-1L` com o mesmo ID | Financeiro / Hotmart |
+| VL-01 / Alunas | [[LINK: checkout S1-1L | email | vl-01]] | Checkout das alunas, lote 1L | Financeiro / Hotmart |
+| VL-01 / Não-alunas | [[LINK: checkout S3-1L | email | vl-01]] | Checkout de não-alunas e base fria, lote 1L; S2 usa `checkout S2-1L` com o mesmo ID | Financeiro / Hotmart |
+| VL-02 / Alunas | [[LINK: checkout S1-1L | email | vl-02]] | Checkout das alunas, lote 1L | Financeiro / Hotmart |
+| VL-02 / Não-alunas | [[LINK: checkout S3-1L | email | vl-02]] | Checkout de não-alunas e base fria, lote 1L; S2 usa `checkout S2-1L` com o mesmo ID | Financeiro / Hotmart |
+| VL-03 / Alunas | [[LINK: checkout S1-UL | email | vl-03]] | Checkout das alunas, lote UL | Financeiro / Hotmart |
+| VL-03 / Não-alunas | [[LINK: checkout S3-UL | email | vl-03]] | Checkout de não-alunas e base fria, lote UL; S2 usa `checkout S2-UL` com o mesmo ID | Financeiro / Hotmart |
+| ES-01 / Alunas | [[LINK: checkout S1-UL | email | es-01]] | Checkout das alunas, lote UL | Financeiro / Hotmart |
+| ES-01 / Não-alunas | [[LINK: checkout S3-UL | email | es-01]] | Checkout de não-alunas e base fria, lote UL; S2 usa `checkout S2-UL` com o mesmo ID | Financeiro / Hotmart |
+| UH-01 / Alunas | [[LINK: checkout S1-UL | email | uh-01]] | Checkout das alunas, lote UL | Financeiro / Hotmart |
+| UH-01 / Não-alunas | [[LINK: checkout S3-UL | email | uh-01]] | Checkout de não-alunas e base fria, lote UL; S2 usa `checkout S2-UL` com o mesmo ID | Financeiro / Hotmart |
+| UH-02 / Alunas | [[LINK: checkout S1-UL | email | uh-02]] | Checkout das alunas, lote UL | Financeiro / Hotmart |
+| UH-02 / Não-alunas | [[LINK: checkout S3-UL | email | uh-02]] | Checkout de não-alunas e base fria, lote UL; S2 usa `checkout S2-UL` com o mesmo ID | Financeiro / Hotmart |
+| UH-03 / Alunas | [[LINK: checkout S1-UL | email | uh-03]] | Checkout das alunas, lote UL | Financeiro / Hotmart |
+| UH-03 / Não-alunas | [[LINK: checkout S3-UL | email | uh-03]] | Checkout de não-alunas e base fria, lote UL; S2 usa `checkout S2-UL` com o mesmo ID | Financeiro / Hotmart |
+| FE-01 / Alunas | [[LINK: checkout S1-UL | email | fe-01]] | Checkout das alunas, lote UL | Financeiro / Hotmart |
+| FE-01 / Não-alunas | [[LINK: checkout S3-UL | email | fe-01]] | Checkout de não-alunas e base fria, lote UL; S2 usa `checkout S2-UL` com o mesmo ID | Financeiro / Hotmart |
+| CL-01 | [[LINK: suporte WhatsApp | email | cl-01]] | Fala com o suporte (apoio, texto visível) | Suporte |
+| FE-02 / Não-alunas | [[LINK: lista de espera | email | fe-02]] | Página de lista de espera, para quem não entrou (único link da peça; a versão Alunas não tem link por desenho) | Web designer |

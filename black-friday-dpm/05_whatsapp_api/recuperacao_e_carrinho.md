@@ -21,14 +21,14 @@
 
 No Desafio, a recuperação atingia quem **comprou** e não estava em grupo (fila de 1.462 pessoas em 26/09). Na Black existem dois públicos parecidos e a regra de ouro é a mesma: sem o grupo, não há link da live nem acesso guiado.
 
-### 1.1 Recuperação pré-live: reservou a vaga e não entrou em nenhum grupo
+### 1.1 Recuperação pré-live: reservou o lugar e não entrou em nenhum grupo
 
-**Público:** `Reservou a vaga na live` sem tag de grupo. Rodar em lote nos dias 20/10, 27/10 e 31/10 (mensagem 1), na manhã de 03/11 (mensagem 2) e às 19h de 03/11 (mensagem 3). Cada pessoa recebe no máximo uma mensagem por dia e só a mensagem seguinte se continuar fora do grupo. "Fora do grupo" é a ausência da tag de grupo no SendFlow/DataCrazy (status "não confirmou": reservou e não entrou no grupo).
+**Público:** `Reservou o lugar na live` sem tag de grupo. Rodar em lote nos dias 20/10, 27/10 e 31/10 (mensagem 1), na manhã de 03/11 (mensagem 2) e às 19h de 03/11 (mensagem 3). Cada pessoa recebe no máximo uma mensagem por dia e só a mensagem seguinte se continuar fora do grupo. "Fora do grupo" é a ausência da tag de grupo no SendFlow/DataCrazy (status "não confirmou": reservou e não entrou no grupo).
 
 #### API-BF-R01 | Mensagem 1: lote de recuperação (20/10, 27/10, 31/10)
 
 ```text
-*A sua vaga na live está reservada. Falta entrar no grupo.*
+*O seu lugar na live está reservado. Falta entrar no grupo.*
 
 Pelo que consigo ver aqui, o seu número ainda não está no grupo oficial da *Black Próton Vitalícia*.
 
@@ -41,14 +41,14 @@ O grupo é o canal oficial: quem está lá recebe tudo em primeira mão.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo geral | api | api-bf-r01]]` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
 
 #### API-BF-R02 | Mensagem 2: manhã de 03/11
 
 ```text
 *É hoje, às 20h, e você ainda não entrou no grupo.*
 
-A sua vaga na live da *Black Próton Vitalícia* está reservada, só falta o grupo.
+O seu lugar na live da *Black Próton Vitalícia* está reservado, só falta o grupo.
 
 O link da transmissão e o aviso de quando a condição for revelada saem primeiro no grupo oficial.
 
@@ -57,7 +57,7 @@ O link da transmissão e o aviso de quando a condição for revelada saem primei
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo geral | api | api-bf-r02]]` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
 
 #### API-BF-R03 | Mensagem 3: 19h de 03/11
 
@@ -66,34 +66,34 @@ Digite SAIR se não quiser mais receber mensagens
 
 A live da *Black Próton Vitalícia* começa às 20h, e o grupo oficial é onde saem os avisos em tempo real.
 
-Você reservou a vaga. Falta um toque para entrar no grupo.
+Você reservou o lugar. Falta um toque para entrar no grupo.
 
 👇 Entra agora:
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo geral | api | api-bf-r03]]` · `[ PARAR MENSAGENS ]`
 
 #### EMAIL-BF-R01 | Versão e-mail da recuperação pré-live (mesmo público, canal sem custo de template)
 
 Referência para a área `06_emails`. Disparar nos mesmos dias.
 
-**Assunto:** A sua vaga na live está reservada, mas você está fora do grupo
+**Assunto:** O seu lugar na live está reservado, mas você está fora do grupo
 
 **Preheader:** O link da live sai só lá dentro
 
 **Corpo**
 
 ```text
-A sua vaga na live da Black Próton Vitalícia está reservada. Só falta o grupo: pelo que consigo ver, o seu número ainda não está no grupo oficial.
+O seu lugar na live da Black Próton Vitalícia está reservado. Só falta o grupo: pelo que consigo ver, o seu número ainda não está no grupo oficial.
 
 A live é terça, 03/11, às 20h, ao vivo no YouTube. É no grupo que saem primeiro o link da transmissão e os avisos importantes.
 
 Entrar leva 10 segundos:
 
 [BOTÃO] ENTRAR NO GRUPO DA LIVE
-(destino: {{link_grupo}})
+(destino: [[LINK: grupo geral | email | email-bf-r01]])
 
 Se você já entrou, pode ignorar este e-mail.
 
@@ -119,7 +119,7 @@ O grupo é onde chegam a trilha de entrada, os avisos das aulas e o suporte.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo vitalícia | api | api-bf-r04]]` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
 
 #### API-BF-R05 | Mensagem 2
 
@@ -135,7 +135,7 @@ O primeiro passo da trilha é um só. O grupo é onde ele chega.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo vitalícia | api | api-bf-r05]]` · `[ JÁ ENTREI NO GRUPO ]` · `[ PARAR MENSAGENS ]`
 
 #### API-BF-R06 | Mensagem 3
 
@@ -151,7 +151,7 @@ O seu acesso é vitalício, não tem pressa. Mas começar cedo ajuda a não deix
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo vitalícia | api | api-bf-r06]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-r06]]` · `[ PARAR MENSAGENS ]`
 
 #### EMAIL-BF-R02 | Versão e-mail da recuperação pós-compra
 
@@ -171,7 +171,7 @@ A sua entrada na Black Próton Vitalícia está confirmada. Só que, pelo que co
 Entrar leva 10 segundos:
 
 [BOTÃO] ENTRAR NO GRUPO
-(destino: {{link_grupo}})
+(destino: [[LINK: grupo geral | email | email-bf-r02]])
 
 O seu acesso é vitalício e não tem pressa. Mas começar cedo ajuda a não deixar o automático voltar.
 
@@ -206,7 +206,7 @@ Toque no botão para voltar ao checkout.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR AO CHECKOUT ]` → `{{link_checkout}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ VOLTAR AO CHECKOUT ]` → `[[LINK: checkout S3-ESP | api | api-bf-c01]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-C01-A | Disparo 1 | A
 
@@ -224,7 +224,7 @@ Toque no botão para voltar ao checkout.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR AO CHECKOUT ]` → `{{link_checkout}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ VOLTAR AO CHECKOUT ]` → `[[LINK: checkout S1-ESP | api | api-bf-c01-a]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-C02 | Disparo 2 (cerca de 24 horas) | N
 
@@ -242,7 +242,7 @@ Toque no botão para voltar ao checkout.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR AO CHECKOUT ]` → `{{link_checkout}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ VOLTAR AO CHECKOUT ]` → `[[LINK: checkout S3-ESP | api | api-bf-c02]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-c02]]`
 
 ### API-BF-C02-A | Disparo 2 | A
 
@@ -260,7 +260,7 @@ Toque no botão para voltar ao checkout.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR AO CHECKOUT ]` → `{{link_checkout}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ VOLTAR AO CHECKOUT ]` → `[[LINK: checkout S1-ESP | api | api-bf-c02-a]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-c02-a]]`
 
 ### API-BF-C03 | Disparo 3 (últimas horas do lote) | N e A
 
@@ -278,7 +278,7 @@ Toque no botão para entrar antes de virar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VOLTAR AO CHECKOUT ]` → `{{link_checkout}}` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ VOLTAR AO CHECKOUT ]` → `[[LINK: checkout S3-ESP | api | api-bf-c03]]` · `[ PARAR MENSAGENS ]`
 
 ---
 
@@ -311,7 +311,7 @@ O seu Pix da *Black Próton Vitalícia* ainda não foi pago, {{nome}}. ⏳
 
 Se o código expirou, o link abaixo gera um novo:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-p02]]
 
 O seu primeiro passo da trilha pode começar ainda hoje. 💜
 
@@ -325,7 +325,7 @@ O código Pix da *Black Próton Vitalícia* expirou, {{nome}}. 😕
 
 Mas é só gerar um novo, leva 1 minuto:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-p03]]
 
 A sua condição do *{{lote_atual}}* vale até {{data_virada}}. Se preferir, dá para pagar no cartão [[CONFIRMAR: parcelamento]].
 
@@ -341,7 +341,7 @@ Você não chegou até ali por acaso. Algo dentro de você sabe que precisa de u
 
 👇 Gere o seu novo Pix aqui:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-p04]]
 
 Garantia: [[PENDENTE: garantia]]
 
@@ -361,7 +361,7 @@ Importante: o boleto leva até 3 dias úteis para compensar `[[CONFIRMAR: prazo 
 
 💡 Quer começar HOJE? Pague via Pix e o acesso chega na hora:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-p05]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -391,7 +391,7 @@ Sem problema, é rápido de resolver.
 
 👉 Gere um novo pagamento aqui (Pix, cartão ou boleto):
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-p07]]
 
 💡 Pelo Pix o acesso é liberado na hora.
 
@@ -411,7 +411,7 @@ Você chegou até aqui por um motivo. Não deixa ele se perder.
 
 👇 O link para entrar:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-p08]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -429,7 +429,7 @@ Normalmente é limite do cartão ou bloqueio automático do banco, e é rápido 
 
 👉 Tenta de novo, com outro cartão ou via Pix:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-x01]]
 
 💡 Dica: se o limite foi o problema, dá para dividir em 2 cartões, ou pagar com cartão + Pix no checkout [[CONFIRMAR: checkout permite dois cartões e cartão + Pix]].
 
@@ -449,12 +449,12 @@ Se foi outra coisa (dúvida, medo, "será que é para mim?"), me conta pelo supo
 
 👇 O link para tentar de novo:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-x02]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ TENTAR DE NOVO ]` → `{{link_checkout}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ TENTAR DE NOVO ]` → `[[LINK: checkout S3-ESP | api | api-bf-x02]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-x02]]`
 
 ---
 
@@ -484,7 +484,7 @@ Se precisar de ajuda, toque em "Falar com o suporte".
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ ABRIR O ONBOARDING ]` → `[[LINK: onboarding | api | api-bf-ok1]]` · `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo vitalícia | api | api-bf-ok1]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-ok1]]`
 
 ### API-BF-OK1-A | Compra aprovada completa | A
 
@@ -508,7 +508,7 @@ Se precisar de ajuda, toque em "Falar com o suporte".
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ ABRIR O ONBOARDING ]` → `[[LINK: onboarding | api | api-bf-ok1-a]]` · `[ ENTRAR NO GRUPO ]` → `[[LINK: grupo vitalícia | api | api-bf-ok1-a]]` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-ok1-a]]`
 
 ### API-BF-OK2 | Variante curta (confirmação instantânea)
 
@@ -522,7 +522,7 @@ O seu acesso está no seu e-mail. Toque no botão para começar pelo onboarding.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}`
+**Botões:** `[ ABRIR O ONBOARDING ]` → `[[LINK: onboarding | api | api-bf-ok2]]`
 
 ### API-BF-OK3 | Acompanhamento 48 horas depois
 
@@ -535,7 +535,7 @@ Se ainda não, tudo bem. O primeiro passo é um só, e é nele que o automático
 
 👇 O primeiro passo está aqui:
 
-{{link_onboarding}}
+[[LINK: onboarding | api | api-bf-ok3]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -553,7 +553,7 @@ O seu relato ajuda outra pessoa a decidir. Eu só publico com a sua autorizaçã
 
 👇 Toque para enviar o seu relato:
 
-[[LINK: formulário de depoimento]]
+[[LINK: depoimento | api | api-bf-ok4]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -578,7 +578,7 @@ Toque no botão para falar com o suporte.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
+**Botões:** `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp | api | api-bf-rf1]]`
 
 ### API-BF-RF2 | Reembolso concluído
 

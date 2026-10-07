@@ -11,7 +11,7 @@
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Aqui o trabalho é só um: não perder o dia em que a decisão aparece |
 | Modelo no Desafio | "E-mails de onboarding Desafio" (01 bem-vinda para entrar no grupo, 02 inscrição confirmada, 03 venda do ingresso). Mantida a ordem e o tom de "estou feliz que você está aqui". O Teste de Bloqueios virou o diagnóstico dos 5 padrões, que agora mora na série |
 
-**Regras que valem para os 9 e-mails.** Nenhum preço. A condição é "revelada ao vivo". Sem contagem de dias dentro do texto (data fixa). Um botão por e-mail (entrar no grupo). Variáveis: `{{nome}}`, `{{link_grupo}}`. Links são placeholders `[[LINK: ...]]` até a equipe fechar.
+**Regras que valem para os 9 e-mails.** Nenhum preço. A condição é "revelada ao vivo". Sem contagem de dias dentro do texto (data fixa). Um botão por e-mail (entrar no grupo). Variável: `{{nome}}`. O botão de cada e-mail traz o token do grupo do segmento, em linha própria, no formato `[[LINK: <destino> | email | <ID>]]`: `grupo alunas` (S1), `grupo viveu o método` (S2) e `grupo geral` (S3). O ID leva o segmento (por exemplo `ob-01-s1`) para medir cada versão. Os links só existem quando a automação criar o rodízio de grupos; até lá o token fica no texto.
 
 **Ordem de leitura do segmento.** O sistema de envio deve escolher a versão pela tag do contato: S1 se tem tag de aluna ativa do Clube, S2 se tem tag de compra de Desafio, Imersão ou Aulão e não tem tag de aluna, S3 para todo o resto. Se a mesma pessoa cai em S1 e S2, vale S1.
 
@@ -37,7 +37,7 @@ Como você já está dentro do Clube Secreto, vou ser direta: a live de revelaç
 Entre no grupo agora para não ficar de fora na hora.
 
 **Botão:** ENTRAR NO GRUPO DA LIVE
-`{{link_grupo}}` = [[LINK: grupo WhatsApp alunas]]
+[[LINK: grupo alunas | email | ob-01-s1]]
 
 Marque na agenda: 03/11, às 20h, no YouTube.
 
@@ -58,7 +58,7 @@ Você sabe como é: a prática acontece na hora, e quem está lá sente. Dessa v
 O aviso e o link da transmissão chegam pelo grupo. Entre agora para não perder.
 
 **Botão:** ENTRAR NO GRUPO DA LIVE
-`{{link_grupo}}` = [[LINK: grupo WhatsApp]]
+[[LINK: grupo viveu o método | email | ob-01-s2]]
 
 Anote: 03/11, às 20h, no YouTube.
 
@@ -77,7 +77,7 @@ Eu te faço uma pergunta: quantas vezes você já recomeçou? Começou, parou, v
 Nela eu vou mostrar, ao vivo, o que eu construí para desarmar esse padrão. A condição completa só é revelada na transmissão, e o aviso e o link chegam pelo grupo.
 
 **Botão:** ENTRAR NO GRUPO AGORA
-`{{link_grupo}}` = [[LINK: grupo WhatsApp]]
+[[LINK: grupo geral | email | ob-01-s3]]
 
 Dia 03/11, às 20h, no YouTube.
 
@@ -108,7 +108,7 @@ Você já está no Clube. Então a conversa da live é diferente para você: é 
 Para receber o aviso e o link na hora, entre no grupo. Se você saiu do grupo, volte pelo mesmo botão.
 
 **Botão:** ENTRAR NO GRUPO DA LIVE
-`{{link_grupo}}` = [[LINK: grupo WhatsApp alunas]]
+[[LINK: grupo alunas | email | ob-02-s1]]
 
 Um abraço,
 Dra. Próton
@@ -131,7 +131,7 @@ Você sabe o que acontece quando a pessoa aparece de verdade. A pergunta que eu 
 Para receber o aviso e o link na hora, entre no grupo.
 
 **Botão:** ENTRAR NO GRUPO DA LIVE
-`{{link_grupo}}` = [[LINK: grupo WhatsApp]]
+[[LINK: grupo viveu o método | email | ob-02-s2]]
 
 Um abraço,
 Dra. Próton
@@ -155,7 +155,7 @@ Na live eu mostro os cinco padrões que mais seguram as pessoas: Termostato Invi
 Para receber o aviso e o link na hora, entre no grupo.
 
 **Botão:** ENTRAR NO GRUPO DA LIVE
-`{{link_grupo}}` = [[LINK: grupo WhatsApp]]
+[[LINK: grupo geral | email | ob-02-s3]]
 
 Um abraço,
 Dra. Próton
@@ -169,16 +169,16 @@ Dispara só para quem não entrou no grupo. No Desafio esse e-mail vendia o ingr
 ### OB-03 / S1 Alunas do Clube
 
 **Assunto:** Aconteceu algo, {{nome}}?
-**Linha de preview:** A condição de aluna é contada uma vez, ao vivo
+**Linha de preview:** A condição de aluna é contada ao vivo, na live
 
 Faz um dia que você se inscreveu na live, e o grupo ficou para depois. Aconteceu algo?
 
-Eu pergunto porque a condição de aluna é contada uma vez, ao vivo. Se você ficar sem o aviso, pode saber por outra pessoa, e eu não quero isso para quem já está comigo.
+Eu pergunto porque a condição de aluna é contada ao vivo, na live, e o aviso chega pelo grupo. Sem ele, você corre o risco de perder a hora, e eu não quero isso para quem já está comigo.
 
 O grupo é só isto: o aviso e o link, no seu WhatsApp, no dia 03/11.
 
 **Botão:** ENTRAR NO GRUPO E RECEBER O AVISO
-`{{link_grupo}}` = [[LINK: grupo WhatsApp alunas]]
+[[LINK: grupo alunas | email | ob-03-s1]]
 
 Se você prefere outro canal, responda este e-mail e a equipe resolve. Tudo o que eu anunciar, anuncio ao vivo, no canal oficial da live.
 
@@ -192,10 +192,10 @@ Dra. Próton
 
 {{nome}}, sua inscrição na live está feita, mas o grupo ainda não. Aconteceu algo?
 
-"Não trave o processo." É o que eu peço agora: não deixe o segundo passo para depois. Na live eu abro uma condição que só é contada ali, na hora, e o aviso chega pelo grupo.
+"Não trave o processo." É o que eu peço agora: não deixe o segundo passo para depois. Na live eu abro uma condição que é contada ali, ao vivo, e o aviso chega pelo grupo.
 
 **Botão:** ENTRAR NO GRUPO E RECEBER O AVISO
-`{{link_grupo}}` = [[LINK: grupo WhatsApp]]
+[[LINK: grupo viveu o método | email | ob-03-s2]]
 
 Nos vemos no dia 03/11, às 20h.
 
@@ -214,7 +214,7 @@ Se foi o corre do dia, tudo bem. Mas eu queria que você não deixasse isso para
 O próximo passo leva menos de um minuto: entrar no grupo, onde o aviso e o link da live chegam. A condição é anunciada ao vivo, no dia 03/11, às 20h.
 
 **Botão:** ENTRAR NO GRUPO E RECEBER O AVISO
-`{{link_grupo}}` = [[LINK: grupo WhatsApp]]
+[[LINK: grupo geral | email | ob-03-s3]]
 
 Um abraço,
 Dra. Próton
@@ -230,3 +230,17 @@ Dra. Próton
 5. **Onde o Desafio tinha peça e a Black não.** O e-mail "venda do ingresso" não existe aqui, porque a inscrição é gratuita. A venda só começa na live. A reativação (OB-03) cumpre o papel de recuperar quem não deu o passo.
 6. **Pendência.** `[[CONFIRMAR: contagem de alunas do Clube]]` define se S1 precisa de lista própria de grupo.
 7. **Aula de terça.** 03/11 é terça, dia da aula ao vivo do Clube: a decisão está marcada em OB-02 (S1) e em SA-06.
+
+## Links desta peça
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| OB-01 / S1 | [[LINK: grupo alunas | email | ob-01-s1]] | Convite do grupo de WhatsApp das alunas do Clube (botão principal) | Automação (rodízio SendFlow) |
+| OB-01 / S2 | [[LINK: grupo viveu o método | email | ob-01-s2]] | Convite do grupo de WhatsApp de quem viveu Desafio, Imersão ou Aulão (botão principal) | Automação (rodízio SendFlow) |
+| OB-01 / S3 | [[LINK: grupo geral | email | ob-01-s3]] | Convite do grupo geral de WhatsApp da live (botão principal) | Automação (rodízio SendFlow) |
+| OB-02 / S1 | [[LINK: grupo alunas | email | ob-02-s1]] | Convite do grupo de WhatsApp das alunas do Clube (botão principal) | Automação (rodízio SendFlow) |
+| OB-02 / S2 | [[LINK: grupo viveu o método | email | ob-02-s2]] | Convite do grupo de WhatsApp de quem viveu Desafio, Imersão ou Aulão (botão principal) | Automação (rodízio SendFlow) |
+| OB-02 / S3 | [[LINK: grupo geral | email | ob-02-s3]] | Convite do grupo geral de WhatsApp da live (botão principal) | Automação (rodízio SendFlow) |
+| OB-03 / S1 | [[LINK: grupo alunas | email | ob-03-s1]] | Convite do grupo de WhatsApp das alunas do Clube (botão principal) | Automação (rodízio SendFlow) |
+| OB-03 / S2 | [[LINK: grupo viveu o método | email | ob-03-s2]] | Convite do grupo de WhatsApp de quem viveu Desafio, Imersão ou Aulão (botão principal) | Automação (rodízio SendFlow) |
+| OB-03 / S3 | [[LINK: grupo geral | email | ob-03-s3]] | Convite do grupo geral de WhatsApp da live (botão principal) | Automação (rodízio SendFlow) |

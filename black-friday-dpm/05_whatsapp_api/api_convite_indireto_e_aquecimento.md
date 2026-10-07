@@ -1,20 +1,22 @@
+> A versão D (demais alunos) é BANCO DE RESERVA: a série canônica de API para quem viveu o método e não é do Clube é `13_modelo_dr_joao/api_demais_alunos_captacao.md` (api-viveu-01 a 08, às 09h). As versões N e A seguem agendadas nas datas do `cronograma_de_disparos.md`, sem coincidir com nenhuma mensagem da série canônica de alunas (`api_alunas_captacao.md`, `email_alunas_captacao.md`).
+
 # API de convite indireto e aquecimento: sequência de 5 mensagens em 3 versões
 
 | Campo | Conteúdo |
 |---|---|
 | **Peça** | Sequência de 5 mensagens de API (abordagem com botão sim/não, entrega de valor, depoimento, convite para a live, pós-clique) mais a resposta ao "não". 3 versões: A (alunas do Clube), D (demais alunos), N (não-alunas) = 15 mensagens + 3 respostas ao "não" |
 | **Canal** | WhatsApp API oficial. A mensagem 1 é template de marketing com 2 botões e **precisa de aprovação da Meta** (ver seção "Aprovação de template"). As mensagens 2 a 5 são enviadas dentro da janela de 24 horas aberta pelo clique em "SIM" e não são templates |
-| **Público** | Lista 2026 e leads antigos que **ainda não reservaram a vaga na live**. A: alunas do Clube que não reservaram. D: compradores de Desafio/Imersão/Aulão sem Clube. N: base fria e leads antigos |
-| **Momento** | Onda 1: 13/10, 09h. Onda 2: 20/10, 09h, só para quem não clicou na onda 1. Onda 3: 28/10, 09h, só para quem não clicou nas anteriores |
-| **Objetivo** | Aquecer com uma informação útil (Termostato Invisível e o ciclo de recomeçar) e converter a atenção em **reserva da vaga na live de 03/11**. Não vende nada: a reserva é gratuita |
+| **Público** | Lista 2026 e leads antigos que **ainda não reservaram o lugar na live**. A: alunas do Clube que não reservaram. D: compradores de Desafio/Imersão/Aulão sem Clube (versão em reserva, ver nota no topo). N: base fria e leads antigos |
+| **Momento** | N: onda 1 em 13/10 (09h05), onda 2 em 20/10 (09h05) e onda 3 em 28/10 (09h00). A: onda 1 em 13/10 (09h10), onda 2 em 18/10 (09h00) e onda 3 em 28/10 (09h05). Cada onda atinge só quem não clicou na anterior. D: em reserva, porque a série canônica `api-viveu-01` a `08` já cobre essa base em 13/10, 16/10, 20/10, 23/10, 27/10, 30/10, 02/11 e 03/11. As datas de A saem dos dias de API, e-mail e grupo da série canônica de alunas (15/10, 20/10, 21/10, 23/10, 27/10, 29/10, 31/10, 02/11 e 03/11) |
+| **Objetivo** | Aquecer com uma informação útil (Termostato Invisível e o ciclo de recomeçar) e converter a atenção em **reserva do lugar na live de 03/11**. Não vende nada: a reserva é gratuita |
 | **Consciência** | A: 4. D: 4 a 5. N: 1 a 3 (dor e solução) |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez": a mensagem 2 dá nome ao que a faz recomeçar, e a 4 oferece o lugar onde essa decisão se toma |
 | **Momento de vida** | N: funcional e exausta, dinheiro que não fica. D: viveu o evento e sentiu a rotina voltar. A: está no processo e às vezes volta ao automático |
 | **Modelo no Desafio** | mensagens de API de convite indireto do Desafio: Mensagem 1 abordagem, 2 entrega de valor, 3 depoimento, 4 convite/CTA, mensagem pós-clique |
 
-**O que mudou em relação ao Desafio.** No Desafio, a mensagem 4 vendia um ingresso pago, com lote e garantia. Na Black, nada é vendido: o CTA é reservar a vaga na live, e a mensagem 4 não cita preço nem lote. A entrega de valor deixa de explicar "crenças da infância" e passa a explicar o **Termostato Invisível** e o **ciclo de recomeçar**, que é a ideia da campanha. A mensagem 3 do Desafio narrava um depoimento no texto; aqui o print entra como `[[DEPOIMENTO REAL]]` e o texto não inventa o que a aluna disse.
+**O que mudou em relação ao Desafio.** No Desafio, a mensagem 4 vendia um ingresso pago, com lote e garantia. Na Black, nada é vendido: o CTA é reservar o lugar na live, e a mensagem 4 não cita preço nem lote. A entrega de valor deixa de explicar "crenças da infância" e passa a explicar o **Termostato Invisível** e o **ciclo de recomeçar**, que é a ideia da campanha. A mensagem 3 do Desafio narrava um depoimento no texto; aqui o print entra como `[[DEPOIMENTO REAL]]` e o texto não inventa o que a aluna disse.
 
-**Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com `*asterisco*`; botões em maiúsculas e neutros quanto ao gênero (a base fria tem homens); link em linha própria e separado do CTA; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" em todas as mensagens de API. Variáveis: `{{nome}}`, `{{link_reserva}}`. Nenhum template começa nem termina com variável (regra de aprovação da Meta).
+**Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com `*asterisco*`; botões em maiúsculas e neutros quanto ao gênero (a base fria tem homens); link em linha própria e separado do CTA; até 12 linhas; rodapé "Digite SAIR se não quiser mais receber mensagens" em todas as mensagens de API. Variável: `{{nome}}`. O link de reserva entra como token de link em cada pós-clique (captura A para N, captura C para A, captura D para D). Nenhum template começa nem termina com variável (regra de aprovação da Meta).
 
 **Cadência dentro da janela:** mensagem 2 logo após o clique em "SIM"; mensagem 3 de 1 a 2 minutos depois; mensagem 4 de 2 a 3 minutos depois da 3; mensagem 5 só quando clicar em "RESERVAR".
 
@@ -75,27 +77,27 @@ Digite SAIR se não quiser mais receber mensagens
 
 Dia *03/11, às 20h*, eu faço ao vivo, no YouTube, a live de revelação da *Black Próton Vitalícia*: a conta do Termostato Invisível ao vivo, o que eu construí para você parar de recomeçar e a oferta que o Clube Secreto nunca fez antes.
 
-Reservar a vaga é de graça. O preço e as condições só são revelados na live.
+Reservar o lugar é de graça. O preço e as condições só são revelados na live.
 
 "Eu prefiro que você não compre do que compre e não viva."
 
-Posso reservar a sua vaga?
+Posso reservar o seu lugar?
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botão:** `[ RESERVAR MINHA VAGA 💜 ]`
+**Botão:** `[ RESERVAR MEU LUGAR 💜 ]`
 
 ### API-BF-04.5-N: Pós-clique (direciona para a página de reserva)
 
 ```text
-Perfeito, {{nome}}! Sua vaga está a um passo. 🔴
+Perfeito, {{nome}}! Seu lugar está a um passo. 🔴
 
 Assim que você confirmar, recebe aqui o link do grupo e o diagnóstico dos 5 padrões. Nos vemos dia 03/11, às 20h.
 
 Preenche seu nome e WhatsApp, leva 1 minuto:
 
-{{link_reserva}}
+[[LINK: captura A | api | api-bf-04.5-n]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -107,7 +109,7 @@ Tudo bem, {{nome}}. Obrigada por avisar. 💜
 
 Se um dia você quiser entender por que a gente recomeça tanto, a reserva da live fica aqui:
 
-{{link_reserva}}
+[[LINK: captura A | api | api-bf-04.n-n]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -169,27 +171,27 @@ Digite SAIR se não quiser mais receber mensagens
 
 Dia *03/11, às 20h*, eu faço ao vivo, no YouTube, a live de revelação da *Black Próton Vitalícia*: o que eu construí para você não precisar recomeçar a cada evento, e a oferta que o Clube Secreto nunca fez antes.
 
-Reservar a vaga é de graça. O preço e as condições só são revelados na live.
+Reservar o lugar é de graça. O preço e as condições só são revelados na live.
 
 "Eu prefiro que você não compre do que compre e não viva."
 
-Posso reservar a sua vaga?
+Posso reservar o seu lugar?
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botão:** `[ RESERVAR MINHA VAGA 💜 ]`
+**Botão:** `[ RESERVAR MEU LUGAR 💜 ]`
 
 ### API-BF-04.5-D: Pós-clique
 
 ```text
-Perfeito, {{nome}}! Sua vaga está a um passo. 🔴
+Perfeito, {{nome}}! Seu lugar está a um passo. 🔴
 
 Assim que você confirmar, recebe aqui o link do grupo de quem viveu o método e o diagnóstico dos 5 padrões. Nos vemos dia 03/11, às 20h.
 
 Preenche seu nome e WhatsApp, leva 1 minuto:
 
-{{link_reserva}}
+[[LINK: captura D | api | api-bf-04.5-d]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -201,7 +203,7 @@ Tudo bem, {{nome}}. Obrigada por avisar. 💜
 
 Se um dia você quiser continuar de onde parou, a reserva da live fica aqui:
 
-{{link_reserva}}
+[[LINK: captura D | api | api-bf-04.n-d]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -263,27 +265,27 @@ Dia *03/11, às 20h*, eu revelo ao vivo, no YouTube, a *Black Próton Vitalícia
 
 Existe uma condição própria para quem já é aluna. Ela só é revelada na live.
 
-Reservar a vaga é de graça.
+Reservar o lugar é de graça.
 
 "Eu prefiro que você não compre do que compre e não viva."
 
-Posso reservar a sua vaga?
+Posso reservar o seu lugar?
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botão:** `[ RESERVAR MINHA VAGA 💜 ]`
+**Botão:** `[ RESERVAR MEU LUGAR 💜 ]`
 
 ### API-BF-04.5-A: Pós-clique
 
 ```text
-Perfeito, {{nome}}! Sua vaga está a um passo. 🔴
+Perfeito, {{nome}}! Seu lugar está a um passo. 🔴
 
 Assim que você confirmar, recebe aqui o link do grupo das alunas. A condição para alunas é revelada dia 03/11, às 20h.
 
 Confirma o seu nome e WhatsApp, leva 1 minuto:
 
-{{link_reserva}}
+[[LINK: captura C | api | api-bf-04.5-a]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -295,7 +297,7 @@ Tudo bem, {{nome}}. Obrigada por avisar. 💜
 
 Se mudar de ideia, a reserva da live fica aqui:
 
-{{link_reserva}}
+[[LINK: captura C | api | api-bf-04.n-a]]
 
 Digite SAIR se não quiser mais receber mensagens
 ```
@@ -306,9 +308,9 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Pendências**
 1. `[[DEPOIMENTO REAL]]`: três prints autorizados, um por versão (N: Termostato Invisível ou parar de recomeçar; D: aluna de Desafio/Imersão que continuou; A: aluna do Clube que parou e voltou). Pedir autorização por escrito. Não usar os trechos da audiência do arquivo 01 como se fossem depoimentos.
-2. `{{link_reserva}}`: um link por segmento, com UTM `src=api` e `utm_content` com o ID da mensagem (ex.: `api-bf-04-4-n`).
+2. Links: um por segmento (captura A para N, captura C para A, captura D para D), criados pelo web designer. O UTM sai do próprio token (canal `api` e ID da mensagem, ex.: `api-bf-04.5-n`).
 3. Os 51,9% vêm do dossiê de audiência do Desafio, pesquisa de presença (pergunta "quando entra dinheiro a mais, aparece uma conta ou um problema"). Escrever sempre "das pessoas que responderam à nossa pesquisa de presença" e não chamar de Aulão. A mensagem 2 não é template, então o dado pode ser trocado sem nova aprovação.
-4. Segmento A: não enviar a mensagem 4 para quem já reservou a vaga (excluir pela tag de reserva).
+4. Segmento A: não enviar a mensagem 4 para quem já reservou o lugar (excluir pela tag de reserva).
 
 **Testes A/B sugeridos**
 1. Mensagem 1: "Posso te mandar?" contra uma pergunta com a frase da audiência ("Você também sente que, quando o dinheiro cresce, alguma coisa puxa de volta?"). Medir taxa de clique em SIM.
@@ -322,7 +324,7 @@ Só a mensagem 1 é template. As demais saem como mensagem de sessão, dentro da
 | ID | Tipo | Categoria | Botões | Variáveis | Status |
 |---|---|---|---|---|---|
 | API-BF-04.1-N, 04.1-D, 04.1-A | Template com rodapé SAIR | Marketing | 2 (resposta rápida: SIM, MANDA e AGORA NÃO) | `{{nome}}` no meio do corpo | **PRECISA DE APROVAÇÃO**. Corpo curto (menos de 300 caracteres), sem preço, sem lote, sem escassez |
-| API-BF-04.2 a 04.5 e 04.N (N, D, A) | Mensagem de sessão (janela de 24 h) | Não se aplica | 04.4 tem 1 botão de resposta rápida | `{{nome}}`, `{{link_reserva}}` | Sem aprovação. Não enviar fora da janela |
+| API-BF-04.2 a 04.5 e 04.N (N, D, A) | Mensagem de sessão (janela de 24 h) | Não se aplica | 04.4 tem 1 botão de resposta rápida | `{{nome}}` | Sem aprovação. Não enviar fora da janela |
 
 **Dependências**
 - Página de reserva (`03_paginas`), com o formulário de nome, e-mail e WhatsApp.

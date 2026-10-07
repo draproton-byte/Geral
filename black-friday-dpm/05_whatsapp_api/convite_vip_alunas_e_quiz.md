@@ -7,16 +7,16 @@
 |---|---|
 | **Peça** | Parte A: Golden Ticket da Black, 3 mensagens de API (templates a aprovar) + 1 variante + 1 aviso em grupo, sem preço e com a condição como placeholder. Parte B: disparo de API para quem fez o diagnóstico dos 5 padrões, em duas versões (pré-live e pós-live), com a mensagem 2 em 5 variantes (uma por perfil) |
 | **Canal** | WhatsApp API oficial (templates com imagem de cabeçalho, texto e botões, **a aprovar na Meta**) e grupo de alunas |
-| **Público** | A: alunas ativas do Clube Secreto (consciência 4). B: quem fez o diagnóstico e ainda não reservou a vaga (pré-live) ou ainda não comprou (pós-live) (consciência 3 a 4) |
+| **Público** | A: alunas ativas do Clube Secreto (consciência 4). B: quem fez o diagnóstico e ainda não reservou o lugar (pré-live) ou ainda não comprou (pós-live) (consciência 3 a 4) |
 | **Momento** | A: 22/10 (convite), 29/10 (reforço), 02/11 (última chamada). B: pré-live de 14/10 a 02/11; pós-live a partir de 04/11, nos dias de lote |
-| **Objetivo** | A: fazer a aluna sentir que a Black foi pensada primeiro para ela e levá-la à live. B: transformar o resultado do diagnóstico em reserva de vaga (pré) ou em entrada (pós) |
+| **Objetivo** | A: fazer a aluna sentir que a Black foi pensada primeiro para ela e levá-la à live. B: transformar o resultado do diagnóstico em reserva de lugar (pré) ou em entrada (pós) |
 | **Trabalho contratado** | A: "ficar" (a aluna que já provou que sabe continuar). B: "dar nome ao padrão" e decidir uma vez |
 | **Momento de vida** | A: no meio do processo, às vezes volta ao automático. B: não sabia o que a travava (29% a 40% da base) e agora sabe |
 | **Modelo no Desafio** | Golden Ticket do Desafio (A) e disparo de API para quem fez o quiz do Desafio (B). Complemento: disparo "Primeiros 50" do Desafio (ver nota 6) |
 
 **O que mudou em relação ao Desafio.**
 - O Golden Ticket do Desafio dava um ingresso pago, com preço de entrada, para 100 pessoas que já tinham passado por workshop ou imersão. Na Black **não aparece preço** antes da live, e a aluna do Clube já tem uma condição de preço própria (a diferença fica só nas notas ao implementador de `vagas_abertas_e_virada_de_lote.md`). O Golden Ticket vira um convite VIP cuja condição é `[[CONFIRMAR: condição do Golden Ticket]]`.
-- O disparo do quiz do Desafio oferecia o "Lote 0 com 50% OFF" e dizia "99% das vagas já foram". Nenhuma das duas coisas é possível aqui: não há preço pré-live nem lote esgotando antes da revelação. A urgência pré-live é a data da live. A pós-live usa a escassez de lote real.
+- O disparo do quiz do Desafio oferecia o "Lote 0 com 50% OFF" e dizia "99% já foram vendidos". Nenhuma das duas coisas é possível aqui: não há preço pré-live nem lote esgotando antes da revelação. A urgência pré-live é a data da live. A pós-live usa a escassez de lote real.
 - O resultado do diagnóstico (os 5 perfis) personaliza a mensagem 2. No Desafio a mensagem 2 era única.
 
 **Regras de forma:** sempre "para", nunca a forma reduzida; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; até 12 linhas; máximo de 3 botões; rodapé "Digite SAIR se não quiser mais receber mensagens"; nenhum template começa nem termina com variável; nenhum preço, desconto ou número de unidades nos templates pré-live.
@@ -45,7 +45,7 @@ Toque no botão para ativar o seu. Ativar não é comprar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: ativação do Golden Ticket]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: página das alunas | api | api-bf-05.1]]` · `[ PARAR MENSAGENS ]`
 
 ## API-BF-05.1V | Variante curta ("Dra. Próton aqui")
 
@@ -65,7 +65,7 @@ Toque no botão abaixo para confirmar os detalhes. 👇
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ CONFIRMAR OS DETALHES ]` → `[[LINK: ativação do Golden Ticket]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ CONFIRMAR OS DETALHES ]` → `[[LINK: página das alunas | api | api-bf-05.1v]]` · `[ PARAR MENSAGENS ]`
 
 ## API-BF-05.2 | Reforço | 29/10, 09:00 | Quem não ativou
 
@@ -81,7 +81,7 @@ Toque no botão para ativar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: ativação do Golden Ticket]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: página das alunas | api | api-bf-05.2]]` · `[ PARAR MENSAGENS ]`
 
 ## API-BF-05.3 | Último aviso | 02/11, 09:00 | Quem ativou e quem não ativou
 
@@ -99,7 +99,7 @@ Toque no botão para ativar o lembrete da live.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live no YouTube, 03/11]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR LEMBRETE ]` → `[[LINK: live YouTube | api | api-bf-05.3]]` · `[ PARAR MENSAGENS ]`
 
 **Quem não ativou:**
 
@@ -113,7 +113,7 @@ Toque no botão para ativar.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: ativação do Golden Ticket]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ ATIVAR MEU GOLDEN TICKET ]` → `[[LINK: página das alunas | api | api-bf-05.3]]` · `[ PARAR MENSAGENS ]`
 
 ## CP-BF-GT01 | 22/10, 11:30 | Aviso no grupo de alunas
 
@@ -141,7 +141,7 @@ Reage com 🪙 se você recebeu.
 
 ## B1. Versão pré-live (14/10 a 02/11)
 
-**Público:** fez o diagnóstico e não reservou a vaga na live. Excluir alunas ativas do Clube (que recebem a parte A).
+**Público:** fez o diagnóstico e não reservou o lugar na live. Excluir alunas ativas do Clube (que recebem a parte A).
 
 ### API-BF-06.1 | Mensagem 1: abordagem
 
@@ -150,12 +150,12 @@ O resultado do seu diagnóstico dos 5 padrões está pronto, {{nome}}. 💜
 
 Toque no botão para ver qual padrão faz você recomeçar.
 
-Se ainda não reservou a sua vaga na live de *terça, 03/11, às 20h*, a reserva é gratuita e fica na página do resultado.
+Se ainda não reservou o seu lugar na live de *terça, 03/11, às 20h*, a reserva é gratuita e fica na página do resultado.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VER MEU RESULTADO ]` → `[[LINK: página de resultado do diagnóstico]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ VER MEU RESULTADO ]` → `[[LINK: diagnóstico | api | api-bf-06.1]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-06.2 | Mensagem 2: após o clique (5 variantes, uma por perfil)
 
@@ -174,9 +174,9 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo, com a
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve a sua vaga, é gratuita 👇
+Reserve o seu lugar, é gratuita 👇
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | api | api-bf-06.2-ti]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
 
@@ -196,9 +196,9 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve a sua vaga, é gratuita 👇
+Reserve o seu lugar, é gratuita 👇
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | api | api-bf-06.2-as]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
 
@@ -218,9 +218,9 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve a sua vaga, é gratuita 👇
+Reserve o seu lugar, é gratuita 👇
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | api | api-bf-06.2-cb]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
 
@@ -240,9 +240,9 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve a sua vaga, é gratuita 👇
+Reserve o seu lugar, é gratuita 👇
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | api | api-bf-06.2-tr]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
 
@@ -262,9 +262,9 @@ Isso é um padrão que dá para enxergar, e é isso que eu mostro ao vivo.
 
 🔓 A condição da *Black Próton Vitalícia* é revelada só na live
 
-Reserve a sua vaga, é gratuita 👇
+Reserve o seu lugar, é gratuita 👇
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | api | api-bf-06.2-cq]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
 
@@ -280,9 +280,9 @@ Você fez o diagnóstico porque quer entender o que te faz recomeçar. É justam
 
 Você não precisa aplicar por conta própria depois: eu mostro, e a gente pratica junto, na hora.
 
-👉 Reserve a sua vaga:
+👉 Reserve o seu lugar:
 
-[[LINK: página de reserva da live]]
+[[LINK: captura A | api | api-bf-06.3]]
 
 Eu costumo dizer: _"Eu prefiro que você não compre do que compre e não viva."_ Reserve para ver. Decida depois, com calma.
 
@@ -305,7 +305,7 @@ Toque no botão para ver o seu resultado e a condição do lote atual.
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ VER MINHA CONDIÇÃO ]` → `[[LINK: página de resultado do diagnóstico]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ VER MINHA CONDIÇÃO ]` → `[[LINK: diagnóstico | api | api-bf-06.p1]]` · `[ PARAR MENSAGENS ]`
 
 ### API-BF-06.P2 | Mensagem 2: após o clique
 
@@ -322,9 +322,9 @@ O seu diagnóstico mostrou o padrão *{{perfil}}*. E mostrou uma coisa: *não é
 
 Garantia: [[PENDENTE: garantia]]
 
-Garanta a sua vaga 👇
+Garanta o seu lugar 👇
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-06.p2]]
 
 _Me diz: quanto está custando continuar mais um ano no mesmo lugar?_
 
@@ -342,7 +342,7 @@ Existe uma trilha de entrada, um passo de cada vez. [[CONFIRMAR: ordem de entrad
 
 👉 Se for a sua hora:
 
-{{link_checkout}}
+[[LINK: checkout S3-ESP | api | api-bf-06.p3]]
 
 Eu costumo dizer: _"Eu prefiro que você não compre do que compre e não viva."_ Se for para entrar, entra para viver.
 

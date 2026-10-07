@@ -21,7 +21,9 @@
 3. É objeção de **verdade** (aperto real, medo) ou de **prioridade** (educada, escondendo outra coisa)?
 4. O checkout já abriu? Antes de 21h28 de 03/11 não existe link: onde o roteiro diz "link do seu lote", troque por "eu te aviso quando abrir". Depois, o link só vai com a pessoa em conversa aberta, nunca para quem está em silêncio.
 
-**Formato das mensagens:** curtas, uma linha em branco entre as linhas, sempre "para", link em linha própria.
+**Formato das mensagens:** curtas, uma linha em branco entre as linhas, sempre "para", link em linha própria, sempre no token do mapa de links (`[[LINK: <destino> | comercial | comercial-ID-VENDEDOR]]`, `ID-VENDEDOR` é o identificador de quem atende).
+
+**Qual checkout.** S1 usa `checkout S1-...`, S2 usa `checkout S2-...` e S3 usa `checkout S3-...`. Nos blocos abaixo o token está no Primeiro Lote (`-1L`), o lote das conversas de 04/11 em diante, enquanto o Lote Especial for só da noite da live `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. Se o Lote Especial durar mais, trocar por `-ESP`; na virada de lote, por `-UL` (`[[PENDENTE: data do lote]]`).
 
 **Regras:** nunca dê desconto. Nunca prometa ganho financeiro, tratamento ou fim da autossabotagem. Nunca force fechamento. Sinal vermelho (crise aguda, endividamento desesperado, luto, doença): acolhe, não oferta, escala. Quem pede para parar sai na hora.
 
@@ -413,7 +415,7 @@ Qual desses caminhos faz mais sentido para você?
 ```
 Você não precisa acreditar agora, {{nome}}.
 
-Entra, olha por dentro e decide com informação. [[PENDENTE: garantia]]
+Decide com informação, no seu tempo. [[PENDENTE: garantia]]
 ```
 
 ---
@@ -439,9 +441,9 @@ Como você está se sentindo com tudo isso?
 ```
 Por isso eu prefiro que você não entre endividando mais.
 
-O mais importante agora é o seu fôlego. O diagnóstico e o conteúdo gratuito continuam com você, sem compromisso.
+O mais importante agora é o seu fôlego. O conteúdo gratuito continua com você, sem compromisso.
 
-Quer que eu te mande o diagnóstico?
+Se quiser me contar mais sobre o que está pesando, eu escuto.
 ```
 
 **Encerramento:**
@@ -521,9 +523,13 @@ O que eu não quero é que você se endivide para estar aqui. Qual forma cabe me
 **Encerramento:**
 
 ```
-Me fala a forma que você prefere e eu te mando o link certo.
+Me fala a forma que você prefere, {{nome}}, e eu te acompanho até o fim do pagamento.
 
-{{link}}
+O link do seu lote está aqui:
+
+[[LINK: checkout S3-1L | comercial | comercial-ID-VENDEDOR]]
+
+Para S1 (alunas), o token passa a `[[LINK: checkout S1-1L | comercial | comercial-ID-VENDEDOR]]`; para S2, a `[[LINK: checkout S2-1L | comercial | comercial-ID-VENDEDOR]]`.
 ```
 
 ---
@@ -537,7 +543,7 @@ Me fala a forma que você prefere e eu te mando o link certo.
 ```
 Sobre a garantia da Vitalícia, {{nome}}: [[PENDENTE: garantia]]. [[CONFIRMAR: a Vitalícia mantém os 7 dias do Clube]]
 
-Definido o prazo, o pedido é simples: você me fala por aqui, sem formulário difícil.
+Definido o prazo, o pedido é simples: você me fala por aqui, sem formulário difícil. [[CONFIRMAR: processo de reembolso, antes de dizer que é simples]]
 
 Faz sentido?
 ```
@@ -547,7 +553,9 @@ Faz sentido?
 ```
 Ninguém precisa ficar onde não quer estar.
 
-Para pedir, é só me falar por aqui ou usar: [[LINK: instrução de reembolso]]. Vale dentro do prazo definido em [[PENDENTE: garantia]].
+Para pedir, é só me falar por aqui ou usar o link abaixo. Vale dentro do prazo definido em [[PENDENTE: garantia]].
+
+[[LINK: reembolso | comercial | comercial-ID-VENDEDOR]]
 ```
 
 **Encerramento:**
@@ -559,6 +567,18 @@ Quer o link do seu lote?
 ```
 
 O link só existe a partir de 21h28 de 03/11.
+
+### Entrega do link, depois que ela diz sim (objeções d, g e m)
+
+```
+Aqui está, {{nome}}, o link do seu lote:
+
+[[LINK: checkout S3-1L | comercial | comercial-ID-VENDEDOR]]
+
+Se travar em qualquer passo, me chama por aqui?
+```
+
+S1 (alunas): `[[LINK: checkout S1-1L | comercial | comercial-ID-VENDEDOR]]`. S2: `[[LINK: checkout S2-1L | comercial | comercial-ID-VENDEDOR]]`. Só vai depois do pedido dela, nunca para quem está em silêncio nem nas respostas da letra j.
 
 **Regra:** **nunca dificulte o reembolso.** A garantia sem atrito é o argumento mais forte que o time tem, e só vale se for verdadeira.
 
@@ -582,7 +602,7 @@ O link só existe a partir de 21h28 de 03/11.
 
 ## Notas ao implementador
 
-**Pendências:** `[[PENDENTE: garantia]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: preço avulso]]`, `[[PENDENTE: regra de migração]]`, `[[PENDENTE: data do lote]]`, `[[CONFIRMAR: parcelamento no cartão versus recorrente]]`, `[[LINK: instrução de reembolso]]`, `{{data_lote}}`.
+**Pendências:** `[[PENDENTE: garantia]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: preço avulso]]`, `[[PENDENTE: regra de migração]]`, `[[PENDENTE: data do lote]]`, `[[CONFIRMAR: parcelamento no cartão versus recorrente]]`, `{{data_lote}}`.
 
 **Decisões para validar:**
 - A pergunta que separa (objeção a) é o único ponto novo em relação ao Desafio. O Desafio tratava as duas naturezas com a mesma resposta (valor por noite e garantia), porque o ingresso era baixo. Na Black o ticket é alto e as duas naturezas pedem respostas opostas.
@@ -593,3 +613,15 @@ O link só existe a partir de 21h28 de 03/11.
 **Teste A/B sugerido:** objeção a, pergunta que separa ("Se o valor coubesse no seu mês, você entraria?") versus resposta direta de parcelamento. Métrica: taxa de resposta e conversão por natureza.
 
 **Dependências:** `narrativa_da_dra_na_black.md`, `copies_por_evento_pipeline.md`, `playbook_do_dia_da_live.md`, `08_live_e_pitch/roteiro_live_de_revelacao.md` (blocos 14 e 16).
+
+---
+
+## Links desta peça
+
+Todos os tokens usam o canal `comercial` e o ID `comercial-ID-VENDEDOR`. Os blocos estão no Primeiro Lote (`-1L`); regra de troca por `-ESP` ou `-UL` no começo do arquivo. A letra j nunca leva link. Nenhuma URL real é inventada.
+
+| ID da peça | Token | O que o link faz | Quem cria |
+|---|---|---|---|
+| Objeção l, encerramento | `[[LINK: checkout S3-1L \| comercial \| comercial-ID-VENDEDOR]]` | Checkout de não-alunas e base fria, Primeiro Lote, depois que ela escolheu a forma de pagamento (S1: `S1-1L`; S2: `S2-1L`) | Financeiro / Hotmart |
+| Objeção m, resposta 2 | `[[LINK: reembolso \| comercial \| comercial-ID-VENDEDOR]]` | Instrução de pedido de reembolso, só se a garantia estiver confirmada | Suporte |
+| Entrega do link (objeções d, g e m) | `[[LINK: checkout S3-1L \| comercial \| comercial-ID-VENDEDOR]]` | Checkout de não-alunas e base fria, Primeiro Lote, só depois que ela diz sim (S1: `S1-1L`; S2: `S2-1L`) | Financeiro / Hotmart |

@@ -7,9 +7,9 @@
 **Objetivo:** responder com a fala dela, não com argumento de vendedor, e deixar a pessoa decidir com informação ou sair com dignidade
 **Estágio de consciência:** 3 a 5
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." Cada resposta devolve a decisão para a pessoa
-**Modelo no Desafio:** seção 5 de `10_comercial_narrativa_e_quebra_de_objecoes.md` ("Quebra de objeção com a voz dela"), seção 6 do Banco de Templates (OB1 a OB6) e seção 5 do Manual do Comercial
+**Modelo no Desafio:** material do Comercial do Desafio "Quebra de objeção com a voz dela", respostas OB1 a OB6 do Banco de Templates e seção de objeções do Manual do Comercial
 
-> **A regra do documento (herdada do Desafio):** nunca invente argumento novo quando a Dra. já deu um melhor. Cada objeção tem **no máximo duas respostas e um encerramento**. Se a pessoa continuar, não tenha uma terceira resposta: escale ou encerre.
+> **A regra do documento (herdada do Desafio):** nunca invente argumento novo quando a Dra. já deu um melhor. Cada objeção tem **no máximo duas respostas e um encerramento**. Se a pessoa continuar depois do encerramento, não tenha uma terceira resposta: escale ou encerre. O encerramento fecha o roteiro; se ela responder a ele, a conversa passa a ser humana, com a coordenação de apoio, e não abre um segundo roteiro.
 
 ---
 
@@ -17,12 +17,12 @@
 
 **Antes de responder, confira:**
 1. A pessoa já viu o valor? Se a conversa é pré-live, **nunca cite valor**. Resposta única: "A condição é revelada ao vivo, na live de 03/11, às 20h."
-2. Qual é o segmento (aluna do Clube, comprou Desafio ou Imersão, só Aulão, ficha quente, morna, fria)?
+2. Qual é o segmento: S1 (aluna do Clube), S2 (viveu Desafio, Imersão ou Aulão e não é do Clube; paga como não-aluna até decisão contrária) ou S3 (não-aluna e base fria: ficha quente, morna, fria)?
 3. É objeção de **verdade** (aperto real, medo) ou de **prioridade** (educada, escondendo outra coisa)?
 
 **Formato das mensagens:** curtas, uma linha em branco entre as linhas, "para" e nunca "pra", link em linha própria.
 
-**Regras:** nunca dê desconto. Nunca prometa ganho financeiro, cura ou fim da autossabotagem. Nunca force fechamento. Sinal vermelho (crise aguda, dívida desesperada, luto, doença): acolhe, não oferta, escala.
+**Regras:** nunca dê desconto. Nunca prometa ganho financeiro, tratamento ou fim da autossabotagem. Nunca force fechamento. Sinal vermelho (crise aguda, endividamento desesperado, luto, doença): acolhe, não oferta, escala. Quem pede para parar sai na hora.
 
 ### Quadro-resumo
 
@@ -37,7 +37,7 @@
 | g | Preciso falar com meu marido/esposa | 1% (Aulão) | Decisão compartilhada | Facilitar a conversa |
 | h | Já sou do Clube, por que pagar de novo | Alunas | Dúvida de valor do upgrade | O que muda, o que já fez conta |
 | i | Será que funciona para mim | 7% (ficha), 3% (Aulão) | Medo | Honestidade; garantia |
-| j | Estou endividada | 19,2% (dossiê do Aulão) | Delicada | Honestidade; não prometer |
+| j | Estou endividada | 19,2% (quiz do dossiê do Desafio) | Delicada | Acolher; honestidade; não vender nem prometer |
 | k | E se a Vitalícia voltar mais barata | Específica da Black | Dúvida de timing | Só as formas aprovadas |
 | l | Parcelamento e entrada | Cartão parcelado é a forma mais escolhida (ficha) | Prática | Placeholders; só se couber |
 | m | Garantia | Específica da Black | Prática | `[[PENDENTE: garantia]]` |
@@ -53,36 +53,26 @@
 
 **Não dá para saber qual é qual olhando a mensagem.** Por isso o primeiro movimento é uma pergunta que separa. O lead não vê esse rótulo: ele só vê uma pergunta honesta.
 
-### Pergunta que separa (sempre primeiro)
+**Estrutura (duas respostas e um encerramento):** a Resposta 1 é sempre a pergunta que separa. A Resposta 2 e o encerramento mudam conforme a natureza que ela revelar.
+
+### Resposta 1: a pergunta que separa (sempre primeiro)
 
 ```
 Entendo, {{nome}}, e não vou empurrar nada.
 
-Posso te perguntar uma coisa para eu te ajudar do jeito certo?
-
 Se o valor coubesse no seu mês, você entraria?
 ```
 
-### Se ela responder "não, está apertado de verdade" (aperto real)
-
-**Resposta 1:**
+### Resposta 2, se ela responder "não, está apertado de verdade" (aperto real)
 
 ```
 Obrigada por ser sincera, {{nome}}.
 
 Então vou ser sincera também: eu prefiro que você não compre do que compre e não viva.
 
-Se existir um jeito que caiba sem te endividar, eu te mostro. Se não existir, não entra.
-
-Quer que eu te mostre as formas de pagamento para ver se alguma cabe?
-```
-
-**Resposta 2 (só se ela disser que quer ver):**
-
-```
 Tem o parcelamento em até [[PENDENTE: parcelamento máximo]] vezes. [[CONFIRMAR: entrada mais parcelas, Pix, boleto]]
 
-Se mesmo assim não couber, tudo bem. Eu entendo de verdade.
+Se mesmo assim não couber sem te endividar, não entra. Alguma dessas formas cabe no seu mês?
 ```
 
 **Encerramento (aperto real, sem pressão):**
@@ -90,14 +80,10 @@ Se mesmo assim não couber, tudo bem. Eu entendo de verdade.
 ```
 Então fica com o diagnóstico e com o conteúdo gratuito, {{nome}}. Não é pouco.
 
-Só te falo com transparência: esta condição não se repete, e o que vier depois é outra oferta, com outro preço. Não vou te prometer nada além disso.
-
-Se um dia fizer sentido, é só me chamar.
+Se um dia fizer sentido, é só me chamar. Eu fico por aqui, sem te cobrar nada.
 ```
 
-### Se ela responder "sim, entraria" ou "não sei" (prioridade)
-
-**Resposta 1 (a conta da Dra., Aula 3):**
+### Resposta 2, se ela responder "sim, entraria" ou "não sei" (prioridade)
 
 ```
 Lembra da conta que a Dra. fez na Aula 3?
@@ -107,31 +93,21 @@ Ela perguntou quanto você investiu em você nos últimos seis meses, e a maiori
 Um vezes zero é zero. Mil vezes zero é zero. Um bilhão vezes zero continua zero.
 
 Não é sobre o valor. É sobre você entrar na conta.
+
+Faz sentido para você?
 ```
 
-**Resposta 2 (se ela insistir, com leveza):**
-
-```
-Posso te falar uma coisa com carinho?
-
-Essa frase, "não tenho agora", é a que o depois mais usa para se esconder.
-
-A Dra. diz: eu valho mais que uma pizza.
-
-Não é para comparar com o valor. É para olhar para onde o seu dinheiro vai quando é prioridade.
-```
-
-**Encerramento:**
+**Encerramento (prioridade):**
 
 ```
 Sem pressa, {{nome}}. A decisão é sua.
 
-Só te aviso que o lote vira em {{data_lote}}, e essa condição não se repete.
+Só te aviso que o lote vira em {{data_lote}}, e esta condição não se repete.
 
 Se quiser, me conta o que te faria dizer sim.
 ```
 
-**Atenção.** Nunca use o argumento da pizza como justificativa do **preço** da Vitalícia (o preço de uma pizza é de R$ 97; a conta é outra). Ele serve só para a prioridade.
+**Atenção.** O encerramento de prioridade só cita o lote se `{{data_lote}}` for uma data real (`[[PENDENTE: data do lote]]`). A frase "Eu valho mais que uma pizza" não entra como resposta extra: só aparece se a própria pessoa trouxer o tema, na conversa humana depois do encerramento, e nunca como justificativa do preço da Vitalícia.
 
 ---
 

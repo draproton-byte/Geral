@@ -9,7 +9,7 @@
 | **Objetivo** | Não perder quem já tomou uma decisão: entrar no grupo, concluir o pagamento, pagar de novo ou começar a trilha de entrada |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Aqui ela já tomou. A mensagem tira o atrito e o arrependimento (que nasce no silêncio depois da compra) |
 | **Momento de vida** | Aperto real (cartão sem limite, Pix, parcelamento); funcional e exausta (mensagem curta, passo único); quer entrar de vez e teme não aplicar (trilha) |
-| **Modelo no Desafio** | `desafio_dra_proton_copy_recuperacao_de_grupo_desafio_nr_0926.md`, `desafio_api_carrinho_abandonado.md`, `desafio_api_compra_aprovada.md`, `desafio_api_compra_recusada.md`; e `clubesecreto_pix_emitido.md`, `clubesecreto_pix_expirado.md`, `clubesecreto_boleto_emitido.md`, `clubesecreto_boleto_vencido.md`, `clubesecreto_carrinho_abandonado_clube_secreto.md`, `clubesecreto_compra_aprovada_clube_secreto.md`, `clubesecreto_compra_recusada_clube_secreto.md`, `clubesecreto_reembolso.md` |
+| **Modelo no Desafio** | copy de recuperação de grupo do Desafio, API de carrinho abandonado do Desafio, API de compra aprovada do Desafio, API de compra recusada do Desafio; e Pix emitido do Clube Secreto, Pix expirado do Clube Secreto, boleto emitido do Clube Secreto, boleto vencido do Clube Secreto, carrinho abandonado do Clube Secreto, compra aprovada do Clube Secreto, compra recusada do Clube Secreto, régua de reembolso do Clube Secreto |
 
 **Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; rodapé "Digite SAIR se não quiser mais receber mensagens"; nenhuma contagem de dias no texto (data fixa ou variável). Preços só por `[[PREÇO LOTE ...]]` e só depois da live.
 
@@ -221,7 +221,7 @@ Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 
 🏷️ *{{lote_atual}} para alunas:* [[PREÇO LOTE ALUNAS]] [[CONFIRMAR: parcelamento]]
 
-O que acontece com o seu acesso atual: [[PENDENTE: regra de migração]]
+O que acontece com o seu acesso atual: [[CONFIRMAR: regra de migração]]
 
 Toque no botão para voltar ao checkout.
 
@@ -461,7 +461,7 @@ Comece por aqui, em 3 passos:
 
 2️⃣ Abra a página de onboarding e veja a *trilha de entrada*: {{link_onboarding}}
 
-3️⃣ Dê o primeiro passo nas próximas 48 horas: [[PENDENTE: primeiro passo da trilha]]
+3️⃣ Dê o primeiro passo nas próximas 48 horas: [[CONFIRMAR: primeiro passo da trilha]]
 
 Você não precisa fazer tudo de uma vez. O acesso é vitalício, e o que importa é não deixar o automático voltar.
 
@@ -483,9 +483,9 @@ Comece por aqui, em 3 passos:
 
 1️⃣ Entre no grupo dos vitalícios: {{link_grupo}}
 
-2️⃣ Veja a trilha de entrada e o que acontece com o seu acesso atual: {{link_onboarding}} [[PENDENTE: regra de migração]]
+2️⃣ Veja a trilha de entrada e o que acontece com o seu acesso atual: {{link_onboarding}} [[CONFIRMAR: regra de migração]]
 
-3️⃣ Escolha o seu próximo passo nas próximas 48 horas: [[PENDENTE: primeiro passo da trilha]]
+3️⃣ Escolha o seu próximo passo nas próximas 48 horas: [[CONFIRMAR: primeiro passo da trilha]]
 
 Se precisar de ajuda, fale com o suporte: [[LINK: suporte WhatsApp]]
 ```
@@ -538,7 +538,7 @@ O seu relato ajuda outra pessoa a decidir. Eu só publico com a sua autorizaçã
 
 ## 6. Reembolso
 
-Depende de `[[PENDENTE: garantia]]`. Modelo: `clubesecreto_reembolso.md`. Se a garantia não for mantida, não disparar.
+Depende de `[[PENDENTE: garantia]]`. Modelo: régua de reembolso do Clube Secreto. Se a garantia não for mantida, não disparar.
 
 ### API-BF-RF1 | Pedido recebido
 
@@ -559,7 +559,7 @@ Suporte: [[LINK: suporte WhatsApp]]
 
 ⏱️ Prazos para o valor aparecer:
 
-Pix: até [[PENDENTE: prazo]] dias úteis.
+Pix: até [[CONFIRMAR: prazo do reembolso]] dias úteis.
 
 Cartão: pode levar até 2 faturas, dependendo do banco.
 
@@ -584,10 +584,10 @@ Dra. Próton
 
 **Pendências**
 1. `{{lote_atual}}`, `{{data_virada}}`, `{{link_checkout}}` por lote e segmento, `{{link_onboarding}}`: precisam existir no ListBoss/DataCrazy. São a causa mais provável de erro (lote errado no texto). Testar com compra de teste em cada lote.
-2. `[[PENDENTE: primeiro passo da trilha]]` e `[[PENDENTE: ordem de entrada]]`: sem eles, API-BF-R05, OK1 e OK3 ficam vazias. É o ponto mais importante contra o "comprei e não implementei".
+2. `[[CONFIRMAR: primeiro passo da trilha]]` e `[[CONFIRMAR: ordem de entrada da trilha]]`: sem eles, API-BF-R05, OK1 e OK3 ficam vazias. É o ponto mais importante contra o "comprei e não implementei".
 3. `[[CONFIRMAR: parcelamento]]`, formas de pagamento no checkout (dois cartões, cartão + Pix, boleto parcelado) e preço do boleto por lote.
 4. `[[PENDENTE: garantia]]`: as peças C01, C02, P04, V03 (outro arquivo) e RF1/RF2 dependem.
-5. `[[PENDENTE: regra de migração]]` (alunas).
+5. `[[CONFIRMAR: regra de migração]]` (alunas).
 6. Número de suporte: usar o oficial (`[[LINK: suporte WhatsApp]]`). Não copiei os números dos arquivos do Desafio por serem números de atendimento em uso.
 7. Os e-mails equivalentes (carrinho abandonado, Pix, boleto, recusada, aprovada) ficam em `06_emails`. Os dois e-mails de recuperação aqui são só referência.
 
@@ -597,6 +597,6 @@ Dra. Próton
 3. API-BF-OK3: pergunta aberta ("você já deu o primeiro passo?") contra botão de resposta (SIM/AINDA NÃO). Medir taxa de primeiro passo em 48 horas.
 
 **Dependências**
-- Eventos da Hotmart no ListBoss: compra aprovada, recusada, boleto gerado, aguardando pagamento, abandono, reembolso (`projetoBF_doc_captacao_automacao.md`).
+- Eventos da Hotmart no ListBoss: compra aprovada, recusada, boleto gerado, aguardando pagamento, abandono, reembolso (documento de captação e automação do projeto).
 - Pipeline do comercial (Clint/DataCrazy) para quem abriu checkout mas não comprou: `09_comercial_datacrazy`.
 - Página de onboarding da Vitalícia (`03_paginas`).

@@ -8,7 +8,7 @@
 | **Momento** | 13/10 a 03/11 (captação), 03/11 (live), pós-live até o fechamento (datas `[[PENDENTE]]`) |
 | **Objetivo** | Dar ao implementador a ordem exata de cada disparo, para agendar sem decisão adicional. Cada disparo tem ID e o ID aponta o arquivo onde está o texto |
 | **Consciência** | 1 a 3 na captação do grupo geral; 4 nas alunas; 4 a 5 em quem viveu o método; 5 no pós-live |
-| **Modelo no Desafio** | `planilha_disparos__Setembro26.md` e `planilha_disparos__Outubro26.md` (colunas Campanha, Canal, Horário, Lista/Base, Título, Link Copy) e a cadência da BFV/26 descrita em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 4 (e-mail 07h, grupos 11h30 e 20h, segmentado 09h) |
+| **Modelo no Desafio** | planilhas de disparos de setembro e outubro do Desafio (colunas Campanha, Canal, Horário, Lista/Base, Título, Link Copy) e a cadência da BFV/26 descrita em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 4 (e-mail 07h, grupos 11h30 e 20h, segmentado 09h) |
 
 **O que mudou em relação ao Desafio.** O Desafio rodou 5 noites com 8 a 10 disparos de grupo por dia no entorno da aula. A Black tem 22 dias de captação e uma live única. A cadência é: **e-mail às 07h, API segmentada às 09h, grupos às 11h30, 16h30 e 20h**. O terceiro disparo de grupo (16h30) é um acréscimo à cadência da BFV/26 (11h30 e 20h), com precedente nas planilhas do Desafio (16h30 nas planilhas de leads antigos). O dia 03/11 usa a grade completa, modelada em CP 28 a 40 de 01/10. Os mantras viram ritual de áudio de Grabovoi sem promessa.
 
@@ -307,7 +307,7 @@ O Golden Ticket (`API-BF-05.x`, `CP-BF-GT01`) acontece antes da live, em 22/10, 
 1. `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]`: a seção 4.3 fica em dias relativos até ser fechada. Prazo sugerido pela estratégia: 10/10.
 2. Links: reserva da live, diagnóstico, live no YouTube, grupos por segmento, checkout por lote e segmento (seis), suporte.
 3. Segmentação em DataCrazy/ListBoss: tags A, D e N, "reservou", "fez o diagnóstico", "aluna ativa", "abriu checkout".
-4. `[[PENDENTE: contagem de alunas do Clube]]`: define o custo e o tamanho do grupo de alunas.
+4. `[[CONFIRMAR: contagem de alunas do Clube]]`: define o custo e o tamanho do grupo de alunas.
 5. Aprovação dos templates de API na Meta: são dezenas de templates novos. Pedir aprovação com antecedência de pelo menos 7 dias do primeiro uso.
 6. `[[DEPOIMENTO REAL]]`, áudio de Grabovoi, vídeo da Dra. (19h50) e artes (capas, Golden Ticket, ingresso).
 

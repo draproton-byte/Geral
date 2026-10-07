@@ -2,12 +2,12 @@
 
 **Peça:** roteiro de abertura do comercial, doze aberturas prontas, uma para cada segmento da Black
 **Canal:** WhatsApp 1 a 1 via CRM (Data Crazy), primeira mensagem de uma conversa
-**Público:** os doze segmentos da base (alunas do Clube, quem comprou Desafio ou Imersão, quem só fez o Aulão, ficha quente, morna e fria, quem assistiu a live e não comprou, quem pediu reembolso, carrinho abandonado, inscrita que não apareceu)
+**Público:** as doze situações da base, agrupadas em três segmentos: S1 (alunas do Clube Secreto), S2 (quem viveu Desafio, Imersão ou Aulão e não é do Clube) e S3 (não-alunas e base fria). As doze situações: aluna ativa, aluna inativa, Desafio, Imersão, só Aulão, ficha quente, ficha morna, ficha fria, assistiu a live e não comprou, pediu reembolso, carrinho abandonado, inscrita que não apareceu (mapa na seção 2)
 **Momento:** pré-live (13/10 a 03/11) e pós-live (a partir de 03/11). Cada abertura tem as duas versões quando a conversa muda
-**Objetivo:** fazer a pessoa falar com você. O Banco de Templates ensina o que disparar. A Narrativa ensina o que responder. Este arquivo cuida do meio: como a conversa abre
+**Objetivo:** fazer a pessoa falar com você. `copies_por_evento_pipeline.md` ensina o que disparar. `narrativa_da_dra_na_black.md` ensina o que responder. Este arquivo cuida do meio: como a conversa abre
 **Estágio de consciência:** 1 a 5, conforme o segmento
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." A abertura não oferta: ela devolve a pessoa à conversa que já estava tendo com ela mesma
-**Modelo no Desafio:** `13_comercial_como_abrir_a_conversa.md` ("Como abrir a conversa: roteiro de abertura"), aberturas A1 a A10 do Desafio
+**Modelo no Desafio:** material do Comercial do Desafio "Como abrir a conversa: roteiro de abertura" (aberturas A1 a A10 do Desafio)
 
 ---
 
@@ -23,6 +23,10 @@ Mensagem que termina em ponto final a pessoa lê e não responde. Mensagem que t
 
 **Antes de 03/11, nunca cite valor.** Resposta única se perguntarem: "A condição é revelada ao vivo, na live de 03/11, às 20h."
 
+**Depois da live, ninguém abre conversa entre 20h e 22h de 03/11.** É o modo escuta do comercial (ver `playbook_do_dia_da_live.md`). As aberturas pós-live saem a partir da manhã de 04/11, na ordem do playbook.
+
+**Quem pede para parar sai na hora.** "Sair", "parar", "remover", "não quero" ou "agora não" encerram a conversa e a régua, com uma única mensagem de confirmação (texto no playbook, seção LGPD).
+
 ---
 
 ## 2. A TRIAGEM DE DEZ SEGUNDOS
@@ -35,7 +39,17 @@ Antes de escrever qualquer coisa, responda três perguntas olhando o CRM. Isso d
 | O que ela viveu? | Tag de presença e produto comprado | Define se você pode usar a folha, a criança, o pacto, o termostato |
 | Em que etapa do pipeline ela está? | Pipeline da Vitalícia no Data Crazy | Define se o assunto é dúvida, pagamento travado ou primeira conversa |
 
-**O atalho prático.** Se ela viveu as noites, abra pela experiência. Se ela só preencheu ficha, abra pelo que ela declarou na ficha. Se não existe nenhuma das duas coisas, abra pelo material e pelo diagnóstico, nunca pelo produto.
+**O atalho prático.** Se ela viveu as noites, abra pela experiência. Se ela só preencheu ficha, abra pelo que ela declarou na ficha. Se não existe nenhuma das duas coisas, abra por uma pergunta sobre ela, nunca pelo produto.
+
+**Os três segmentos e o lote em que cada um paga.**
+
+| Segmento | Quem é | Aberturas | Link e lote |
+|---|---|---|---|
+| S1 | Alunas do Clube Secreto | A1, A2 | Lote de aluna |
+| S2 | Quem viveu Desafio, Imersão ou Aulão e não é do Clube | A3, A4, A5 | Lote de não-aluna, até decisão contrária `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão]]` |
+| S3 | Não-alunas e base fria (ficha de interesse, inscrita sem passagem por Desafio, Imersão ou Aulão) | A6, A7, A8, A12 | Lote de não-aluna |
+
+A9, A10 e A11 valem para qualquer segmento: usa-se o segmento de origem da pessoa. Se a pessoa tem mais de uma tag, vale a ordem S1, S2, S3.
 
 ---
 
@@ -52,14 +66,14 @@ Toda abertura boa tem a mesma anatomia, e ela cabe em três linhas de WhatsApp.
 Exemplo completo:
 
 ```
-Oi, {{nome}}! Te vi nas noites do Desafio.
+{{nome}}, você esteve nas noites do Desafio.
 
 Qual foi a linha da folha que mais pegou em você?
 ```
 
 Duas linhas. Sem link, sem oferta, sem "tudo bem?". Isso é uma abertura completa.
 
-**Formato:** uma linha em branco entre as linhas, "para" e nunca "pra", sem emoji obrigatório (se usar, um só, no fim). Em disparo automático, o rodapé *Digite SAIR se não quiser mais receber mensagens.* entra no fim.
+**Formato:** uma linha em branco entre as linhas, sempre "para" (nunca a forma reduzida), até 12 linhas, sem emoji obrigatório (se usar, um só, no fim). Em disparo automático, o rodapé *Digite SAIR se não quiser mais receber mensagens.* entra no fim.
 
 ---
 
@@ -74,7 +88,9 @@ Duas linhas. Sem link, sem oferta, sem "tudo bem?". Isso é uma abertura complet
 ```
 {{nome}}, você já está dentro do Clube e fez o caminho até aqui.
 
-Me conta o que mudou na sua vida desde que você entrou? Quero levar para a Dra.
+Quero levar a sua história para a Dra.
+
+O que mudou na sua vida desde que você entrou?
 ```
 
 **Pós-live:**
@@ -85,13 +101,13 @@ Me conta o que mudou na sua vida desde que você entrou? Quero levar para a Dra.
 O que passou pela sua cabeça quando a Dra. falou de ficar para sempre?
 ```
 
-**Se responder:** fale de continuidade e do que já fez ("o que você já fez conta"). Sinal verde só quando ela perguntar do lote. Objeção "já sou do Clube, o que muda": `quebra_de_objecoes.md`, letra h.
+**Se responder:** fale de continuidade e do que já fez ("o que você já fez conta"). Sinal verde só quando ela perguntar do lote. Objeção "já sou do Clube, o que muda": `quebra_de_objecoes.md`, letra h. Segmento S1.
 
 ---
 
 ### A2. Aluna do Clube Secreto, inativa
 
-**Temperatura:** morna. Nunca cobre a ausência. Cobrança fecha a conversa na primeira linha.
+**Temperatura:** morna. Segmento S1. Nunca cobre a ausência. Cobrança fecha a conversa na primeira linha.
 
 **Pré-live:**
 
@@ -115,12 +131,12 @@ O que você sentiu quando a Dra. falou de parar de recomeçar?
 
 ### A3. Comprou o Desafio e assistiu as cinco noites
 
-**Temperatura:** o lead mais quente da operação. Ela cumpriu o pacto e sabe disso. **Estágio:** 4 a 5.
+**Temperatura:** o lead mais quente da operação. Ela cumpriu o pacto e sabe disso. **Estágio:** 4 a 5. Segmento S2.
 
 **Pré-live:**
 
 ```
-{{nome}}, você fez as cinco noites inteiras, né?
+{{nome}}, você esteve nas cinco noites do Desafio.
 
 Qual foi a linha da folha que mais pegou em você?
 ```
@@ -139,7 +155,7 @@ O que você ainda não terminou desde aquela semana?
 
 ### A4. Comprou a Imersão
 
-**Temperatura:** quente. **Estágio:** 4. Ela já se reconheceu em um dos cinco padrões, e o diagnóstico é a senha.
+**Temperatura:** quente. **Estágio:** 4. Segmento S2. Ela já se reconheceu em um dos cinco padrões, e o diagnóstico é a senha.
 
 **Pré-live:**
 
@@ -163,7 +179,7 @@ O padrão que você escolheu na Imersão continua o mesmo, ou mudou?
 
 ### A5. Só fez o Aulão
 
-**Temperatura:** morna a fria. **Estágio:** 2 a 3. Não assuma intimidade: 44% conhecem a Dra. há menos de um mês. Abra pelo diagnóstico, nunca pelo catálogo.
+**Temperatura:** morna a fria. **Estágio:** 2 a 3. Segmento S2. Não assuma intimidade: 44% da pesquisa de presença do Aulão viam a Dra. pela primeira vez ou a acompanhavam havia menos de um mês. Abra pelo diagnóstico, nunca pelo catálogo.
 
 **Pré-live:**
 
@@ -176,33 +192,33 @@ Quando entra um dinheiro a mais na sua vida, o que costuma aparecer?
 **Pós-live:**
 
 ```
-{{nome}}, você viu o Aulão e agora a live.
+{{nome}}, você esteve no Aulão e agora viu a live.
 
-Qual das cinco dores que a Dra. falou parece mais com a sua?
+Qual dos cinco padrões que a Dra. apresentou parece mais com o seu?
 ```
 
-**Se responder:** valide primeiro, nomeie o padrão, depois ofereça o diagnóstico. Quem fala de dinheiro, conta ou dívida está em sinal amarelo ou vermelho: não oferte, pergunte.
+**Se responder:** valide primeiro, nomeie o padrão, depois entregue o diagnóstico. Quem fala de dinheiro ou conta está em sinal amarelo: não oferte, pergunte (letra a). Quem fala de dívida está em sinal vermelho: acolhe, não oferta, não manda link (letra j).
 
 ---
 
 ### A6. Ficha de interesse, quente
 
-**Temperatura:** quente. **Estágio:** 5. Ela já declarou que quer. Abertura curta, e a oferta vem na segunda mensagem, depois dela responder. São 151 pessoas e é por elas que o time começa: 141 declaram mais de R$ 500 e 80 mais de R$ 1.000.
+**Temperatura:** quente. **Estágio:** 5. Segmento S3 (ou S2, se ela tiver tag de Desafio, Imersão ou Aulão). Ela já declarou que quer. Abertura curta, e a oferta só vem depois dela responder e dar sinal verde. São 151 pessoas e é por elas que o time começa: 141 declaram conforto acima de R$ 500 e 80 acima de R$ 1.000 (faixas da ficha).
 
 **Pré-live:**
 
 ```
 {{nome}}, vi sua ficha de interesse.
 
-Você escreveu que o que mais precisa arrumar hoje é {{resposta_dela}}. É isso mesmo ainda, ou mudou?
+Você marcou que o que mais precisa arrumar hoje é {{area_da_ficha}}. É isso mesmo ainda, ou mudou?
 ```
 
 **Pós-live:**
 
 ```
-{{nome}}, você preencheu a ficha e hoje viu a live.
+{{nome}}, você preencheu a ficha e viu a live.
 
-O que você escreveu na ficha ainda é o que mais pesa? Ou a live mudou alguma coisa?
+O que você marcou na ficha ainda é o que mais pesa hoje?
 ```
 
 **Se responder:** a ficha quente trava no medo de não implementar (27 pessoas) e no "já comprei e não funcionou" (24). Siga as letras d e c das objeções. Sinal verde: ela perguntou lote, parcelamento ou garantia.
@@ -211,7 +227,7 @@ O que você escreveu na ficha ainda é o que mais pesa? Ou a live mudou alguma c
 
 ### A7. Ficha de interesse, morna
 
-**Temperatura:** morna. **Estágio:** 3 a 4. Conversa antes da oferta. 394 pessoas. A objeção principal é "sem dinheiro agora" (72), "outro" (62) e "já comprei sem resultado" (61).
+**Temperatura:** morna. **Estágio:** 3 a 4. Segmento S3. Conversa antes da oferta. 394 pessoas. A objeção principal é "sem dinheiro agora" (72), "outro" (62) e "já comprei sem resultado" (61).
 
 **Pré-live:**
 
@@ -235,25 +251,25 @@ Qual parte ficou mais na sua cabeça?
 
 ### A8. Ficha de interesse, fria
 
-**Temperatura:** fria. **Estágio:** 2. Com esse grupo, oferta na abertura é desperdício. O objetivo é só abrir canal. 348 pessoas, a maioria declara "sem dinheiro agora" (181). Entregue diagnóstico e relacionamento.
+**Temperatura:** fria. **Estágio:** 2. Segmento S3. Com esse grupo, oferta na abertura é desperdício, e entrega de material também: a abertura só pergunta. O objetivo é abrir canal. 348 pessoas, a maioria declara "sem dinheiro agora" (181). O diagnóstico e o resumo da live vêm depois da resposta, como entrega.
 
 **Pré-live:**
 
 ```
-{{nome}}, o diagnóstico dos cinco padrões está liberado para você.
+{{nome}}, você preencheu a nossa ficha de interesse.
 
-Te mando por aqui?
+Quando você pensa em mudar de vida, o que você mais começa e não termina?
 ```
 
 **Pós-live:**
 
 ```
-{{nome}}, o resumo da live ficou pronto, com a conta do Termostato Invisível.
+{{nome}}, a live de 03/11 começou com uma pergunta.
 
-Te mando por aqui?
+Quantas vezes você já recomeçou?
 ```
 
-**Se responder:** mande o material e pergunte qual dos cinco ela é. Não oferte. Se ela mencionar dinheiro, siga a letra a. `[[PENDENTE: manual da live existe]]`.
+**Se responder:** entregue o diagnóstico dos cinco padrões (e, depois da live, o resumo) e pergunte qual dos cinco ela é. Não oferte. Se ela mencionar dinheiro, siga a letra a. Se mencionar dívida, letra j. `[[CONFIRMAR: manual da live]]`.
 
 ---
 
@@ -264,7 +280,7 @@ Te mando por aqui?
 ```
 {{nome}}, vi que você ficou na live até o fim.
 
-Teve uma parte que ficou na sua cabeça? Qual?
+Qual parte ficou mais na sua cabeça?
 ```
 
 **Se responder:** a resposta dela diz a objeção. Se disser "o valor", letra a ou b. Se disser "onze coisas", letra e. Se disser "medo de não aplicar", letra d. Sinal verde: ela pergunta do lote ou do parcelamento. Oferte então, com o link do lote dela.
@@ -276,12 +292,12 @@ Teve uma parte que ficou na sua cabeça? Qual?
 **Temperatura:** fria para venda, quente para escuta. **Estágio:** pós-compra. Ouvir antes de reter. Quem é pressionado aqui vira reclamação pública. Esta abertura não é uma tentativa de reter: é a pergunta que melhora a próxima campanha.
 
 ```
-{{nome}}, vi seu pedido de reembolso e está tudo certo. Você tem esse direito.
+{{nome}}, vi seu pedido de reembolso e ele já está sendo encaminhado.
 
 O que não foi o que você esperava?
 ```
 
-**Se responder com problema que tem solução:** `copies_por_evento_pipeline.md`, E7, toque 2. **Se reafirmar:** encaminhe na hora e agradeça. Não tente uma terceira vez. Nunca dificulte o reembolso.
+**Se responder com problema que tem solução:** `copies_por_evento_pipeline.md`, E7, toque 2. **Se reafirmar:** encaminhe na hora e agradeça. Não tente uma terceira vez. Nunca dificulte o reembolso. Pedido fora do prazo da garantia (`[[PENDENTE: garantia]]`): não negue sozinha, escale.
 
 ---
 
@@ -292,7 +308,7 @@ O que não foi o que você esperava?
 ```
 {{nome}}, vi que você chegou no checkout da Vitalícia e parou.
 
-Posso te perguntar uma coisa só? Foi o pagamento, ou foi a dúvida de "será que eu vou dar conta"?
+Foi o pagamento, ou foi a dúvida de "será que eu vou dar conta"?
 ```
 
 **Se responder "o pagamento":** letra l (parcelamento) ou a (dinheiro). **Se responder "a dúvida":** letras d e e (trilha, sem prazo). **Se não responder:** `copies_por_evento_pipeline.md`, E2.
@@ -301,25 +317,25 @@ Posso te perguntar uma coisa só? Foi o pagamento, ou foi a dúvida de "será qu
 
 ### A12. Inscrita na live que não apareceu
 
-**Temperatura:** morna. **Estágio:** 3 a 4. Nunca cobre ausência: "senti sua falta". Existe depois da live (pós-live) e no próprio dia, 20h30.
+**Temperatura:** morna. **Estágio:** 3 a 4. Segmento pela tag da pessoa (S1, S2 ou S3). Nunca cobre ausência: "senti sua falta". Só existe depois da live e só sai na manhã de 04/11, nunca na noite da live (modo escuta das 20h às 22h).
 
-**Pós-live (no dia, até 22h):**
+**Pós-live, versão A (testar primeiro):**
 
 ```
-{{nome}}, senti sua falta na live de hoje.
+{{nome}}, senti sua falta na live de ontem.
 
 Aconteceu alguma coisa, ou o dia engoliu?
 ```
 
-**Pós-live (dia seguinte):**
+**Pós-live, versão B:**
 
 ```
 {{nome}}, a live de ontem teve uma conta que muita gente anotou: a do Termostato Invisível.
 
-Quer que eu te resuma em uma linha?
+Quando entra um dinheiro a mais na sua vida, o que costuma aparecer?
 ```
 
-**Se responder:** entregue o resumo (ou replay, `[[PENDENTE: replay]]`) e pergunte o padrão dela. Não oferte antes de ela mostrar interesse.
+**Se responder:** entregue o resumo da live (ou o replay, `[[PENDENTE: replay]]`: nenhuma peça afirma nem nega) e pergunte o padrão dela. Não oferte antes de ela mostrar interesse.
 
 ---
 
@@ -331,7 +347,7 @@ Use uma por conversa. Todas são sobre algo que ela viveu, e cada uma abre uma p
 |---|---|---|
 | Qual linha da folha mais pegou em você? | O tema dela, sem você adivinhar | Padrão, serve para quase todo mundo que fez o Desafio |
 | Qual dos cinco padrões é o seu? | Autodiagnóstico, sem culpa | Quem fez a Imersão ou o Aulão |
-| Quando entra um dinheiro a mais, o que costuma aparecer? | O Termostato Invisível, a dor mais frequente (51,9%) | Quem fala de dinheiro que some |
+| Quando entra um dinheiro a mais, o que costuma aparecer? | O Termostato Invisível (51,9% das pessoas que responderam à pesquisa de presença, dossiê do Desafio) | Quem fala de dinheiro que some |
 | O que você começou e não terminou? | A ferida que a Vitalícia trata | Quem diz que já tentou de tudo |
 | Qual foi a sua linha três: a decisão que você só toma uma vez? | A decisão pronta, que ela mesma escreveu | Quem assistiu a live |
 | Teve algum tapa na cara que você não esperava? | A virada de chave dela | Quem assistiu qualquer noite ou a live |
@@ -349,12 +365,13 @@ A resposta dela não é só resposta, é instrução do que fazer em seguida.
 
 | O que ela responde | O que isso revela | Para onde você vai |
 |---|---|---|
-| Fala de dinheiro, conta, dívida | Dor concreta e urgente | Ciclo de dinheiro do Clube, com honestidade sobre o que a Vitalícia faz e não faz (letra j) |
-| Fala de criança, pai, mãe, chora | Vínculo alto, decisão emocional pronta | Pergunte o que ela quer resolver primeiro e mostre o ciclo |
+| Fala de dinheiro que some, de conta | Dor concreta | Letra a (pergunta que separa), sem citar valor antes da live |
+| Fala de dívida | Dor delicada | Acolhe, não oferta, não manda link. Letra j, com honestidade sobre o que a Vitalícia não faz |
+| Fala de criança, pai, mãe, chora | Vínculo alto, tema sensível | Acolhe e pergunta o que ela quer cuidar primeiro. Não oferta nesta mensagem. Se for luto ou crise, vale a última linha desta tabela |
 | Responde curto, "foi bom", "gostei" | Educada, não engajada | Mais uma pergunta antes de qualquer oferta |
 | Fala que parou, que não conseguiu manter | Medo de não dar conta | Autossabotagem; a trilha e o protocolo conduzem por ela (letras d, e) |
 | Já pergunta preço | Pronta para agir | Oferte direto, sem rodeio. Argumento longo aqui atrapalha |
-| Fala de dor aguda, luto, doença, crise | Momento de acolher, não de vender | Acolha, não oferte nessa mensagem e escale |
+| Fala de dor aguda, luto, doença, crise | Momento de acolher, não de vender | Acolha, não oferte nesta nem nas próximas mensagens, pause a régua e as automações dela, escale (nível 2) e registre só "acolhimento", sem o relato |
 
 **A regra de ouro da escuta:** quem fala mais é ela. Se as suas mensagens estão maiores que as dela, a conversa virou apresentação e você já perdeu.
 
@@ -382,25 +399,19 @@ Essa linha conecta a oferta ao que ela disse. Sem ela, o link cai do céu e soa 
 
 ## 8. QUANDO NINGUÉM RESPONDE
 
-Metade do trabalho não é objeção, é silêncio. A régua completa está em `regua_do_silencio_black.md`. A versão curta, de dois toques, para a abertura:
-
-**Toque 2, no dia seguinte, com uma pergunta mais fácil de responder:**
+Metade do trabalho não é objeção, é silêncio. A abertura é o toque 1. Se não houver resposta, existe um único toque 2, no dia seguinte, com uma pergunta mais fácil e a saída honrosa na mesma mensagem:
 
 ```
-{{nome}}, posso te fazer uma pergunta rápida?
+{{nome}}, posso te fazer uma pergunta mais fácil?
 
 Você chegou a ver o diagnóstico dos cinco padrões?
+
+Se agora não for o momento, me fala "agora não" que eu paro de te escrever.
+
+Digite SAIR se não quiser mais receber mensagens.
 ```
 
-**Toque 3, dois dias depois, com saída honrosa:**
-
-```
-{{nome}}, se não for o momento, tudo bem mesmo.
-
-Só me fala "agora não" que eu paro de te escrever.
-```
-
-Se não responder ao terceiro toque, aplique a tag de sem retorno e pare. Insistir derruba entrega de mensagem e queima número.
+**Depois do toque 2 sem resposta, nenhuma mensagem insiste.** Aplique a tag de sem retorno e pare. A régua de cinco toques de `regua_do_silencio_black.md` é outra coisa: só vale para quem deu algum sinal (leu e clicou, respondeu antes, confirmou presença, fez o diagnóstico ou assistiu à live), e nunca repete a pergunta, nunca oferta, nunca manda link de pagamento. Insistir derruba entrega de mensagem e queima número.
 
 ---
 
@@ -431,7 +442,7 @@ Para imprimir e deixar do lado do computador.
 5. Espera. Deixa ela falar mais que você.
 6. Lê a resposta na tabela da seção 6.
 7. Sinal verde, oferta. Sinal vermelho, mais uma pergunta.
-8. Sem resposta: dois toques e encerra com elegância (ou a régua do silêncio).
+8. Sem resposta: dois toques, saída honrosa e para. A régua do silêncio é só para quem deu sinal.
 9. Registra tudo no CRM, inclusive o não.
 
 ---
@@ -441,7 +452,7 @@ Para imprimir e deixar do lado do computador.
 Ela já falou primeiro. Responda sobre o que ela falou, nunca sobre o que você quer vender.
 
 ```
-Oi, {{nome}}! Vi o que você escreveu sobre {{assunto}}.
+{{nome}}, vi o que você escreveu sobre {{assunto}}.
 
 Aconteceu isso com você essa semana?
 ```
@@ -450,12 +461,13 @@ Aconteceu isso com você essa semana?
 
 ## Notas ao implementador
 
-**Pendências:** `[[PENDENTE: replay]]`, `[[PENDENTE: manual da live existe]]`, `[[CONFIRMAR: ordem e nomes dos ciclos do Clube]]`, campo `{{resposta_dela}}` precisa vir da ficha de interesse (campo "área que mais precisa arrumar" ou "o que impede") e **deve ser puxado pelo CRM sem que o comercial veja ou copie dado pessoal fora dele**.
+**Pendências:** `[[PENDENTE: replay]]`, `[[CONFIRMAR: manual da live]]`, `[[CONFIRMAR: ordem e nomes dos ciclos do Clube]]`, `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão]]` (S2 paga como não-aluna até decisão contrária). O campo `{{area_da_ficha}}` vem da ficha de interesse e é só o campo de múltipla escolha "área que mais precisa ser arrumada" (por exemplo, dinheiro). **Nunca puxar resposta aberta da pessoa para dentro da mensagem**, e o comercial não copia dado pessoal para fora do CRM (LGPD, minimização).
 
 **Decisões para validar:**
 - A abertura A12 (inscrita que não apareceu) foi acrescentada porque a captação é de 3 semanas e uma boa parte dos inscritos não aparece em lives. Se a equipe preferir outra, o Desafio tinha a abertura de quem respondeu story ou direct (Extra).
-- A abertura A9 (assistiu e não comprou) só roda depois de 03/11. Antes disso o segmento não existe.
+- A abertura A9 (assistiu e não comprou) só roda depois de 03/11, a partir da manhã de 04/11. Antes disso o segmento não existe.
+- Nenhuma abertura oferece nada, nem material: o diagnóstico e o resumo da live são entregues só depois da resposta.
 
-**Testes A/B sugeridos:** A6 pós-live com a pergunta sobre a ficha versus com a pergunta sobre a live; A8 com a oferta de "te mando por aqui?" versus "qual dos cinco você acha que é o seu?".
+**Testes A/B sugeridos:** A6 pós-live com a pergunta sobre a ficha versus com a pergunta sobre a live; A8 pré-live com "o que você mais começa e não termina?" versus "qual dos cinco padrões você acha que é o seu?"; A12 versão A versus versão B.
 
 **Dependências:** `quebra_de_objecoes.md` (a próxima etapa), `regua_do_silencio_black.md`, `copies_por_evento_pipeline.md`, `lista_de_ataque_templates.md`.

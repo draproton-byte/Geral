@@ -13,12 +13,12 @@ Legenda:
 ✅ aprovada para agendar
 💻 agendada
 
-Lista: grupos gerais da Black Próton Vitalícia (2 disparos por dia, 11h30 e 20h, de terça 13/10 a segunda 02/11; 03/11 é o dia da live).
+Lista: grupos gerais da Black Próton Vitalícia (2 disparos por dia, 11h30 e 20h, de terça 13/10 a segunda 02/11; 03/11 é o dia da live; 00-A e 00-B abrem o grupo na segunda 12/10).
 Excluir alunas do Clube na janela de garantia de 7 dias. Excluir quem já é Vitalício (se existir). Excluir já cadastradas na live (nas mensagens com link de reserva, quando o disparo for segmentado).
 
 
 ______________________________________________________________
-🔄 00-A. Captação, terça-feira, 13, 10h00 (Quando der)
+🔄 00-A. Captação, segunda-feira, 12, 11h30 (Quando der)
 ______________________________________________________________
 
 
@@ -46,7 +46,7 @@ Nos vemos lá,
 
 
 ______________________________________________________________
-🔄 00-B. Captação, terça-feira, 13, 16h00 (Quando der)
+🔄 00-B. Captação, segunda-feira, 12, 20h00
 ______________________________________________________________
 
 
@@ -78,24 +78,26 @@ ______________________________________________________________
 ______________________________________________________________
 
 
-🔴 *ABRIU: a Black Próton Vitalícia*
+🔴 *A lista da Black Próton Vitalícia está aberta*
 
 Quantas vezes você já recomeçou?
 
 Começou, parou, prometeu que dessa vez ia ser diferente. E recomeçou de novo.
 
-No dia *03/11, às 20h*, eu abro ao vivo a *Black Próton Vitalícia* e revelo uma condição que o Clube Secreto nunca ofereceu antes.
+No dia *03/11, às 20h*, eu abro ao vivo a *Black Próton Vitalícia*: a oferta que o Clube Secreto nunca fez antes.
 
-É a chance de ter acesso para sempre ao Clube e a tudo o que eu criei, com uma única decisão.
+Uma única decisão, com acesso para sempre ao Clube e a mais 11 produtos.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
+
+⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
 
 Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Te espero lá.
 *Dra. Próton*
 
 
@@ -106,9 +108,7 @@ ______________________________________________________________
 
 *Imagina tomar uma decisão que você só precisa tomar uma vez?*
 
-É exatamente isso que vai acontecer na *Black Próton Vitalícia*.
-
-Com um único pagamento, você garante acesso vitalício ao *Clube Secreto e a mais 11 produtos*.
+É isso que a *Black Próton Vitalícia* coloca na mesa: um único pagamento e acesso vitalício ao *Clube Secreto e a mais 11 produtos*.
 
 A condição completa é revelada na live.
 
@@ -121,7 +121,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até a live.
 *Dra. Próton*
 
 
@@ -158,11 +158,9 @@ ______________________________________________________________
 
 🤔 *E se essa fosse a última vez que você precisasse recomeçar?*
 
-Na *Black Próton Vitalícia*, essa possibilidade pode virar decisão.
+Na *Black Próton Vitalícia*, essa possibilidade pode virar decisão: *acesso vitalício ao Clube Secreto e a mais 11 produtos*, sem renovar e sem recomeçar.
 
-Você faz uma única escolha e garante *acesso vitalício ao Clube Secreto e a mais 11 produtos*, sem renovar e sem recomeçar.
-
-✅ Sem precisar decidir de novo toda segunda-feira
+✅ Sem decidir de novo toda segunda-feira
 ✅ Sem prazo para dar conta
 
 A condição é revelada ao vivo.
@@ -176,7 +174,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Nos vemos dia 03.
 *Dra. Próton*
 
 
@@ -215,11 +213,9 @@ ______________________________________________________________
 
 Hoje parece cedo, amanhã parece corrido, na semana que vem parece melhor.
 
-E eu sei que um dos maiores medos de quem tenta mudar é justamente esse: *começar de novo e acabar parando de novo*.
+Um dos maiores medos de quem tenta mudar é justamente esse: *começar de novo e acabar parando de novo*.
 
-A *Black Próton Vitalícia* nasceu para tirar o prazo desse caminho.
-
-Com uma única decisão, você garante acesso para sempre ao que eu criei.
+A *Black Próton Vitalícia* nasceu para tirar o prazo desse caminho. Com uma única decisão, você garante acesso para sempre ao que eu criei.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -230,7 +226,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até lá.
 *Dra. Próton*
 
 
@@ -241,13 +237,11 @@ ______________________________________________________________
 
 🪫 *"Estou funcional, mas exausta por dentro."*
 
-Se você se reconheceu, esse é o padrão da *Cobrança Que Você Só Faz Com Você*.
+Se você se reconheceu, isso aparece no padrão da *Cobrança Que Você Só Faz Com Você*.
 
 Você cobra de si o que nunca cobraria de ninguém. E mesmo quando faz muito, o dia termina em "podia ter feito mais".
 
-No dia *03/11*, eu falo ao vivo desse cansaço que não passa com descanso.
-
-E mostro uma condição para você parar de recomeçar do zero.
+No dia *03/11*, eu falo ao vivo desse cansaço que não passa com descanso, e mostro uma condição para você parar de recomeçar do zero.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -267,11 +261,9 @@ ______________________________________________________________
 
 💎 *Uma única decisão. Acesso para sempre.*
 
-Hoje, entrar no processo quase sempre significa renovar, e renovar significa decidir tudo de novo.
+Quem tenta mudar costuma decidir tudo de novo a cada etapa: continuo ou paro, pago ou espero.
 
-Na *Black Próton Vitalícia*, essa lógica muda.
-
-Você decide uma vez, em pagamento único, e tem acesso ao *Clube Secreto e a mais 11 produtos*, sem prazo para dar conta.
+Na *Black Próton Vitalícia*, essa lógica muda. Você decide uma vez, em pagamento único, e tem acesso ao *Clube Secreto e a mais 11 produtos*, sem prazo para dar conta.
 
 Os detalhes da condição eu revelo na live.
 
@@ -284,7 +276,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Estou te esperando.
 *Dra. Próton*
 
 
@@ -297,11 +289,9 @@ Enviar depoimento: [[DEPOIMENTO REAL: print autorizado de aluna sobre o Termosta
 
 💬 _*"[[DEPOIMENTO REAL: frase da aluna, com autorização]]"*_
 
-Esse é um dos depoimentos de quem vive o método comigo.
+Mais um depoimento de quem vive o método comigo.
 
-Cada pessoa vive isso do seu jeito. Eu não prometo o mesmo resultado para todas, e não prometo ganho nem cura.
-
-O que eu mostro é o caminho, a prática e o acompanhamento.
+Eu não prometo ganho nem cura, e o resultado de cada pessoa é só dela. O que eu mostro é o caminho, a prática e o acompanhamento.
 
 Na *Black Próton Vitalícia*, esse caminho fica aberto sem prazo.
 
@@ -327,9 +317,9 @@ ______________________________________________________________
 
 Pode ser daqui a uma semana, pode ser daqui a seis meses. Um dia de cansaço, de dúvida, de "para que continuar?".
 
-Na *Black Próton Vitalícia*, o seu acesso está lá nesse dia também.
+Na *Black Próton Vitalícia*, o seu acesso está lá nesse dia também: *Clube Secreto e mais 11 produtos, para sempre.*
 
-*Clube Secreto e mais 11 produtos, para sempre.* Você volta quantas vezes precisar, sem recomeçar do zero.
+Você volta quantas vezes precisar, sem recomeçar do zero.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -340,7 +330,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Nos vemos na live.
 *Dra. Próton*
 
 
@@ -355,9 +345,9 @@ Tem decisão que você toma hoje com a cabeça de 40 anos atrás. Frases que ouv
 
 É o padrão dos *Traumas Que Ainda Decidem*.
 
-Mudança de verdade não vem de força de vontade. Vem de chegar na raiz, com prática e acompanhamento.
+Mudança de verdade não vem de força de vontade. Vem de chegar à raiz, com prática e acompanhamento.
 
-No dia *03/11*, eu mostro ao vivo por onde isso se desfaz.
+No dia *03/11*, eu mostro ao vivo por onde começar.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -377,11 +367,9 @@ ______________________________________________________________
 
 💸 *Já parou para pensar quanto você ainda gastaria recomeçando?*
 
-Um evento aqui, um curso ali, um mês de acesso que acabou antes de você conseguir aplicar.
+Um evento aqui, um curso ali, um acesso que acabou antes de você conseguir aplicar.
 
-Cada recomeço tem um custo, e quase ninguém faz essa conta.
-
-Na *Black Próton Vitalícia*, essa conta para de crescer: você decide uma vez e fica.
+Cada recomeço tem um custo, e quase ninguém faz essa conta. Na *Black Próton Vitalícia*, ela para de crescer: você decide uma vez e fica.
 
 Ao vivo, eu faço essa conta com você. Os valores só aparecem na live.
 
@@ -394,7 +382,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Te espero ao vivo.
 *Dra. Próton*
 
 
@@ -409,9 +397,7 @@ Enviar depoimento: [[DEPOIMENTO REAL: print autorizado de aluna sobre aplicar ac
 
 Esse relato resume bem o que acontece quando o processo continua depois do entusiasmo do começo.
 
-Hoje já existe uma quantidade grande de material disponível para você estudar, praticar e rever sempre que precisar.
-
-E o mais importante: *você não faz isso sozinha*.
+O que muda o jogo não é força de vontade. É ter para onde voltar e com quem aplicar: *você não faz isso sem apoio*.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -433,13 +419,11 @@ ______________________________________________________________
 
 🖤 *Esta condição não se repete*
 
-No dia *03/11, às 20h*, você descobre a oportunidade que une tudo o que eu criei em um acesso só:
+No dia *03/11, às 20h*, você descobre o que une tudo o que eu criei em um acesso só:
 
 💎 *Um único pagamento. Clube Secreto e mais 11 produtos. Acesso para sempre.*
 
-Mas lembre-se: o que vier depois é outra oferta, com outro preço.
-
-E só quem estiver ao vivo terá o *Lote Especial*.
+O que vier depois é outra oferta, com outro preço. E só quem estiver ao vivo terá o *Lote Especial*.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -448,7 +432,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até terça, 03/11.
 *Dra. Próton*
 
 
@@ -487,9 +471,7 @@ ______________________________________________________________
 
 Talvez hoje o seu foco seja o dinheiro. Daqui a alguns meses, pode ser a raiz emocional ou a sua profissão.
 
-É justamente aí que o *acesso vitalício* muda tudo.
-
-A *Black Próton Vitalícia* vem com uma *trilha de entrada*: você não começa por tudo, começa por um passo. [[PENDENTE: ordem de entrada da trilha]]
+A *Black Próton Vitalícia* vem com uma *trilha de entrada*: você não começa por tudo, começa por um passo. [[PENDENTE: ordem de entrada]]
 
 💎 _*O acesso é seu. Para sempre.*_
 
@@ -502,7 +484,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Nos vemos lá.
 *Dra. Próton*
 
 
@@ -513,13 +495,9 @@ ______________________________________________________________
 
 💡 *Tem coisa que você só entende de verdade depois que começa a viver na prática.*
 
-Uma aula que você assiste hoje ganha outro significado depois de uma semana difícil, de uma recaída, de um recomeço.
+Uma aula que você assiste hoje ganha outro significado depois de uma semana difícil, de uma pausa, de um recomeço. Você volta, revisa e percebe o que antes passava despercebido.
 
-Você volta, revisa e percebe o que antes passava despercebido.
-
-Por isso, *acesso vitalício* não significa apenas "ter muitos produtos".
-
-Significa poder *voltar ao processo quantas vezes precisar*, em diferentes momentos da sua vida.
+Por isso, *acesso vitalício* não significa apenas "ter muitos produtos". Significa poder *voltar ao processo quantas vezes precisar*, em diferentes momentos da sua vida.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -537,9 +515,7 @@ ______________________________________________________________
 ______________________________________________________________
 
 
-🧩 *Chega de montar a sua mudança produto por produto.*
-
-Um áudio num momento. Um curso em outro. Um desafio quando bate a vontade. E assim a sua transformação vai acontecendo em pedaços.
+🧩 *Chega de montar a sua mudança produto por produto: um áudio num momento, um curso em outro.*
 
 Na *Black Próton Vitalícia*, você junta tudo em um acesso só: *o Clube Secreto e mais 11 produtos*.
 
@@ -556,7 +532,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Te espero na live.
 *Dra. Próton*
 
 
@@ -567,13 +543,11 @@ ______________________________________________________________
 
 ⏱️ *Não espere a próxima crise para decidir recomeçar.*
 
-Quase sempre a gente só procura ajuda quando a conta chega, quando o corpo avisa, quando a relação pesa.
+Quase sempre a gente só procura ajuda quando a rotina aperta, quando a cobrança interna pesa, quando o cansaço não passa.
 
-Aí corre atrás do que existe naquele dia, no preço daquele dia.
+Aí corre atrás do que existe naquele dia.
 
-Na *Black Próton Vitalícia*, você já entra com tudo à sua disposição, antes da próxima crise.
-
-Sem pressa, sem renovar, sem recomeçar.
+Na *Black Próton Vitalícia*, você já entra com tudo à sua disposição, antes da próxima crise. Sem pressa, sem renovar, sem recomeçar.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -595,9 +569,7 @@ ______________________________________________________________
 
 ♾️ *O seu processo não termina quando um produto acaba. Ele também não deveria.*
 
-Você conclui um desafio, aplica o que aprendeu e sente a mudança.
-
-Mas depois a rotina volta, o automático volta... e o ciclo recomeça.
+Você conclui um desafio, aplica o que aprendeu e sente a mudança. Mas depois a rotina volta, o automático volta... e o ciclo recomeça.
 
 Na *live de revelação*, eu vou apresentar uma condição criada justamente para quebrar esse ciclo:
 
@@ -612,7 +584,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até a live.
 *Dra. Próton*
 
 
@@ -627,7 +599,7 @@ Fórmula da Riqueza? Cura da Criança Interior? Workshop Terapeuta de Elite? Có
 
 Na *Black Próton Vitalícia*, a proposta é justamente você *não precisar escolher*.
 
-Na live, eu vou revelar uma condição para você ter acesso ao *Clube Secreto e a mais 11 produtos*, cada um para um momento do seu processo.
+Na live, eu revelo uma condição para você ter acesso ao *Clube Secreto e a mais 11 produtos*, cada um para um momento do seu processo.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -649,11 +621,11 @@ ______________________________________________________________
 
 🙋 *"Já comprei outras coisas e não tive resultado."*
 
-É uma das frases que mais aparecem nas nossas pesquisas. E eu entendo.
+Essa frase aparece nas nossas pesquisas, e eu entendo.
 
-Mas repare no que costuma acontecer: você teve que *aplicar sozinha depois*. E o mesmo padrão que você queria mudar foi o que sabotou a aplicação.
+Repare no que costuma acontecer: você aplica sem apoio depois, e o padrão que queria mudar volta justamente na hora de aplicar.
 
-Por isso o que eu criei é guiado, com prática e acompanhamento, e não um curso solto.
+No Clube Secreto, você aplica com prática e acompanhamento, e não com um curso solto.
 
 Na live, eu mostro como funciona.
 
@@ -666,7 +638,7 @@ Faça o diagnóstico, reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: reserva e diagnóstico]]
 
-Te espero na live!
+Nos vemos lá.
 *Dra. Próton*
 
 
@@ -677,13 +649,11 @@ ______________________________________________________________
 
 🔓 *O melhor do acesso vitalício é que ele não fica preso ao dia em que você entrou.*
 
-Pensa comigo: você entra com tudo o que existe hoje. Eu continuo estudando, praticando e me atualizando.
+Pensa comigo: o dia em que você entra é só o primeiro.
 
-*O processo cresce. A sua prática cresce junto.*
+A aula que hoje parece distante pode ser justamente a que você mais precisa daqui a alguns meses, e ela vai estar lá.
 
-Na *Black Próton Vitalícia*, você garante tudo o que já existe hoje, sem prazo para dar conta, e sem ter que decidir de novo.
-
-Quer entender como vai funcionar?
+Na *Black Próton Vitalícia*, você garante tudo o que já existe hoje, sem prazo para dar conta e sem decidir de novo.
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -718,7 +688,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até terça.
 *Dra. Próton*
 
 
@@ -744,7 +714,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Te espero na live.
 *Dra. Próton*
 
 
@@ -757,7 +727,7 @@ ______________________________________________________________
 
 Cada curso comprado e não aplicado. Cada mês de recomeço. Cada oportunidade que passou no "depois".
 
-No dia *03/11, às 20h*, eu faço essa conta ao vivo com você, sem pressão e sem invenção.
+No dia *03/11, às 20h*, eu abro essa conta inteira, sem pressão e sem invenção.
 
 Você decide com a conta na mão.
 
@@ -770,7 +740,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Nos vemos na live.
 *Dra. Próton*
 
 
@@ -783,11 +753,9 @@ Enviar depoimento: [[DEPOIMENTO REAL: print autorizado de aluna sobre culpa, cob
 
 💬 _*"[[DEPOIMENTO REAL: frase da aluna, com autorização]]"*_
 
-Outro relato de quem vive o método comigo.
+Outro relato de quem vive o método comigo, agora sobre culpa, cobrança ou o que vem de longe.
 
-Cada pessoa vive isso do seu jeito, no seu tempo, e eu não prometo o mesmo resultado para todas.
-
-O que existe é acompanhamento: você não fica sozinha no processo.
+Seu tempo é seu, e eu não prometo o mesmo resultado para todas. O que existe é acompanhamento: ninguém precisa atravessar isso por conta própria.
 
 A *Black Próton Vitalícia* abre esse acompanhamento sem prazo.
 
@@ -824,7 +792,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Estou te esperando.
 *Dra. Próton*
 
 
@@ -837,7 +805,7 @@ Terça é dia de aula no Clube Secreto.
 
 Eu fui criada pelos meus avós, na periferia do interior de São Paulo, filha de mãe solo. Trabalhei em telemarketing, vendi cartão, fui camelô. Eu sei o que é recomeçar do zero.
 
-Hoje são *mais de 70 mil alunos em 44 países*, e a dor que mais se repete é a mesma: começar e não conseguir continuar.
+Hoje são *mais de 70 mil alunos em 44 países*, e uma das dores que mais aparecem nas pesquisas é a mesma: saber o que fazer e não conseguir colocar em prática.
 
 Dia *03/11*, eu respondo ao vivo.
 
@@ -848,7 +816,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Te espero lá.
 *Dra. Próton*
 
 
@@ -859,9 +827,7 @@ ______________________________________________________________
 
 🙏 *"E se não funcionar para mim?"*
 
-É um medo legítimo, e eu prefiro ser honesta com você.
-
-Eu não prometo ganho nem cura. Eu mostro um caminho, com prática e acompanhamento.
+É um medo legítimo, e eu prefiro ser clara com você: eu não prometo ganho nem cura. Eu mostro um caminho, com prática e acompanhamento.
 
 E digo sempre: *"Eu prefiro que você não compre do que compre e não viva."*
 
@@ -890,19 +856,11 @@ ______________________________________________________________
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-Ative o lembrete para o aviso tocar no seu celular:
+Ative o lembrete para o aviso tocar no seu celular. Quem não ativa costuma descobrir tarde que a live já começou 👇🏽
 
 [[LINK: live no YouTube]]
 
-Quem não ativa costuma descobrir tarde que a live já começou.
-
-⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
-
-Reserve a sua vaga e entre para o Grupo 👇🏽
-
-[[LINK: grupo da Black]]
-
-Te espero na live!
+Te espero lá.
 *Dra. Próton*
 
 
@@ -911,13 +869,11 @@ ______________________________________________________________
 ______________________________________________________________
 
 
-Presta atenção:
+*Presta atenção.*
 
-o padrão que você quer mudar é o mesmo que vai tentar te tirar da live.
+O padrão que você quer mudar é o mesmo que vai tentar te tirar da live.
 
-Vai aparecer um compromisso. Um cansaço. Um "depois eu vejo".
-
-Não negocia com ele.
+Vai aparecer um compromisso. Um cansaço. Um "depois eu vejo". Não negocia com ele.
 
 É uma noite só, e você pode decidir isso agora.
 
@@ -930,7 +886,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Estarei lá.
 *Dra. Próton*
 
 
@@ -947,7 +903,7 @@ ______________________________________________________________
 
 3️⃣ O que entra na Vitalícia, e por onde começar sem se perder
 
-4️⃣ A condição de entrada, revelada ao vivo [[CONFIRMAR: roteiro da live, ver 08_live_e_pitch]]
+4️⃣ A condição de entrada, revelada ao vivo [[CONFIRMAR: roteiro da live, ver 08_live_e_pitch/roteiro_live_de_revelacao.md]]
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -965,11 +921,11 @@ ______________________________________________________________
 ______________________________________________________________
 
 
-🧭 *Falta pouco. Uma coisa te ajuda a chegar na live sabendo quem você é: o diagnóstico dos 5 padrões.*
+🧭 *Falta pouco. Uma coisa te ajuda a chegar na live sabendo qual é o seu padrão: o diagnóstico dos 5 padrões.*
 
 Quem faz chega sabendo se o seu padrão é Termostato Invisível, Autossabotagem, Cobrança, Traumas ou Culpa de Querer Mais.
 
-E ainda libera [[PENDENTE: bônus de check-in]].
+E ainda libera [[PENDENTE: bônus]] (bônus de check-in).
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -980,7 +936,7 @@ Faça o diagnóstico, reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: reserva e diagnóstico]]
 
-Te espero na live!
+Nos vemos na live.
 *Dra. Próton*
 
 
@@ -995,20 +951,16 @@ ______________________________________________________________
 
 2️⃣ Toca em "Receber notificação"
 
-[[LINK: live no YouTube]]
-
 A condição da *Black Próton Vitalícia* só é revelada ao vivo. Sobre replay: [[PENDENTE: replay]]
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
+Ative o lembrete aqui 👇🏽
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
+[[LINK: live no YouTube]]
 
-[[LINK: grupo da Black]]
-
-Te espero na live!
+Te espero lá.
 *Dra. Próton*
 
 
@@ -1021,9 +973,7 @@ Enviar depoimento: [[DEPOIMENTO REAL: print autorizado de aluna sobre parar de r
 
 💬 _*"[[DEPOIMENTO REAL: frase da aluna, com autorização]]"*_
 
-Mais um relato de quem vive o método comigo.
-
-Cada pessoa vive isso do seu jeito. Eu não prometo resultado financeiro nem cura.
+Mais um relato de quem vive o método comigo. Cada história é de quem a viveu, e eu não prometo resultado financeiro nem cura.
 
 Dia *03/11*, eu mostro o que construí ao vivo.
 
@@ -1036,7 +986,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até terça.
 *Dra. Próton*
 
 
@@ -1049,7 +999,7 @@ ______________________________________________________________
 
 Até aqui eu já te contei que você poderá ter acesso para sempre ao Clube Secreto e a mais 11 produtos.
 
-Mas a oportunidade completa não termina nisso…
+Mas a oportunidade completa não termina nisso.
 
 Tudo o que você viu até aqui já é muito. *O que ainda falta, eu vou revelar somente na live.*
 
@@ -1062,7 +1012,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Te espero ao vivo.
 *Dra. Próton*
 
 
@@ -1086,7 +1036,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Até terça.
 *Dra. Próton*
 
 
@@ -1112,7 +1062,7 @@ Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Te espero na live!
+Nos vemos terça.
 *Dra. Próton*
 
 
@@ -1123,14 +1073,12 @@ ______________________________________________________________
 
 ✅ *Checklist para a live de terça:*
 
-✅ Lembrete ativado
-✅ Caderno e caneta separados
-✅ Avisou em casa que a noite de terça é sua
-✅ Fez o diagnóstico
+▫️ Lembrete ativado
+▫️ Caderno e caneta separados
+▫️ Avisou em casa que a noite de terça é sua
+▫️ Fez o diagnóstico
 
 Falta alguma? Resolve hoje.
-
-Se faltou o diagnóstico ou a vaga:
 
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
@@ -1139,7 +1087,7 @@ Faça o diagnóstico, reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: reserva e diagnóstico]]
 
-Te espero na live!
+Te espero na terça.
 *Dra. Próton*
 
 
@@ -1150,19 +1098,15 @@ ______________________________________________________________
 
 Hoje é feriado de Finados, um dia mais quieto para muita gente.
 
-Se der, aproveita para se organizar para amanhã:
+Se der, aproveita para se organizar para amanhã: lembrete ativado, caderno separado, noite livre.
 
 Amanhã, *terça, 03/11, às 20h*, eu abro a *Black Próton Vitalícia* ao vivo.
 
-Lembrete ativado, caderno separado, noite livre.
+Seu lembrete da live fica aqui:
 
 [[LINK: live no YouTube]]
 
-Reserve a sua vaga e entre para o Grupo 👇🏽
-
-[[LINK: grupo da Black]]
-
-Te espero na live!
+Até amanhã.
 *Dra. Próton*
 
 
@@ -1182,13 +1126,11 @@ Amanhã eu te mostro como fazer dessa a *última vez que você vai precisar reco
 📅 *Terça, 03/11, às 20h*
 💻 *Ao vivo no YouTube*
 
-⚠️ Só quem estiver ao vivo na live terá acesso garantido ao *Lote Especial*.
-
 Reserve a sua vaga e entre para o Grupo 👇🏽
 
 [[LINK: grupo da Black]]
 
-Até terça.
+Boa noite. Até amanhã.
 *Dra. Próton*
 
 
@@ -1196,69 +1138,67 @@ ______________________________________________________________
 Notas ao implementador
 
 1. O que mudou em relação ao modelo (mensagem a mensagem, em uma linha)
-- Estrutura mantida: legenda de status, títulos numerados com dia e hora, bloco de data da live, aviso do Lote Especial, CTA do grupo e assinatura. O modelo tinha 26 mensagens (00-A, 00-B e 01 a 24, de 30/09 a 12/10); aqui são 42 mensagens (01 a 42, 11h30 e 20h, de 13/10 a 02/11) mais 00-A e 00-B (total 44).
-- 00-A (modelo: vídeo de abertura): vídeo de abertura da Dra. com a pergunta "Quantas vezes você já recomeçou?". Marcador [[VÍDEO: ...]].
-- 00-B (modelo: depoimento): depoimento de aluna sobre sair do ciclo de começar e parar. Marcador [[DEPOIMENTO REAL]].
-- 01 (modelo 01, "oportunidade histórica"): ABRIU, pergunta-guia e anúncio da live. Perfil: todos.
-- 02 (modelo 02, "imagina ter acesso para sempre"): "uma decisão que só se toma uma vez" (identidade). Perfil: todos.
-- 03 (modelo 03, "está chegando"): "Eu sei o que fazer e não faço". Perfil: Autossabotagem.
-- 04 (modelo 04, "e se fosse a última vez que precisasse investir"): "e se fosse a última vez que precisasse recomeçar" (frase-guia). Perfil: Autossabotagem.
-- 05 (modelo 05, "liberdade"): Termostato Invisível, "quando entra um dinheiro a mais, aparece uma conta". Perfil: Termostato Invisível.
-- 06 (modelo 06, "o mercado de injetáveis não espera"): objeção "o depois não espera ninguém". Perfil: Autossabotagem.
-- 07 (modelo 07, "quem se torna referência"): identidade "funcional, mas exausta". Perfil: Cobrança Que Você Só Faz Com Você.
-- 08 (modelo 08, "um único investimento, todos os cursos"): "uma única decisão, acesso para sempre", pagamento único, sem renovar.
-- 09 (modelo 09, depoimento 2): depoimento sobre Termostato Invisível. Marcador [[DEPOIMENTO REAL]].
-- 10 (modelo 10, "você não sabe o que vai aprender daqui a 6 meses"): "você não sabe em que dia vai querer desistir, e o acesso está lá". Objeção.
-- 11 (modelo 11, "segurança não vem de decorar técnica"): Traumas Que Ainda Decidem, "mudança não vem de força de vontade". Perfil: Traumas.
-- 12 (modelo 12, "quanto você ainda gastaria em cursos"): "quanto você ainda gastaria recomeçando" (sem valores).
-- 13 (modelo 13, depoimento 3): depoimento sobre aplicar acompanhada. Marcador [[DEPOIMENTO REAL]].
-- 14 (modelo 14, "nunca precisar esperar outra Black Friday"): "esta condição não se repete, o que vier depois é outra oferta, com outro preço".
-- 15 (sem equivalente direto, usado para completar a escada de identidade): Culpa de Querer Mais. Perfil: Culpa.
-- 16 (modelo 15, "você não precisa aprender tudo agora"): trilha de entrada, "um passo só". Objeção "11 produtos é muito?".
-- 17 (modelo 16, "tem coisa que só se entende na prática"): acesso vitalício como poder voltar ao processo.
-- 18 (modelo 17, "chega de montar formação curso por curso"): o que entra (os 11 produtos em 3 blocos).
-- 19 (modelo 18, "não espere o próximo desafio"): "não espere a próxima crise para recomeçar".
-- 20 (modelo 19, "sua carreira não termina quando um curso acaba"): "o processo não termina quando um produto acaba", o "depois".
-- 21 (modelo 20, "qual curso você escolheria"): "qual produto você escolheria se só pudesse um".
-- 22 (sem equivalente, objeção da pesquisa): "já comprei e não tive resultado", "você não aplica sozinha". Perfil: Autossabotagem.
-- 23 (modelo 21, "o melhor do vitalício"): acesso não fica preso ao dia da entrada (sem promessa de lançamentos).
+- Estrutura mantida: legenda de status, títulos numerados com dia e hora, bloco de data da live, aviso do Lote Especial, CTA do grupo e assinatura. O modelo tinha 26 mensagens (00-A, 00-B e 01 a 24, em dois disparos por dia); aqui são 42 mensagens (01 a 42, 11h30 e 20h, de 13/10 a 02/11) mais 00-A e 00-B (total 44), porque a captação da Dra. tem 21 dias.
+- 00-A (função do modelo: vídeo de abertura, dia anterior à sequência, 11h): vídeo da Dra. com a pergunta "Quantas vezes você já recomeçou?". Marcador [[VÍDEO: ...]]. Segunda 12/10, 11h30.
+- 00-B (depoimento no dia anterior, 20h): depoimento de aluna sobre sair do ciclo de começar e parar. Marcador [[DEPOIMENTO REAL]]. Segunda 12/10, 20h.
+- 01 (anúncio da oportunidade): lista aberta, pergunta-guia e anúncio da live. Perfil: todos.
+- 02 ("imagina ter acesso para sempre"): "uma decisão que só se toma uma vez" (identidade). Perfil: todos.
+- 03 ("está chegando"): "Eu sei o que fazer e não faço". Perfil: Autossabotagem.
+- 04 ("e se fosse a última vez"): "e se fosse a última vez que você precisasse recomeçar" (frase-guia). Perfil: Autossabotagem.
+- 05 ("liberdade"): Termostato Invisível, "quando entra um dinheiro a mais, aparece uma conta". Perfil: Termostato Invisível.
+- 06 ("o mercado não espera ninguém"): objeção "o depois não espera ninguém". Perfil: Autossabotagem.
+- 07 ("quem se torna referência"): identidade "funcional, mas exausta". Perfil: Cobrança Que Você Só Faz Com Você.
+- 08 ("um único investimento, todos os cursos"): "uma única decisão, acesso para sempre", pagamento único.
+- 09 (depoimento 2): depoimento sobre Termostato Invisível. Marcador [[DEPOIMENTO REAL]].
+- 10 ("você não sabe o que vai aprender daqui a 6 meses"): "você não sabe em que dia vai querer desistir, e o acesso está lá". Objeção.
+- 11 ("segurança não vem de decorar técnica"): Traumas Que Ainda Decidem. Perfil: Traumas.
+- 12 ("quanto você ainda gastaria em cursos"): "quanto você ainda gastaria recomeçando" (sem valores).
+- 13 (depoimento 3): depoimento sobre aplicar com apoio e continuar. Marcador [[DEPOIMENTO REAL]].
+- 14 ("nunca precisar esperar outra Black"): "esta condição não se repete, o que vier depois é outra oferta, com outro preço".
+- 15 (sem equivalente direto): Culpa de Querer Mais. Perfil: Culpa.
+- 16 ("você não precisa aprender tudo agora"): trilha de entrada, "um passo só".
+- 17 ("tem coisa que só se entende na prática"): acesso vitalício como poder voltar ao processo.
+- 18 ("chega de montar a formação curso por curso"): o que entra (os 11 produtos em 3 blocos).
+- 19 ("não espere o próximo desafio"): "não espere a próxima crise para recomeçar" (sem dívida, sem doença).
+- 20 ("sua carreira não termina quando um curso acaba"): "o processo não termina quando um produto acaba", o "depois".
+- 21 ("qual curso você escolheria"): "qual produto você escolheria se só pudesse um".
+- 22 (sem equivalente, objeção da pesquisa): "já comprei e não tive resultado", sem culpar a pessoa. Perfil: Autossabotagem.
+- 23 ("o melhor do vitalício"): o acesso não fica preso ao dia da entrada. Sem "o processo cresce" nem curso novo incluído.
 - 24 (sem equivalente, perfil Culpa): "qual foi a última vez que você se escolheu", frase intocável.
-- 25 (modelo 23, "oportunidade para ter tudo"): "uma oportunidade para ter tudo, de uma vez", Clube mais 11 produtos.
-- 26 (modelo 12, a "conta"): "quanto custa continuar mais um ano no mesmo lugar". Objeção dinheiro, sem valor.
-- 27 (depoimento 3 do modelo, repetido): depoimento sobre culpa, cobrança ou traumas.
+- 25 ("oportunidade para ter tudo"): Clube mais 11 produtos, pagamento único.
+- 26 (a "conta"): "quanto custa continuar mais um ano no mesmo lugar". Objeção dinheiro, sem valor.
+- 27 (depoimento repetido do modelo): depoimento sobre culpa, cobrança ou traumas.
 - 28 (frase intocável): "O deserto é o que define se uma pessoa explode ou não". Perfil: Traumas.
-- 29 (prova): história da Dra. e "70 mil alunos em 44 países" (fatos do guia, seção 8). Confiança.
-- 30 (objeção): "e se não funcionar para mim", "eu prefiro que você não compre do que compre e não viva".
-- 31 (convite à live): salva a data e ativa o lembrete.
-- 32 (convite à live): "o padrão vai tentar te tirar da live".
-- 33 (convite à live): roteiro do que acontece na live.
-- 34 (convite à live): falta o diagnóstico (check-in).
-- 35 (convite à live): ativa o lembrete, dois toques.
+- 29 (prova): história da Dra. e "70 mil alunos em 44 países" (fatos do guia, seção 8); a dor citada vem de 01_PESQUISAS_INSIGHTS.md (procrastino e não consigo colocar em prática, 20% a 22%).
+- 30 (objeção): "e se não funcionar para mim", frase intocável sobre comprar e viver.
+- 31 a 35 (convite à live): data e lembrete; "o padrão vai tentar te tirar da live"; roteiro; diagnóstico; dois toques.
 - 36 (depoimento 4): relato sem promessa.
-- 37 (modelo 24, "você já entendeu o tamanho, mas não viu tudo"): mantém a curiosidade sobre o que falta revelar.
+- 37 ("você já entendeu o tamanho, mas não viu tudo"): curiosidade sobre o que falta revelar.
 - 38 (exercício): "a última vez que eu preciso recomeçar é quando eu ___".
 - 39 (resumo do que entra): lista completa Clube mais 11 produtos.
-- 40 ("amanhã" e checklist): checklist da live.
-- 41 ("amanhã", feriado): tom sóbrio, "amanhã eu abro ao vivo".
-- 42 ("é amanhã à noite"): pergunta da live, "a última vez que você vai precisar recomeçar". Como 03/11 não tem disparo neste documento (é o dia da live, ver dia_da_live_03_11.md), o "é hoje" fica fora.
+- 40 (véspera e checklist): checklist da live.
+- 41 (véspera, feriado): tom sóbrio, "amanhã eu abro ao vivo", sem aviso de escassez nem emoji de alerta.
+- 42 ("é amanhã à noite"): pergunta da live e frase-guia. Como 03/11 não tem disparo neste documento (é o dia da live, ver 05_whatsapp_api/dia_da_live_03_11.md), o "é hoje" fica fora.
 
 2. Pendências e CONFIRMAR que ficaram
 - [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (primeira ocorrência, em 00-A; o aviso se repete nas demais sem a marca).
-- [[PENDENTE: bônus de check-in]] (34).
-- [[PENDENTE: ordem de entrada da trilha]] (16), [[PENDENTE: replay]] (35), [[CONFIRMAR: roteiro da live, ver 08_live_e_pitch]] (33).
+- [[PENDENTE: bônus]] de check-in (34).
+- [[PENDENTE: ordem de entrada]] (16), [[PENDENTE: replay]] (35), [[CONFIRMAR: roteiro da live, ver 08_live_e_pitch/roteiro_live_de_revelacao.md]] (33).
 - [[DEPOIMENTO REAL]]: 00-B, 09, 13, 27 e 36 precisam de print autorizado. Se não houver todos, apagar os slots em vez de inventar.
 - [[VÍDEO: ...]] em 00-A: a Dra. precisa gravar.
 - Links: [[LINK: grupo da Black]], [[LINK: reserva e diagnóstico]], [[LINK: live no YouTube]].
 - Dados usados: 70 mil alunos em 44 países (guia, seção 8); história da Dra. (precisa de aprovação dela).
-- 00-A e 00-B vão no dia da abertura do grupo (terça 13/10, 10h00 e 16h00), diferente do modelo, que os enviava no dia anterior à sequência. Decidir se a equipe prefere mandar em 12/10 (segunda, feriado de Nossa Senhora Aparecida).
+- 00-A e 00-B foram para segunda 12/10 (feriado de Nossa Senhora Aparecida), 11h30 e 20h, como o modelo faz no dia anterior à sequência. Se a equipe preferir abrir o grupo só em 13/10, mandar 00-A às 10h00 "quando der" e fundir 00-B ao 02; o horário de 16h30 é banco de reserva e não entra no cronograma.
 - Perfis: Termostato Invisível (05, 12, 26), Autossabotagem (03, 04, 06, 22, 32, 38), Cobrança (07, 40), Traumas (11, 28, 30), Culpa de Querer Mais (15, 24, 27).
-- O aviso do Lote Especial aparece na maioria das mensagens, como no modelo. Nas mensagens emocionais ou sóbrias (05, 07, 11, 14, 17, 23, 27, 29, 33, 38, 40, 41) foi omitido ou diluído.
-- 02/11 é feriado (Finados): mensagens 41 e 42 em tom sóbrio. 03/11 é terça, dia de aula do Clube (mencionado em 15 e 29).
-- As alunas do Clube têm sequência própria de convite (grupos_descricao_e_grupo_cheio.md, lembretes_de_grupo_captacao.md seção 4).
-- [[PENDENTE: live fechada para alunas? Se sim, trocar data e horário]]: o modelo tem uma live fechada para alunos FEP; aqui a condição das alunas é revelada na mesma live de 03/11, e nenhuma mensagem deste documento fala de live fechada.
+- O aviso do Lote Especial aparece na maioria das mensagens, como no modelo. Nas mensagens emocionais, sóbrias ou com outro CTA (05, 07, 11, 14, 17, 23, 25, 27, 29, 31, 33, 35, 38, 40, 41, 42) foi omitido ou diluído no próprio texto (14 e 25 citam o Lote Especial na frase).
+- Mensagens 31, 35 e 41 têm um único CTA (o lembrete da live); o CTA do grupo foi retirado para manter uma ação só.
+- 02/11 é feriado (Finados): mensagens 41 e 42 em tom sóbrio, sem emoji de alerta e sem urgência. 03/11 é terça, dia de aula do Clube (mencionado em 15 e 29).
+- As alunas do Clube têm sequência própria de convite (05_whatsapp_api/grupos_descricao_e_grupo_cheio.md e 05_whatsapp_api/lembretes_de_grupo_captacao.md, seção 4).
+- [[CONFIRMAR: live fechada para alunas? Se sim, trocar data e horário]]: o modelo tem uma live fechada para as alunas do outro curso; aqui a condição das alunas é revelada na mesma live de 03/11, e nenhuma mensagem deste documento fala de live fechada.
 
 3. Conflitos entre o modelo e as regras da Dra.
-- O modelo promete "inclusive os novos cursos que ainda vou lançar" em quase todas as mensagens. Removido: o briefing não promete lançamentos futuros. Foi trocado por "tudo o que existe hoje, sem prazo para dar conta".
-- O modelo usa "nunca mais" e "a última vez que vou oferecer". Trocado por "esta condição não se repete, o que vier depois é outra oferta, com outro preço" e pela frase-guia "a última vez que você vai precisar recomeçar". A única ocorrência de "nunca mais" é a frase intocável da Dra. na mensagem 24.
-- O modelo fala em "Lote Especial garantido" para quem está ao vivo. Mantido, mas condicionado ao CONFIRMAR.
+- O modelo promete os cursos futuros em quase todas as mensagens. Removido: o briefing não promete lançamentos futuros. Trocado por "tudo o que existe hoje, sem prazo para dar conta".
+- O modelo usa "nunca mais" e a ideia de última oferta. Trocado por "esta condição não se repete, o que vier depois é outra oferta, com outro preço" e pela frase-guia "a última vez que você vai precisar recomeçar". A única ocorrência de "nunca mais" é a frase intocável da Dra. na mensagem 24.
+- O modelo fala em acesso garantido ao Lote Especial para quem está ao vivo. Mantido, condicionado ao CONFIRMAR.
+- O modelo descreve renovação como realidade do mercado; aqui "renovar" só aparece na fórmula aprovada "sem renovar e sem recomeçar".
 - Nenhum preço, parcela ou promessa de ganho, cura ou fim da autossabotagem antes da live.

@@ -9,7 +9,7 @@
 | **Objetivo** | Manter a pessoa no grupo, levá-la a fazer o diagnóstico, reservar a vaga e chegar na live de 03/11 sabendo o nome do padrão. Cada copy termina com pergunta ou reação |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada copy desloca a pessoa um passo em direção a essa decisão: reconhecer, confiar, entender o que entra, decidir estar na live |
 | **Momento de vida** | Aperto real (34%), funcional e exausta (32%, 60% com 45+), confortável querendo mais (18%), sozinha (20%), casada sem conexão (55% casadas). Cada copy traz o momento predominante |
-| **Modelo no Desafio** | `desafio_copys_lembrete_grupos_desafio.md` (CP 01 a 51): "Faltam 3 dias", "É hoje", "Lembrete 1 + evento", "Lembrete 2", "Falta 1 hora", "Carta", "Lista de interesse", "Mantra" (aqui, ritual de Grabovoi), quebra de objeção (CP 34) |
+| **Modelo no Desafio** | copys de lembrete de grupo do Desafio (CP 01 a 51): "Faltam 3 dias", "É hoje", "Lembrete 1 + evento", "Lembrete 2", "Falta 1 hora", "Carta", "Lista de interesse", "Mantra" (aqui, ritual de Grabovoi), quebra de objeção (CP 34) |
 
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha 5 noites e uma sequência diária de CP em torno do horário da aula (09h, 13h, 17h, 19h, 20h, 20h15, 20h45). A Black tem **uma live** em 03/11, então a cadência de 13/10 a 02/11 é de **aquecimento**: 3 disparos por dia, em 11h30, 16h30 e 20h. A cadência de horários da BFV/26 (grupos às 11h30 e 20h) está preservada, com um terceiro disparo às 16h30. O dia 03/11 usa a grade completa do dia da live (`dia_da_live_03_11.md`).
@@ -137,7 +137,7 @@ Quantas vezes você já recomeçou?
 
 Começou, parou, prometeu que agora ia ser diferente. E recomeçou de novo.
 
-No dia *03/11, às 20h*, eu abro ao vivo, no YouTube, uma condição que o Clube Secreto nunca ofereceu antes.
+No dia *03/11, às 20h*, eu abro ao vivo, no YouTube, a oferta que o Clube Secreto nunca fez antes.
 
 O preço e as condições só são revelados na live.
 
@@ -944,7 +944,7 @@ Eu sei. O risco do excesso é virar mais uma pasta cheia.
 
 Por isso a Vitalícia vem com uma *trilha de entrada*: você não começa por tudo, começa por um passo.
 
-[[PENDENTE: ordem de entrada da trilha, definida pela equipe]]
+[[CONFIRMAR: ordem de entrada da trilha, definida pela equipe]]
 
 Ao vivo, no dia 03/11, às 20h, eu mostro por onde começar.
 
@@ -1068,7 +1068,7 @@ Perfil: Todos. Objeção: Medo de não funcionar para mim. Momento de vida: Todo
 
 É um medo legítimo. E eu prefiro ser honesta.
 
-Eu não prometo ganho nem cura.
+Eu não prometo ganho nem resultado igual para todo mundo.
 
 Eu mostro um caminho, com prática e acompanhamento.
 
@@ -1323,7 +1323,7 @@ Mais um relato de aluna:
 
 [[DEPOIMENTO REAL: print autorizado de aluna sobre parar de recomeçar ou sobre aplicar acompanhada]]
 
-Cada pessoa vive isso do seu jeito. Eu não prometo resultado financeiro nem cura.
+Cada pessoa vive isso do seu jeito. Eu não prometo resultado financeiro nem o mesmo resultado para todo mundo.
 
 Dia 03/11, às 20h, eu mostro o que construí ao vivo.
 
@@ -1490,7 +1490,7 @@ O que muda: Trocar a lógica de captação por upgrade: ela já está dentro, fa
 
 Você já está dentro do Clube Secreto.
 
-Dia *03/11, às 20h*, eu revelo ao vivo como ficar para sempre, sem renovar e sem recomeçar.
+Dia *03/11, às 20h*, eu revelo ao vivo como ficar para sempre, sem prazo e sem recomeçar.
 
 E existe uma condição própria para quem já é aluna.
 
@@ -1594,7 +1594,7 @@ A dúvida que as alunas mais fazem:
 
 *"E o meu acesso atual? Perco algo?"*
 
-[[PENDENTE: regra de migração, crédito ou continuidade para quem já tem acesso ativo]]
+[[CONFIRMAR: regra de migração, crédito ou continuidade para quem já tem acesso ativo]]
 
 Eu vou explicar ao vivo, dia 03/11, às 20h, sem letra miúda.
 
@@ -1827,11 +1827,11 @@ Reage com 🔴 se você vai estar ao vivo.
 **Pendências**
 1. `[[LINK: ...]]`: reserva da live, diagnóstico, live no YouTube, áudio de Grabovoi. Cada um com UTM por ID de copy.
 2. `[[DEPOIMENTO REAL]]`: 4 slots precisam de print autorizado (CP-BF-25, 31, 41, 56). Se não houver 4, repetir o melhor e apagar os outros slots em vez de inventar. Pedir autorização por escrito.
-3. `[[PENDENTE: ordem de entrada]]` (CP-BF-38): a trilha de entrada precisa de pelo menos 3 passos definidos antes de o slot ir ao ar.
+3. `[[CONFIRMAR: ordem de entrada da trilha]]` (CP-BF-38): a trilha de entrada precisa de pelo menos 3 passos definidos antes de o slot ir ao ar.
 4. `[[PENDENTE: replay]]` (CP-BF-29): decidir antes de 22/10.
 5. `[[CONFIRMAR: parcelamento]]` (CP-BF-26 e 62): só fica no texto se o checkout tiver parcelamento.
 6. `[[CONFIRMAR: duração da live]]` (CP-BF-47) e `[[CONFIRMAR: roteiro da live]]` (CP-BF-49): casar com `08_live_e_pitch`.
-7. `[[PENDENTE: áudio e sequência da noite]]` (CP-BF-15, 45, 60): a Dra. precisa aprovar o áudio. Se não houver áudio novo, apagar os 3 slots e deixar o slot C com a pergunta do dia.
+7. `[[CONFIRMAR: áudio e sequência da noite]]` (CP-BF-15, 45, 60): a Dra. precisa aprovar o áudio. Se não houver áudio novo, apagar os 3 slots e deixar o slot C com a pergunta do dia.
 8. Números usados: 51,9% (dossiê de audiência), 4 em cada 10 / 40% (Aulão), 12% (ficha), 32% (ficha), 70 mil alunos em 44 países (guia, seção 8). Conferir a origem antes de aprovar.
 9. A frase "Eu fui criada pelos meus avós..." (CP-BF-11) vem dos fatos da Dra. no guia, mas em primeira pessoa. Precisa da aprovação dela.
 10. 02/11 é feriado (Finados). Os 3 slots do dia usam tom sóbrio.

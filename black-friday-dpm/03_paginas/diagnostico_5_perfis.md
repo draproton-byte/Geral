@@ -9,7 +9,7 @@
 **Trabalho contratado:** "Eu quero entender o que me faz recomeçar"
 **Modelo no Desafio:** Teste de Bloqueios do Desafio (planilha "Diagnóstico de Bloqueios DNR 0926": 5 resultados com percentual por perfil, 4.032 respostas) e Quiz A Nova Realidade (3.226 respostas). Mesma lógica: perguntas rápidas, resultado em 5 perfis, percentual de cada um
 
-> **Este diagnóstico não é avaliação clínica.** Ele identifica padrões de comportamento a partir das respostas. Não faz diagnóstico psicológico ou médico, não indica tratamento e não promete cura. Aviso na tela de abertura, na tela de resultado e no rodapé (microcopy no final do arquivo).
+> **Este diagnóstico não é avaliação clínica.** Ele identifica padrões de comportamento a partir das respostas. Não faz diagnóstico psicológico ou médico, não indica tratamento e não promete resultado. As definições dos 5 perfis são provisórias (ver Parte 6). Aviso na tela de abertura, na tela de resultado e no rodapé (microcopy no final do arquivo).
 
 ---
 
@@ -42,6 +42,9 @@ Tempo estimado do diagnóstico (parte B): 2 a 3 minutos. `[[CONFIRMAR: tempo rea
 **Aviso (corpo pequeno)**
 `Este diagnóstico identifica padrões de comportamento. Não é avaliação clínica, não faz diagnóstico psicológico ou médico e não substitui acompanhamento profissional.`
 
+**Consentimento (antes do botão)**
+`Ao começar, você concorda que o Instituto Dra. Próton guarde as suas respostas para montar o seu resultado e preparar a live. Elas não são vendidas nem divulgadas.` [[LINK: política de privacidade]]
+
 **Botão**
 `COMEÇAR O DIAGNÓSTICO`
 
@@ -51,7 +54,7 @@ Tempo estimado do diagnóstico (parte B): 2 a 3 minutos. `[[CONFIRMAR: tempo rea
 - Barra de progresso
 - Opções em botões grandes (altura mínima 56 px, uma por linha)
 - Botão `Voltar` discreto
-- Avança sozinho ao tocar (sem botão "Próxima"), exceto D7
+- Avança sozinho ao tocar (sem botão "Próxima"), exceto D7, que termina com o botão `VER MEU RESULTADO`
 
 ### Tela de carregamento do resultado (2 segundos)
 
@@ -62,7 +65,7 @@ Tempo estimado do diagnóstico (parte B): 2 a 3 minutos. `[[CONFIRMAR: tempo rea
 
 ## Parte 3: As 7 perguntas e a pontuação
 
-Cada resposta soma pontos nos perfis: **T** Termostato Invisível, **A** Autossabotagem, **C** Cobrança Que Você Só Faz Com Você, **R** Traumas Que Ainda Decidem (raízes), **G** Culpa de Querer Mais. "Não sei dizer" nunca pontua.
+Cada resposta soma pontos nos perfis (o máximo possível em cada perfil é T 11, A 16, C 14, R 15, G 18): **T** Termostato Invisível, **A** Autossabotagem, **C** Cobrança Que Você Só Faz Com Você, **R** Traumas Que Ainda Decidem (raízes), **G** Culpa de Querer Mais. "Não sei dizer" nunca pontua.
 
 Origem das perguntas: adaptadas do Quiz A Nova Realidade (P5, P6), do Teste de Bloqueios do Desafio (P3, P4) e de frases validadas na audiência (01_PESQUISAS_INSIGHTS.md, seções 1.2 e 2).
 
@@ -147,12 +150,12 @@ Origem das perguntas: adaptadas do Quiz A Nova Realidade (P5, P6), do Teste de B
 ## Parte 4: Regras de cálculo e de resultado
 
 1. **Soma:** some os pontos de cada perfil nas 7 respostas.
-2. **Percentual:** pontos do perfil dividido pela soma de todos os pontos, arredondado para número inteiro. Mostrar barras para os 5.
-3. **Perfil principal:** o de maior pontuação. **Perfil secundário:** o segundo.
+2. **Normalização e percentual:** como os perfis não têm o mesmo máximo (T 11, A 16, C 14, R 15, G 18), divida os pontos de cada perfil pelo seu máximo antes de comparar. Sem isso, o Termostato Invisível nunca alcança a Culpa de Querer Mais, e ele é o perfil mais frequente no Desafio. Percentual: valor normalizado do perfil dividido pela soma dos 5 valores normalizados, arredondado para número inteiro. Mostrar barras para os 5.
+3. **Perfil principal:** o de maior valor normalizado. **Perfil secundário:** o segundo.
 4. **Empate no primeiro lugar:** usar a resposta da D3 como desempate. Se continuar empatado, usar a D2. Se continuar, mostrar os dois como "dois padrões com o mesmo peso" e usar a devolutiva do primeiro na ordem: Termostato, Autossabotagem, Cobrança, Traumas, Culpa.
-5. **Sem pontuação (todas as respostas "não sei" ou sem pontos):** mostrar a devolutiva **6: "O padrão que ainda não tem nome"**. Esse caso é esperado: 29% a 40% da base responde "não sei exatamente o que está me impedindo".
+5. **Sem pontuação (todas as respostas "não sei", "nenhuma" ou sem pontos) ou pontuação muito baixa (soma dos pontos brutos menor que 6):** mostrar a devolutiva **6: "O padrão que ainda não tem nome"**. Esse caso é esperado: 29% a 40% da base responde "não sei exatamente o que está me impedindo". `[[CONFIRMAR: limite de 6 pontos, a calibrar no teste com 30 a 50 pessoas]]`
 6. **Guardar na base:** perfil principal, secundário, percentuais, respostas, data, UTM e o perfil que a pessoa disse reconhecer (Q1 da pesquisa), para comparar percepção e resultado.
-7. **Em nenhuma tela escrever:** "você tem", "você sofre de", "diagnóstico de", "transtorno", "doença", "cura". Usar: "seu padrão é", "o padrão que mais aparece", "isto parece com".
+7. **Em nenhuma tela escrever:** "você sofre de", "você tem" seguido de condição, "diagnóstico de", "transtorno", "doença" ou qualquer promessa de resolver o padrão. Usar: "seu padrão é", "o padrão que mais aparece", "isto parece com".
 
 ---
 
@@ -172,7 +175,7 @@ De cima para baixo:
 `Este resultado identifica um padrão de comportamento. Não é avaliação clínica e não substitui acompanhamento profissional.`
 
 **Linha de perfil secundário**
-`Seu segundo padrão: {{nome}} ({{percentual}}%). Quase todo mundo tem mais de um. O que muda é qual deles decide primeiro.`
+`Seu segundo padrão: {{nome}} ({{percentual}}%). Muita gente se reconhece em mais de um. O que muda é qual deles decide primeiro.`
 
 **Botões da tela de resultado**
 1. `ENTRAR NO GRUPO DA LIVE` [[LINK: grupo]]
@@ -181,11 +184,11 @@ De cima para baixo:
 
 ---
 
-## Parte 6: As cinco devolutivas
+## Parte 6: As devolutivas (cinco perfis e o caso sem pontuação)
 
 Estrutura de cada uma: **Nome** · **Espelho em 3 frases** · **O que isso custa** · **O que fazer na live**.
 
-Regras: sem diagnóstico clínico, sem prometer cura, sem prometer ganho. "Custa" fala em custo de viver o padrão (tempo, energia, decisões), não em dinheiro perdido com número. As definições dos 5 perfis devem ser conferidas com a definição oficial da Imersão `[[CONFIRMAR: alinhar com a Imersão]]`.
+Regras: sem diagnóstico clínico, sem prometer resultado, sem prometer ganho. "Custa" fala em custo de viver o padrão (tempo, energia, decisões), não em dinheiro perdido com número. As definições dos 5 perfis devem ser conferidas com a definição oficial da Imersão `[[CONFIRMAR: alinhar com a Imersão]]`.
 
 ---
 
@@ -205,7 +208,7 @@ Regras: sem diagnóstico clínico, sem prometer cura, sem prometer ganho. "Custa
 2. `Quando a Dra. mostrar o que entra na Vitalícia, marque o que responde ao seu padrão: dinheiro e crenças sobre dinheiro.`
 3. `Leve uma dúvida para o comercial ou para o chat: "por onde eu começo, sendo Termostato?" A trilha de entrada tem a resposta.`
 
-**Dado de apoio (uso interno):** 51,9% dos respondentes do dossiê disseram que, quando entra dinheiro a mais, aparece uma conta ou um problema. Não citar o número na devolutiva.
+**Dado de apoio (uso interno):** 51,9% das pessoas que responderam à pesquisa de presença (dossiê do Desafio) disseram que, quando entra dinheiro a mais, aparece uma conta ou um problema. Não citar o número na devolutiva.
 
 ---
 
@@ -215,7 +218,7 @@ Regras: sem diagnóstico clínico, sem prometer cura, sem prometer ganho. "Custa
 `"Eu sei o que fazer e não faço."`
 
 **Espelho em 3 frases**
-`Você tem informação, tem vontade e chega perto. Na hora de agir, adia, arruma outra coisa para fazer ou recomeça do zero. Isso não é falta de caráter: é um padrão que age no momento exato em que você ia agir.`
+`Informação e vontade não faltam, e você chega perto. Na hora de agir, adia, arruma outra coisa para fazer ou recomeça do zero. Isso não é falta de caráter: é um padrão que age no momento exato em que você ia agir.`
 
 **O que isso custa**
 `Custa tempo e confiança em você. Cada começo que não termina deixa uma marca: a promessa que você fez a si mesma e não cumpriu. Com o tempo, você passa a acreditar que não consegue, e isso torna o próximo começo mais difícil.`
@@ -240,7 +243,7 @@ Regras: sem diagnóstico clínico, sem prometer cura, sem prometer ganho. "Custa
 
 **O que fazer na live**
 1. `Escute com esta pergunta: "o que eu faria se parasse de me cobrar por um dia?" Anote a primeira resposta.`
-2. `Repare no que a Dra. disser sobre ritmo: não existe o mês que você perdeu. É uma decisão para você não se cobrar de novo.`
+2. `Repare como a Vitalícia trata o ritmo: sem prazo, sem o mês que você perdeu. É uma decisão para você não se cobrar de novo.`
 3. `Pergunte, no chat ou para o comercial, como a trilha de entrada respeita o seu ritmo.`
 
 ---
@@ -261,7 +264,7 @@ Regras: sem diagnóstico clínico, sem prometer cura, sem prometer ganho. "Custa
 2. `Repare no que a Dra. disser sobre o que roda por baixo. O que está por baixo se trabalha, não se força.`
 3. `Se uma lembrança pesada aparecer, respire e lembre que a live não é terapia. Se for forte, procure um profissional de saúde. Você não precisa lidar com isso sozinha(o).`
 
-**Cuidado de compliance:** esta devolutiva toca em trauma. Não prometer cura. A frase "a live não é terapia" é obrigatória, e o aviso de buscar um profissional de saúde mental precisa ficar visível.
+**Cuidado de compliance:** esta devolutiva toca em trauma. Não prometer resultado nem tratamento. A frase "a live não é terapia" é obrigatória, e o aviso de buscar um profissional de saúde mental precisa ficar visível.
 
 ---
 
@@ -278,7 +281,7 @@ Regras: sem diagnóstico clínico, sem prometer cura, sem prometer ganho. "Custa
 
 **O que fazer na live**
 1. `Escute com esta pergunta: "o que eu quero para mim que eu ainda não me deixei querer?" Escreva a primeira coisa que vier.`
-2. `Lembre do que a Dra. disse nas aulas: quando você sobe, a casa sobe junto. Repare como isso aparece na live.`
+2. `Lembre do que a Dra. diz nas aulas do Desafio: quando você sobe, a casa sobe junto. Repare como isso aparece na live.`
 3. `Se você é casada(o) ou tem família, combine antes com quem convive com você que, às 20h, esse horário é seu.`
 
 **Origem:** "Quando você sobe, a casa sobe junto" é frase real da Aula 02 do Desafio (00_ESTRATEGIA_COPY_SENIOR.md, seção 3.3).
@@ -293,7 +296,7 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 `Seu padrão ainda não tem nome. E isso é um começo.`
 
 **Espelho em 3 frases**
-`Você marcou "não sei" ou "nenhuma" em quase tudo. Isso é comum: a maior parte das pessoas que respondem a esta pesquisa não sabe exatamente o que está impedindo. Não é falta de autoconhecimento, é que o padrão age por baixo, sem avisar.`
+`Suas respostas não apontaram um padrão que se destaque. Isso é comum: "não sei exatamente o que está me impedindo" foi a resposta mais frequente entre as pessoas que responderam à minha pesquisa. Não é falta de autoconhecimento, é que o padrão age por baixo, sem avisar.`
 
 **O que isso custa**
 `Custa o tempo de tentar de tudo sem saber o que tentar. Quem não sabe o que trava tende a testar mais um curso, mais uma técnica, e a sentir que nada pega.`
@@ -341,7 +344,7 @@ Aparece quando todas as respostas foram "não sei" ou sem pontuação. Caso espe
 ## Notas ao implementador
 
 1. **Pendências:** `[[CONFIRMAR: definição oficial dos 5 perfis na Imersão]]`, `[[CONFIRMAR: tempo do diagnóstico]]`, `[[LINK: grupo da live]]`, `[[LINK: arquivo de calendário]]`, `[[CONFIRMAR: live começa com a pergunta "Quantas vezes você já recomeçou?" e a conta do Termostato, conforme 01_PESQUISAS_INSIGHTS.md, seção 3]]`.
-2. **Pontuação:** a tabela é uma proposta. Antes de ir ao ar, rodar com 30 a 50 pessoas da base e checar se o resultado distribui entre os 5 perfis (no Desafio, a média por perfil foi: Termostato 31,6%; Autossabotagem 23,3%; Cobrança 21,7%; Culpa 14,2%; Traumas 9,1%). Se um perfil estiver abaixo de 5% de resultado principal, rebalancear pesos. Sem rebalanceamento, "Traumas" tende a ficar sub-representado, como ficou no Desafio (376 de 4.032 resultados).
+2. **Pontuação:** a tabela é uma proposta, e a normalização da Parte 4 corrige o teto menor do Termostato (11 pontos contra 18 da Culpa). Antes de ir ao ar, rodar com 30 a 50 pessoas da base e checar se o resultado distribui entre os 5 perfis (no Desafio, a média por perfil foi: Termostato 31,6%; Autossabotagem 23,3%; Cobrança 21,7%; Culpa 14,2%; Traumas 9,1%). Se um perfil estiver abaixo de 5% de resultado principal, rebalancear pesos. Sem rebalanceamento, "Traumas" tende a ficar sub-representado, como ficou no Desafio (376 de 4.032 resultados).
 3. **Perfis em dados do Desafio (resultado principal, 4.032 respostas):** Termostato Invisível 1.089; Autossabotagem 1.082; Cobrança Que Você Só Faz Com Você 1.001; Culpa de Querer Mais 484; Traumas Que Ainda Decidem 376. Usar como referência de volume por perfil no planejamento de criativos e de comercial.
 4. **Percepção contra resultado:** comparar o perfil que a pessoa disse reconhecer (pesquisa Q1) com o resultado do diagnóstico. A diferença é dado de copy: onde a pessoa se enxerga contra onde o padrão aparece.
 5. **Uso nas peças:** o perfil principal vira a variável `{{perfil}}` nas mensagens de WhatsApp, nos e-mails de captação, no comercial (abertura por perfil) e na trilha de entrada do onboarding.

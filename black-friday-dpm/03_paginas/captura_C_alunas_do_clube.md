@@ -6,7 +6,7 @@
 **Momento:** Fase 1 e 2, a partir de 13/10, com sequência própria até 03/11
 **Objetivo:** Confirmar presença na live de 03/11, às 20h, e identificar a aluna (e-mail da compra) para receber a condição de aluna depois da revelação
 **Consciência:** 4 (comparação: ela conhece o produto, falta entender o que muda)
-**Trabalho contratado:** "Eu já estou dentro. Eu quero parar de depender de renovar e de decidir de novo."
+**Trabalho contratado:** "Eu já estou dentro. Eu quero parar de depender de prazo e de decidir de novo."
 **Modelo no Desafio:** Página de Vendas do Desafio (blocos 01, 04, 10 e 12), com a ponte do Desafio para o Clube ("não trave o processo", "melhorar x mudar de vida") invertida: aqui a ponte é do Clube para o vitalício
 **Regra desta peça:** não promete preço nem valor de desconto. Diz que existe uma condição própria para alunas, revelada na live. `[[CONFIRMAR: pode-se anunciar que existe condição específica para alunas antes da live]]`
 
@@ -43,13 +43,13 @@ Estado 4 (depois das 20h):
 ## Bloco 01: Vender sozinho
 
 **Pré-título**
-`PARA QUEM JÁ É DO CLUBE SECRETO · 03 DE NOVEMBRO · 20H · AO VIVO NO YOUTUBE`
+`PARA QUEM JÁ É DO CLUBE SECRETO · 03/11 · 20H · YOUTUBE`
 
 **Headline principal**
 `Você já está dentro. Falta ficar para sempre.`
 
 **Subtítulo**
-`Dia 03/11, às 20h, a Dra. Próton abre a Black Próton Vitalícia: o Clube Secreto sem prazo e tudo o que ela já criou, com pagamento único. Para alunas, existe uma condição própria, revelada ao vivo.`
+`Dia 03/11, às 20h, a Dra. Próton abre a Black Próton Vitalícia: o Clube Secreto sem prazo e tudo o que ela já criou, com pagamento único. Para alunas, há uma condição própria, revelada ao vivo.` [[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]
 
 **Linha de apoio**
 `O que você já fez conta. Não é recomeçar do zero.`
@@ -59,17 +59,26 @@ Estado 4 (depois das 20h):
 | Campo | Rótulo | Placeholder | Ajuda |
 |---|---|---|---|
 | E-mail | `E-mail da sua compra do Clube Secreto` | `o mesmo e-mail que você usa na área de membros` | `É com ele que reconheço você como aluna e libero a sua condição.` |
-| Nome | `Seu primeiro nome` | `Como você gosta de ser chamada` | |
+| Nome | `Seu primeiro nome` | `Como devo te chamar?` | |
 | WhatsApp | `Seu WhatsApp com DDD` | `(11) 90000-0000` | `Para eu avisar quando a live começar.` |
 
 **Botão**
-`CONFIRMAR MINHA PRESENÇA, ALUNA DO CLUBE`
+`CONFIRMAR MINHA PRESENÇA`
 
 **Estado enviando**
 `Reconhecendo você...`
 
 **Microcopy**
 `Gratuito. Sem compromisso de compra. Só a confirmação do seu lugar na live.`
+
+**Consentimento**
+`Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Usamos o seu e-mail só para reconhecer você como aluna. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
+
+**Mensagens de erro**
+- E-mail inválido: `Esse e-mail parece incompleto. Confira, por favor.`
+- Nome vazio: `Diga como posso te chamar.`
+- WhatsApp inválido: `Confira o DDD e o número. Precisa ter 11 dígitos.`
+- Falha de envio: `Não conseguimos confirmar agora. Tente de novo em alguns segundos.`
 
 **Mensagens de retorno**
 - E-mail reconhecido como aluna: `Reconheci você. Seu lugar está confirmado e a condição de aluna fica reservada para o seu e-mail.`
@@ -87,7 +96,7 @@ Estado 4 (depois das 20h):
 | C4 | Alunas do Clube Secreto: a condição de vocês é revelada ao vivo, em 03/11, às 20h. | Exclusividade informativa, sem preço |
 
 **Botões alternativos**
-- `CONFIRMAR MINHA PRESENÇA, ALUNA DO CLUBE`
+- `CONFIRMAR MINHA PRESENÇA`
 - `QUERO ESTAR NA LIVE DE 03/11`
 - `RESERVAR O MEU LUGAR E A MINHA CONDIÇÃO`
 
@@ -133,7 +142,7 @@ Título: `O que muda quando você sai do prazo`
 
 | Hoje (Clube com prazo) | Na Vitalícia |
 |---|---|
-| Acesso por 365 dias | Acesso vitalício, sem renovar |
+| Acesso por 365 dias | Acesso vitalício, sem prazo para acabar |
 | O Clube Secreto | O Clube Secreto **mais os 11 produtos do catálogo atual** |
 | Existe a pressão de "preciso usar neste ano" | Sem prazo para dar conta |
 | Você decide de novo quando o prazo acaba | Você decide uma vez |
@@ -147,19 +156,20 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 
 ---
 
-## Bloco 05: A frase que você mesma assinou
+## Bloco 05: Uma frase que eu repito
 
 **Copy**
 
-`Na Aula 3, eu disse que a única característica de quem muda de vida é obediência ao processo. E que toda vez que você vive algo forte aparece a tentação de parar.`
+`[[SE: DESAFIO]]` `Na Aula 3, eu disse que a única característica de quem muda de vida é obediência ao processo. E que toda vez que você vive algo forte aparece a tentação de parar.` `[[FIM SE]]`
+`[[SE: GERAL]]` `Eu repito há anos que quem não está crescendo está morrendo. A Vitalícia existe para você não ter de provar isso de novo todo ano.` `[[FIM SE]]`
 
 `Não trave o processo.`
 
 `Obediência é maturidade.`
 
-`A Vitalícia é essa fala virando oferta: um acesso que não vence, para você não precisar decidir de novo se continua.`
+`A Vitalícia é essa fala virando oferta: um acesso sem prazo, para você não precisar decidir de novo se continua.`
 
-**Nota:** frases da Dra. copiadas literalmente do guia (seção 4). A referência à Aula 3 vale para quem esteve no Desafio. Para alunas que não passaram pelo Desafio, trocar o parágrafo de abertura por: `Eu repito há anos que quem não está crescendo está morrendo. A Vitalícia existe para você não ter de provar isso de novo todo ano.` `[[CONFIRMAR: usar a variante quando a aluna não tem tag de Desafio]]`
+**Nota:** frases da Dra. copiadas literalmente do guia (seção 4). A variante `DESAFIO` vale para quem tem a tag do Desafio (a Aula 3 consta do material do Comercial); as demais alunas veem a variante `GERAL`. `[[CONFIRMAR: usar a variante GERAL quando a aluna não tem tag de Desafio]]`
 
 ---
 
@@ -178,7 +188,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 `[[PENDENTE: replay]]` e `[[PENDENTE: data do lote]]`
 
 **Botão**
-`CONFIRMAR MINHA PRESENÇA, ALUNA DO CLUBE`
+`CONFIRMAR MINHA PRESENÇA`
 
 ---
 
@@ -230,7 +240,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 `Você já está dentro. Falta ficar para sempre.`
 `Dia 03/11, às 20h, ao vivo no YouTube.`
 
-**Botão:** `CONFIRMAR MINHA PRESENÇA, ALUNA DO CLUBE`
+**Botão:** `CONFIRMAR MINHA PRESENÇA`
 **Microcopy:** `Gratuito. Sem compromisso de compra.`
 
 **Rodapé:** igual ao das demais páginas.
@@ -239,7 +249,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 
 ## Notas ao implementador
 
-1. **Segmentação:** a página só tem sentido para quem está na lista de alunas. Enviar o link por disparo segmentado (e-mail e WhatsApp da tag alunas). Se um e-mail fora da lista abrir, redirecionar para `captura_B`.
+1. **Segmentação:** a página só tem sentido para quem está na lista de alunas. Enviar o link por disparo segmentado (e-mail e WhatsApp da tag alunas). Se um e-mail fora da lista abrir, redirecionar para `captura_B`. O reconhecimento mostra só "reconhecida" ou "não encontrada", nunca nome nem dado da compra, e limita as tentativas por visitante (evita descobrir quem é aluna testando e-mails). `[[CONFIRMAR: parecer jurídico sobre o reconhecimento por e-mail]]`
 2. **Pendências críticas (sem elas a aluna não decide):** `[[PENDENTE: o que acontece com o tempo restante]]`, `[[PENDENTE: tratamento de quem já tem algum dos 11]]`, `[[PENDENTE: contagem de alunas]]`, `[[PENDENTE: tratamento de aluna com acesso encerrado]]`.
 3. **O que não dizer:** "você vai pagar menos", "desconto de aluna" ou qualquer número. As faixas do briefing (alunas pagam R$ 1.000 a menos em cada lote) são nota ao implementador e só aparecem em peça pós-live como `[[PREÇO LOTE ALUNAS]]` (escada: 1.997 / 2.997 / 3.997).
 4. **Frases da Dra.:** "Não trave o processo" e "Obediência é maturidade" são copiadas literalmente (guia, seção 4).

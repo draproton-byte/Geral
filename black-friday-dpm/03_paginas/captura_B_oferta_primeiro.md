@@ -38,6 +38,8 @@
 Estado 1, de 13/10 até 02/11:
 `Black Próton Vitalícia · live de revelação em {{dias}} dias e {{horas}} horas · 03/11, 20h, ao vivo no YouTube`
 
+(mesmas regras da tarja da captura A: sem "0 dias", "1 dia" no singular, tom neutro em 02/11, Finados)
+
 Estado 2, 03/11 até 17h:
 `É hoje. Live às 20h. Faltam {{horas}}h {{minutos}}min`
 
@@ -52,16 +54,16 @@ Estado 4, depois das 20h:
 ## Bloco 01: Vender sozinho (hero + formulário)
 
 **Pré-título**
-`BLACK PRÓTON VITALÍCIA · 03 DE NOVEMBRO · 20H · AO VIVO NO YOUTUBE`
+`BLACK PRÓTON VITALÍCIA · 03/11 · 20H · YOUTUBE`
 
 **Headline principal**
 `A última vez que você vai precisar recomeçar.`
 
 **Subtítulo**
-`Dia 03/11, às 20h, a Dra. Próton abre, ao vivo, o Clube Secreto e tudo o que ela já criou, com acesso vitalício e pagamento único. A condição é revelada só na live.`
+`Dia 03/11, às 20h, a Dra. Próton abre ao vivo o Clube Secreto e tudo o que ela já criou. Acesso vitalício, pagamento único.` [[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]
 
 **Linha de apoio (corpo menor)**
-`O que existe hoje, sem promessa de lançamentos futuros. Sem renovar. Sem recomeçar.`
+`O que existe hoje, sem promessa de lançamentos futuros. A condição é revelada só na live.`
 
 **Três ícones de sustentação (em linha, rolagem horizontal no mobile)**
 1. `Pagamento único`
@@ -72,14 +74,16 @@ Estado 4, depois das 20h:
 
 Título: `Reserve seu lugar na live`
 
+(mesmos campos, ajuda e mensagens de erro da captura A: nome vazio, e-mail inválido, WhatsApp com 11 dígitos, falha de envio)
+
 | Campo | Rótulo | Placeholder |
 |---|---|---|
-| Nome | `Seu primeiro nome` | `Como você gosta de ser chamado(a)` |
+| Nome | `Seu primeiro nome` | `Como devo te chamar?` |
 | E-mail | `Seu melhor e-mail` | `seunome@email.com` |
 | WhatsApp | `Seu WhatsApp com DDD` | `(11) 90000-0000` |
 
 **Botão**
-`QUERO ESTAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
 **Estado enviando**
 `Reservando seu lugar...`
@@ -88,7 +92,7 @@ Título: `Reserve seu lugar na live`
 `Gratuito. Sem compromisso de compra. Só a confirmação do seu lugar.`
 
 **Consentimento**
-`Ao continuar, você aceita receber avisos da live por WhatsApp e e-mail e concorda com a Política de Privacidade. Você pode sair a qualquer momento.` [[LINK: política de privacidade]]
+`Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
 
 ### Headlines testáveis
 
@@ -102,7 +106,7 @@ Título: `Reserve seu lugar na live`
 | B5 | Você já provou que sabe começar. Falta uma decisão que você só precise tomar uma vez. | 00, "confortável querendo mais" | Aprovada. Boa para quem já tem renda |
 
 **Variações do briefing que NÃO devem ir ao ar sem confirmação:**
-- "A Última Mensalidade Que Você Talvez Precise Pagar" e "Dia 03/11 a Mensalidade do Clube Secreto Vira Passado" dependem de existir mensalidade recorrente. Os materiais do Desafio vendem o Clube a R$ 1.997 à vista ou 12x de R$ 199,31 por 365 dias. Antes de usar, `[[CONFIRMAR: comparação com mensalidade]]`.
+- As duas variações do briefing que comparam a Vitalícia com cobrança recorrente dependem de isso existir de verdade. Antes de usar, `[[CONFIRMAR: comparação com mensalidade]]`. Nenhum valor do Clube aparece em peça pública antes de 03/11.
 
 **Subtítulos alternativos**
 - S1 (padrão): acima.
@@ -110,7 +114,7 @@ Título: `Reserve seu lugar na live`
 - S3: `Você já se prometeu que dessa vez ia ser diferente. Dia 03/11, a Dra. Próton abre, de uma vez, tudo o que ela construiu para desarmar esse padrão.`
 
 **Botões alternativos**
-- B1: `QUERO ESTAR NA LIVE DE 03/11`
+- B1: `QUERO MEU LUGAR NA LIVE`
 - B2: `RESERVAR MEU LUGAR NA LIVE`
 - B3: `QUERO OUVIR A CONDIÇÃO AO VIVO`
 - B4: `QUERO DECIDIR UMA VEZ SÓ`
@@ -166,7 +170,7 @@ Título: `O que a Vitalícia coloca na sua mão, de uma vez só`
 `Quanto custaria comprar tudo separado? Essa conta eu faço com você, ao vivo, em 03/11.` `[[PENDENTE: preço avulso]]`
 
 **Botão**
-`QUERO ESTAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
 **Função:** é a única peça de captura que lista o catálogo. Só vale em B (consciência 4 a 5). Em A, o catálogo não aparece.
 
@@ -178,9 +182,9 @@ Título: `O que a Vitalícia coloca na sua mão, de uma vez só`
 
 Título: `Três motivos, sem enrolação`
 
-**01. Você paga uma vez e não precisa renovar**
-`Um pagamento, uma vez. Sem renovação do acesso. Inclui o Clube Secreto e o catálogo atual, de forma vitalícia.`
-`[[CONFIRMAR: comparação com mensalidade. Não escrever "mais barato do que a mensalidade" enquanto não houver cobrança recorrente real]]`
+**01. Você paga uma vez e o acesso não tem prazo**
+`Um pagamento, uma vez. Inclui o Clube Secreto e o catálogo atual, de forma vitalícia.`
+`[[CONFIRMAR: comparação com mensalidade]]`
 
 **02. A pressão do prazo some**
 `Quando o acesso deixa de ter prazo, some a pressão de "preciso usar neste mês, senão perco o que paguei". Você aplica no seu tempo, sem a culpa de pagar por um mês que não deu para entrar.`
@@ -192,15 +196,14 @@ Título: `Três motivos, sem enrolação`
 
 | Texto atual da página publicada | Texto que entra |
 |---|---|
-| "A condição de pagamento único só existe até o dia 03/11, às 20h, na live. Depois disso a porta da mensalidade continua aberta, mas a porta do pagamento único fecha e não reabre." | "Esta condição não se repete. Nessas condições, com esse preço e esse catálogo, é a primeira e a última vez. O que vier depois é outra oferta, com outro preço." |
+| Frase atual que prende a condição ao dia 03/11 e diz que a porta do pagamento único se fecha para sempre | "Esta condição não se repete. Nessas condições, com esse preço e esse catálogo, é a primeira e a última vez. O que vier depois é outra oferta, com outro preço." |
 | "Essa condição não vai se repetir depois de 03/11." | Mantida só na forma "esta condição não se repete" (sem a data da condição, porque os lotes vão além de 03/11) |
-| "A Última Chance de ter acesso vitalício" | Proibida |
-| "O vitalício nunca mais vai existir" | Proibida |
+| Frases de "última chance" e de "nunca mais" sobre o vitalício | Proibidas (guia, seção 3) |
 
 **Por que a data saiu:** a live é em 03/11, mas a condição passa por três lotes depois da live (Lote Especial, Primeiro Lote, Último Lote), com datas `[[PENDENTE: data do lote]]`. Dizer que a condição "só existe até 03/11" contradiz isso. A frase fica sem a data: "esta condição não se repete".
 
 **Botão**
-`QUERO ESTAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
 ---
 
@@ -210,13 +213,13 @@ Título: `Três motivos, sem enrolação`
 
 Título: `Não importa qual é o seu diagnóstico`
 
-`Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem ou Culpa de Querer Mais. A Vitalícia trabalha nisso com você, no seu tempo, sem data para parar.`
+`Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem ou Culpa de Querer Mais. A Vitalícia foi pensada para você trabalhar o seu padrão no seu tempo, sem data para parar.`
 
 Cinco chips (iguais aos da captura A).
 
 `Se você ainda não sabe qual é o seu, faça o diagnóstico depois de reservar o lugar. [[LINK: diagnóstico]]`
 
-**Compliance:** "trabalha nisso com você" é sobre acesso e acompanhamento, não sobre resultado. Não escrever "resolve", "acaba" ou "cura".
+**Compliance:** "trabalhar o seu padrão" é sobre acesso e acompanhamento, não sobre resultado. Não escrever "resolve", "acaba" ou "tratamento".
 
 ---
 
@@ -231,14 +234,12 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 3. `O valor e os lotes só são revelados na live. Antes disso, ninguém da equipe fala de preço.`
 4. `Quem decidir entra com uma trilha de entrada: por onde começar entre os 11 produtos e um primeiro passo para as primeiras 48 horas.`
 
-`[[PENDENTE: replay]]`
-- Sem replay: `A revelação acontece ao vivo, sem replay.`
-- Com replay: `A live fica disponível até [[PENDENTE: fechamento]].`
+`[[PENDENTE: replay]]` (nenhuma versão afirma nem nega replay até a decisão; redações possíveis nas Notas ao implementador)
 
 **Linha de escassez**
 `A condição que a Dra. mostrar nessa noite não se repete. O que vier depois é outra oferta, com outro preço.`
 
-`[[PENDENTE: data do lote]]` e `[[CONFIRMAR: Lote Especial restrito a quem assiste ao vivo]]`. Se for confirmado, acrescentar: `O Lote Especial é só para quem estiver ao vivo.`
+`[[PENDENTE: data do lote]]` e `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. Se for confirmado, acrescentar: `O Lote Especial é só para quem estiver ao vivo.`
 
 **Botão**
 `RESERVAR MEU LUGAR NA LIVE DE 03/11`
@@ -255,8 +256,8 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 
 **Copy, "Não é para você se..."**
 - Você procura solução mágica e não pretende praticar nada
-- Você já decidiu que não quer entrar em nenhuma condição que não seja a mensalidade que já conhece
-- Você espera promessa de ganho de dinheiro, de cura ou de fim da autossabotagem. Eu não prometo isso
+- Você espera que alguém faça a sua parte por você
+- Você espera promessa de ganho de dinheiro, de tratamento ou de fim da autossabotagem. Eu não prometo isso
 
 `Eu prefiro que você não compre do que compre e não viva.`
 
@@ -270,7 +271,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 
 `Mais de 70 mil alunos em 44 países e 1,4 milhão de seguidores.`
 
-`Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo. Trabalhou em telemarketing, vendeu cartão, foi camelô. Estudou neurociência, física quântica, espiritualidade, hipnose e reprogramação mental e criou um método que já mudou dezenas de milhares de vidas.`
+`Criada pelos avós na periferia do interior de São Paulo, filha de mãe solo. Trabalhou em telemarketing, vendeu cartão, foi camelô. Estudou neurociência, física quântica, espiritualidade, hipnose e reprogramação mental e criou um método que já passou por mais de 70 mil alunos.`
 
 `Formada em Terapia Quântica, Hipnose Clínica, Hipnoterapia, Reprogramação Mental e PNL. Doutora Honoris Causa em Neurociência pela Academia Mundial de Letras.`
 
@@ -282,11 +283,11 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 
 `Agora eu preciso ser honesta com você.`
 
-`Se você pensa "eu já comprei outras coisas e não coloquei em prática", essa é a frase que eu mais ouço. Nos outros você precisou aplicar sozinha depois, e é aí que trava, porque o padrão que você quer mudar é o mesmo que sabota a mudança.`
+`Se você pensa "eu já comprei outras coisas e não coloquei em prática", é uma frase que eu ouço muito. Em muitos cursos, a aplicação fica por sua conta depois, e é aí que costuma travar, porque o padrão que você quer mudar é o mesmo que atrapalha a mudança.`
 
 `Se você pensa "tenho medo de comprar e não dar conta", repare no que a Vitalícia muda: não tem prazo. Não existe o mês que você perdeu.`
 
-`Eu não estou prometendo que a autossabotagem acaba. Estou abrindo, de uma vez, o que construí para você parar de recomeçar.`
+`Eu não prometo o fim da autossabotagem. Estou abrindo, de uma vez, o que construí para você parar de recomeçar.`
 
 ---
 
@@ -299,7 +300,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 `Sim. Um pagamento, acesso vitalício.` `[[CONFIRMAR: parcelamento disponível para o pagamento único; a ficha mostrou o cartão parcelado como forma mais escolhida]]`
 
 **Tem garantia?**
-`A garantia é apresentada junto com a condição, na live.` `[[PENDENTE: garantia]]`
+`Tudo o que faz parte da condição é apresentado na live.` `[[PENDENTE: garantia]]`
 
 **Eu já sou aluna do Clube. Muda alguma coisa?**
 `Existe uma página própria para quem já é aluna. [[LINK: captura_C]]`
@@ -309,6 +310,9 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 
 **Preciso estar ao vivo?** `[[PENDENTE: replay]]`
 
+**Hoje o dinheiro está apertado. Vale a pena?**
+`Vale ouvir a live, que é gratuita. Se o momento não for esse, tudo bem: eu prefiro que você entre quando fizer sentido. Se quiser, deixe seu nome na lista de espera. [[LINK: lista_de_espera]]`
+
 ---
 
 ## Bloco 11: CTA final e rodapé
@@ -316,7 +320,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 `Dia 03/11, às 20h, a Dra. Próton abre a Black Próton Vitalícia.`
 `A última vez que você vai precisar recomeçar.`
 
-**Botão:** `QUERO ESTAR NA LIVE DE 03/11`
+**Botão:** `QUERO MEU LUGAR NA LIVE`
 **Microcopy:** `Gratuito. Sem compromisso de compra.`
 
 **Rodapé:** igual ao da captura A.
@@ -331,3 +335,4 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 4. **Roteamento:** a captura B é a destino do remarketing e da lista de interesse. A mesma URL base com UTM por segmento (`utm_content=ficha-quente`, `utm_content=seguidor-longo`, `utm_content=desafio`). Se o e-mail já existe na base de alunas do Clube, redirecionar para `captura_C`.
 5. **Dependências:** `obrigado_e_pesquisa.md` (mesmo obrigado das demais), `pagina_de_vendas_vitalicia.md` (é onde o catálogo ganha a função de cada produto e o preço), `lista_de_espera.md`.
 6. **Onde o Desafio tinha uma peça e a Black não precisa:** o calendário de 5 noites e o bloco de "bônus do ingresso" não têm equivalente na captura. O catálogo sem preço (bloco 03) é novo e só existe em B.
+7. **Replay `[[PENDENTE: replay]]`:** redação sem replay: "A revelação acontece ao vivo, sem replay." Redação com replay: "A live fica disponível até [[PENDENTE: fechamento]]." Usar uma só, depois da decisão.

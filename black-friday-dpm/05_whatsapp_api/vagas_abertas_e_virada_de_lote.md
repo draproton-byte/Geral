@@ -9,7 +9,7 @@
 | **Objetivo** | Converter a decisão tomada na live, respondendo as três objeções (dinheiro, medo de não aplicar, "já comprei e não tive resultado") com escassez só por lote real |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." Cada virada de lote é um prazo real para tomar essa decisão, sem pressão artificial |
 | **Momento de vida** | Aperto real (parcelamento e custo de ficar parada), funcional e exausta (trilha de entrada, sem excesso) e confortável querendo mais |
-| **Modelo no Desafio** | CP 01 de 01/10 e CP 42 a 46 de 02/10 (`desafio_copy_vagas_abertas_clube_secreto.md`, `desafio_copys_lembrete_grupos_desafio.md`), "Último dia" e "Últimas horas" da planilha `planilha_disparos__Setembro26.md`, API 09 e 12 (`planilha_disparos__Outubro26.md`) |
+| **Modelo no Desafio** | CP 01 de 01/10 e CP 42 a 46 de 02/10 (copys de vagas abertas do Clube Secreto no Desafio, copys de lembrete de grupo do Desafio), "Último dia" e "Últimas horas" da planilha planilha de disparos de setembro do Desafio, API 09 e 12 (planilha de disparos de outubro do Desafio) |
 
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha uma só condição (à vista ou em 12x) e escassez dos "50 primeiros". A Black tem três lotes reais, com virada de preço. A escassez é **só por lote**. Nenhuma peça usa "vagas acabando" sem lote.
@@ -72,7 +72,7 @@ A *Black Próton Vitalícia* está aberta.
 
 ⏳ Vale até [[PENDENTE: data do lote]].
 
-Você não entra em tudo de uma vez: existe uma trilha de entrada. [[PENDENTE: ordem de entrada]]
+Você não entra em tudo de uma vez: existe uma trilha de entrada. [[CONFIRMAR: ordem de entrada da trilha]]
 
 👇 Garanta a sua vaga:
 
@@ -98,7 +98,7 @@ Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 
 ⏳ Vale até [[PENDENTE: data do lote]].
 
-Você não entra em tudo de uma vez: existe uma trilha de entrada. [[PENDENTE: ordem de entrada]]
+Você não entra em tudo de uma vez: existe uma trilha de entrada. [[CONFIRMAR: ordem de entrada da trilha]]
 
 👇 Garanta a sua vaga:
 
@@ -216,7 +216,7 @@ Modelo: CP 42 (02/10, 'O desafio termina hoje') e 'Último dia' (Setembro26). Lo
 ```text
 🔥 *ÚLTIMO DIA DO LOTE ESPECIAL*
 
-Hoje, às [[PENDENTE: hora de virada do lote]], termina o Lote Especial da *Black Próton Vitalícia*.
+Hoje, às [[PENDENTE: data do lote]], termina o Lote Especial da *Black Próton Vitalícia*.
 
 Depois disso, o valor sobe.
 
@@ -240,7 +240,7 @@ Modelo: CP 42 (02/10, 'O desafio termina hoje') e 'Último dia' (Setembro26). Lo
 ```text
 🔥 *ÚLTIMO DIA DO LOTE ESPECIAL*
 
-Hoje, às [[PENDENTE: hora de virada do lote]], termina o Lote Especial da *Black Próton Vitalícia*.
+Hoje, às [[PENDENTE: data do lote]], termina o Lote Especial da *Black Próton Vitalícia*.
 
 Depois disso, o valor sobe.
 
@@ -264,7 +264,7 @@ Modelo: Planilha Setembro26: 'Inscrições xxxx: Últimas horas' (CP 20). Lote: 
 ```text
 ⏰ *ÚLTIMAS HORAS DO LOTE ESPECIAL*
 
-Faltam 3 horas para o Lote Especial acabar. Às [[PENDENTE: hora de virada do lote]], o valor sobe.
+Faltam 3 horas para o Lote Especial acabar. Às [[PENDENTE: data do lote]], o valor sobe.
 
 🏷️ *Lote Especial:* [[PREÇO LOTE NÃO-ALUNAS]]
 
@@ -286,7 +286,7 @@ Modelo: Planilha Setembro26: 'Inscrições xxxx: Últimas horas' (CP 20). Lote: 
 ```text
 ⏰ *ÚLTIMAS HORAS DO LOTE ESPECIAL*
 
-Faltam 3 horas para o Lote Especial acabar. Às [[PENDENTE: hora de virada do lote]], o valor sobe.
+Faltam 3 horas para o Lote Especial acabar. Às [[PENDENTE: data do lote]], o valor sobe.
 
 🏷️ *Lote Especial:* [[PREÇO LOTE ALUNAS]]
 
@@ -406,7 +406,7 @@ Modelo: CP 42 (02/10) e 'Último dia' (Setembro26). Lote: Primeiro Lote. Públic
 ```text
 🔥 *ÚLTIMO DIA DO PRIMEIRO LOTE*
 
-Hoje, às [[PENDENTE: hora de virada do lote]], termina o Primeiro Lote da *Black Próton Vitalícia*.
+Hoje, às [[PENDENTE: data do lote]], termina o Primeiro Lote da *Black Próton Vitalícia*.
 
 Depois, entra o Último Lote, com valor maior.
 
@@ -426,7 +426,7 @@ Modelo: CP 42 (02/10) e 'Último dia' (Setembro26). Lote: Primeiro Lote. Públic
 ```text
 🔥 *ÚLTIMO DIA DO PRIMEIRO LOTE*
 
-Hoje, às [[PENDENTE: hora de virada do lote]], termina o Primeiro Lote da *Black Próton Vitalícia*.
+Hoje, às [[PENDENTE: data do lote]], termina o Primeiro Lote da *Black Próton Vitalícia*.
 
 Depois, entra o Último Lote, com valor maior.
 
@@ -446,7 +446,7 @@ Modelo: Setembro26: 'Últimas horas' (CP 20). Lote: Primeiro Lote. Público: nã
 ```text
 ⏰ *ÚLTIMAS HORAS DO PRIMEIRO LOTE*
 
-Faltam 3 horas para o Primeiro Lote acabar. Às [[PENDENTE: hora de virada do lote]], o valor sobe.
+Faltam 3 horas para o Primeiro Lote acabar. Às [[PENDENTE: data do lote]], o valor sobe.
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE NÃO-ALUNAS]]
 
@@ -466,7 +466,7 @@ Modelo: Setembro26: 'Últimas horas' (CP 20). Lote: Primeiro Lote. Público: alu
 ```text
 ⏰ *ÚLTIMAS HORAS DO PRIMEIRO LOTE*
 
-Faltam 3 horas para o Primeiro Lote acabar. Às [[PENDENTE: hora de virada do lote]], o valor sobe.
+Faltam 3 horas para o Primeiro Lote acabar. Às [[PENDENTE: data do lote]], o valor sobe.
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE ALUNAS]]
 
@@ -536,7 +536,7 @@ Medo de comprar e não colocar em prática? É o medo mais comum.
 
 Por isso a Vitalícia não pede que você faça tudo de uma vez.
 
-Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. [[PENDENTE: ordem de entrada]]
+Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. [[CONFIRMAR: ordem de entrada da trilha]]
 
 🏷️ *Último Lote:* [[PREÇO LOTE NÃO-ALUNAS]]
 
@@ -556,7 +556,7 @@ Medo de comprar e não colocar em prática? É o medo mais comum.
 
 Por isso a Vitalícia não pede que você faça tudo de uma vez.
 
-Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. [[PENDENTE: ordem de entrada]]
+Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. [[CONFIRMAR: ordem de entrada da trilha]]
 
 🏷️ *Último Lote:* [[PREÇO LOTE ALUNAS]]
 
@@ -744,7 +744,7 @@ Para quem ficou de fora desta vez:
 
 Você não perdeu o jeito de começar. Só não era a hora desta condição.
 
-Se quiser ser avisada quando eu abrir uma próxima turma ou oferta: [[PENDENTE: lista de espera, decisão da Dra.]]
+Se quiser ser avisada quando eu abrir uma próxima turma ou oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
 
 [[LINK: lista de espera]]
 
@@ -764,7 +764,7 @@ Para quem ficou de fora desta vez:
 
 Você não perdeu o jeito de começar. Só não era a hora desta condição.
 
-Se quiser ser avisada quando eu abrir uma próxima turma ou oferta: [[PENDENTE: lista de espera, decisão da Dra.]]
+Se quiser ser avisada quando eu abrir uma próxima turma ou oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
 
 [[LINK: lista de espera]]
 
@@ -831,7 +831,7 @@ Modelo: Setembro26: 'Último dia' (API). Lote: Lote Especial. Público: não-alu
 
 🏷️ *Lote Especial:* [[PREÇO LOTE NÃO-ALUNAS]]
 
-Às [[PENDENTE: hora de virada do lote]], o valor sobe.
+Às [[PENDENTE: data do lote]], o valor sobe.
 
 Toque no botão para entrar antes de virar.
 
@@ -849,7 +849,7 @@ Modelo: Setembro26: 'Último dia' (API). Lote: Lote Especial. Público: alunas d
 
 🏷️ *Lote Especial:* [[PREÇO LOTE ALUNAS]]
 
-Às [[PENDENTE: hora de virada do lote]], o valor sobe.
+Às [[PENDENTE: data do lote]], o valor sobe.
 
 Toque no botão para entrar antes de virar.
 
@@ -907,7 +907,7 @@ Modelo: Setembro26: 'Último dia' (API). Lote: Primeiro Lote. Público: não-alu
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE NÃO-ALUNAS]]
 
-Às [[PENDENTE: hora de virada do lote]], entra o Último Lote, com valor maior.
+Às [[PENDENTE: data do lote]], entra o Último Lote, com valor maior.
 
 Toque no botão para entrar antes de virar.
 
@@ -925,7 +925,7 @@ Modelo: Setembro26: 'Último dia' (API). Lote: Primeiro Lote. Público: alunas d
 
 🏷️ *Primeiro Lote:* [[PREÇO LOTE ALUNAS]]
 
-Às [[PENDENTE: hora de virada do lote]], entra o Último Lote, com valor maior.
+Às [[PENDENTE: data do lote]], entra o Último Lote, com valor maior.
 
 Toque no botão para entrar antes de virar.
 
@@ -1066,7 +1066,7 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ QUERO SER AVISADA ]` → `[[LINK: checkout Último Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
 
-*Nota:* Só enviar se houver lista de espera [[PENDENTE: lista de espera, decisão da Dra.]].
+*Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
 
 ### API-BF-V08-A | Dia seguinte ao fechamento, 09:00 | Encerrou (quem clicou e não comprou)
 
@@ -1084,7 +1084,7 @@ Digite SAIR se não quiser mais receber mensagens
 
 **Botões:** `[ QUERO SER AVISADA ]` → `[[LINK: checkout Último Lote alunas]]` · `[ PARAR MENSAGENS ]`
 
-*Nota:* Só enviar se houver lista de espera [[PENDENTE: lista de espera, decisão da Dra.]].
+*Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
 
 
 ---
@@ -1105,7 +1105,7 @@ Digite SAIR se não quiser mais receber mensagens
 **Pendências**
 1. `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]`: sem elas, nenhuma peça de virada ou de últimas horas pode ser agendada. Use os horários das seções 3 e 4 como modelo.
 2. `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[PENDENTE: preço avulso]]` (para a "conta do que custaria tudo separado") e `[[PENDENTE: replay]]`.
-3. `[[PENDENTE: regra de migração]]`: o que acontece com o acesso atual de quem já é aluna. É a primeira pergunta do grupo de alunas depois da live.
+3. `[[CONFIRMAR: regra de migração]]`: o que acontece com o acesso atual de quem já é aluna. É a primeira pergunta do grupo de alunas depois da live.
 4. `[[CONFIRMAR: parcelamento]]`: confirmar parcelas máximas, Pix, boleto e uso de dois cartões no checkout.
 5. `[[LINK: checkout ...]]`: um checkout por lote e por segmento (seis links). Cada um com UTM `src=api` ou `src=grupo`.
 6. Escada de preços para o implementador (não aparece em texto público antes da live): alunas, Lote Especial R$ 1.997, Primeiro Lote R$ 2.997, Último Lote R$ 3.997. Não-alunas, Lote Especial R$ 2.997, Primeiro Lote R$ 3.997, Último Lote R$ 4.997. A vantagem de aluna é fixa em R$ 1.000 por lote.

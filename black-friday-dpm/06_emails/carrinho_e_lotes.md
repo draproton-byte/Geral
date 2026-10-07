@@ -2,26 +2,32 @@
 
 | Campo | Conteúdo |
 |---|---|
-| Peça | 11 e-mails: CL-01 e CL-02 (carrinho aberto), VL-01 a VL-03 (virada de lote), ES-01 (esta condição não se repete), UH-01 a UH-03 (últimas horas), FE-01 e FE-02 (fechamento). Cada um com duas versões de segmento: **Alunas** e **Não-alunas** |
+| Peça | 11 e-mails: CL-01 e CL-02 (carrinho aberto), VL-01 a VL-03 (virada de lote), ES-01 (esta condição não se repete), UH-01 a UH-03 (últimas horas), FE-01 e FE-02 (fechamento). Cada um com duas versões de segmento: **Alunas** e **Não-alunas** (22 versões) |
 | Canal | E-mail |
 | Público | Quem se inscreveu na live e não comprou. Versão Alunas para S1 (alunas do Clube). Versão Não-alunas para S2 e S3 (ver nota 3) |
-| Momento | De 04/11 até o fechamento do carrinho (`[[PENDENTE: fechamento]]`). As datas das viradas estão como `[[PENDENTE: data do lote]]` |
+| Momento | De 04/11 (quarta) até o fechamento do carrinho (`[[PENDENTE: fechamento]]`). As datas das viradas estão como `[[PENDENTE: data do lote]]` |
 | Objetivo | Converter quem viu a live e ficou na dúvida, sem pressão falsa. A escassez é só a de lote real e a frase "esta condição não se repete" |
 | Consciência | 4 a 5 |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Cada e-mail devolve a pessoa para essa frase |
-| Modelo no Desafio | E-mail 06 "Vagas abertas Clube Secreto" (abre com o que ela fez, diz "um plano no papel não muda uma vida sozinho", apresenta o que entra e o preço, botão, garantia, pergunta final), e-mails de carrinho abandonado e recusada (lote real, linha curta de ajuda no WhatsApp) |
+| Modelo no Desafio | E-mail 06 de abertura de vendas do Clube Secreto (abre com o que ela fez, diz "um plano no papel não muda uma vida sozinho", apresenta o que entra e o preço, botão, garantia, pergunta final), e-mails de carrinho abandonado e recusada (lote real, linha curta de ajuda no WhatsApp) |
 
-**Como ler.** Cada e-mail tem o corpo comum e dois blocos curtos: **[ALUNAS]** e **[NÃO-ALUNAS]**. Quem monta no sistema cola o corpo e o bloco do segmento. Os preços são sempre placeholders (`[[PREÇO LOTE ALUNAS]]`, `[[PREÇO LOTE NÃO-ALUNAS]]`). Regra de lote: se o texto cita "Lote Especial" ou "Primeiro Lote", a data da virada precisa estar confirmada, senão o e-mail não sai.
+**Como ler.** Cada e-mail tem o corpo comum e dois blocos curtos: **[ALUNAS]** e **[NÃO-ALUNAS]**. Quem monta no sistema cola o corpo e o bloco do segmento. Os preços são sempre placeholders (`[[PREÇO LOTE ALUNAS]]`, `[[PREÇO LOTE NÃO-ALUNAS]]`). Regra de lote: se o texto cita "Lote Especial" ou "Primeiro Lote", a data da virada precisa estar confirmada, senão o e-mail não sai. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` (se o Lote Especial vale só durante a live, o primeiro lote que estas peças tratam como "lote atual" já é o Primeiro Lote).
 
-**Variáveis.** `{{nome}}`, `[[LINK: checkout alunas, lote vigente]]`, `[[LINK: checkout não-alunas, lote vigente]]`, `[[LINK: WhatsApp suporte]]`. Garantia: `[[PENDENTE: garantia]]`. Bônus: `[[PENDENTE: bônus]]` (só entra se existir).
+**Variáveis e placeholders.** `{{nome}}`, `[[LINK: checkout alunas, lote vigente]]`, `[[LINK: checkout não-alunas, lote vigente]]`, `[[LINK: WhatsApp suporte]]`. Garantia: `[[PENDENTE: garantia]]`. Bônus: `[[PENDENTE: bônus]]` (só entra se existir). Nome do lote: `[[CONFIRMAR: nome do lote atual]]` e `[[CONFIRMAR: nome do próximo lote]]`. O valor do próximo lote usa o mesmo placeholder de preço, com a indicação "(próximo lote)".
 
-**Frase da oferta.** A Vitalícia = acesso vitalício ao Clube Secreto + 11 produtos do catálogo atual, por pagamento único, com parcelamento visível no checkout (`[[PENDENTE: número de parcelas]]`). Sem promessa de lançamentos futuros.
+**Frase da oferta.** A Vitalícia = acesso vitalício ao Clube Secreto + 11 produtos do catálogo atual, por pagamento único, com parcelamento visível no checkout (`[[CONFIRMAR: número de parcelas]]`). Sem promessa de lançamentos futuros.
+
+**Um botão por e-mail.** O link do suporte e o de lista de espera são texto visível, não botão.
+
+**Legibilidade e acessibilidade (vale para todos os e-mails deste arquivo).** Texto simples, fonte de pelo menos 16 px, entrelinha 1,5, contraste alto (40% da base tem mais de 50 anos). Botão de texto, nunca imagem, com o endereço do link escrito por extenso abaixo. Imagem ou logo, se houver, com texto alternativo descritivo. Nada depende de cor ou de emoji. Sem emoji no assunto. Assunto até 50 caracteres; os assuntos com placeholder de lote passam disso quando o nome do lote é preenchido e devem ser conferidos no envio.
+
+**Gênero.** Versão Alunas aceita o feminino. Versão Não-alunas é neutra (parte da base é masculina e fria).
 
 ---
 
 ## CARRINHO ABERTO (2)
 
-### CL-01. O que você leva ao entrar (04/11, 07h)
+### CL-01. O que você leva ao entrar (04/11, quarta, 07h)
 
 **Assunto [ALUNAS]:** {{nome}}, a condição de aluna está aberta
 **Assunto [NÃO-ALUNAS]:** Ontem eu abri. Hoje você decide com calma
@@ -46,7 +52,7 @@ O que entra, por pagamento único:
 ✔ Cura da Escassez Financeira
 ✔ Sequências Numéricas de Grabovoi
 
-E para não virar "comprei e não usei", existe uma trilha de entrada: por onde começar e um primeiro passo nas primeiras 48 horas. `[[PENDENTE: ordem de entrada]]`
+E para não virar "comprei e não usei", existe uma trilha de entrada: por onde começar e um primeiro passo nas primeiras 48 horas. [[CONFIRMAR: ordem de entrada]]
 
 Garantia: [[PENDENTE: garantia]]
 
@@ -54,38 +60,42 @@ Garantia: [[PENDENTE: garantia]]
 
 **[NÃO-ALUNAS]** O seu valor no lote atual é [[PREÇO LOTE NÃO-ALUNAS]]. As formas de pagamento, com o parcelamento visível, aparecem no checkout.
 
-**Botão [ALUNAS]:** QUERO FICAR DE VEZ → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** QUERO PARAR DE RECOMEÇAR → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** QUERO FICAR DE VEZ
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** QUERO PARAR DE RECOMEÇAR
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Qualquer dúvida, é só chamar: [[LINK: WhatsApp suporte]]
 
 Dra. Próton
 
-### CL-02. As perguntas que mais chegaram (04/11, 19h)
+### CL-02. As perguntas que mais chegaram (04/11, quarta, 19h)
 
-**Assunto [ALUNAS]:** Três dúvidas que as alunas me fizeram sobre a mudança
+**Assunto [ALUNAS]:** Três dúvidas sobre a mudança para o vitalício
 **Assunto [NÃO-ALUNAS]:** "E se eu comprar e não conseguir usar?"
 **Linha de preview:** Eu respondo as três objeções mais comuns, com honestidade
 
 {{nome}},
 
-Desde a live, chegaram muitas perguntas. As três que mais aparecem:
+Depois da live, três dúvidas costumam aparecer mais do que as outras. [[CONFIRMAR: conferir com o suporte se são estas as três que chegaram]]
 
 **1. "E se eu comprar e não colocar em prática?"**
-Essa é a objeção que mais me preocupa. Por isso a oferta tem uma trilha e um primeiro passo nas primeiras 48 horas. E o acesso vitalício não tem prazo para te pressionar. `[[CONFIRMAR: trilha e passo em 48 horas]]`
+Essa é a objeção que mais me preocupa. Por isso a oferta tem uma trilha e um primeiro passo nas primeiras 48 horas. E o acesso vitalício não tem prazo para te pressionar. [[CONFIRMAR: trilha e passo em 48 horas]]
 
 **2. "Já comprei outros cursos e não tive resultado."**
-Eu entendo. A diferença é que aqui a prática não depende só da sua disciplina: existe estrutura, apoio e continuidade.
+Eu entendo. O que eu desenhei aqui é para a prática não depender só da sua disciplina: estrutura, apoio e continuidade. [[CONFIRMAR: estrutura, apoio e continuidade que fazem parte da oferta]]
 
 **3. "Não tenho esse dinheiro agora."**
 O checkout mostra o parcelamento. E tem uma conta que vale fazer: quanto custa mais um ano no mesmo lugar? Mas não decida para se endividar. Decida se fizer sentido.
 
-**[ALUNAS]** Se a dúvida for sobre como fica o seu acesso atual, chame no suporte e peça a regra de transição. `[[PENDENTE: regra para aluna com acesso ativo]]`
+**[ALUNAS]** Se a dúvida for sobre como fica o seu acesso atual, chame o suporte e peça a regra de transição. [[CONFIRMAR: regra para aluna com acesso ativo]]
 
 **[NÃO-ALUNAS]** Se a dúvida for sobre qual produto usar primeiro, a trilha responde.
 
-**Botão [ALUNAS]:** VER MINHA CONDIÇÃO → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** VER A CONDIÇÃO → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** VER MINHA CONDIÇÃO
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** VER A CONDIÇÃO
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
@@ -93,43 +103,45 @@ Dra. Próton
 
 ## VIRADA DE LOTE (3)
 
-Esta trinca é um **molde** usado duas vezes: na virada do Lote Especial para o Primeiro Lote, e na virada do Primeiro Lote para o Último Lote. Trocar `[[LOTE ATUAL]]`, `[[PRÓXIMO LOTE]]` e `[[PREÇO PRÓXIMO LOTE ALUNAS / NÃO-ALUNAS]]`. Só enviar com `[[PENDENTE: data do lote]]` confirmada.
+Esta trinca é um **molde** usado duas vezes: na virada do Lote Especial para o Primeiro Lote, e na virada do Primeiro Lote para o Último Lote. Trocar `[[CONFIRMAR: nome do lote atual]]`, `[[CONFIRMAR: nome do próximo lote]]` e o valor do próximo lote. Só enviar com `[[PENDENTE: data do lote]]` confirmada.
 
 ### VL-01. Aviso da virada (24 horas antes)
 
-**Assunto [ALUNAS]:** O [[LOTE ATUAL]] de aluna acaba amanhã, {{nome}}
-**Assunto [NÃO-ALUNAS]:** Amanhã o [[LOTE ATUAL]] vira
+**Assunto [ALUNAS]:** O lote de aluna acaba amanhã, {{nome}}
+**Assunto [NÃO-ALUNAS]:** Amanhã o lote vira
 **Linha de preview:** Depois de [[PENDENTE: data do lote]] o valor muda
 
 {{nome}},
 
-Um aviso objetivo: o [[LOTE ATUAL]] da Black Próton Vitalícia acaba em [[PENDENTE: data do lote]]. Depois disso, entra o [[PRÓXIMO LOTE]], com o valor mais alto.
+Um aviso objetivo: o [[CONFIRMAR: nome do lote atual]] da Black Próton Vitalícia acaba em [[PENDENTE: data do lote]]. Depois disso, entra o [[CONFIRMAR: nome do próximo lote]], com o valor mais alto.
 
 Não é pressão. É a regra que eu anunciei na live: três lotes, e cada virada sobe o valor.
 
-**[ALUNAS]** Seu valor hoje: [[PREÇO LOTE ALUNAS]]. Depois da virada: [[PREÇO PRÓXIMO LOTE ALUNAS]].
+**[ALUNAS]** Seu valor hoje: [[PREÇO LOTE ALUNAS]]. Depois da virada: [[PREÇO LOTE ALUNAS]] (valor do próximo lote).
 
-**[NÃO-ALUNAS]** Seu valor hoje: [[PREÇO LOTE NÃO-ALUNAS]]. Depois da virada: [[PREÇO PRÓXIMO LOTE NÃO-ALUNAS]].
+**[NÃO-ALUNAS]** Seu valor hoje: [[PREÇO LOTE NÃO-ALUNAS]]. Depois da virada: [[PREÇO LOTE NÃO-ALUNAS]] (valor do próximo lote).
 
 Se você já decidiu, faça no lote em que está.
 Se ainda tem dúvida, responda este e-mail ou chame o suporte. Eu prefiro que você não compre do que compre e não viva.
 
-**Botão [ALUNAS]:** GARANTIR NO [[LOTE ATUAL]] → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** GARANTIR NO [[LOTE ATUAL]] → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** ENTRAR NO LOTE ATUAL
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** ENTRAR NO LOTE ATUAL
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
 ### VL-02. Hoje o lote vira (manhã do dia da virada)
 
-**Assunto [ALUNAS]:** Hoje é o último dia do [[LOTE ATUAL]] de aluna
-**Assunto [NÃO-ALUNAS]:** Hoje o [[LOTE ATUAL]] chega ao fim
-**Linha de preview:** A virada acontece às [[PENDENTE: data do lote]]
+**Assunto [ALUNAS]:** Hoje é o último dia do lote de aluna
+**Assunto [NÃO-ALUNAS]:** Hoje o lote chega ao fim
+**Linha de preview:** A virada acontece em [[PENDENTE: data do lote]]
 
 {{nome}},
 
-Hoje é o último dia do [[LOTE ATUAL]].
+Hoje é o último dia do [[CONFIRMAR: nome do lote atual]].
 
-Às [[PENDENTE: data do lote]], o sistema muda sozinho para o [[PRÓXIMO LOTE]]. Não tem prorrogação e não tem exceção, porque o lote é a única regra de escassez que eu usei nesta campanha.
+Em [[PENDENTE: data do lote]], o sistema muda sozinho para o [[CONFIRMAR: nome do próximo lote]]. [[CONFIRMAR: sem prorrogação e sem exceção na virada]] O lote é a única regra de escassez que eu usei nesta campanha.
 
 Se você está no "depois eu vejo", este é o último e-mail do "depois" nesse valor.
 
@@ -138,20 +150,22 @@ Se você está no "depois eu vejo", este é o último e-mail do "depois" nesse v
 
 As formas de pagamento, com o parcelamento visível, estão no checkout.
 
-**Botão [ALUNAS]:** FECHAR NO [[LOTE ATUAL]] → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** FECHAR NO [[LOTE ATUAL]] → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** FECHAR NO LOTE ATUAL
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** FECHAR NO LOTE ATUAL
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
 ### VL-03. O novo lote começou
 
-**Assunto [ALUNAS]:** O [[PRÓXIMO LOTE]] começou, {{nome}}
-**Assunto [NÃO-ALUNAS]:** O [[LOTE ATUAL]] acabou. Veja onde ficou
+**Assunto [ALUNAS]:** O novo lote começou, {{nome}}
+**Assunto [NÃO-ALUNAS]:** O lote anterior acabou. Veja onde ficou
 **Linha de preview:** Seu valor mudou. Você ainda pode entrar
 
 {{nome}},
 
-O [[LOTE ATUAL]] acabou. Agora estamos no [[PRÓXIMO LOTE]].
+O [[CONFIRMAR: nome do lote atual]] acabou. Agora estamos no [[CONFIRMAR: nome do próximo lote]].
 
 O que você precisa saber:
 
@@ -159,13 +173,15 @@ O que você precisa saber:
 ✔ O pagamento continua único, com parcelamento visível
 ✔ A garantia continua a mesma: [[PENDENTE: garantia]]
 
-**[ALUNAS]** Seu valor agora: [[PREÇO LOTE ALUNAS]] (no [[PRÓXIMO LOTE]]).
-**[NÃO-ALUNAS]** Seu valor agora: [[PREÇO LOTE NÃO-ALUNAS]] (no [[PRÓXIMO LOTE]]).
+**[ALUNAS]** Seu valor agora: [[PREÇO LOTE ALUNAS]] (no novo lote).
+**[NÃO-ALUNAS]** Seu valor agora: [[PREÇO LOTE NÃO-ALUNAS]] (no novo lote).
 
-Se você perdeu o lote anterior, não carregue culpa. Carregue a decisão: o próximo valor só é maior se você deixar para depois.
+Se o lote anterior ficou para trás, não há culpa nenhuma. O que existe é a decisão de hoje, e ela é sua.
 
-**Botão [ALUNAS]:** ENTRAR NO [[PRÓXIMO LOTE]] → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** ENTRAR NO [[PRÓXIMO LOTE]] → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** ENTRAR NO NOVO LOTE
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** ENTRAR NO NOVO LOTE
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
@@ -185,17 +201,19 @@ Eu tenho dito que esta condição não se repete. Quero explicar o que isso sign
 
 **O que significa:** a combinação do que entra, do valor e das regras desta oferta existe só neste período. Quando o carrinho fechar, essa condição acaba.
 
-**O que não significa:** eu não estou dizendo que a Vitalícia nunca mais vai existir. Se um dia houver outra, será outra oferta, com outro preço e outras regras.
+**O que não significa:** eu não estou fazendo previsão sobre o futuro. O que vier depois é outra oferta, com outro preço e outras regras, e eu não prometo nada além desta condição.
 
 Por isso eu falo em "esta condição". Eu não quero te dar uma pressão que não é verdadeira.
 
-O que é real: o carrinho fecha em [[PENDENTE: fechamento]]. Depois disso, quem quiser o Clube Secreto continua com a opção que existir na época.
+O que é real: o carrinho fecha em [[PENDENTE: fechamento]]. Depois disso, quem quiser o Clube Secreto segue com a opção que existir na época.
 
 **[ALUNAS]** Você tem hoje a condição de aluna. Depois do fechamento, ela deixa de valer.
 **[NÃO-ALUNAS]** Você tem hoje o valor da escada de lotes. Depois do fechamento, ele deixa de valer.
 
-**Botão [ALUNAS]:** GARANTIR A MINHA CONDIÇÃO → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** GARANTIR A MINHA CONDIÇÃO → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** GARANTIR A MINHA CONDIÇÃO
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** GARANTIR A MINHA CONDIÇÃO
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
@@ -207,7 +225,7 @@ Dra. Próton
 
 **Assunto [ALUNAS]:** Amanhã o carrinho fecha, {{nome}}
 **Assunto [NÃO-ALUNAS]:** Faltam poucas horas para a Vitalícia fechar
-**Linha de preview:** Fecha em [[PENDENTE: fechamento]]. Veja o que você ainda pode decidir
+**Linha de preview:** Fecha em [[PENDENTE: fechamento]]. Veja o que ainda dá para decidir
 
 {{nome}},
 
@@ -220,13 +238,15 @@ Duas perguntas que ajudam a decidir:
 1. Eu quero parar de ter que recomeçar?
 2. Esta é a forma que eu consigo, agora, dentro da minha realidade?
 
-Se as duas respostas forem sim, entre. Se uma delas for não, tudo bem. Mas decida. Indecisão também é uma decisão, e ela costuma sair mais cara.
+Se as duas respostas forem sim, entre. Se uma delas for não, tudo bem. Mas decida. Indecisão também é uma decisão, e eu prefiro que seja uma que você escolheu.
 
 **[ALUNAS]** [[PREÇO LOTE ALUNAS]]
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]
 
-**Botão [ALUNAS]:** DECIDIR AGORA → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** DECIDIR AGORA → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** DECIDIR AGORA
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** DECIDIR AGORA
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
@@ -242,19 +262,21 @@ Hoje é o último dia.
 
 Eu sei que, no fim, o que trava não é o valor. É a dúvida se você vai dar conta. É o "e se não for para mim?". Esse medo é de quem já investiu e ficou sem retorno.
 
-Por isso eu fiz três coisas na oferta:
+Por isso, a oferta foi desenhada com três coisas:
 
-1. Tirei o prazo, para você não ter pressa de usar.
-2. Montei uma trilha de entrada, para você não se perder.
-3. Coloquei garantia: [[PENDENTE: garantia]].
+1. Sem prazo, para você não ter pressa de usar.
+2. Uma trilha de entrada, para você não se perder. [[CONFIRMAR: trilha de entrada]]
+3. Garantia: [[PENDENTE: garantia]]
 
-Se você ainda não entrou, eu quero que você entre com tranquilidade, não por impulso.
+Se você ainda não entrou, eu quero que entre com tranquilidade, não por impulso.
 
 **[ALUNAS]** Você é aluna: [[PREÇO LOTE ALUNAS]]. Não é recomeçar. É ficar.
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]], com parcelamento visível no checkout.
 
-**Botão [ALUNAS]:** QUERO FICAR → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** QUERO ENTRAR → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** QUERO FICAR
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** QUERO ENTRAR
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
@@ -270,7 +292,7 @@ Faltam 3 horas para o carrinho fechar.
 
 Você não precisa de mais um argumento. Precisa de uma decisão.
 
-Se vai entrar, o checkout está aberto e o Pix libera na hora. [[CONFIRMAR: Pix libera na hora no checkout]]
+Se vai entrar, o checkout está aberto e o acesso é liberado quando o pagamento for confirmado.
 Se não vai, também está tudo bem. Eu prefiro que você não compre do que compre e não viva.
 
 Mas se você está olhando este e-mail e sentindo que quer, não deixe para depois. O "depois" é o inimigo.
@@ -278,8 +300,10 @@ Mas se você está olhando este e-mail e sentindo que quer, não deixe para depo
 **[ALUNAS]** [[PREÇO LOTE ALUNAS]]
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]
 
-**Botão [ALUNAS]:** GARANTIR AGORA → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** GARANTIR AGORA → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** QUERO ENTRAR AGORA
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** QUERO ENTRAR AGORA
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
@@ -287,11 +311,11 @@ Dra. Próton
 
 ## FECHAMENTO (2)
 
-### FE-01. Falta 1 hora (última chamada)
+### FE-01. Falta 1 hora
 
-**Assunto [ALUNAS]:** Falta 1 hora. Última chamada
-**Assunto [NÃO-ALUNAS]:** 1 hora. Depois não dá mais
-**Linha de preview:** O carrinho fecha às [[PENDENTE: fechamento]]
+**Assunto [ALUNAS]:** Falta 1 hora para o carrinho fechar
+**Assunto [NÃO-ALUNAS]:** 1 hora. Depois a condição se encerra
+**Linha de preview:** O carrinho fecha em [[PENDENTE: fechamento]]
 
 {{nome}},
 
@@ -304,14 +328,16 @@ Um último lembrete do que eu disse na live: o objetivo é você parar de ter qu
 **[ALUNAS]** [[PREÇO LOTE ALUNAS]]
 **[NÃO-ALUNAS]** [[PREÇO LOTE NÃO-ALUNAS]]
 
-**Botão [ALUNAS]:** ÚLTIMA CHAMADA → `[[LINK: checkout alunas, lote vigente]]`
-**Botão [NÃO-ALUNAS]:** ÚLTIMA CHAMADA → `[[LINK: checkout não-alunas, lote vigente]]`
+**Botão [ALUNAS]:** QUERO ENTRAR AGORA
+`[[LINK: checkout alunas, lote vigente]]`
+**Botão [NÃO-ALUNAS]:** QUERO ENTRAR AGORA
+`[[LINK: checkout não-alunas, lote vigente]]`
 
 Dra. Próton
 
 ### FE-02. Encerrou (dentro de 30 minutos após o fechamento, só para quem não comprou)
 
-**Assunto [ALUNAS]:** Encerrou, {{nome}}. Obrigada por ter ficado até aqui
+**Assunto [ALUNAS]:** Encerrou, {{nome}}. Obrigada por ficar até aqui
 **Assunto [NÃO-ALUNAS]:** A Vitalícia encerrou
 **Linha de preview:** Uma mensagem de carinho, sem pressão
 
@@ -328,7 +354,7 @@ Se você não entrou, quero te dizer três coisas:
 3. Esta condição acabou. O que vier depois será outra oferta, com outro preço.
 
 **[ALUNAS]** Você continua sendo aluna do Clube Secreto, com tudo o que isso inclui. Se quiser conversar sobre o que ficou em aberto, me responda.
-**[NÃO-ALUNAS]** Se você quiser ser avisada quando houver uma nova oportunidade de entrar no Clube, entre na lista de espera: `[[LINK: lista de espera]]`
+**[NÃO-ALUNAS]** Se você quiser receber um aviso caso exista uma nova oportunidade de entrar no Clube, entre na lista de espera: `[[LINK: lista de espera]]`
 
 Obrigada por ter estado aqui.
 
@@ -342,7 +368,8 @@ Dra. Próton
 2. **Pendências que travam o envio.** Datas de virada (VL), fechamento (UH, FE), garantia (CL, VL, UH), número de parcelas, trilha, regra de transição para alunas, bônus (se houver, entra como linha extra em CL-01 e UH-02).
 3. **S2 (Desafio, Imersão, Aulão sem Clube).** Estão na versão Não-alunas. `[[CONFIRMAR: decisão da Dra.]]`.
 4. **Quem já comprou sai da lista** de todos os e-mails deste arquivo no momento da compra aprovada (tag "compra aprovada Black").
-5. **Teste A/B.** UH-01: assunto "Amanhã o carrinho fecha" contra "Faltam poucas horas". UH-03 com e sem a menção ao Pix. CL-01 com e sem a lista dos 11 produtos no corpo.
-6. **Honestidade de escassez.** ES-01 existe para tirar do texto qualquer sugestão de "nunca mais vai ter vitalício". Se a equipe cortar o e-mail, os demais e-mails continuam coerentes porque só usam "esta condição".
-7. **Onde o Desafio tinha peça e a Black não.** O "VAGAS ABERTAS" do dia 01/10 vendia no meio das noites. Aqui o equivalente é CL-01. O desconto "Golden Ticket" não tem par na Black (seria preço antes da live).
-8. **FE-02.** "Lista de espera" depende do degrau de entrada para a base de baixa renda ainda indefinido na estratégia (seção 5 do arquivo 00). Se não existir lista de espera, trocar por "me siga para ser avisada".
+5. **Teste A/B.** UH-01: assunto "Amanhã o carrinho fecha" contra "Faltam poucas horas". UH-03 com e sem a menção ao pagamento. CL-01 com e sem a lista dos 11 produtos no corpo.
+6. **Honestidade de escassez.** ES-01 existe para tirar do texto qualquer sugestão de "nunca mais vai ter vitalício" e também qualquer promessa de que vai ter. Se a equipe cortar o e-mail, os demais continuam coerentes porque só usam "esta condição".
+7. **Onde o Desafio tinha peça e a Black não.** A abertura de vendas do dia 01/10 vendia no meio das noites. Aqui o equivalente é CL-01. O desconto "Golden Ticket" não tem par na Black (seria preço antes da live).
+8. **FE-02.** "Lista de espera" depende do degrau de entrada para a base de baixa renda ainda indefinido na estratégia (seção 5 do arquivo 00). Se não existir lista de espera, trocar por "me siga para ser avisado".
+9. **Pix e boleto perto do fechamento.** O Pix vale 48 horas e o boleto 4 a 5 dias (Manual do Comercial). Quem gera Pix ou boleto perto do fechamento pode pagar depois dele: `[[CONFIRMAR: o checkout honra o lote e o carrinho para Pix gerado antes do fechamento e pago depois]]`. Enquanto não houver resposta, UH-03 e FE-01 não prometem prazo de pagamento.

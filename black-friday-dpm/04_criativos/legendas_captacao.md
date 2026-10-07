@@ -40,7 +40,7 @@ Clique em "Saiba mais", cadastre-se e reserve o seu lugar, sem custo.
 
 **Frame 0 do par:** CAP-TERM-01 (duas linhas sobre fundo escuro) e CAP-TERM-02 (o número 51,9%).
 
-51,9% das pessoas que responderam à pesquisa de presença do meu Desafio disseram: entra um dinheiro a mais, aparece uma conta.
+51,9% das pessoas que responderam à pesquisa de presença do Desafio disseram: entra um extra, aparece uma conta.
 
 Eu chamo isso de Termostato Invisível: o teto de dinheiro que a sua mente aprendeu a aceitar. Passou dele, algo puxa de volta.
 
@@ -110,7 +110,7 @@ No diagnóstico do meu Desafio, mais de 1 em cada 10 pessoas apontaram traumas o
 
 Quero te mostrar, ao vivo, o que construí pra quem cansou de recomeçar. Dia 03/11, às 20h, no YouTube. O diagnóstico vem logo depois do cadastro.
 
-Clique em "Saiba mais" e garanta o aviso da live no seu WhatsApp, sem custo.
+Clique em "Saiba mais" e receba o aviso da live no seu WhatsApp, sem custo.
 
 ---
 
@@ -118,7 +118,7 @@ Clique em "Saiba mais" e garanta o aviso da live no seu WhatsApp, sem custo.
 
 **Frame 0 do par:** CAP-CULP-01 (mão com várias xícaras) e demais da família.
 
-No quiz que a minha equipe aplicou, quase 11% das pessoas se reconheceram nesta frase: "Eu cuido de todo mundo, mas ninguém cuida de mim."
+"Eu cuido de todo mundo, mas ninguém cuida de mim." Quase 11% das pessoas do meu quiz se reconheceram nesta frase.
 
 Se pensar em você primeiro traz culpa, eu quero te dizer: querer mais não é egoísmo. E quando você sobe, a casa sobe junto.
 
@@ -166,7 +166,7 @@ Clique em "Saiba mais" e reserve o seu lugar, sem custo.
 
 Eu acredito que a confiança começa quando você deixa de depender de recomeçar. A live de revelação tem uma ideia só: a última vez que você vai precisar recomeçar.
 
-Dia 03/11, às 20h, ao vivo no YouTube. Depois do cadastro, o diagnóstico mostra qual dos 5 padrões te prende.
+Dia 03/11, às 20h, ao vivo no YouTube. Depois do cadastro, o diagnóstico mostra qual dos 5 padrões pesa mais.
 
 Clique em "Saiba mais" e entre na live. É gratuito.
 
@@ -178,7 +178,7 @@ Clique em "Saiba mais" e entre na live. É gratuito.
 2. **51,9% (LEG-CAP-02):** atribuído à "pesquisa de presença do meu Desafio" (dossiê do Desafio), como manda a rubrica. Nunca chamar de "Aulão".
 3. **LEG-CAP-03:** a ordem "confiar mais em si (32%), depois parar de se sabotar (27%)" vem do Aulão. Se for rodado com público da ficha de interesse, a ordem é a mesma (36% e 19%).
 4. **Frase intocável usada:** LEG-CAP-09 traz "Eu prefiro que você não compre do que compre e não viva." literal.
-5. **Replay e preço:** nenhuma legenda afirma nem nega replay e nenhuma cita preço. Quando fechar `[[PENDENTE: replay]]`, decidir se a linha "ao vivo no YouTube" ganha "e sem replay".
+5. **Replay e preço:** nenhuma legenda afirma nem nega replay e nenhuma cita preço. Quando fechar `[[PENDENTE: replay]]`, decidir o que a linha "ao vivo no YouTube" diz sobre replay.
 6. **Diagnóstico:** o diagnóstico abre na página de obrigado, depois do cadastro; por isso as legendas dizem "depois do cadastro". "Reservar o lugar" é o cadastro gratuito; a live não tem limite de pessoas.
 7. **Teste:** rodar LEG-CAP-01 (3 respostas em lista) contra LEG-CAP-08 (um dado e a frase da segunda-feira) no mesmo criativo para medir a influência do texto. Rodar LEG-CAP-02 em tráfego frio e em lookalike de compradores do Desafio.
-8. **Peça do Desafio sem equivalente:** a linha "1º lote com 62% das vagas preenchidas" e o preço de ingresso do Desafio foi removida: não existe lote nem preço nesta fase.
+8. **Peça do Desafio sem equivalente:** a linha de lote preenchido e o preço de ingresso do Desafio foi removida: não existe lote nem preço nesta fase.

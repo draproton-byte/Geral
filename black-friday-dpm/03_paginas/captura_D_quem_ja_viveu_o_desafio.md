@@ -46,17 +46,17 @@ Estado 4 (depois das 20h):
 ## Bloco 01: Vender sozinho
 
 **Pré-título**
-`PARA QUEM JÁ VIVEU O MÉTODO · 03 DE NOVEMBRO · 20H · AO VIVO NO YOUTUBE`
+`PARA QUEM JÁ VIVEU O MÉTODO · 03/11 · 20H · YOUTUBE`
 
 **Headline principal**
 `Você já fez o primeiro passo. Não trave o processo.`
 
 **Subtítulo**
-`Dia 03/11, às 20h, a Dra. Próton abre a Black Próton Vitalícia: o Clube Secreto e tudo o que ela já criou, com pagamento único e sem prazo. A condição é revelada só na live.`
+`Dia 03/11, às 20h, a Dra. Próton abre a Black Próton Vitalícia: o Clube Secreto e tudo o que ela já criou, com pagamento único e sem prazo. A condição é revelada só na live.` [[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]
 
 **Linha de apoio (variantes por origem)**
 
-`[[SE: DESAFIO]]` `Você esteve nas cinco noites. Agora é a hora de não deixar o automático voltar.`
+`[[SE: DESAFIO]]` `Você viveu o Desafio. Agora é a hora de não deixar o automático voltar.`
 `[[SE: IMERSAO]]` `Você já viveu a Imersão. Agora é a hora de continuar sem ter de decidir de novo.`
 `[[SE: AULAO]]` `Você esteve no Aulão. Agora é a hora de transformar o que você sentiu em um processo.`
 `[[SE: GERAL]]` `Você já conhece o método. Agora é a hora de continuar.`
@@ -65,15 +65,18 @@ Estado 4 (depois das 20h):
 
 | Campo | Rótulo | Placeholder |
 |---|---|---|
-| Nome | `Seu primeiro nome` | `Como você gosta de ser chamado(a)` |
-| E-mail | `O e-mail que você usou no Desafio` | `seunome@email.com` |
+| Nome | `Seu primeiro nome` | `Como devo te chamar?` |
+| E-mail | `O e-mail que você usou na inscrição` | `seunome@email.com` |
 | WhatsApp | `Seu WhatsApp com DDD` | `(11) 90000-0000` |
 
 **Botão**
-`QUERO CONTINUAR. ESTAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
 **Microcopy**
-`Gratuito. Sem compromisso de compra. Se você já tem o diagnóstico, ele fica salvo para você.` `[[CONFIRMAR: o Teste de Bloqueios do Desafio pode ser reaproveitado no diagnóstico dos 5 perfis]]`
+`Gratuito. Sem compromisso de compra. Se você já fez o teste do Desafio, o diagnóstico de agora é novo e leva poucos minutos.`
+
+**Mensagens de erro e consentimento**
+Iguais às da captura A: nome vazio, e-mail inválido, WhatsApp com 11 dígitos, falha de envio, e este consentimento: `Ao continuar, você concorda em receber avisos da live por WhatsApp e e-mail do Instituto Dra. Próton, e com a Política de Privacidade. Seus dados só são usados para isso. Para sair, digite SAIR no WhatsApp ou use o link de descadastro do e-mail.` [[LINK: política de privacidade]]
 
 ### Headlines testáveis
 
@@ -84,11 +87,11 @@ Estado 4 (depois das 20h):
 | D2 | Melhorar de vida é ganhar mil reais a mais. Mudar de vida é nunca mais voltar ao patamar anterior. | A ponte do Desafio ao Clube |
 | D3 | Cinco noites começaram. Uma decisão faz continuar. | Desafio como começo |
 | D4 | Você esteve lá. O que você sentiu merece mais do que uma semana. | Emoção que esfria |
-| D5 | Eu termino tudo o que eu começo. Dia 03/11, a Dra. mostra como parar de recomeçar. | O pacto |
+| D5 | "Eu termino tudo o que eu começo." Dia 03/11, a Dra. abre a Vitalícia. | O pacto |
 
 **Botões alternativos**
-- `QUERO CONTINUAR. ESTAR NA LIVE DE 03/11`
-- `QUERO NÃO TRAVAR O PROCESSO`
+- `QUERO MEU LUGAR NA LIVE`
+- `NÃO QUERO TRAVAR O PROCESSO`
 - `RESERVAR MEU LUGAR NA LIVE`
 
 ---
@@ -113,11 +116,11 @@ Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
 **Copy**
 
-`Na Noite 1, você assinou uma frase no papel:`
+`Na Noite 1, o pacto era uma frase assinada no papel:`
 
 `"Eu termino tudo o que eu começo."`
 
-`Na Noite 3, você ouviu outra:`
+`Na Noite 3, veio outra:`
 
 `"Nunca mais eu deixo de investir em mim."`
 
@@ -135,7 +138,7 @@ Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
 `Eu disse e repito: quem não está crescendo está morrendo.`
 
-`Quando você vive algo forte, aparece a tentação de parar. "Já fiz, já está bom." Isso se chama escassez.`
+`Quando você vive algo forte, aparece a tentação de parar. "Já fiz, já está bom." Eu chamo isso de escassez, e ela aparece em todo mundo.`
 
 `Não trave o processo.`
 
@@ -162,9 +165,9 @@ Título: `A conta que eu fiz com você`
 `Uma semana de cinco noites começa a desbloquear. O que muda uma vida é continuar. E é exatamente isso que a Vitalícia faz: tira o prazo, e com ele a desculpa.`
 
 **Botão**
-`QUERO CONTINUAR. ESTAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
-**Nota:** "eu perguntei... a maioria respondeu nada" vem do documento de narrativa e quebra de objeções do Clube (aula 3 do Desafio). `[[CONFIRMAR: transcrição/trecho da aula 3 que permita citar "a maioria respondeu nada"]]`. Se não for confirmado, usar só a segunda metade ("Se você não investe...").
+**Nota:** "eu perguntei... a maioria respondeu nada" consta do manual da Aula 03 do Desafio e do documento de narrativa do Clube (Comercial). Vale para quem esteve no Desafio; para as demais origens, se o time preferir cautela, usar só a segunda metade ("Se você não investe...").
 
 ---
 
@@ -174,7 +177,7 @@ Título: `A conta que eu fiz com você`
 
 Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar de novo.`
 
-`Cinco noites não mudam uma vida inteira, e eu disse isso. Em cinco dias você começa a desbloquear. O que faz a diferença é o que acontece depois.`
+`Cinco noites não mudam uma vida inteira, e eu disse isso na Aula 02. Em cinco dias você começa a desbloquear. O que faz a diferença é o que acontece depois.`
 
 | No Desafio | Na Vitalícia |
 |---|---|
@@ -182,7 +185,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 | 1 ano de acesso ao que você comprou | Acesso vitalício ao Clube Secreto e ao catálogo atual |
 | Você decidia ficar noite a noite | Você decide uma vez |
 
-`[[CONFIRMAR: "1 ano de acesso" é o prazo do Desafio conforme a página de vendas]]`
+`(O prazo de 1 ano consta da página de vendas do Desafio.)`
 
 `[[PENDENTE: tratamento de quem já tem o Desafio dentro do pacote (o Desafio A Nova Realidade é um dos 11 produtos)]]`
 
@@ -219,8 +222,8 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 
 **Copy, "Não faz sentido para você se..."**
 - Você sentiu que o método não é para você
-- Você quer só conteúdo gratuito e não pretende investir em você agora
-- Você espera promessa de dinheiro, de cura ou de fim da autossabotagem. Eu não prometo isso
+- Você prefere esperar e não quer decidir agora. Tudo bem: a lista de espera existe para isso
+- Você espera promessa de dinheiro, de tratamento ou de fim da autossabotagem. Eu não prometo isso
 
 `Eu prefiro que você não compre do que compre e não viva.`
 
@@ -231,12 +234,12 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 **Copy**
 
 **"Eu já comprei outras coisas e não coloquei em prática."**
-`Essa é a frase que eu mais ouço. Nos outros você precisou aplicar sozinha depois, e é aí que trava, porque o padrão que você quer mudar é o mesmo que sabota a mudança. No Desafio você não fez sozinha: fez comigo, ao vivo, e terminou cada noite com algo na mão. A Vitalícia foi pensada para você não precisar de força de vontade para continuar.`
+`É uma frase que eu ouço muito. Em muitos cursos, a aplicação fica por sua conta depois, e é aí que costuma travar, porque o padrão que você quer mudar é o mesmo que atrapalha a mudança. Nas minhas aulas ao vivo você não fez sozinha: fez comigo, e saiu de cada noite com algo na mão. A Vitalícia foi pensada para facilitar o continuar.`
 
 **"Tenho medo de comprar e não dar conta."**
-`Esse medo tem nome: autossabotagem. Toda vez que você vive algo transformador, aparece a vontade de parar. Na Vitalícia não tem prazo, e quem entra recebe uma trilha com o primeiro passo para as primeiras 48 horas. Não existe o mês que você perdeu.`
+`Esse medo é comum, e faz sentido. Toda vez que você vive algo transformador, aparece a vontade de parar. Na Vitalícia não tem prazo, e quem entra recebe uma trilha com o primeiro passo para as primeiras 48 horas. Não existe o mês que você perdeu.`
 
-**Linha:** `Eu não estou prometendo que a autossabotagem acaba. Estou tirando o prazo e a desculpa.`
+**Linha:** `Eu não prometo o fim da autossabotagem. Estou tirando o prazo e a desculpa.`
 
 ---
 
@@ -263,7 +266,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 `O valor é revelado só ao vivo, em 03/11, às 20h.`
 
 **Eu não entrei no Clube na hora. Perdi minha chance?**
-`Não. A condição da live é uma oferta nova, e não existe cobrança de quem esperou. O que não se repete é a condição que a Dra. mostrar nessa noite.`
+`Não. Ninguém aqui cobra você por não ter entrado antes. A condição da live é uma oferta nova, e o que não se repete é a condição que a Dra. mostrar nessa noite.`
 
 **Preciso refazer o diagnóstico?**
 `Se quiser. Os 5 perfis de hoje têm um diagnóstico novo, e ele é gratuito. [[LINK: diagnóstico]]`
@@ -279,7 +282,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 `Você já fez o primeiro passo. Dia 03/11, às 20h, ao vivo no YouTube.`
 `Não trave o processo.`
 
-**Botão:** `QUERO CONTINUAR. ESTAR NA LIVE DE 03/11`
+**Botão:** `QUERO MEU LUGAR NA LIVE`
 **Microcopy:** `Gratuito. Sem compromisso de compra.`
 
 **Rodapé:** igual ao das demais páginas.

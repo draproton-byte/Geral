@@ -8,7 +8,7 @@
 **Estágio de consciência:** 2 a 5
 **Modelo no Desafio:** campo TELA do Guia de Condução da Aula 02 (vinheta, slide da Escala de Hawkins, foto aos 18 anos, QR Code), blocos 08, 09 e 12 da página do Desafio
 
-**Regras de design (para quem monta):** fonte grande, contraste alto, no máximo duas linhas de headline (público 50+). Um slide, uma ideia. Os slides de preço (36 e 37) ficam ocultos até a liberação da Dra. Nenhum valor pode aparecer em miniatura, legenda, pré-visualização ou arquivo de apoio antes do minuto 01:09.
+**Regras de design (para quem monta):** o público tem 40% de pessoas com mais de 50 anos e assiste no celular. Um slide, uma ideia. Título em no máximo duas linhas; corpo em no máximo três linhas, de no máximo 12 palavras cada. Tamanho mínimo: título 72 pt e corpo 48 pt na tela 1920 x 1080 (o que cabe nisso é o que fica). Contraste alto (mínimo 7:1) e nada que dependa de cor para ser entendido. Texto sobre foto só com fundo sólido. Sem animação rápida e sem som. A identidade visual ainda não existe: nenhuma cor, fonte ou logo aqui é definitiva. Os slides de preço (34, 36 e 37) ficam ocultos até a liberação da Dra. Nenhum valor pode aparecer em miniatura, legenda, pré-visualização ou arquivo de apoio antes do minuto 01:01 (slide 34, preço avulso) e do minuto 01:09 (slides 36 e 37, preço por lote). A ordem dos slides é a ordem em que o roteiro os chama (1 a 46).
 
 **Convenções:** `[[...]]` é espaço para troca. "Operador" é o que o time faz com o slide. Frases marcadas [INTOCÁVEL] são da Dra. e aparecem literalmente.
 
@@ -26,7 +26,7 @@ Operador: música baixa, sem locução.
 Título: "Antes de começar"
 Linha: "Papel e caneta na mão."
 Linha: "O valor só aparece no final. Ninguém te manda número antes."
-Linha: "Fica até o fim."
+Linha: "Se estiver dirigindo, não feche os olhos na prática."
 
 ---
 
@@ -51,8 +51,9 @@ Linha: "Escreve o número no chat."
 
 **Slide 5. Como será a noite**
 Título: "Como será a noite"
-Linha: "1. Por que você recomeça. 2. Uma prática ao vivo. 3. Minha história."
-Linha: "4. Tudo o que eu construí. 5. O valor, uma vez."
+Linha: "1. Por que você recomeça. 2. Uma prática ao vivo."
+Linha: "3. Minha história. 4. Tudo o que eu construí."
+Linha: "5. O valor, uma vez."
 
 ---
 
@@ -64,8 +65,8 @@ Linha: "O último dinheiro a mais que entrou. O que apareceu depois?"
 
 **Slide 7. A pesquisa**
 Título: "51,9%"
-Linha: "responderam que, quando entra um dinheiro a mais, aparece uma conta ou um problema."
-Linha: "[[CONFIRMAR: fonte e data da pesquisa antes de exibir]]"
+Linha: "de quem respondeu à pesquisa de presença disse: quando entra um dinheiro a mais, aparece uma conta ou um problema."
+Linha: "[[CONFIRMAR: fonte e data da pesquisa (dossiê do Desafio) antes de exibir]]"
 
 ---
 
@@ -73,7 +74,8 @@ Linha: "[[CONFIRMAR: fonte e data da pesquisa antes de exibir]]"
 
 **Slide 8. Os cinco padrões**
 Título: "Qual é o seu?"
-Linha: "Termostato Invisível · Autossabotagem · Cobrança Que Você Só Faz Com Você"
+Linha: "Termostato Invisível · Autossabotagem"
+Linha: "Cobrança Que Você Só Faz Com Você"
 Linha: "Traumas Que Ainda Decidem · Culpa de Querer Mais"
 
 **Slide 9. Termostato Invisível**
@@ -103,7 +105,9 @@ Linha: "Eu cuido de todo mundo, mas ninguém cuida de mim."
 **Slide 14. Três linhas, uma decisão**
 Título: "Três linhas. Uma decisão."
 Linha: "1. O que eu comecei e parei."
-Linha: "2. O meu 'depois'. 3. A decisão que eu só tomo uma vez."
+Linha: "2. O meu 'depois'."
+Linha: "3. A decisão que eu só tomo uma vez."
+Operador: manter fixado no chat o aviso de segurança do bloco 0 (quem dirige não fecha os olhos).
 
 ---
 
@@ -127,8 +131,8 @@ Título: "O depois"
 Linha: "Depois eu começo. Depois eu pago. Depois eu faço."
 Linha: "É o esconderijo da autossabotagem."
 
-**Slide 18. Sozinha, o freio ganha**
-Título: "Sozinha, o freio ganha."
+**Slide 18. Sem apoio, o freio ganha**
+Título: "Sem apoio, o freio ganha."
 Linha: "O padrão que você quer mudar é o mesmo que sabota a mudança."
 
 **Slide 19. Sem prazo**
@@ -138,7 +142,7 @@ Linha: "Um ciclo por vez. Para sempre."
 
 **Slide 20. O mecanismo do Clube**
 Título: "21 dias por ciclo. 12 ciclos."
-Linha: "Cada ciclo arruma uma área."
+Linha: "Cada ciclo, um tema."
 Linha: "Sem prazo para dar conta."
 
 ---
@@ -205,8 +209,8 @@ Linha: "A sequência que a Dra. ensina na prática."
 **Slide 34. Quanto custaria separado**
 Título: "Se você comprasse tudo separado"
 Linha: tabela dos 12 itens com `[[PENDENTE: preço avulso]]` em cada linha
-Linha: "Soma: [[PENDENTE: soma dos avulsos]]"
-Operador: tabela completa em uma tela; se não couber, duas telas de 6 itens. Oculto até a Dra. liberar.
+Linha: "Soma: [[PENDENTE: preço avulso]]"
+Operador: sempre duas telas de 6 itens (mesma numeração 34, a soma na segunda), fonte mínima de 48 pt, uma linha por item. Esta é a única exceção ao limite de três linhas. Oculto até a Dra. liberar. Preço avulso só se for preço real de venda avulsa; item nunca vendido avulso aparece como "valor de referência".
 
 ---
 
@@ -214,7 +218,7 @@ Operador: tabela completa em uma tela; se não couber, duas telas de 6 itens. Oc
 
 **Slide 35. A trilha**
 Título: "Você não começa pelos onze. Você começa pela trilha."
-Linha: "[[PENDENTE: ordem de entrada]]"
+Linha: "[[CONFIRMAR: ordem de entrada]]"
 Linha: "Primeiro passo em 48 horas. Sem prazo para terminar."
 
 ---
@@ -226,13 +230,14 @@ Título: "Lote Especial"
 Linha: "Alunas do Clube: [[PREÇO LOTE ALUNAS]]"
 Linha: "Quem ainda não é do Clube: [[PREÇO LOTE NÃO-ALUNAS]]"
 Linha: "Vale até [[PENDENTE: data do lote]]"
-Operador: oculto até liberação. Fonte grande, uma linha por segmento.
+Operador: oculto até liberação. Fonte grande, uma linha por segmento. [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
 **Slide 37. Primeiro Lote e Último Lote**
 Título: "A cada virada, o valor sobe"
-Linha: "Primeiro Lote: alunas [[PREÇO LOTE ALUNAS]] · quem ainda não é do Clube [[PREÇO LOTE NÃO-ALUNAS]] · até [[PENDENTE: data do lote]]"
-Linha: "Último Lote: alunas [[PREÇO LOTE ALUNAS]] · quem ainda não é do Clube [[PREÇO LOTE NÃO-ALUNAS]] · até [[PENDENTE: fechamento]]"
-Linha: "Esta condição não se repete."
+Linha: "Alunas do Clube | Quem ainda não é do Clube"
+Linha: "Primeiro Lote: [[PREÇO LOTE ALUNAS]] | [[PREÇO LOTE NÃO-ALUNAS]] (até [[PENDENTE: data do lote]])"
+Linha: "Último Lote: [[PREÇO LOTE ALUNAS]] | [[PREÇO LOTE NÃO-ALUNAS]] (até [[PENDENTE: fechamento]])"
+Operador: grade de 2 colunas por 2 linhas, rótulos escritos (não dependem de cor). A frase "Esta condição não se repete." é dita pela Dra. e não vai no slide.
 
 (Nota de implementação: a escada do briefing está no fim do arquivo e não aparece em nenhum texto de slide pré-live.)
 
@@ -242,19 +247,19 @@ Linha: "Esta condição não se repete."
 
 **Slide 38. Como pagar**
 Título: "Como pagar"
-Linha: "Até [[PENDENTE: parcelamento máximo]]x de [[PENDENTE: valor da parcela]] no cartão"
+Linha: "Até [[CONFIRMAR: parcelamento máximo]]x de [[CONFIRMAR: valor da parcela]] no cartão"
 Linha: "[[CONFIRMAR: Pix, boleto, entrada mais parcelas]]"
 
 **Slide 39. Garantia**
 Título: "Garantia"
 Linha: "[[PENDENTE: garantia]]"
-Linha: "Você entra, olha por dentro. Se não for para você, você pede."
+Linha: "[[CONFIRMAR: regra de devolução, só se a garantia for confirmada]]"
 
 **Slide 40. Bônus**
 Título: "Bônus de quem está ao vivo"
 Linha: "[[PENDENTE: bônus]]"
 Linha: "Vale para quem finalizar em 15 minutos."
-Operador: só entra se houver bônus (modo A). Se não houver, pular.
+Operador: só entra se houver bônus (modo A). Se não houver, pular. O bônus nunca volta a aparecer em slide depois do cronômetro zerar.
 
 ---
 
@@ -314,7 +319,7 @@ Linha: "[[CONFIRMAR: o que acontece com o período já pago]]"
 
 **R2. Parcelamento em detalhe**
 Título: "Parcelamento"
-Linha: "[[PENDENTE: parcelamento máximo]] vezes de [[PENDENTE: valor da parcela]]"
+Linha: "[[CONFIRMAR: parcelamento máximo]] vezes de [[CONFIRMAR: valor da parcela]]"
 Linha: "[[CONFIRMAR: entrada mais parcelas]]"
 
 **R3. Garantia em detalhe**

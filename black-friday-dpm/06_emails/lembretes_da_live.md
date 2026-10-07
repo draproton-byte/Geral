@@ -2,10 +2,10 @@
 
 | Campo | Conteúdo |
 |---|---|
-| Peça | LV-28 a LV-02 (6 lembretes diários) e LV-03-01 a LV-03-06 (6 e-mails do dia da live) |
+| Peça | LV-28 a LV-02 (6 lembretes diários: LV-28, LV-29, LV-30, LV-31, LV-01, LV-02) e LV-03-01 a LV-03-06 (6 e-mails do dia da live; o LV-03-06 tem duas versões) |
 | Canal | E-mail |
-| Público | Inscritos na live (tag "inscrito na live"), os 3 segmentos. LV-03-04 só para inscritos que ainda não clicaram no link da live. LV-03-06 tem duas versões (alunas e não-alunas) |
-| Momento | 28/10 a 02/11 às 12h (o modelo do Desafio mandava às 09h; aqui foi para 12h porque as 07h e as 09h já têm a série e os segmentados). Dia 03/11: 09h, 19h, 20h, 20h25, 21h15 e 22h30 (`[[CONFIRMAR: horários, dependem do roteiro da live]]`) |
+| Público | Inscritos na live (tag "inscrito na live"), os 3 segmentos. LV-03-04 só para inscritos que ainda não clicaram no link da live. LV-03-06 tem duas versões (alunas e não-alunas). Exclusões por segmentado das 09h: LV-29 não vai para S1, LV-30 não vai para S2, LV-01 não vai para S1 nem S2 (ver `captacao_serie.md`) |
+| Momento | 28/10 a 02/11 às 12h (o modelo do Desafio mandava às 09h; aqui foi para 12h porque as 07h e as 09h já têm a série e os segmentados). Dia 03/11: 09h, 19h, 20h, 20h25, 21h09 e 22h00 (`[[CONFIRMAR: horários, dependem do roteiro da live]]`) |
 | Objetivo | Fazer a pessoa estar ao vivo em 03/11, às 20h, sabendo como entrar, o que esperar e como se preparar para decidir |
 | Consciência | 4 a 5 |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." A live é o único lugar onde ela pode ser tomada |
@@ -13,7 +13,13 @@
 
 **Variáveis.** `{{nome}}`, `{{link_live}}` = `[[LINK: live YouTube 03/11]]`, `{{link_grupo}}` = `[[LINK: grupo WhatsApp]]`. Assinatura de todos: "Dra. Próton" (ou "Equipe Dra. Próton" onde indicado).
 
-**O que o Desafio tinha e a Black não precisa.** Os e-mails "VAGAS ABERTAS" que apareciam no meio da sequência do Desafio (04 e 06) vendiam o Clube no fim da noite. Na Black a venda não acontece em e-mail antes da live. O equivalente está em `carrinho_e_lotes.md`.
+**Um botão por e-mail.** O link que aparece fora do botão (link da live, link do grupo) é texto visível, não botão.
+
+**Legibilidade e acessibilidade (vale para todos os e-mails deste arquivo).** Texto simples, fonte de pelo menos 16 px, entrelinha 1,5, contraste alto (40% da base tem mais de 50 anos). Botão de texto, nunca imagem, com o endereço do link escrito por extenso abaixo. Imagem ou logo, se houver, com texto alternativo descritivo. Nada depende de cor ou de emoji; o emoji, quando existe, só apoia. Sem emoji no assunto. Assunto até 50 caracteres.
+
+**Gênero.** O público é misto: texto neutro. O feminino fica para LV-03-06 / Alunas.
+
+**O que o Desafio tinha e a Black não precisa.** Os e-mails de abertura de vendas que apareciam no meio da sequência do Desafio (04 e 06) vendiam o Clube no fim da noite. Na Black a venda não acontece em e-mail antes da live. O equivalente está em `carrinho_e_lotes.md`.
 
 ---
 
@@ -26,14 +32,14 @@
 
 {{nome}},
 
-Sua vaga na live de revelação está garantida. Anote:
+Sua inscrição na live de revelação está confirmada. Anote:
 
 Data: terça, 03/11
 Hora: 20h
 Onde: ao vivo, no YouTube
 Link da live: {{link_live}}
 
-Clique no botão e ative o lembrete do YouTube. Assim o próprio YouTube te avisa quando eu entrar no ar.
+Toque no botão e ative o lembrete do YouTube. Assim o próprio YouTube avisa quando eu entrar no ar.
 
 **Botão:** ATIVAR O LEMBRETE NO YOUTUBE
 
@@ -50,21 +56,21 @@ Equipe Dra. Próton
 
 {{nome}},
 
-Muita gente que me acompanha assiste pelo celular, e eu quero que seja fácil para você também.
+Se você vai assistir pelo celular, eu quero que seja fácil.
 
 Na terça, 03/11, às 20h:
 
 1. Toque no botão abaixo. O YouTube abre a transmissão.
-2. Toque em "Ativar lembrete" (o sininho). Pronto, você é avisada quando eu entrar no ar.
+2. Toque em "Ativar lembrete" (o sininho). Pronto, o YouTube avisa quando eu entrar no ar.
 3. Deixe o celular carregado e a internet estável.
 4. Na hora, entre e escreva "estou aqui" no chat. Eu vou ler.
 
-Se você já tem YouTube no celular, o caminho é só tocar e entrar.
+Se você já tem o YouTube no celular, o caminho é só tocar e entrar.
 
 **Botão:** ABRIR A LIVE NO YOUTUBE
 {{link_live}}
 
-Se tiver qualquer dificuldade, responda este e-mail e a equipe te ajuda.
+Se tiver qualquer dificuldade, responda este e-mail e a equipe ajuda.
 
 Dra. Próton
 
@@ -77,35 +83,35 @@ Dra. Próton
 
 A live de 03/11 não é uma aula para assistir e esquecer. É uma noite para você sair com três coisas na mão:
 
-✔ O nome do padrão que mais te segura hoje (dos 5 que eu mostrei: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem, Culpa de Querer Mais).
-✔ A clareza do que eu construí para você parar de ter que recomeçar.
-✔ A condição completa, revelada ao vivo, para você decidir com todas as informações.
+1. O nome do padrão que mais te segura hoje, entre os 5 que eu mostro: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem e Culpa de Querer Mais.
+2. A clareza do que eu construí para você parar de ter que recomeçar.
+3. A condição completa, revelada ao vivo, para você decidir com todas as informações.
 
 Se você ainda não fez o diagnóstico dos 5 padrões, faça agora. Você chega na live já sabendo o seu.
 
 **Botão:** FAZER MEU DIAGNÓSTICO
 `[[LINK: diagnóstico dos 5 padrões]]`
 
-E o link da live fica aqui: {{link_live}}
+O link da live fica aqui: {{link_live}}
 
 Dra. Próton
 
 ### LV-31. O que vai acontecer na live (31/10, sábado)
 
-**Assunto:** O que vai acontecer na noite de terça, do começo ao fim
-**Linha de preview:** Sem surpresa: a ordem da live, para você se organizar
+**Assunto:** A ordem da live de terça, do começo ao fim
+**Linha de preview:** Sem surpresa: o que vai acontecer, para você se organizar
 
 {{nome}},
 
 Para você não chegar sem saber o que esperar, aqui vai a ordem da live de terça, dia 03/11:
 
 1. Eu abro com uma pergunta que você já conhece: quantas vezes você já recomeçou?
-2. Eu mostro a conta de por que o dinheiro, a rotina e as promessas voltam sempre para o mesmo lugar.
-3. Eu apresento o que construí, de uma vez só, para desarmar esse padrão.
-4. Eu revelo a condição completa: o que entra, como funciona, como começar sem se perder, e quanto custa.
+2. Eu mostro a conta do Termostato Invisível e os cinco padrões, para você ver qual é o seu.
+3. Eu conto por que a gente recomeça e apresento o que construí, de uma vez só, para desarmar esse padrão.
+4. Eu revelo a condição completa: o que entra, como começar sem se perder, o valor e as formas de pagamento.
 5. Eu respondo as suas dúvidas ao vivo.
 
-`[[CONFIRMAR: ordem e duração da live com o roteiro de 08_live_e_pitch]]`
+[[CONFIRMAR: ordem e duração da live conforme 08_live_e_pitch/roteiro_live_de_revelacao.md]]
 
 A revelação do valor é só ao vivo. Eu prefiro que você não compre do que compre e não viva. Por isso, venha ouvir tudo.
 
@@ -121,15 +127,15 @@ Dra. Próton
 
 {{nome}},
 
-Uma pergunta que sempre aparece nesta semana: "e se eu não puder estar ao vivo?"
+Uma pergunta que aparece sempre nesta semana: "e se eu não puder estar ao vivo?"
 
-Eu quero te responder com honestidade: a live de revelação é um evento ao vivo, e é nela que eu abro a condição completa. `[[PENDENTE: replay. Se houver replay, dizer quando e por quanto tempo. Se não houver, manter "só ao vivo" e dizer isso aqui com clareza]]`
+Eu quero te responder com honestidade: a live de revelação é um evento ao vivo, e é nela que eu abro a condição completa. [[PENDENTE: replay]] (se houver replay, dizer quando e por quanto tempo; se não houver, dizer isso aqui com clareza)
 
-O que você pode fazer hoje para garantir:
+O que você pode fazer hoje para garantir a sua presença:
 
 1. Avise em casa que terça, das 20h em diante, é o seu horário.
 2. Se tiver compromisso, combine com alguém para assumir. Aquele tempo é seu.
-3. Entre no grupo para ser avisada na hora.
+3. Entre no grupo para receber o aviso na hora.
 
 Se mesmo assim algo impedir, me responda este e-mail e conte. Eu quero entender.
 
@@ -138,23 +144,25 @@ Se mesmo assim algo impedir, me responda este e-mail e conte. Eu quero entender.
 
 Dra. Próton
 
-### LV-02. Amanhã, às 20h (02/11, segunda)
+### LV-02. Amanhã, às 20h (02/11, segunda, Finados)
+
+Tom sóbrio: 02/11 é Finados. Sem emoji, sem exclamação, sem urgência.
 
 **Assunto:** Amanhã, às 20h. Seu link está aqui
 **Linha de preview:** Tudo o que você precisa para a noite de terça
 
 {{nome}},
 
-Amanhã, às 20h, eu entro ao vivo.
+Hoje é Finados, um dia de recolhimento para muita gente. Por isso, vou ser breve.
 
-Deixe pronto:
+Amanhã, às 20h, eu entro ao vivo. Deixe pronto:
 
-📌 O link da live: {{link_live}}
-📌 Caderno e caneta, para a conta que eu vou fazer ao vivo
-📌 O celular carregado e o grupo ativo no WhatsApp
-📌 Um lugar tranquilo, pelo menos até as 22h `[[CONFIRMAR: duração prevista]]`
+1. O link da live: {{link_live}}
+2. Caderno e caneta, para a conta que eu vou fazer ao vivo.
+3. O celular carregado e o grupo ativo no WhatsApp.
+4. Um lugar tranquilo, pelo menos até as 22h. [[CONFIRMAR: duração prevista]]
 
-Você chegou até aqui. Já se perguntou, já olhou para os padrões, já se inscreveu. Amanhã é o dia em que essa conversa vira decisão, e eu quero você inteira.
+Você chegou até aqui. Já se perguntou, já olhou para os padrões, já se inscreveu. Amanhã é o dia em que essa conversa vira decisão, e eu quero você por inteiro.
 
 **Botão:** ABRIR A LIVE DE AMANHÃ
 {{link_live}}
@@ -166,26 +174,26 @@ Equipe Dra. Próton
 
 ## OS 6 E-MAILS DE 03/11 (TERÇA)
 
-### LV-03-01. É hoje (09h)
+03/11 é terça, dia da aula ao vivo do Clube. `[[CONFIRMAR: a aula de terça de 03/11 é substituída pela live, muda de horário ou continua]]` (o aviso para S1 está em SA-06 e OB-02).
 
-**Assunto:** 🚨 É HOJE: a live de revelação começa às 20h
+### LV-03-01. Hoje, 20h (09h)
+
+**Assunto:** Hoje, às 20h: a live de revelação
 **Linha de preview:** Seu link da live está aqui dentro
-
-🚨 É HOJE.
 
 {{nome}}, hoje às 20h eu abro, ao vivo, a Black Próton Vitalícia. A condição completa só é revelada na transmissão.
 
-Você já fez a parte difícil: se inscreveu, entrou no grupo, se perguntou o que ainda precisa mudar. Hoje é o dia em que a pergunta vira uma decisão.
+Você já fez a parte difícil: se inscreveu, se perguntou o que ainda precisa mudar. Hoje é o dia em que a pergunta vira uma decisão.
 
-📌 Anote: hoje, 20h
-🔗 Link da live: {{link_live}}
+Anote: hoje, 20h, no YouTube.
+Link da live: {{link_live}}
 
 **Botão:** ENTRAR NA LIVE ÀS 20H
 
-⚠️ Ainda não entrou no grupo? É por lá que chega o aviso na hora:
+Ainda não entrou no grupo? É por lá que chega o aviso na hora:
 {{link_grupo}}
 
-Te vejo às 20h. 💜
+Te vejo às 20h.
 Dra. Próton
 
 ### LV-03-02. Falta 1 hora (19h)
@@ -197,10 +205,10 @@ Dra. Próton
 
 Se você ainda não fez, agora é a hora de:
 
-☐ Pegar o caderno e a caneta
-☐ Avisar em casa que a próxima hora e meia é sua
-☐ Deixar o celular carregado
-☐ Abrir o link e ativar o lembrete
+1. Pegar o caderno e a caneta.
+2. Avisar em casa que as próximas duas horas são suas.
+3. Deixar o celular carregado.
+4. Abrir o link e ativar o lembrete.
 
 **Botão:** ENTRAR NA LIVE AGORA
 {{link_live}}
@@ -211,10 +219,8 @@ Dra. Próton
 
 ### LV-03-03. Estamos ao vivo (20h)
 
-**Assunto:** 🔴 ESTOU AO VIVO. Entre agora
+**Assunto:** Estou ao vivo. Entre agora
 **Linha de preview:** A live acabou de começar. O link está aqui
-
-🔴 ESTOU AO VIVO!
 
 {{nome}}, a live de revelação da Black Próton Vitalícia acabou de começar, e você ainda pode entrar para acompanhar do início.
 
@@ -238,11 +244,11 @@ Se aconteceu alguma coisa, tudo bem. Mas ainda dá tempo de entrar: o que eu já
 **Botão:** ENTRAR NA LIVE AGORA
 {{link_live}}
 
-Se o link não abre, responda este e-mail. Uma pessoa da equipe vai te ajudar na hora.
+Se o link não abre, responda este e-mail. Uma pessoa da equipe vai ajudar na hora.
 
 Dra. Próton
 
-### LV-03-05. A melhor parte (21h15, sob disparo manual quando a revelação começar)
+### LV-03-05. A revelação (21h09, disparo manual quando a revelação do valor começar)
 
 **Assunto:** A parte que você esperava começou agora
 **Linha de preview:** Estou revelando a condição completa ao vivo
@@ -251,7 +257,7 @@ Dra. Próton
 
 Neste momento eu estou revelando, ao vivo, a condição completa da Black Próton Vitalícia: o que entra, como começar sem se perder e como funcionam as formas de pagamento.
 
-Se você parou de assistir, volte agora. O que eu vou falar nos próximos minutos só é dito uma vez.
+Se você parou de assistir, volte agora para acompanhar a condição ao vivo.
 
 **Botão:** VOLTAR PARA A LIVE
 {{link_live}}
@@ -260,9 +266,9 @@ Dra. Próton
 
 `[[CONFIRMAR: horário da revelação e quem dispara este e-mail]]`
 
-### LV-03-06. Carrinho aberto (22h30, após o fim da revelação)
+### LV-03-06. Carrinho aberto (22h00, após o fim da live)
 
-Duas versões. A pessoa recebe a versão do seu segmento (S1 recebe a "Alunas"; S2 e S3 recebem "Não-alunas", conforme decisão em Notas).
+Duas versões. A pessoa recebe a versão do seu segmento (S1 recebe a "Alunas"; S2 e S3 recebem "Não-alunas", conforme decisão em Notas). Quem compra durante a live sai da lista pela tag "compra aprovada Black".
 
 #### LV-03-06 / Alunas
 
@@ -271,9 +277,11 @@ Duas versões. A pessoa recebe a versão do seu segmento (S1 recebe a "Alunas"; 
 
 {{nome}}, a condição que eu revelei na live está aberta agora para você.
 
-Você já é do Clube. Por isso, o seu valor é o de aluna: [[PREÇO LOTE ALUNAS]] no lote que está aberto neste momento. `(nota: escada de alunas, Lote Especial R$ 1.997, Primeiro Lote R$ 2.997, Último Lote R$ 3.997)`
+Você já é do Clube. Por isso, o seu valor é o de aluna: [[PREÇO LOTE ALUNAS]] no lote que está aberto neste momento. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] `(NOTA PARA QUEM MONTA, REMOVER ANTES DO ENVIO: escada de alunas, Lote Especial R$ 1.997, Primeiro Lote R$ 2.997, Último Lote R$ 3.997)`
 
 O que entra: o Clube Secreto com acesso vitalício e os 11 produtos do catálogo, por pagamento único. As formas de pagamento estão no checkout, com o parcelamento visível.
+
+Ao entrar, você recebe por e-mail o seu acesso e o primeiro passo.
 
 Garantia: [[PENDENTE: garantia]]
 
@@ -291,9 +299,11 @@ Dra. Próton
 
 {{nome}}, a condição que eu revelei na live está aberta agora.
 
-Você entra com [[PREÇO LOTE NÃO-ALUNAS]] no lote que está aberto neste momento. `(nota: escada de não-alunas, Lote Especial R$ 2.997, Primeiro Lote R$ 3.997, Último Lote R$ 4.997)`
+Você entra com [[PREÇO LOTE NÃO-ALUNAS]] no lote que está aberto neste momento. `(NOTA PARA QUEM MONTA, REMOVER ANTES DO ENVIO: escada de não-alunas, Lote Especial R$ 2.997, Primeiro Lote R$ 3.997, Último Lote R$ 4.997)`
 
 O que entra: o Clube Secreto com acesso vitalício e os 11 produtos do catálogo, por pagamento único. As formas de pagamento estão no checkout, com o parcelamento visível.
+
+Ao entrar, você recebe por e-mail o seu acesso e o primeiro passo.
 
 Garantia: [[PENDENTE: garantia]]
 
@@ -308,10 +318,11 @@ Dra. Próton
 
 ## Notas ao implementador
 
-1. **Horários.** Os seis e-mails de 03/11 dependem do roteiro de `08_live_e_pitch`. LV-03-05 e LV-03-06 devem ser disparados manualmente por quem acompanha a live, no momento exato da revelação e do fim dela. LV-03-04 precisa de segmentação "abriu o e-mail ou clicou no link" para só ir a quem não entrou.
+1. **Horários.** Os seis e-mails de 03/11 dependem do roteiro de `08_live_e_pitch/roteiro_live_de_revelacao.md`: a live vai das 20h às 21h56, a revelação da oferta é às 20h51, o valor é revelado às 21h09 e o link do carrinho abre às 21h28. LV-03-05 e LV-03-06 devem ser disparados manualmente por quem acompanha a live, no momento exato da revelação do valor e do fim dela. LV-03-04 precisa de segmentação "abriu o e-mail ou clicou no link" para só ir a quem não entrou.
 2. **Preço só pós-live.** LV-03-06 é a única peça deste arquivo com preço, e só pode ser disparada depois da revelação. As notas entre parênteses sobre a escada são para quem monta o e-mail e **devem ser removidas** do texto final.
 3. **Aluna ou não-aluna (decisão para a Dra.).** Assumi que quem fez Desafio, Imersão ou Aulão e não é do Clube paga o preço de não-aluna. Se houver condição própria para esse grupo, LV-03-06 ganha uma terceira versão.
-4. **Replay.** LV-01 já trata do tema com um placeholder. A página de captura diz "sem replay", o que pode ser uma regra de negócio ou só texto de escassez: `[[PENDENTE: replay]]`.
-5. **Teste A/B sugerido.** Assunto de LV-03-01: "É HOJE" contra "{{nome}}, hoje às 20h você decide uma vez". Assunto de LV-03-04: "cadê você?" contra "Eu comecei e senti a sua falta".
+4. **Replay.** LV-01 já trata do tema com um placeholder. A página de captura diz "sem replay", o que pode ser uma regra de negócio ou só texto de escassez: `[[PENDENTE: replay]]`. Nenhum e-mail deste arquivo afirma nem nega replay.
+5. **Teste A/B sugerido.** Assunto de LV-03-01: "Hoje, às 20h: a live de revelação" contra "{{nome}}, hoje às 20h você decide uma vez". Assunto de LV-03-04: "cadê você?" contra "Eu comecei e senti a sua falta".
 6. **Garantia.** Usada como placeholder em LV-03-06. Não escrever "7 dias" sem confirmação.
-7. **Frequência.** Em 03/11 os inscritos recebem 7 e-mails no dia (EM-BF-22 mais os 6 daqui). É aceitável por ser dia de evento, mas monitorar descadastro e reclamação de spam em LV-03-04 e LV-03-05.
+7. **Frequência.** Em 03/11 quem está inscrito recebe 6 e-mails (os de EM-BF-22 não vão para quem tem a tag "inscrito na live"). É aceitável por ser dia de evento, mas monitorar descadastro e reclamação de spam em LV-03-04 e LV-03-05.
+8. **Dia 02/11 (Finados).** LV-02 e EM-BF-21 mantêm o tom sóbrio. Quem tem a tag "inscrito na live" recebe só LV-02.

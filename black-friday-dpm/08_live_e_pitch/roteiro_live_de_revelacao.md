@@ -137,7 +137,7 @@
 - AÇÃO: ler 6 a 10 respostas. Ritmo lento. Deixar a sala se ver nas palavras dos outros.
 - TELA (slide 6): "Entrou. Apareceu. Voltou ao mesmo lugar."
 - FALA: "Isso tem nome: Termostato Invisível. Um termostato de verdade mantém a casa em uma temperatura. Esfriou, liga. Esquentou demais, desliga. Você tem um termostato dentro de você, regulado para um ponto. Quando o dinheiro passa desse ponto, alguma coisa aparece para trazer de volta."
-- TELA (slide 7): "51,9% das pessoas que responderam à pesquisa de presença disseram que, quando entra um dinheiro a mais, aparece uma conta ou um problema." [[CONFIRMAR: dado do dossiê de audiência do Desafio (pesquisa de presença), atualizar se houver base nova]]
+- TELA (slide 7): "51,9%" e "de quem respondeu à pesquisa de presença disse: quando entra um dinheiro a mais, aparece uma conta ou um problema." [[CONFIRMAR: dado do dossiê de audiência do Desafio (pesquisa de presença), atualizar se houver base nova]]
 - FALA: "Em uma pesquisa de presença com quem acompanha o meu trabalho, 51,9% das pessoas que responderam disseram isto: quando entra um dinheiro a mais, aparece uma conta ou um problema."
 - FALA: "Não é azar e não é castigo. É um ponto de regulagem que, para muita gente, foi ajustado lá atrás, por quem amava e só sabia aquilo."
 - FALA: "E o pior é que você tenta se esforçar mais. Esforçar mais, com o termostato do mesmo jeito, só aquece a casa por um tempo."
@@ -219,9 +219,9 @@
 - TELA (slide 17): "O depois".
 - FALA: "Toda vez que você começa algo importante, o seu cérebro procura o depois. Depois eu começo. Depois eu pago. Depois eu faço. O depois é o esconderijo da autossabotagem."
 - FALA: "Você não trava porque é fraca. Você trava porque o padrão que você quer mudar é o mesmo que sabota a mudança."
-- TELA (slide 18): "Sozinha, o freio ganha."
+- TELA (slide 18): "Sem apoio, o freio ganha."
 - FALA: "Em muitos cursos que a gente compra e não termina, o problema é parecido: a gente precisa aplicar sozinho. E aí o freio trabalha. Quem tenta vencer o freio só com força de vontade se cansa, porque é justamente a força de vontade que ele gasta."
-- TELA (slide 19): "O que muda quando tira o prazo."
+- TELA (slide 19): "E se o prazo deixasse de existir?"
 - FALA: "Agora imagina isto. Um lugar onde você não tem prazo. Onde ninguém te cobra 'use este mês, senão perde'. Onde o programa conduz você, um ciclo por vez, e ele fica para sempre. O que muda em você quando o depois deixa de existir?"
 - TELA (slide 20): o mecanismo do Clube: protocolo de 21 dias por ciclo, 12 ciclos, cada ciclo um tema, sem prazo para dar conta.
 - FALA: "É isso o Clube Secreto: um protocolo de 21 dias por ciclo, 12 ciclos. Em cada ciclo você trabalha um tema, um de cada vez." [[CONFIRMAR: nomes e ordem dos 12 ciclos do Clube atual; a lista de temas só entra na fala depois de confirmada]]
@@ -241,7 +241,7 @@
 
 - TELA (slide 21): "Dia 03/11. A oferta que o Clube Secreto nunca fez antes."
 - FALA: "Chegou o momento. Eu vou abrir, de uma vez, tudo o que eu construí. Um pagamento único. Acesso vitalício ao Clube Secreto e aos onze produtos do catálogo que existem hoje. Não é promessa de lançamento futuro. É só o que existe agora, nas suas mãos."
-- TELA (slide 22): "O Clube Secreto".
+- TELA (slide 22): "Clube Secreto".
 - FALA: "No centro está o Clube Secreto: o protocolo de 21 dias, 12 ciclos, aulas ao vivo toda terça, suporte no WhatsApp, a comunidade." [[CONFIRMAR: o que o Clube vitalício inclui (aulas ao vivo e suporte) e por quanto tempo]]
 - TELA (slides 23 a 33, um por produto, nesta ordem, uma frase por produto):
   1. **Fórmula da Riqueza**: [[CONFIRMAR: uma frase sobre o que é e para que serve]]
@@ -269,7 +269,7 @@
 **Estágio atendido:** 4 e 5.
 **Pendência crítica:** sem os preços avulsos fechados, este bloco não vai ao ar com números. Se não fecharem até 10/10, o plano B é a conta de tempo e escolhas (ver notas).
 
-- TELA (slide 34): tabela com os 12 itens e `[[PENDENTE: preço avulso]]` de cada um, fechando com `[[PENDENTE: soma dos avulsos]]`.
+- TELA (slide 34, duas telas de 6 itens, mesma numeração): tabela com os 12 itens e `[[PENDENTE: preço avulso]]` de cada um, fechando com a soma (`[[PENDENTE: preço avulso]]`).
 - FALA: "Antes de ver o valor, eu quero que você faça uma conta. Eu vou mostrar quanto custa cada um se você comprasse separado."
 - AÇÃO: a Dra. soma os itens em voz alta, um por um, sem pressa. A moderadora acompanha em um quadro.
 - FALA: "Se você comprasse tudo separado, seriam [[PENDENTE: soma dos avulsos]]. Isso é o que está na tela."

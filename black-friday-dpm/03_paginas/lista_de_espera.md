@@ -3,7 +3,7 @@
 **Peça:** Página de lista de espera e microcopy (formulário, confirmação, e-mail e WhatsApp de confirmação, degrau de entrada condicional)
 **Canal:** Página (destino da captura quando a live já começou; destino de quem diz "não tenho dinheiro agora"; destino de quem chega depois do fechamento)
 **Público:** (1) quem chega depois do fechamento do carrinho `[[PENDENTE: fechamento]]`; (2) quem assistiu e a faixa de preço não cabe agora; (3) quem declarou na pesquisa que não tem o dinheiro disponível (68% do Aulão, 30% da ficha) ou renda até R$ 3.000 (4.761 do Aulão)
-**Momento:** Desde 03/11 depois das 20h e durante todo o carrinho; antes disso, só pelo link da pesquisa
+**Momento:** Desde 03/11 depois das 20h e durante todo o carrinho; antes disso, só por links diretos (FAQ da captura A e da B, pesquisa Q7)
 **Objetivo:** Não perder a pessoa. Manter a lista de avisos, o diagnóstico e, se existir, o degrau de entrada. Nunca empurrar a Vitalícia para quem disse que não cabe
 **Consciência:** 3 a 5
 **Trabalho contratado:** "Eu quero continuar perto, sem ser pressionada, até fazer sentido para mim"
@@ -14,7 +14,7 @@
 
 ## Decisão que precisa existir antes (00_ESTRATEGIA_COPY_SENIOR.md, seção 5)
 
-A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz confortável com até R$ 297) não cabe na faixa da Vitalícia (R$ 1.997 a R$ 4.997). Hoje a oferta tem um só caminho. A recomendação de estratégia é **definir um degrau de entrada antes de 13/10**. Esta página já vem pronta nos dois cenários, com blocos condicionais:
+A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz confortável com até R$ 297) não cabe na faixa de preço da Vitalícia (valores no 00, seção 1; nunca nesta página antes da live). Hoje a oferta tem um só caminho. A recomendação de estratégia é **definir um degrau de entrada antes de 13/10**. Esta página já vem pronta nos dois cenários, com blocos condicionais:
 
 - `[[SE: SEM DEGRAU]]` Só lista de espera da próxima edição (aviso, sem produto).
 - `[[SE: COM DEGRAU]]` Lista de espera mais um degrau de entrada (produto avulso do catálogo ou outro caminho). O texto do degrau está abaixo como **placeholder condicional**: os nomes e valores não existem e **não são inventados**.
@@ -58,7 +58,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 ### Versão 3: quem diz "não tenho o dinheiro disponível agora" (vem da pesquisa, Q7)
 
 **Pré-título**
-`PARA QUEM ESTÁ NO APERTO REAL`
+`SE O DINHEIRO NÃO DÁ AGORA`
 
 **Headline**
 `O dinheiro não dá para tudo agora. E isso não diz nada sobre quem você é.`
@@ -77,7 +77,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 
 | Campo | Rótulo | Placeholder |
 |---|---|---|
-| Nome | `Seu primeiro nome` | `Como você gosta de ser chamado(a)` |
+| Nome | `Seu primeiro nome` | `Como devo te chamar?` |
 | E-mail | `Seu melhor e-mail` | `seunome@email.com` |
 | WhatsApp | `Seu WhatsApp com DDD (opcional)` | `(11) 90000-0000` |
 | Motivo (escolha única, opcional) | `O que te trouxe até aqui?` | Opções abaixo |
@@ -96,13 +96,15 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Salvando o seu nome...`
 
 **Microcopy sob o botão**
-`Gratuito. Sem compromisso. Você só recebe avisos, e pode sair a qualquer momento (é só digitar SAIR no WhatsApp).`
+`Gratuito. Sem compromisso. Você só recebe avisos, e pode sair a qualquer momento (digite SAIR no WhatsApp ou use o link de descadastro do e-mail).`
 
 **Consentimento**
-`Ao continuar, você aceita receber avisos por e-mail e, se informar, por WhatsApp, e concorda com a Política de Privacidade.` [[LINK: política de privacidade]]
+`Ao continuar, você concorda em receber avisos do Instituto Dra. Próton por e-mail e, se informar, por WhatsApp, e com a Política de Privacidade. Seus dados só são usados para esses avisos.` [[LINK: política de privacidade]]
 
 **Mensagens de erro**
+- Nome vazio: `Diga como posso te chamar.`
 - E-mail inválido: `Esse e-mail parece incompleto. Confira, por favor.`
+- WhatsApp inválido (se preenchido): `Confira o DDD e o número. Precisa ter 11 dígitos.`
 - Falha: `Não conseguimos salvar agora. Tente de novo em alguns segundos.`
 
 ---
@@ -144,7 +146,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `QUERO CONHECER O CAMINHO DE ENTRADA` [[LINK: página do degrau]]
 
 **Microcopy**
-`Pagamento único. Sem renovar. [[PENDENTE: garantia do degrau]]`
+`[[PENDENTE: forma de pagamento do degrau]] [[PENDENTE: garantia do degrau]]`
 
 **Regras do bloco**
 - Não prometer que "o degrau leva à Vitalícia" nem que "quem começa pelo degrau paga menos na Vitalícia" sem decisão. `[[PENDENTE: política de crédito do degrau]]`
@@ -231,9 +233,9 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Pronto, {{nome}}. Seu nome está na lista.`
 
 **Texto**
-`Você vai receber um e-mail de confirmação agora. Fique tranquila(o): sem pressão e sem pegadinha.`
+`Você vai receber um e-mail de confirmação agora. Sem pressão e sem pegadinha.`
 
-`[[SE: COM DEGRAU]]` `Se quiser começar agora, veja o caminho de entrada.` `[[BOTÃO: QUERO CONHECER O CAMINHO DE ENTRADA]]` `[[FIM SE]]`
+`[[SE: COM DEGRAU]]` `Se quiser começar agora, veja o caminho de entrada.` (botão: QUERO CONHECER O CAMINHO DE ENTRADA) `[[FIM SE]]`
 
 ### E-mail de confirmação (curto, para o mesmo domínio de captação)
 
@@ -248,7 +250,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Isso não é uma compra e não tem pressão. É só o jeito de eu te avisar se existir uma nova condição.`
 
 `Enquanto isso, o seu diagnóstico continua aqui:`
-`[[BOTÃO: VER MEU DIAGNÓSTICO]]`
+(botão: VER MEU DIAGNÓSTICO)
 
 `Eu não posso prometer que a Vitalícia volta. Se houver outra oferta, será outra oferta, com outro preço.`
 
@@ -259,20 +261,22 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 ### Mensagem de WhatsApp de confirmação (se houver telefone)
 
 ```
-Oi, {{nome}}.
-
-Seu nome está na lista de espera da *Black Próton Vitalícia*.
+{{nome}}, seu nome está na lista de espera da *Black Próton Vitalícia*.
 
 Isso não é uma compra e não tem pressão.
 
 Se existir uma nova condição, eu te aviso por aqui.
 
+Seu diagnóstico continua aqui:
+
 {{link}}
+
+Quer rever o seu padrão agora?
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
-(Regras do guia: "para" e não "pra", uma linha em branco entre linhas, link separado, rodapé SAIR.)
+(Regras do guia: "para" e não "pra", uma linha em branco entre linhas, link em linha própria, termina em pergunta, rodapé SAIR, até 12 linhas.)
 
 ---
 

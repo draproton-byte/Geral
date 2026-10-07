@@ -3,25 +3,46 @@
 | Campo | Definição |
 |---|---|
 | **Peça** | 24 criativos de lembrete (8 momentos × 3 variações) + 10 legendas (LEG-LEM-01 a 10) |
-| **Canal** | Meta Ads (feed, stories), Instagram orgânico (stories e feed), arte reaproveitável em grupos de WhatsApp |
-| **Público** | Quem já se cadastrou e quem visitou a página (morno e quente). Excluir quem já assistiu à live quando ela estiver no ar |
+| **Canal** | Meta Ads (feed e stories), Instagram orgânico (stories e feed), arte reaproveitável em grupos de WhatsApp |
+| **Público** | Quem já se cadastrou e quem visitou a página (morno e quente). S1, S2 e S3 recebem as mesmas peças (ver nota de 03/11 para S1). Excluir quem já assistiu à live quando ela estiver no ar |
 | **Momento** | 27/10 a 03/11/2026, uma peça por dia (duas em 03/11). Calendário abaixo |
-| **Objetivo** | Fazer a pessoa estar no YouTube em 03/11, às 20h. Em quem ainda não reservou: fazer o cadastro. Sem preço |
+| **Objetivo** | Fazer a pessoa estar no YouTube em 03/11, às 20h. Em quem ainda não se cadastrou: fazer o cadastro. Sem preço |
 | **Consciência** | 3 a 5 |
-| **Modelo no Desafio** | `desafio_copys_criativos_lembrete_desafio.md` (falta 5, 4, 3, 2, 1, "é hoje", cada um com 3 variações: dor/identificação, escassez, provocação ou ancoragem) e `desafio_legenda_de_lembrete.md` |
+| **Modelo no Desafio** | Lembretes do Desafio (falta 5, 4, 3, 2, 1 e "é hoje", cada um com 3 variações: dor/identificação, escassez, provocação ou ancoragem) e a legenda de lembrete do Desafio |
 | **O que acontece depois do clique** | Quem se cadastra entra no grupo de WhatsApp da live e recebe o aviso na hora da transmissão. Quem assiste ao vivo recebe a abertura de carrinho (ver `escassez_e_virada_de_lote.md` e `vendas_vitalicia.md`) |
 
-**Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." A contagem regressiva ensina a pessoa a chegar com o próprio padrão identificado, e a decisão (que será tomada na live) vem depois.
+**Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez." A contagem regressiva ensina a pessoa a chegar com o próprio padrão identificado; a decisão vem depois, na live.
+
+## Entrega para o designer
+
+**Identidade visual: `[[PENDENTE: identidade visual]]`.** Cor, fonte, logo e estilo de ilustração ainda não existem. Nada neste arquivo é especificação final de cor, fonte, logo ou estilo. "Destaque" significa a palavra ou o número que recebe o maior contraste e peso dentro da identidade, quando ela existir. Até lá, o designer entrega uma versão neutra (duas tintas, tipografia do sistema) só para validar texto, hierarquia, posição e frame 0.
+
+| Item | Valor |
+|---|---|
+| Formato F (feed) | 1080 × 1350 px (4:5) |
+| Formato S (story e reels) | 1080 × 1920 px (9:16), safe zone de 250 px no topo e na base |
+| Padrão de entrega | Todo criativo sai em F e em S, a mesma arte |
+| Texto mínimo | Título com tamanho legível para 45+ (referência: 64 px ou mais em 1080 px de largura), no máximo 2 linhas de título |
+| Kit A | Texto da arte + marca `[[PENDENTE: identidade visual]]` |
+| Kit B | Kit A + `[[FOTO DRA]]` em alta resolução, fundo livre, olhar para a câmera |
+| Kit C | Kit A + imagem de apoio (ilustração ou foto de banco, a critério do designer, estilo a definir) |
+| Hierarquia | N1 = maior elemento (o que para o scroll), N2 = título ou frase, N3 = apoio (data, hora, selo) |
+
+**Regra de datas:** cada peça traz a data fixa (27/10, 29/10 ...) além da contagem, porque o disparo pode escorregar de dia. Trocar a contagem se mudar o dia de publicação.
+
+**Regra de CTA:** nos anúncios pré-live o botão é "Cadastre-se" e leva à página de captura, cujo botão diz "Quero descobrir meu padrão e entrar na live". Em 03/11, a partir das 20h, o botão é "Assistir agora" e leva ao YouTube.
+
+**Regra de linguagem (políticas de anúncio da Meta):** nenhum título afirma uma condição pessoal do leitor (dinheiro, dívida, saúde, emoção). O padrão aparece como frase entre aspas, como pergunta sobre o padrão ou como dado de pesquisa em terceira pessoa. "Vaga" não é usada: a live não tem limite, então o texto fala em cadastro e aviso.
+
+**Regra de datas especiais:** 02/11 é segunda e feriado de Finados: tom sóbrio, sem tom de festa, sem cobrança. 03/11 é terça, dia da aula ao vivo do Clube: nenhuma peça fala em "aula" nem diz que a live substitui a aula `[[CONFIRMAR: aula de terça do Clube em 03/11]]` (decisão 33 de `12_decisoes_e_pendencias.md`).
 
 **Como cada um dos 3 modelos do Desafio foi traduzido:**
 
 | Modelo do Desafio | Na Black |
 |---|---|
 | V1 Dor/identificação | Uma das cinco dores por dia, em ordem: Termostato Invisível, Autossabotagem, Cobrança, Traumas, Culpa de Querer Mais. Nos últimos dias, a frase-guia |
-| V2 Escassez | **Escassez real da live:** a condição completa só é revelada ao vivo, em 03/11, às 20h. Não há contagem de vagas (live aberta), não há "lote" antes da revelação. Linhas dependentes de decisão estão com `[[PENDENTE: replay]]` ou `[[CONFIRMAR: ...]]` |
-| V3 Provocação ou ancoragem | Provocação ("quantas segundas você ainda vai recomeçar?") e ancoragem **sem preço** (70 mil alunos em 44 países, 1,4 milhão de seguidores, "tudo o que eu construí em um só lugar"). A âncora da mentoria individual e os números do Clube ficam para depois da revelação |
-
-**Regra de datas:** cada peça traz a data fixa (27/10, 29/10 ...) além da contagem, porque o disparo pode escorregar de dia. Trocar a contagem se mudar o dia de publicação.
+| V2 Escassez | **Escassez real da live:** a condição completa só é revelada ao vivo, em 03/11, às 20h. Sem contagem de vagas (live aberta), sem "lote" antes da revelação. Sobre replay, nenhuma peça afirma nem nega (`[[PENDENTE: replay]]`) |
+| V3 Provocação ou ancoragem | Provocação e ancoragem **sem preço** (70 mil alunos em 44 países, 1,4 milhão de seguidores). A âncora da mentoria individual e os números do Clube ficam para depois da revelação |
 
 ## Calendário
 
@@ -33,7 +54,7 @@
 | 30/10 | sexta | Falta 4 | Cobrança Que Você Só Faz Com Você | LEM-D4-1 a 3, LEG-LEM-03 |
 | 31/10 | sábado | Falta 3 | Traumas Que Ainda Decidem | LEM-D3-1 a 3, LEG-LEM-04 |
 | 01/11 | domingo | Falta 2 | Culpa de Querer Mais | LEM-D2-1 a 3, LEG-LEM-05 |
-| 02/11 | segunda | Falta 1 | Frase-guia e decisão | LEM-D1-1 a 3, LEG-LEM-06 |
+| 02/11 | segunda (Finados) | Falta 1 | Frase-guia e decisão (tom sóbrio) | LEM-D1-1 a 3, LEG-LEM-06 |
 | 03/11 | terça | É hoje (manhã e tarde) | Identidade | LEM-HOJE-1 a 3, LEG-LEM-07 e 08 |
 | 03/11 | terça | Estou ao vivo (20h) | Entrada na live | LEM-LIVE-1 a 3, LEG-LEM-09 e 10 |
 
@@ -42,266 +63,296 @@
 ## FALTA 7 DIAS (27/10, terça) | Termostato Invisível
 
 ### LEM-D7-1 | Dor / identificação
-- **Arte (headline):** Daqui a 7 dias, às 20h, algo muda.
-- **Texto:** Não é mágica. É a minha live de revelação, ao vivo, no YouTube. Se você já viveu "entrou um dinheiro a mais e apareceu uma conta", essa é a sua semana. Dia 03/11, às 20h. Reserve sua vaga, sem custo.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** "7" em amarelo gigante, "dias" em branco, a hora "20h" em destaque, fundo escuro. Para o scroll porque o número solitário é o ponto focal e a contagem convida a olhar o que acontece em 7 dias.
+- **Texto na arte:** N1 "7" · N2 "Entra um dinheiro a mais. Aparece uma conta." · N3 "dias para a live · 03/11 · 20h"
+- **Texto do anúncio:** Esse padrão tem nome, e eu mostro como ele funciona na minha live de revelação, ao vivo no YouTube. Dia 03/11, às 20h. Faltam 7 dias. Cadastro sem custo.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** o número "7" é o maior elemento, centralizado, com a hora "20h" no segundo nível. Para o scroll porque o número solitário é o ponto focal e convida a olhar o que acontece em 7 dias. Fundo liso, sem imagem competindo. `[[PENDENTE: identidade visual]]`
 
 ### LEM-D7-2 | Escassez real da live
-- **Arte (headline):** Em 7 dias eu revelo a condição. Só ao vivo.
-- **Texto:** A condição completa só é revelada na live do dia 03/11, às 20h, no YouTube. Antes disso, ninguém sabe. Reserve a vaga e receba o aviso no WhatsApp quando começar. `[[PENDENTE: replay]]`
-- **CTA:** Ativar o lembrete
-- **FRAME 0:** Um cadeado entreaberto em amarelo e a data "03/11" grande em branco. Para o scroll porque o cadeado traduz "informação reservada" e a data dá urgência real, sem inventar prazo.
+- **Texto na arte:** N1 "03/11" · N2 "Em 7 dias eu revelo a condição. Só ao vivo." · N3 "20h · YouTube"
+- **Texto do anúncio:** A condição completa só é revelada na live do dia 03/11, às 20h, no YouTube. Antes disso, ninguém sabe. Cadastre-se e receba o aviso no WhatsApp quando começar.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** a data "03/11" grande no topo e, ao lado, o ícone de um cadeado entreaberto. Para o scroll porque o cadeado traduz "informação reservada" e a data dá um prazo real, sem inventar urgência.
+- **Replay:** a peça não afirma nem nega (`[[PENDENTE: replay]]`).
 
 ### LEM-D7-3 | Provocação
-- **Arte (headline):** Quantas segundas você ainda vai recomeçar?
-- **Texto:** Entre hoje e 03/11 são 7 dias. Você pode passar por eles como passou pelos últimos, prometendo que dessa vez vai. Ou pode reservar a sua vaga e chegar sabendo qual padrão te prende.
-- **CTA:** Fazer o diagnóstico
-- **FRAME 0:** Calendário com as segundas-feiras circuladas e uma em amarelo com "03/11". Para o scroll porque a pergunta usa uma unidade do dia a dia (a segunda) e o calendário mostra o ano como um quadro.
+- **Texto na arte:** N1 "Quantas segundas-feiras já viraram recomeço?" · N3 "03/11 · 20h"
+- **Texto do anúncio:** De hoje até 03/11 são 7 dias. Dá para passar por eles como nos últimos, prometendo que dessa vez vai. Ou dá para chegar à live sabendo qual padrão se repete. Cadastro sem custo.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** um calendário de outubro e novembro com as segundas-feiras marcadas e o dia 03/11 em destaque; a pergunta no alto. Para o scroll porque a pergunta usa uma unidade do dia a dia (a segunda-feira) e o calendário mostra o ano como um quadro.
 
 ---
 
 ## FALTA 5 DIAS (29/10, quinta) | Autossabotagem
 
 ### LEM-D5-1 | Dor / identificação
-- **Arte (headline):** Eu sei o que fazer. E não faço.
-- **Texto:** Se essa frase é sua, guarda essa data: 03/11, às 20h. Eu vou mostrar o que realmente comanda as suas decisões, e não é falta de vontade. Faltam 5 dias.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** A frase em branco, "E não faço." em amarelo e solto, com "faltam 5 dias" em um selo pequeno. Para o scroll porque é a mesma frase que performou na captação, vista agora com data.
+- **Texto na arte:** N1 "Eu sei o que fazer. E não faço." (a segunda frase em destaque) · N3 "faltam 5 dias · 03/11 · 20h"
+- **Texto do anúncio:** Em uma pesquisa com mais de 7 mil pessoas, 22% disseram que procrastinar e não conseguir colocar em prática é o que as impede de ganhar o dinheiro que gostariam. Dia 03/11, às 20h, eu mostro ao vivo como esse padrão funciona. Faltam 5 dias.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** a frase em duas linhas, com "E não faço." em destaque e solto, e o selo "faltam 5 dias" pequeno no canto. Para o scroll porque é a mesma frase da captação, vista agora com data.
 
 ### LEM-D5-2 | Escassez real da live
-- **Arte (headline):** Faltam 5 dias. O aviso chega no seu WhatsApp.
-- **Texto:** Reserve a sua vaga hoje e receba o aviso assim que a transmissão começar. A live é ao vivo, no YouTube, às 20h. A condição só é revelada lá.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** Ícone de celular com uma notificação em amarelo e a frase "20h, 03/11". Para o scroll porque a notificação é um sinal visual universal de "algo chegou".
+- **Texto na arte:** N1 "20h · 03/11" · N2 "Faltam 5 dias. O aviso chega no seu WhatsApp."
+- **Texto do anúncio:** Cadastre-se hoje e receba o aviso assim que a transmissão começar. A live é ao vivo, no YouTube, às 20h. A condição só é revelada lá.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** o ícone de um celular com uma notificação em destaque e, ao lado, "20h, 03/11". Para o scroll porque a notificação é um sinal visual universal de "algo chegou".
 
 ### LEM-D5-3 | Ancoragem (sem preço)
-- **Arte (headline):** Tudo o que eu construí, em uma única decisão.
-- **Texto:** Mais de 70 mil alunos em 44 países, 1,4 milhão de pessoas me acompanhando e anos de método. No dia 03/11, às 20h, eu mostro como isso vira uma decisão só pra você. Faltam 5 dias.
-- **CTA:** Saiba mais
-- **FRAME 0:** `[[FOTO DRA]]` à direita, números "70 mil" e "44 países" em amarelo à esquerda. Para o scroll porque os números dão escala em um golpe de vista e a foto dá credibilidade.
+- **Texto na arte:** N1 "70 mil alunos · 44 países" · N2 "Tudo o que eu construí, em uma única decisão." · N3 "03/11 · 20h"
+- **Texto do anúncio:** Mais de 70 mil alunos em 44 países e 1,4 milhão de seguidores. No dia 03/11, às 20h, eu mostro ao vivo como o que construí se organiza em uma decisão só. Faltam 5 dias.
+- **CTA (botão):** Saiba mais
+- **Formato:** F e S · **Kit:** B
+- **Frame 0:** `[[FOTO DRA]]` no lado direito; no lado esquerdo, "70 mil" e "44 países" em destaque. Para o scroll porque os números dão escala em um golpe de vista e a foto dá credibilidade.
 
 ---
 
 ## FALTA 4 DIAS (30/10, sexta) | Cobrança Que Você Só Faz Com Você
 
 ### LEM-D4-1 | Dor / identificação
-- **Arte (headline):** Por fora, tudo em dia. Por dentro, no limite.
-- **Texto:** Se você se cobra mais do que cobraria de qualquer pessoa, o padrão tem nome e tem saída. Em 4 dias, 03/11 às 20h, eu mostro como parar de recomeçar do zero. Sem promessa de milagre.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** Foto de uma pessoa de costas num corredor de trabalho, luz fria, headline em branco, "no limite" em amarelo. Para o scroll porque o corredor frio é uma imagem de exaustão discreta que a base reconhece.
+- **Texto na arte:** N1 "Por fora, tudo em dia. Por dentro, no limite." (as três últimas palavras em destaque) · N3 "faltam 4 dias · 03/11 · 20h"
+- **Texto do anúncio:** Existe um padrão em que a pessoa se cobra mais do que cobraria de qualquer outra. Ele tem nome e tem um jeito de ser olhado. Dia 03/11, às 20h, eu mostro ao vivo como ele funciona. Sem promessa de milagre.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** foto de uma pessoa de costas em um corredor de trabalho, a frase sobreposta no terço superior. Para o scroll porque o corredor vazio é uma imagem de cansaço discreto que a base reconhece. Direção de luz e tratamento: a definir com a identidade.
 
 ### LEM-D4-2 | Escassez real da live
-- **Arte (headline):** É uma live só. É ao vivo. É dia 03/11.
-- **Texto:** Quem entrar ao vivo escuta a condição completa no momento em que ela é revelada. `[[PENDENTE: replay]]` Faltam 4 dias para as 20h. Reserve sua vaga, sem custo.
-- **CTA:** Ativar o lembrete
-- **FRAME 0:** "1 live. 1 data." em branco e a data "03/11" em amarelo, fundo escuro. Para o scroll porque a repetição "1" cria ritmo e ancora a ideia de evento único.
+- **Texto na arte:** N1 "03/11" · N2 "É ao vivo. É dia 03/11." · N3 "20h · YouTube"
+- **Texto do anúncio:** Quem entrar ao vivo escuta a condição no momento em que ela é revelada. Faltam 4 dias para as 20h. Cadastre-se, sem custo.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** a data "03/11" como maior elemento e "ao vivo · 20h" abaixo, fundo liso. Para o scroll porque a data limpa, sem ruído, comunica evento marcado.
 
 ### LEM-D4-3 | Provocação
-- **Arte (headline):** Já comprou curso. E aí? Mudou?
-- **Texto:** O problema nunca foi o conteúdo. Foi ficar. No dia 03/11, às 20h, eu mostro como parar de recomeçar. Faltam 4 dias.
-- **CTA:** Fazer o diagnóstico
-- **FRAME 0:** "E aí? Mudou?" em amarelo, grande, acima de uma pilha de cursos. Para o scroll porque é a pergunta mais incômoda, em tom de conversa.
+- **Texto na arte:** N1 "Quantos cursos ficaram pela metade?" · N3 "03/11 · 20h"
+- **Texto do anúncio:** O problema nem sempre é o conteúdo. Muitas vezes é o que acontece depois, quando é preciso ficar. No dia 03/11, às 20h, eu mostro ao vivo como pensei esse "depois". Faltam 4 dias.
+- **CTA (botão):** Saiba mais
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** a pergunta no alto, acima de uma pilha de cursos e livros. Para o scroll porque é a pergunta mais incômoda, em tom de conversa.
 
 ---
 
 ## FALTA 3 DIAS (31/10, sábado) | Traumas Que Ainda Decidem
 
 ### LEM-D3-1 | Dor / identificação
-- **Arte (headline):** A cada passo que dou, retrocedo.
-- **Texto:** Quase 12% de quem fez o meu diagnóstico disse que o que mais pesava era o passado não resolvido. Se é o seu caso, a live de 03/11, às 20h, é pra você. Não é terapia nem promessa de cura: é prática. Faltam 3 dias.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** Uma escada com uma sombra que sobe e outra que desce, headline em branco. Para o scroll porque o retrato do "dois passos para frente, um para trás" é imediato.
+- **Texto na arte:** N1 "A cada passo que dou, retrocedo." · N3 "faltam 3 dias · 03/11 · 20h"
+- **Texto do anúncio:** 13% das mais de 7 mil pessoas que responderam à minha pesquisa apontaram feridas do passado como o que mais pesa na paz do dia a dia. Dia 03/11, às 20h, eu mostro ao vivo como o passado segue decidindo no presente. É prática guiada, não terapia.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** uma escada com duas sombras, uma que sobe e outra que desce, a frase no alto. Para o scroll porque o retrato do "dois passos para a frente, um para trás" é imediato.
 
 ### LEM-D3-2 | Escassez real da live
-- **Arte (headline):** Faltam 3 dias para a revelação.
-- **Texto:** A condição só existe a partir de 03/11, às 20h, ao vivo no YouTube. `[[CONFIRMAR: o menor preço é só para quem estiver ao vivo]]` Reserve sua vaga para receber o aviso no WhatsApp.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** "3 dias" em amarelo, "03/11 · 20h" em branco; fundo escuro e simples. Para o scroll porque é uma contagem limpa, sem ruído visual.
+- **Texto na arte:** N1 "3 dias" · N2 "Faltam 3 dias para a revelação." · N3 "03/11 · 20h"
+- **Texto do anúncio:** A condição só existe a partir de 03/11, às 20h, ao vivo no YouTube. Quem estiver ao vivo conhece o Lote Especial. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` Cadastre-se para receber o aviso no WhatsApp.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** "3 dias" como maior elemento e "03/11 · 20h" abaixo; fundo liso. Para o scroll porque é uma contagem limpa, sem ruído visual.
+- **Condição:** se a equipe não confirmar o Lote Especial exclusivo de quem está ao vivo, remover a segunda frase do texto do anúncio.
 
 ### LEM-D3-3 | Provocação / identidade
-- **Arte (headline):** Não é preguiça. Não é indisciplina. Não é fraqueza.
-- **Texto:** Você só nunca teve um lugar para ficar. Faltam 3 dias para eu te mostrar o que construí pra isso. Dia 03/11, às 20h.
-- **CTA:** Saiba mais
-- **FRAME 0:** Três palavras riscadas em branco ("preguiça", "indisciplina", "fraqueza") e "lugar para ficar" em amarelo. Para o scroll porque riscar as palavras é um gesto que absolve visualmente.
+- **Texto na arte:** N1 "Não é preguiça. É um padrão." · N2 "Quem recomeça tantas vezes talvez só nunca tenha tido um lugar para ficar."
+- **Texto do anúncio:** Faltam 3 dias para eu mostrar o que construí para isso. Dia 03/11, às 20h, ao vivo no YouTube.
+- **CTA (botão):** Saiba mais
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** a palavra "preguiça" riscada e "lugar para ficar" em destaque. Para o scroll porque riscar a palavra é um gesto que absolve visualmente.
 
 ---
 
 ## FALTA 2 DIAS (01/11, domingo) | Culpa de Querer Mais
 
 ### LEM-D2-1 | Dor / identificação
-- **Arte (headline):** Eu cuido de todo mundo, mas ninguém cuida de mim.
-- **Texto:** Se essa frase é sua, a live de 03/11, às 20h, é pra você. Querer mais não é egoísmo. Faltam 2 dias.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** A frase em branco, "ninguém cuida de mim" em amarelo, `[[FOTO DRA]]` com expressão acolhedora. Para o scroll porque é a frase mais íntima da base, dita em voz alta, e o domingo é o dia em que ela mais pesa.
+- **Texto na arte:** N1 "Eu cuido de todo mundo, mas ninguém cuida de mim." ("ninguém cuida de mim" em destaque) · N3 "faltam 2 dias · 03/11 · 20h"
+- **Texto do anúncio:** Se essa frase soa familiar, a live de 03/11, às 20h, é para você. Querer mais não é egoísmo. Faltam 2 dias.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** B
+- **Frame 0:** a frase em duas linhas, com `[[FOTO DRA]]` de expressão acolhedora ao lado. Para o scroll porque é a frase mais íntima da base, dita em voz alta.
 
 ### LEM-D2-2 | Escassez real da live
-- **Arte (headline):** Daqui a 2 dias eu abro a condição.
-- **Texto:** Quem estiver ao vivo escuta primeiro, às 20h do dia 03/11. Reserve sua vaga hoje para receber o aviso no WhatsApp. `[[PENDENTE: replay]]`
-- **CTA:** Ativar o lembrete
-- **FRAME 0:** "2 dias" em amarelo e uma ampulheta vazia pela metade. Para o scroll porque a ampulheta é um símbolo de tempo que todos entendem.
+- **Texto na arte:** N1 "2 dias" · N2 "Daqui a 2 dias eu abro a condição." · N3 "03/11 · 20h"
+- **Texto do anúncio:** Quem estiver ao vivo escuta a condição no momento em que ela é revelada, às 20h do dia 03/11. Cadastre-se hoje para receber o aviso no WhatsApp.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** "2 dias" como maior elemento e uma ampulheta pela metade. Para o scroll porque a ampulheta é um símbolo de tempo que todos entendem.
 
 ### LEM-D2-3 | Ancoragem (sem preço)
-- **Arte (headline):** 365 dias vão passar de qualquer jeito.
-- **Texto:** A pergunta é: você vai estar no mesmo lugar ou vai ter parado de recomeçar? Dia 03/11, às 20h, eu mostro o caminho. Faltam 2 dias.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** "365" gigante em amarelo e a pergunta em branco logo abaixo. Para o scroll porque o número 365 é concreto e a pergunta simples provoca uma resposta mental.
+- **Texto na arte:** N1 "365" · N2 "dias vão passar de qualquer jeito." · N3 "03/11 · 20h"
+- **Texto do anúncio:** Onde você quer estar daqui a 365 dias? Dia 03/11, às 20h, eu mostro o caminho, ao vivo no YouTube. Faltam 2 dias.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** "365" gigante e a frase logo abaixo. Para o scroll porque o número é concreto e a frase simples provoca uma resposta mental.
 
 ---
 
-## FALTA 1 DIA (02/11, segunda; feriado de Finados) | A frase-guia e a decisão
+## FALTA 1 DIA (02/11, segunda, feriado de Finados) | A frase-guia e a decisão
+
+Tom sóbrio nas três peças: sem exclamação, sem tom de festa, sem cobrança. A arte é calma e a frase é curta.
 
 ### LEM-D1-1 | Dor / identificação
-- **Arte (headline):** Amanhã, 20h, ao vivo.
-- **Texto:** Se você ainda está pensando "depois eu vejo", esse depois é o mesmo padrão que te mantém no mesmo lugar. Reserve a vaga hoje. Amanhã eu abro a condição.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** "AMANHÃ" gigante em amarelo e "20h" ao lado, fundo preto. Para o scroll porque a palavra "amanhã" tem a urgência do imediato e o tamanho é irresistível.
+- **Texto na arte:** N1 "Amanhã, 20h, ao vivo." · N3 "03/11 · YouTube"
+- **Texto do anúncio:** Amanhã, 03/11, às 20h, eu estou ao vivo no YouTube. Sem pressa e sem pressão: deixe o aviso combinado para não perder o horário. Cadastro sem custo.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** "Amanhã" como maior elemento e "20h" ao lado, fundo liso. Para o scroll porque a palavra "amanhã" é o imediato e o tamanho dispensa leitura.
 
 ### LEM-D1-2 | Escassez real da live
-- **Arte (headline):** Falta 1 dia.
-- **Texto:** Amanhã, 03/11, às 20h, no YouTube. O aviso chega no seu WhatsApp quando a transmissão começar. A condição só é revelada ali. Reserve a sua vaga agora, sem custo.
-- **CTA:** Ativar o lembrete
-- **FRAME 0:** O número "1" em amarelo, enorme, ocupando 60% da arte. Para o scroll porque o dígito solitário é o elemento mais forte possível.
+- **Texto na arte:** N1 "1" · N2 "Falta 1 dia." · N3 "03/11 · 20h"
+- **Texto do anúncio:** Amanhã, 03/11, às 20h, no YouTube. O aviso chega no seu WhatsApp quando a transmissão começar. A condição só é revelada ali. Cadastre-se, sem custo.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** o número "1" ocupando 60% da arte. Para o scroll porque o dígito solitário é o elemento mais forte possível.
 
 ### LEM-D1-3 | Provocação emocional
-- **Arte (headline):** A última vez que você vai precisar recomeçar.
-- **Texto:** Amanhã eu revelo ao vivo o que construí pra isso. Eu prefiro que você não compre do que compre e não viva. Mas se você chegou até aqui lendo, alguma parte sua já sabe a resposta.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** A frase-guia em branco, 2 linhas, "última vez" em amarelo, `[[FOTO DRA]]` ao lado. Para o scroll porque é a frase central da campanha, vista pela última vez antes da live, e funciona como cartaz.
+- **Texto na arte:** N1 "A última vez que você vai precisar recomeçar." ("última vez" em destaque) · N3 "03/11 · 20h"
+- **Texto do anúncio:** Amanhã eu revelo ao vivo o que construí para isso. Eu prefiro que você não compre do que compre e não viva. Por isso, venha primeiro assistir.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** B
+- **Frame 0:** a frase-guia em 2 linhas, com `[[FOTO DRA]]` ao lado, como cartaz. Para o scroll porque é a frase central da campanha, vista pela última vez antes da live.
 - **Frase intocável usada:** "Eu prefiro que você não compre do que compre e não viva." (literal)
 
 ---
 
 ## É HOJE (03/11, terça) | Identidade
 
+Nota para S1 (alunas do Clube): 03/11 é o dia da aula ao vivo do Clube. Estas peças não dizem "aula" e não dizem que a live a substitui. Enquanto `[[CONFIRMAR: aula de terça do Clube em 03/11]]` estiver aberto, excluir S1 dos anúncios e atendê-la pelos disparos próprios em `05_whatsapp_api`.
+
 ### LEM-HOJE-1 | Dor / identificação
-- **Arte (headline):** Hoje, 20h, eu abro tudo.
-- **Texto:** Daqui a poucas horas eu mostro ao vivo o que construí pra quem cansou de recomeçar. Se você chegou até aqui lendo, alguma parte sua já sabe a resposta. Não fica de fora.
-- **CTA:** Ativar o lembrete
-- **FRAME 0:** "HOJE" em amarelo gigante com "20h" em branco ao lado, fundo escuro. Para o scroll porque é a mais urgente das peças e a data é sem ambiguidade.
+- **Texto na arte:** N1 "HOJE" · N2 "20h, eu abro tudo." · N3 "ao vivo no YouTube"
+- **Texto do anúncio:** Daqui a poucas horas eu mostro ao vivo o que construí para quem cansou de recomeçar. Entre no YouTube às 20h.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** "HOJE" como maior elemento e "20h" ao lado, fundo liso. Para o scroll porque é a mais urgente das peças e a data é sem ambiguidade.
 
 ### LEM-HOJE-2 | Escassez real da live
-- **Arte (headline):** Hoje, 20h. Ao vivo. Uma vez.
-- **Texto:** Entre no YouTube às 20h. A condição é revelada na live e vale o que eu disser lá. `[[PENDENTE: replay]]` Receba o aviso no WhatsApp: reserve a sua vaga agora.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** "Ao vivo. Uma vez." em duas linhas, "uma vez" em amarelo. Para o scroll porque a repetição "uma vez" ancora a ideia de evento único.
+- **Texto na arte:** N1 "Hoje, 20h." · N2 "Ao vivo, no YouTube."
+- **Texto do anúncio:** Entre no YouTube às 20h. A condição é revelada na live e vale o que eu disser lá. Cadastre-se para receber o aviso no WhatsApp.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** A
+- **Frame 0:** "Hoje, 20h." em duas linhas, "ao vivo" em destaque. Para o scroll porque o horário concreto e o "ao vivo" ancoram o evento.
+- **Replay:** a peça não afirma nem nega (`[[PENDENTE: replay]]`).
 
-### LEM-HOJE-3 | FOMO social
-- **Arte (headline):** Você vai assistir da plateia da própria vida de novo?
-- **Texto:** `[[CONFIRMAR: nº de inscritos]]` pessoas já reservaram a vaga para hoje, às 20h. A sua ainda está aberta. Reserve agora, sem custo.
-- **CTA:** Reservar minha vaga
-- **FRAME 0:** Uma plateia vista de costas diante de um palco vazio e iluminado, a headline em branco. Para o scroll porque a imagem da plateia comunica espera e comparação social sem falar de escassez falsa.
-- **Condição:** só publicar se o número de inscritos for real e puder ser citado.
+### LEM-HOJE-3 | Prova social real
+- **Texto na arte:** N1 "[[CONFIRMAR: nº de inscritos]] pessoas vão estar comigo hoje, às 20h." · N3 "ao vivo no YouTube"
+- **Texto do anúncio:** Cadastre-se para receber o aviso no WhatsApp quando eu entrar ao vivo. Sem custo.
+- **CTA (botão):** Cadastre-se
+- **Formato:** F e S · **Kit:** C
+- **Frame 0:** uma plateia vista de costas diante de um palco vazio e iluminado, o número no alto. Para o scroll porque a imagem comunica espera e comparação social sem falar de escassez falsa.
+- **Condição:** só publicar se o número de inscritos for real, atual e puder ser citado.
 
 ---
 
 ## ESTOU AO VIVO (03/11, 20h) | Entrada na live
 
 ### LEM-LIVE-1 | Dor / identificação
-- **Arte (headline):** Estou ao vivo. Quantas vezes você já recomeçou?
-- **Texto:** A pergunta que abre a live. Entre agora no YouTube. A revelação começou.
-- **CTA:** Assistir agora
-- **FRAME 0:** Selo vermelho "AO VIVO" pulsando, `[[FOTO DRA]]` grande e a pergunta em branco. Para o scroll porque o selo "AO VIVO" é o gatilho visual mais forte de entrada imediata.
+- **Texto na arte:** N1 "AO VIVO" (selo) · N2 "Quantas vezes você já recomeçou?"
+- **Texto do anúncio:** A pergunta que abre a live. Entre agora no YouTube.
+- **CTA (botão):** Assistir agora
+- **Formato:** F e S · **Kit:** B
+- **Frame 0:** o selo "AO VIVO" no canto superior, `[[FOTO DRA]]` grande e a pergunta abaixo. Para o scroll porque o selo "AO VIVO" é o gatilho visual mais forte de entrada imediata. Selo sem animação obrigatória: a identidade define o movimento.
+- **Link:** `[[LINK: live no YouTube]]`
 
 ### LEM-LIVE-2 | Escassez real da live
-- **Arte (headline):** Começou. A condição está sendo revelada agora.
-- **Texto:** Entre no YouTube e ouça a condição completa no momento em que ela sai. `[[LINK: live no YouTube]]`
-- **CTA:** Assistir agora
-- **FRAME 0:** "AGORA" em amarelo, selo "AO VIVO" e a foto da Dra. Para o scroll porque o "agora" reduz o tempo de decisão a zero.
+- **Texto na arte:** N1 "AGORA" · N2 "Começou. Estou ao vivo." · N3 "YouTube"
+- **Texto do anúncio:** Entre no YouTube. A condição completa é revelada ao longo da live, ao vivo. `[[LINK: live no YouTube]]`
+- **CTA (botão):** Assistir agora
+- **Formato:** F e S · **Kit:** B
+- **Frame 0:** "AGORA" como maior elemento, o selo "AO VIVO" e a foto da Dra. Para o scroll porque o "agora" reduz o tempo de decisão a zero.
 
 ### LEM-LIVE-3 | Provocação
-- **Arte (headline):** Eu estou aqui. E você?
-- **Texto:** Você leu todos os lembretes até aqui. Falta só apertar o play. Estou ao vivo no YouTube.
-- **CTA:** Assistir agora
-- **FRAME 0:** Foto da Dra. olhando de frente com uma das mãos estendida, "E você?" em amarelo. Para o scroll porque o contato visual direto e a pergunta curta funcionam como convite pessoal.
+- **Texto na arte:** N1 "Eu estou aqui. E você?"
+- **Texto do anúncio:** Estou ao vivo no YouTube. Entre agora.
+- **CTA (botão):** Assistir agora
+- **Formato:** F e S · **Kit:** B
+- **Frame 0:** `[[FOTO DRA]]` olhando de frente, com uma das mãos estendida, e "E você?" em destaque. Para o scroll porque o contato visual direto e a pergunta curta funcionam como convite pessoal.
 
 ---
 
 ## Legendas dos lembretes (10)
 
-Modelo: V1 do Desafio (lembrete + autoridade) e V2 (contagem regressiva e escassez de lote). Aqui, a escassez é de data, não de lote.
+Modelo: legenda de lembrete do Desafio (lembrete + autoridade e contagem regressiva). Aqui a escassez é de data, não de lote. Nenhuma legenda cita preço, vaga ou lote.
 
 ### LEG-LEM-01 | Falta 7 | 27/10
 Daqui a 7 dias, dia 03/11, às 20h, eu estou ao vivo no YouTube.
 
-Se você já viveu "entrou um dinheiro a mais e apareceu uma conta", eu quero te mostrar o que está por trás disso e o que construí pra você parar de recomeçar.
+Entra um dinheiro a mais e aparece uma conta: esse padrão tem nome, e eu mostro como ele funciona.
 
 A condição completa só é revelada na live.
 
-Clique em "Saiba mais" e reserve a sua vaga, sem custo.
+Clique em "Saiba mais" e faça o seu cadastro, sem custo.
 
 ### LEG-LEM-02 | Falta 5 | 29/10
 "Eu sei o que fazer e não faço."
 
-Essa foi uma das frases que mais apareceram nas minhas pesquisas. Não é preguiça. É um freio puxado.
+Em uma pesquisa com mais de 7 mil pessoas, 22% disseram que procrastinar e não conseguir colocar em prática é o que as impede de ganhar o dinheiro que gostariam.
 
-Dia 03/11, às 20h, eu mostro ao vivo como pensei o que construí pra soltar esse freio.
+Não é preguiça. É um freio puxado.
 
-Faltam 5 dias. Clique em "Saiba mais" e reserve a sua vaga.
+Dia 03/11, às 20h, eu mostro ao vivo como pensei o que construí para soltar esse freio. Faltam 5 dias.
 
 ### LEG-LEM-03 | Falta 4 | 30/10
 Por fora, tudo em dia. Por dentro, no limite.
 
-Se você se cobra mais do que cobraria de qualquer pessoa, essa live é pra você. Eu não prometo milagre. Eu mostro um padrão e o que fazer com ele.
+Existe um padrão em que a pessoa se cobra mais do que cobraria de qualquer outra. Eu não prometo milagre. Eu mostro o padrão e o que fazer com ele.
 
-Dia 03/11, às 20h, ao vivo no YouTube.
+Dia 03/11, às 20h, ao vivo no YouTube. Faltam 4 dias.
 
-Faltam 4 dias. Clique em "Saiba mais".
+Qual é a sua cobrança mais antiga? Conta nos comentários.
 
 ### LEG-LEM-04 | Falta 3 | 31/10
-Quase 12% de quem fez o meu diagnóstico disse que o que mais pesava era o passado que não resolveu.
+13% das mais de 7 mil pessoas que responderam à minha pesquisa apontaram feridas do passado como o que mais pesa na paz do dia a dia.
 
-"Sinto que a cada passo que dou, retrocedo." Se é o seu caso, eu quero te dizer: o que eu faço não é terapia, nem promessa de cura. É um trabalho prático de reprogramação mental.
+"Sinto que a cada passo que dou, retrocedo."
 
-Dia 03/11, às 20h, ao vivo no YouTube. Faltam 3 dias.
+O que eu faço não é terapia. É um trabalho prático de reprogramação mental.
 
-Clique em "Saiba mais" e reserve a sua vaga.
+Dia 03/11, às 20h, ao vivo no YouTube. Faltam 3 dias. Clique em "Saiba mais" e faça o seu cadastro.
 
 ### LEG-LEM-05 | Falta 2 | 01/11
 "Eu cuido de todo mundo, mas ninguém cuida de mim."
 
-Se essa frase é sua, a live de 03/11, às 20h, é pra você. Querer mais não é egoísmo, e quando você sobe, a casa sobe junto.
+Se essa frase soa familiar, a live de 03/11, às 20h, é para você. Querer mais não é egoísmo, e quando você sobe, a casa sobe junto.
 
-Faltam 2 dias. Clique em "Saiba mais" e reserve a sua vaga, sem custo.
+Faltam 2 dias. Clique em "Saiba mais" e faça o seu cadastro, sem custo.
 
-### LEG-LEM-06 | Falta 1 | 02/11
-Amanhã, 20h, eu estou ao vivo.
+### LEG-LEM-06 | Falta 1 | 02/11 (tom sóbrio)
+Amanhã, às 20h, eu estou ao vivo.
 
-Se você ainda está pensando "depois eu vejo", esse depois é o mesmo padrão que te mantém no mesmo lugar.
+Sem pressa e sem pressão. Só deixe o aviso combinado para não perder o horário.
 
-A última vez que você vai precisar recomeçar começa amanhã.
+A última vez que você vai precisar recomeçar começa a ser decidida amanhã.
 
-Clique em "Saiba mais" e reserve a sua vaga, sem custo.
+Clique em "Saiba mais" e faça o seu cadastro, sem custo.
 
 ### LEG-LEM-07 | É hoje, manhã | 03/11
 É hoje.
 
-Às 20h, ao vivo no YouTube, eu abro tudo o que construí pra quem cansou de recomeçar. A condição completa é revelada na live.
+Às 20h, ao vivo no YouTube, eu abro tudo o que construí para quem cansou de recomeçar. A condição completa é revelada na live.
 
-Ative o lembrete e deixe o celular carregado.
+Deixe o celular carregado e o aviso ativo.
 
-Clique em "Saiba mais" e reserve a sua vaga, sem custo.
+Clique em "Saiba mais" e faça o seu cadastro, sem custo.
 
 ### LEG-LEM-08 | É hoje, tarde | 03/11 (17h)
 Daqui a pouco, às 20h, eu começo.
 
 Eu prefiro que você não compre do que compre e não viva. Por isso, antes de qualquer decisão, entre e assista.
 
-Clique em "Saiba mais" e entre na live às 20h.
+Você vai estar comigo às 20h? Clique em "Saiba mais" e faça o seu cadastro.
 
 ### LEG-LEM-09 | Estou ao vivo | 03/11 (20h)
 Estou ao vivo.
 
 A pergunta que abre a live: quantas vezes você já recomeçou?
 
-Entre agora no YouTube.
+Entre agora no YouTube. Clique em "Saiba mais" e assista.
 
-Clique em "Saiba mais" e assista.
-
-### LEG-LEM-10 | Cadê você? | 03/11 (20h30)
+### LEG-LEM-10 | Cadê você? | 03/11 (20h15)
 Eu já comecei e o seu lugar está aqui.
 
-Entre agora no YouTube. A condição completa está sendo revelada.
+Entre agora no YouTube. A condição completa é revelada ao longo da live.
 
 Clique em "Saiba mais" e assista.
 
@@ -309,11 +360,12 @@ Clique em "Saiba mais" e assista.
 
 ## Notas ao implementador
 
-1. **Datas e dias da semana:** 27/10 (terça), 29/10 (quinta), 30/10 (sexta), 31/10 (sábado, Halloween), 01/11 (domingo), 02/11 (segunda, feriado de Finados), 03/11 (terça). No feriado, a leitura é mais lenta e o tempo de tela em celular é maior: reservar o orçamento do dia 02/11 para os formatos de story e reels.
-2. **Frase de LEM-D1-3 e LEG-LEM-08:** "Eu prefiro que você não compre do que compre e não viva." está copiada literalmente, como exige o guia (seção 4).
-3. **"Menor preço só para quem estiver ao vivo" (LEM-D3-2):** a página de captura diz isso. Só publicar se o time comercial confirmar `[[CONFIRMAR: o menor preço é só para quem estiver ao vivo]]`; se não for verdade, remover a linha. É a mesma dúvida do "sem replay" (`[[PENDENTE: replay]]`).
-4. **Números usados:** "quase 12%" é 476 de 4.032 no diagnóstico do Desafio; "70 mil", "44 países" e "1,4 milhão" estão no guia (seção 8); "365" é uma conta de dias, não dado de pesquisa. LEM-HOJE-3 exige número real de inscritos.
-5. **Escassez:** nenhuma peça fala em "vagas" no sentido de limite (a live não tem limite). Escassez é apenas data e revelação ao vivo.
-6. **Peças do Desafio sem equivalente:** os V2 do Desafio (preço do lote vigente contra o do próximo) e o V3 da falta 2 (âncora da mentoria individual) dependem de preço e foram substituídos pela escassez de revelação e pela ancoragem sem valor. A âncora da mentoria entra em `vendas_vitalicia.md`, `[[CONFIRMAR: ainda vale]]`.
+1. **Datas e dias da semana (tabela canônica):** 27/10 (terça), 29/10 (quinta), 30/10 (sexta), 31/10 (sábado), 01/11 (domingo), 02/11 (segunda, feriado de Finados), 03/11 (terça). Em 02/11, usar o tom sóbrio e reservar o orçamento do dia para stories e reels.
+2. **Frase intocável de LEM-D1-3 e LEG-LEM-08:** "Eu prefiro que você não compre do que compre e não viva." está copiada literalmente, como exige o guia (seção 4).
+3. **Lote Especial só ao vivo (LEM-D3-2):** a página de captura sugere que a melhor condição é de quem está ao vivo. Só publicar a frase se o time comercial confirmar `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`; se não for verdade, remover. É a mesma família de dúvida do replay (`[[PENDENTE: replay]]`): nenhuma peça deste arquivo afirma nem nega o replay, e por isso nenhuma diz "uma vez só" ou "não perca, não vai repetir".
+4. **Números usados (todos de `01_PESQUISAS_INSIGHTS.md`):** 22% (pesquisa do Aulão, "procrastino e não consigo colocar em prática", 21,5% na base de 7.323), 13% (pesquisa do Aulão, "traumas ou feridas do passado", 13,3%), "mais de 7 mil" (7.323 respostas), "70 mil", "44 países" e "1,4 milhão" (guia, seção 8). "365" é uma conta de dias, não dado de pesquisa. LEM-HOJE-3 exige número real de inscritos.
+5. **Escassez:** nenhuma peça fala em "vagas" no sentido de limite (a live não tem limite). Escassez é só data e revelação ao vivo. O verbo das peças é "cadastrar" e o substantivo é "aviso".
+6. **Peças do Desafio sem equivalente:** os V2 do Desafio (preço do lote vigente contra o do próximo) e o V3 da falta 2 (âncora da mentoria individual) dependem de preço e foram substituídos pela escassez de revelação e pela ancoragem sem valor. A âncora da mentoria entra em `vendas_vitalicia.md`, sujeita a confirmação.
 7. **Testes A/B:** na mesma data, rodar V1 contra V3 e observar cadastro por mil impressões; em 03/11, rodar LEM-LIVE-1 contra LEM-LIVE-3 para medir entrada simultânea no YouTube.
-8. **Disparo de WhatsApp:** as peças acima são para anúncio e redes. A versão em WhatsApp (com "para", linha em branco entre linhas, rodapé SAIR) está em `05_whatsapp_api`.
+8. **Disparo de WhatsApp:** as peças acima são para anúncio e redes. A versão em WhatsApp (com "para", linha em branco entre linhas e rodapé SAIR) está em `05_whatsapp_api`.
+9. **Políticas da Meta:** os títulos que antes diziam "se você já viveu...", "você só nunca teve..." foram reescritos como frase entre aspas, pergunta sobre o padrão ou dado em terceira pessoa. Não reintroduzir "você" + condição pessoal (dinheiro, dívida, saúde, emoção) em título ou texto de anúncio.

@@ -9,11 +9,11 @@
 | **Objetivo** | Transformar um comentário em: reserva da vaga na live, diagnóstico feito, entrada no grupo e ingresso compartilhado nos stories |
 | **Trabalho contratado** | "Dar nome ao padrão" para decidir uma vez. O diagnóstico é a porta de entrada; o ingresso é a prova de presença e a isca de compartilhamento |
 | **Momento de vida** | 79% mulheres, 60% com 45 anos ou mais: mensagens curtas, uma ação por mensagem, botões grandes |
-| **Modelo no Desafio** | `desafio_copy_fluxo_ingresso_desafio.md` (palavra-chave INGRESSO, ramo A "ainda não comprou", ramo B "já comprou", presente atrás do story, notas de montagem e disparo por API). Também `desafio_doc_captacao_automacao.md` (lista de passos de integração) |
+| **Modelo no Desafio** | fluxo de ingresso do Desafio no ManyChat (palavra-chave INGRESSO, ramo A "ainda não comprou", ramo B "já comprou", presente atrás do story, notas de montagem e disparo por API). Também documento de captação e automação do Desafio (lista de passos de integração) |
 
 **O que mudou em relação ao Desafio.**
 - O Desafio vendia um ingresso de R$ 35. Aqui o ingresso da live é **gratuito**: o Ramo A leva à página de reserva, não ao checkout, e nenhum preço aparece.
-- No Desafio o "presente" era o Quiz da Frequência da Vida, entregue só depois do story. Na Black o **diagnóstico** é a entrega principal e vem antes do pedido de story, porque 29% a 40% da base não sabe o que a trava e é pelo diagnóstico que ela entra no funil. O presente de compartilhamento passa a ser `[[PENDENTE: presente de compartilhamento]]`.
+- No Desafio o "presente" era o Quiz da Frequência da Vida, entregue só depois do story. Na Black o **diagnóstico** é a entrega principal e vem antes do pedido de story, porque 29% a 40% da base não sabe o que a trava e é pelo diagnóstico que ela entra no funil. O presente de compartilhamento passa a ser `[[CONFIRMAR: presente de compartilhamento]]`.
 - O Desafio usava o contador do lote ("1º lote em R$ 35, sobe para R$ 97") no Ramo A. Aqui não existe lote antes da live. A urgência é a data da live.
 - Acrescentei um terceiro caminho (palavra-chave DIAGNÓSTICO) que entrega o diagnóstico primeiro, e uma pergunta de auto-classificação em 5 botões (porque o ManyChat não lê o resultado do diagnóstico sem integração).
 
@@ -33,8 +33,8 @@
 | Diagnóstico dos 5 padrões | `[[LINK: diagnóstico dos 5 perfis]]` |
 | Live no YouTube | `[[LINK: live no YouTube, 03/11]]` |
 | Grupo de WhatsApp | Um link por segmento: geral, alunas, Desafio/Imersão (o fluxo escolhe pela tag) |
-| Ingresso personalizado | `[[PENDENTE: template da arte do ingresso, com {{nome}}]]` (serviço de imagem dinâmica) |
-| Presente de compartilhamento | `[[PENDENTE: presente de compartilhamento]]` |
+| Ingresso personalizado | `[[CONFIRMAR: template da arte do ingresso, com {{nome}}]]` (serviço de imagem dinâmica) |
+| Presente de compartilhamento | `[[CONFIRMAR: presente de compartilhamento]]` |
 | Objetivo principal | Reserva da vaga e diagnóstico feito. Objetivo secundário: ingresso postado nos stories com marcação em @dra.proton |
 | Tags | `bf_reservou`, `bf_diagnostico`, `bf_ingresso`, `bf_story`, `bf_grupo`, `bf_perfil_termostato`, `bf_perfil_autossabotagem`, `bf_perfil_cobranca`, `bf_perfil_traumas`, `bf_perfil_culpa`, `bf_aluna`, `bf_aluno_desafio` |
 
@@ -216,7 +216,7 @@ A Culpa de Querer Mais: você cuida de todo mundo e adia a sua vez. Na live, eu 
 ```text
 Quer um presente extra? Posta o seu ingresso nos stories e me marca 👉 @dra.proton
 
-Eu respondo todos. [[PENDENTE: presente de compartilhamento]]
+Eu respondo todos. [[CONFIRMAR: presente de compartilhamento]]
 ```
 
 Botão: `[ ✅ Já postei! ]`
@@ -224,7 +224,7 @@ Botão: `[ ✅ Já postei! ]`
 **MC-BF-B10** (depois de "Já postei")
 
 ```text
-Recebi! 🤍 [[PENDENTE: entrega do presente de compartilhamento]]
+Recebi! 🤍 [[CONFIRMAR: entrega do presente de compartilhamento]]
 ```
 
 **MC-BF-B11** (grupo, obrigatório)
@@ -376,8 +376,8 @@ Posta o seu ingresso nos stories e me marca 👉 @dra.proton. Eu libero o presen
 
 **Pendências**
 1. `[[LINK: ...]]` de captura, diagnóstico, live, grupo por segmento e suporte. As variantes de grupo precisam de links de rodízio separados e de tag no ManyChat.
-2. `[[PENDENTE: template da arte do ingresso]]`: o Desafio usava um serviço de imagem dinâmica (Bannerbear, Placid ou Canva com API). A arte do ingresso é da área `04_criativos`. Sem ela, o Ramo B pula direto da B03 para a B06.
-3. `[[PENDENTE: presente de compartilhamento]]`: pode ser o bônus de 15 minutos da live (`08_live_e_pitch`) ou um áudio. Não inventar. Se não existir, apagar MC-BF-B09, B10 e os lembretes L02 e L03 e manter só o ingresso.
+2. `[[CONFIRMAR: template da arte do ingresso]]`: o Desafio usava um serviço de imagem dinâmica (Bannerbear, Placid ou Canva com API). A arte do ingresso é da área `04_criativos`. Sem ela, o Ramo B pula direto da B03 para a B06.
+3. `[[CONFIRMAR: presente de compartilhamento]]`: pode ser o bônus de 15 minutos da live (`08_live_e_pitch`) ou um áudio. Não inventar. Se não existir, apagar MC-BF-B09, B10 e os lembretes L02 e L03 e manter só o ingresso.
 4. Integração Hotmart e formulário de reserva para ManyChat: o Desafio listava "confirmar se já existe integração ou se precisa de middleware (n8n, Make ou Zapier)". O mesmo vale aqui, com o formulário da página de captura no lugar do evento de compra: a tag `bf_reservou` precisa chegar em minutos.
 5. `[[CONFIRMAR: limites de caracteres e de botões do Instagram]]`.
 6. Mensagens após 24 horas da última interação não podem ser enviadas pelo Instagram. Os lembretes da seção 7 respeitam a janela. Para o dia 03/11 usar WhatsApp (grupo e API), não Instagram.

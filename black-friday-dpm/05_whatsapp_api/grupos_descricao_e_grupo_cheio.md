@@ -8,7 +8,7 @@
 | **Momento** | Do primeiro dia de captação (13/10) ao fechamento do carrinho. O nome e a capa mudam por estado (tabela 1) |
 | **Objetivo** | Fazer a pessoa entender em 5 segundos que o grupo é o canal oficial da live de 03/11, reservar a vaga (diagnóstico + lembrete) e ficar no grupo até a live |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." O grupo é o lugar onde ela acompanha o caminho até essa decisão, sem se perder |
-| **Modelo no Desafio** | `desafio_descricao_grupo_desafio.md`, `desafio_copy_mensagem_de_grupo_cheio_desafio.md`, `desafio_doc_captacao_automacao.md` (campos: nome dos grupos, foto de capa, descrição, mensagem de boas-vindas/grupo cheio) |
+| **Modelo no Desafio** | descrição de grupo do Desafio, mensagem de grupo cheio do Desafio, documento de captação e automação do Desafio (campos: nome dos grupos, foto de capa, descrição, mensagem de boas-vindas/grupo cheio) |
 
 **O que mudou em relação ao Desafio.** O Desafio tinha 5 noites e um ingresso de valor baixo, então a descrição listava as noites. A Black tem uma live única e uma oferta revelada nela. A descrição, portanto, lista (1) a data e o formato da live, (2) o que a pessoa recebe no grupo até lá e (3) o diagnóstico dos 5 padrões como porta de entrada. Nenhum preço aparece antes da live.
 
@@ -98,16 +98,16 @@ Aqui você recebe, em primeira mão, tudo sobre a live em que eu revelo, de uma 
 [ ENTRE NO GRUPO! 👇 ]
 Bem-vinda ao grupo das alunas do Clube Secreto na *Black Próton Vitalícia*.
 
-Você já está dentro. A pergunta da live é: quer ficar para sempre, sem renovar e sem recomeçar?
+Você já está dentro. A pergunta da live é: quer ficar para sempre, sem prazo e sem recomeçar?
 
 🚨 *Terça, 03/11, às 20h*, ao vivo no YouTube
 🔓 A condição para alunas é revelada só na live, e é diferente da de quem ainda não é do Clube
 
 ✨ O QUE VOCÊ ENCONTRA AQUI ATÉ LÁ:
 ✅ O que muda para quem já é aluna
-✅ O que acontece com o seu acesso atual [[PENDENTE: regra de migração]]
+✅ O que acontece com o seu acesso atual [[CONFIRMAR: regra de migração]]
 ✅ O link da live e os avisos importantes
-✅ O convite exclusivo para alunas [[PENDENTE: condição do Golden Ticket]]
+✅ O convite exclusivo para alunas [[CONFIRMAR: condição do Golden Ticket]]
 
 🔔 Lembrete da live: [[LINK: lembrete da live no YouTube]]
 ⚡ ATIVE AS NOTIFICAÇÕES! Tudo chega por aqui.
@@ -153,7 +153,7 @@ Maravilhososss! 👋
 
 Dra. Próton aqui, dando as boas-vindas a todos. Este é o nosso grupo oficial da *Black Próton Vitalícia*.
 
-No dia *03/11, terça, às 20h*, eu abro ao vivo, no YouTube, o que o Clube Secreto nunca ofereceu antes: acesso vitalício, de uma vez só, ao Clube e a tudo o que construí.
+No dia *03/11, terça, às 20h*, eu abro ao vivo, no YouTube, a oferta que o Clube Secreto nunca fez antes: acesso vitalício, de uma vez só, ao Clube e a tudo o que construí.
 
 O preço e as condições só são revelados na live.
 
@@ -185,7 +185,7 @@ Maravilhosa! 👋
 
 Dra. Próton aqui. Este é o grupo das alunas do Clube Secreto na *Black Próton Vitalícia*.
 
-Você já está dentro. O que eu abro no dia *03/11, terça, às 20h*, ao vivo no YouTube, é a chance de ficar para sempre: acesso vitalício ao Clube e a tudo o que construí, sem renovar e sem recomeçar.
+Você já está dentro. O que eu abro no dia *03/11, terça, às 20h*, ao vivo no YouTube, é a chance de ficar para sempre: acesso vitalício ao Clube e a tudo o que construí, sem prazo e sem recomeçar.
 
 O que você já fez no Clube conta. Ninguém volta ao zero.
 
@@ -193,8 +193,8 @@ Existe uma condição própria para alunas. Ela só é revelada na live.
 
 Até lá, aqui você recebe:
 ✅ O que muda para quem já é aluna
-✅ O que acontece com o seu acesso atual [[PENDENTE: regra de migração]]
-✅ O convite exclusivo para alunas [[PENDENTE: condição do Golden Ticket]]
+✅ O que acontece com o seu acesso atual [[CONFIRMAR: regra de migração]]
+✅ O convite exclusivo para alunas [[CONFIRMAR: condição do Golden Ticket]]
 📆 03/11, às 20h
 💻 Ao vivo
 
@@ -204,7 +204,7 @@ Até lá, aqui você recebe:
 2️⃣ Ative o lembrete da live 👇
 [[LINK: lembrete da live no YouTube]]
 
-Terça é dia de aula do Clube. [[CONFIRMAR: o que acontece com a aula de 03/11]]
+Terça é dia de aula do Clube. [[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]
 
 Espero você lá! 💜
 ```
@@ -269,11 +269,11 @@ Quantas vezes você já recomeçou? Me conta com um 🔁
 **Pendências para esta peça**
 1. `[[FOTO DRA]]` para todas as capas.
 2. `[[LINK: ...]]` dos três grupos (geral, alunas, Desafio/Imersão), do diagnóstico e do lembrete da live. Os grupos precisam de links de rodízio separados por segmento e tag própria no SendFlow/DataCrazy (a estratégia de 00 prevê lista, tag e checkout próprios para alunas e demais alunos).
-3. `[[PENDENTE: regra de migração]]`: o que acontece com o acesso atual da aluna do Clube que compra a Vitalícia (crédito, extensão, nada). A pergunta mais provável do grupo de alunas; bloqueia o texto dessa descrição.
-4. `[[PENDENTE: condição do Golden Ticket]]`: ver `convite_vip_alunas_e_quiz.md`.
+3. `[[CONFIRMAR: regra de migração]]`: o que acontece com o acesso atual da aluna do Clube que compra a Vitalícia (crédito, extensão, nada). A pergunta mais provável do grupo de alunas; bloqueia o texto dessa descrição.
+4. `[[CONFIRMAR: condição do Golden Ticket]]`: ver `convite_vip_alunas_e_quiz.md`.
 5. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura diz que o menor preço é só para quem estiver ao vivo. Se o Lote Especial ficar aberto por um período depois da live, trocar "ao vivo vê primeiro" por "ao vivo tem a primeira condição".
 6. `[[PENDENTE: replay]]`: a página de captura afirma "sem replay". O guia lista replay como pendência. Até fechar, nenhuma peça deste pacote afirma ou nega replay.
-7. `[[CONFIRMAR: o que acontece com a aula de terça do Clube em 03/11]]`: 03/11 cai numa terça e a live é no horário em que o Clube costuma ter aula.
+7. `[[CONFIRMAR: o que acontece com a aula do Clube de 03/11]]`: 03/11 cai numa terça e a live é no horário em que o Clube costuma ter aula.
 8. Confirmar se o grupo é "somente administradores enviam" (como no Desafio, em que só a Dra. fala). A descrição assume que sim.
 
 **Testes A/B sugeridos**

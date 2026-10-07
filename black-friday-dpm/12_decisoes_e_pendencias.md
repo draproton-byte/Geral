@@ -81,7 +81,7 @@ Tudo que as copys deixaram em aberto, em ordem de bloqueio.
 | 53 | Slots de grupo às 16h30 (`05_whatsapp_api/cronograma_de_disparos.md`, `05_whatsapp_api/lembretes_de_grupo_captacao.md`) e lembretes de e-mail às 12h (`06_emails/lembretes_da_live.md`) divergem da cadência canônica (grupos 11h30 e 20h, e-mail 07h, 09h para segmentos, API 09h; 16h30 é banco de reserva) |
 | 54 | O arquivo `03_paginas/tela_countdown_live_e_pagina_zoom.md` tem o nome de uma ferramenta de reunião que nenhuma peça pode citar. Renomear exige ajustar a matriz (11) |
 | 55 | Trilha de entrada: a afirmação "só 8 dos 11 produtos têm descrição nas fontes" não pôde ser conferida (o briefing lista só os nomes dos 11) |
-| 56 | `[[PENDENTE: número de tickets]]` no convite VIP implica limite de vagas, o que a rubrica proíbe sem confirmação |
+| 56 | O convite VIP cita um número de tickets e diz que a condição acaba quando eles acabam: isso implica limite de vagas, o que a rubrica proíbe sem confirmação |
 
 ## F. Segurança do material
 

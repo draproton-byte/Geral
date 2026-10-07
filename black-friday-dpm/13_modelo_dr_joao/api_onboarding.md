@@ -8,7 +8,7 @@ Legenda:
 ✅ aprovada para agendar
 💻 agendada
 
-Botões em [ colchetes ]. Cada link aparece em linha própria, logo abaixo do botão correspondente.
+Botões em [ colchetes ] (máximo de 2 por mensagem, texto de até 25 caracteres). Cada link aparece em linha própria, logo abaixo do botão correspondente.
 
 ________________
 
@@ -16,26 +16,16 @@ ________________
 
 *Inscrição confirmada!*
 
-Sua vaga na live de revelação da _Black Próton Vitalícia_, com a Dra. Próton, está registrada com sucesso.
+Sua vaga na live de revelação da _Black Próton Vitalícia_, com a Dra. Próton, está registrada.
 
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
 
-Para você aproveitar do começo ao fim, siga os 2 passos abaixo:
+Agora faltam 2 passos rápidos:
 
-1️⃣ *Grupo oficial no WhatsApp:*
+1️⃣ *Entre no grupo oficial no WhatsApp.* O link da live e os avisos chegam só por lá. Toque em 'Entrar no grupo'.
 
-Entre no grupo para receber os avisos. O link da live é enviado somente por lá.
-
-Toque no botão 'Entrar no grupo'.
-
-2️⃣ *Check-in obrigatório: o diagnóstico dos 5 padrões:*
-
-É o diagnóstico que me mostra qual padrão mais te prende: Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem ou Culpa de Querer Mais.
-
-Assim que você finalizar o seu check-in, recebe [[PENDENTE: bônus de check-in]].
-
-Toque no botão 'Fazer o diagnóstico'.
+2️⃣ *Faça o check-in: o diagnóstico dos 5 padrões.* Ele mostra qual padrão mais te prende. Ao finalizar, você recebe [[PENDENTE: bônus]]. Toque em 'Fazer o diagnóstico'.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -47,30 +37,22 @@ Se não quiser mais receber mensagens digite "SAIR"
 
 _Você está recebendo essa mensagem porque se cadastrou na Black Próton Vitalícia._
 
---- Variação para alunas do Clube Secreto (o texto muda: reconhece o Clube e a condição de aluna) ---
+--- Variação para alunas do Clube Secreto (reconhece o Clube e a condição de aluna) ---
 
 *Inscrição confirmada!*
 
-Sua vaga na live de revelação da _Black Próton Vitalícia_ está registrada, {{nome}}.
+{{nome}}, sua vaga na live de revelação da _Black Próton Vitalícia_ está registrada.
 
 Você já está dentro do Clube Secreto, e o que você já fez conta. Na live, eu revelo a condição própria para alunas.
 
 📅 Terça, 03/11, às 20h
 💻 Ao vivo no YouTube
 
-Para não perder nada, siga os 2 passos abaixo:
+Para não perder nada, faltam 2 passos:
 
-1️⃣ *Grupo oficial no WhatsApp:*
+1️⃣ *Entre no grupo oficial no WhatsApp.* O link da live e o aviso da condição de aluna chegam só por lá. Toque em 'Entrar no grupo'.
 
-O link da live e os avisos da condição de aluna chegam somente por lá.
-
-Toque no botão 'Entrar no grupo'.
-
-2️⃣ *Check-in obrigatório: o diagnóstico dos 5 padrões:*
-
-Ele mostra onde você está hoje dentro do processo. Ao finalizar, recebe [[PENDENTE: bônus de check-in]].
-
-Toque no botão 'Fazer o diagnóstico'.
+2️⃣ *Faça o check-in: o diagnóstico dos 5 padrões.* Ele mostra onde você está hoje no processo. Ao finalizar, você recebe [[PENDENTE: bônus]]. Toque em 'Fazer o diagnóstico'.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -88,9 +70,11 @@ ________________
 
 *Inscrição confirmada*
 
-Sua vaga na live de revelação da _Black Próton Vitalícia_ está confirmada. Fique no grupo: o link da live e todos os avisos chegam por lá.
+Sua vaga na live de revelação da _Black Próton Vitalícia_ está confirmada.
 
-➡️ Toque no botão 'Entrar no grupo' se você saiu por engano.
+Fique no grupo: o link da live e todos os avisos chegam por lá.
+
+➡️ Se você saiu por engano, toque em 'Entrar no grupo'.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -99,13 +83,15 @@ Se não quiser mais receber mensagens digite "SAIR"
 
 _Você está recebendo essa mensagem porque se cadastrou na Black Próton Vitalícia._
 
---- Variação para alunas do Clube Secreto (o texto muda: uma frase sobre a condição de aluna) ---
+--- Variação para alunas do Clube Secreto (uma frase sobre a condição de aluna) ---
 
 *Inscrição confirmada*
 
-Sua vaga na live de revelação da _Black Próton Vitalícia_ está confirmada, {{nome}}. Fique no grupo: a condição de aluna do Clube Secreto é revelada na live, e o link chega por lá.
+{{nome}}, sua vaga na live de revelação da _Black Próton Vitalícia_ está confirmada.
 
-➡️ Toque no botão 'Entrar no grupo' se você saiu por engano.
+Fique no grupo: a condição de aluna do Clube Secreto é revelada na live, e o link chega por lá.
+
+➡️ Se você saiu por engano, toque em 'Entrar no grupo'.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -120,17 +106,13 @@ ________________
 
 *Ação necessária: confirmação pendente*
 
-Vimos que você ainda não concluiu os passos para confirmar a sua vaga na live da _Black Próton Vitalícia_.
+Você ainda não concluiu os passos para confirmar a sua vaga na live da _Black Próton Vitalícia_.
 
-Terminar leva poucos minutos:
+Leva poucos minutos:
 
-1️⃣ *Entre no grupo oficial no WhatsApp:*
+1️⃣ *Entre no grupo oficial no WhatsApp.* É por ele que chegam o link da live e os avisos. Toque em 'Entrar no grupo'.
 
-É por ele que chegam o link da live e os avisos. Se ainda não entrou, toque no botão 'Entrar no grupo'.
-
-2️⃣ *Faça o check-in obrigatório (o diagnóstico dos 5 padrões):*
-
-É o check-in que confirma a sua vaga. Toque no botão 'Fazer o diagnóstico' para finalizar.
+2️⃣ *Faça o check-in: o diagnóstico dos 5 padrões.* É ele que confirma a sua vaga. Toque em 'Fazer o diagnóstico'.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -142,17 +124,17 @@ Se não quiser mais receber mensagens digite "SAIR"
 
 _Você está recebendo essa mensagem porque se cadastrou na Black Próton Vitalícia._
 
---- Variação para alunas do Clube Secreto (o texto muda: o que ela perde fora do grupo é a condição de aluna) ---
+--- Variação para alunas do Clube Secreto (o que ela perde fora do grupo é o aviso da condição de aluna) ---
 
 *Ação necessária: confirmação pendente*
 
 {{nome}}, a sua vaga na live da _Black Próton Vitalícia_ ainda não está confirmada.
 
-Como você já é do Clube Secreto, a condição de aluna é revelada ao vivo, e o aviso chega pelo grupo. Para não ficar de fora:
+Como você já é do Clube Secreto, a condição de aluna é revelada ao vivo e o aviso chega pelo grupo. Para não ficar de fora:
 
-1️⃣ *Entre no grupo oficial no WhatsApp.* Toque no botão 'Entrar no grupo'.
+1️⃣ *Entre no grupo oficial no WhatsApp.* Toque em 'Entrar no grupo'.
 
-2️⃣ *Faça o check-in obrigatório (o diagnóstico dos 5 padrões).* Toque no botão 'Fazer o diagnóstico'.
+2️⃣ *Faça o check-in: o diagnóstico dos 5 padrões.* Toque em 'Fazer o diagnóstico'.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -170,15 +152,16 @@ ________________
 
 *Aconteceu alguma coisa?*
 
-Dra. Próton aqui!
+Dra. Próton aqui.
 
-Vi que você saiu do grupo da _Black Próton Vitalícia_ e fiquei pensando em você. Aconteceu alguma coisa?
+Vi que você saiu do grupo da _Black Próton Vitalícia_ e fiquei pensando em você.
 
-Se foi sem querer, ou se o excesso de notificações atrapalhou, dá para voltar e silenciar o grupo: você continua recebendo o link da live, sem o barulho.
+Se foi sem querer, ou se as notificações atrapalharam, dá para voltar e silenciar o grupo: o link da live de terça, 03/11, às 20h, continua chegando, sem o barulho.
 
-Se teve algum problema, é só falar com a nossa equipe: [[LINK: suporte WhatsApp]]
+Se teve algum problema, fale com a nossa equipe:
+[[LINK: suporte WhatsApp]]
 
-Toque no botão abaixo para voltar ao grupo. Lá chega o link da live de terça, 03/11, às 20h, e os avisos importantes. ⤵️
+Toque no botão abaixo para voltar ao grupo. ⤵️
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -187,19 +170,20 @@ Se não quiser mais receber mensagens digite "SAIR"
 
 _Você está recebendo essa mensagem porque se cadastrou na Black Próton Vitalícia._
 
---- Variação para alunas do Clube Secreto (o texto muda: uma linha sobre o que ela já construiu) ---
+--- Variação para alunas do Clube Secreto (uma linha sobre o que ela já construiu) ---
 
 *Aconteceu alguma coisa?*
 
-Dra. Próton aqui!
+Dra. Próton aqui.
 
-Vi que você saiu do grupo da _Black Próton Vitalícia_ e fiquei pensando em você. Aconteceu alguma coisa?
+{{nome}}, vi que você saiu do grupo da _Black Próton Vitalícia_ e fiquei pensando em você.
 
 Se foi sem querer, ou se as notificações atrapalharam, dá para voltar e silenciar o grupo. Você já está dentro do Clube Secreto, e eu quero que a condição de aluna chegue até você.
 
-Se teve algum problema, é só falar com a nossa equipe: [[LINK: suporte WhatsApp]]
+Se teve algum problema, fale com a nossa equipe:
+[[LINK: suporte WhatsApp]]
 
-Toque no botão abaixo para voltar ao grupo. Lá chega o link da live de terça, 03/11, às 20h. ⤵️
+Toque no botão abaixo para voltar ao grupo. O link da live de terça, 03/11, às 20h, chega por lá. ⤵️
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -212,22 +196,25 @@ ________________
 
 NOTAS AO IMPLEMENTADOR
 
+Quantidade: 4 mensagens, cada uma com versão geral e versão alunas do Clube (8 textos). Todas com status 🔄 em revisão.
+
 O que mudou em relação ao modelo (mensagem a mensagem)
-- 01 bem-vinda: "live de lançamento" virou live de revelação em 03/11, 20h, ao vivo no YouTube (bloco de data acrescentado, o modelo não tinha). O "Formulário de Check-in Obrigatório" virou o diagnóstico dos 5 padrões. O "caso clínico de preenchimento full face com 2,5 ml" virou [[PENDENTE: bônus de check-in]]. Versão alunas: reconhece o Clube e a condição de aluna.
-- 02 confirmada: mesma função (ficar no grupo, voltar se saiu por engano). Versão alunas: acrescenta uma frase sobre a condição de aluna.
-- 03 não confirmada: mesma estrutura de 2 passos (grupo + check-in). Versão alunas: troca a consequência de ficar fora do grupo (perder o aviso da condição de aluna).
-- 04 aconteceu alguma coisa: voz da Dra. no feminino ("fiquei pensando em você"), acrescentei a saída "voltar e silenciar o grupo" e o link de suporte (o modelo só tinha o botão de voltar). Versão alunas: uma linha sobre o Clube.
-- Rodapé e "SAIR" mantidos. "pra" virou "para". Nenhum preço, nenhuma contagem de dias.
+- 01 bem-vinda: a live de lançamento do modelo virou a live de revelação de terça, 03/11, às 20h, ao vivo no YouTube (bloco de data acrescentado; o modelo não tinha). O formulário de check-in do modelo virou o diagnóstico dos 5 padrões. O presente do modelo (um caso clínico) virou [[PENDENTE: bônus]]. Texto enxugado para 12 linhas. Versão alunas: reconhece o Clube e a condição de aluna.
+- 02 confirmada: mesma função (ficar no grupo, voltar se saiu por engano). Versão alunas: uma frase sobre a condição de aluna.
+- 03 não confirmada: mesma estrutura de 2 passos (grupo e check-in). Versão alunas: o que ela perde fora do grupo é o aviso da condição de aluna.
+- 04 aconteceu alguma coisa: voz da Dra. no feminino, saída "voltar e silenciar o grupo" e link de suporte em linha própria (o modelo só tinha o botão de voltar). Versão alunas: uma linha sobre o Clube.
+- Rodapé e "SAIR" mantidos. Nenhum preço, nenhuma contagem de dias, nenhuma menção a lote.
 
 Pendências e [[CONFIRMAR]]
-1. [[PENDENTE: bônus de check-in]] (presente de quem faz o diagnóstico). Sem ele, apagar a frase do presente nas mensagens 01 e suas variações.
-2. Links: [[LINK: grupo da Black]], [[LINK: reserva e diagnóstico]], [[LINK: suporte WhatsApp]]. A versão alunas pode usar um link de grupo próprio, se a equipe criar um grupo só de alunas (decisão pendente).
-3. [[PENDENTE: live fechada para alunas? Se sim, trocar data e horário]]. O modelo tinha uma live fechada só para alunos FEP em 19/10. Aqui as alunas recebem a condição na mesma live de 03/11. Se a equipe decidir por uma live própria, trocar a data, o horário e a palavra "ao vivo no YouTube" nas versões alunas.
-4. Segmentação: a versão alunas precisa da tag de aluna ativa do Clube (fora da janela de garantia de 7 dias). Sem a tag, usar a versão geral.
-5. O "Lote Especial só para quem está ao vivo" não aparece neste documento (o modelo de API não tocava no tema). O marcador [[CONFIRMAR: Lote Especial só para quem está ao vivo]] está nos e-mails.
-6. Gatilhos: o modelo não os informa. Pela função de cada texto: 01 no cadastro, 02 para quem já entrou no grupo, 03 para quem não completou os passos e 04 para quem saiu do grupo. Conferir o fluxo real antes de agendar.
+1. [[PENDENTE: bônus]]: presente de quem faz o diagnóstico. Sem ele, apagar a frase "Ao finalizar, você recebe..." na 01 e na versão alunas.
+2. Links: [[LINK: grupo da Black]], [[LINK: reserva e diagnóstico]], [[LINK: suporte WhatsApp]]. A versão alunas pode usar um grupo próprio, se a equipe criar um só de alunas.
+3. [[CONFIRMAR: live fechada para alunas? Se sim, trocar data e horário]]. O modelo tinha uma live fechada só para alunos em data anterior à abertura. Aqui as alunas recebem a condição na mesma live de 03/11. Se a equipe decidir por uma live própria, trocar data, horário e "ao vivo no YouTube" nas versões alunas.
+4. Segmentação: a versão alunas exige a tag de aluna ativa do Clube (fora da janela de garantia de 7 dias). Sem a tag, usar a versão geral.
+5. Gatilhos: o modelo não os informa. Pela função: 01 no cadastro, 02 para quem entrou no grupo, 03 para quem não completou os passos, 04 para quem saiu do grupo. Conferir o fluxo real antes de agendar.
+6. Texto de template: o corpo de cada mensagem tem menos de 1.024 caracteres, no máximo 2 botões de até 25 caracteres e a primeira linha em negrito faz o papel de título (sem cabeçalho de template). Se a Meta reprovar o texto "Ação necessária" da 03, trocar por "Aviso".
+7. Segmento por lista de envio: ver `05_whatsapp_api/api_onboarding.md` (banco de ideias, mesmos gatilhos).
 
 Conflitos entre o modelo e as regras da Dra.
-- O modelo promete "caso clínico" de presente ao fazer o check-in. Trocado por placeholder, porque o bônus da Dra. ainda não existe.
-- O modelo usa o termo "formulário de check-in". Mantido o nome "check-in obrigatório", agora cumprido pelo diagnóstico dos 5 padrões, como pede a regra de adaptação.
-- Meta pode reprovar templates com o emoji de alerta e urgência (03). Se reprovar, trocar por "Aviso".
+- O modelo promete um presente concreto ao fazer o check-in. Virou placeholder, porque o bônus da Dra. ainda não existe.
+- O modelo chama o passo 2 de "formulário". Mantido o nome "check-in", agora cumprido pelo diagnóstico dos 5 padrões.
+- Nenhuma afirmação de escassez: a live é transmitida no YouTube e não há limite de vagas.

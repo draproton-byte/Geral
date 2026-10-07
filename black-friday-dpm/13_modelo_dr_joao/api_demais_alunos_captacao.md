@@ -1,13 +1,14 @@
 BLACK PRÓTON VITALÍCIA
 ____________________________________________________________
 
-MENSAGEM DE API - CAPTAÇÃO "DEMAIS ALUNOS"
+MENSAGEM DE API - CAPTAÇÃO "DEMAIS ALUNOS" (CANÔNICO)
 
 Lista:
 ✅ Envio para a base de quem já viveu o método comigo e não é do Clube Secreto: compradores do Desafio A Nova Realidade, da Imersão Desbloqueie o Poder da Sua Mente, do Aulão e demais produtos.
 ❌ Excluir alunas do Clube Secreto (inclusive quem está na janela de garantia de 7 dias)
 ❌ Excluir quem já é Vitalício (se existir)
 ❌ Excluir já cadastradas na live (a partir da mensagem 03) [[CONFIRMAR: excluir quem já reservou a vaga para não repetir a captação]]
+❌ Em 13/10 e 20/10, quem receber no mesmo dia a API-BF-04.x (versão -D) de `05_whatsapp_api/api_convite_indireto_e_aquecimento.md` recebe só a mensagem desta série (01 e 03) [[CONFIRMAR: deduplicar a lista no ListBoss]]
 
 Legenda:
 ✍️ escrevendo
@@ -15,6 +16,8 @@ Legenda:
 🟨 aguardando confirmações
 ✅ aprovada para agendar
 💻 agendada
+
+Botões: [ Saiba Mais ] e [ SAIR ] (2 botões, textos curtos). Todas as mensagens saem às 09h.
 
 ____________________________________________________________
 
@@ -30,7 +33,7 @@ Essa é a minha *Black Próton Vitalícia*: acesso vitalício ao *Clube Secreto*
 
 Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-👉🏽 *Clique em ‘Saiba Mais’ e garanta o seu lugar na live.*
+👉🏽 *Toque em 'Saiba Mais' e reserve o seu lugar na live.*
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -45,17 +48,17 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 🔄 02. API CAPTAÇÃO, sexta-feira, 16, às 09h
 
-*TUDO O QUE EU CRIEI, EM UMA DECISÃO SÓ*
+*TUDO O QUE EU CONSTRUÍ, EM UMA DECISÃO SÓ*
 
 _Acesso a tudo, sem decidir de novo a cada produto._
 
-Na minha *Black Próton Vitalícia*, você garante acesso vitalício ao Clube Secreto e a mais 11 produtos: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade e outros.
+Na minha *Black Próton Vitalícia*, você tem acesso vitalício ao Clube Secreto e a mais 11 produtos: Fórmula da Riqueza, Workshop Terapeuta, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade e outros.
 
-Um único pagamento, sem renovar e sem recomeçar. Sem prazo para dar conta de tudo.
+Um único pagamento e sem recomeçar. Sem prazo para dar conta de tudo.
 
 ⚠️ Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-👉🏽 Clique em ‘Saiba Mais’ e garanta o seu lugar na live.
+👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -74,11 +77,11 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 Nessa Black, eu vou abrir acesso vitalício ao Clube Secreto e a 11 produtos que você já ouviu falar ou já viveu comigo, por um pagamento único.
 
-Mas a oferta completa, com todos os detalhes e todos os bônus, só é revelada na *live de revelação, terça, 03/11, às 20h, ao vivo no YouTube.*
+Mas a oferta completa, com todos os detalhes, só é revelada na *live de revelação, terça, 03/11, às 20h, ao vivo no YouTube.*
 
 Quem não estiver lá na hora, perde o Lote Especial (o menor valor de toda a Black Próton Vitalícia). [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
 
-👉🏽 Clique em ‘Saiba Mais’ e garanta o seu lugar na live.
+👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -99,11 +102,11 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 Só que eu não estou fazendo isso por impulso. Estou fazendo porque você, que já viveu o método comigo, merece uma decisão que só precisa tomar uma vez.
 
-Isso é a minha *Black Próton Vitalícia*. Quem estiver comigo na live, terça, 03/11, às 20h, ao vivo no YouTube, garante o Lote Especial, o menor valor de toda a oferta.
+Essa é a minha *Black Próton Vitalícia*. Quem estiver comigo na live, terça, 03/11, às 20h, ao vivo no YouTube, garante o Lote Especial, o menor valor de toda a oferta.
 
 Os detalhes completos eu só revelo ao vivo. 😉
 
-👉🏽 Clique em ‘Saiba Mais’ e garanta o seu lugar na live.
+👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -120,13 +123,13 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 *NA MINHA BLACK, VOU FAZER O QUE O CLUBE SECRETO NUNCA FEZ ANTES.*
 
-Vou abrir acesso vitalício ao Clube Secreto e a 11 produtos, do Desafio à Imersão, dos áudios ao Instagram Profissional… *Tudo por um único pagamento!*
+Vou abrir acesso vitalício ao Clube Secreto e a 11 produtos, do Desafio à Imersão, dos áudios ao Instagram Profissional. *Tudo por um único pagamento.*
 
 ⚠️ Os detalhes completos, incluindo o Lote Especial, eu só revelo ao vivo, na *live de revelação da Black Próton Vitalícia, terça, 03/11, às 20h.*
 
 Quem não estiver lá no horário, perde a chance de garantir o menor valor da oferta.
 
-👉🏽 Clique em ‘Saiba Mais’ e garanta o seu lugar na live.
+👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -143,9 +146,9 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 *"DEPOIS EU VEJO."*
 
-Foi assim que você adiou da última vez?
+Quantas vezes essa frase já decidiu por você?
 
-O "depois" é o esconderijo preferido de quem se promete e não cumpre: depois eu começo, depois eu pago, depois eu faço.
+O "depois" é o esconderijo preferido do padrão de recomeçar: depois eu começo, depois eu pago, depois eu faço.
 
 A minha *Black Próton Vitalícia* tira o prazo e tira a desculpa: acesso vitalício ao Clube Secreto e a 11 produtos, em um pagamento único, sem prazo para dar conta de tudo.
 
@@ -154,7 +157,7 @@ A minha *Black Próton Vitalícia* tira o prazo e tira a desculpa: acesso vital�
 
 Quem estiver comigo ao vivo garante o Lote Especial. O resto eu só revelo na live.
 
-👉🏽 Clique em ‘Saiba Mais’ e garanta o seu lugar na live.
+👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -179,7 +182,7 @@ Se hoje você puder, guarde só a data. A decisão fica para amanhã. A pergunta
 
 _Quantas vezes você já recomeçou?_
 
-🤍 Clique em ‘Saiba Mais’ e garanta o seu lugar na live.
+🤍 Toque em 'Saiba Mais' e reserve o seu lugar na live.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -194,7 +197,7 @@ _Você está recebendo essa mensagem porque é aluna(o) da Dra. Próton._
 
 🔄 08. API CAPTAÇÃO, terça-feira, 03, às 09h
 
-🚨 *É HOJE: às 20h eu revelo a Black Próton Vitalícia.*
+*É HOJE: às 20h eu revelo a Black Próton Vitalícia.*
 
 Terça, *03/11, às 20h*, ao vivo no YouTube.
 
@@ -204,7 +207,7 @@ O Lote Especial, o menor valor de toda a oferta, é para quem estiver comigo ao 
 
 Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
-👉🏽 Clique em ‘Saiba Mais’ e garanta o seu lugar na live de hoje.
+👉🏽 Toque em 'Saiba Mais' e reserve o seu lugar na live de hoje.
 
 Se não quiser mais receber mensagens digite "SAIR"
 
@@ -219,30 +222,36 @@ ____________________________________________________________
 
 NOTAS AO IMPLEMENTADOR
 
-Quantidade: 8 mensagens (5 equivalentes ao modelo + 3 extras para cobrir 13/10 a 03/11 às 09h). Todas com status 🔄 em revisão.
+Quantidade: 8 mensagens (5 equivalentes ao modelo e 3 extras para cobrir 13/10 a 03/11 às 09h). Todas com status 🔄 em revisão.
+
+Colisões resolvidas
+- Esta base ("viveu o método e não é do Clube") não colide com o arquivo de convite VIP das alunas, porque as alunas ficam fora desta lista.
+- `05_whatsapp_api/api_convite_indireto_e_aquecimento.md` (versão -D) também atende esta base em 13/10, 20/10 e 28/10, às 09h. Esta série só coincide em 13/10 e 20/10 (em 28/10 ela não envia). A Lista traz a regra: nesses dois dias vale esta série e a API-BF-04.x (-D) sai para a pessoa só em 28/10. Dependência: a equipe confirma a deduplicação no ListBoss.
+- Mensagem 08 (03/11, 09h) e disparos do dia da live (`05_whatsapp_api/dia_da_live_03_11.md`): conferir que quem já está inscrito na live fica fora desta lista (regra "Excluir já cadastradas na live").
 
 O que mudou em relação ao modelo (mensagem a mensagem)
-- 01 (13/10): abertura "todos os meus cursos, para sempre, por um único valor" virou "uma decisão, um único pagamento, sem recomeçar"; explica o que é o Clube Secreto (público não é do Clube); "última vez que vou oferecer" virou "esta condição não se repete"; "inclusive os que ainda vou lançar" removido.
-- 02 (16/10): "a maior oferta que eu já fiz numa Black Friday" virou "tudo o que eu criei, em uma decisão só"; "nunca mais precisará comprar um curso meu" virou "sem renovar e sem recomeçar, sem prazo para dar conta"; lançamentos futuros removidos; lista cinco dos 11 produtos com "e outros" (lista completa só na live/página).
-- 03 (20/10): "20 cursos, formações, imersões e livros" virou "Clube Secreto e 11 produtos"; "live de abertura 20/10" virou live de revelação 03/11, 20h, YouTube; mantém o aviso do Lote Especial só para quem está ao vivo.
-- 04 (23/10): "L-O-U-C-O foi o que me chamaram" virou "L-O-U-C-A. É o que parece, eu sei": não afirma que alguém a chamou assim (fato não verificado); mantém o Lote Especial e "detalhes só ao vivo".
-- 05 (27/10): "vou fazer o que nunca fiz antes" virou "o que o Clube Secreto nunca fez antes"; "evento presencial" removido (a Dra. não tem evento presencial na oferta); cita produtos do catálogo.
-- 06 (30/10, extra): função "o depois" (inimigo comum da estratégia); tira prazo e desculpa; Lote Especial ao vivo.
-- 07 (02/11, extra, Finados): tom sóbrio, sem emoji de urgência, pergunta "Quantas vezes você já recomeçou?", "amanhã" preso ao cronograma.
-- 08 (03/11, extra): "é hoje, às 20h"; Lote Especial ao vivo; "esta condição não se repete".
-- Rodapé de todas: "porque é aluna(o) da Dra. Próton"; botões "Saiba Mais" e "SAIR"; sem nenhum preço, parcela ou valor.
+- 01 (13/10): a abertura "todos os meus cursos, para sempre, por um único valor" virou "uma decisão, um único pagamento, sem recomeçar". Explica o que é o Clube Secreto, porque esta base não é do Clube. "Última vez que vou oferecer" virou "esta condição não se repete". Lançamentos futuros removidos.
+- 02 (16/10): "a maior oferta que eu já fiz numa Black Friday" virou "tudo o que eu construí, em uma decisão só". "Nunca mais precisará comprar um curso meu" virou "um único pagamento e sem recomeçar, sem prazo para dar conta". Lançamentos futuros removidos. Lista cinco dos 11 produtos e "outros".
+- 03 (20/10): "20 cursos, formações, imersões e livros" virou "Clube Secreto e 11 produtos". A live de abertura virou a live de revelação de 03/11, 20h, no YouTube. Mantém o aviso do Lote Especial só para quem está ao vivo. "Todos os bônus" foi removido porque o bônus ainda não existe.
+- 04 (23/10): o "L-O-U-C-O foi o que me chamaram" do modelo virou "L-O-U-C-A. É o que parece, eu sei", porque ninguém a chamou assim (fato não verificado). Mantém o Lote Especial e "detalhes só ao vivo".
+- 05 (27/10): "vou fazer o que nunca fiz antes" virou "o que o Clube Secreto nunca fez antes". O evento presencial do modelo foi removido (a oferta da Dra. não tem evento presencial). Cita produtos do catálogo.
+- 06 (30/10, extra): função "o depois" (inimigo comum da estratégia). Tira prazo e desculpa. Lote Especial ao vivo. Sem culpar a pessoa.
+- 07 (02/11, extra, Finados): tom sóbrio, sem emoji de urgência, pergunta "Quantas vezes você já recomeçou?". "Amanhã" está preso ao cronograma (02/11) e acompanhado da data fixa.
+- 08 (03/11, extra): "é hoje, às 20h", Lote Especial ao vivo, "esta condição não se repete".
+- Rodapé de todas: "porque é aluna(o) da Dra. Próton", botões "Saiba Mais" e "SAIR", sem preço, parcela ou valor. O texto do botão do modelo ("garanta seu lugar") virou "reserve o seu lugar", porque a live não tem limite de vagas.
 
 Pendências e [[CONFIRMAR]] que ficaram
 1. [[CONFIRMAR: Lote Especial só para quem está ao vivo]] (primeira ocorrência, mensagem 03). Confirmar antes de aprovar 03 a 08.
 2. [[CONFIRMAR: excluir quem já reservou a vaga]] na lista, para não repetir a captação para quem já se cadastrou.
 3. [[LINK: Saiba Mais (API)]]: a URL do botão precisa existir (página de captura segmentada para "quem já viveu o método").
-4. Segmento: os compradores do Desafio, da Imersão e do Aulão precisam de tag única "viveu o método e não é do Clube" no ListBoss/DataCrazy, com exclusão automática de alunas do Clube e de Vitalícios. `[[PENDENTE: contagem da lista]]`
-5. Mensagem 07 cai em 02/11 (Finados): confirmar se a equipe quer mesmo disparar no feriado (o texto já está sóbrio).
-6. Mensagem 08 cai no dia da live às 09h: confirmar que não conflita com o disparo do dia da live (`05_whatsapp_api/dia_da_live_03_11.md`).
+4. Segmento: os compradores do Desafio, da Imersão e do Aulão precisam de uma tag única "viveu o método e não é do Clube" no ListBoss e no DataCrazy, com exclusão automática de alunas do Clube e de Vitalícios. [[CONFIRMAR: contagem da lista]]
+5. Mensagem 07 cai em 02/11 (Finados): confirmar se a equipe quer disparar no feriado (o texto já está sóbrio).
+6. Nome do produto: "Workshop Terapeuta" é a forma curta do nome comercial. [[CONFIRMAR: nome comercial completo do workshop]].
+7. Texto de template: cada corpo tem menos de 1.024 caracteres e 2 botões com texto curto. A primeira linha em negrito faz o papel de título.
 
 Conflitos entre o modelo e as regras da Dra.
 - O modelo promete "os cursos que eu ainda vou lançar" e "atualizações e lançamentos que vierem depois": removido (briefing: sem promessa de lançamentos futuros).
-- O modelo usa "nunca mais precisará comprar" e "última vez que vou oferecer": trocado por "esta condição não se repete. O que vier depois é outra oferta, com outro preço" e "sem renovar e sem recomeçar".
+- O modelo usa "nunca mais precisará comprar" e "última vez que vou oferecer": trocado por "esta condição não se repete. O que vier depois é outra oferta, com outro preço" e "sem recomeçar".
 - O modelo cita "evento presencial": removido.
 - O modelo dá "a maior oferta que eu já fiz": trocado por "a oferta que o Clube Secreto nunca fez antes".
-- Live fechada: o modelo para "demais alunos" não tem live fechada, então não há `[[PENDENTE: live fechada]]` neste documento.
+- Live fechada: o modelo para "demais alunos" não tem live fechada, então não há pendência de live fechada neste documento.

@@ -9,7 +9,7 @@
 | **Objetivo** | Levar o maior número de reservas para dentro da live ao vivo e, ao abrir o carrinho, converter a atenção em entrada no Lote Especial |
 | **Trabalho contratado** | "Eu quero uma decisão que eu só precise tomar uma vez." O dia inteiro prepara a decisão: a pergunta "quantas vezes você já recomeçou?" abre a manhã e a live |
 | **Momento de vida** | Funcional e exausta (maioria 45+): mensagens curtas, uma ideia por mensagem, pergunta ou reação no fim |
-| **Modelo no Desafio** | CP 28 a 40 do dia 01/10 (`desafio_copys_lembrete_grupos_desafio.md`), API 07 e 08 (`planilha_disparos__Outubro26.md`), `desafio_copy_api_desafio.md`, `desafio_api_aulao_desafio.md` (É hoje, Ao vivo, Cadê você, Vagas abertas), `desafio_copy_vagas_abertas_clube_secreto.md` (CP 01 de 01/10) |
+| **Modelo no Desafio** | CP 28 a 40 do dia 01/10 (copys de lembrete de grupo do Desafio), API 07 e 08 (planilha de disparos de outubro do Desafio), copys de API do Desafio, API do Aulão do Desafio (É hoje, Ao vivo, Cadê você, Vagas abertas), copys de vagas abertas do Clube Secreto no Desafio (CP 01 de 01/10) |
 
 **O que mudou em relação ao Desafio.**
 - O Desafio tinha "mantra" de Grabovoi de manhã e à noite com a promessa "ative a atração de dinheiro". O guia proíbe essa promessa. O ritual vira o **áudio de Grabovoi da manhã e da noite**, apresentado como prática (existe nas fontes: sequências numéricas ensinadas nos grupos do Desafio e produto "Sequências Numéricas de Grabovoi" da Vitalícia). O arquivo de áudio e a sequência do dia são `[[PENDENTE]]`.
@@ -59,7 +59,7 @@
 
 ## 2. Véspera e manutenção pré-live (API segmentada às 09h)
 
-Três lembretes de API fora do dia 03/11, para quem reservou a vaga e não ativou o lembrete da live. Modelo: `desafio_copy_api_desafio.md` (API 01, "É hoje").
+Três lembretes de API fora do dia 03/11, para quem reservou a vaga e não ativou o lembrete da live. Modelo: copys de API do Desafio (API 01, "É hoje").
 
 ### API-BF-07: 28/10, 09h (salva a data)
 
@@ -216,7 +216,7 @@ Mas preciso ser honesta: um padrão que rodou a vida inteira não se desfaz com 
 
 Hoje, às 20h, eu abro tudo o que construí para você deixar de precisar decidir de novo.
 
-Eu não prometo ganho nem cura. Prometo um caminho, com acompanhamento.
+Eu não prometo ganho nem resultado igual para todo mundo. Prometo um caminho, com acompanhamento.
 
 Te vejo às 20h.
 
@@ -235,7 +235,7 @@ Você já está no Clube, já fez ciclos, já parou e voltou. Isso não é recom
 
 Hoje, às 20h, eu mostro ao vivo como esse caminho pode continuar sem prazo para acabar, e a condição própria de quem já é aluna.
 
-Eu não prometo ganho nem cura. Prometo um caminho, com acompanhamento.
+Eu não prometo ganho nem resultado igual para todo mundo. Prometo um caminho, com acompanhamento.
 
 Te vejo às 20h.
 
@@ -328,7 +328,7 @@ Reage com ✅ se você já separou o caderno.
 
 ### CP-BF-72 | 19:50 | Falta 10 minutos (modelo: CP 36)
 
-Disparar com o vídeo curto da Dra. `[[PENDENTE: vídeo da Dra., 30 a 60 segundos, convidando para a live]]`.
+Disparar com o vídeo curto da Dra. `[[CONFIRMAR: vídeo da Dra., 30 a 60 segundos, convidando para a live]]`.
 
 ```text
 ⏱️ 10 MINUTOS!
@@ -441,7 +441,7 @@ A sua condição acabou de ser revelada ao vivo.
 
 ⏳ Vale até [[PENDENTE: data do lote]]. Depois, o valor sobe.
 
-O que acontece com o seu acesso atual: [[PENDENTE: regra de migração]]
+O que acontece com o seu acesso atual: [[CONFIRMAR: regra de migração]]
 
 👇 Garanta a sua vaga:
 
@@ -546,7 +546,7 @@ Reage com 🌙 se você fez o ritual.
 
 ## 5. API do dia 03/11 (resto da grade)
 
-Modelo: `desafio_copy_api_desafio.md` (API 01 "É hoje", API 02 "Ao vivo") e `desafio_api_aulao_desafio.md` (É hoje, Ao vivo, Cadê você). O link da live é público no YouTube, então o botão leva direto para a transmissão (no Desafio o link ia pelo grupo).
+Modelo: copys de API do Desafio (API 01 "É hoje", API 02 "Ao vivo") e API do Aulão do Desafio (É hoje, Ao vivo, Cadê você). O link da live é público no YouTube, então o botão leva direto para a transmissão (no Desafio o link ia pelo grupo).
 
 ### API-BF-10 | 09:00 | É hoje (N e D)
 
@@ -669,8 +669,8 @@ Não sai da live 👇
 ## Notas ao implementador
 
 **Pendências**
-1. `[[PENDENTE: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O Desafio usava o áudio com a sequência "520 741 8" e a frase "ative a atração de dinheiro". **Não copiar a frase.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e CP-BF-77 e manter só a versão P.S. do carrinho.
-2. `[[PENDENTE: vídeo da Dra.]]` do disparo das 19h50 (o Desafio também esperava o vídeo).
+1. `[[CONFIRMAR: áudio de Grabovoi da manhã e da noite]]`: arquivo, sequência do dia e hospedagem. O Desafio usava o áudio com a sequência "520 741 8" e a frase "ative a atração de dinheiro". **Não copiar a frase.** O guia permite apenas "a sequência que a Dra. ensina na prática". Se a Dra. não quiser gravar áudio novo, apagar CP-BF-64 e CP-BF-77 e manter só a versão P.S. do carrinho.
+2. `[[CONFIRMAR: vídeo da Dra.]]` do disparo das 19h50 (o Desafio também esperava o vídeo).
 3. `[[PENDENTE: preço, data do lote, garantia, bônus, parcelamento]]`: tudo o que está nas seções 4 e 5 com placeholder só fecha depois da revelação. As peças saem prontas e o preço é preenchido por busca no momento em que a Dra. falar. Escada para o implementador (não aparece em texto público antes da live): alunas, Lote Especial R$ 1.997; não-alunas, Lote Especial R$ 2.997.
 4. `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`: a página de captura afirma que o menor preço é só para quem estiver ao vivo. Esse texto aparece em CP-BF-66 e CP-BF-71.
 5. `[[CONFIRMAR: roteiro da live]]` (08_live_e_pitch): o horário do CP-BF-75 deve casar com o ponto do roteiro em que a revelação começa.
@@ -678,7 +678,7 @@ Não sai da live 👇
 7. Replay: nenhum texto afirma "sem replay". Quando `[[PENDENTE: replay]]` fechar, acrescentar uma linha em CP-BF-71.
 
 **Testes A/B sugeridos**
-1. CP-BF-68 (carta) com e sem a frase "Eu não prometo ganho nem cura. Prometo um caminho, com acompanhamento." Medir reações e cliques.
+1. CP-BF-68 (carta) com e sem a frase "Eu não prometo ganho nem resultado igual para todo mundo. Prometo um caminho, com acompanhamento." Medir reações e cliques.
 2. API-BF-10: pergunta de abertura ("quantas vezes você já recomeçou?") contra uma versão só informativa.
 3. CP-BF-70 (antes de decidir) contra a quebra de objeção direta da CP 34 do Desafio. Medir cliques no checkout nas 2 horas seguintes à abertura.
 

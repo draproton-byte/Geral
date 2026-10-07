@@ -42,7 +42,7 @@ O que o Desafio tinha pronto (replay das cinco noites, manual, certificado, test
 | **Replay da live de revelação** | A live gravada no YouTube | `[[PENDENTE: replay]]`. Nenhuma mensagem afirma nem nega que haverá replay. Sem decisão, usar "resumo da live" | Resolve a culpa de quem perdeu e devolve a pessoa para dentro do conteúdo |
 | **Diagnóstico dos cinco padrões** | O diagnóstico da Imersão (Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem, Culpa de Querer Mais) | `[[LINK: diagnóstico dos 5 padrões]]` | Dá um motivo de volta que fala do problema dela, não do produto |
 | **Manual da live** | PDF com a conta do Termostato, os cinco padrões, o papel das três linhas e a trilha | `[[CONFIRMAR: manual da live]]` | Entrega valor imediato e abre a pergunta sobre o papel |
-| **Depoimentos autorizados** | Relatos de quem passou pelo método | `[[DEPOIMENTO REAL]]`, só com `[[AUTORIZAR]]` | Prova social concreta para quem conhece a Dra. há pouco tempo |
+| **Depoimentos autorizados** | Relatos de quem passou pelo método | `[[DEPOIMENTO REAL]]`, só com autorização por escrito | Prova social concreta para quem conhece a Dra. há pouco tempo |
 | **Certificado de presença na live** | Reconhece quem esteve ao vivo | `[[CONFIRMAR: haverá certificado da live]]` | É a prova de que ela chegou até o fim, e é gancho forte (o pacto "eu termino tudo o que eu começo") |
 | **Papel das três linhas** | A prática curta do bloco 6 da live (o que parei, meu "depois", a decisão de uma vez só) | Existe (é da live) | A pergunta mais fácil de responder: "qual foi a sua linha três?" |
 | **Replay das cinco noites do Desafio** | Aulas gravadas no YouTube | Existe | Para quem fez ou perdeu o Desafio (ver segmentos) |

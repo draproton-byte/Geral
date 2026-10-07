@@ -8,30 +8,32 @@
 | Peça | Duas séries de 6 e-mails: SA-01 a SA-06 (Alunas do Clube) e SD-01 a SD-06 (Desafio, Imersão, Aulão sem Clube) |
 | Canal | E-mail, 09h, só para o segmento (lista, tag e checkout próprios, como na BFV/26) |
 | Público | SA: alunas atuais do Clube Secreto (`[[CONFIRMAR: contagem de alunas]]`). SD: quem comprou Desafio, Imersão ou Aulão e não é aluna do Clube. Ficam de fora das duas séries todos os não-alunos |
-| Momento | De 14/10 a 01/11, nas datas da tabela abaixo. Nas datas de cada série, o segmento é excluído do e-mail das 07h (`captacao_serie.md`) e, de 29/10 em diante, também do lembrete das 12h do mesmo dia |
-| Objetivo | SA: fazer a aluna entender que a live é um upgrade para ela, que o que já fez conta e que existe uma condição de aluna. SD: continuar o que o evento começou, com a lógica "não trave o processo" e "1 vezes 0" |
+| Momento | De 14/10 a 01/11, nas datas da tabela abaixo. Nas datas de cada série, o segmento é excluído do e-mail das 07h (`captacao_serie.md`) e, quando coincide, também do lembrete das 09h do mesmo dia |
+| Objetivo | SA (reserva): fazer a aluna entender que a live é um upgrade para ela, que o que já fez conta e que existe uma condição de aluna. SD: continuar o que o evento começou, com a lógica "não trave o processo" e "1 vezes 0" |
 | Consciência | SA: 4 (comparação, ela conhece o produto). SD: 4 a 5 (viveu o método) |
 | Trabalho contratado | SA: "ficar de vez, sem recomeçar". SD: "não voltar ao automático depois de um evento" |
-| Modelo no Desafio | E-mails 04 e 06 "Vagas abertas / Clube Secreto" do arquivo de lembrete (abrem com o que a pessoa fez nas 5 noites e passam para "você não aplica sozinha") e a segmentação por listas próprias do modelo de referência (alunos, demais alunos, não-alunos) |
+| Modelo no Desafio | E-mails 04 e 06 de abertura do Clube Secreto do arquivo de lembrete (abrem com o que a pessoa fez nas 5 noites e passam para "você não aplica sozinha") e a segmentação por listas próprias do modelo de referência (alunos, demais alunos, não-alunos) |
+
+**Status das séries.** A série **SD** (S2) vale como está. A série **SA** (S1) é **banco de reserva**: o arquivo canônico das alunas é `13_modelo_dr_joao/email_alunas_captacao.md` (8 e-mails às 09h, em 15/10, 20/10, 23/10, 27/10, 29/10, 31/10, 02/11 e 03/11). Se algum SA for reaproveitado, não pode sair em nenhuma dessas 8 datas, e a aluna nunca recebe canônico e SA no mesmo dia.
 
 **Datas e substituições.**
 
-| Série | ID | Data (09h) | Dia | Ideia | E-mail das 07h que o segmento deixa de receber | Lembrete das 12h que o segmento deixa de receber |
+| Série | ID | Data (09h) | Dia | Ideia | E-mail das 07h que o segmento deixa de receber | Lembrete das 09h que o segmento deixa de receber |
 |---|---|---|---|---|---|---|
-| SA | SA-01 | 14/10 | qua | Você já está dentro, falta ficar | EM-BF-02 | nenhum (lembretes começam em 28/10) |
-| SA | SA-02 | 18/10 | dom | O que você já fez conta | EM-BF-06 | nenhum |
-| SA | SA-03 | 22/10 | qui | A condição de aluna | EM-BF-10 | nenhum |
-| SA | SA-04 | 26/10 | seg | Prova de dentro do Clube | EM-BF-14 | nenhum |
-| SA | SA-05 | 29/10 | qui | Os 11 produtos e o que já é seu | EM-BF-17 | LV-29 |
-| SA | SA-06 | 01/11 | dom | A pergunta antes de terça | EM-BF-20 | LV-01 |
-| SD | SD-01 | 16/10 | sex | Cinco noites. E depois? | EM-BF-04 | nenhum |
+| SD | SD-01 | 16/10 | sex | Cinco noites. E depois? | EM-BF-04 | nenhum (lembretes começam em 28/10) |
 | SD | SD-02 | 20/10 | ter | Não trave o processo | EM-BF-08 | nenhum |
 | SD | SD-03 | 23/10 | sex | O que ficou na gaveta | EM-BF-11 | nenhum |
 | SD | SD-04 | 27/10 | ter | Você aplicou sozinha? | EM-BF-15 | nenhum |
 | SD | SD-05 | 30/10 | sex | O que o Clube faz que um evento não faz | EM-BF-18 | LV-30 |
 | SD | SD-06 | 01/11 | dom | A decisão que ficou aberta | EM-BF-20 | LV-01 |
+| SA (reserva) | SA-01 | 14/10 | qua | Você já está dentro, falta ficar | EM-BF-02 | nenhum |
+| SA (reserva) | SA-02 | 18/10 | dom | O que você já fez conta | EM-BF-06 | nenhum |
+| SA (reserva) | SA-03 | 22/10 | qui | A condição de aluna | EM-BF-10 | nenhum |
+| SA (reserva) | SA-04 | 26/10 | seg | Prova de dentro do Clube | EM-BF-14 | nenhum |
+| SA (reserva) | SA-05 | 29/10 | qui | Os 11 produtos e o que já é seu | colide com o canônico de 29/10: mover para outra data (por exemplo 28/10, que substitui EM-BF-16) | LV-29, se mantida a data |
+| SA (reserva) | SA-06 | 01/11 | dom | A pergunta antes de terça | EM-BF-20 | LV-01 |
 
-Conferência cruzada com `captacao_serie.md`: as 12 datas e os 12 IDs da série das 07h batem. Nenhum segmento recebe, no mesmo dia, um e-mail das 07h e um das 09h, nem um das 09h e um das 12h, sobre o mesmo assunto. As duas séries nunca caem no mesmo dia para o mesmo segmento. Nenhum segmentado cai em 02/11 (Finados) nem em 03/11.
+Conferência cruzada com `captacao_serie.md`: as datas e os IDs da SD batem (16/10 com EM-BF-04, 20/10 com EM-BF-08, 23/10 com EM-BF-11, 27/10 com EM-BF-15, 30/10 com EM-BF-18, 01/11 com EM-BF-20). As datas do canônico das alunas também estão na tabela de `captacao_serie.md`. Nenhum segmento recebe, no mesmo dia, um e-mail das 07h e um das 09h, nem um segmentado e um lembrete, sobre o mesmo assunto. Nenhum segmentado SD cai em 02/11 (Finados) nem em 03/11. As datas de SA só valem se a equipe decidir usar o banco de reserva, e nesse caso SA-05 precisa mudar de data.
 
 Todos mencionam a live de 03/11, às 20h, no YouTube, e **nenhum cita preço**. Botão padrão (um por e-mail): `ENTRAR NO GRUPO DA LIVE` para quem ainda não está no grupo, `GUARDAR O HORÁRIO NA AGENDA` para quem já está. Links: `[[LINK: grupo WhatsApp alunas]]` e `[[LINK: grupo WhatsApp]]`.
 
@@ -41,7 +43,7 @@ Todos mencionam a live de 03/11, às 20h, no YouTube, e **nenhum cita preço**. 
 
 ---
 
-## SÉRIE SA. ALUNAS DO CLUBE (upgrade)
+## SÉRIE SA. ALUNAS DO CLUBE (upgrade, banco de reserva)
 
 ### SA-01. Você já está dentro. Falta ficar (14/10, quarta, 09h)
 
@@ -127,7 +129,7 @@ No dia 03/11, às 20h, eu abro a condição completa para quem já é do Clube.
 
 Dra. Próton
 
-### SA-05. Os 11 produtos e o que já é seu (29/10, quinta, 09h)
+### SA-05. Os 11 produtos e o que já é seu (29/10, quinta, 09h; mover de data, ver tabela)
 
 **Assunto A:** Quais dos 11 produtos você ainda não viveu?
 **Assunto B:** O que mais eu criei e você ainda não viveu
@@ -312,7 +314,7 @@ Dra. Próton
 ## Notas ao implementador
 
 1. **Pendências que travam SA.** `[[CONFIRMAR: regra para aluna com acesso ativo]]` (crédito do tempo restante, desconto fixo ou apenas preço de aluna) e a lista de produtos que cada aluna já possui. Sem isso, SA-02, SA-03 e SA-05 saem com as frases genéricas já escritas.
-2. **Conflito de agenda.** O Clube tem aula ao vivo toda terça, e 03/11/2026 é terça. A decisão (a aula é substituída pela live, muda de horário ou continua) está marcada em SA-06 e em OB-02 (S1). Avisar as alunas por SA-06.
+2. **Conflito de agenda.** O Clube tem aula ao vivo toda terça, e 03/11/2026 é terça. A decisão (a aula é substituída pela live, muda de horário ou continua) está marcada em SA-06 (se reaproveitado), em OB-02 (S1) e no e-mail 08 do canônico das alunas. Avisar as alunas.
 3. **Cobrança do Clube.** Os materiais do Desafio descrevem o Clube com pagamento à vista ou parcelado e acesso de 365 dias, enquanto o briefing da Black fala em cobrança recorrente. Por isso nenhum e-mail aqui usa "mensalidade" ou "renovar". `[[CONFIRMAR: modelo atual de cobrança do Clube]]`.
 4. **Preço.** Nada citado antes da live. A escada de preços do briefing só aparece nas peças pós-live, em notas para quem monta o e-mail.
 5. **Quem fez Desafio, Imersão e Aulão é "não-aluna" para efeito de preço?** Assumi que sim (paga a tabela de não-alunas). Decisão para a Dra. Se houver condição própria para esse grupo, SD-05 e SD-06 precisam de uma linha a mais.

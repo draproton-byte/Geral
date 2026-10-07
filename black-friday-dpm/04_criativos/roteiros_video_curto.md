@@ -19,7 +19,7 @@
 2. **Texto na tela em todo vídeo:** legenda queimada grande (referência mínima de 70 px em 1080 px de largura), porque 40% da base tem mais de 50 anos e muita gente assiste sem som.
 3. **Duração real da fala:** o ritmo de cálculo é de 2,5 palavras por segundo. Cada trecho traz o número de palavras e o tempo; nenhum trecho passa do limite. Números são contados como são falados ("sete mil", "trezentos e sessenta e cinco").
 4. **Sem promessa:** nenhum roteiro promete dinheiro, resultado ou fim da autossabotagem, e nenhum vende produto antes da live.
-5. A fala da Dra. pode usar "pra" (voz dela); nos roteiros abaixo foi mantido "para" por leitura mais clara.
+5. A fala da Dra. pode ser adaptada para a voz dela na gravação; os roteiros abaixo usam a forma escrita completa por clareza.
 6. A data falada é "dia três de novembro, às oito da noite", com "03/11 · 20h" na tela.
 7. Sem trilha com letra. Áudio normalizado em -14 LUFS.
 8. **Políticas da Meta:** nenhum gancho afirma condição pessoal do espectador (dinheiro, dívida, saúde, emoção). O padrão entra como pergunta ou como dado de pesquisa em terceira pessoa.
@@ -48,7 +48,7 @@
 - **Gancho (0 a 3 s, 6 palavras):** Dra. segura um termostato de parede real (ou uma foto grande dele): "Entrou um extra, apareceu uma conta?" Texto igual na tela.
 - **Desenvolvimento:**
   - 3 a 11 s (8 s, 19 palavras): "Mais da metade de quem respondeu à minha pesquisa de presença disse que isso acontece. Tem nome: Termostato Invisível."
-  - 11 a 23 s (12 s, 29 palavras): "Um termostato não mede o clima. Ele decide a temperatura que você aceita. Com o dinheiro, a mente aprende um número aceitável, e algo puxa de volta se passa dele."
+  - 11 a 23 s (12 s, 30 palavras): "Um termostato não mede o clima. Ele decide a temperatura que você aceita. Com o dinheiro, a mente aprende um número aceitável, e algo puxa de volta se passa dele."
   - 23 a 33 s (10 s, 21 palavras): "Não é azar nem preguiça. Trabalhar mais é ligar um aquecedor no quarto: enquanto o termostato não muda, a temperatura volta."
 - **CTA (33 a 40 s, 7 s, 15 palavras):** "Dia três de novembro, às oito da noite, ao vivo no YouTube. Cadastro no link."
 - **Texto na tela:** "Entrou um extra, apareceu uma conta?" → "51,9% das pessoas que responderam à pesquisa de presença disseram sim" → "Termostato Invisível: o teto que a sua mente aceita (é uma analogia)" → "03/11 · 20h · sem custo".
@@ -85,7 +85,7 @@
 - **Desenvolvimento (3 a 33 s):** cada padrão fica 6 s: a frase da audiência, o nome do padrão em destaque e um ícone. Voz off:
   1. 3 a 9 s (8 palavras): "Entrou um extra, apareceu uma conta. Termostato Invisível."
   2. 9 a 15 s (9 palavras): "Eu sei o que fazer e não faço. Autossabotagem."
-  3. 15 a 21 s (14 palavras): "Por fora, em dia. Por dentro, no limite. Cobrança Que Você Só Faz Com Você."
+  3. 15 a 21 s (15 palavras): "Por fora, em dia. Por dentro, no limite. Cobrança Que Você Só Faz Com Você."
   4. 21 a 27 s (8 palavras): "A cada passo, retrocedo. Traumas Que Ainda Decidem."
   5. 27 a 33 s (14 palavras): "Eu cuido de todo mundo e ninguém cuida de mim. Culpa de Querer Mais."
 - **CTA (33 a 45 s, 12 s, 27 palavras):** "Faça o diagnóstico e descubra o seu. Dia três de novembro, às oito da noite, eu revelo ao vivo o que construí para quem cansou de recomeçar."

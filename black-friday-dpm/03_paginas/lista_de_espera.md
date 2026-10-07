@@ -8,7 +8,7 @@
 **Consciência:** 3 a 5
 **Trabalho contratado:** "Eu quero continuar perto, sem ser pressionada, até fazer sentido para mim"
 **Modelo no Desafio:** Mensagem de grupo cheio e "vagas abertas" do Desafio, lista de espera da BFV/26 (referência do domínio de UTM, "lista de espera") e o tom "eu prefiro que você não compre do que compre e não viva"
-**Regra desta peça:** nenhum preço antes da live. Depois da live, só `[[PREÇO LOTE ...]]` se for mencionado, nunca como pressão
+**Regra desta peça:** nenhum preço antes da live. Depois da live, só `[[PREÇO LOTE ALUNAS]]` ou `[[PREÇO LOTE NÃO-ALUNAS]]` se for mencionado, nunca como pressão
 
 ---
 
@@ -134,22 +134,22 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Se você quer começar agora, sem entrar na Vitalícia`
 
 **Texto**
-`Se a Vitalícia não cabe agora, existe um caminho de entrada: [[PENDENTE: nome do degrau de entrada]].`
+`Se a Vitalícia não cabe agora, existe um caminho de entrada: [[PENDENTE: degrau de entrada, nome]].`
 
-`Ele serve para quem quer começar a se mexer sem decidir tudo de uma vez. [[PENDENTE: o que é o degrau (um produto avulso do catálogo? outro caminho?)]]`
+`Ele serve para quem quer começar a se mexer sem decidir tudo de uma vez. [[PENDENTE: degrau de entrada, o que é (um produto avulso do catálogo? outro caminho?)]]`
 
 `Você entra, faz o seu primeiro passo, e depois decide se quer continuar. Não é a Vitalícia: é outro caminho, com outro valor e outras regras.`
 
-`[[PENDENTE: preço do degrau (revelado só depois da live, se for esse o caso)]]`
+`[[PENDENTE: degrau de entrada, preço (revelado só depois da live, se for esse o caso)]]`
 
 **Botão**
 `QUERO CONHECER O CAMINHO DE ENTRADA` [[LINK: página do degrau]]
 
 **Microcopy**
-`[[PENDENTE: forma de pagamento do degrau]] [[PENDENTE: garantia do degrau]]`
+`[[PENDENTE: degrau de entrada, forma de pagamento]] [[PENDENTE: degrau de entrada, garantia]]`
 
 **Regras do bloco**
-- Não prometer que "o degrau leva à Vitalícia" nem que "quem começa pelo degrau paga menos na Vitalícia" sem decisão. `[[PENDENTE: política de crédito do degrau]]`
+- Não prometer que "o degrau leva à Vitalícia" nem que "quem começa pelo degrau paga menos na Vitalícia" sem decisão. `[[PENDENTE: degrau de entrada, política de crédito]]`
 - Não usar o degrau como pressão ("se você não pode a Vitalícia, compre isto"). Dizer sempre que são caminhos diferentes.
 - Se o degrau for um produto avulso do catálogo (por exemplo um dos 11), usar apenas o nome do produto e a função em uma linha da `pagina_de_vendas_vitalicia.md`. Não criar função nova.
 - Se o degrau for "lista de espera da próxima edição", este bloco some e o texto do bloco 03 já cobre.
@@ -235,7 +235,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 **Texto**
 `Você vai receber um e-mail de confirmação agora. Sem pressão e sem pegadinha.`
 
-`[[SE: COM DEGRAU]]` `Se quiser começar agora, veja o caminho de entrada.` (botão: QUERO CONHECER O CAMINHO DE ENTRADA) `[[FIM SE]]`
+`[[SE: COM DEGRAU]]` `Se quiser começar agora, veja o caminho de entrada.` [[BOTÃO: QUERO CONHECER O CAMINHO DE ENTRADA]] `[[FIM SE]]`
 
 ### E-mail de confirmação (curto, para o mesmo domínio de captação)
 
@@ -250,7 +250,7 @@ A base de renda baixa (65% do Aulão ganha até R$ 3.000, 53% da ficha se diz co
 `Isso não é uma compra e não tem pressão. É só o jeito de eu te avisar se existir uma nova condição.`
 
 `Enquanto isso, o seu diagnóstico continua aqui:`
-(botão: VER MEU DIAGNÓSTICO)
+[[BOTÃO: VER MEU DIAGNÓSTICO]]
 
 `Eu não posso prometer que a Vitalícia volta. Se houver outra oferta, será outra oferta, com outro preço.`
 
@@ -295,7 +295,7 @@ Se a pessoa já tem diagnóstico, o e-mail de confirmação pode abrir com uma l
 ## Notas ao implementador
 
 1. **Decisão bloqueante:** definir se existe degrau de entrada. Sem isso, a página funciona só como lista de avisos. A recomendação de estratégia (00, seção 5) é decidir antes de 13/10.
-2. **Pendências:** `[[PENDENTE: nome do degrau]]`, `[[PENDENTE: o que é o degrau]]`, `[[PENDENTE: preço do degrau]]`, `[[PENDENTE: garantia do degrau]]`, `[[PENDENTE: política de crédito do degrau]]`, `[[PENDENTE: fechamento]]`, `[[CONFIRMAR: grupo de avisos]]`.
+2. **Pendências:** `[[PENDENTE: degrau de entrada, nome]]`, `[[PENDENTE: degrau de entrada, o que é]]`, `[[PENDENTE: degrau de entrada, preço]]`, `[[PENDENTE: degrau de entrada, garantia]]`, `[[PENDENTE: degrau de entrada, política de crédito]]`, `[[PENDENTE: fechamento]]`, `[[CONFIRMAR: grupo de avisos]]`.
 3. **UTM:** a lista de espera tem domínio próprio na BFV/26 de referência ("lista de espera"). Registrar `utm_source=lista-de-espera` e o motivo do campo "O que te trouxe até aqui?".
 4. **Quem não entra em esforço comercial:** renda até R$ 3.000 (4.761 pessoas do Aulão). Elas caem nesta lista, sem abordagem 1 a 1.
 5. **Testes A/B:** (1) versão 1 contra versão 3 do hero para quem vem da pesquisa; (2) campo de motivo visível contra escondido; (3) botão "QUERO FICAR NA LISTA" contra "ME AVISE SE HOUVER".

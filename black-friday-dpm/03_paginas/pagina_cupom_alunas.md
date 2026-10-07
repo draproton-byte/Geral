@@ -70,7 +70,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 **O que acontece**
 
-1. `Agora: você confirma sua presença na live.` (botão: CONFIRMAR MINHA PRESENÇA) [[LINK: captura_C]]
+1. `Agora: você confirma sua presença na live.` [[BOTÃO: CONFIRMAR MINHA PRESENÇA]] [[LINK: captura_C]]
 2. `03/11, 20h: a Dra. revela a condição ao vivo no YouTube.` [[LINK: página da live]]
 3. `Depois da live: volte a esta página, e o seu botão de aluna aparece aqui.`
 
@@ -105,7 +105,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 **Texto de segurança**
 `Seu lugar na live fica confirmado de qualquer forma.`
 
-**Se o acesso encerrou** `[[PENDENTE: tratamento de aluna com acesso encerrado: entra como aluna? como não-aluna?]]`
+**Se o acesso encerrou** `[[PENDENTE: regra de migração, aluna com acesso encerrado: entra como aluna ou como não-aluna?]]`
 
 ---
 
@@ -126,7 +126,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 
 **Valor**
 `[[PREÇO LOTE ALUNAS: lote atual]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de {{parcela_alunas}} no cartão`
+`ou em até [[PENDENTE: parcelamento]]x de {{parcela_alunas}} no cartão`
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
 
 **Botão**
@@ -153,8 +153,8 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 - `[[PENDENTE: bônus]]` (se houver)
 
 **O que acontece com o que você já tem**
-`[[PENDENTE: tratamento do tempo restante do acesso atual]]`
-`[[PENDENTE: tratamento de quem já tem algum dos 11]]`
+`[[PENDENTE: regra de migração, tempo restante do acesso atual]]`
+`[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
 
 **Botão secundário**
 `VER A PÁGINA DE VENDAS COMPLETA` [[LINK: pagina_de_vendas_vitalicia (versão alunas)]]
@@ -207,7 +207,7 @@ Placeholder: `o mesmo e-mail da sua área de membros`
 ## Notas ao implementador
 
 1. **Antes da live, nada de preço, nem em print, nem em texto escondido (aria-label, meta description).** Revisar o HTML do estado 1.
-2. **Pendências:** `[[PENDENTE: contagem de alunas]]`, `[[CONFIRMAR: critério de aluna]]`, `[[PENDENTE: tratamento do tempo restante]]`, `[[PENDENTE: tratamento de quem já tem algum dos 11]]`, `[[LINK: checkout alunas por lote]]` (3 links), `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`.
+2. **Pendências:** `[[PENDENTE: contagem de alunas]]`, `[[CONFIRMAR: critério de aluna]]`, `[[PENDENTE: regra de migração, tempo restante]]`, `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`, `[[LINK: checkout alunas por lote]]` (3 links), `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`.
 3. **Cupom ou link próprio:** a BFV/26 de referência usa lista, tag, checkout e ListBoss próprios para alunas. Escolher entre código de cupom aplicado no checkout comum ou link de checkout separado. Link separado reduz o erro de quem esquece o cupom.
 4. **Testes A/B:** (1) estado 1 com a lista dos 11 produtos contra sem lista; (2) botão "RECONHECER MINHA CONDIÇÃO" contra "VER MINHA CONDIÇÃO".
 5. **Dependências:** `captura_C_alunas_do_clube.md` (origem), `pagina_de_vendas_vitalicia.md` (versão alunas), `lista_de_espera.md`, `05_whatsapp_api` e `06_emails` (disparo segmentado com o link desta página).

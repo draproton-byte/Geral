@@ -75,7 +75,7 @@ Este bloco precisa converter mesmo que a pessoa não role a página.
 |---|---|
 | Termostato Invisível | "Quando entra um dinheiro a mais, aparece uma conta." Parece que existe um limite que você não escolheu. |
 | Autossabotagem | "Eu sei o que fazer e não faço." Você chega perto e algo te faz adiar, recomeçar ou desistir. |
-| Cobrança Que Você Só Faz Com Você | "Estou funcional, mas exausta por dentro." Você entrega para todo mundo e se cobra mais do que cobra de qualquer pessoa. |
+| Cobrança Que Você Só Faz Com Você | "Estou funcional, mas exausta(o) por dentro." Você entrega para todo mundo e se cobra mais do que cobra de qualquer pessoa. |
 | Traumas Que Ainda Decidem | "Sinto que a cada passo que dou, retrocedo." Uma frase antiga ainda decide por você na hora de agir. |
 | Culpa de Querer Mais | "Eu cuido de todo mundo, mas ninguém cuida de mim." Querer mais para você vem junto com culpa. |
 
@@ -127,14 +127,14 @@ Testar **uma variável por vez**. Ordem sugerida: A0 contra A1 contra A4 (as tr�
 **Subtítulos alternativos (qualquer headline)**
 
 - S1 (padrão): `Faça o diagnóstico gratuito e reserve seu lugar na live em que a Dra. Próton abre a Vitalícia.`
-- S2 (curto): `Diagnóstico gratuito e live ao vivo em 03/11, às 20h. A Dra. Próton revela a condição da Vitalícia.`
+- S2 (curto): `Diagnóstico gratuito e live em 03/11, às 20h. A Dra. Próton revela a condição da Vitalícia ao vivo.`
 - S3 (para quem tem medo de não implementar): `Sem prazo para dar conta e sem a pressão de "preciso usar logo". A condição é revelada ao vivo em 03/11, às 20h.`
 
 **Botões alternativos**
 
 - B1 (padrão): `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 - B2: `LIBERAR MEU DIAGNÓSTICO GRATUITO`
-- B3: `RESERVAR MEU LUGAR NA LIVE DE 03/11`
+- B3: `RESERVAR MEU LUGAR NA LIVE`
 - B4 (baixa fricção): `QUERO VER QUAL É O MEU`
 
 ---
@@ -163,7 +163,7 @@ Linha de transição:
 
 **Função:** prova antes de argumento. A última linha cumpre o compliance (relatos, não garantia).
 
-**Regra:** nenhum depoimento que cite ganho de dinheiro, quitação de dívida ou cura. Aprovar só relatos de padrão ("parei de adiar", "consegui terminar o que comecei").
+**Regra:** nenhum depoimento que cite ganho de dinheiro, quitação de dívida ou tratamento. Aprovar só relatos de padrão ("parei de adiar", "consegui terminar o que comecei").
 
 ---
 
@@ -224,15 +224,15 @@ Cada perfil em um card (no mobile, carrossel de cards; botão "Ver o meu" abaixo
 
 **Card 2: Autossabotagem**
 `"Eu sei o que fazer e não faço."`
-`Você tem informação, tem vontade e chega perto. Na hora de agir, adia, muda de ideia ou recomeça do zero. Não é falta de caráter. É um padrão que age no momento exato em que você ia agir.`
+`Informação e vontade não faltam, e você chega perto. Na hora de agir, adia, muda de ideia ou recomeça do zero. Não é falta de caráter. É um padrão que age no momento exato em que você ia agir.`
 
 **Card 3: Cobrança Que Você Só Faz Com Você**
-`"Estou funcional, mas exausta por dentro."`
+`"Estou funcional, mas exausta(o) por dentro."`
 `Você entrega, cuida e dá conta de tudo. E se cobra mais do que cobraria de qualquer pessoa. Descansar vem com a sensação de estar perdendo tempo.`
 
 **Card 4: Traumas Que Ainda Decidem**
 `"Sinto que a cada passo que dou, retrocedo."`
-`Uma frase, um olhar, um medo antigo virou regra sem você perceber. Ele não avisa. Decide na hora em que você vai dar o passo.`
+`Uma frase, um olhar, um medo antigo viraram regra sem você perceber. Eles não avisam. Decidem na hora em que você vai dar o passo.`
 
 **Card 5: Culpa de Querer Mais**
 `"Eu cuido de todo mundo, mas ninguém cuida de mim."`
@@ -243,8 +243,8 @@ Cada perfil em um card (no mobile, carrossel de cards; botão "Ver o meu" abaixo
 **Linha de fechamento do bloco**
 `Se você marcou "não sei", tudo bem. É exatamente para isso que o diagnóstico existe.`
 
-**Botão**
-`QUERO DESCOBRIR MEU PADRÃO`
+**Botão (repete o do hero)**
+`QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 
 **Microcopy sob o botão**
 `Diagnóstico de padrões de comportamento. Não é avaliação clínica e não substitui acompanhamento de um profissional de saúde.`
@@ -277,10 +277,10 @@ Linha de escassez (única permitida):
 
 `[[PENDENTE: replay]]` (nenhuma versão afirma nem nega replay até a decisão; as duas redações possíveis estão nas Notas ao implementador)
 
-**Botão**
-`RESERVAR MEU LUGAR NA LIVE DE 03/11`
+**Botão (repete o do hero)**
+`QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 
-**Função:** diz o que acontece e quando, sem nenhum valor. A frase "esta condição não se repete" é a correção aprovada da antiga "a porta fecha e não reabre" (ver `00_ESTRATEGIA_COPY_SENIOR.md`, seção 2).
+**Função:** diz o que acontece e quando, sem nenhum valor. A frase "esta condição não se repete" é a correção aprovada da antiga frase da página publicada sobre a porta do pagamento único (ver `00_ESTRATEGIA_COPY_SENIOR.md`, seção 2).
 
 ---
 
@@ -352,7 +352,7 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 `Sim. Reservar o lugar e fazer o diagnóstico não custa nada e não exige compra. A condição da Vitalícia só é apresentada na live, e você decide ali, se fizer sentido.`
 
 **Quanto custa a Vitalícia?**
-`O valor é revelado só ao vivo, em 03/11, às 20h. Por isso nenhuma peça e nenhuma pessoa da equipe fala de preço antes. O que posso adiantar: é pagamento único, e o parcelamento é apresentado na live com todas as opções.`
+`O valor é revelado só ao vivo, em 03/11, às 20h. Por isso ninguém da equipe fala de preço antes. O que posso adiantar: é pagamento único, e o parcelamento é apresentado na live com todas as opções.`
 [[CONFIRMAR: parcelamento será visível na revelação]]
 
 **Eu já comprei outros cursos e não tive resultado. Por que seria diferente?**
@@ -418,12 +418,12 @@ Estrutura: pergunta em negrito, resposta de 2 a 4 linhas, botão ao final.
 | Item | Antes | Agora | Por quê |
 |---|---|---|---|
 | Headline | "Por um único preço, você vai ter acesso pra sempre ao Clube Secreto e a todas as Imersões" | Diagnóstico acima da dobra (A0) | 29% a 40% não sabem nomear a dor. O catálogo vai para o bloco 06 |
-| "A porta do pagamento único fecha e não reabre" | Presente | "Esta condição não se repete. O que vier depois é outra oferta, com outro preço." | Correção obrigatória (briefing proíbe "porta fecha para sempre") |
-| "Mais barato do que a mensalidade" | Presente | Removido, vira `[[CONFIRMAR: comparação com mensalidade]]` | Só existe comparação se houver cobrança recorrente |
+| Frase sobre a porta do pagamento único se fechar sem reabrir | Presente | "Esta condição não se repete. O que vier depois é outra oferta, com outro preço." | Correção obrigatória (o briefing proíbe esse tipo de frase, guia seção 3) |
+| Frase de comparação de preço com a cobrança recorrente | Presente | Removido, vira `[[CONFIRMAR: comparação com mensalidade]]` | Só existe comparação se houver cobrança recorrente |
 | Frase de menor preço só para quem estiver ao vivo | Presente | Removido | Pode contradizer lotes por data. Ver nota 3 |
 | "Premiada duas vezes" | Presente | Removido | Sem fonte |
 | Frase que afirmava que a revelação não teria replay | Presente | `[[PENDENTE: replay]]` | Decisão não fechada |
-| Botão "Quero Garantir o Menor Preço" | Presente | "Quero descobrir meu padrão e entrar na live" | "Menor preço" é pressão antes de existir preço |
+| Botão "Quero Garantir o Menor Preço" | Presente | "Quero meu lugar e meu diagnóstico" | "Menor preço" é pressão antes de existir preço |
 
 ---
 

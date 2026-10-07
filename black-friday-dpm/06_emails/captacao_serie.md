@@ -4,37 +4,41 @@
 |---|---|
 | Peça | Série EM-BF-01 a EM-BF-22 |
 | Canal | E-mail, todos os dias às 07h |
-| Público | Todos os inscritos e a base de e-mail (S3 não-alunas e base fria como núcleo). S1 e S2 recebem a série, exceto nas 11 datas de exclusão da tabela abaixo (12 envios segmentados), em que recebem o e-mail segmentado das 09h no lugar |
+| Público | Todos os inscritos e a base de e-mail (S3 não-alunas e base fria como núcleo). S1 e S2 recebem a série, exceto nas datas de exclusão da tabela abaixo (14 envios segmentados), em que recebem o e-mail segmentado das 09h no lugar |
 | Momento | 13/10 a 03/11, uma ideia por dia, na ordem da tabela |
 | Objetivo | Levar a pessoa de "isso é comigo" até estar na live de 03/11 às 20h, no grupo, e com a decisão já pensada. Não vende produto nem cita preço |
 | Consciência | Fase 1 (13 a 19/10): 1 a 2. Fase 2 (20 a 27/10): 2 a 4. Fase 3 (28/10 a 03/11): 4 a 5 |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." Cada e-mail mostra um pedaço do ciclo de recomeçar e aponta para a live |
 | Modelo no Desafio | Sequência de e-mails por noite do Desafio (EMAIL 01 a 05 do lembrete: abre com o que a pessoa já fez, nomeia a dor do dia, diz o que ela sai tendo na mão, botão grande, "até às 20h"). Aqui a unidade é a ideia do dia, não a noite |
 
-**Regra de exclusão (07h x 09h).** Nos dias em que S1 (Alunas) ou S2 (Desafio, Imersão, Aulão) recebem o e-mail segmentado das 09h (`segmentados_09h.md`), esse segmento é **excluído** do envio das 07h daquele dia. Assim ninguém recebe dois e-mails promocionais sobre o mesmo assunto no mesmo dia. A tabela abaixo é a mesma do arquivo dos segmentados; se uma data mudar, mude nos dois arquivos.
+**Regra de exclusão (07h x 09h).** Nos dias em que S1 (Alunas) ou S2 (Desafio, Imersão, Aulão) recebem o e-mail segmentado das 09h, esse segmento é **excluído** do envio das 07h daquele dia. Assim ninguém recebe dois e-mails promocionais sobre o mesmo assunto no mesmo dia. As datas vêm de duas fontes e a tabela abaixo é a soma das duas; se uma data mudar, mude aqui e na fonte.
+
+- **S1 (alunas):** a série canônica `13_modelo_dr_joao/email_alunas_captacao.md` (8 e-mails às 09h, só para alunas que ainda não se inscreveram na live). A série SA de `segmentados_09h.md` é banco de reserva e só pode sair fora das 8 datas do canônico.
+- **S2 (Desafio, Imersão, Aulão):** a série SD de `segmentados_09h.md` (6 e-mails às 09h).
 
 | Data | Segmento excluído das 07h | E-mail das 07h que ele não recebe | E-mail das 09h que recebe no lugar |
 |---|---|---|---|
-| 14/10 | S1 | EM-BF-02 | SA-01 |
-| 16/10 | S2 | EM-BF-04 | SD-01 |
-| 18/10 | S1 | EM-BF-06 | SA-02 |
-| 20/10 | S2 | EM-BF-08 | SD-02 |
-| 22/10 | S1 | EM-BF-10 | SA-03 |
-| 23/10 | S2 | EM-BF-11 | SD-03 |
-| 26/10 | S1 | EM-BF-14 | SA-04 |
-| 27/10 | S2 | EM-BF-15 | SD-04 |
-| 29/10 | S1 | EM-BF-17 | SA-05 |
-| 30/10 | S2 | EM-BF-18 | SD-05 |
-| 01/11 | S1 e S2 | EM-BF-20 | SA-06 (S1) e SD-06 (S2) |
+| 15/10 (qui) | S1 | EM-BF-03 | canônico 01 das alunas |
+| 16/10 (sex) | S2 | EM-BF-04 | SD-01 |
+| 20/10 (ter) | S1 e S2 | EM-BF-08 | canônico 02 (S1) e SD-02 (S2) |
+| 23/10 (sex) | S1 e S2 | EM-BF-11 | canônico 03 (S1) e SD-03 (S2) |
+| 27/10 (ter) | S1 e S2 | EM-BF-15 | canônico 04 (S1) e SD-04 (S2) |
+| 29/10 (qui) | S1 | EM-BF-17 | canônico 05 |
+| 30/10 (sex) | S2 | EM-BF-18 | SD-05 |
+| 31/10 (sáb) | S1 | EM-BF-19 | canônico 06 |
+| 01/11 (dom) | S2 | EM-BF-20 | SD-06 |
+| 02/11 (seg, Finados) | S1 | EM-BF-21 | canônico 07 |
+| 03/11 (ter) | S1 | EM-BF-22 | canônico 08 |
 
-São 11 datas e 12 envios segmentados (em 01/11, S1 e S2 recebem cada um o seu).
+São 11 datas e 14 envios segmentados (8 de S1 e 6 de S2). Quem já se inscreveu na live não entra no canônico das alunas e continua recebendo a série das 07h. Nenhuma data cai em 14/10, 18/10, 22/10 e 26/10 para S1 porque a série SA está em reserva.
 
-**Regra do lembrete das 12h e dos dias 02/11 e 03/11.** O lembrete operacional das 12h (`lembretes_da_live.md`) vai só para quem tem a tag "inscrito na live". Para não repetir assunto no mesmo dia:
+**Regra do lembrete das 09h e dos dias 02/11 e 03/11.** O lembrete operacional (`lembretes_da_live.md`) sai às 09h, dentro da cadência canônica (e-mail 07h, 09h para segmentos), e vai só para quem tem a tag "inscrito na live". Para não repetir assunto no mesmo dia:
 
-1. Nos dias 29/10 (S1), 30/10 (S2) e 01/11 (S1 e S2), o segmento que recebeu o segmentado das 09h **não recebe** o lembrete das 12h daquele dia (LV-29, LV-30 e LV-01). O segmentado já leva o botão do grupo e a data.
-2. Em 02/11 e 03/11, quem tem a tag "inscrito na live" recebe apenas o operacional (LV-02 em 02/11; LV-03-01 a LV-03-06 em 03/11). Os e-mails EM-BF-21 e EM-BF-22 das 07h vão só para quem **não** tem a tag. Nesses dois dias o botão principal é o `[BOTÃO 1]`.
-3. Nos demais dias de 28/10 a 01/11, quem é inscrito recebe o das 07h (ideia de identidade) e o das 12h (logística), que têm ideias diferentes. Monitorar descadastro.
-4. Os e-mails de onboarding (OB) são transacionais e não entram na conta.
+1. Em 30/10 e em 01/11, S2 recebe o segmentado SD das 09h e **não recebe** o lembrete do mesmo dia (LV-30 e LV-01). O segmentado já leva o botão do grupo e a data.
+2. S1 não colide: o canônico das alunas exclui quem já se inscreveu na live, que é quem recebe os lembretes. Se algum SA do banco de reserva for usado em dia de lembrete (por exemplo SA-06 em 01/11), a aluna deixa de receber o lembrete daquele dia.
+3. Em 02/11 e 03/11, quem tem a tag "inscrito na live" recebe apenas o operacional (LV-02 em 02/11; LV-03-01 a LV-03-06 em 03/11). Os e-mails EM-BF-21 e EM-BF-22 das 07h vão só para quem **não** tem a tag. Nesses dois dias o botão principal é o `[BOTÃO 1]`.
+4. Nos demais dias de 28/10 a 01/11, quem é inscrito recebe o das 07h (ideia de identidade) e o das 09h (logística), que têm ideias diferentes. Monitorar descadastro.
+5. Os e-mails de onboarding (OB) são transacionais e não entram na conta.
 
 **Padrão de cada e-mail.** Assunto principal (A), variante (B) com outra frase da audiência para teste, linha de preview, corpo, **um único botão**. O botão é um dos três: `[BOTÃO 1]` QUERO ASSISTIR À LIVE (para quem ainda não se inscreveu, leva para a captura), `[BOTÃO 2]` ENTRAR NO GRUPO DA LIVE (para inscritos que não entraram no grupo), `[BOTÃO 3]` FAZER MEU DIAGNÓSTICO. O sistema escolhe o botão pelo estado do contato, e cada pessoa vê só um. Cada e-mail abaixo traz o botão principal e, entre colchetes, o alternativo.
 
@@ -79,7 +83,7 @@ São 11 datas e 12 envios segmentados (em 01/11, S1 e S2 recebem cada um o seu).
 
 **Tom de 02/11 (Finados).** EM-BF-21 e LV-02 saem num dia de recolhimento para muita gente: sem emoji, sem exclamação, frases curtas, nenhum apelo de urgência.
 
-**03/11 é terça, dia da aula ao vivo do Clube.** Para S1, o aviso sobre a aula está em OB-02 (S1) e SA-06, com `[[CONFIRMAR]]` até a equipe decidir.
+**03/11 é terça, dia da aula ao vivo do Clube.** Para S1, o aviso sobre a aula está em OB-02 (S1) e no e-mail 08 do canônico das alunas (e em SA-06, se reaproveitado), com `[[CONFIRMAR]]` até a equipe decidir.
 
 ---
 
@@ -576,12 +580,12 @@ Dra. Próton
 Ideia: preparação para a decisão. Consciência 4 a 5. 03/11/2026 cai numa terça-feira.
 
 **Assunto A:** O que fazer antes de terça, às 20h
-**Assunto B:** 4 coisas para ter na mão antes da live
+**Assunto B:** Um roteiro curto para chegar preparado
 **Linha de preview:** Para você decidir com a cabeça, não com o impulso
 
 {{nome}},
 
-Terça-feira, 03/11, às 20h. Antes dela, quatro coisas para ter na mão:
+Terça-feira, 03/11, às 20h. Um roteiro curto para você chegar preparado:
 
 1. O link da live, no grupo. Se ainda não entrou, entre agora.
 2. Um caderno e uma caneta. A live tem uma conta para fazer, e é melhor no papel.

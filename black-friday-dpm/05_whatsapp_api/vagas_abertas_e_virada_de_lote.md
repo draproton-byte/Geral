@@ -2,8 +2,8 @@
 
 | Campo | Conteúdo |
 |---|---|
-| **Peça** | Sequência pós-live: carrinho aberto (dia seguinte), objeções, últimas horas do Lote Especial, virada para Primeiro Lote, últimas horas, virada para Último Lote, último dia, últimas horas e última hora do fechamento, encerramento e saída honrosa. Grupo (16 momentos) e API (8 momentos), cada um em duas versões: não-alunas e alunas |
-| **Canal** | Grupos de WhatsApp (geral e Desafio/Imersão usam a versão não-alunas; grupo de alunas usa a versão -AL) e WhatsApp API oficial |
+| **Peça** | Sequência pós-live: carrinho aberto (dia seguinte), objeções, últimas horas do Lote Especial [[CONFIRMAR: Lote Especial só para quem está ao vivo]], virada para Primeiro Lote, últimas horas, virada para Último Lote, último dia, últimas horas e última hora do fechamento, encerramento e saída honrosa. Grupo (16 momentos) e API (8 momentos), cada um em duas versões: não-alunas e alunas |
+| **Canal** | Grupos de WhatsApp (geral e Desafio/Imersão usam a versão não-alunas; grupo de alunas usa a versão -AL) e WhatsApp API oficial (templates a aprovar na Meta; ver "Aprovação de template" nas notas) |
 | **Público** | Reservaram a vaga e não compraram. Consciência 5 (pronto). Dois segmentos de preço: alunas do Clube e não-alunas (inclui Desafio/Imersão/Aulão sem Clube) |
 | **Momento** | De 04/11 até o fechamento. Datas de virada e de fechamento: `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]` |
 | **Objetivo** | Converter a decisão tomada na live, respondendo as três objeções (dinheiro, medo de não aplicar, "já comprei e não tive resultado") com escassez só por lote real |
@@ -24,25 +24,25 @@
 | Quando | Grupo | API | Objetivo |
 |---|---|---|---|
 | 03/11, durante a live | CP-BF-76 (`dia_da_live_03_11.md`) | API-BF-17 | Carrinho aberto, Lote Especial |
-| 04/11 manhã | CP-BF-V01 | API-BF-V01 | A condição está aberta, recapitula o que entra |
-| 04/11 tarde | CP-BF-V02 | | Quebra da objeção de dinheiro |
-| 04/11 noite | CP-BF-V03 | | Antes de decidir, garantia |
-| Dias entre 05/11 e E1-1 | Repetir V01 a V03 em ordem, com um depoimento `[[DEPOIMENTO REAL]]` por dia | | Manter a decisão viva sem inventar urgência |
+| 04/11, 11h30 | CP-BF-V01 | API-BF-V01 (09h) | A condição está aberta, recapitula o que entra |
+| 04/11, 20h | CP-BF-V02 | | Quebra da objeção de dinheiro |
+| 05/11, 11h30 | CP-BF-V03 | | Antes de decidir, garantia |
+| Dias entre 06/11 e E1-1 | Repetir V01 a V03 em ordem, com um depoimento `[[DEPOIMENTO REAL]]` por dia | | Manter a decisão viva sem inventar urgência |
 | E1, manhã | CP-BF-V04 | API-BF-V02 | Último dia do Lote Especial |
 | E1, 3 horas antes | CP-BF-V05 | | Últimas horas do Lote Especial |
 | E1, hora da virada | CP-BF-V06 | API-BF-V03 | Virou: Primeiro Lote |
-| Dias entre E1 e E2 | CP-BF-V07 e depoimentos | | Objeção "já comprei e não tive resultado" |
+| Dias entre E1 e E2 | CP-BF-V07 (20h) e depoimentos | | Objeção "já comprei e não tive resultado" |
 | E2, manhã | CP-BF-V08 | API-BF-V04 | Último dia do Primeiro Lote |
 | E2, 3 horas antes | CP-BF-V09 | | Últimas horas do Primeiro Lote |
 | E2, hora da virada | CP-BF-V10 | API-BF-V05 | Virou: Último Lote |
-| Dias entre E2 e E3 | CP-BF-V11 | | Objeção "medo de não aplicar", trilha de entrada |
+| Dias entre E2 e E3 | CP-BF-V11 (20h) | | Objeção "medo de não aplicar", trilha de entrada |
 | E3, manhã | CP-BF-V12 | API-BF-V06 | Último dia |
 | E3, 3 horas antes | CP-BF-V13 | | Últimas horas |
 | E3, 1 hora antes | CP-BF-V14 | API-BF-V07 | Última hora |
 | E3, fechamento | CP-BF-V15 | | Encerrou |
 | E3 + 1 dia | CP-BF-V16 | API-BF-V08 | Saída honrosa (condicional a lista de espera) |
 
-Em cada dia sem peça de virada, a cadência é a da captação: grupos às 11h30, 16h30 e 20h, API às 09h só nos dias-chave.
+Em cada dia sem peça de virada, a cadência é a canônica: e-mail 07h, API 09h só nos dias-chave e grupos às 11h30 e 20h (2 por dia; o slot de 16h30 é banco de reserva e não entra). As peças que no rascunho estavam às 16h30 (V02, V07 e V11) foram movidas para o slot das 20h ou 11h30, sem apagar texto.
 
 ## 2. Regras de forma
 
@@ -107,7 +107,7 @@ Você não entra em tudo de uma vez: existe uma trilha de entrada. [[CONFIRMAR: 
 Reage com 🔓 se você já entrou. Com 💬 se ficou alguma dúvida.
 ```
 
-### CP-BF-V02 | 04/11, 16:30 | A CONTA DE FICAR PARADA
+### CP-BF-V02 | 04/11, 20:00 | A CONTA DE FICAR PARADA
 
 Modelo: CP 46 (02/10, 17h, parcelamento sem limite). Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
@@ -131,7 +131,7 @@ Formas de pagamento: [[CONFIRMAR: parcelamento, Pix, boleto, dois cartões]]
 Reage com 🧮 se você fez a conta.
 ```
 
-### CP-BF-V02-AL | 04/11, 16:30 | A CONTA DE FICAR PARADA
+### CP-BF-V02-AL | 04/11, 20:00 | A CONTA DE FICAR PARADA
 
 Modelo: CP 46 (02/10, 17h, parcelamento sem limite). Lote: Lote Especial. Público: alunas do Clube.
 
@@ -155,7 +155,7 @@ Formas de pagamento: [[CONFIRMAR: parcelamento, Pix, boleto, dois cartões]]
 Reage com 🧮 se você fez a conta.
 ```
 
-### CP-BF-V03 | 04/11, 20:00 | ANTES DE DECIDIR
+### CP-BF-V03 | 05/11, 11:30 | ANTES DE DECIDIR
 
 Modelo: CP 34 (01/10), quebra de objeção. Lote: Lote Especial. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
@@ -172,7 +172,7 @@ Faz 3 perguntas:
 
 🛡️ Garantia: [[PENDENTE: garantia]]
 
-O risco de decidir está dito. O de ficar parada, também.
+O risco de decidir está dito. O de continuar no mesmo lugar, também.
 
 👇 Se for a sua hora:
 
@@ -181,7 +181,7 @@ O risco de decidir está dito. O de ficar parada, também.
 Reage com ✍️ se você respondeu as 3.
 ```
 
-### CP-BF-V03-AL | 04/11, 20:00 | ANTES DE DECIDIR
+### CP-BF-V03-AL | 05/11, 11:30 | ANTES DE DECIDIR
 
 Modelo: CP 34 (01/10), quebra de objeção. Lote: Lote Especial. Público: alunas do Clube.
 
@@ -200,7 +200,7 @@ Faz 3 perguntas:
 
 🛡️ Garantia: [[PENDENTE: garantia]]
 
-O risco de decidir está dito. O de ficar parada, também.
+O risco de decidir está dito. O de continuar no mesmo lugar, também.
 
 👇 Se for a sua hora:
 
@@ -353,7 +353,7 @@ Reage com 🔓 se você entrou.
 
 *Nota:* Trocar nome e capa do grupo para o estado 'Virada de lote'.
 
-### CP-BF-V07 | Primeiro Lote, dia 2, 16:30 | JÁ COMPREI E NÃO TIVE RESULTADO
+### CP-BF-V07 | Primeiro Lote, dia 2, 20:00 | JÁ COMPREI E NÃO TIVE RESULTADO
 
 Modelo: CP 34 (01/10). Lote: Primeiro Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
@@ -362,7 +362,7 @@ Modelo: CP 34 (01/10). Lote: Primeiro Lote. Público: não-alunas (grupo geral e
 
 Eu escuto isso o tempo todo. E eu entendo.
 
-Mas olha o que costuma acontecer: você aplica *sozinha* depois, e o mesmo padrão que você queria mudar sabota a aplicação.
+Mas olha o que costuma acontecer: você aplica *por conta própria* depois, e o mesmo padrão que você queria mudar sabota a aplicação.
 
 Aqui você tem acompanhamento e uma trilha de entrada.
 
@@ -375,7 +375,7 @@ Aqui você tem acompanhamento e uma trilha de entrada.
 Reage com 🙋 se essa frase é sua.
 ```
 
-### CP-BF-V07-AL | Primeiro Lote, dia 2, 16:30 | JÁ COMPREI E NÃO TIVE RESULTADO
+### CP-BF-V07-AL | Primeiro Lote, dia 2, 20:00 | JÁ COMPREI E NÃO TIVE RESULTADO
 
 Modelo: CP 34 (01/10). Lote: Primeiro Lote. Público: alunas do Clube.
 
@@ -384,7 +384,7 @@ Modelo: CP 34 (01/10). Lote: Primeiro Lote. Público: alunas do Clube.
 
 Eu escuto isso o tempo todo. E eu entendo.
 
-Mas olha o que costuma acontecer: você aplica *sozinha* depois, e o mesmo padrão que você queria mudar sabota a aplicação.
+Mas olha o que costuma acontecer: você aplica *por conta própria* depois, e o mesmo padrão que você queria mudar sabota a aplicação.
 
 Você que é do Clube conhece esse acompanhamento por dentro.
 
@@ -527,7 +527,7 @@ Depois do Último Lote, esta condição não se repete.
 Reage com 🔓 se você entrou.
 ```
 
-### CP-BF-V11 | Último Lote, dia 2, 16:30 | 11 PRODUTOS, UM PASSO
+### CP-BF-V11 | Último Lote, dia 2, 20:00 | 11 PRODUTOS, UM PASSO
 
 Modelo: CP 03 (02/10) 'não deixar o automático voltar'. Lote: Último Lote. Público: não-alunas (grupo geral e grupo Desafio/Imersão).
 
@@ -547,7 +547,7 @@ Existe uma *trilha de entrada*: um passo de cada vez, sem prazo para dar conta. 
 Reage com 🧭 se você quer começar por um passo só.
 ```
 
-### CP-BF-V11-AL | Último Lote, dia 2, 16:30 | 11 PRODUTOS, UM PASSO
+### CP-BF-V11-AL | Último Lote, dia 2, 20:00 | 11 PRODUTOS, UM PASSO
 
 Modelo: CP 03 (02/10) 'não deixar o automático voltar'. Lote: Último Lote. Público: alunas do Clube.
 
@@ -744,13 +744,13 @@ Para quem ficou de fora desta vez:
 
 Você não perdeu o jeito de começar. Só não era a hora desta condição.
 
-Se quiser ser avisada quando eu abrir uma próxima turma ou oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
+Se quiser receber um aviso caso exista uma nova oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
 
 [[LINK: lista de espera]]
 
 Eu não prometo que vai ter outra. Se tiver, será uma oferta diferente, com outro preço.
 
-Reage com 💜 se quer ser avisada.
+Reage com 💜 se quer receber o aviso.
 ```
 
 *Nota:* Só disparar se a equipe decidir ter lista de espera (ver 00, seção 5).
@@ -764,13 +764,13 @@ Para quem ficou de fora desta vez:
 
 Você não perdeu o jeito de começar. Só não era a hora desta condição.
 
-Se quiser ser avisada quando eu abrir uma próxima turma ou oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
+Se quiser receber um aviso caso exista uma nova oferta: [[CONFIRMAR: lista de espera, decisão da Dra.]]
 
 [[LINK: lista de espera]]
 
 Eu não prometo que vai ter outra. Se tiver, será uma oferta diferente, com outro preço.
 
-Reage com 💜 se quer ser avisada.
+Reage com 💜 se quer receber o aviso.
 ```
 
 *Nota:* Só disparar se a equipe decidir ter lista de espera (ver 00, seção 5).
@@ -1059,12 +1059,12 @@ Modelo: Sem equivalente direto. Lote: Último Lote. Público: não-alunas (grupo
 
 Se você ficou em dúvida, está tudo bem. Esta condição não se repete, e o que vier depois é outra oferta, com outro preço.
 
-Se quiser ser avisada quando eu abrir uma próxima oportunidade, toque no botão.
+Se quiser receber um aviso caso exista uma nova oferta, toque no botão.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ QUERO SER AVISADA ]` → `[[LINK: checkout Último Lote não-alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
 
@@ -1077,12 +1077,12 @@ Modelo: Sem equivalente direto. Lote: Último Lote. Público: alunas do Clube.
 
 Se você ficou em dúvida, está tudo bem. Esta condição não se repete, e o que vier depois é outra oferta, com outro preço.
 
-Se quiser ser avisada quando eu abrir uma próxima oportunidade, toque no botão.
+Se quiser receber um aviso caso exista uma nova oferta, toque no botão.
 
 Digite SAIR se não quiser mais receber mensagens
 ```
 
-**Botões:** `[ QUERO SER AVISADA ]` → `[[LINK: checkout Último Lote alunas]]` · `[ PARAR MENSAGENS ]`
+**Botões:** `[ QUERO O AVISO ]` → `[[LINK: lista de espera]]` · `[ PARAR MENSAGENS ]`
 
 *Nota:* Só enviar se houver lista de espera [[CONFIRMAR: lista de espera, decisão da Dra.]].
 
@@ -1108,8 +1108,18 @@ Digite SAIR se não quiser mais receber mensagens
 3. `[[CONFIRMAR: regra de migração]]`: o que acontece com o acesso atual de quem já é aluna. É a primeira pergunta do grupo de alunas depois da live.
 4. `[[CONFIRMAR: parcelamento]]`: confirmar parcelas máximas, Pix, boleto e uso de dois cartões no checkout.
 5. `[[LINK: checkout ...]]`: um checkout por lote e por segmento (seis links). Cada um com UTM `src=api` ou `src=grupo`.
-6. Escada de preços para o implementador (não aparece em texto público antes da live): alunas, Lote Especial R$ 1.997, Primeiro Lote R$ 2.997, Último Lote R$ 3.997. Não-alunas, Lote Especial R$ 2.997, Primeiro Lote R$ 3.997, Último Lote R$ 4.997. A vantagem de aluna é fixa em R$ 1.000 por lote.
+6. Escada de preços para o implementador: está no briefing, em `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1 (três lotes para alunas e três para não-alunas, com vantagem fixa de aluna por lote). Nenhum valor é repetido neste arquivo e nenhum aparece em texto público antes da live.
 7. Trocas de nome e capa do grupo estão indicadas em cada peça (estados da tabela de `grupos_descricao_e_grupo_cheio.md`).
+
+**Aprovação de template (Meta)**
+
+| ID | Categoria | Botões | Status |
+|---|---|---|---|
+| API-BF-V01, V01-A | Marketing | 2 (URL: GARANTIR MINHA VAGA; resposta rápida: PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**. Preço e lote por variável (`{{preco_lote}}`, `{{lote_atual}}`, `{{data_virada}}`), com valor de exemplo neutro no texto enviado à Meta |
+| API-BF-V02 a V07 (e -A) | Marketing | 2 | **PRECISA DE APROVAÇÃO**, um por lote e segmento. Só entram em uso depois da revelação |
+| API-BF-V08, V08-A | Marketing | 2 (URL: lista de espera; PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO**, só se houver lista de espera `[[CONFIRMAR: lista de espera, decisão da Dra.]]` |
+
+Todos com rodapé SAIR, sem cabeçalho, corpo curto (menos de 450 caracteres) e sem "últimas vagas" ou "vagas acabando": a escassez é só por lote real.
 
 **Testes A/B sugeridos**
 1. CP-BF-V04 (último dia): com a frase "Depois disso, o valor sobe" contra uma versão que mostra os dois preços lado a lado. Medir cliques em checkout.

@@ -25,7 +25,7 @@
 
 ## Cronograma de disparos
 
-Enviar um SMS teste antes de cada disparo para os números da equipe `[[PENDENTE: números de teste]]`.
+Enviar um SMS teste antes de cada disparo para os números da equipe `[[CONFIRMAR: números de teste]]`.
 
 | Data | Hora | Formato | Peça |
 |---|---|---|---|
@@ -110,13 +110,13 @@ Valores unitários da planilha do Desafio, a conferir com o contrato atual.
 
 | Item | Unitário (em reais) | Contatos | Total |
 |---|---|---|---|
-| URA antecipação 02/11 | 0,08 | `[[PENDENTE: contatos]]` | contatos x 0,08 |
-| URA antecipação 03/11 | 0,08 | `[[PENDENTE: contatos]]` | contatos x 0,08 |
-| URA ao vivo | 0,08 | `[[PENDENTE: contatos]]` | contatos x 0,08 |
+| URA antecipação 02/11 | 0,08 | `[[CONFIRMAR: contatos]]` | contatos x 0,08 |
+| URA antecipação 03/11 | 0,08 | `[[CONFIRMAR: contatos]]` | contatos x 0,08 |
+| URA ao vivo | 0,08 | `[[CONFIRMAR: contatos]]` | contatos x 0,08 |
 | URA atrasados | 0,08 | só quem não clicou | contatos x 0,08 |
-| URA flash | 0,08 | `[[PENDENTE: contatos]]` | contatos x 0,08 |
-| SMS convencional (6) | 0,07 | `[[PENDENTE: contatos]]` | contatos x 0,07 x 6 |
-| SMS flash (2) | 0,13 | `[[PENDENTE: contatos]]` | contatos x 0,13 x 2 |
+| URA flash | 0,08 | `[[CONFIRMAR: contatos]]` | contatos x 0,08 |
+| SMS convencional (6) | 0,07 | `[[CONFIRMAR: contatos]]` | contatos x 0,07 x 6 |
+| SMS flash (2) | 0,13 | `[[CONFIRMAR: contatos]]` | contatos x 0,13 x 2 |
 
 ---
 

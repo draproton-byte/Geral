@@ -32,7 +32,7 @@
 
 **Regra de CTA:** nos anúncios pré-live o botão é "Cadastre-se" e leva à página de captura, cujo botão diz "Quero descobrir meu padrão e entrar na live". Em 03/11, a partir das 20h, o botão é "Assistir agora" e leva ao YouTube.
 
-**Regra de linguagem (políticas de anúncio da Meta):** nenhum título afirma uma condição pessoal do leitor (dinheiro, dívida, saúde, emoção). O padrão aparece como frase entre aspas, como pergunta sobre o padrão ou como dado de pesquisa em terceira pessoa. "Vaga" não é usada: a live não tem limite, então o texto fala em cadastro e aviso.
+**Regra de linguagem (políticas de anúncio da Meta):** nenhum título afirma uma condição pessoal do leitor (dinheiro, dívida, saúde, emoção). O padrão aparece como frase entre aspas, como pergunta sobre o padrão ou como dado de pesquisa em terceira pessoa. Nenhuma palavra de limite de lugares é usada: a live não tem limite, então o texto fala em cadastro e aviso.
 
 **Regra de datas especiais:** 02/11 é segunda e feriado de Finados: tom sóbrio, sem tom de festa, sem cobrança. 03/11 é terça, dia da aula ao vivo do Clube: nenhuma peça fala em "aula" nem diz que a live substitui a aula `[[CONFIRMAR: aula de terça do Clube em 03/11]]` (decisão 33 de `12_decisoes_e_pendencias.md`).
 
@@ -41,7 +41,7 @@
 | Modelo do Desafio | Na Black |
 |---|---|
 | V1 Dor/identificação | Uma das cinco dores por dia, em ordem: Termostato Invisível, Autossabotagem, Cobrança, Traumas, Culpa de Querer Mais. Nos últimos dias, a frase-guia |
-| V2 Escassez | **Escassez real da live:** a condição completa só é revelada ao vivo, em 03/11, às 20h. Sem contagem de vagas (live aberta), sem "lote" antes da revelação. Sobre replay, nenhuma peça afirma nem nega (`[[PENDENTE: replay]]`) |
+| V2 Escassez | **Escassez real da live:** a condição completa só é revelada ao vivo, em 03/11, às 20h. Sem contagem de lugares (live aberta), sem "lote" antes da revelação. Sobre replay, nenhuma peça afirma nem nega (`[[PENDENTE: replay]]`) |
 | V3 Provocação ou ancoragem | Provocação e ancoragem **sem preço** (70 mil alunos em 44 países, 1,4 milhão de seguidores). A âncora da mentoria individual e os números do Clube ficam para depois da revelação |
 
 ## Calendário
@@ -272,7 +272,7 @@ Nota para S1 (alunas do Clube): 03/11 é o dia da aula ao vivo do Clube. Estas p
 
 ## Legendas dos lembretes (10)
 
-Modelo: legenda de lembrete do Desafio (lembrete + autoridade e contagem regressiva). Aqui a escassez é de data, não de lote. Nenhuma legenda cita preço, vaga ou lote.
+Modelo: legenda de lembrete do Desafio (lembrete + autoridade e contagem regressiva). Aqui a escassez é de data, não de lote. Nenhuma legenda cita preço, limite de lugares ou lote.
 
 ### LEG-LEM-01 | Falta 7 | 27/10
 Daqui a 7 dias, dia 03/11, às 20h, eu estou ao vivo no YouTube.
@@ -362,9 +362,9 @@ Clique em "Saiba mais" e assista.
 
 1. **Datas e dias da semana (tabela canônica):** 27/10 (terça), 29/10 (quinta), 30/10 (sexta), 31/10 (sábado), 01/11 (domingo), 02/11 (segunda, feriado de Finados), 03/11 (terça). Em 02/11, usar o tom sóbrio e reservar o orçamento do dia para stories e reels.
 2. **Frase intocável de LEM-D1-3 e LEG-LEM-08:** "Eu prefiro que você não compre do que compre e não viva." está copiada literalmente, como exige o guia (seção 4).
-3. **Lote Especial só ao vivo (LEM-D3-2):** a página de captura sugere que a melhor condição é de quem está ao vivo. Só publicar a frase se o time comercial confirmar `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`; se não for verdade, remover. É a mesma família de dúvida do replay (`[[PENDENTE: replay]]`): nenhuma peça deste arquivo afirma nem nega o replay, e por isso nenhuma diz "uma vez só" ou "não perca, não vai repetir".
+3. **Lote Especial só ao vivo (LEM-D3-2):** a página de captura não afirma que a melhor condição é de quem está ao vivo; a ideia vem do desenho do Lote Especial e ainda não está confirmada. Só publicar a frase se o time comercial confirmar `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`; se não for verdade, remover. É a mesma família de dúvida do replay (`[[PENDENTE: replay]]`): nenhuma peça deste arquivo afirma nem nega o replay, e por isso nenhuma diz "uma vez só" ou "não perca, não vai repetir".
 4. **Números usados (todos de `01_PESQUISAS_INSIGHTS.md`):** 22% (pesquisa do Aulão, "procrastino e não consigo colocar em prática", 21,5% na base de 7.323), 13% (pesquisa do Aulão, "traumas ou feridas do passado", 13,3%), "mais de 7 mil" (7.323 respostas), "70 mil", "44 países" e "1,4 milhão" (guia, seção 8). "365" é uma conta de dias, não dado de pesquisa. LEM-HOJE-3 exige número real de inscritos.
-5. **Escassez:** nenhuma peça fala em "vagas" no sentido de limite (a live não tem limite). Escassez é só data e revelação ao vivo. O verbo das peças é "cadastrar" e o substantivo é "aviso".
+5. **Escassez:** nenhuma peça fala em limite de lugares (a live não tem limite). Escassez é só data e revelação ao vivo. O verbo das peças é "cadastrar" e o substantivo é "aviso".
 6. **Peças do Desafio sem equivalente:** os V2 do Desafio (preço do lote vigente contra o do próximo) e o V3 da falta 2 (âncora da mentoria individual) dependem de preço e foram substituídos pela escassez de revelação e pela ancoragem sem valor. A âncora da mentoria entra em `vendas_vitalicia.md`, sujeita a confirmação.
 7. **Testes A/B:** na mesma data, rodar V1 contra V3 e observar cadastro por mil impressões; em 03/11, rodar LEM-LIVE-1 contra LEM-LIVE-3 para medir entrada simultânea no YouTube.
 8. **Disparo de WhatsApp:** as peças acima são para anúncio e redes. A versão em WhatsApp (com "para", linha em branco entre linhas e rodapé SAIR) está em `05_whatsapp_api`.

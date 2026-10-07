@@ -2,7 +2,7 @@
 
 | Campo | Conteúdo |
 |---|---|
-| Peça | 11 e-mails: CL-01 e CL-02 (carrinho aberto), VL-01 a VL-03 (virada de lote), ES-01 (esta condição não se repete), UH-01 a UH-03 (últimas horas), FE-01 e FE-02 (fechamento). Cada um com duas versões de segmento: **Alunas** e **Não-alunas** (22 versões) |
+| Peça | 11 e-mails (horários na cadência canônica de 07h; UH-03 e FE-01 saem em relação ao horário do fechamento): CL-01 e CL-02 (carrinho aberto), VL-01 a VL-03 (virada de lote), ES-01 (esta condição não se repete), UH-01 a UH-03 (últimas horas), FE-01 e FE-02 (fechamento). Cada um com duas versões de segmento: **Alunas** e **Não-alunas** (22 versões) |
 | Canal | E-mail |
 | Público | Quem se inscreveu na live e não comprou. Versão Alunas para S1 (alunas do Clube). Versão Não-alunas para S2 e S3 (ver nota 3) |
 | Momento | De 04/11 (quarta) até o fechamento do carrinho (`[[PENDENTE: fechamento]]`). As datas das viradas estão como `[[PENDENTE: data do lote]]` |
@@ -69,7 +69,7 @@ Qualquer dúvida, é só chamar: [[LINK: WhatsApp suporte]]
 
 Dra. Próton
 
-### CL-02. As perguntas que mais chegaram (04/11, quarta, 19h)
+### CL-02. As perguntas que mais chegaram (05/11, quinta, 07h)
 
 **Assunto [ALUNAS]:** Três dúvidas sobre a mudança para o vitalício
 **Assunto [NÃO-ALUNAS]:** "E se eu comprar e não conseguir usar?"
@@ -77,7 +77,7 @@ Dra. Próton
 
 {{nome}},
 
-Depois da live, três dúvidas costumam aparecer mais do que as outras. [[CONFIRMAR: conferir com o suporte se são estas as três que chegaram]]
+Desde a live, três dúvidas costumam aparecer mais do que as outras. [[CONFIRMAR: conferir com o suporte se são estas as três que chegaram]]
 
 **1. "E se eu comprar e não colocar em prática?"**
 Essa é a objeção que mais me preocupa. Por isso a oferta tem uma trilha e um primeiro passo nas primeiras 48 horas. E o acesso vitalício não tem prazo para te pressionar. [[CONFIRMAR: trilha e passo em 48 horas]]
@@ -250,7 +250,7 @@ Se as duas respostas forem sim, entre. Se uma delas for não, tudo bem. Mas deci
 
 Dra. Próton
 
-### UH-02. Hoje fecha (dia do fechamento, 12h)
+### UH-02. Hoje fecha (dia do fechamento, 07h)
 
 **Assunto [ALUNAS]:** Hoje fecha. Você já está quase lá
 **Assunto [NÃO-ALUNAS]:** Hoje, até [[PENDENTE: fechamento]]
@@ -258,9 +258,7 @@ Dra. Próton
 
 {{nome}},
 
-Hoje é o último dia.
-
-Eu sei que, no fim, o que trava não é o valor. É a dúvida se você vai dar conta. É o "e se não for para mim?". Esse medo é de quem já investiu e ficou sem retorno.
+No fim, o que trava quase nunca é o valor. É a dúvida se você vai dar conta. É o "e se não for para mim?". Esse medo é de quem já investiu e ficou sem retorno. Hoje o carrinho fecha, e é por isso que eu escrevo.
 
 Por isso, a oferta foi desenhada com três coisas:
 

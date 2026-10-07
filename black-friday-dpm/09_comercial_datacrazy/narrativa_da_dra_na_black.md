@@ -177,13 +177,13 @@ As travas do Desafio continuam e ganham cinco novas, específicas da Black.
 
 **As cinco novas da Black:**
 
-**Nunca diga que a oferta acaba para sempre, que o vitalício não volta ou que é a última chance de ter o acesso vitalício.** A Vitalícia pode voltar em outra edição. A forma aprovada é: "esta condição não se repete. O que vier depois é outra oferta, com outro preço."
+**Nunca diga que a oferta acaba para sempre, que o vitalício não volta ou que esta é a única oportunidade de ter o acesso vitalício.** A Vitalícia pode voltar em outra edição. A forma aprovada é: "esta condição não se repete. O que vier depois é outra oferta, com outro preço."
 
 **Nunca cite valor antes da live.** Nem "a partir de", nem "em torno de", nem "cabe no bolso". Resposta única: "A condição é revelada ao vivo, na live de 03/11, às 20h."
 
 **Nunca prometa que a autossabotagem acaba.** A pesquisa mostra que ela continua, mesmo dentro do Clube. A "última vez" é sobre o recomeço (decidir), nunca sobre resultado. Diga: "a última vez que você vai precisar recomeçar".
 
-**Nunca compare o valor com cobranças recorrentes nem com a mentoria individual.** Esse tipo de comparação depende de existir cobrança recorrente real (`[[CONFIRMAR: comparação com mensalidade]]`). A mentoria individual, a própria Dra. diz que não é a mesma coisa.
+**Nunca compare o valor com cobranças recorrentes nem com a mentoria individual.** Esse tipo de comparação depende de existir cobrança recorrente real (`[[CONFIRMAR: comparação de valor com cobrança recorrente]]`). A mentoria individual, a própria Dra. diz que não é a mesma coisa.
 
 **Nunca empurre parcelamento para quem está em aperto real.** Nunca sugira cartão de terceiros, empréstimo, cheque especial ou "dar um jeito". Se só cabe endividando, a resposta honesta é "eu prefiro que você não compre do que compre e não viva". Quem está em aperto sai com dignidade, e não com dívida.
 

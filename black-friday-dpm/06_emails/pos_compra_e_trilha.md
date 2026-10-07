@@ -42,7 +42,7 @@
 
 {{nome}}, você acabou de parar de decidir de novo.
 
-Você entrou na Black Próton Vitalícia. Isso quer dizer que parou de decidir de novo, toda segunda-feira, se vale a pena tentar mais uma vez. É a última vez que você precisa recomeçar.
+Você entrou na Black Próton Vitalícia. Isso quer dizer que acabou a conversa de decidir de novo, toda segunda-feira, se vale a pena tentar mais uma vez. É a última vez que você precisa recomeçar.
 
 Mas eu também sei o que costuma acontecer depois: o dia corre, a Área de Membros fica numa aba aberta, e a pessoa pensa "vou ver depois". Eu não quero isso para você.
 
@@ -80,6 +80,8 @@ Resposta: você não precisa fazer tudo. Precisa fazer **um passo de cada vez**,
 4. **Semana 3:** `[[CONFIRMAR: produto de entrada 3]]`, e o fechamento do seu primeiro ciclo de 21 dias.
 5. **Depois:** o resto do catálogo, no seu ritmo. O acesso é vitalício. Não tem mês para perder.
 
+**[ALUNAS]** Continue no ciclo em que você já está. O catálogo novo entra a partir da semana 2.
+
 O que eu peço de você: não pule para o produto "mais bonito". Siga a ordem. A ordem ajuda a manter o padrão de recomeçar longe.
 
 **Botão:** VER MINHA TRILHA
@@ -87,14 +89,12 @@ O que eu peço de você: não pule para o produto "mais bonito". Siga a ordem. A
 
 Dra. Próton
 
-**[ALUNAS]** Parágrafo extra: Continue no ciclo em que você já está. O catálogo novo entra na semana 2 em diante.
-
 ---
 
 ## PC-D2. O primeiro passo em 48 horas
 
 **Assunto:** Você já fez o seu primeiro passo?
-**Preview:** São 20 minutos. E eles mudam a semana
+**Preview:** São 20 minutos, na hora que der
 
 {{nome}},
 
@@ -130,7 +130,7 @@ Se tudo certo, ótimo. Se não:
 
 1. Veja a caixa de spam e promoções.
 2. Use o botão "esqueci a senha" na tela de login.
-3. Fale com o suporte, que resolve em minutos: {{link_suporte}}
+3. Fale com o suporte, que resolve em minutos (o botão abaixo leva até ele).
 
 **Botão:** FALAR COM O SUPORTE
 {{link_suporte}}
@@ -148,9 +148,7 @@ Dra. Próton
 
 {{nome}},
 
-Uma semana.
-
-Eu quero te fazer uma pergunta sem nenhuma pressão: o que mudou nessa primeira semana?
+Uma pergunta sem nenhuma pressão, uma semana depois da sua entrada: o que mudou?
 
 Pode ser pequeno. Pode ser "consegui fazer a reprogramação três dias seguidos". Pode ser "consegui me ouvir com mais carinho". Pode ser até "ainda não consegui começar, mas decidi voltar".
 
@@ -176,16 +174,18 @@ P.S. [[CONFIRMAR: termo de autorização de uso de depoimento no formulário]]
 
 {{nome}},
 
-Duas semanas dentro.
+Tem alguém na sua vida que começa, para e recomeça, do jeito que você já fez?
 
-Eu queria te fazer um convite que não tem a menor obrigação: pensa em alguém. Uma amiga, uma irmã, uma colega. Alguém que você sabe que começa, para, recomeça, e que carrega o mesmo cansaço que você já carregou.
+Duas semanas dentro, eu queria te fazer um convite que não tem a menor obrigação. Pense numa amiga, numa irmã, numa colega que carrega o mesmo cansaço que você já carregou.
 
-Se você sentir que faz sentido, conte a ela que existe esse caminho. Pode ser só mandando este link:
-{{link_indicacao}}
+Se você sentir que faz sentido, conte a ela que existe esse caminho. Basta mandar o convite.
 
-Não precisa. Não existe meta, não existe ranking. Às vezes, o que faz alguém começar é ouvir de quem ama: "olha, eu estou fazendo isso, e está me fazendo bem".
+Sem meta, sem ranking. Às vezes, o que faz alguém começar é ouvir de quem ama: "olha, eu estou fazendo isso, e está me fazendo bem".
 
 Se não for o momento, tudo bem também.
+
+**Botão:** MANDAR O CONVITE
+{{link_indicacao}}
 
 Dra. Próton
 
@@ -229,7 +229,7 @@ Dra. Próton
 1. **Parada.** Todos os e-mails param ao entrar a tag de reembolso. Os de D7 e D21 pulam quem não fez nenhum login (tag "nunca acessou"), que recebe no lugar um e-mail curto do suporte: "Vimos que você ainda não entrou. Posso ajudar?" (a criar).
 2. **Compliance.** Nenhum e-mail promete resultado financeiro, cura ou fim da autossabotagem. D7 pede explicitamente depoimentos sem resultado financeiro.
 3. **Dependência de conteúdo.** A trilha (D1) é o item mais importante e o mais pendente. Sem ela, D1 deve sair apenas com o passo de entrada e a promessa "amanhã eu te mostro". Priorizar com a equipe de conteúdo antes de 03/11.
-4. **Teste A/B.** D2: assunto "Você já fez o seu primeiro passo?" contra "20 minutos mudam a semana". D14: com e sem benefício de indicação.
+4. **Teste A/B.** D2: assunto "Você já fez o seu primeiro passo?" contra "20 minutos, na hora que der". D14: com e sem benefício de indicação.
 5. **NPS.** O link em D21 leva ao formulário de `10_pos_compra/certificado_manual_nps.md`. O e-mail de pedido de NPS dedicado também está lá.
 6. **Alunas.** Marcadas nos e-mails D0 e D1. Para as demais, a sequência é igual.
 7. **Garantia.** A sequência não cita garantia de propósito. Se a regra existir, o suporte responde; não vale oferecer reembolso em e-mail de acolhimento.

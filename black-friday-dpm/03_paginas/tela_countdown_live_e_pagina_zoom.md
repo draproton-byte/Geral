@@ -9,7 +9,7 @@
 **Trabalho contratado:** "Eu quero não perder essa live"
 **Modelo no Desafio:** Links de aula do Desafio (por grupo de WhatsApp, 20h), lembretes de grupo, e a lógica "entre antes do início". O Desafio usou aula ao vivo em plataforma com link por noite; aqui a live é no **YouTube**, com player embutido e sem sala em outra plataforma
 
-> **Sobre o nome do arquivo:** a live de revelação é no YouTube (briefing). Não existe sala de reunião em outra plataforma, e citar uma para a base cria o erro "baixei o aplicativo e não achei a sala". Esta página é, portanto, a **página da live** com player do YouTube embutido, e nenhum texto dela cita outra plataforma. O nome do arquivo guarda um termo antigo e será renovado conforme a decisão 54 de `12_decisoes_e_pendencias.md`. `[[CONFIRMAR: a live é só no YouTube; se houver transmissão paralela em outra plataforma, ajustar]]`
+> **Sobre o nome do arquivo:** a live de revelação é no YouTube (briefing). Não existe sala de reunião em outra plataforma, e citar uma para a base cria o erro "baixei o aplicativo e não achei a sala". Esta página é, portanto, a **página da live** com player do YouTube embutido, e nenhum texto dela cita outra plataforma. O nome do arquivo guarda um termo antigo e será renomeado conforme a decisão 54 de `12_decisoes_e_pendencias.md`. `[[CONFIRMAR: a live é só no YouTube; se houver transmissão paralela em outra plataforma, ajustar]]`
 
 ---
 
@@ -20,7 +20,7 @@
 | 1. Contagem simples | Até 03/11, 12h | Contagem + data + "salvar a data" |
 | 2. Tela de espera | 03/11, 12h até 19h45 | Contagem + o que fazer enquanto espera + diagnóstico + grupo |
 | 3. Sala aberta | 03/11, 19h45 até 20h | Player do YouTube liberado, contagem de minutos, checklist final |
-| 4. Ao vivo | A partir das 20h | Player do YouTube + chat + botão do carrinho que aparece em `[[PENDENTE: momento da abertura do carrinho]]` |
+| 4. Ao vivo | A partir das 20h | Player do YouTube + chat + botão do carrinho que aparece em `[[CONFIRMAR: momento da abertura do carrinho na live (roteiro em 08_live_e_pitch)]]` |
 | 5. Pós-live | Depois do fim da live | Botão da página de vendas e do suporte |
 
 ---
@@ -80,7 +80,7 @@
 `Avise que às 20h esse horário é seu. Se puder, fique em um lugar em que ninguém interrompa. Fones de ouvido ajudam.`
 
 **3. Faça (ou refaça) o seu diagnóstico.**
-`Chegue sabendo qual dos 5 padrões domina em você. Leva poucos minutos.` (botão: FAZER MEU DIAGNÓSTICO) [[LINK: diagnóstico]]
+`Chegue sabendo qual dos 5 padrões domina em você. Leva poucos minutos.` [[BOTÃO: FAZER MEU DIAGNÓSTICO]] [[LINK: diagnóstico]]
 
 **4. Responda a pergunta que eu vou fazer.**
 `Quantas vezes você já recomeçou? Escreva o número que vier primeiro. Não pense muito.`
@@ -183,7 +183,7 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 **Texto fixo sob o player**
 `Se o vídeo travar, atualize a página. Se continuar, toque em "Assistir no YouTube".`
 
-### Botão do carrinho (aparece em `[[PENDENTE: momento da abertura do carrinho]]`)
+### Botão do carrinho (aparece em `[[CONFIRMAR: momento da abertura do carrinho na live (roteiro em 08_live_e_pitch)]]`)
 
 **Não aparece antes** da revelação, para ninguém clicar sem ter ouvido a condição.
 
@@ -217,7 +217,7 @@ Chat do YouTube ao lado (ou abaixo, no mobile). `[[CONFIRMAR: chat aberto e mode
 `A condição que a Dra. mostrou não se repete. O que vier depois é outra oferta, com outro preço.` `[[PENDENTE: fechamento]]`
 
 **Se perdeu a live**
-`[[PENDENTE: replay]]` (usar uma só versão, depois da decisão: com replay, "Não conseguiu assistir? O replay está aqui." [[LINK: replay]]; sem replay, "Você perdeu a live. Entre na lista de espera para ser avisada(o)." [[LINK: lista_de_espera]])
+`[[PENDENTE: replay]]` (nenhuma versão afirma nem nega replay até a decisão; redações possíveis nas Notas ao implementador)
 
 ---
 
@@ -235,7 +235,7 @@ Todos com `{{link}}` desta página, em linha própria e separado do CTA (guia, s
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[PENDENTE: momento da abertura do carrinho]]`, `[[PENDENTE: replay]]` (sem replay: "A revelação acontece ao vivo, sem replay."; com replay: "O replay fica disponível até [[PENDENTE: fechamento]]."), `[[LINK: YouTube, live (embed)]]`, `[[LINK: grupo]]`, `[[LINK: arquivo de calendário]]`, `[[LINK: aviso de WhatsApp]]`, `[[CONFIRMAR: live só no YouTube]]`, `[[CONFIRMAR: chat aberto]]`.
+1. **Pendências:** `[[CONFIRMAR: momento da abertura do carrinho na live (roteiro em 08_live_e_pitch)]]`, `[[PENDENTE: replay]]` (redações possíveis, usar só uma depois da decisão. FAQ, sem replay: "A revelação acontece ao vivo, sem replay."; FAQ, com replay: "O replay fica disponível até [[PENDENTE: fechamento]]." Estado 5, com replay: "Não conseguiu assistir? O replay está aqui." [[LINK: replay]]; Estado 5, sem replay: "Você perdeu a live. Entre na lista de espera para ser avisada(o)." [[LINK: lista_de_espera]]), `[[LINK: YouTube, live (embed)]]`, `[[LINK: grupo]]`, `[[LINK: arquivo de calendário]]`, `[[LINK: aviso de WhatsApp]]`, `[[CONFIRMAR: live só no YouTube]]`, `[[CONFIRMAR: chat aberto]]`.
 2. **Contagem:** usar horário de Brasília (UTC-3) fixo. Se a pessoa estiver em outro fuso, mostrar o horário local abaixo (há alunos em 44 países).
 3. **Capacidade:** o YouTube suporta a audiência. Mas o botão do carrinho deve ficar em CDN próprio, para a página de vendas não cair. `[[CONFIRMAR: testar carga com a equipe técnica]]`
 4. **Gênero:** a página é para toda a base (21% é masculina), por isso usa formas neutras ou duplas, como "atrasada(o)" e "tranquila(o)". Em e-mail e grupo de quem já comprou, o feminino é aceito (guia, seção 1, item 6).

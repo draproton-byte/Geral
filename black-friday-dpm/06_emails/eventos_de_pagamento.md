@@ -111,7 +111,7 @@ Dra. Próton
 
 {{nome}},
 
-Seu Pix da Black Próton Vitalícia ainda não foi pago.
+Falta só um passo: o Pix que você gerou ainda não foi pago.
 
 É só copiar e colar no app do banco:
 
@@ -157,7 +157,7 @@ Dra. Próton
 
 {{nome}},
 
-Ontem seu Pix expirou. Isso acontece com muita gente, geralmente porque o dia apertou.
+Faz um dia que o seu Pix expirou. Isso acontece com muita gente, geralmente porque o dia apertou.
 
 Eu só queria te dizer: se a decisão ainda está de pé, é só gerar outro. Se mudou, me conta, que eu quero entender.
 
@@ -200,7 +200,7 @@ Dra. Próton
 
 {{nome}},
 
-Seu boleto da Black Próton Vitalícia vence amanhã, {{data_vencimento}}.
+Amanhã, {{data_vencimento}}, vence o boleto que você gerou para a Black Próton Vitalícia.
 
 Se ainda não pagou, o código está aqui:
 {{codigo_barras}}
@@ -225,9 +225,7 @@ Dra. Próton
 
 {{nome}},
 
-Seu boleto da Black Próton Vitalícia venceu.
-
-Calma, acontece com muita gente, e é fácil resolver. Você escolhe como pagar:
+O boleto passou do vencimento, e tudo bem: dá para resolver em um minuto. Você escolhe como pagar:
 
 - Pix: o acesso é liberado quando o pagamento é confirmado (o código vale 48 horas)
 - Cartão: em até [[CONFIRMAR: número de parcelas]]
@@ -247,7 +245,7 @@ Dra. Próton
 
 {{nome}},
 
-Seu boleto venceu há alguns dias, e eu não quero que você perca por um detalhe.
+Faz alguns dias que o seu boleto venceu, e eu não quero que você perca por um detalhe.
 
 Eu sei como é: o boleto vira "depois eu vejo", e o "depois" vira outro recomeço.
 
@@ -296,7 +294,7 @@ Dra. Próton
 
 {{nome}},
 
-Ontem seu pagamento não passou. Se foi o banco, uma ligação de 2 minutos para o cartão costuma liberar. Se foi o limite, o Pix ou outro cartão resolvem.
+Se o pagamento de ontem não passou por causa do banco, uma ligação de 2 minutos para o cartão costuma liberar. Se foi o limite, o Pix ou outro cartão resolvem.
 
 Se for outra coisa, me conta. A equipe do suporte pode ajudar: {{link_suporte}}
 

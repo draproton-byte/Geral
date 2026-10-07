@@ -92,8 +92,8 @@ Bloco central. Destaque visual (caixa), fonte maior.
 **Checklist**
 
 - `☐ 1. Fazer o primeiro acesso à Área de Membros.`
-- `☐ 2. Fazer o diagnóstico dos 5 perfis (se ainda não fez) e anotar o seu padrão.` (botão: FAZER MEU DIAGNÓSTICO) [[LINK: diagnóstico]]
-- `☐ 3. [[PENDENTE: primeiro passo do ciclo 1 do Clube: primeira aula/prática]]` `[[CONFIRMAR: qual é o primeiro conteúdo; o 1º ciclo do Clube é o do dinheiro]]`
+- `☐ 2. Fazer o diagnóstico dos 5 perfis (se ainda não fez) e anotar o seu padrão.` [[BOTÃO: FAZER MEU DIAGNÓSTICO]] [[LINK: diagnóstico]]
+- `☐ 3. [[CONFIRMAR: primeiro passo do ciclo 1 do Clube (primeira aula ou prática)]]` `[[CONFIRMAR: qual é o primeiro conteúdo; o 1º ciclo do Clube é o do dinheiro]]`
 
 **Texto de fechamento**
 `Só isso. Se você fizer os três, você já saiu do lugar. Não abra mais nada antes disso. O resto fica guardado, sem prazo.`
@@ -123,7 +123,7 @@ Ver `06_emails` e `05_whatsapp_api`: mensagem "falta pouco para o seu primeiro p
 `FAZER MEU DIAGNÓSTICO` [[LINK: diagnóstico]]
 
 **Se já fez**
-`Seu padrão mais forte foi {{perfil}}. A trilha abaixo já mostra por onde começar.` (botão: REFAZER)
+`Seu padrão mais forte foi {{perfil}}. A trilha abaixo já mostra por onde começar.` [[BOTÃO: REFAZER]]
 
 **Aviso**
 `O diagnóstico identifica padrões de comportamento. Não é avaliação clínica e não substitui acompanhamento profissional.`
@@ -216,10 +216,10 @@ O Clube e os 11 produtos são seus. Mas ninguém entra em tudo ao mesmo tempo. A
 
 Versão A (se mantiver os 7 dias do Clube Secreto): `Se, em até 7 dias depois da compra, você sentir que não é isso, é só pedir o reembolso. Sem formulário difícil e sem justificativa. Eu prefiro devolver do que ter alguém aqui sem querer estar.` `[[CONFIRMAR: 7 dias para a Vitalícia]]`
 
-Versão B (outro prazo): `Em até [[PENDENTE: prazo da garantia]] depois da compra, você pode pedir o reembolso, sem justificativa.`
+Versão B (outro prazo): `Em até [[PENDENTE: garantia, prazo]] depois da compra, você pode pedir o reembolso, sem justificativa.`
 
 **Como pedir**
-`Fale com o suporte, ou peça direto pela plataforma de pagamento.` (botão: PEDIR REEMBOLSO) [[LINK: suporte]]
+`Fale com o suporte, ou peça direto pela plataforma de pagamento.` [[BOTÃO: PEDIR REEMBOLSO]] [[LINK: suporte]]
 
 **Linha**
 `Mas eu prefiro que você fique. Dê o seu primeiro passo antes de decidir.`
@@ -240,7 +240,7 @@ Versão B (outro prazo): `Em até [[PENDENTE: prazo da garantia]] depois da comp
 `FALAR COM O SUPORTE` [[LINK: WhatsApp do suporte]]
 
 **Horário de atendimento**
-`[[PENDENTE: horário do suporte]]`
+`[[CONFIRMAR: horário de atendimento do suporte]]`
 
 **Verificação de números**
 `Para sua segurança, só aceite mensagens dos nossos números oficiais.` [[LINK: verificação de números]]
@@ -284,10 +284,10 @@ Versão B (outro prazo): `Em até [[PENDENTE: prazo da garantia]] depois da comp
 
 ## Notas ao implementador
 
-1. **Pendências que bloqueiam:** `[[PENDENTE: ordem de entrada]]` (a proposta acima), `[[PENDENTE: primeiro passo do ciclo 1]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: horário do suporte]]`, `[[LINK: grupo, Área de Membros, tutorial, suporte, formulário de depoimento]]`.
+1. **Pendências que bloqueiam:** `[[PENDENTE: ordem de entrada]]` (a proposta acima), `[[CONFIRMAR: primeiro passo do ciclo 1 do Clube]]`, `[[PENDENTE: garantia]]`, `[[CONFIRMAR: horário de atendimento do suporte]]`, `[[LINK: grupo, Área de Membros, tutorial, suporte, formulário de depoimento]]`.
 2. **Frases da Dra.:** "Eu termino tudo o que eu começo." e "Não trave o processo." são intocáveis (guia, seção 4).
 3. **O que o Desafio tinha e muda:** o Desafio dizia "assista a Aula Preparatória antes da Noite 01" e "os links de cada noite chegam pelo grupo". Na Vitalícia, não há data de aula única: o ponto crítico passa a ser o primeiro passo em 48 horas. Foi mantida a estrutura "passos na ordem, o mais importante em destaque", e a linguagem "isso não é um bloqueio do universo, é só um detalhe técnico". Evitei "vibrar escassez" e "frequência antiga" (linguagem do onboarding do Clube) por não serem frases intocáveis e por soarem a promessa.
-4. **Versões:** (a) aluna atual do Clube (bloco 00 com variante, bloco 01 sem "primeiro acesso"), (b) nova no Clube (versão completa). Tag por e-mail. Se for aluna com o Desafio, ocultar o Desafio da etapa 2 e mostrar a Imersão.
+4. **Versões:** (a) aluna atual do Clube (bloco 00 com variante, bloco 01 sem "primeiro acesso", e item 3 do checklist do bloco 03 trocado pelo próximo passo do ciclo em que ela está, porque a captura C promete que ela não repete o que já fez), (b) nova no Clube (versão completa). Tag por e-mail. Se for aluna com o Desafio, ocultar o Desafio da etapa 2 e mostrar a Imersão.
 5. **Mensagens ligadas a esta página:** e-mail de compra aprovada (06), WhatsApp de compra aprovada (05), lembrete de 24 horas, lembrete de 48 horas (se o primeiro passo não foi feito), lembrete do dia 21.
 6. **Testes A/B:** (1) bloco 03 (48 horas) antes do bloco 01 (acesso) contra depois; (2) trilha em tabela contra em cards sequenciais; (3) com ou sem o bloco 09 (depoimento em 21 dias).
 7. **Dependências:** `pagina_de_vendas_vitalicia.md` (a página mostra a trilha como promessa de método; aqui é a entrega), `diagnostico_5_perfis.md` (a variável `{{perfil}}`), `10_pos_compra` (manual do participante), `09_comercial_datacrazy`.

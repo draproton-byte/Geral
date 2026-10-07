@@ -30,7 +30,7 @@ Dispara duas horas depois do cadastro, só para quem não clicou em "entrar no g
 **Assunto:** {{nome}}, falta um passo para a live de 03/11
 **Linha de preview:** Entre no grupo para receber o link da live de revelação
 
-{{nome}}, você garantiu a sua inscrição na live de 03/11, mas ainda não entrou no grupo.
+{{nome}}, sua inscrição na live de 03/11 está feita, e falta um passo: o grupo.
 
 Como você já está dentro do Clube Secreto, vou ser direta: a live de revelação tem uma condição pensada para quem já anda comigo. Ela só é contada ao vivo, e o aviso e o link chegam pelo grupo.
 
@@ -51,7 +51,7 @@ Dra. Próton
 **Assunto:** {{nome}}, falta entrar no grupo da live
 **Linha de preview:** O link da live de 03/11 chega por lá
 
-{{nome}}, você já esteve comigo ao vivo e agora está inscrita na live de 03/11. Falta só o grupo.
+{{nome}}, você já esteve comigo ao vivo. Agora falta um passo para a live de 03/11: o grupo.
 
 Você sabe como é: a prática acontece na hora, e quem está lá sente. Dessa vez eu vou abrir a oferta que o Clube Secreto nunca fez antes, e ela só é revelada ao vivo.
 
@@ -171,7 +171,7 @@ Dispara só para quem não entrou no grupo. No Desafio esse e-mail vendia o ingr
 **Assunto:** Aconteceu algo, {{nome}}?
 **Linha de preview:** A condição de aluna é contada uma vez, ao vivo
 
-{{nome}}, você se inscreveu na live de 03/11 e ainda não entrou no grupo. Aconteceu algo?
+Faz um dia que você se inscreveu na live, e o grupo ficou para depois. Aconteceu algo?
 
 Eu pergunto porque a condição de aluna é contada uma vez, ao vivo. Se você ficar sem o aviso, pode saber por outra pessoa, e eu não quero isso para quem já está comigo.
 

@@ -14,7 +14,7 @@
 
 ## Princípio da peça
 
-Quem passou pelo Desafio concordou, publicamente, com três coisas: que termina o que começa, que não investe em si mesma o quanto deveria e que não pode travar o processo. Esta página não vende. Ela devolve para a pessoa o que ela mesma assinou, sem cobrança, e mostra que a decisão de continuar agora pode ser uma só.
+Quem passou pelo Desafio ouviu três ideias: que termina o que começa, que investir em si faz parte da mudança e que não pode travar o processo. Esta página não vende. Ela devolve para a pessoa o que ela já ouviu, sem cobrança, e mostra que a decisão de continuar agora pode ser uma só.
 
 Segmentação interna da página (blocos condicionais por origem do lead, via UTM ou tag):
 
@@ -162,7 +162,7 @@ Título: `A conta que eu fiz com você`
 
 `1 vezes 0 é zero. 1 bilhão vezes 0 continua zero. Não é sobre o valor. É sobre você entrar na conta.`
 
-`Uma semana de cinco noites começa a desbloquear. O que muda uma vida é continuar. E é exatamente isso que a Vitalícia faz: tira o prazo, e com ele a desculpa.`
+`Começar desbloqueia. O que muda uma vida é continuar. E é exatamente isso que a Vitalícia faz: tira o prazo, e com ele a desculpa.`
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
@@ -175,7 +175,11 @@ Título: `A conta que eu fiz com você`
 
 **Copy**
 
-Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar de novo.`
+Título: `O que você viveu foi o começo. A Vitalícia é continuar sem ter de começar de novo.`
+
+`[[SE: IMERSAO / AULAO / GERAL]]` `Viver algo forte começa a desbloquear. O que faz a diferença é o que acontece depois: na Vitalícia, o caminho não tem data para acabar. É o Clube Secreto e o catálogo atual, com acesso vitalício.` `[[FIM SE]]`
+
+`[[SE: DESAFIO]]`
 
 `Cinco noites não mudam uma vida inteira, e eu disse isso na Aula 02. Em cinco dias você começa a desbloquear. O que faz a diferença é o que acontece depois.`
 
@@ -187,7 +191,9 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 
 `(O prazo de 1 ano consta da página de vendas do Desafio.)`
 
-`[[PENDENTE: tratamento de quem já tem o Desafio dentro do pacote (o Desafio A Nova Realidade é um dos 11 produtos)]]`
+`[[FIM SE]]`
+
+`[[PENDENTE: regra de migração, quem já tem o Desafio (o Desafio A Nova Realidade é um dos 11 produtos)]]`
 
 **Linha:** `Sem promessa de lançamentos futuros: o que existe hoje.`
 
@@ -208,7 +214,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 `[[PENDENTE: replay]]` e `[[PENDENTE: data do lote]]`
 
 **Botão**
-`RESERVAR MEU LUGAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
 ---
 
@@ -229,7 +235,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 
 ---
 
-## Bloco 08: As duas objeções que mais ouço
+## Bloco 08: Duas objeções que eu ouço muito
 
 **Copy**
 
@@ -260,7 +266,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 ## Bloco 10: FAQ
 
 **Eu já fiz o Desafio. A Vitalícia inclui o que eu já tenho?**
-`O Desafio A Nova Realidade é um dos 11 produtos da Vitalícia.` `[[PENDENTE: tratamento de quem já tem algum dos 11]]`
+`O Desafio A Nova Realidade é um dos 11 produtos da Vitalícia.` `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
 
 **Quanto custa?**
 `O valor é revelado só ao vivo, em 03/11, às 20h.`
@@ -291,7 +297,7 @@ Título: `O Desafio foi o começo. A Vitalícia é continuar sem ter de começar
 
 ## Notas ao implementador
 
-1. **Pendências:** `[[PENDENTE: tratamento de quem já tem algum dos 11]]` (dor real: o Desafio vai dentro do pacote), `[[PENDENTE: replay]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
+1. **Pendências:** `[[PENDENTE: regra de migração, quem já tem algum dos 11]]` (dor real: o Desafio vai dentro do pacote), `[[PENDENTE: replay]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
 2. **Segmento "Desafio":** é o maior grupo que já provou que paga (2.220 pagantes) e que viveu o método. Lista principal de captação. Separar a lista "Desafio sem Clube" na ferramenta.
 3. **Tom:** nunca cobrar por não ter entrado no Clube. Nenhuma frase do tipo "você já teve a chance".
 4. **Frases da Dra.:** "Eu termino tudo o que eu começo.", "Nunca mais eu deixo de investir em mim.", "Se você não investe em você, o resultado da sua vida sempre será zero.", "Obediência é maturidade." e "Melhorar de vida é ganhar mil reais a mais. Mudar de vida é nunca mais voltar ao patamar anterior." são intocáveis e estão copiadas literalmente.

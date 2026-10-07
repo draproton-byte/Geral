@@ -83,7 +83,7 @@ Estado 4 (depois das 20h):
 **Mensagens de retorno**
 - E-mail reconhecido como aluna: `Reconheci você. Seu lugar está confirmado e a condição de aluna fica reservada para o seu e-mail.`
 - E-mail não encontrado entre as alunas: `Não encontrei esse e-mail entre as alunas do Clube. Confira se é o e-mail da compra. Se a compra foi com outro e-mail, fale com o suporte. [[LINK: WhatsApp do suporte]] Seu lugar na live fica confirmado de qualquer forma.`
-- Aluna com acesso encerrado: `[[PENDENTE: tratamento de aluna com o acesso de 365 dias já encerrado]]`
+- Aluna com acesso encerrado: `[[PENDENTE: regra de migração, aluna com o acesso de 365 dias já encerrado]]`
 
 ### Headlines testáveis
 
@@ -98,7 +98,7 @@ Estado 4 (depois das 20h):
 **Botões alternativos**
 - `CONFIRMAR MINHA PRESENÇA`
 - `QUERO ESTAR NA LIVE DE 03/11`
-- `RESERVAR O MEU LUGAR E A MINHA CONDIÇÃO`
+- `QUERO MEU LUGAR E MINHA CONDIÇÃO`
 
 ---
 
@@ -126,9 +126,9 @@ Título: `O que você já fez no Clube não se perde.`
 
 `Cada ciclo de 21 dias que você já praticou foi uma decisão sua de ficar. Isso conta. A Vitalícia não pede que você comece de novo.`
 
-`[[PENDENTE: o que acontece com o tempo que a aluna ainda tem no acesso atual (365 dias)]]`
+`[[PENDENTE: regra de migração, tempo que a aluna ainda tem no acesso atual (365 dias)]]`
 
-`[[PENDENTE: tratamento de aluna que já tem algum dos 11 produtos (por exemplo o Desafio A Nova Realidade ou a Imersão)]]`
+`[[PENDENTE: regra de migração, aluna que já tem algum dos 11 (por exemplo o Desafio A Nova Realidade ou a Imersão)]]`
 
 **Função:** responde a pergunta que toda aluna fará e que mais gera reembolso e raiva se ficar sem resposta: "e o que eu já paguei?". Não prometer crédito, abatimento ou desconto sem decisão.
 
@@ -180,7 +180,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 1. `Você confirma sua presença. O seu e-mail fica reconhecido como aluna.`
 2. `Você recebe o aviso no WhatsApp quando a live começar.`
 3. `Às 20h, ao vivo no YouTube, a Dra. revela a condição, o que entra e como funciona. A condição de aluna aparece junto.`
-4. `Quem decidir entra com uma trilha de entrada: por onde começar entre os 11 produtos. Você já é do Clube, então o primeiro passo é pensado para você não repetir o que já fez.`
+4. `Quem decidir entra com uma trilha de entrada: por onde começar entre os 11 produtos. Você já é do Clube, então o primeiro passo é pensado para você não repetir o que já fez.` [[CONFIRMAR: primeiro passo da versão aluna no onboarding]]
 
 **Escassez permitida**
 `A condição que a Dra. mostrar nessa noite não se repete. O que vier depois é outra oferta, com outro preço.`
@@ -202,7 +202,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 
 **Copy, "Pode não ser para você se..."**
 - Você está bem com o formato atual e não quer mudar
-- Você espera que a Vitalícia seja desconto automático sem decisão sua
+- Você espera que a condição de aluna chegue sem decisão sua
 - Você espera promessa de resultado financeiro. Eu não prometo isso
 
 `Eu prefiro que você não compre do que compre e não viva.`
@@ -215,13 +215,13 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 `O prazo some, e o catálogo atual entra com você. A condição para alunas é revelada na live.`
 
 **Preciso pagar de novo o que já paguei?**
-`[[PENDENTE: tratamento do valor já pago e do tempo restante]] Enquanto isso não está definido, a resposta pública é: a condição para alunas é revelada ao vivo e leva em conta que você já está dentro.` `[[CONFIRMAR: "leva em conta" só pode ficar se existir de fato uma condição de aluna]]`
+`[[PENDENTE: regra de migração, valor já pago e tempo restante]] Enquanto isso não está definido, a resposta pública é: a condição para alunas é revelada ao vivo e leva em conta que você já está dentro.` `[[CONFIRMAR: "leva em conta" só pode ficar se existir de fato uma condição de aluna]]`
 
 **Já tenho alguns dos produtos. Vou pagar por eles de novo?**
-`[[PENDENTE: tratamento de quem já tem algum dos 11]]`
+`[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
 
 **Qual é o valor?**
-`O valor é revelado só ao vivo, em 03/11, às 20h. Antes disso, nenhuma peça e nenhum atendimento fala de preço.`
+`O valor é revelado só ao vivo, em 03/11, às 20h. Antes disso, ninguém da equipe fala de preço.`
 
 **Quando eu vejo a minha condição?**
 `Na live, e logo depois ela aparece em uma página exclusiva, para o e-mail da sua compra.` (ver `pagina_cupom_alunas.md`)
@@ -250,7 +250,7 @@ Fórmula da Riqueza · Workshop Terapeuta de Elite · Os 3 Áudios de Reprograma
 ## Notas ao implementador
 
 1. **Segmentação:** a página só tem sentido para quem está na lista de alunas. Enviar o link por disparo segmentado (e-mail e WhatsApp da tag alunas). Se um e-mail fora da lista abrir, redirecionar para `captura_B`. O reconhecimento mostra só "reconhecida" ou "não encontrada", nunca nome nem dado da compra, e limita as tentativas por visitante (evita descobrir quem é aluna testando e-mails). `[[CONFIRMAR: parecer jurídico sobre o reconhecimento por e-mail]]`
-2. **Pendências críticas (sem elas a aluna não decide):** `[[PENDENTE: o que acontece com o tempo restante]]`, `[[PENDENTE: tratamento de quem já tem algum dos 11]]`, `[[PENDENTE: contagem de alunas]]`, `[[PENDENTE: tratamento de aluna com acesso encerrado]]`.
+2. **Pendências críticas (sem elas a aluna não decide):** `[[PENDENTE: regra de migração, tempo restante]]`, `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`, `[[PENDENTE: contagem de alunas]]`, `[[PENDENTE: regra de migração, aluna com acesso encerrado]]`.
 3. **O que não dizer:** "você vai pagar menos", "desconto de aluna" ou qualquer número. As faixas do briefing (alunas pagam R$ 1.000 a menos em cada lote) são nota ao implementador e só aparecem em peça pós-live como `[[PREÇO LOTE ALUNAS]]` (escada: 1.997 / 2.997 / 3.997).
 4. **Frases da Dra.:** "Não trave o processo" e "Obediência é maturidade" são copiadas literalmente (guia, seção 4).
 5. **Testes A/B:** (1) C0 contra C1 contra C2; (2) bloco 03 acima do bloco 04 contra o contrário; (3) formulário com campo e-mail primeiro contra nome primeiro.

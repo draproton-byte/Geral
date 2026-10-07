@@ -272,7 +272,7 @@
 - TELA (slide 34, duas telas de 6 itens, mesma numeração): tabela com os 12 itens e `[[PENDENTE: preço avulso]]` de cada um, fechando com a soma (`[[PENDENTE: preço avulso]]`).
 - FALA: "Antes de ver o valor, eu quero que você faça uma conta. Eu vou mostrar quanto custa cada um se você comprasse separado."
 - AÇÃO: a Dra. soma os itens em voz alta, um por um, sem pressa. A moderadora acompanha em um quadro.
-- FALA: "Se você comprasse tudo separado, seriam [[PENDENTE: soma dos avulsos]]. Isso é o que está na tela."
+- FALA: "Se você comprasse tudo separado, seriam [[PENDENTE: preço avulso]]. Isso é o que está na tela."
 - FALA (só se a âncora for confirmada): [[CONFIRMAR: âncora de R$ 120 mil da mentoria individual ainda vale e a Dra. quer usá-la. Se sim, a frase é "A minha mentoria individual é outra coisa, de outro nível de acompanhamento, e eu não vou fingir que é a mesma", sem dizer o valor em voz. Se não, cortar a fala inteira. Regra do Comercial: nunca usar a mentoria individual para justificar preço]]
 - FALA: "A pergunta que eu quero que você faça é outra: quanto está custando continuar mais um ano exatamente no mesmo lugar? "
 - FRASE **[INTOCÁVEL]**: "Se você não investe em você, o resultado da sua vida sempre será zero."
@@ -292,7 +292,7 @@
 **Estágio atendido:** 4 e 5.
 
 - TELA (slide 35): "Você não começa pelos onze. Você começa pela trilha."
-- FALA: "Eu pensei no risco de entrar e se perder. Por isso existe a trilha de entrada: [[PENDENTE: ordem de entrada]]. Primeiro passo em 48 horas. Depois, um por vez."
+- FALA: "Eu pensei no risco de entrar e se perder. Por isso existe a trilha de entrada: [[CONFIRMAR: ordem de entrada]]. Primeiro passo em 48 horas. Depois, um por vez."
 - FALA: "Não tem prazo para terminar. O produto que você não abriu hoje continua lá amanhã, e depois de amanhã. Em muitos cursos, o prazo é o que atrapalha. Aqui ele não existe."
 - FRASE: "Sem prazo para dar conta."
 
@@ -328,7 +328,7 @@
 **Estágio atendido:** 5.
 
 - TELA (slide 38): "Como pagar".
-- FALA (parcelamento): "Você pode pagar em [[PENDENTE: parcelamento máximo]] vezes de [[PENDENTE: valor da parcela]], no cartão. Tem também [[CONFIRMAR: Pix à vista e boleto]]. Se o seu cartão trava, eu te explico no suporte." [[CONFIRMAR: entrada + parcelas pela Hotmart, como no Clube atual]]
+- FALA (parcelamento): "Você pode pagar em [[CONFIRMAR: parcelamento máximo]] vezes de [[CONFIRMAR: valor da parcela]], no cartão. Tem também [[CONFIRMAR: Pix à vista e boleto]]. Se o seu cartão trava, eu te explico no suporte." [[CONFIRMAR: entrada + parcelas pela Hotmart, como no Clube atual]]
 - FALA (com cuidado): "Eu não quero que você se endivide para estar aqui. Se o parcelamento só cabe pegando emprestado, não entre. Eu falo isso de verdade."
 - TELA (slide 39): "Garantia".
 - FALA: [[PENDENTE: garantia]] (a fala de garantia só é gravada depois da decisão; até lá a Dra. não afirma nem nega garantia. O prazo do Clube atual está só nas Notas ao implementador)
@@ -383,7 +383,7 @@
 - AÇÃO: ler e responder. Perguntas previstas:
   - "Eu já sou do Clube. O que muda para mim?" (base: `quebra_de_objecoes.md`, objeção h). FALA: "O que você já fez no Clube conta. Você não recomeça do zero. O que muda é que o acesso deixa de ter prazo e entram os onze produtos, numa trilha. Você tem um lote só seu, na tela. E se você não usa o Clube hoje, eu te digo com honestidade: pensa bem antes de pagar de novo." [[CONFIRMAR: o que acontece com o período já pago]]
   - "Se eu já fiz o Desafio e a Imersão, preciso comprar de novo?" (idem). FALA: "O que você já viveu conta, e a trilha mostra por onde seguir." [[CONFIRMAR: o que o catálogo repete para quem já tem produtos]]
-  - "Dá para parcelar? Quantas vezes?" (objeção l). FALA: "No cartão, em [[PENDENTE: parcelamento máximo]] vezes. Está na tela e no checkout."
+  - "Dá para parcelar? Quantas vezes?" (objeção l). FALA: "No cartão, em [[CONFIRMAR: parcelamento máximo]] vezes. Está na tela e no checkout."
   - "E se eu não conseguir usar tudo?" (objeção e). FALA: "Você não precisa usar tudo. Começa pela trilha, um por vez. O que você não abriu hoje continua lá amanhã. Não tem prazo."
   - "A Vitalícia vai voltar mais barata?" (objeção k). FALA: "Eu não sei, e não vou te dizer que sei. Esta condição, com este catálogo e este valor, não se repete. O que vier depois é outra oferta, com outro preço e outras regras. Eu não decidiria por medo de perder, nem por esperança de pagar menos."
   - "Preciso falar com meu marido." (objeção g). FALA: "Claro, e faz todo sentido. Conversa com calma com quem divide essa decisão com você. Quando você sobe, a casa sobe junto. O lote vira em [[PENDENTE: data do lote]]."

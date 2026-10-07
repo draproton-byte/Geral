@@ -7,11 +7,11 @@
 **Objetivo:** que cada pessoa sem compra tenha uma trilha, uma abertura, um argumento e um próximo passo, e que o time saiba por onde começar a cada dia
 **Estágio de consciência:** 2 a 5
 **Trabalho contratado:** "Eu quero uma decisão que eu só precise tomar uma vez."
-**Modelo no Desafio:** planilha "LISTA DE ATAQUE - CLUBE SECRETO (quem ainda não comprou)", listada na aba COMERCIAL de Links Úteis do Desafio como "Lista para envio de mensagens por closter" (cluster), e a organização em bases, segmentos e tags do Manual do Comercial (Base 1: checkout; Base 2: pesquisa por objeção; Base 3: quiz por momento)
+**Modelo no Desafio:** a planilha do Desafio "Lista de ataque, Clube Secreto (quem ainda não comprou)", listada na aba COMERCIAL de Links Úteis do Desafio como lista para envio de mensagens por cluster, e a organização em bases, segmentos e tags do Manual do Comercial (Base 1: checkout; Base 2: pesquisa por objeção; Base 3: quiz por momento)
 
 > **Aviso sobre a fonte.** A planilha original não foi lida (o arquivo não está entre os que o Comercial consegue abrir; ele é só citado). O desenho abaixo reconstrói a lógica a partir do Manual do Comercial do Desafio (bases, segmentos, prioridades, rotina da semana) e do Banco de Templates. Se a planilha original tiver colunas que o time usa, **comparar antes de montar**.
 
-> **Segurança e LGPD.** A planilha **nunca** contém nome, telefone, e-mail, CPF, nem resposta aberta da pessoa. Ela usa o **ID interno do CRM** (`id_crm`) e **códigos** (A1 a A12, a a m, T01 a T16). O comercial abre o contato no CRM para falar. Credenciais do CRM e telefone pessoal de ninguém jamais entram na planilha.
+> **Segurança e LGPD.** A planilha **nunca** contém nome, telefone, e-mail, CPF, nem resposta aberta da pessoa. Ela usa o **ID interno do CRM** (`id_crm`) e **códigos** (S1 a S3, A1 a A12, a a m, T01 a T16). O comercial abre o contato no CRM para falar. Credenciais do CRM e telefone pessoal de ninguém jamais entram na planilha. A planilha é só **estrutura**: nenhuma linha preenchida com pessoa real é guardada neste repositório. Dívida (objeção j) e acolhimento entram só como código, nunca como relato. Quem pede para parar tem a linha congelada (`status` igual a pediu para parar), sai de todas as trilhas e permanece apenas com `id_crm` e a data do pedido, para não ser contatada de novo.
 
 ---
 
@@ -33,29 +33,32 @@
 | # | Coluna | Tipo | Valores ou observação |
 |---|---|---|---|
 | 1 | `id_crm` | texto | ID interno do CRM. **Nunca nome, telefone ou e-mail** |
-| 2 | `trilha` | lista | T01 a T16 (seção 3) |
-| 3 | `segmento` | lista | aluna ativa, aluna inativa, Desafio 5 noites, Desafio parcial, Imersão, só Aulão, ficha quente, ficha morna, ficha fria, assistiu live, inscrita sem presença, carrinho, Pix, boleto, recusada, reembolso |
-| 4 | `temperatura` | lista | quente, morna, fria |
-| 5 | `origem` | lista | Aulão, Desafio, Imersão, ficha, Clube, quiz, tráfego, grupo, live |
-| 6 | `padrao_declarado` | lista | Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem, Culpa de Querer Mais, não sei |
-| 7 | `objecao_declarada` | lista | a a m (de `quebra_de_objecoes.md`), nenhuma, outra |
-| 8 | `natureza_objecao_a` | lista | aperto real, prioridade, não classificada (só para objeção a) |
-| 9 | `faixa_conforto` | lista | até R$ 97, R$ 98 a R$ 297, R$ 298 a R$ 500, R$ 501 a R$ 1.000, R$ 1.001 a R$ 3.000, acima de R$ 3.000, não declarada (vem da ficha de interesse) |
-| 10 | `presenca_live` | lista | ao vivo até o fim, parte, não |
-| 11 | `abertura` | lista | A1 a A12 |
-| 12 | `argumento_chave` | lista | código curto (seção 5) |
-| 13 | `ativo` | lista | replay, resumo, manual, diagnóstico, certificado, depoimento, nenhum |
-| 14 | `proximo_passo` | lista | enviar abertura, responder objeção, enviar link do lote, devolver código, atendimento humano, escalar, régua, encerrar |
-| 15 | `toque_atual` | número | 0 a 5 (régua) ou 1 a 2 (evento) |
-| 16 | `data_proximo_toque` | data | Dentro da janela de horário |
-| 17 | `janela` | lista | 7h a 8h, 16h a 17h, 19h a 22h, prazo (exceção) |
-| 18 | `lote_segmento_link` | lista | Especial, Primeiro, Último, e aluna ou não |
-| 19 | `vencimento_cobranca` | data e hora | Só para Pix e boleto |
-| 20 | `responsavel` | lista | Quem atende |
-| 21 | `status` | lista | aberta, respondeu, objetou, link enviado, pagou, recusou, reembolsou, sem retorno, pediu para parar |
-| 22 | `motivo` | texto curto | Motivo de recusa, de reembolso ou de "não". **Sem dado pessoal** |
-| 23 | `resultado` | lista | comprou, não comprou, em andamento |
-| 24 | `observacao` | texto curto | Uma linha. Sem dado pessoal |
+| 2 | `s_black` | lista | S1 (alunas do Clube), S2 (viveu Desafio, Imersão ou Aulão e não é do Clube), S3 (não-alunas e base fria). Quem tem mais de uma tag vale pelo primeiro da lista S1, S2, S3 |
+| 3 | `trilha` | lista | T01 a T16 (seção 3) |
+| 4 | `segmento` | lista | aluna ativa, aluna inativa, Desafio 5 noites, Desafio parcial, Imersão, só Aulão, ficha quente, ficha morna, ficha fria, assistiu live, inscrita sem presença, carrinho, Pix, boleto, recusada, reembolso |
+| 5 | `temperatura` | lista | quente, morna, fria |
+| 6 | `origem` | lista | Aulão, Desafio, Imersão, ficha, Clube, quiz, tráfego, grupo, live |
+| 7 | `padrao_declarado` | lista | Termostato Invisível, Autossabotagem, Cobrança Que Você Só Faz Com Você, Traumas Que Ainda Decidem, Culpa de Querer Mais, não sei |
+| 8 | `objecao_declarada` | lista | a a m (de `quebra_de_objecoes.md`), nenhuma, outra |
+| 9 | `natureza_objecao_a` | lista | aperto real, prioridade, não classificada (só para objeção a) |
+| 10 | `faixa_conforto` | lista | até R$ 97, R$ 98 a R$ 297, R$ 298 a R$ 500, R$ 501 a R$ 1.000, R$ 1.001 a R$ 3.000, acima de R$ 3.000, não declarada (faixas da ficha de interesse) |
+| 11 | `presenca_live` | lista | ao vivo até o fim, parte, não |
+| 12 | `abertura` | lista | A1 a A12 |
+| 13 | `argumento_chave` | lista | código curto (seção 5) |
+| 14 | `ativo` | lista | replay, resumo, manual, diagnóstico, certificado, depoimento, nenhum |
+| 15 | `proximo_passo` | lista | enviar abertura, responder objeção, enviar link do lote, devolver código, atendimento humano, escalar, régua, encerrar |
+| 16 | `toque_atual` | número | 0 a 5 (régua) ou 1 a 2 (evento) |
+| 17 | `data_proximo_toque` | data | Dentro da janela de horário. Nunca entre 20h e 22h de 03/11 (modo escuta) |
+| 18 | `janela` | lista | 7h a 8h, 16h a 17h, 19h a 22h, prazo (exceção) |
+| 19 | `lote_segmento_link` | lista | Especial, Primeiro, Último, e aluna ou não. S1 recebe o lote de aluna; S2 e S3 recebem o de não-aluna (S2 paga como não-aluna até decisão contrária) |
+| 20 | `vencimento_cobranca` | data e hora | Só para Pix (48 horas) e boleto (4 a 5 dias) |
+| 21 | `responsavel` | lista | Quem atende |
+| 22 | `status` | lista | aberta, respondeu, objetou, link enviado, pagou, recusou, reembolsou, sem retorno, pediu para parar, acolhimento |
+| 23 | `motivo` | texto curto | Motivo de recusa, de reembolso ou de "não". **Sem dado pessoal** |
+| 24 | `resultado` | lista | comprou, não comprou, em andamento |
+| 25 | `observacao` | texto curto | Uma linha. Sem dado pessoal |
+
+A lista de valores de `lote_segmento_link` pode trazer "Lote Especial" apenas depois de 03/11, às 21h28 `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`.
 
 **Ordenação padrão da aba:** primeiro `trilha` (T01, T02, T03...), depois `vencimento_cobranca` crescente (o que vence antes vem primeiro), depois `temperatura` (quente antes de fria), depois `data_proximo_toque`.
 
@@ -63,26 +66,26 @@
 
 ## 3. AS TRILHAS
 
-Cada trilha tem uma lógica, uma temperatura, uma abertura e um próximo passo. **A ordem reflete a prioridade da noite da live e dos dias seguintes** (a mesma de `playbook_do_dia_da_live.md`, seção 3).
+Cada trilha tem uma lógica, uma temperatura, uma abertura e um próximo passo. **A ordem reflete a prioridade da noite da live e dos dias seguintes** (a de `playbook_do_dia_da_live.md`, seção 3). Uma exceção: T13 (inscrita sem presença) sai em 04/11, como diz a coluna "Quando", e os IDs não mudam. O lote do link de cada trilha segue o segmento S1, S2 ou S3.
 
-| Trilha | Nome | Temperatura | Etapa | Abertura | Objeção declarada típica | Quando |
-|---|---|---|---|---|---|---|
-| **T01** | Cartão recusado | Quente | Checkout | E4 (humano) | "O banco barrou" (não é objeção, é obstáculo) | 03/11, imediato |
-| **T02** | Cobrança viva: Pix (vence em menos de 24 horas ou hoje) | Quente | Checkout | E3a | Nenhuma (já decidiu) | Por prazo |
-| **T03** | Cobrança viva: boleto | Quente | Checkout | E3b | Nenhuma | Por prazo |
-| **T04** | Carrinho abandonado | Quente com objeção viva | Checkout | A11 e E2 | "O pagamento" ou "dar conta" | 30 min depois |
-| **T05** | Ficha quente que assistiu à live | Quente | Pós-live | A6 (pós-live) | d (medo de implementar), c (já comprei), i (funciona para mim) | 04/11 |
-| **T06** | Aluna do Clube ativa (upgrade) | Quente | Pós-live | A1 | h (já sou do Clube) | 04/11 |
-| **T07** | Desafio, cinco noites | Quente | Pós-live | A3 | d, e, a (prioridade) | 04/11 |
-| **T08** | Assistiu à live e não comprou | Quente | Pós-live | A9 | a, b, d, e | 04/11 e 05/11 |
-| **T09** | Imersão | Quente | Pós-live | A4 | e, c | 05/11 |
-| **T10** | Ficha morna | Morna | Relacionamento | A7 | a (72 pessoas), c (61), "outro" (62) | 05/11 e 06/11 |
-| **T11** | Aluna do Clube inativa | Morna | Relacionamento | A2 | tempo, h | 06/11 |
-| **T12** | Só Aulão, renda acima de R$ 5.000 | Morna | Relacionamento | A5 | a (prioridade, 44% dizem "sem dinheiro agora" mesmo com renda) | 06/11 em diante |
-| **T13** | Inscrita sem presença | Morna | Relacionamento | A12 | nenhuma declarada | 04/11 |
-| **T14** | Ficha fria | Fria | Relacionamento | A8 | a (181 de 348), c (44) | 07/11 em diante |
-| **T15** | Pediu reembolso | Fria para venda | Escuta | A10 | Motivo livre | Imediato |
-| **T16** | Sem retorno (passou pelos cinco toques) | Fria | Conteúdo | Nenhuma | Nenhuma | Régua de conteúdo, fora da venda |
+| Trilha | Nome | S | Temperatura | Etapa | Abertura | Objeção declarada típica | Quando |
+|---|---|---|---|---|---|---|---|
+| **T01** | Cartão recusado | pela pessoa | Quente | Checkout | E4 (humano) | "O banco barrou" (não é objeção, é obstáculo) | 03/11, imediato |
+| **T02** | Cobrança viva: Pix (vence em menos de 24 horas ou hoje) | pela pessoa | Quente | Checkout | E3a | Nenhuma (já decidiu) | Por prazo |
+| **T03** | Cobrança viva: boleto | pela pessoa | Quente | Checkout | E3b | Nenhuma | Por prazo |
+| **T04** | Carrinho abandonado | pela pessoa | Quente com objeção viva | Checkout | A11 e E2 | "O pagamento" ou "dar conta" | 30 min depois (às 22h, se cair entre 20h e 22h) |
+| **T05** | Ficha quente que assistiu à live | S3 | Quente | Pós-live | A6 (pós-live) | d (medo de implementar), c (já comprei), i (funciona para mim) | 04/11 |
+| **T06** | Aluna do Clube ativa (upgrade) | S1 | Quente | Pós-live | A1 | h (já sou do Clube) | 04/11 |
+| **T07** | Desafio, cinco noites | S2 | Quente | Pós-live | A3 | d, e, a (prioridade) | 04/11 |
+| **T08** | Assistiu à live e não comprou | pela pessoa | Quente | Pós-live | A9 | a, b, d, e | 04/11 e 05/11 |
+| **T09** | Imersão | S2 | Quente | Pós-live | A4 | e, c | 05/11 |
+| **T10** | Ficha morna | S3 | Morna | Relacionamento | A7 | a (72 pessoas), c (61), "outro" (62) | 05/11 e 06/11 |
+| **T11** | Aluna do Clube inativa | S1 | Morna | Relacionamento | A2 | tempo, h | 06/11 |
+| **T12** | Só Aulão, renda acima de R$ 5.000 | S2 | Morna | Relacionamento | A5 | a (prioridade, 44% dizem "sem dinheiro agora" mesmo com renda) | 06/11 em diante |
+| **T13** | Inscrita sem presença | pela pessoa | Morna | Relacionamento | A12 | nenhuma declarada | 04/11 |
+| **T14** | Ficha fria | S3 | Fria | Relacionamento | A8 | a (181 de 348), c (44) | 07/11 em diante |
+| **T15** | Pediu reembolso | pela pessoa | Fria para venda | Escuta | A10 | Motivo livre | Imediato |
+| **T16** | Sem retorno (passou pelo fim da régua, ou pelos dois toques) | pela pessoa | Fria | Conteúdo | Nenhuma | Nenhuma | Régua de conteúdo, fora da venda |
 
 **Quem fica fora da lista de ataque (decisão de estratégia):** o Aulão com renda declarada até R$ 3.000 e **sem** compra anterior (4.761 pessoas no Aulão). Esse grupo recebe diagnóstico, resumo da live e a lista de espera (`[[PENDENTE: degrau de entrada / lista de espera]]`), mas não esforço comercial 1 a 1.
 
@@ -95,7 +98,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 ### T01. Cartão recusado
 
 - **Abertura:** E4, toque 1, humano, em até 10 minutos.
-- **Argumento-chave (AC01):** "Não foi nada do seu lado. Acontece muito com limite por compra ou bloqueio de segurança. Sua vaga continua aqui. O Pix cai na hora."
+- **Argumento-chave (AC01):** "Não foi nada do seu lado. Acontece muito com limite por compra ou bloqueio de segurança. Sua entrada continua aqui. O Pix cai na hora."
 - **Próximo passo:** enviar link do lote e segmento em Pix, ou resolver o limite.
 - **Não fazer:** nunca culpar a pessoa; nunca oferecer desconto.
 - **Ativo:** nenhum.
@@ -103,7 +106,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 ### T02. Cobrança viva: Pix
 
 - **Abertura:** E3a, toque 1 em 2 a 3 horas (janela de horário), toque 2 em 8 a 10 horas antes de vencer.
-- **Argumento-chave (AC02):** "Tá aqui o mesmo código, é só pagar que sua vaga confirma na hora."
+- **Argumento-chave (AC02):** "Está aqui o mesmo código, é só pagar que sua entrada confirma na hora."
 - **Próximo passo:** devolver o código. Nada de argumento de venda.
 - **Não fazer:** nunca repetir os benefícios; nunca prometer preço se o lote virar (`[[CONFIRMAR: lote travado]]`).
 - **Ativo:** nenhum.
@@ -119,8 +122,8 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 
 - **Abertura:** A11 sem link.
 - **Argumento-chave (AC04, duas ramificações):** se "pagamento": parcelamento e garantia (letras l e m); se "dar conta": trilha e sem prazo (letras d e e).
-- **Próximo passo:** link do lote, **só depois da resposta**.
-- **Não fazer:** nunca mandar link antes de descobrir o que travou.
+- **Próximo passo:** link do lote, **só depois da resposta**. Sem resposta ao toque 2, sem link: só "me responde link" e a saída honrosa.
+- **Não fazer:** nunca mandar link antes de descobrir o que travou, nem para quem está em silêncio.
 - **Número a anotar:** a proporção entre "pagamento" e "dar conta".
 
 ### T05. Ficha quente que assistiu à live
@@ -180,14 +183,14 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 ### T13. Inscrita sem presença
 
 - **Abertura:** A12.
-- **Argumento-chave (AC13):** "Senti sua falta. Te resumo a live em uma linha?"
-- **Próximo passo:** resumo ou replay, depois a pergunta do padrão.
+- **Argumento-chave (AC13):** "Senti sua falta." (só em 04/11, nunca na noite da live)
+- **Próximo passo:** depois da resposta, resumo ou replay (`[[PENDENTE: replay]]`), depois a pergunta do padrão.
 
 ### T14. Ficha fria
 
-- **Abertura:** A8.
-- **Argumento-chave (AC14):** "O diagnóstico dos cinco padrões está liberado para você." (entrega, nunca oferta)
-- **Próximo passo:** diagnóstico, depois pergunta do padrão.
+- **Abertura:** A8 (só pergunta, sem oferta).
+- **Argumento-chave (AC14):** depois da resposta dela, "O diagnóstico dos cinco padrões está liberado para você." (entrega, nunca oferta)
+- **Próximo passo:** diagnóstico depois da resposta, depois pergunta do padrão.
 - **Atenção:** a maioria declara "sem dinheiro agora" (181 de 348) e conforto de até R$ 97 (184). Não force.
 
 ### T15. Pediu reembolso
@@ -200,7 +203,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 ### T16. Sem retorno
 
 - **Abertura:** nenhuma.
-- **Próximo passo:** régua de conteúdo (não de venda), em outro tempo.
+- **Próximo passo:** régua de conteúdo (não de venda), em outro tempo. Quem nunca deu sinal chega aqui depois de dois toques; quem deu sinal, depois dos cinco.
 
 ---
 
@@ -217,7 +220,7 @@ Para cada trilha, seis campos: **abertura**, **argumento-chave**, **objeção t�
 | g | Preciso falar com marido ou esposa | Facilitar: resumo de um minuto; quando você sobe, a casa sobe junto | Enviar resumo |
 | h | Já sou do Clube | O que já fez conta; sem prazo; onze produtos; lote de aluna | Pergunta "você usa o Clube hoje?" |
 | i | Será que funciona para mim | Honestidade; a Dra. não promete, desafia; garantia | Pergunta "você sentiu algo mudar?" |
-| j | Estou endividada | A Vitalícia não paga dívida; trabalho de raiz; não entre endividando | Diagnóstico; esperar |
+| j | Estou endividada | A Vitalícia não paga dívida; trabalho de raiz; não entre endividando. Acolhe, não vende, sem link | Diagnóstico se ela quiser; esperar; registrar só a letra |
 | k | E se a Vitalícia voltar mais barata | Só as formas aprovadas: esta condição não se repete | Decidir pelo agora |
 | l | Parcelamento e entrada | `[[PENDENTE: parcelamento máximo]]` e `[[CONFIRMAR]]` | Qual forma cabe melhor |
 | m | Garantia | `[[PENDENTE: garantia]]` | Link do lote |
@@ -269,10 +272,11 @@ Só linhas com `status` igual a Pix, boleto ou recusada. Ordem por `vencimento_c
 ## Notas ao implementador
 
 **Pendências:**
-1. A planilha original ("LISTA DE ATAQUE - CLUBE SECRETO (quem ainda não comprou).xlsx") não foi lida. Comparar as colunas antes de montar.
+1. A planilha original do Desafio não foi lida. Comparar as colunas antes de montar.
 2. `[[PENDENTE: degrau de entrada / lista de espera]]`: define a trilha de quem fica fora.
-3. `[[CONFIRMAR: preço do lote travado]]`, `[[CONFIRMAR: plano atual da aluna]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: garantia]]`.
+3. `[[CONFIRMAR: preço do lote travado]]`, `[[PENDENTE: regra de migração]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: garantia]]`.
 4. Contagem de cada trilha: só depois de exportar do CRM (sem dado pessoal).
+5. `[[CONFIRMAR: condição de quem viveu Desafio, Imersão ou Aulão]]` (S2 paga como não-aluna até decisão contrária).
 
 **Decisões para validar:**
 - A planilha usa o **ID do CRM** e não o nome. Isso dificulta o preenchimento manual, mas protege a base. Se a equipe preferir nome, que seja só na ferramenta de CRM.

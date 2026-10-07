@@ -16,7 +16,7 @@
 ## As regras que valem para todas
 
 1. **Mensagem curta**, quebrada em linhas, **uma linha em branco entre cada linha**. Nada de parágrafo de e-mail.
-2. **"Para", nunca "pra".** Negrito com um asterisco de cada lado (`*assim*`).
+2. **Sempre "para".** Negrito com um asterisco de cada lado (`*assim*`).
 3. **Link em linha própria, separado do CTA.** Um link só por mensagem.
 4. **Resposta dela interrompe a régua e cai para humano.** Quem pede para parar ("sair", "parar", "agora não") sai na hora, com uma única confirmação de remoção e nenhuma mensagem depois.
 5. **Dois toques por evento e para.** Depois do toque 2, registrar e encerrar. Nada de terceiro toque e nenhuma mensagem que insista depois do toque 2 sem resposta.
@@ -226,11 +226,11 @@ Digite SAIR se não quiser mais receber mensagens.
 ```
 {{nome}}, seu boleto da Vitalícia está aberto.
 
+O pagamento pode levar até 3 dias úteis para compensar, então não deixa para o último dia. [[CONFIRMAR: prazo de compensação]]
+
 Está aqui, é só pagar até o vencimento:
 
 {{link_boleto}}
-
-O pagamento pode levar até 3 dias úteis para compensar, então não deixa para o último dia. [[CONFIRMAR: prazo de compensação]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -302,6 +302,8 @@ Importante: o valor depende do lote em que o novo pedido for gerado. [[CONFIRMAR
 
 [[PENDENTE: garantia]]. Você entra, olha por dentro, e decide com informação.
 
+Quer ajuda para escolher a forma de pagamento?
+
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
@@ -370,6 +372,8 @@ Seu acesso e a trilha de entrada estão aqui:
 
 Hoje, só um passo: abre a trilha. Não abre os onze.
 
+Qualquer coisa, me chama direto por aqui.
+
 Digite SAIR se não quiser mais receber mensagens.
 ```
 
@@ -409,6 +413,8 @@ Só queria entender uma coisa, para melhorar o que está do nosso lado: o que n�
 Entendi. Isso eu consigo resolver com você hoje, se você quiser tentar: {{solucao}}
 
 E se mesmo assim não fizer sentido, eu mesma encaminho o seu reembolso, sem drama.
+
+Quer tentar?
 ```
 
 **Se ela reafirmar ou não pedir solução:**
@@ -562,11 +568,9 @@ Digite SAIR se não quiser mais receber mensagens.
 **Toque 2. 8 a 10 horas antes do vencimento (automático):**
 
 ```
-{{nome}}, esse código vence hoje.
+{{nome}}, esse código vence hoje. Depois disso, é preciso gerar outro, e o valor depende do lote do novo pedido.
 
 {{codigo_pix}}
-
-Depois disso, é preciso gerar outro, e o valor depende do lote do novo pedido.
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -578,9 +582,11 @@ Digite SAIR se não quiser mais receber mensagens.
 ```
 {{nome}}, seu boleto da Vitalícia, como aluna, está aberto.
 
-{{link_boleto}}
-
 Pode levar até 3 dias úteis para compensar, então não deixa para o último dia. [[CONFIRMAR: prazo de compensação]]
+
+O boleto está aqui:
+
+{{link_boleto}}
 
 Digite SAIR se não quiser mais receber mensagens.
 ```
@@ -630,11 +636,11 @@ Digite SAIR se não quiser mais receber mensagens.
 ```
 {{nome}}, seu código da Vitalícia venceu.
 
-Gerei um novo:
+Importante: o valor depende do lote do novo pedido. [[CONFIRMAR: regra de lote para pedido novo]]
+
+Se quiser, o link para gerar um novo está aqui:
 
 {{link}}
-
-Importante: o valor depende do lote do novo pedido. [[CONFIRMAR: regra de lote para pedido novo]]
 
 Digite SAIR se não quiser mais receber mensagens.
 ```

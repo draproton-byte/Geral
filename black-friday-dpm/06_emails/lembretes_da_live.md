@@ -4,8 +4,8 @@
 |---|---|
 | Peça | LV-28 a LV-02 (6 lembretes diários: LV-28, LV-29, LV-30, LV-31, LV-01, LV-02) e LV-03-01 a LV-03-06 (6 e-mails do dia da live; o LV-03-06 tem duas versões) |
 | Canal | E-mail |
-| Público | Inscritos na live (tag "inscrito na live"), os 3 segmentos. LV-03-04 só para inscritos que ainda não clicaram no link da live. LV-03-06 tem duas versões (alunas e não-alunas). Exclusões por segmentado das 09h: LV-29 não vai para S1, LV-30 não vai para S2, LV-01 não vai para S1 nem S2 (ver `captacao_serie.md`) |
-| Momento | 28/10 a 02/11 às 12h (o modelo do Desafio mandava às 09h; aqui foi para 12h porque as 07h e as 09h já têm a série e os segmentados). Dia 03/11: 09h, 19h, 20h, 20h25, 21h09 e 22h00 (`[[CONFIRMAR: horários, dependem do roteiro da live]]`) |
+| Público | Inscritos na live (tag "inscrito na live"), os 3 segmentos. LV-03-04 só para inscritos que ainda não clicaram no link da live. LV-03-06 tem duas versões (alunas e não-alunas). Exclusões por segmentado das 09h: LV-30 e LV-01 não vão para S2, que recebe SD-05 e SD-06 no mesmo horário; LV-29 e LV-01 não vão para a aluna que recebesse um SA reaproveitado (ver `captacao_serie.md`) |
+| Momento | 28/10 a 02/11 às 09h, o slot de segmentos da cadência canônica (e-mail às 07h, 09h para segmentos), com a tag "inscrito na live" como segmento. Dia 03/11: 09h, 19h, 20h, 20h25, 21h09 e 22h00 (`[[CONFIRMAR: horários, dependem do roteiro da live]]`) |
 | Objetivo | Fazer a pessoa estar ao vivo em 03/11, às 20h, sabendo como entrar, o que esperar e como se preparar para decidir |
 | Consciência | 4 a 5 |
 | Trabalho contratado | "Eu quero uma decisão que eu só precise tomar uma vez." A live é o único lugar onde ela pode ser tomada |
@@ -23,7 +23,7 @@
 
 ---
 
-## LEMBRETES DIÁRIOS (12h)
+## LEMBRETES DIÁRIOS (09h)
 
 ### LV-28. A live já tem hora e link (28/10, quarta)
 
@@ -201,7 +201,7 @@ Dra. Próton
 **Assunto:** Falta 1 hora, {{nome}}
 **Linha de preview:** Já separou o caderno? Seu link está aqui
 
-{{nome}}, em 1 hora eu entro ao vivo.
+Em 1 hora eu entro ao vivo, {{nome}}.
 
 Se você ainda não fez, agora é a hora de:
 
@@ -222,7 +222,7 @@ Dra. Próton
 **Assunto:** Estou ao vivo. Entre agora
 **Linha de preview:** A live acabou de começar. O link está aqui
 
-{{nome}}, a live de revelação da Black Próton Vitalícia acabou de começar, e você ainda pode entrar para acompanhar do início.
+Estou no ar: a live de revelação da Black Próton Vitalícia acabou de começar, e você ainda pode entrar para acompanhar do início.
 
 Hoje eu te mostro, ao vivo, o que construí para você parar de ter que recomeçar. A condição completa é revelada nesta transmissão.
 
@@ -237,7 +237,7 @@ Dra. Próton
 **Assunto:** {{nome}}, cadê você?
 **Linha de preview:** Eu já comecei e senti a sua falta
 
-{{nome}}, eu comecei a live e ainda não te vi por aqui.
+Eu comecei a live e ainda não te vi por aqui, {{nome}}.
 
 Se aconteceu alguma coisa, tudo bem. Mas ainda dá tempo de entrar: o que eu já mostrei vai fazer sentido, e a parte mais importante, a condição, ainda está por vir.
 
@@ -253,7 +253,7 @@ Dra. Próton
 **Assunto:** A parte que você esperava começou agora
 **Linha de preview:** Estou revelando a condição completa ao vivo
 
-{{nome}}, a parte que você esperava começou.
+A parte que você esperava começou.
 
 Neste momento eu estou revelando, ao vivo, a condição completa da Black Próton Vitalícia: o que entra, como começar sem se perder e como funcionam as formas de pagamento.
 

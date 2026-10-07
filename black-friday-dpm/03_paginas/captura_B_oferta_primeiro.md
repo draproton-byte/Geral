@@ -101,7 +101,7 @@ Título: `Reserve seu lugar na live`
 | **B0 (principal)** | A última vez que você vai precisar recomeçar. | Frase-guia do briefing | Aprovada, testar primeiro |
 | B1 | O Clube Secreto e tudo o que a Dra. Próton já criou, para sempre, por um pagamento único. | Correção da headline publicada | Aprovada com `[[CONFIRMAR: catálogo]]` |
 | B2 | A última chance que a autossabotagem vai ter de decidir por você. | Alternativa do briefing | Aprovada. Cuidado: não prometer que acaba |
-| B3 | Dia 03/11: a última vez que você entra, e a primeira vez que não precisa sair. | Alternativa do briefing | Aprovada. Verificar se "última vez que você entra" soa como "a porta fecha" (ver nota 2) |
+| B3 | Dia 03/11: a última vez que você entra, e a primeira vez que não precisa sair. | Alternativa do briefing | Aprovada. Verificar se "última vez que você entra" soa como porta que se fecha (ver nota 2) |
 | B4 | Pare de comprar curso com medo de deixar de lado. | Variação em teste do briefing | Aprovada. Fala com quem já comprou e não implementou |
 | B5 | Você já provou que sabe começar. Falta uma decisão que você só precise tomar uma vez. | 00, "confortável querendo mais" | Aprovada. Boa para quem já tem renda |
 
@@ -200,14 +200,14 @@ Título: `Três motivos, sem enrolação`
 | "Essa condição não vai se repetir depois de 03/11." | Mantida só na forma "esta condição não se repete" (sem a data da condição, porque os lotes vão além de 03/11) |
 | Frases de "última chance" e de "nunca mais" sobre o vitalício | Proibidas (guia, seção 3) |
 
-**Por que a data saiu:** a live é em 03/11, mas a condição passa por três lotes depois da live (Lote Especial, Primeiro Lote, Último Lote), com datas `[[PENDENTE: data do lote]]`. Dizer que a condição "só existe até 03/11" contradiz isso. A frase fica sem a data: "esta condição não se repete".
+**Por que a data saiu:** a live é em 03/11, mas a condição passa por três lotes depois da live (Lote Especial `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`, Primeiro Lote, Último Lote), com datas `[[PENDENTE: data do lote]]`. Dizer que a condição "só existe até 03/11" contradiz isso. A frase fica sem a data: "esta condição não se repete".
 
 **Botão**
 `QUERO MEU LUGAR NA LIVE`
 
 ---
 
-## Bloco 05: Para qualquer perfil, o Clube trabalha
+## Bloco 05: Para qualquer perfil, a Vitalícia foi pensada para você
 
 **Copy**
 
@@ -242,7 +242,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 `[[PENDENTE: data do lote]]` e `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`. Se for confirmado, acrescentar: `O Lote Especial é só para quem estiver ao vivo.`
 
 **Botão**
-`RESERVAR MEU LUGAR NA LIVE DE 03/11`
+`QUERO MEU LUGAR NA LIVE`
 
 ---
 
@@ -330,7 +330,7 @@ Título: `Dia 03/11, às 20h, ao vivo no YouTube`
 ## Notas ao implementador
 
 1. **Pendências que bloqueiam:** `[[CONFIRMAR: catálogo (tudo o que a Dra. criou)]]`, `[[CONFIRMAR: comparação com mensalidade]]`, `[[PENDENTE: replay]]`, `[[PENDENTE: data do lote]]`, `[[PENDENTE: garantia]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
-2. **Sobre B3:** "a última vez que você entra" é a alternativa do briefing e é aprovada, mas pode ser lida como "a porta fecha". Se rodar, manter logo abaixo a frase "esta condição não se repete. O que vier depois é outra oferta". Se o time de compliance não aprovar, dropar B3.
+2. **Sobre B3:** "a última vez que você entra" é a alternativa do briefing e é aprovada, mas pode ser lida como porta que se fecha. Se rodar, manter logo abaixo a frase "esta condição não se repete. O que vier depois é outra oferta". Se o time de compliance não aprovar, dropar B3.
 3. **Testes A/B sugeridos:** (1) B0 contra B1 contra B4; (2) bloco 03 (catálogo sem preço) contra sem bloco 03 (mede se mostrar o catálogo antes da live tira ou traz lead); (3) botão B1 contra B3.
 4. **Roteamento:** a captura B é a destino do remarketing e da lista de interesse. A mesma URL base com UTM por segmento (`utm_content=ficha-quente`, `utm_content=seguidor-longo`, `utm_content=desafio`). Se o e-mail já existe na base de alunas do Clube, redirecionar para `captura_C`.
 5. **Dependências:** `obrigado_e_pesquisa.md` (mesmo obrigado das demais), `pagina_de_vendas_vitalicia.md` (é onde o catálogo ganha a função de cada produto e o preço), `lista_de_espera.md`.

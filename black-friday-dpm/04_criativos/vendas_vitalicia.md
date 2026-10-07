@@ -33,7 +33,7 @@
 
 **Convenção de preço:** `[[PREÇO LOTE ALUNAS]]` ou `[[PREÇO LOTE NÃO-ALUNAS]]`, conforme o conjunto de anúncios. Parcelas: `[[CONFIRMAR: nº de parcelas e valor]]`. Âncora: `[[CONFIRMAR: valor da mentoria individual e se ainda vale]]`. Garantia: `[[PENDENTE: garantia]]`. Bônus: `[[PENDENTE: bônus]]`. Preço avulso: `[[PENDENTE: preço avulso]]`. Nenhum valor aparece antes de 03/11, 20h.
 
-**Forma de escassez:** só por lote real (`[[PENDENTE: data do lote]]`) e por "esta condição não se repete". Nenhum anúncio promete dinheiro, cura ou fim da autossabotagem, e nenhum usa "vaga" (o carrinho tem lotes por data, não limite de vagas). O texto diz a data do lote só quando ela estiver confirmada.
+**Forma de escassez:** só por lote real (`[[PENDENTE: data do lote]]`) e por "esta condição não se repete". Nenhum anúncio promete dinheiro, tratamento ou fim da autossabotagem, e nenhum usa palavra de limite de lugares (o carrinho tem lotes por data). O texto diz a data do lote só quando ela estiver confirmada.
 
 **Linguagem (políticas da Meta):** nenhum título ou texto afirma condição pessoal do leitor (dinheiro, dívida, saúde, emoção, compras anteriores). O padrão aparece como pergunta, frase entre aspas, dado de pesquisa em terceira pessoa ou descrição da oferta. Tráfego frio e remarketing usam texto neutro de gênero: "sozinho(a)". Em S1 o feminino é aceito.
 
@@ -441,9 +441,9 @@ Clique em "Saiba mais" e garanta o seu acesso.
 
 1. **Valores:** a escada de preços do briefing não está neste arquivo. Quem troca os placeholders consulta `00_ESTRATEGIA_COPY_SENIOR.md`, seção 1. Nenhuma peça deste arquivo pode ir ao ar antes de 03/11, 20h.
 2. **Pendências que bloqueiam o uso:** preço avulso dos 11 produtos e do Clube (sem ele, VIT-13, VIT-19 quando usada com a conta, LEG-VIT-02, RMV-09 e LEG-RMV-04 ficam fora), garantia (VIT-21, RMV-12, LEG-VIT-05, LEG-RMV-03), âncora da mentoria individual (VIT-14), parcelamento, bônus, datas de lote e fechamento, `[[DEPOIMENTO REAL]]`, `[[FOTO DRA]]`, ordem de entrada, `[[CONFIRMAR: aulas ao vivo e suporte inclusos na Vitalícia]]`, `[[CONFIRMAR: ciclos continuam depois do 12º na Vitalícia]]` (decisão 29 de `12_decisoes_e_pendencias.md`) e `[[PENDENTE: identidade visual]]`.
-3. **Mensalidade e renovação:** nenhuma peça afirma comparação com mensalidade nem fala em renovar. Se a equipe confirmar que existe cobrança recorrente de verdade, a comparação entra como `[[CONFIRMAR: comparação com mensalidade]]` e volta para revisão.
+3. **Cobrança recorrente:** nenhuma peça compara o preço com cobrança recorrente nem fala em prorrogação do acesso. Se a equipe confirmar que existe cobrança recorrente de verdade, a comparação entra com a pendência de comparação prevista no guia (seção 3) e volta para revisão.
 4. **Gênero:** todos os anúncios estão em texto neutro. VIT-22, LEG-VIT-04 e as peças de S1 aceitam o feminino se o time quiser. Em tráfego de remarketing frio, manter o neutro.
 5. **Peças do Desafio sem equivalente:** CR13 e CR8 ("por dia" e "por mês") partem de um acesso de 365 dias; na Vitalícia, não há prazo para dividir o preço. Foram substituídos pela conta de tudo separado e pelo parcelamento. Os Ad 10 e Ad 16 do remarketing do Clube ("por dia" e "durante 1 ano") foram excluídos pela mesma razão.
 6. **Testes A/B:** (a) VIT-13 (conta) contra VIT-15 (365 dias) em lookalike; (b) VIT-22 (upgrade) contra VIT-04 em alunas; (c) VIT-20 (parcelamento em destaque) contra VIT-03 (preço na etiqueta).
-7. **Compliance:** nenhuma peça promete ganho, cura ou fim da autossabotagem; "decida uma vez" refere-se à escolha, não ao resultado. Nenhuma peça usa "vaga".
+7. **Compliance:** nenhuma peça promete ganho, tratamento ou fim da autossabotagem; "decida uma vez" refere-se à escolha, não ao resultado. Nenhuma peça usa palavra de limite de lugares.
 8. **Contagens:** VIT-01 a VIT-24 (24), LEG-VIT-01 a 05 (5), RMV-01 a RMV-12 (12), LEG-RMV-01 a 04 (4): 45 IDs.

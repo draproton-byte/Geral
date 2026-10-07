@@ -8,7 +8,7 @@
 | **Momento** | A partir da abertura do carrinho na live (03/11, depois da revelação). As datas de virada e de fechamento estão em `[[PENDENTE: data do lote]]` e `[[PENDENTE: fechamento]]` |
 | **Objetivo** | Compra pelo checkout do lote vigente. A escassez é só a de lote real |
 | **Consciência** | 4 a 5 |
-| **Modelo no Desafio** | Anúncios de escassez do Desafio (AD 01 a 18: "O tempo está acabando", "Você vai mesmo pagar mais caro?!", "Última chance", vídeo com contador, bônus) e a legenda de lembrete V2 |
+| **Modelo no Desafio** | Anúncios de escassez do Desafio (AD 01 a 18: tempo acabando, pergunta sobre pagar mais caro, encerramento, vídeo com contador, bônus) e a legenda de lembrete V2 |
 | **O que acontece depois do clique** | Checkout do lote e do segmento → compra aprovada → trilha de entrada e primeiro passo em 48 horas (ver `10_pos_compra`). Quem não compra continua no remarketing de vendas |
 
 ## Entrega para o designer
@@ -28,10 +28,10 @@
 
 ## Regras de escassez (as únicas formas aprovadas)
 
-1. **Lote real, com data.** "O Lote Especial vira em `[[PENDENTE: data do lote]]`." Nenhum anúncio usa expressão de quantidade ou de "a qualquer momento": os lotes viram por data confirmada. Cada anúncio só vai ao ar com a data real preenchida; sem a data, o anúncio não publica.
+1. **Lote real, com data.** "O Lote Especial vira em `[[PENDENTE: data do lote]]`." `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]` Nenhum anúncio usa expressão de quantidade ou de "a qualquer momento": os lotes viram por data confirmada. Cada anúncio só vai ao ar com a data real preenchida; sem a data, o anúncio não publica.
 2. **"Esta condição não se repete."** Forma aprovada: "O que vier depois é outra oferta, com outro preço."
-3. **Proibido** (guia, seção 3): as frases de porta fechada, de "nunca mais" e de "última chance" ligadas ao acesso vitalício; comparação com mensalidade sem confirmação; qualquer promessa de dinheiro ou de fim da autossabotagem.
-4. **Honestidade de lote:** o texto nunca diz que o lote anterior "acabou por falta de vagas". Ele diz que o lote anterior passou por data. A virada de lote é a data confirmada; se virar por outro critério, trocar o texto (nota 4).
+3. **Proibido** (guia, seção 3): as frases de encerramento definitivo e de "nunca mais" ligadas ao acesso vitalício; comparação de preço com cobrança recorrente sem confirmação; qualquer promessa de dinheiro ou de fim da autossabotagem.
+4. **Honestidade de lote:** o texto nunca diz que o lote anterior acabou por esgotamento de lugares. Ele diz que o lote anterior passou por data. A virada de lote é a data confirmada; se virar por outro critério, trocar o texto (nota 4).
 5. **Contador:** só contador real, ligado à data do lote ou ao fechamento. Contador decorativo (por exemplo, "30 segundos") não entra.
 6. **Depois de entrar:** os anúncios dos conjuntos NÃO-ALUNAS dizem o que vem depois (trilha de entrada e primeiro passo em 48 horas); os de ALUNAS dizem que o que já foi feito conta.
 
@@ -43,7 +43,7 @@
 
 **Diferença entre segmentos:** em **alunas**, o texto reconhece o que a pessoa já fez ("você já está dentro, falta ficar para sempre"; "o que você já fez conta, não é recomeçar do zero"). Em **não-alunas**, o texto fala da primeira entrada. Cada ângulo tem uma versão ALUNAS e uma NÃO-ALUNAS.
 
-**Linguagem (políticas da Meta):** nenhum título afirma uma condição pessoal do leitor. "Vaga" não é usada: o carrinho tem lotes por data, não limite de vagas.
+**Linguagem (políticas da Meta):** nenhum título afirma uma condição pessoal do leitor. Nenhuma palavra de limite de lugares é usada: o carrinho tem lotes por data.
 
 ---
 
@@ -261,7 +261,7 @@ Estas peças só vão ao ar nas últimas horas reais antes de `[[PENDENTE: fecha
 2. **Pendências que bloqueiam o uso:** `[[PENDENTE: data do lote]]` (virada de cada lote), `[[PENDENTE: fechamento]]`, `[[CONFIRMAR: nº de parcelas e valor]]`, `[[PENDENTE: bônus]]` (só para ESC-BON), `[[LINK: checkout por lote e segmento]]`, `[[FOTO DRA]]`, `[[PENDENTE: identidade visual]]` e `[[CONFIRMAR: Lote Especial só para quem está ao vivo]]`.
 3. **Parcelamento visível:** a pesquisa mostra que o cartão parcelado é a forma de pagamento mais escolhida; sem as parcelas em todo anúncio, a conversão cai. As peças trazem o placeholder para forçar a definição.
 4. **Troca de arte na virada do lote:** quando um lote vira, desativar a família anterior e ativar a seguinte na mesma hora, e trocar o preço da arte. Se o lote virar por quantidade (em vez de data), trocar "vira em [[PENDENTE: data do lote]]" por "vira quando [[CONFIRMAR: critério de virada]]" e não usar expressão de "a qualquer momento" sem ser verdade.
-5. **Peças do Desafio sem equivalente:** os anúncios do Desafio que citavam ingressos já vendidos ou poucas vagas exigem dado real de quantidade e foram excluídos; o Ad 18 ("a única vez que o Desafio custa o valor de ingresso") foi reescrito como "esta condição não se repete", sem afirmar que o valor não volta a cair.
+5. **Peças do Desafio sem equivalente:** os anúncios do Desafio que citavam ingressos já vendidos ou poucos lugares exigem dado real de quantidade e foram excluídos; o Ad 18 ("a única vez que o Desafio custa o valor de ingresso") foi reescrito como "esta condição não se repete", sem afirmar que o valor não volta a cair.
 6. **Testes A/B:** (a) placar (01 e 02) contra fato do bolso (03 e 04) na virada do Lote Especial; (b) vídeo com contador (NSR-05 e 06) contra estático (NSR-03 e 04); (c) "Entrar de vez" contra "Garantir meu acesso" em alunas.
-7. **Compliance:** em nenhum anúncio há promessa de dinheiro, de cura ou de fim da autossabotagem. A frase "decida uma vez" é sobre a escolha, não sobre resultado.
+7. **Compliance:** em nenhum anúncio há promessa de dinheiro, de tratamento ou de fim da autossabotagem. A frase "decida uma vez" é sobre a escolha, não sobre resultado.
 8. **Contagens:** 24 anúncios por família (4 famílias × 6) mais 2 condicionais = 26 IDs: ESC-ESP-01 a 06, ESC-PRI-01 a 06, ESC-ULT-01 a 06, ESC-NSR-01 a 06, ESC-BON-01 e 02.

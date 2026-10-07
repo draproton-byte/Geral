@@ -3,7 +3,7 @@
 | Campo | Conteúdo |
 |---|---|
 | **Peça** | (1) Recuperação de grupo: 3 mensagens de API + e-mail, para dois públicos (reservou e não entrou; comprou e não entrou). (2) Carrinho abandonado: 3 disparos. (3) Pix e boleto: emitido, expirado, vencido. (4) Compra recusada. (5) Compra aprovada e acompanhamento. (6) Reembolso |
-| **Canal** | WhatsApp API oficial (template com botão, disparo automático por evento da Hotmart via ListBoss/DataCrazy). E-mail apenas na recuperação de grupo |
+| **Canal** | WhatsApp API oficial (templates com botão, **a aprovar na Meta**, disparo automático por evento da Hotmart via ListBoss/DataCrazy). E-mail apenas na recuperação de grupo |
 | **Público** | N (não-alunas, inclui Desafio/Imersão/Aulão sem Clube) e A (alunas do Clube). Consciência 5 (já decidiram: viram a condição ou entraram no checkout) |
 | **Momento** | Recuperação pré-live: 13/10 a 03/11. Todo o resto: de 03/11 (abertura do carrinho) até o fechamento |
 | **Objetivo** | Não perder quem já tomou uma decisão: entrar no grupo, concluir o pagamento, pagar de novo ou começar a trilha de entrada |
@@ -11,9 +11,9 @@
 | **Momento de vida** | Aperto real (cartão sem limite, Pix, parcelamento); funcional e exausta (mensagem curta, passo único); quer entrar de vez e teme não aplicar (trilha) |
 | **Modelo no Desafio** | copy de recuperação de grupo do Desafio, API de carrinho abandonado do Desafio, API de compra aprovada do Desafio, API de compra recusada do Desafio; e Pix emitido do Clube Secreto, Pix expirado do Clube Secreto, boleto emitido do Clube Secreto, boleto vencido do Clube Secreto, carrinho abandonado do Clube Secreto, compra aprovada do Clube Secreto, compra recusada do Clube Secreto, régua de reembolso do Clube Secreto |
 
-**Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; negrito com asterisco; link em linha própria e separado do CTA; rodapé "Digite SAIR se não quiser mais receber mensagens"; nenhuma contagem de dias no texto (data fixa ou variável). Preços só por `[[PREÇO LOTE ...]]` e só depois da live.
+**Regras de forma:** "para" e não "pra"; uma linha em branco entre as linhas; até 12 linhas; negrito com asterisco; link em linha própria e separado do CTA (ou no botão); rodapé "Digite SAIR se não quiser mais receber mensagens" em todos os templates; no máximo 3 botões; nenhum template começa nem termina com variável; nenhuma contagem de dias no texto (data fixa ou variável: nada de "ontem"). Preços só por `[[PREÇO LOTE ALUNAS]]` e `[[PREÇO LOTE NÃO-ALUNAS]]` e só depois da live; no template de API o preço entra por variável preenchida no envio.
 
-**Variáveis de ferramenta:** `{{nome}}`, `{{link_grupo}}`, `{{link_checkout}}` (um por lote e segmento), `{{codigo_pix}}`, `{{link_boleto}}`, `{{lote_atual}}`, `{{data_virada}}`, `{{link_onboarding}}`. As duas últimas são novas e precisam existir na ferramenta, senão trocar por `[[PENDENTE: data do lote]]` escrito à mão.
+**Variáveis de ferramenta:** `{{nome}}`, `{{link_grupo}}`, `{{link_checkout}}` (um por lote e segmento), `{{codigo_pix}}`, `{{link_boleto}}`, `{{lote_atual}}`, `{{data_virada}}`, `{{link_onboarding}}`. `{{lote_atual}}`, `{{data_virada}}` e `{{link_onboarding}}` são novas e precisam existir na ferramenta, senão trocar por `[[PENDENTE: data do lote]]` escrito à mão.
 
 ---
 
@@ -23,20 +23,18 @@ No Desafio, a recuperação atingia quem **comprou** e não estava em grupo (fil
 
 ### 1.1 Recuperação pré-live: reservou a vaga e não entrou em nenhum grupo
 
-**Público:** `Reservou a vaga na live` sem tag de grupo. Rodar em lote nos dias 20/10, 27/10 e 31/10 (mensagem 1), na manhã de 03/11 (mensagem 2) e às 19h de 03/11 (mensagem 3). Cada pessoa recebe no máximo uma mensagem por dia e só a mensagem seguinte se continuar fora do grupo.
+**Público:** `Reservou a vaga na live` sem tag de grupo. Rodar em lote nos dias 20/10, 27/10 e 31/10 (mensagem 1), na manhã de 03/11 (mensagem 2) e às 19h de 03/11 (mensagem 3). Cada pessoa recebe no máximo uma mensagem por dia e só a mensagem seguinte se continuar fora do grupo. "Fora do grupo" é a ausência da tag de grupo no SendFlow/DataCrazy (status "não confirmou": reservou e não entrou no grupo).
 
 #### API-BF-R01 | Mensagem 1: lote de recuperação (20/10, 27/10, 31/10)
 
 ```text
-*A sua vaga na live está reservada, mas você ainda está fora do grupo.*
+*A sua vaga na live está reservada. Falta entrar no grupo.*
 
-Eu conferi a lista agora e o seu número não aparece lá dentro.
+Pelo que consigo ver aqui, o seu número ainda não está no grupo oficial da *Black Próton Vitalícia*.
 
-A *Black Próton Vitalícia* acontece *terça, 03/11, às 20h*, e é no grupo oficial que chegam o link da live e todos os avisos importantes.
+A live é *terça, 03/11, às 20h*, e é no grupo que saem primeiro o link da transmissão e os avisos importantes.
 
-Fora do grupo, você não recebe o link da transmissão.
-
-Não dá para avisar uma por uma por aqui. O grupo é o canal da live.
+O grupo é o canal oficial: quem está lá recebe tudo em primeira mão.
 
 👇 Entra agora, leva 10 segundos.
 
@@ -48,11 +46,11 @@ Digite SAIR se não quiser mais receber mensagens
 #### API-BF-R02 | Mensagem 2: manhã de 03/11
 
 ```text
-*É hoje, às 20h, e você ainda está fora do grupo.*
+*É hoje, às 20h, e você ainda não entrou no grupo.*
 
 A sua vaga na live da *Black Próton Vitalícia* está reservada, só falta o grupo.
 
-O link da transmissão e o aviso de quando a condição for revelada saem no grupo oficial. Quem não estiver lá dentro não recebe.
+O link da transmissão e o aviso de quando a condição for revelada saem primeiro no grupo oficial.
 
 👇 Entra agora, antes de esquecer.
 
@@ -66,9 +64,9 @@ Digite SAIR se não quiser mais receber mensagens
 ```text
 *Falta 1 hora e você ainda não entrou no grupo.*
 
-A live da *Black Próton Vitalícia* começa às 20h, e o link sai só no grupo oficial.
+A live da *Black Próton Vitalícia* começa às 20h, e o grupo oficial é onde saem os avisos em tempo real.
 
-Você reservou a vaga. Falta um toque para usar ela.
+Você reservou a vaga. Falta um toque para entrar no grupo.
 
 👇 Entra agora:
 
@@ -88,11 +86,9 @@ Referência para a área `06_emails`. Disparar nos mesmos dias.
 **Corpo**
 
 ```text
-A sua vaga na live da Black Próton Vitalícia está reservada. Só que eu conferi a lista do grupo oficial e o seu número não está lá.
+A sua vaga na live da Black Próton Vitalícia está reservada. Só falta o grupo: pelo que consigo ver, o seu número ainda não está no grupo oficial.
 
-A live é terça, 03/11, às 20h, ao vivo no YouTube. É no grupo que chegam o link da transmissão e os avisos importantes.
-
-Fora do grupo, você não recebe o link da live.
+A live é terça, 03/11, às 20h, ao vivo no YouTube. É no grupo que saem primeiro o link da transmissão e os avisos importantes.
 
 Entrar leva 10 segundos:
 
@@ -112,9 +108,9 @@ Dra. Próton
 #### API-BF-R04 | Mensagem 1
 
 ```text
-*{{nome}}, a sua entrada está garantida, mas você ainda não entrou no grupo.*
+*A sua entrada está confirmada, {{nome}}, mas você ainda não entrou no grupo.*
 
-Eu conferi a lista agora e o seu número não aparece lá dentro.
+Pelo que consigo ver aqui, o seu número ainda não está no grupo.
 
 O grupo é onde chegam a trilha de entrada, os avisos das aulas e o suporte.
 
@@ -128,7 +124,7 @@ Digite SAIR se não quiser mais receber mensagens
 #### API-BF-R05 | Mensagem 2
 
 ```text
-*{{nome}}, você pagou e ainda não começou.*
+*Você pagou e ainda não começou, {{nome}}.*
 
 Isso é normal nos primeiros dias, e é exatamente aí que o "depois" costuma aparecer.
 
@@ -144,7 +140,7 @@ Digite SAIR se não quiser mais receber mensagens
 #### API-BF-R06 | Mensagem 3
 
 ```text
-*{{nome}}, posso te ajudar com alguma coisa?*
+*Posso te ajudar com alguma coisa, {{nome}}?*
 
 Percebi que você ainda não entrou no grupo da Vitalícia. Se foi um problema com o link ou com o celular, me conta.
 
@@ -168,7 +164,7 @@ Referência para a área `06_emails`.
 **Corpo**
 
 ```text
-A sua entrada na Black Próton Vitalícia está confirmada. Só que eu conferi a lista do grupo e o seu número não está lá.
+A sua entrada na Black Próton Vitalícia está confirmada. Só que, pelo que consigo ver, o seu número ainda não está no grupo.
 
 É no grupo que chegam a trilha de entrada, os avisos das aulas e o suporte.
 
@@ -195,7 +191,7 @@ Escassez só por lote real. O lote e o preço aparecem pelos placeholders `[[PRE
 ### API-BF-C01 | Disparo 1 (até 1 hora) | N
 
 ```text
-{{nome}}, vi que você chegou até o checkout da *Black Próton Vitalícia* e parou no último passo. 👀
+O seu checkout da *Black Próton Vitalícia* ficou aberto, {{nome}}. 👀
 
 Eu sei o que passa na cabeça nessa hora: "e se for mais um que eu compro e não aplico?"
 
@@ -215,7 +211,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-C01-A | Disparo 1 | A
 
 ```text
-{{nome}}, vi que você chegou até o checkout da *Black Próton Vitalícia* e parou no último passo. 👀
+O seu checkout da *Black Próton Vitalícia* ficou aberto, {{nome}}. 👀
 
 Você já está no Clube. O que você já fez conta, e ninguém volta ao zero.
 
@@ -233,13 +229,11 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-C02 | Disparo 2 (cerca de 24 horas) | N
 
 ```text
-{{nome}}, posso ser sincera com você? 🙏
+Posso te falar uma coisa, {{nome}}? 🙏
 
-Quem para no checkout costuma parar por um de três motivos: o dinheiro, o medo de não aplicar, ou porque já se decepcionou antes.
+Quem para no checkout costuma parar por um de três motivos: o dinheiro, o medo de não aplicar, ou uma decepção anterior.
 
-Os três são legítimos. E eu respondi cada um na live:
-
-o dinheiro, com as formas de pagamento; o medo, com a trilha de entrada; a decepção, com acompanhamento.
+Os três são legítimos. E eu respondi cada um na live: o dinheiro, com as formas de pagamento; o medo, com a trilha de entrada; a decepção, com acompanhamento.
 
 A sua condição do *{{lote_atual}}* vale até {{data_virada}}.
 
@@ -253,7 +247,7 @@ Digite SAIR se não quiser mais receber mensagens
 ### API-BF-C02-A | Disparo 2 | A
 
 ```text
-{{nome}}, posso ser sincera com você? 🙏
+Posso te falar uma coisa, {{nome}}? 🙏
 
 Mesmo quem já é do Clube hesita. Às vezes é o dinheiro, às vezes é o medo de não dar conta.
 
@@ -273,9 +267,9 @@ Digite SAIR se não quiser mais receber mensagens
 Enviar só para quem abriu o checkout, não comprou e continua dentro do lote.
 
 ```text
-{{nome}}, faltam poucas horas para o *{{lote_atual}}* da *Black Próton Vitalícia* acabar. ⏰
+Faltam poucas horas para o *{{lote_atual}}* da *Black Próton Vitalícia* acabar, {{nome}}. ⏰
 
-Às {{data_virada}}, o valor sobe.
+O valor sobe em {{data_virada}}.
 
 Esta condição não se repete. O que vier depois é outra oferta, com outro preço.
 
@@ -303,7 +297,7 @@ Copie o código abaixo e cole no app do seu banco, na opção *Pix Copia e Cola*
 
 ✅ Assim que o pagamento cair, o seu acesso é liberado na hora.
 
-⚠️ Esse código expira rápido, então não deixa para depois.
+Esse código tem prazo de validade, então não deixa para depois.
 ```
 
 ### API-BF-P02 | Pix emitido (disparo 2, de 30 minutos a 1 hora, se não pago)
@@ -335,7 +329,7 @@ A sua condição do *{{lote_atual}}* vale até {{data_virada}}. Se preferir, dá
 ### API-BF-P04 | Pix expirado (disparo 2, 24 horas depois)
 
 ```text
-{{nome}}, ontem você estava a um passo de entrar na *Black Próton Vitalícia*.
+Você estava a um passo de entrar na *Black Próton Vitalícia*, {{nome}}.
 
 Você não chegou até ali por acaso. Algo dentro de você sabe que precisa de uma decisão que não precise refazer toda semana.
 
@@ -355,7 +349,7 @@ Garantia: [[PENDENTE: garantia]]
 
 {{link_boleto}}
 
-⚠️ Importante: o boleto leva até 3 dias úteis para compensar. O seu acesso só é liberado depois disso.
+Importante: o boleto leva até 3 dias úteis para compensar `[[CONFIRMAR: prazo de compensação do boleto no checkout]]`. O seu acesso só é liberado depois disso.
 
 💡 Quer começar HOJE? Pague via Pix e o acesso chega na hora:
 
@@ -371,17 +365,17 @@ Se você já pagou, pode ignorar. Se ainda não, o link está aqui:
 
 {{link_boleto}}
 
-Lembrete: o valor do lote pode subir antes de o boleto compensar. A virada do *{{lote_atual}}* é em {{data_virada}}. Se quiser garantir o lote atual, pague via Pix.
+Lembrete: a virada do *{{lote_atual}}* é em {{data_virada}}. Se quiser garantir o lote atual, pague via Pix. [[CONFIRMAR: preço do boleto vale o lote da emissão ou da compensação?]]
 ```
 
-**Atenção:** o texto sobre o lote vigente precisa casar com a regra real de preço do boleto `[[CONFIRMAR: preço do boleto vale o lote da emissão ou da compensação?]]`. Até confirmar, remover a última frase.
+**Atenção:** o texto sobre o lote vigente precisa casar com a regra real de preço do boleto. Até confirmar, remover a última frase do template antes de enviá-lo para aprovação.
 
 ### API-BF-P07 | Boleto vencido (disparo 1)
 
 ```text
 {{nome}}, o seu boleto da *Black Próton Vitalícia* venceu. 😕
 
-Mas fica tranquila, é rápido de resolver.
+Sem problema, é rápido de resolver.
 
 👉 Gere um novo pagamento aqui (Pix, cartão ou boleto):
 
@@ -393,11 +387,11 @@ Mas fica tranquila, é rápido de resolver.
 ### API-BF-P08 | Boleto vencido (disparo 2, 24 horas depois)
 
 ```text
-{{nome}}, posso ser sincera?
+Posso te falar uma coisa, {{nome}}?
 
-Quando um boleto vence, quase nunca é esquecimento. Muitas vezes é aquela voz dizendo "deixa para depois", "agora não é o momento".
+Quando um boleto vence, às vezes é só correria. Outras vezes é aquela voz dizendo "deixa para depois", "agora não é o momento".
 
-O padrão que você quer mudar é o mesmo que sabota a mudança.
+O padrão que você quer mudar costuma aparecer justamente aí.
 
 Você chegou até aqui por um motivo. Não deixa ele se perder.
 
@@ -429,7 +423,7 @@ A sua condição do *{{lote_atual}}* ainda vale até {{data_virada}}.
 ### API-BF-X02 | Disparo 2 (24 horas depois)
 
 ```text
-{{nome}}, ontem o seu pagamento não passou.
+O seu pagamento da *Black Próton Vitalícia* não passou, {{nome}}.
 
 Se foi limite ou bloqueio, o Pix costuma resolver em um minuto.
 
@@ -457,18 +451,18 @@ A sua entrada na *Black Próton Vitalícia* foi confirmada. Você acaba de tomar
 
 Comece por aqui, em 3 passos:
 
-1️⃣ Entre no grupo dos vitalícios: {{link_grupo}}
+1️⃣ Entre no grupo dos vitalícios. Toque em "Entrar no grupo".
 
-2️⃣ Abra a página de onboarding e veja a *trilha de entrada*: {{link_onboarding}}
+2️⃣ Veja a *trilha de entrada*. Toque em "Abrir o onboarding".
 
 3️⃣ Dê o primeiro passo nas próximas 48 horas: [[CONFIRMAR: primeiro passo da trilha]]
 
 Você não precisa fazer tudo de uma vez. O acesso é vitalício, e o que importa é não deixar o automático voltar.
 
-Se precisar de ajuda, fale com o suporte: [[LINK: suporte WhatsApp]]
+Se precisar de ajuda, toque em "Falar com o suporte".
 ```
 
-**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}`
+**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
 
 ### API-BF-OK1-A | Compra aprovada completa | A
 
@@ -481,16 +475,16 @@ O que você já fez conta. Ninguém volta ao zero.
 
 Comece por aqui, em 3 passos:
 
-1️⃣ Entre no grupo dos vitalícios: {{link_grupo}}
+1️⃣ Entre no grupo dos vitalícios. Toque em "Entrar no grupo".
 
-2️⃣ Veja a trilha de entrada e o que acontece com o seu acesso atual: {{link_onboarding}} [[CONFIRMAR: regra de migração]]
+2️⃣ Veja a trilha de entrada e o que acontece com o seu acesso atual. Toque em "Abrir o onboarding". [[CONFIRMAR: regra de migração]]
 
 3️⃣ Escolha o seu próximo passo nas próximas 48 horas: [[CONFIRMAR: primeiro passo da trilha]]
 
-Se precisar de ajuda, fale com o suporte: [[LINK: suporte WhatsApp]]
+Se precisar de ajuda, toque em "Falar com o suporte".
 ```
 
-**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}`
+**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}` · `[ ENTRAR NO GRUPO ]` → `{{link_grupo}}` · `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
 
 ### API-BF-OK2 | Variante curta (confirmação instantânea)
 
@@ -499,10 +493,12 @@ Se precisar de ajuda, fale com o suporte: [[LINK: suporte WhatsApp]]
 
 Você já faz parte da *Black Próton Vitalícia*. 💜
 
-O seu acesso está no seu e-mail. Começa agora por aqui:
+O seu acesso está no seu e-mail. Toque no botão para começar pelo onboarding.
 
-{{link_onboarding}}
+Digite SAIR se não quiser mais receber mensagens
 ```
+
+**Botões:** `[ ABRIR O ONBOARDING ]` → `{{link_onboarding}}`
 
 ### API-BF-OK3 | Acompanhamento 48 horas depois
 
@@ -523,7 +519,7 @@ Se ainda não, tudo bem. O primeiro passo é um só, e é nele que o automático
 Referência para `10_pos_compra`. A estratégia pede depoimento em 21 dias, que é um ciclo completo do Clube.
 
 ```text
-{{nome}}, você acaba de completar o seu primeiro ciclo de 21 dias. 💜
+Já se passou um ciclo de 21 dias desde a sua entrada na *Black Próton Vitalícia*, {{nome}}. 💜
 
 Posso te pedir uma coisa? Se algo mudou, mesmo que pouco, me conta em um parágrafo.
 
@@ -549,8 +545,12 @@ Ele já está sendo processado, e você não precisa fazer mais nada. 💜
 
 Posso te perguntar uma coisa? Se o motivo foi alguma dificuldade (acesso, tempo, não saber por onde começar), me conta pelo suporte. Às vezes um ajuste pequeno resolve, e a decisão continua 100% sua.
 
-Suporte: [[LINK: suporte WhatsApp]]
+Toque no botão para falar com o suporte.
+
+Digite SAIR se não quiser mais receber mensagens
 ```
+
+**Botões:** `[ FALAR COM O SUPORTE ]` → `[[LINK: suporte WhatsApp]]`
 
 ### API-BF-RF2 | Reembolso concluído
 
@@ -574,7 +574,7 @@ Dra. Próton
 
 | Peça do Desafio | Decisão | Motivo |
 |---|---|---|
-| Carrinho abandonado com "sobe para R$ 97 depois" | Trocado pelo lote vigente e `{{data_virada}}` | A Black tem lotes reais com virada de preço, e a escassez só por lote |
+| Carrinho abandonado com "sobe para (valor) depois" | Trocado pelo lote vigente e `{{data_virada}}` | A Black tem lotes reais com virada de preço, e a escassez só por lote |
 | "Reembolso garantido depois da 1ª noite" | Trocado por `[[PENDENTE: garantia]]` | A garantia da Vitalícia ainda não foi fechada |
 | Recuperação de grupo para "comprou o Desafio" | Duas versões (reservou e comprou) | A captação é gratuita; o público de recuperação existe nos dois momentos |
 
@@ -595,6 +595,21 @@ Dra. Próton
 1. API-BF-C01: com a frase "e se for mais um que eu compro e não aplico?" contra uma versão que abre pelo lote vigente.
 2. API-BF-P02: com e sem "O seu primeiro passo da trilha pode começar ainda hoje." Medir conversão do Pix.
 3. API-BF-OK3: pergunta aberta ("você já deu o primeiro passo?") contra botão de resposta (SIM/AINDA NÃO). Medir taxa de primeiro passo em 48 horas.
+
+**Aprovação de template (Meta)**
+
+| ID | Categoria sugerida | Botões | Status |
+|---|---|---|---|
+| API-BF-R01, R02, R03 | Marketing | 2 a 3 (ENTRAR NO GRUPO, JÁ ENTREI NO GRUPO, PARAR MENSAGENS) | **PRECISA DE APROVAÇÃO** |
+| API-BF-R04, R05, R06 | Utilidade (compra feita) `[[CONFIRMAR: a Meta pode reclassificar para marketing]]` | 2 a 3 | **PRECISA DE APROVAÇÃO** |
+| API-BF-C01, C01-A, C02, C02-A, C03 | Marketing | 2 | **PRECISA DE APROVAÇÃO**. Lote e preço por variável, sem valor digitado |
+| API-BF-P01 a P08 | Utilidade (pagamento pendente). P02, P04 e P08 têm tom persuasivo e podem ser reclassificadas | 0 (o código e o link vão no corpo) | **PRECISA DE APROVAÇÃO** |
+| API-BF-X01, X02 | Utilidade | 0 a 2 | **PRECISA DE APROVAÇÃO** |
+| API-BF-OK1, OK1-A, OK2, OK3 | Utilidade | 1 a 3 | **PRECISA DE APROVAÇÃO** |
+| API-BF-OK4 | Marketing (pede depoimento) | 0 | **PRECISA DE APROVAÇÃO** |
+| API-BF-RF1, RF2 | Utilidade, só se a garantia for mantida | 0 a 1 | **PRECISA DE APROVAÇÃO** depois de `[[PENDENTE: garantia]]` |
+
+Todos com rodapé SAIR, sem cabeçalho, sem preço digitado e sem escassez inventada: a escassez só existe por lote real, pela variável `{{data_virada}}`.
 
 **Dependências**
 - Eventos da Hotmart no ListBoss: compra aprovada, recusada, boleto gerado, aguardando pagamento, abandono, reembolso (documento de captação e automação do projeto).

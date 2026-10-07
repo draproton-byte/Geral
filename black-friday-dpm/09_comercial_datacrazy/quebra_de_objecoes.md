@@ -21,7 +21,7 @@
 3. É objeção de **verdade** (aperto real, medo) ou de **prioridade** (educada, escondendo outra coisa)?
 4. O checkout já abriu? Antes de 21h28 de 03/11 não existe link: onde o roteiro diz "link do seu lote", troque por "eu te aviso quando abrir". Depois, o link só vai com a pessoa em conversa aberta, nunca para quem está em silêncio.
 
-**Formato das mensagens:** curtas, uma linha em branco entre as linhas, "para" e nunca "pra", link em linha própria.
+**Formato das mensagens:** curtas, uma linha em branco entre as linhas, sempre "para", link em linha própria.
 
 **Regras:** nunca dê desconto. Nunca prometa ganho financeiro, tratamento ou fim da autossabotagem. Nunca force fechamento. Sinal vermelho (crise aguda, endividamento desesperado, luto, doença): acolhe, não oferta, escala. Quem pede para parar sai na hora.
 
@@ -150,7 +150,7 @@ Eu prefiro que você não compre do que compre e não viva.
 Quer ver as formas de pagamento antes de decidir?
 ```
 
-**Atenção.** Nunca justifique o preço comparando com cobranças recorrentes (`[[CONFIRMAR: comparação com mensalidade]]`) nem com a mentoria individual. Nunca use "por apenas".
+**Atenção.** Nunca justifique o preço comparando com cobranças recorrentes (`[[CONFIRMAR: comparação de valor com cobrança recorrente]]`) nem com a mentoria individual. Nunca use "por apenas".
 
 ---
 
@@ -468,7 +468,7 @@ Se você quiser esperar para ver, tudo bem, {{nome}}. Só saiba que você estari
 Eu fico por aqui se precisar.
 ```
 
-**Proibido:** dizer que a oferta acaba para sempre, que o vitalício não volta, que é a última chance de ter o acesso vitalício, ou que "vai ficar mais caro" sem lote real.
+**Proibido:** dizer que a oferta acaba para sempre, que o vitalício não volta, que esta é a única oportunidade de ter o acesso vitalício, ou que "vai ficar mais caro" sem lote real.
 
 ---
 
@@ -559,11 +559,11 @@ Quer o link do seu lote? (só depois de 21h28 de 03/11)
 **Pendências:** `[[PENDENTE: garantia]]`, `[[PENDENTE: parcelamento máximo]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: preço avulso]]`, `[[PENDENTE: regra de migração]]`, `[[PENDENTE: data do lote]]`, `[[CONFIRMAR: parcelamento no cartão versus recorrente]]`, `[[LINK: instrução de reembolso]]`, `{{data_lote}}`.
 
 **Decisões para validar:**
-- A pergunta que separa (objeção a) é o único ponto novo em relação ao Desafio. O Desafio tratava as duas naturezas com a mesma resposta ("R$ 7 por noite, garantia"), porque o valor era R$ 35. Na Black, o valor é de milhares de reais e as duas naturezas pedem respostas opostas.
+- A pergunta que separa (objeção a) é o único ponto novo em relação ao Desafio. O Desafio tratava as duas naturezas com a mesma resposta (valor por noite e garantia), porque o ingresso era baixo. Na Black o ticket é alto e as duas naturezas pedem respostas opostas.
 - A frase "Eu prefiro que você não compre do que compre e não viva." é intocável e só aparece depois de a pessoa dizer que está em aperto ou que não pretende abrir o conteúdo.
-- Nenhum depoimento de "manifestei R$ X" entra aqui. Quando houver depoimento autorizado sobre o método, usar `[[DEPOIMENTO REAL]]`, sem nome e com autorização por escrito arquivada fora desta pasta.
+- Nenhum depoimento de ganho financeiro ("manifestei tanto") entra aqui. Quando houver depoimento autorizado sobre o método, usar `[[DEPOIMENTO REAL]]`, sem nome e com autorização por escrito arquivada fora desta pasta.
 - A letra j não tem link nem lote em nenhuma resposta: é acolhimento. Se a pessoa depois pedir o link por conta própria, é conversa humana, com a coordenação de apoio.
 
 **Teste A/B sugerido:** objeção a, pergunta que separa ("Se o valor coubesse no seu mês, você entraria?") versus resposta direta de parcelamento. Métrica: taxa de resposta e conversão por natureza.
 
-**Dependências:** `narrativa_da_dra_na_black.md`, `copies_por_evento_pipeline.md`, `playbook_do_dia_da_live.md`, `roteiro_live_de_revelacao.md` (blocos 14 e 16).
+**Dependências:** `narrativa_da_dra_na_black.md`, `copies_por_evento_pipeline.md`, `playbook_do_dia_da_live.md`, `08_live_e_pitch/roteiro_live_de_revelacao.md` (blocos 14 e 16).

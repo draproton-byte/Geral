@@ -46,8 +46,8 @@ Blocos condicionais marcados `[[SE: ALUNA]]` ... `[[FIM SE]]` e `[[SE: NÃO-ALUN
 
 Elemento fixo. Mostra o **lote real** e **o relógio do próximo virar**. Não há "% de vagas preenchidas", porque a Vitalícia não tem limite de vagas declarado. Escassez só por lote.
 
-**Estado 1: Lote Especial aberto**
-`🎟 Lote Especial · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento` [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
+**Estado 1: Lote Especial aberto** [[CONFIRMAR: Lote Especial só para quem está ao vivo]]
+`🎟 Lote Especial · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento`
 
 **Estado 2: Primeiro Lote aberto**
 `🎟 Primeiro Lote · aberto até [[PENDENTE: data do lote]] · [[PREÇO LOTE ALUNAS]] ou [[PREÇO LOTE NÃO-ALUNAS]], conforme o segmento`
@@ -90,12 +90,12 @@ Este bloco precisa converter mesmo que a pessoa não role a página.
 
 `[[SE: ALUNA]]`
 `[[PREÇO LOTE ALUNAS: lote atual]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]] no cartão`
+`ou em até [[PENDENTE: parcelamento]]x de {{parcela_alunas}} no cartão`
 `[[FIM SE]]`
 
 `[[SE: NÃO-ALUNA]]`
 `[[PREÇO LOTE NÃO-ALUNAS: lote atual]] à vista`
-`ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA NÃO-ALUNAS]] no cartão`
+`ou em até [[PENDENTE: parcelamento]]x de {{parcela_nao_alunas}} no cartão`
 `[[FIM SE]]`
 
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
@@ -126,7 +126,7 @@ Este bloco precisa converter mesmo que a pessoa não role a página.
 
 Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
-**Função:** prova antes de argumento. Nenhum depoimento que cite ganho de dinheiro, quitação de dívida ou cura.
+**Função:** prova antes de argumento. Nenhum depoimento que cite ganho de dinheiro, quitação de dívida ou tratamento.
 
 ---
 
@@ -147,7 +147,7 @@ Linha: `Relatos individuais. Não prometo o mesmo resultado para você.`
 
 - `Termostato Invisível: "Quando entra um dinheiro a mais, aparece uma conta."`
 - `Autossabotagem: "Eu sei o que fazer e não faço."`
-- `Cobrança Que Você Só Faz Com Você: "Estou funcional, mas exausta por dentro."`
+- `Cobrança Que Você Só Faz Com Você: "Estou funcional, mas exausta(o) por dentro."`
 - `Traumas Que Ainda Decidem: "Sinto que a cada passo que dou, retrocedo."`
 - `Culpa de Querer Mais: "Eu cuido de todo mundo, mas ninguém cuida de mim."`
 
@@ -246,7 +246,7 @@ Título: `O que entra na Black Próton Vitalícia`
 
 **Regras do bloco**
 - As funções acima foram escritas a partir do **nome de cada produto** e do que as fontes dizem do Clube, do Desafio e da Imersão. As fontes lidas **não** descrevem o conteúdo dos outros produtos. Cada linha marcada com `[[CONFIRMAR: descrição oficial]]` precisa de validação do time de produto antes de ir ao ar. Nada foi inventado além disso.
-- Os nomes "Cura da Criança Interior" e "Cura da Escassez Financeira" são nomes de produto. Em qualquer frase da página, usar "prática de reprogramação" e nunca "cura" como promessa.
+- Os nomes "Cura da Criança Interior" e "Cura da Escassez Financeira" são nomes de produto. Em qualquer frase da página, usar "prática de reprogramação" e nunca o termo do nome como promessa de resultado.
 - Sequência 5207418: só como prática, nunca como "traz dinheiro".
 - As frases da coluna "Dor a que responde" são frases reais da audiência (`01_PESQUISAS_INSIGHTS.md`, seção 2, e as opções das pesquisas), usadas em primeira pessoa e sem atribuir a ninguém.
 
@@ -329,7 +329,7 @@ Título: `O que entra na Black Próton Vitalícia`
 | Destrave o Dinheiro | `[[PENDENTE: preço avulso]]` |
 | Cura da Escassez Financeira | `[[PENDENTE: preço avulso]]` |
 | Sequências Numéricas de Grabovoi | `[[PENDENTE: preço avulso]]` |
-| **Total separado** | `[[PENDENTE: soma dos preços avulsos]]` |
+| **Total separado** | `[[PENDENTE: preço avulso, soma]]` |
 
 **Nota ao implementador (remover antes de publicar):** esta tabela só vai ao ar se os preços avulsos forem preços reais de venda praticados. Se não existirem, **apagar a Parte 2 inteira** e não escrever "de X por Y" em nenhum botão ou tarja.
 
@@ -367,7 +367,7 @@ Aqui compra quem já estava decidida.
 `[[FIM SE]]`
 
 **Parcelamento (logo abaixo da tabela, na mesma tela)**
-`Pagamento único à vista ou em até [[PENDENTE: nº de parcelas]]x no cartão.`
+`Pagamento único à vista ou em até [[PENDENTE: parcelamento]]x no cartão.`
 `Pix · Cartão · [[CONFIRMAR: boleto]]`
 
 **Botão**
@@ -455,8 +455,8 @@ Aqui compra quem precisou ouvir tudo. Este bloco leva a garantia.
 
 `🎟 {{lote_atual}} · aberto até [[PENDENTE: data do lote]]`
 
-`[[SE: ALUNA]]` `[[PREÇO LOTE ALUNAS: lote atual]] à vista ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA ALUNAS]]` `[[FIM SE]]`
-`[[SE: NÃO-ALUNA]]` `[[PREÇO LOTE NÃO-ALUNAS: lote atual]] à vista ou em até [[PENDENTE: nº de parcelas]]x de [[PARCELA NÃO-ALUNAS]]` `[[FIM SE]]`
+`[[SE: ALUNA]]` `[[PREÇO LOTE ALUNAS: lote atual]] à vista ou em até [[PENDENTE: parcelamento]]x de {{parcela_alunas}}` `[[FIM SE]]`
+`[[SE: NÃO-ALUNA]]` `[[PREÇO LOTE NÃO-ALUNAS: lote atual]] à vista ou em até [[PENDENTE: parcelamento]]x de {{parcela_nao_alunas}}` `[[FIM SE]]`
 
 **Botão**
 `ENTRAR DE VEZ · {{preco_segmento}}`
@@ -469,7 +469,7 @@ Versão A, se mantiver os 7 dias do Clube Secreto `[[CONFIRMAR: 7 dias para a Vi
 `E se, depois de entrar, você sentir que não é para você, eu devolvo o seu dinheiro. Você entra, faz o primeiro passo, e se em até 7 dias sentir que não é isso, pede o reembolso. Sem formulário difícil, sem justificativa. Eu prefiro devolver do que ter alguém aqui sem querer estar.`
 
 Versão B, se a garantia for outro prazo:
-`E se, em até [[PENDENTE: prazo da garantia]] depois de entrar, você sentir que não é para você, eu devolvo o seu dinheiro, sem justificativa.`
+`E se, em até [[PENDENTE: garantia, prazo]] depois de entrar, você sentir que não é para você, eu devolvo o seu dinheiro, sem justificativa.`
 
 Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fora do estabelecimento):
 `Você tem o direito legal de desistir em até 7 dias da compra, como prevê o Código de Defesa do Consumidor.` `[[CONFIRMAR: jurídico]]`
@@ -490,13 +490,13 @@ Versão C, se não houver garantia diferente da lei (CDC, 7 dias para compras fo
 `O Clube Secreto e os 11 produtos do catálogo atual: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Código de Ativação Próton, Imersão Desbloqueie o Poder da Sua Mente, Desafio A Nova Realidade, Cura da Criança Interior, Instagram Profissional, Destrave o Dinheiro, Cura da Escassez Financeira e Sequências Numéricas de Grabovoi. Não há promessa de lançamentos futuros.`
 
 **Posso parcelar?**
-`Sim, em até [[PENDENTE: nº de parcelas]]x no cartão. Pix à vista também.` `[[CONFIRMAR: opções do checkout]]`
+`Sim, em até [[PENDENTE: parcelamento]]x no cartão. Pix à vista também.` `[[CONFIRMAR: opções do checkout]]`
 
 **Já sou aluna do Clube. Muda alguma coisa?**
-`Sim: existe um valor próprio para alunas, por lote. Se você é aluna, use o link da página de cupom. [[LINK: pagina_cupom_alunas]]` `[[PENDENTE: tratamento do tempo restante do acesso atual]]`
+`Sim: existe um valor próprio para alunas, por lote. Se você é aluna, use o link da página de cupom. [[LINK: pagina_cupom_alunas]]` `[[PENDENTE: regra de migração, tempo restante do acesso atual]]`
 
 **Já tenho alguns dos produtos. Vou pagar por eles de novo?**
-`[[PENDENTE: tratamento de quem já tem algum dos 11]]`
+`[[PENDENTE: regra de migração, quem já tem algum dos 11]]`
 
 **Quanto tempo preciso por dia?**
 `O Clube pede de 20 a 30 minutos por dia, só com o celular, em ciclos de 21 dias. Os demais produtos você abre no seu tempo.` `[[CONFIRMAR]]`
@@ -558,7 +558,7 @@ Cada estado existe em duas versões (alunas e não-alunas). Checkout por lote e 
 
 ## Notas ao implementador
 
-1. **Pendências que bloqueiam:** `[[PENDENTE: preço avulso]]` (11 produtos + Clube), `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[PENDENTE: nº de parcelas]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: tratamento de quem já tem algum dos 11]]`, `[[PENDENTE: tratamento do tempo restante do acesso atual]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
+1. **Pendências que bloqueiam:** `[[PENDENTE: preço avulso]]` (11 produtos + Clube), `[[PENDENTE: data do lote]]`, `[[PENDENTE: fechamento]]`, `[[PENDENTE: garantia]]`, `[[PENDENTE: bônus]]`, `[[PENDENTE: parcelamento]]`, `[[PENDENTE: ordem de entrada]]`, `[[PENDENTE: regra de migração, quem já tem algum dos 11]]`, `[[PENDENTE: regra de migração, tempo restante do acesso atual]]`, `[[FOTO DRA]]`, `[[DEPOIMENTO REAL]]`.
 2. **Descrições dos 11 produtos:** as fontes do projeto só trazem o **nome** de 8 dos 11. As funções do bloco 06 vêm do nome e dos materiais do Clube, do Desafio e da Imersão. Todas as linhas marcadas precisam de validação do time de produto. Alternativa: tirar a coluna "função" e deixar só "dor a que responde".
 3. **O que o Desafio tinha e a Black muda:**
    - Bloco 05 (passo a passo): calendário de 5 noites vira "como funciona" (trilha, 48 horas, ciclo).

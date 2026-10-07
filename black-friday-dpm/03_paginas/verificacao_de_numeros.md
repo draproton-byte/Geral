@@ -64,7 +64,7 @@ Ajuda: `Digite só os números. Pode ser o número de quem te mandou mensagem.`
 1. `Não clique em links dessa conversa.`
 2. `Não faça Pix e não digite dados de cartão.`
 3. `Bloqueie e denuncie o número no WhatsApp.`
-4. `Fale com o nosso suporte oficial para confirmar.` (botão: FALAR COM O SUPORTE OFICIAL) [[LINK: WhatsApp do suporte]]
+4. `Fale com o nosso suporte oficial para confirmar.` [[BOTÃO: FALAR COM O SUPORTE OFICIAL]] [[LINK: WhatsApp do suporte]]
 
 ### Resultado C: número digitado errado
 

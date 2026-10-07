@@ -370,8 +370,8 @@ O botão "Fazer meu diagnóstico" (passo 3) abre um fluxo em **três partes**:
 **Texto**
 `Você deu o primeiro passo e já tem o seu padrão. Agora faltam dois passos:`
 
-1. `Entre no grupo da live.` (botão: ENTRAR NO GRUPO DA LIVE)
-2. `Salve a data: 03/11, 20h.` (botão: SALVAR A DATA)
+1. `Entre no grupo da live.` [[BOTÃO: ENTRAR NO GRUPO DA LIVE]]
+2. `Salve a data: 03/11, 20h.` [[BOTÃO: SALVAR A DATA]]
 
 **Linha final**
 `A revelação é ao vivo, em 03/11, às 20h. A condição que a Dra. mostrar nessa noite não se repete.`

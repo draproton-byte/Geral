@@ -2,7 +2,7 @@
 
 **Peça:** 5 páginas com vídeo (VSL), mesma headline nas 5 páginas, mais 4 headlines de teste
 **Canal:** Página (tráfego pago frio e morno que vem de anúncio em vídeo, YouTube, Instagram, Facebook)
-**Público:** Base fria e morna que entra pelo vídeo (maioria 45+, mobile, 43,8% conhecem a Dra. há menos de 1 mês)
+**Público:** Base fria e morna que entra pelo vídeo (maioria 45+, mobile, cerca de 44% conhecem a Dra. há menos de 1 mês)
 **Momento:** Fase 1 e 2, 13/10 a 03/11
 **Objetivo:** A pessoa assiste ao vídeo e, no minuto combinado, o botão abre o formulário de cadastro (nome, e-mail, WhatsApp) para a live de 03/11, às 20h, e o diagnóstico dos 5 perfis
 **Consciência:** 1 a 3
@@ -21,9 +21,9 @@
 | "Ímã de dinheiro" | Headlines 2 e 3 de teste | **Removida.** Promessa de ganho financeiro |
 | "Prática de 10 minutos por noite que já ajudou mais de 70 mil pessoas" | Opção 2 | **Removida.** Liga o número de alunos a uma prática e a resultado que não foi comprovado |
 | "Uma terapeuta brasileira descobriu por quê e não é falta de esforço" | Opção 3 | **Removida.** "Descobriu" é claim de pesquisa sem fonte |
-| Botão | `ACEITO O DESAFIO · R$ 35` aos 3m08s | `QUERO MEU DIAGNÓSTICO E MINHA VAGA NA LIVE` em `[[PENDENTE: minutagem do vídeo]]` |
+| Botão | `ACEITO O DESAFIO`, com o preço do Desafio no botão, aos 3m08s | `QUERO MEU LUGAR E MEU DIAGNÓSTICO` em `[[PENDENTE: minutagem do vídeo]]` |
 | Abaixo do botão | Continuação da página de vendas do bloco 2 para baixo | Blocos 02 a 10 da captura A (ver abaixo) |
-| Preço | R$ 35 no botão | **Nenhum preço.** A Black só revela na live |
+| Preço | Preço do Desafio no botão | **Nenhum preço.** A Black só revela na live |
 
 ---
 
@@ -40,14 +40,14 @@ De cima para baixo:
 7. Blocos abaixo do vídeo (reaproveitam a captura A)
 
 ### Pré-título (igual nas 5)
-`BLACK PRÓTON VITALÍCIA · 03/11 · 20H · AO VIVO NO YOUTUBE`
+`LIVE DE REVELAÇÃO · 03/11 · 20H · YOUTUBE`
 
 ### Instrução do player (microcopy)
 `Toque para ouvir. O vídeo tem [[PENDENTE: minutagem do vídeo]] e explica o padrão que faz você recomeçar.`
 
 ### Botão (aparece em `[[PENDENTE: minutagem do vídeo]]`)
 
-**Texto principal:** `QUERO MEU DIAGNÓSTICO E MINHA VAGA NA LIVE`
+**Texto principal:** `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 **Microcopy:** `Gratuito. Sem compromisso de compra. Live de revelação em 03/11, às 20h.`
 **Ação:** abre o formulário em tela (nome, e-mail, WhatsApp), igual ao da captura A.
 
@@ -69,10 +69,10 @@ Regra do Desafio mantida: **as 5 páginas rodam a mesma headline H1** (cada pág
 `Veja o que faz você começar, parar e recomeçar de novo (e por que não é falta de força de vontade).`
 
 **Texto de apoio**
-`Dê o play e prepare-se para entender um padrão sobre a sua mente que ninguém explicou antes. Ele ajuda a entender por que a sua vida volta ao mesmo ponto, mesmo quando você se esforça.`
+`Dê o play e entenda um padrão que age por baixo e ajuda a explicar por que a sua vida volta ao mesmo ponto, mesmo quando você se esforça.`
 `Depois do vídeo, faça o diagnóstico gratuito e reserve seu lugar na live de 03/11.`
 
-**Botão:** `QUERO MEU DIAGNÓSTICO E MINHA VAGA NA LIVE`
+**Botão:** `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 
 `[[CONFIRMAR: o vídeo sustenta "o que faz você começar, parar e recomeçar" e "não é falta de força de vontade"]]`
 
@@ -98,7 +98,7 @@ Regra do Desafio mantida: **as 5 páginas rodam a mesma headline H1** (cada pág
 ### H3 (teste 2): Dor de dinheiro (Termostato Invisível)
 
 **Headline**
-`Por que o dinheiro entra na sua mão e não fica, mesmo quando você trabalha mais do que todo mundo à sua volta?`
+`Por que o dinheiro entra e não fica, mesmo quando você se esforça?`
 
 **Texto de apoio**
 `Quando entra um dinheiro a mais, aparece uma conta. Se isso acontece com você, dê o play e veja o que pode estar por trás desse padrão.`
@@ -106,7 +106,7 @@ Regra do Desafio mantida: **as 5 páginas rodam a mesma headline H1** (cada pág
 
 **Botão:** `QUERO VER SE É O MEU PADRÃO`
 
-**Origem:** teste 3 do Desafio ("veja por que o dinheiro entra na sua mão e não fica"), com a imagem de 51,9% que respondem que, quando entra dinheiro a mais, aparece uma conta ou problema. Não promete que o dinheiro vai ficar.
+**Origem:** teste 3 do Desafio ("veja por que o dinheiro entra na sua mão e não fica"), com a imagem de 51,9% das pessoas que responderam à pesquisa de presença (dossiê do Desafio) que dizem que, quando entra dinheiro a mais, aparece uma conta ou problema. Não promete que o dinheiro vai ficar.
 
 **Compliance:** não adicionar "e como mudar em semanas".
 
@@ -120,7 +120,7 @@ Regra do Desafio mantida: **as 5 páginas rodam a mesma headline H1** (cada pág
 **Texto de apoio**
 `Em 03/11, às 20h, a Dra. Próton abre a Black Próton Vitalícia: a última vez que você vai precisar recomeçar. Antes disso, dê o play e conheça o padrão que faz você voltar.`
 
-**Botão:** `QUERO MEU DIAGNÓSTICO E MINHA VAGA NA LIVE`
+**Botão:** `QUERO MEU LUGAR E MEU DIAGNÓSTICO`
 
 **Origem:** é a pergunta de abertura da live (01_PESQUISAS_INSIGHTS.md, seção 3) e dá continuidade entre anúncio, página e live.
 
@@ -147,7 +147,7 @@ Regra do Desafio mantida: **as 5 páginas rodam a mesma headline H1** (cada pág
 | 1 (13 a 17/10) | VSL 1 a 5 | H1 em todas, para medir cada vídeo contra a mesma headline |
 | 2 (18 a 24/10) | VSL com mais volume (duas) | H2 e H3 contra H1 |
 | 3 (25 a 31/10) | VSL com mais volume (duas) | H4 e H5 contra a vencedora |
-| 4 (1 a 03/11) | Todas | Vencedora; botão de lembrete do dia da live |
+| 4 (01/11 a 03/11) | Todas | Vencedora; botão de lembrete do dia da live |
 
 Métricas: taxa de play, retenção até `[[PENDENTE: minutagem do vídeo]]`, cliques no botão, cadastro e custo por lead. Registrar UTM por página e por vídeo.
 

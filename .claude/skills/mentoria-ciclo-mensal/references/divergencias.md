@@ -11,7 +11,7 @@
 
 ## Decididas (regras da skill)
 
-3. **Dias 05 e 16 de Outubro** têm 5 palavras (limite 4). Tema final:
+3. **Dias 05 e 16 de Outubro** têm 5 palavras (limite 4). **Decisão: Outubro fica como está** (já produzido e provavelmente agendado; trocar exigiria regerar capas e reagendar). A regra de 4 palavras vale de Novembro em diante. Tema que seria o final:
 
    | Dia | Atual | Novo |
    |---|---|---|
@@ -27,7 +27,7 @@
 
    Enquanto houver tema antigo em algum lugar, `conferir_capas.py` acusa, por exemplo:
    `Dia 05 | Coluna Título da planilha | esperado: 'Dizer eu te amo' | encontrado: 'O poder do "eu te amo"'`
-   Em Outubro essas trocas ainda não foram feitas: o script deve acusar os Dias 05 e 16.
+   Em Outubro as trocas NÃO serão feitas. Ao rodar `conferir_capas.py` e `checar_temas.py` com os dados de Outubro, os Dias 05 e 16 aparecem como divergentes: isso é esperado e prova que a conferência funciona. Não tratar como erro do ciclo de Outubro.
 
 4. **Nome de capa: padrão do Drive**, `Dia NN · <tema>.<ext>`. Não usar `Dia-NN.png` nem `Tema-NN.png`.
 

@@ -13,7 +13,7 @@ if (fs.existsSync(dirAj)) for (const f of fs.readdirSync(dirAj).filter(x => x.en
 const PASTA = { captacao: 'CAPTACAO', 'rmkt-captacao': 'RMKT DE CAPTACAO', aquecimento: 'AQUECIMENTO', antecipacao: 'ANTECIPACAO', escassez: 'ESCASSEZ', lembrete: 'LEMBRETE', vendas: 'VENDAS', 'rmkt-vendas': 'RMKT DE VENDAS' };
 const dirRec = path.join(ROOT, 'recortes');
 // fora por regra do briefing: mão junto ao rosto/queixo (20, 33) e foto só de rosto (39)
-const EXCLUIR = new Set(['recorte-20.png', 'recorte-33.png', 'recorte-39.png']);
+const EXCLUIR = new Set(['recorte-20.png', 'recorte-24.png', 'recorte-33.png', 'recorte-39.png']);
 let recs = fs.readdirSync(dirRec).filter(f => /^recorte-\d+\.png$/.test(f) && !EXCLUIR.has(f)).sort();
 const recJson = path.join(dirRec, 'recortes.json');
 if (fs.existsSync(recJson)) { try { const j = JSON.parse(fs.readFileSync(recJson, 'utf8')); const arr = Array.isArray(j) ? j : j.recortes || []; const ok = arr.map(r => r.arquivo).filter(a => recs.includes(a)); if (ok.length) recs = ok; } catch (e) {} }

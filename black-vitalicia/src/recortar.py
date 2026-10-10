@@ -11,7 +11,7 @@ ROOT = '/home/user/Geral/black-vitalicia'
 OUT = ROOT + '/recortes'
 MODEL = '/tmp/models/u2net_human_seg.onnx'
 MAXSIDE = 1400
-BG_LO, BG_HI, CHOKE, CORE, GAP_D = 0.04, 0.11, 0.2, 22, 0.07
+BG_LO, BG_HI, CHOKE, CORE, GAP_D = 0.04, 0.11, 0.2, 22, -1
 # fracao da altura da foto onde o enquadramento termina (cintura); topo opcional
 CROP = {'02': .74, '03': .80, '04': .88, '05': .93, '06': .88, '08': .86, '11': .88,
         '12': .85, '14': .88, '17': .90, '25': .90, '20': .82, '39': .78}

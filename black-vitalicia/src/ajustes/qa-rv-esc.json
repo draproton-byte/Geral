@@ -1,0 +1,144 @@
+{
+ "RV01": {
+  "layout": "arco",
+  "foto": "foto-36.jpg",
+  "foco": [
+   0.53,
+   0.3
+  ],
+  "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:880px !important}div[style*=\"border-radius:260px 260px\"]{height:1040px !important}"
+ },
+ "RV02": {
+  "layout": "topo",
+  "foto": "foto-24.jpg",
+  "foco": [
+   0.42,
+   0.02
+  ],
+  "feed-escuro": {
+   "cssExtra": ".foto{height:900px !important}div[style*=\"top:640px\"]{top:760px !important}"
+  },
+  "story-escuro": {
+   "cssExtra": ".foto{height:1120px !important}div[style*=\"top:760px\"]{top:900px !important}"
+  },
+  "feed-claro": {
+   "cssExtra": ".foto{height:900px !important}div[style*=\"top:640px\"]{top:760px !important}"
+  },
+  "story-claro": {
+   "cssExtra": ".foto{height:1120px !important}div[style*=\"top:760px\"]{top:900px !important}"
+  }
+ },
+ "RV03": {
+  "layout": "direita",
+  "foto": "foto-12.jpg",
+  "foco": [
+   0.5,
+   0.27
+  ],
+  "feed-claro": {
+   "layout": "arco"
+  },
+  "story-claro": {
+   "layout": "arco"
+  },
+  "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:880px !important}div[style*=\"border-radius:260px 260px\"]{height:1040px !important}",
+  "story-escuro": {
+   "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:880px !important}div[style*=\"border-radius:260px 260px\"]{height:1040px !important}.foto{right:-190px !important}"
+  },
+  "feed-escuro": {
+   "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:880px !important}div[style*=\"border-radius:260px 260px\"]{height:1040px !important}.foto{right:-150px !important}"
+  }
+ },
+ "RV04": {
+  "layout": "topo",
+  "foto": "foto-10.jpg",
+  "foco": [
+   0.47,
+   0.02
+  ],
+  "feed-escuro": {
+   "cssExtra": ".foto{height:900px !important}div[style*=\"top:640px\"]{top:760px !important}"
+  },
+  "story-escuro": {
+   "cssExtra": ".foto{height:1120px !important}div[style*=\"top:760px\"]{top:900px !important}"
+  },
+  "feed-claro": {
+   "cssExtra": ".foto{height:900px !important}div[style*=\"top:640px\"]{top:760px !important}"
+  },
+  "story-claro": {
+   "cssExtra": ".foto{height:1120px !important}div[style*=\"top:760px\"]{top:900px !important}"
+  }
+ },
+ "RV05": {
+  "layout": "arco",
+  "foto": "foto-31.jpg",
+  "foco": [
+   0.53,
+   0.3
+  ],
+  "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:880px !important}div[style*=\"border-radius:260px 260px\"]{height:1040px !important}"
+ },
+ "ESC01": {
+  "layout": "arco",
+  "foto": "foto-23.jpg",
+  "foco": [
+   0.5,
+   0.28
+  ],
+  "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:800px !important}div[style*=\"border-radius:260px 260px\"]{height:900px !important}h1 em{white-space:nowrap}"
+ },
+ "ESC02": {
+  "layout": "topo",
+  "foto": "foto-36.jpg",
+  "foco": [
+   0.53,
+   0.02
+  ],
+  "feed-escuro": {
+   "cssExtra": ".foto{height:840px !important}div[style*=\"top:640px\"]{top:700px !important}h1 em{white-space:nowrap}"
+  },
+  "story-escuro": {
+   "cssExtra": ".foto{height:1060px !important}div[style*=\"top:760px\"]{top:840px !important}h1 em{white-space:nowrap}"
+  },
+  "feed-claro": {
+   "cssExtra": ".foto{height:840px !important}div[style*=\"top:640px\"]{top:700px !important}h1 em{white-space:nowrap}"
+  },
+  "story-claro": {
+   "cssExtra": ".foto{height:1060px !important}div[style*=\"top:760px\"]{top:840px !important}h1 em{white-space:nowrap}"
+  }
+ },
+ "ESC03": {
+  "layout": "direita",
+  "foto": "foto-25.jpg",
+  "foco": [
+   0.5,
+   0.27
+  ],
+  "feed-claro": {
+   "layout": "arco",
+   "fs": 80
+  },
+  "story-claro": {
+   "layout": "arco",
+   "fs": 76
+  },
+  "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:800px !important}div[style*=\"border-radius:260px 260px\"]{height:900px !important}h1{white-space:nowrap}",
+  "feed-escuro": {
+   "fs": 94,
+   "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:800px !important}div[style*=\"border-radius:260px 260px\"]{height:900px !important}h1{white-space:nowrap}.foto{right:-150px !important}"
+  },
+  "story-escuro": {
+   "fs": 108,
+   "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:800px !important}div[style*=\"border-radius:260px 260px\"]{height:900px !important}h1{white-space:nowrap}.foto{right:-190px !important}"
+  }
+ },
+ "ESC04": {
+  "layout": "arco",
+  "foto": "foto-06.jpg",
+  "foco": [
+   0.58,
+   0.17
+  ],
+  "cssExtra": "div[style*=\"border-radius:235px 235px\"]{height:800px !important}div[style*=\"border-radius:260px 260px\"]{height:900px !important}.card span{font-size:40px !important;white-space:nowrap}"
+ }
+}

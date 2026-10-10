@@ -92,9 +92,9 @@ function html(it) {
     body = `<div style="position:absolute;left:80px;top:${story ? 470 : 300}px;width:${story ? 380 : 450}px">${stack(story ? 30 : 22)}</div>
       <div style="position:absolute;left:80px;right:80px;bottom:${story ? 330 : 64}px;display:flex;flex-direction:column;gap:${story ? 26 : 20}px">${data}${cta}</div>`;
   } else if (L === 'cartao') {
-    const ch = story ? 640 : 560, top = story ? 270 : 190;
+    const ch = story ? 600 : 470, top = story ? 270 : 180;
     extra = `<div style="position:absolute;left:80px;right:80px;top:${top}px;height:${ch}px;border-radius:40px;border:3px solid ${t.moldura};padding:10px"><div style="width:100%;height:100%;border-radius:30px;background:url('${foto}') ${fx}% ${fy}%/cover;box-shadow:0 20px 50px rgba(0,0,0,.3)"></div></div>`;
-    body = `<div style="position:absolute;left:80px;right:80px;top:${top + ch + (story ? 50 : 34)}px;display:flex;flex-direction:column;gap:${story ? 22 : 14}px">${eyebrow}<h1 style="font-size:${Math.round(fsH * .86)}px">${hl(it.headline)}</h1></div>
+    body = `<div style="position:absolute;left:80px;right:80px;top:${top + ch + (story ? 50 : 34)}px;display:flex;flex-direction:column;gap:${story ? 22 : 14}px">${eyebrow}<h1 style="font-size:${Math.round(fsH * .8)}px">${hl(it.headline)}</h1>${sub}${selo}</div>
       <div style="position:absolute;left:80px;right:80px;bottom:${story ? 330 : 56}px;display:flex;flex-direction:column;gap:${story ? 22 : 16}px">${data}${cta}</div>`;
   } else if (L === 'capas') {
     const n = Math.min(Math.max(capas.length, 1), story ? 3 : 4);

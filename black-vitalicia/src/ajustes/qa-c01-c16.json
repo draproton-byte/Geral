@@ -1,1 +1,362 @@
-{}
+{
+ "C01": {
+  "layout": "direita",
+  "foto": "foto-36.jpg",
+  "foco": [
+   0.55,
+   0.3
+  ],
+  "feed-escuro": {
+   "layout": "direita",
+   "cssExtra": ""
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C02": {
+  "layout": "arco",
+  "foto": "foto-02.jpg",
+  "feed-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  }
+ },
+ "C03": {
+  "layout": "topo",
+  "foto": "foto-24.jpg",
+  "foco": [
+   0.42,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C04": {
+  "layout": "direita",
+  "foto": "foto-04.jpg",
+  "feed-escuro": {
+   "layout": "direita",
+   "cssExtra": ""
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "direita",
+   "cssExtra": ""
+  },
+  "story-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  }
+ },
+ "C05": {
+  "layout": "arco",
+  "foto": "foto-12.jpg",
+  "feed-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  }
+ },
+ "C06": {
+  "layout": "topo",
+  "foto": "foto-23.jpg",
+  "foco": [
+   0.5,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C07": {
+  "layout": "direita",
+  "foto": "foto-31.jpg",
+  "foco": [
+   0.55,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "direita",
+   "cssExtra": ""
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C08": {
+  "layout": "arco",
+  "foto": "foto-16.jpg",
+  "feed-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  }
+ },
+ "C09": {
+  "layout": "topo",
+  "foto": "foto-10.jpg",
+  "foco": [
+   0.47,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C10": {
+  "layout": "topo",
+  "foto": "foto-19.jpg",
+  "foco": [
+   0.5,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C11": {
+  "layout": "arco",
+  "foto": "foto-25.jpg",
+  "feed-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  }
+ },
+ "C12": {
+  "layout": "direita",
+  "foto": "foto-11.jpg",
+  "foco": [
+   0.43,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "direita",
+   "cssExtra": ""
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C13": {
+  "layout": "topo",
+  "foto": "foto-26.jpg",
+  "foco": [
+   0.47,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C14": {
+  "layout": "direita",
+  "foto": "foto-17.jpg",
+  "foco": [
+   0.43,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "direita",
+   "cssExtra": ""
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C15": {
+  "layout": "topo",
+  "foto": "foto-29.jpg",
+  "foco": [
+   0.5,
+   0
+  ],
+  "feed-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:100px!important;height:700px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-escuro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  },
+  "story-claro": {
+   "layout": "topo",
+   "cssExtra": ".foto{top:190px!important;height:960px!important;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important;mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 60%,transparent 100%)!important}"
+  }
+ },
+ "C16": {
+  "layout": "arco",
+  "foto": "foto-30.jpg",
+  "feed-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "feed-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-escuro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  },
+  "story-claro": {
+   "layout": "arco",
+   "cssExtra": "div[style*=\"background:url\"]{background-size:auto 115%!important}"
+  }
+ }
+}

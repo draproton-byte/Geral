@@ -33,6 +33,10 @@ const T = {
   claro: { bg: '#F9F3EA', bg2: '#F1E8D8', txt: '#1D1110', txt2: '#3b2a25', hi: 'linear-gradient(90deg,#B8862E,#A37A27 55%,#8A6217)', line: '#A37A27', ring: 'rgba(163,122,39,.16)', glow: 'rgba(212,168,78,.40)', card: 'rgba(29,17,16,.05)', cardLine: 'rgba(163,122,39,.6)', btnBg: 'linear-gradient(135deg,#2a1512,#150808)', btnTxt: '#F0CD7A', btnDot: '#D4A84E', btnArrow: '#150808' },
 };
 
+// variações de cor de fundo (mesma paleta de destaque dourada)
+T.vinho = { ...T.escuro, bg: '#2B0A12', bg2: '#12040A', glow: 'rgba(214,92,104,.34)', ring: 'rgba(240,205,122,.14)' };
+T.ambar = { ...T.escuro, bg: '#2A1A0C', bg2: '#100803', glow: 'rgba(240,205,122,.42)', ring: 'rgba(240,205,122,.16)' };
+
 const ICONES = {
   cal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
   rel: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
@@ -50,7 +54,7 @@ function html(it) {
   const rec = it.recorte && layout !== 'capas' && layout !== 'texto' ? it.recorte : null;
   const bb = rec ? bboxDe(rec) : null;
   const capas = (it.capas || []).map(c => U('capas-cursos/' + c + '.jpg'));
-  const cfg = { W, H, story, layout, bb, hasCut: !!rec, padBottom: story ? 380 : 74, topY: story ? 450 : 190, fsStart: it.fs || (layout === 'texto' ? (story ? 120 : 92) : story ? 84 : 70), fsMin: story ? 40 : 34, bleed: it.bleed ?? 40, figW: it.figW || (story ? 900 : 700), maxFigH: story ? 0.68 : 0.76, subStart: story ? 36 : 30, subMin: story ? 24 : 21 };
+  const cfg = { W, H, story, layout, bb, hasCut: !!rec, padBottom: story ? 380 : 74, topY: story ? 450 : 190, fsStart: it.fs || (layout === 'texto' ? (story ? 120 : 92) : story ? 84 : 70), fsMin: story ? 40 : 34, bleed: it.bleed ?? 40, figW: it.figW || (story ? 1060 : 860), maxFigH: story ? 0.74 : 0.86, capasBox: (it.capasExtra || []).length, subStart: story ? 36 : 30, subMin: story ? 24 : 21 };
 
   const dataCard = it.data ? `
     <div class="date" id="date">
@@ -61,6 +65,8 @@ function html(it) {
   const selo = it.selo ? `<div class="selo">${hl(it.selo)}</div>` : '';
   const apoio = it.apoio ? `<p class="apoio">${it.apoio.includes('\n') ? it.apoio.split('\n').map(l => `<span class="li">${hl(l)}</span>`).join('') : hl(it.apoio)}</p>` : '';
   const fecho = it.fechamento ? `<div class="fecho">${hl(it.fechamento)}</div>` : '';
+  const extraCapas = (it.capasExtra || []).map(c => `<img src="${U('capas-cursos/' + c + '.jpg')}">`).join('');
+  const capasBoxHtml = extraCapas ? `<div id="capasbox">${extraCapas}</div>` : '';
   const capasHtml = capas.length ? `<div id="capas">${capas.map(c => `<img src="${c}">`).join('')}</div>` : '';
 
   const css = `${FONTS}*{margin:0;padding:0;box-sizing:border-box}
@@ -98,6 +104,8 @@ h1{font-weight:900;text-transform:uppercase;line-height:1.04;letter-spacing:-.01
 #foot::before,#foot::after{content:"";flex:1;height:1.5px;background:linear-gradient(90deg,transparent,${t.line})}
 #foot::after{transform:scaleX(-1);order:2}
 #foot i{width:11px;height:11px;background:${t.line};transform:rotate(45deg);order:1}
+#capasbox{position:absolute;left:80px;display:none;flex-wrap:wrap;gap:14px;align-content:flex-start}
+#capasbox img{display:block;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,.4);border:1.5px solid ${t.cardLine};object-fit:cover}
 #capas{position:absolute;left:80px;right:80px;display:flex;gap:22px;align-items:center;justify-content:center}
 #capas img{flex:1 1 0;min-width:0;max-height:100%;border-radius:16px;box-shadow:0 18px 40px rgba(0,0,0,.4);border:1.5px solid ${t.cardLine};object-fit:cover}
 `;
@@ -109,6 +117,15 @@ const act=$('#actions'),txt=$('#txt'),h1=$('h1'),foot=$('#foot');
 document.fonts.ready.then(()=>{ run(); document.title='ok'; });
 function setFs(fs){h1.style.fontSize=fs+'px';}
 function setSub(fs){['.apoio','.fecho','.selo'].forEach((q,i)=>{const e=$(q); if(e) e.style.fontSize=Math.round(fs*[1,0.92,0.78][i])+'px';});}
+function placeCapas(colW,top,bottom,wide){
+  const box=$('#capasbox'); if(!box||!C.capasBox) return;
+  const imgs=[...box.querySelectorAll('img')]; const free=bottom-top; if(free<150) return;
+  let cols=wide?4:2, gap=14, tw=Math.floor((colW-gap*(cols-1))/cols), th=Math.round(tw*1.25);
+  if(wide&&th>free){ th=Math.floor(free); tw=Math.round(th/1.25); }
+  const rows=wide?1:Math.max(0,Math.floor((free+gap)/(th+gap))); if(!rows) return;
+  const n=Math.min(imgs.length,cols*rows); imgs.forEach((im,i)=>{im.style.display=i<n?'block':'none'; im.style.width=tw+'px'; im.style.height=th+'px';});
+  const used=Math.ceil(n/cols); box.style.display='flex'; box.style.top=top+'px'; box.style.width=(wide?cols*tw+gap*(cols-1):colW)+'px'; box.style.left=(wide?Math.round((C.W-(cols*tw+gap*(cols-1)))/2):80)+'px';
+}
 function run(){
   const cw=$('#cutwrap'),cut=$('#cut');
   foot.style.top=(C.story?C.H-C.padBottom+22:C.H-46)+'px';
@@ -122,7 +139,7 @@ function run(){
     const colW=360;
     const date=$('#date'), cta=$('.cta');
     let placed=false, geo=null;
-    for(let figW=C.figW; figW>=C.figW-300 && !placed; figW-=30){
+    for(let figW=C.figW; figW>=C.figW-560 && !placed; figW-=30){
       let s=figW/bw; const maxH=C.H*C.maxFigH; if(bb.h*s>maxH) s=maxH/bb.h;
       const left=C.W+C.bleed-bb.x1*s, top=C.H-bb.h*s, bleft=left+bb.x0*s, figTop=top+bb.y0*s;
       // borda esquerda real da figura entre duas alturas (canvas): evita sobreposição pelo contorno, não pela caixa
@@ -151,11 +168,12 @@ function run(){
         }
       }
     }
-    if(!placed){ const bw0=bb.x1-bb.x0; let s=(C.figW-300)/bw0; geo={s,left:C.W+C.bleed-bb.x1*s,top:C.H-bb.h*s,bleft:C.W+C.bleed-bb.x1*s+bb.x0*s,figTop:C.H-bb.h*s+bb.y0*s,t2W:340,aW:340}; window.__unplaced=1; }
+    if(!placed){ const bw0=bb.x1-bb.x0; let s=(C.figW-560)/bw0; geo={s,left:C.W+C.bleed-bb.x1*s,top:C.H-bb.h*s,bleft:C.W+C.bleed-bb.x1*s+bb.x0*s,figTop:C.H-bb.h*s+bb.y0*s,t2W:340,aW:340}; window.__unplaced=1; }
     const {s,left,top,bleft,figTop}=geo;
     cut.src=cut.dataset.src; cut.style.width=(bb.w*s)+'px'; cut.style.left=left+'px'; cut.style.top=top+'px';
     document.documentElement.style.setProperty('--gx',Math.min(92,((left+((bb.x0+bb.x1)/2)*s)/C.W*100))+'%');
     document.documentElement.style.setProperty('--gy',((figTop+(bb.y1-bb.y0)*s*0.18)/C.H*100)+'%');
+    placeCapas(Math.min(geo.t2W,geo.aW), t2.offsetTop+t2.offsetHeight+26, act.offsetTop-26, false);
     window.__txt=[80,C.topY,C.W-80,C.topY+txt.offsetHeight];
     window.__txt2=[80,t2.offsetTop,80+geo.t2W,t2.offsetTop+t2.offsetHeight];
     window.__act=[80,act.offsetTop,80+geo.aW,act.offsetTop+act.offsetHeight];
@@ -165,9 +183,9 @@ function run(){
     const actTop=C.H-C.padBottom-act.offsetHeight;
     txt.style.width=(C.W-160)+'px'; txt.style.top=C.topY+'px';
     const caps=$('#capas');
-    for(let fs=C.fsStart;fs>=C.fsMin;fs-=2){setFs(fs); setSub(Math.max(fs*0.46,C.story?27:23)); const free=actTop-14-(C.topY+txt.offsetHeight+24); if(free>=(caps?(C.story?640:470):0)&&h1.scrollWidth<=txt.clientWidth+1) break;}
+    for(let fs=C.fsStart;fs>=C.fsMin;fs-=2){setFs(fs); setSub(Math.max(fs*0.46,C.story?27:23)); const free=actTop-14-(C.topY+txt.offsetHeight+24); if(free>=(caps?(C.story?640:470):(C.capasBox?(C.story?420:300):0))&&h1.scrollWidth<=txt.clientWidth+1) break;}
     if(caps){caps.style.top=(C.topY+txt.offsetHeight+30)+'px';caps.style.height=(actTop-14-(C.topY+txt.offsetHeight+30))+'px';}
-    if(!caps){const avail=actTop-14-C.topY; txt.style.top=(C.topY+Math.max(0,(avail-txt.offsetHeight)/2))+'px';}
+    if(!caps){ if(C.capasBox){ placeCapas(C.W-160, C.topY+txt.offsetHeight+34, actTop-26, true); } else { const avail=actTop-14-C.topY; txt.style.top=(C.topY+Math.max(0,(avail-txt.offsetHeight)/2))+'px'; } }
     window.__txt=[80,txt.offsetTop,C.W-80,txt.offsetTop+txt.offsetHeight]; window.__act=[80,act.offsetTop,C.W-80,act.offsetTop+act.offsetHeight];
     window.__fig=null;
   }
@@ -177,7 +195,7 @@ function run(){
 <img id="logo" src="${U('assets/logo-dourado.png')}">
 <div id="cutwrap"><img id="cut" data-src="${rec ? U('recortes/' + rec) : ''}"></div>
 <div id="txt"${it.hero ? ' class="hero"' : ''}><h1>${hl(it.headline)}</h1>${apoio}${fecho}${selo}</div>
-${capasHtml}
+${capasHtml}${capasBoxHtml}
 <div id="actions">${dataCard}${cta}</div>
 <div id="foot"><i></i></div>
 <script>${script}</script></body></html>`;

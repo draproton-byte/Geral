@@ -13,16 +13,19 @@ if (fs.existsSync(dirAj)) for (const f of fs.readdirSync(dirAj).filter(x => x.en
 const PASTA = { captacao: 'CAPTACAO', 'rmkt-captacao': 'RMKT DE CAPTACAO', aquecimento: 'AQUECIMENTO', antecipacao: 'ANTECIPACAO', escassez: 'ESCASSEZ', lembrete: 'LEMBRETE', vendas: 'VENDAS', 'rmkt-vendas': 'RMKT DE VENDAS' };
 const dirRec = path.join(ROOT, 'recortes');
 // fora por regra do briefing: mão junto ao rosto/queixo (20, 33) e foto só de rosto (39)
-const EXCLUIR = new Set(['recorte-20.png', 'recorte-24.png', 'recorte-33.png', 'recorte-39.png']);
+const EXCLUIR = new Set(['recorte-20.png', 'recorte-33.png', 'recorte-39.png']);
 let recs = fs.readdirSync(dirRec).filter(f => /^recorte-\d+\.png$/.test(f) && !EXCLUIR.has(f)).sort();
 const recJson = path.join(dirRec, 'recortes.json');
 if (fs.existsSync(recJson)) { try { const j = JSON.parse(fs.readFileSync(recJson, 'utf8')); const arr = Array.isArray(j) ? j : j.recortes || []; const ok = arr.map(r => r.arquivo).filter(a => recs.includes(a)); if (ok.length) recs = ok; } catch (e) {} }
 // feliz/serena primeiro no rodízio
 const preferidos = ['recorte-36.png', 'recorte-24.png'].filter(r => recs.includes(r));
-const rodizio = [...preferidos, ...recs.filter(r => !preferidos.includes(r))];
+const rest = recs.filter(r => !preferidos.includes(r));
+// feliz/serena a cada 3ª peça (o ensaio acessível tem poucas fotos alegres)
+const rodizio = []; { let a = 0, b = 0; while (rodizio.length < 60) { if (rodizio.length % 3 === 0 && preferidos.length) rodizio.push(preferidos[a++ % preferidos.length]); else rodizio.push(rest[b++ % rest.length]); } }
 
 const SEM_FOTO = new Set(['C02', 'C04', 'C06', 'C08', 'ESC01', 'ESC02', 'ESC03', 'ESC04', 'AD02', 'AD03', 'AD08', 'AD09', 'AD13', 'AD14', 'AD15', 'AD16', 'AD17', 'AD18']);
 const HERO = new Set(['ESC01', 'ESC02', 'ESC03', 'ESC04']);
+const CAPAS_LISTA = ['clube-secreto', 'a-nova-realidade', 'audios-poderosos', 'sequencias-numericas', 'terapeuta-de-elite', 'crianca-interior', 'cura-escassez-financeira', 'desbloqueie-o-poder-da-sua-mente'];
 const itens = [];
 let ultimo = '';
 copy.forEach((c, i) => {
@@ -32,11 +35,12 @@ copy.forEach((c, i) => {
   if (rec === ultimo) rec = rodizio[(rodizio.indexOf(rec) + 1) % rodizio.length];
   ultimo = rec;
   const pasta = PASTA[c.etapa];
-  for (const formato of ['feed', 'story']) for (const versao of ['escuro', 'claro']) {
+  const versoes = ['escuro', 'claro', 'vinho', ...(SEM_FOTO.has(c.id) ? ['ambar'] : [])];
+  for (const formato of ['feed', 'story']) for (const versao of versoes) {
     const v = aj[formato + '-' + versao] || {};
     itens.push({ id: c.id, etapa: pasta, formato, versao, recorte: rec, headline: c.headline, apoio: c.apoio, fechamento: c.fechamento, selo: c.selo, data: c.data, cta: c.cta,
-      layout: c.id === 'VEN05' ? 'capas' : SEM_FOTO.has(c.id) ? 'texto' : undefined, hero: HERO.has(c.id), capas: c.id === 'VEN05' ? ['clube-secreto', 'desbloqueie-o-poder-da-sua-mente', 'terapeuta-de-elite'] : undefined,
-      nome: `${pasta}/BLACK PROTON VITALICIA - ${pasta} ${c.id} - ${formato === 'feed' ? 'FEED' : 'STORIES'}${versao === 'claro' ? ' - CLARO' : ''}`, ...aj, ...v });
+      capasExtra: c.id === 'VEN05' ? undefined : [0, 1, 2, 3].map(k => CAPAS_LISTA[(i * 3 + k) % CAPAS_LISTA.length]), layout: c.id === 'VEN05' ? 'capas' : SEM_FOTO.has(c.id) ? 'texto' : undefined, hero: HERO.has(c.id), capas: c.id === 'VEN05' ? ['clube-secreto', 'desbloqueie-o-poder-da-sua-mente', 'terapeuta-de-elite'] : undefined,
+      nome: `${pasta}/BLACK PROTON VITALICIA - ${pasta} ${c.id} - ${formato === 'feed' ? 'FEED' : 'STORIES'}${versao === 'claro' ? ' - CLARO' : versao === 'vinho' ? ' - VINHO' : versao === 'ambar' ? ' - AMBAR' : ''}`, ...aj, ...v });
   }
 });
 // peça extra no padrão "alarme/lembrete" (referência enviada pelo cliente)

@@ -14,12 +14,12 @@
   },
   "story-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}",
    "fs": 112
   },
   "story-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}",
    "fs": 112
   }
  },
@@ -38,12 +38,12 @@
   },
   "story-escuro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 84
   },
   "story-claro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 84
   }
  },
@@ -78,7 +78,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 110
   },
   "story-claro": {
@@ -87,7 +87,7 @@
     0.5,
     0.25
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 72
   }
  },
@@ -106,12 +106,12 @@
   },
   "story-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}",
    "fs": 96
   },
   "story-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}",
    "fs": 96
   }
  },
@@ -142,7 +142,7 @@
     0.5,
     0.17
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}h1{text-wrap:nowrap}body>div[style*=\"top:930px\"]{top:905px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}h1{text-wrap:nowrap}body>div[style*=\"top:930px\"]{top:905px!important}",
    "fs": 80
   },
   "story-claro": {
@@ -151,7 +151,7 @@
     0.5,
     0.25
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 80
   }
  },
@@ -170,12 +170,12 @@
   },
   "story-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-120px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}.foto{right:-120px!important}.sub{max-width:360px}",
    "fs": 84
   },
   "story-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-120px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}.foto{right:-120px!important}.sub{max-width:360px}",
    "fs": 84
   }
  },
@@ -194,12 +194,12 @@
   },
   "story-escuro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 72
   },
   "story-claro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 72
   }
  },
@@ -234,7 +234,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 70
   },
   "story-claro": {
@@ -243,7 +243,7 @@
     0.5,
     0.25
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 56
   }
  },
@@ -261,11 +261,11 @@
   },
   "story-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}"
   },
   "story-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}"
   }
  },
  "VEN02": {
@@ -284,12 +284,12 @@
   },
   "story-escuro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 54
   },
   "story-claro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 54
   }
  },
@@ -308,13 +308,13 @@
   },
   "story-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-90px!important}body>div[style*=\"width:560px\"]{width:480px!important}",
-   "fs": 60
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}.foto{right:-100px!important}body>div[style*=\"width:560px\"]{width:410px!important}.sub{max-width:380px}",
+   "fs": 52
   },
   "story-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-90px!important}body>div[style*=\"width:560px\"]{width:480px!important}",
-   "fs": 60
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:58px!important}.foto{right:-100px!important}body>div[style*=\"width:560px\"]{width:410px!important}.sub{max-width:380px}",
+   "fs": 52
   }
  },
  "VEN04": {
@@ -349,7 +349,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 64
   },
   "story-claro": {
@@ -358,7 +358,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 64
   }
  },
@@ -392,13 +392,21 @@
   "foto": "foto-30.jpg",
   "subtexto": "Black Próton Vitalícia por **{VALOR DO LOTE}**.",
   "feed-escuro": {
-   "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0.1
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:190px!important;left:80px!important;width:920px!important;height:470px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:640px\"]{top:700px!important}",
    "fs": 62
   },
   "feed-claro": {
-   "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0.1
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:190px!important;left:80px!important;width:920px!important;height:470px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:640px\"]{top:700px!important}",
    "fs": 62
   },
   "story-escuro": {
@@ -407,7 +415,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 76
   },
   "story-claro": {
@@ -416,7 +424,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 76
   }
  },
@@ -435,12 +443,12 @@
   },
   "story-escuro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 56
   },
   "story-claro": {
    "layout": "arco",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}",
    "fs": 56
   }
  },
@@ -465,7 +473,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 66
   },
   "story-claro": {
@@ -474,7 +482,7 @@
     0.5,
     0.1
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:58px!important}.foto{top:272px!important;left:80px!important;width:920px!important;height:620px!important;-webkit-mask-image:none!important;mask-image:none!important;border-radius:36px;border:3px solid #C9A45A;box-shadow:0 18px 44px rgba(0,0,0,.35)}body>div[style*=\"top:760px\"]{top:930px!important}",
    "fs": 66
   }
  }

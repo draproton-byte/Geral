@@ -3,18 +3,22 @@
   "layout": "direita",
   "foto": "foto-36.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
    "fs": 92
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
    "fs": 92
   },
   "story-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
    "fs": 112
   },
   "story-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
    "fs": 112
   }
@@ -23,16 +27,24 @@
   "layout": "arco",
   "foto": "foto-24.jpg",
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 84
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 84
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 84
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 84
   }
  },
  "LEM03": {
@@ -43,34 +55,54 @@
    0
   ],
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
+   "fs": 100
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 84
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
+   "fs": 110
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 72
   }
  },
  "LEM04": {
   "layout": "direita",
   "foto": "foto-17.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
    "fs": 80
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
    "fs": 80
   },
   "story-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
    "fs": 96
   },
   "story-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
    "fs": 96
   }
@@ -83,35 +115,55 @@
    0
   ],
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
+   "fs": 88
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 80
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
+   "fs": 96
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 80
   }
  },
  "LEM06": {
   "layout": "direita",
-  "foto": "foto-26.jpg",
+  "foto": "foto-34.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
    "fs": 68
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
    "fs": 68
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
+   "layout": "direita",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-120px!important}",
    "fs": 84
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}",
+   "layout": "direita",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-120px!important}",
    "fs": 84
   }
  },
@@ -119,16 +171,24 @@
   "layout": "arco",
   "foto": "foto-31.jpg",
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 80
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 80
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 72
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 72
   }
  },
  "LEM08": {
@@ -139,31 +199,51 @@
    0
   ],
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
+   "fs": 64
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 64
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
+   "fs": 70
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 56
   }
  },
  "VEN01": {
   "layout": "direita",
   "foto": "foto-19.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "story-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   },
   "story-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   }
  },
@@ -171,31 +251,43 @@
   "layout": "arco",
   "foto": "foto-29.jpg",
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 60
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 60
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 54
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 54
   }
  },
  "VEN03": {
   "layout": "direita",
   "foto": "foto-27.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "story-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   },
   "story-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   }
  },
@@ -207,16 +299,28 @@
    0
   ],
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}"
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:640px\"]{top:650px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;mask-image:linear-gradient(90deg,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 52%,transparent 100%)!important;-webkit-mask-composite:source-in!important;mask-composite:intersect!important}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
   }
  },
  "VEN05": {
@@ -228,15 +332,19 @@
    "desbloqueie-o-poder-da-sua-mente"
   ],
   "feed-escuro": {
+   "layout": "capas",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
   },
   "feed-claro": {
+   "layout": "capas",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
   },
   "story-escuro": {
+   "layout": "capas",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
   },
   "story-claro": {
+   "layout": "capas",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
   }
  },
@@ -244,15 +352,19 @@
   "layout": "direita",
   "foto": "foto-30.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "story-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   },
   "story-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   }
  },
@@ -260,31 +372,43 @@
   "layout": "arco",
   "foto": "foto-36.jpg",
   "feed-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 62
   },
   "feed-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
+   "fs": 62
   },
   "story-escuro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 56
   },
   "story-claro": {
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "layout": "arco",
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}",
+   "fs": 56
   }
  },
  "VEN08": {
   "layout": "direita",
   "foto": "foto-32.jpg",
   "feed-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "feed-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
   },
   "story-escuro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   },
   "story-claro": {
+   "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
   }
  }

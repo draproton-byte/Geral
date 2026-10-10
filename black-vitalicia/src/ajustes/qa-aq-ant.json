@@ -17,15 +17,18 @@
   "layout": "topo",
   "foto": "foto-06.jpg",
   "foco": [
-   null,
+   0.58,
    0.02
   ],
-  "cssExtra": "",
+  "cssExtra": ".foto{background-size:128% auto!important}",
   "story-escuro": {
-   "cssExtra": ""
+   "cssExtra": ".foto{background-size:135% auto!important}"
   },
   "story-claro": {
-   "cssExtra": ""
+   "cssExtra": ".foto{background-size:135% auto!important}em{color:#8f6210!important}"
+  },
+  "feed-claro": {
+   "cssExtra": ".foto{background-size:128% auto!important}em{color:#8f6210!important}"
   }
  },
  "AQ03": {
@@ -46,26 +49,30 @@
   "subtexto": "**Termostato Invisível**\n**Autossabotagem**\n**Cobrança Que Você Só Faz Com Você**\n**Traumas Que Ainda Decidem**\n**Culpa de Querer Mais**\n\nNa live de 04/11 a Dra. Próton apresenta tudo o que construiu pra trabalhar esses padrões.",
   "cssExtra": ".sub{white-space:pre-line}.foto{right:-130px!important}body>div:nth-last-child(2){width:470px!important}",
   "story-escuro": {
-   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}.sub{white-space:pre-line}"
+   "cssExtra": ".foto{right:-265px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}.sub{white-space:pre-line}"
   },
   "story-claro": {
-   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}.sub{white-space:pre-line}"
+   "cssExtra": ".foto{right:-265px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}.sub{white-space:pre-line}"
   }
  },
  "AQ05": {
   "layout": "topo",
-  "foto": "foto-11.jpg",
+  "foto": "foto-05.jpg",
   "subtexto": "**\"Dinheiro não é pra mim.\"**\n**\"Quem tem muito é porque tirou de alguém.\"**\n\n[Elas também sabotam.]",
   "foco": [
-   null,
+   0.53,
    0.02
   ],
-  "cssExtra": ".sub{white-space:pre-line}",
+  "cssExtra": ".sub{white-space:pre-line}body>div:nth-last-child(2){top:600px!important}.foto{background-size:106% auto!important}",
+  "fs": 50,
   "story-escuro": {
-   "cssExtra": ".sub{white-space:pre-line}"
+   "cssExtra": ".sub{white-space:pre-line}.foto{background-size:120% auto!important}"
   },
   "story-claro": {
-   "cssExtra": ".sub{white-space:pre-line}"
+   "cssExtra": ".sub{white-space:pre-line}.foto{background-size:120% auto!important}em{color:#8f6210!important}"
+  },
+  "feed-claro": {
+   "cssExtra": ".sub{white-space:pre-line}body>div:nth-last-child(2){top:600px!important}.foto{background-size:106% auto!important}em{color:#8f6210!important}"
   }
  },
  "AQ06": {
@@ -94,28 +101,33 @@
  },
  "AQ08": {
   "layout": "topo",
-  "foto": "foto-08.jpg",
+  "foto": "foto-22.jpg",
   "foco": [
-   null,
+   0.58,
    0.02
   ],
-  "cssExtra": "",
+  "cssExtra": ".foto{background-size:128% auto!important}",
   "story-escuro": {
-   "cssExtra": ""
+   "cssExtra": ".foto{background-size:135% auto!important}"
   },
   "story-claro": {
-   "cssExtra": ""
+   "cssExtra": ".foto{background-size:135% auto!important}em{color:#8f6210!important}"
+  },
+  "feed-claro": {
+   "cssExtra": ".foto{background-size:128% auto!important}em{color:#8f6210!important}"
   }
  },
  "ANT01": {
   "layout": "direita",
   "foto": "foto-10.jpg",
-  "cssExtra": ".foto{right:-130px!important}body>div:nth-last-child(2){width:470px!important}",
+  "cssExtra": ".eyebrow{letter-spacing:.14em!important;font-size:19px!important}.eyebrow::after{display:none}.foto{right:-130px!important}body>div:nth-last-child(2){width:470px!important}",
   "story-escuro": {
-   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
+   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}.eyebrow{letter-spacing:.14em!important;font-size:19px!important}.eyebrow::after{display:none}body>div:nth-last-child(2){top:380px!important}",
+   "fs": 68
   },
   "story-claro": {
-   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
+   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}.eyebrow{letter-spacing:.14em!important;font-size:19px!important}.eyebrow::after{display:none}body>div:nth-last-child(2){top:380px!important}",
+   "fs": 68
   }
  },
  "ANT02": {
@@ -142,17 +154,20 @@
  },
  "ANT04": {
   "layout": "topo",
-  "foto": "foto-13.jpg",
+  "foto": "foto-07.jpg",
   "foco": [
-   null,
+   0.68,
    0.02
   ],
-  "cssExtra": ".card span{font-size:31px!important}",
+  "cssExtra": ".card span{font-size:31px!important}.foto{background-size:128% auto!important}",
   "story-escuro": {
-   "cssExtra": ".card span{font-size:31px!important}.card span{font-size:34px!important}"
+   "cssExtra": ".card span{font-size:31px!important}.card span{font-size:34px!important}.foto{background-size:135% auto!important}"
   },
   "story-claro": {
-   "cssExtra": ".card span{font-size:31px!important}.card span{font-size:34px!important}"
+   "cssExtra": ".card span{font-size:31px!important}.card span{font-size:34px!important}.foto{background-size:135% auto!important}em{color:#8f6210!important}"
+  },
+  "feed-claro": {
+   "cssExtra": ".card span{font-size:31px!important}.foto{background-size:128% auto!important}em{color:#8f6210!important}"
   }
  },
  "ANT05": {
@@ -167,12 +182,8 @@
   }
  },
  "ANT06": {
-  "layout": "topo",
-  "foto": "foto-09.jpg",
-  "foco": [
-   null,
-   0.02
-  ],
+  "layout": "arco",
+  "foto": "foto-30.jpg",
   "cssExtra": "",
   "story-escuro": {
    "cssExtra": ""
@@ -182,25 +193,25 @@
   }
  },
  "ANT07": {
-  "layout": "arco",
+  "layout": "direita",
   "foto": "foto-16.jpg",
-  "cssExtra": "",
+  "cssExtra": ".foto{right:-60px!important}body>div:nth-last-child(2){width:470px!important}",
   "story-escuro": {
-   "cssExtra": ""
+   "cssExtra": ".foto{right:-170px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
   },
   "story-claro": {
-   "cssExtra": ""
+   "cssExtra": ".foto{right:-170px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
   }
  },
  "ANT08": {
-  "layout": "direita",
-  "foto": "foto-37.jpg",
-  "cssExtra": ".foto{right:-130px!important}body>div:nth-last-child(2){width:470px!important}",
+  "layout": "arco",
+  "foto": "foto-36.jpg",
+  "cssExtra": "",
   "story-escuro": {
-   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
+   "cssExtra": ".selo{font-size:20px!important;letter-spacing:.06em!important;white-space:nowrap}"
   },
   "story-claro": {
-   "cssExtra": ".foto{right:-230px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
+   "cssExtra": ".selo{font-size:20px!important;letter-spacing:.06em!important;white-space:nowrap}"
   }
  }
 }

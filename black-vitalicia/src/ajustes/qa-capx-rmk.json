@@ -21,16 +21,20 @@
   "layout": "arco",
   "foto": "foto-24.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}",
+   "fs": 58
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}",
+   "fs": 58
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "fs": 66
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "fs": 66
   }
  },
  "CAPX10": {
@@ -44,27 +48,33 @@
   },
   "story-escuro": {
    "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "layout": "arco",
+   "fs": 54
+  },
+  "story-claro": {
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "layout": "arco",
+   "fs": 54
+  }
+ },
+ "CAPX17": {
+  "layout": "direita",
+  "foto": "foto-12.jpg",
+  "feed-escuro": {
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}",
+   "fs": 52
+  },
+  "feed-claro": {
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}",
+   "fs": 52
+  },
+  "story-escuro": {
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
    "layout": "arco"
   },
   "story-claro": {
    "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
    "layout": "arco"
-  }
- },
- "CAPX17": {
-  "layout": "arco",
-  "foto": "foto-12.jpg",
-  "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
-  },
-  "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
-  },
-  "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
-  },
-  "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
   }
  },
  "CAPX20": {
@@ -107,21 +117,25 @@
   "layout": "arco",
   "foto": "foto-17.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}",
+   "fs": 58
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}",
+   "fs": 58
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "fs": 70
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "fs": 70
   }
  },
  "CAPX31": {
   "layout": "direita",
-  "foto": "foto-16.jpg",
+  "foto": "foto-31.jpg",
   "feed-escuro": {
    "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}"
   },
@@ -138,19 +152,25 @@
   }
  },
  "CAPX39": {
-  "layout": "arco",
-  "foto": "foto-29.jpg",
+  "layout": "direita",
+  "foto": "foto-05.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}em{white-space:nowrap}",
+   "fs": 70
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:116px!important}.card span{font-size:47px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}.selo{font-size:17px!important;letter-spacing:.08em!important;padding:9px 16px!important}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}em{white-space:nowrap}",
+   "fs": 70
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}em{white-space:nowrap}",
+   "layout": "arco",
+   "fs": 66
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:52px!important}.selo{font-size:21px!important;letter-spacing:.08em!important;padding:11px 18px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}em{white-space:nowrap}",
+   "layout": "arco",
+   "fs": 66
   }
  },
  "CAPX48": {
@@ -180,77 +200,91 @@
   },
   "story-escuro": {
    "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
-   "layout": "arco"
+   "layout": "arco",
+   "fs": 66
   },
   "story-claro": {
    "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
-   "layout": "arco"
+   "layout": "arco",
+   "fs": 66
   }
  },
  "RMK02": {
   "layout": "arco",
   "foto": "foto-26.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}",
+   "fs": 66
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}",
+   "fs": 66
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "fs": 80
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "fs": 80
   }
  },
  "RMK03": {
-  "layout": "arco",
+  "layout": "direita",
   "foto": "foto-32.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:440px!important}"
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:440px!important}"
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:440px!important}",
+   "layout": "arco",
+   "fs": 80
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:440px!important}",
+   "layout": "arco",
+   "fs": 80
   }
  },
  "RMK04": {
   "layout": "direita",
   "foto": "foto-37.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}.sub{font-size:25px!important}.foto{right:-120px!important}"
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}.sub{font-size:25px!important}.foto{right:-120px!important}"
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}.sub{font-size:25px!important}.foto{right:-120px!important}",
    "layout": "arco"
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}",
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}.sub{font-size:25px!important}.foto{right:-120px!important}",
    "layout": "arco"
   }
  },
  "RMK05": {
-  "layout": "arco",
+  "layout": "direita",
   "foto": "foto-34.jpg",
   "feed-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:430px!important}"
   },
   "feed-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:470px;height:700px\"]{height:830px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:122px!important}.card span{font-size:54px!important}.btn{height:96px!important;font-size:31px!important}.btn i{width:54px;height:54px}div[style*=\"width:500px\"]{width:520px!important}.foto{right:-140px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:430px!important}"
   },
   "story-escuro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:430px!important}",
+   "layout": "arco",
+   "fs": 72
   },
   "story-claro": {
-   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}"
+   "cssExtra": ".card span{white-space:nowrap}.selo{white-space:nowrap}.card{height:160px!important}.card span{font-size:64px!important}div[style*=\"width:520px;height:900px\"]{width:410px!important;height:900px!important;border-radius:205px 205px 30px 30px!important}div[style*=\"width:520px;height:900px\"]>div{border-radius:193px 193px 20px 20px!important}div[style*=\"width:380px\"]{width:500px!important}.foto{right:-110px!important}div[style*=\"width:500px\"]{width:430px!important}",
+   "layout": "arco",
+   "fs": 72
   }
  }
 }

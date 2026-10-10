@@ -56,6 +56,10 @@
   ],
   "feed-escuro": {
    "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
    "fs": 100
   },
@@ -70,6 +74,10 @@
   },
   "story-escuro": {
    "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
    "fs": 110
   },
@@ -116,6 +124,10 @@
   ],
   "feed-escuro": {
    "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
    "fs": 88
   },
@@ -130,6 +142,10 @@
   },
   "story-escuro": {
    "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
    "fs": 96
   },
@@ -200,6 +216,10 @@
   ],
   "feed-escuro": {
    "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
    "fs": 64
   },
@@ -214,6 +234,10 @@
   },
   "story-escuro": {
    "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
    "fs": 70
   },
@@ -230,6 +254,7 @@
  "VEN01": {
   "layout": "direita",
   "foto": "foto-19.jpg",
+  "subtexto": "[Clube Secreto + 11 produtos] com acesso vitalício, num pagamento único de **{VALOR DO LOTE}**.",
   "feed-escuro": {
    "layout": "direita",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
@@ -249,7 +274,8 @@
  },
  "VEN02": {
   "layout": "arco",
-  "foto": "foto-29.jpg",
+  "foto": "foto-37.jpg",
+  "subtexto": "Acesso pra sempre ao [Clube Secreto e a todas as imersões.] **{LOTE ATUAL}** por **{VALOR DO LOTE}**, parcelado no cartão.",
   "feed-escuro": {
    "layout": "arco",
    "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}",
@@ -276,19 +302,23 @@
   "foto": "foto-27.jpg",
   "feed-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "fs": 60
   },
   "feed-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "fs": 60
   },
   "story-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-120px!important}body>div[style*=\"width:560px\"]{width:480px!important}",
+   "fs": 60
   },
   "story-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}.foto{right:-120px!important}body>div[style*=\"width:560px\"]{width:480px!important}",
+   "fs": 60
   }
  },
  "VEN04": {
@@ -298,29 +328,42 @@
    0.5,
    0
   ],
+  "headline": "[{LOTE ATUAL}] termina em [{DATA/HORA DA VIRADA}]",
   "feed-escuro": {
    "layout": "topo",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}"
-  },
-  "feed-claro": {
-   "layout": "arco",
    "foco": [
     0.5,
-    0.25
+    0
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}",
+   "fs": 60
+  },
+  "feed-claro": {
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:30px!important;left:90px!important;width:900px!important;height:720px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:640px\"]{top:650px!important}.foto{mix-blend-mode:multiply;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important}",
+   "fs": 60
   },
   "story-escuro": {
    "layout": "topo",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}"
-  },
-  "story-claro": {
-   "layout": "arco",
    "foco": [
     0.5,
-    0.25
+    0
    ],
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.card span{font-size:64px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
+   "fs": 64
+  },
+  "story-claro": {
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}.foto{mix-blend-mode:multiply;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important}",
+   "fs": 64
   }
  },
  "VEN05": {
@@ -333,11 +376,11 @@
   ],
   "feed-escuro": {
    "layout": "capas",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.capa{width:290px!important;height:362px!important;top:470px!important}.capa:nth-child(2){left:70px!important}.capa:nth-child(3){left:395px!important}.capa:nth-child(4){left:720px!important}body>div[style*=\"top:835px\"]{top:872px!important}"
   },
   "feed-claro": {
    "layout": "capas",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.capa{width:290px!important;height:362px!important;top:470px!important}.capa:nth-child(2){left:70px!important}.capa:nth-child(3){left:395px!important}.capa:nth-child(4){left:720px!important}body>div[style*=\"top:835px\"]{top:872px!important}"
   },
   "story-escuro": {
    "layout": "capas",
@@ -351,21 +394,34 @@
  "VEN06": {
   "layout": "direita",
   "foto": "foto-30.jpg",
+  "subtexto": "Black Próton Vitalícia por **{VALOR DO LOTE}**.",
   "feed-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "fs": 62
   },
   "feed-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "fs": 62
   },
   "story-escuro": {
-   "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
+   "fs": 76
   },
   "story-claro": {
-   "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}.foto{mix-blend-mode:multiply;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important}",
+   "fs": 76
   }
  },
  "VEN07": {
@@ -395,21 +451,35 @@
  "VEN08": {
   "layout": "direita",
   "foto": "foto-32.jpg",
+  "subtexto": "Em todos os lotes da Black Próton Vitalícia. [Seu valor agora:] **{VALOR DO LOTE ALUNAS}**.",
+  "headline": "Aluna do Clube Secreto paga [R$ 1.000 a menos]",
   "feed-escuro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "fs": 58
   },
   "feed-claro": {
    "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}"
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}body>div[style*=\"width:500px\"]{width:450px!important}",
+   "fs": 58
   },
   "story-escuro": {
-   "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}",
+   "fs": 72
   },
   "story-claro": {
-   "layout": "direita",
-   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{right:-170px!important}body>div[style*=\"width:560px\"]{width:430px!important}.card span{font-size:64px!important}"
+   "layout": "topo",
+   "foco": [
+    0.5,
+    0
+   ],
+   "cssExtra": "h1{text-wrap:balance}.sub{text-wrap:pretty}.card span{white-space:nowrap}.foto{top:230px!important;left:90px!important;width:900px!important;height:800px!important;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 52%,transparent 100%)!important;}body>div[style*=\"top:760px\"]{top:790px!important}.card span{font-size:64px!important}.foto{mix-blend-mode:multiply;-webkit-mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important;mask-image:radial-gradient(ellipse 54% 62% at 50% 44%,#000 38%,transparent 100%)!important}",
+   "fs": 72
   }
  }
 }

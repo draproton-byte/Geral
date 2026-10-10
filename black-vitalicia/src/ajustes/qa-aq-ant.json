@@ -195,12 +195,12 @@
  "ANT07": {
   "layout": "direita",
   "foto": "foto-16.jpg",
-  "cssExtra": ".foto{right:-60px!important}body>div:nth-last-child(2){width:470px!important}",
+  "cssExtra": ".foto{right:0px!important}body>div:nth-last-child(2){width:470px!important}",
   "story-escuro": {
-   "cssExtra": ".foto{right:-170px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
+   "cssExtra": ".foto{right:-120px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}body>div:nth-last-child(2){width:440px!important}"
   },
   "story-claro": {
-   "cssExtra": ".foto{right:-170px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}"
+   "cssExtra": ".foto{right:-120px!important}.foto{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%),linear-gradient(180deg,transparent 0,#000 22%,#000 74%,transparent 100%)!important}body>div:nth-last-child(2){width:520px!important;top:440px!important}body>div:nth-last-child(2){width:440px!important}"
   }
  },
  "ANT08": {

@@ -1,0 +1,32 @@
+Fotos descartadas na biblioteca de recortes (foto-NN / original: motivo)
+
+Ja descartadas antes (fotos/descartadas.txt):
+IMG_9778: recorte extremo, cabelo cortado no topo e maos cortadas na base, rosto tombado
+IMG_9784: flare/luz estourada sobre o rosto, cabelo cortado
+(IMG_9791 reavaliada e INCLUIDA como recorte-39: o flare e so a lampada de estudio ao fundo, sai com o recorte; cortada acima das maos)
+
+Regra 1 - mao no queixo/perto do rosto, pescoco ou gola:
+foto-01 / IMG_0658: mao no queixo (proibida pela Dra.)
+foto-15 / IMG_9765: punho colado ao queixo/pescoco
+foto-16 / IMG_9766: punho colado ao queixo/pescoco
+foto-18 / IMG_9768: punho colado ao pescoco, perfil
+foto-19 / IMG_9769: punho na gola/lapela, junto ao pescoco
+foto-21 / IMG_9771: punho perto do queixo, perfil, holofote dentro do quadro
+foto-26 / IMG_9777: punho junto ao pescoco/ombro
+foto-27 / IMG_9779: punho junto ao queixo/pescoco
+foto-32 / IMG_9787: punho no ombro junto a gola
+foto-37 / IMG_9796: punho no ombro junto a gola
+foto-28 / IMG_9782: maos entrelacadas logo abaixo do queixo, luz de estudio no quadro, cabelo estourado
+foto-29 / IMG_9783: maos entrelacadas coladas ao queixo
+foto-38 / IMG_9797: maos entrelacadas junto ao peito/queixo, painel de luz no quadro
+(excecoes mantidas por pedido da Dra.: foto-24 e foto-33/IMG_9789, ver relatorio; foto-20 mantida: maos entrelacadas bem abaixo do queixo, irma da IMG_9791 aprovada)
+
+Regra 2 - enquadramento sem ombros/tronco ou rosto muito pequeno (corpo inteiro):
+foto-07 / IMG_9714: corpo inteiro, rosto pequeno demais, passo andando
+foto-09 / IMG_9716: corpo inteiro, rosto pequeno demais
+foto-13 / IMG_9720: corpo inteiro, rosto pequeno demais
+foto-22 / IMG_9772: corpo inteiro, rosto pequeno demais
+
+Regra 4 - qualidade:
+foto-35 / IMG_9794: flare roxo/estourado sobre o rosto e holofote dentro do quadro
+foto-02 / IMG_0659: recorte nao ficou limpo nas duas cores (pedaco de parede iluminada preso ao cabelo, nao saiu na matting)

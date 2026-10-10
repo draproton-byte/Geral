@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Recorta a Dra. Proton das fotos curadas (U2Net human seg -> trimap -> pymatting).
-Uso: python3 src/recortar.py NN [NN ...]        (gera recortes/recorte-NN.png + previews)
+Uso: python3 src/recortar.py NN [NN ...]        (gera recortes/recorte-NN.png + previews; max 3 processos em paralelo)
      python3 src/recortar.py --json              (monta recortes/recortes.json)
+Fotos aprovadas: 03 04 05 06 08 10 11 12 14 17 20 23 24 25 30 31 33 34 36 39(=IMG_9791)
 Fonte: fotos/foto-NN.jpg (NN=39 usa o original IMG_9791 baixado do Drive em fotos/orig/IMG_9791.jpg).
 """
 import sys, os, json
@@ -42,6 +43,8 @@ def keep_main(a, thr=0.1, min_frac=0.02):
 HOLES = {'17': [(660, 850, 760, 1060)], '34': [(645, 860, 750, 1060), (180, 895, 265, 1030)],
          '31': [(675, 860, 750, 1070)], '11': [(550, 750, 615, 950)], '25': [(670, 820, 760, 1030)]}
 NR = 12
+HALO_R = 12
+FGH = 16
 HOLE_MAX = 2500
 KEEPFR = {'04'}
 FA_MAX, FS_MAX, FL_MIN = .85, .28, .40
@@ -65,6 +68,7 @@ def cut(nn):
     m = u2(im, sess)
     m = nd.gaussian_filter(m, 1.0)
     fg = nd.binary_erosion(m > .92, iterations=12)
+    fg_hard = nd.binary_erosion(m > .85, iterations=FGH)
     bg = ~nd.binary_dilation(m > .04, iterations=20)
     tri = np.full(m.shape, .5); tri[fg] = 1; tri[bg] = 0
     img = np.asarray(im, dtype=np.float64) / 255.
@@ -88,6 +92,7 @@ def cut(nn):
     k = np.clip((d - BG_LO_) / (BG_HI_ - BG_LO_), 0, 1)
     k = np.maximum(k, core)
     a = a * k
+    a = np.where(fg_hard, 1.0, a)   # miolo seguro do corpo nunca fica transparente
     # vaos de fundo dentro do corpo (entre braco e tronco): componentes grandes com cor == fundo
     yy = (np.arange(d.shape[0])[:, None] > GAP_Y * d.shape[0])
     luma = img.mean(-1)
@@ -109,7 +114,8 @@ def cut(nn):
     lin = nd.gaussian_filter(lum * inn, 3) / (nd.gaussian_filter(inn.astype(float), 3) + 1e-6)
     lin = lin[ii[0], ii[1]]
     dist = nd.distance_transform_edt(~inn)
-    halo = (dist < 9) & (dist > 0) & (lin < .22) & (lum > lin + .10)
+    dout_ = nd.distance_transform_edt(m > .3)
+    halo = (dist < 9) & (dist > 0) & (lin < .22) & (lum > lin + .10) & (dout_ < HALO_R)
     halo = nd.binary_dilation(halo, iterations=1)
     a = a * (1 - nd.gaussian_filter(halo.astype(float), 0.8))
     # franja neutra/clara colada na silhueta (fundo vazando): tira (nao vale p/ terno branco)
@@ -145,10 +151,12 @@ def cut(nn):
     disk = (xx_ ** 2 + yy_ ** 2) <= NR ** 2
     cl = nd.binary_closing(core, structure=disk)
     fill = cl & ~core
+    d5 = (xx_ ** 2 + yy_ ** 2) <= 36
+    crack = nd.binary_closing(core, structure=d5) & ~core      # rachaduras finas: qualquer cor
     for (x0, y0, x1, y1) in HOLES.get(nn, []):
         fill[y0 + PAD:y1 + PAD, x0 + PAD:x1 + PAD] = False
     # buracos totalmente cercados (brilho do tecido, nao vao entre braco e tronco): preenche se pequenos
-    seal = nd.binary_closing(core, structure=np.ones((7, 7), bool))   # sela rachaduras finas
+    seal = nd.binary_closing(core, structure=np.ones((15, 15), bool))   # sela rachaduras finas
     enc = nd.binary_fill_holes(seal) & ~core
     lab_e, ne = nd.label(enc)
     for i, sl in enumerate(nd.find_objects(lab_e)):
@@ -161,7 +169,10 @@ def cut(nn):
     ix = nd.distance_transform_edt(~ci, return_distances=False, return_indices=True)
     lin2 = lum[ix[0], ix[1]]
     lin2 = nd.gaussian_filter(lum * ci, 4)[ix[0], ix[1]] / (nd.gaussian_filter(ci.astype(float), 4)[ix[0], ix[1]] + 1e-6)
-    fill &= ((lin2 < .26) | (enc & ~nd.binary_dilation(core, iterations=0)))
+    fill &= ((lin2 < .26) | enc)
+    for (x0, y0, x1, y1) in HOLES.get(nn, []):
+        crack[y0 + PAD:y1 + PAD, x0 + PAD:x1 + PAD] = False
+    fill |= crack
     fm = nd.binary_dilation(fill, iterations=2).astype(float)
     fm = np.where(fm > 0, 1.0, 0.0)
     f = f * (1 - fm[..., None]) + f[ix[0], ix[1]] * fm[..., None]
@@ -181,8 +192,54 @@ def preview(nn, w=700):
     d = os.environ.get('PREVDIR', '/tmp'); os.makedirs(d, exist_ok=True)
     S.save(f'{d}/prev-{nn}.jpg', quality=90)
 
+# metadados curados a mao: expressao, enquadramento, olhando (para onde o rosto se inclina), roupa
+META = {
+    '03': ('seria', 'cintura', 'frente', 'blazer de veludo bordo, camisa azul'),
+    '04': ('seria', 'cintura', 'frente', 'terno branco'),
+    '05': ('seria', 'cintura', 'frente', 'blazer preto transpassado, top preto'),
+    '06': ('seria', 'cintura', 'frente', 'blazer preto transpassado, top preto'),
+    '08': ('seria', 'cintura', 'frente', 'blazer preto transpassado, top preto'),
+    '10': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '11': ('seria', 'cintura', 'frente', 'blazer preto transpassado, top preto'),
+    '12': ('seria', 'cintura', 'esquerda', 'blazer preto, top preto'),
+    '14': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '17': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '20': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '23': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '24': ('serena', 'cintura', 'frente', 'blazer preto, top preto'),
+    '25': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '30': ('seria', 'cintura', 'frente', 'blazer preto, top preto'),
+    '31': ('seria', 'cintura', 'esquerda', 'blazer preto, top preto'),
+    '33': ('seria', 'peito', 'frente', 'blazer preto, top preto'),
+    '34': ('seria', 'cintura', 'esquerda', 'blazer preto, top preto'),
+    '36': ('feliz', 'cintura', 'esquerda', 'blazer preto, top preto'),
+    '39': ('seria', 'peito', 'frente', 'blazer preto, top preto'),
+}
+
+def montar_json():
+    import glob
+    fotos = {x['arquivo'][5:7]: x for x in json.load(open(ROOT + '/fotos/fotos.json'))}
+    saida = []
+    for f in sorted(glob.glob(OUT + '/recorte-*.png')):
+        nn = os.path.basename(f)[8:10]
+        im = Image.open(f); W, H = im.size
+        al = np.asarray(im.getchannel('A'))
+        ys, xs = np.nonzero(al > 0.1 * 255)
+        expr, enq, olh, roupa = META[nn]
+        if nn in fotos:
+            fx, fy, orig = fotos[nn]['ponto_focal_x'], fotos[nn]['ponto_focal_y'], fotos[nn]['original']
+        else:
+            fx, fy, orig = 0.48, 0.33, 'IMG_9791.JPG'
+        fy = fy / CROP.get(nn, 1.0)
+        saida.append({'arquivo': f'recorte-{nn}.png', 'origem': orig, 'expressao': expr, 'enquadramento': enq,
+                      'bbox': [int(xs.min()), int(ys.min()), int(xs.max()), int(ys.max())],
+                      'largura': W, 'altura': H, 'olhando': olh, 'roupa': roupa,
+                      'ponto_rosto': [round(fx, 3), round(min(fy, 0.95), 3)]})
+    json.dump(saida, open(OUT + '/recortes.json', 'w'), ensure_ascii=False, indent=1)
+    print(len(saida), 'recortes em recortes.json')
+
 if __name__ == '__main__':
     if sys.argv[1] == '--json':
-        raise SystemExit('ver recortes.json gerado a parte (meta em src/recortes_meta.json)')
+        montar_json(); raise SystemExit
     for nn in sys.argv[1:]:
         cut(nn); preview(nn); print('ok', nn, flush=True)

@@ -11,7 +11,7 @@ ROOT = '/home/user/Geral/black-vitalicia'
 OUT = ROOT + '/recortes'
 MODEL = '/tmp/models/u2net_human_seg.onnx'
 MAXSIDE = 1400
-BG_LO, BG_HI, CHOKE, CORE, GAP_D = 0.04, 0.11, 0.2, 22, -1
+BG_LO, BG_HI, CHOKE, CORE, GAP_D, GAP_Y, GAP_R = 0.04, 0.11, 0.2, 22, 0.22, 0.42, 110
 # fracao da altura da foto onde o enquadramento termina (cintura); topo opcional
 CROP = {'02': .74, '03': .80, '04': .88, '05': .93, '06': .88, '08': .86, '11': .88,
         '12': .85, '14': .88, '17': .90, '25': .90, '20': .82, '39': .78}
@@ -38,6 +38,15 @@ def keep_main(a, thr=0.1, min_frac=0.02):
     a = a * near
     return a
 
+# caixas (x0,y0,x1,y1 em px do PNG final) onde o fundo aparece entre braco e tronco: apaga pixels claros
+HOLES = {'17': [(660, 850, 760, 1060)], '34': [(645, 860, 750, 1060), (180, 895, 265, 1030)],
+         '31': [(675, 860, 750, 1070)], '11': [(550, 750, 615, 950)], '25': [(670, 820, 760, 1030)]}
+NR = 12
+HOLE_MAX = 2500
+KEEPFR = {'04'}
+FA_MAX, FS_MAX, FL_MIN = .85, .28, .40
+NOFRINGE = None  # regra de franja desligada (apagava brilho legitimo do tecido)
+FR_W, FR_L, FR_S = 14, .42, .30
 PARAMS = {'02': dict(BG_LO=.08, BG_HI=.22, CORE=14)}   # ajustes por foto
 
 def cut(nn):
@@ -80,15 +89,41 @@ def cut(nn):
     k = np.maximum(k, core)
     a = a * k
     # vaos de fundo dentro do corpo (entre braco e tronco): componentes grandes com cor == fundo
-    gap = (d < GAP_D) & (core > .5) & (nd.gaussian_filter(m, 1) > .3)
+    yy = (np.arange(d.shape[0])[:, None] > GAP_Y * d.shape[0])
+    luma = img.mean(-1)
+    dbg = nd.distance_transform_edt(~bg)
+    sat = (img.max(-1) - img.min(-1)) / (img.max(-1) + 1e-6)
+    gap = (d < GAP_D) & (luma > .42) & (sat < .40) & (core > .5) & yy & (dbg < GAP_R)
     lab, nl = nd.label(gap)
     if nl:
         sz = nd.sum(np.ones_like(d), lab, range(1, nl + 1))
-        big = np.zeros(nl + 1, bool); big[1:] = sz >= 120
+        big = np.zeros(nl + 1, bool); big[1:] = sz >= 60
         gm = nd.binary_dilation(big[lab], iterations=2)
         a = a * (1 - nd.gaussian_filter(gm.astype(float), 1.2))
     a = np.clip((a - CHOKE) / (1 - CHOKE), 0, 1)           # choke
     a = keep_main(a)
+    # halo claro na borda de tecido escuro: borda mais clara que o interior escuro vizinho -> remove
+    inn = nd.binary_erosion(a > .98, iterations=6)
+    ii = nd.distance_transform_edt(~inn, return_distances=False, return_indices=True)
+    lum = img.mean(-1)
+    lin = nd.gaussian_filter(lum * inn, 3) / (nd.gaussian_filter(inn.astype(float), 3) + 1e-6)
+    lin = lin[ii[0], ii[1]]
+    dist = nd.distance_transform_edt(~inn)
+    halo = (dist < 9) & (dist > 0) & (lin < .22) & (lum > lin + .10)
+    halo = nd.binary_dilation(halo, iterations=1)
+    a = a * (1 - nd.gaussian_filter(halo.astype(float), 0.8))
+    # franja neutra/clara colada na silhueta (fundo vazando): tira (nao vale p/ terno branco)
+    if NOFRINGE is not None and nn not in NOFRINGE:
+        satp = (img.max(-1) - img.min(-1)) / (img.max(-1) + 1e-6)
+        edge = nd.binary_dilation(a > .5, iterations=1) & ~nd.binary_erosion(a > .5, iterations=FR_W)
+        fr = edge & (lum > FR_L) & (satp < FR_S)
+        fr = nd.binary_dilation(fr, iterations=2) & (a > 0) & ~nd.binary_erosion(a > .5, iterations=FR_W + 6)
+        a = a * (1 - nd.gaussian_filter(fr.astype(float), 0.8))
+    for (x0, y0, x1, y1) in HOLES.get(nn, []):
+        box = np.zeros_like(a, bool); box[y0 + PAD:y1 + PAD, x0 + PAD:x1 + PAD] = True
+        bad = box & (lum > .17)
+        bad = nd.binary_dilation(bad, iterations=4) & box
+        a = np.where(bad, 0, a)
     f = estimate_foreground_ml(img, a)
     # descontaminacao: bordas puxam a cor do interior mais proximo
     inner = nd.binary_erosion(a > .98, iterations=3)
@@ -96,7 +131,41 @@ def cut(nn):
     fin = f[idx[0], idx[1]]
     k = np.clip((0.97 - a) / 0.6, 0, 1)[..., None] * 0.7
     f = f * (1 - k) + fin * k
+    # franja clara/neutra semitransparente (fundo vazando): zera alfa onde a cor do 1o plano e quase branca/bege neutra
+    if nn not in KEEPFR:
+        fl = f.mean(-1); fs = (f.max(-1) - f.min(-1)) / (f.max(-1) + 1e-6)
+        bad = (a < FA_MAX) & (a > 0) & (fs < FS_MAX) & (fl > FL_MIN)
+        bad = nd.binary_dilation(bad, iterations=1)
+        a = a * (1 - nd.gaussian_filter((bad & (a < FA_MAX + .1)).astype(float), 0.7))
     # alfa binario do preenchimento do corpo (evita buracos): fecha furos internos
+    a = keep_main(a)
+    # entalhes na borda do tecido escuro (brilho do tecido confundido com fundo): fecha e preenche com a cor do tecido
+    core = a > .5
+    yy_, xx_ = np.ogrid[-NR:NR + 1, -NR:NR + 1]
+    disk = (xx_ ** 2 + yy_ ** 2) <= NR ** 2
+    cl = nd.binary_closing(core, structure=disk)
+    fill = cl & ~core
+    for (x0, y0, x1, y1) in HOLES.get(nn, []):
+        fill[y0 + PAD:y1 + PAD, x0 + PAD:x1 + PAD] = False
+    # buracos totalmente cercados (brilho do tecido, nao vao entre braco e tronco): preenche se pequenos
+    seal = nd.binary_closing(core, structure=np.ones((7, 7), bool))   # sela rachaduras finas
+    enc = nd.binary_fill_holes(seal) & ~core
+    lab_e, ne = nd.label(enc)
+    for i, sl in enumerate(nd.find_objects(lab_e)):
+        reg = lab_e[sl] == i + 1
+        gy0, gx0 = sl[0].start, sl[1].start
+        inbox = any(not (gx0 + reg.shape[1] < x0 + PAD or gx0 > x1 + PAD or gy0 + reg.shape[0] < y0 + PAD or gy0 > y1 + PAD) for (x0, y0, x1, y1) in HOLES.get(nn, []))
+        if reg.sum() < HOLE_MAX and not inbox:
+            fill[sl] |= reg
+    ci = nd.binary_erosion(core, iterations=3)
+    ix = nd.distance_transform_edt(~ci, return_distances=False, return_indices=True)
+    lin2 = lum[ix[0], ix[1]]
+    lin2 = nd.gaussian_filter(lum * ci, 4)[ix[0], ix[1]] / (nd.gaussian_filter(ci.astype(float), 4)[ix[0], ix[1]] + 1e-6)
+    fill &= ((lin2 < .26) | (enc & ~nd.binary_dilation(core, iterations=0)))
+    fm = nd.binary_dilation(fill, iterations=2).astype(float)
+    fm = np.where(fm > 0, 1.0, 0.0)
+    f = f * (1 - fm[..., None]) + f[ix[0], ix[1]] * fm[..., None]
+    a = np.maximum(a, fm)
     out = np.dstack([np.clip(f, 0, 1), a])
     res = Image.fromarray((out * 255 + .5).astype(np.uint8), 'RGBA')
     res = res.crop((PAD, PAD, res.width - PAD, res.height - PAD))

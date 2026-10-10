@@ -1,0 +1,5 @@
+IMG_9778.JPG: recorte extremo: cabelo cortado no topo e maos cortadas na base, rosto tombado
+IMG_9784.JPG: flare/luz estourada sobre o rosto, cabelo cortado, rosto parcialmente coberto
+IMG_9791.JPG: close extremo com cabelo cortado no topo, luz de estudio estourada no canto
+
+Duplicatas removidas por hash/tamanho: IMG_9779 (x3), IMG_9787, IMG_9789, IMG_9791 (x2 cada), IMG_0658 (x2)

@@ -11,7 +11,7 @@ const FONTS = [400, 500, 600, 700, 800].map(w =>
   `@font-face{font-family:Montserrat;font-weight:${w};src:url('file://${path.join(ROOT, 'node_modules/@fontsource/montserrat/files/montserrat-latin-' + w + '-normal.woff2')}')}`).join('');
 const U = p => 'file://' + path.join(ROOT, p);
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const hl = s => esc(s).replace(/\[([^\]]+)\]/g, '<em>$1</em>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+const hl = s => esc(s).replace(/~~([^~]+)~~/g, '<s style="text-decoration-thickness:5px;text-decoration-color:#b3263a">$1</s>').replace(/\[([^\]]+)\]/g, '<em>$1</em>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
 
 const TEMAS = {
   escuro: { bg: '#0b0610', glow: 'rgba(170,110,35,.38)', txt: '#ffffff', sub: '#d9d3de', em: '#F2CB76', b: '#F2CB76', card: 'rgba(30,18,10,.78)', cardBorda: '1.5px solid #C9A45A', cardTxt: '#F2CB76', cardRot: '#ffffff',
@@ -57,7 +57,7 @@ function html(it) {
   const fx = (it.foco && it.foco[0] != null) ? it.foco[0] * 100 : 50, fy = (it.foco && it.foco[1] != null) ? it.foco[1] * 100 : 25;
   const len = (it.headline || '').replace(/[\[\]]/g, '').length;
   const k = (L === 'arco' && story) ? 0.7 : (L === 'direita' || L === 'arco') ? 0.86 : (L === 'topo' && story ? 0.9 : 1);
-  const fsH = Math.round(k * (story ? (len < 30 ? 104 : len < 50 ? 88 : len < 75 ? 76 : 66) : (len < 30 ? 86 : len < 50 ? 72 : len < 75 ? 62 : 54)));
+  const fsH = it.fs ? it.fs : Math.round(k * (story ? (len < 30 ? 104 : len < 50 ? 88 : len < 75 ? 76 : 66) : (len < 30 ? 86 : len < 50 ? 72 : len < 75 ? 62 : 54)));
   let body = '', extra = '';
   const logo = `<img class="logo" src="${U('assets/logo-dourado.png')}">`;
   const eyebrow = it.eyebrow ? `<div class="eyebrow">${esc(it.eyebrow)}</div>` : '';
@@ -72,7 +72,7 @@ function html(it) {
   if (L === 'direita') {
     // foto sangrando à direita, texto à esquerda, bloco de data e botão embaixo
     const fw = story ? 860 : 720, fh = story ? 1350 : 1080;
-    extra = `<div class="foto" style="right:-50px;top:${story ? 180 : 0}px;width:${fw}px;height:${fh}px;background-image:url('${foto}');background-position:${fx}% ${fy}%;
+    extra = `<div class="foto" style="right:-90px;top:${story ? 180 : 0}px;width:${fw}px;height:${fh}px;background-image:url('${foto}');background-position:${fx}% ${fy}%;
       -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 40%),linear-gradient(180deg,transparent 0,#000 ${story ? 14 : 0}%,#000 74%,transparent 100%);-webkit-mask-composite:source-in;mask-composite:intersect"></div>
       <div style="position:absolute;inset:0;background:linear-gradient(0deg,${t.bg} 0,${t.bg}d9 ${story ? 20 : 24}%,transparent ${story ? 38 : 46}%)"></div>`;
     body = `<div style="position:absolute;left:80px;top:${story ? 520 : 290}px;width:${story ? 560 : 500}px">${stack(story ? 34 : 26)}</div>
@@ -105,7 +105,7 @@ function html(it) {
       <div style="position:absolute;left:80px;right:80px;top:${top0 + ch + (story ? 50 : 34)}px;display:flex;flex-direction:column;gap:${story ? 24 : 16}px">${sub}</div>
       <div style="position:absolute;left:80px;right:80px;bottom:${story ? 330 : 56}px;display:flex;flex-direction:column;gap:${story ? 22 : 16}px">${data}${cta}</div>`;
   }
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${css(t, W, H, story, it)}</style></head><body><div class="glow"></div>${extra}${logo}${body}</body></html>`;
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${css(t, W, H, story, it)}${it.cssExtra || ''}</style></head><body><div class="glow"></div>${extra}${logo}${body}</body></html>`;
 }
 
 async function renderLote(itens, outDir, opts = {}) {

@@ -169,7 +169,11 @@ def cut(nn):
     ix = nd.distance_transform_edt(~ci, return_distances=False, return_indices=True)
     lin2 = lum[ix[0], ix[1]]
     lin2 = nd.gaussian_filter(lum * ci, 4)[ix[0], ix[1]] / (nd.gaussian_filter(ci.astype(float), 4)[ix[0], ix[1]] + 1e-6)
-    fill &= ((lin2 < .26) | enc)
+    sat_i = (img.max(-1) - img.min(-1)) / (img.max(-1) + 1e-6)
+    sin2 = nd.gaussian_filter(sat_i * ci, 4)[ix[0], ix[1]] / (nd.gaussian_filter(ci.astype(float), 4)[ix[0], ix[1]] + 1e-6)
+    cloth = ~((sin2 > .30) & (lin2 > .28))      # nunca preenche cabelo/pele (evita blocos chapados)
+    fill &= ((lin2 < .26) | enc) & cloth
+    crack &= cloth
     for (x0, y0, x1, y1) in HOLES.get(nn, []):
         crack[y0 + PAD:y1 + PAD, x0 + PAD:x1 + PAD] = False
     fill |= crack

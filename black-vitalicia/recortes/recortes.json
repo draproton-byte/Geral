@@ -1,0 +1,402 @@
+[
+ {
+  "arquivo": "recorte-03.png",
+  "origem": "IMG_0660.jpeg",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   47,
+   186,
+   773,
+   1119
+  ],
+  "largura": 935,
+  "altura": 1120,
+  "olhando": "frente",
+  "roupa": "blazer de veludo bordo, camisa azul",
+  "ponto_rosto": [
+   0.57,
+   0.338
+  ]
+ },
+ {
+  "arquivo": "recorte-04.png",
+  "origem": "IMG_0661.jpeg",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   101,
+   81,
+   847,
+   1231
+  ],
+  "largura": 935,
+  "altura": 1232,
+  "olhando": "frente",
+  "roupa": "terno branco",
+  "ponto_rosto": [
+   0.47,
+   0.25
+  ]
+ },
+ {
+  "arquivo": "recorte-05.png",
+  "origem": "IMG_9712.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   128,
+   25,
+   802,
+   1301
+  ],
+  "largura": 935,
+  "altura": 1302,
+  "olhando": "frente",
+  "roupa": "blazer preto transpassado, top preto",
+  "ponto_rosto": [
+   0.53,
+   0.183
+  ]
+ },
+ {
+  "arquivo": "recorte-06.png",
+  "origem": "IMG_9713.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   201,
+   99,
+   778,
+   1231
+  ],
+  "largura": 935,
+  "altura": 1232,
+  "olhando": "frente",
+  "roupa": "blazer preto transpassado, top preto",
+  "ponto_rosto": [
+   0.58,
+   0.193
+  ]
+ },
+ {
+  "arquivo": "recorte-08.png",
+  "origem": "IMG_9715.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   191,
+   317,
+   676,
+   1203
+  ],
+  "largura": 935,
+  "altura": 1204,
+  "olhando": "frente",
+  "roupa": "blazer preto transpassado, top preto",
+  "ponto_rosto": [
+   0.5,
+   0.36
+  ]
+ },
+ {
+  "arquivo": "recorte-10.png",
+  "origem": "IMG_9717.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   99,
+   100,
+   832,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.47,
+   0.29
+  ]
+ },
+ {
+  "arquivo": "recorte-11.png",
+  "origem": "IMG_9718.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   111,
+   115,
+   690,
+   1231
+  ],
+  "largura": 935,
+  "altura": 1232,
+  "olhando": "frente",
+  "roupa": "blazer preto transpassado, top preto",
+  "ponto_rosto": [
+   0.43,
+   0.261
+  ]
+ },
+ {
+  "arquivo": "recorte-12.png",
+  "origem": "IMG_9719.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   140,
+   97,
+   710,
+   1189
+  ],
+  "largura": 935,
+  "altura": 1190,
+  "olhando": "esquerda",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.5,
+   0.318
+  ]
+ },
+ {
+  "arquivo": "recorte-14.png",
+  "origem": "IMG_9764.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   199,
+   157,
+   649,
+   1231
+  ],
+  "largura": 934,
+  "altura": 1232,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.48,
+   0.216
+  ]
+ },
+ {
+  "arquivo": "recorte-17.png",
+  "origem": "IMG_9767.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   49,
+   116,
+   868,
+   1259
+  ],
+  "largura": 935,
+  "altura": 1260,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.43,
+   0.244
+  ]
+ },
+ {
+  "arquivo": "recorte-20.png",
+  "origem": "IMG_9770.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   75,
+   195,
+   884,
+   1147
+  ],
+  "largura": 935,
+  "altura": 1148,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.47,
+   0.329
+  ]
+ },
+ {
+  "arquivo": "recorte-23.png",
+  "origem": "IMG_9773.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   129,
+   165,
+   810,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.5,
+   0.28
+  ]
+ },
+ {
+  "arquivo": "recorte-24.png",
+  "origem": "IMG_9775.JPG",
+  "expressao": "serena",
+  "enquadramento": "cintura",
+  "bbox": [
+   43,
+   193,
+   718,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.42,
+   0.27
+  ]
+ },
+ {
+  "arquivo": "recorte-25.png",
+  "origem": "IMG_9776.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   75,
+   130,
+   867,
+   1259
+  ],
+  "largura": 935,
+  "altura": 1260,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.5,
+   0.3
+  ]
+ },
+ {
+  "arquivo": "recorte-30.png",
+  "origem": "IMG_9785.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   103,
+   151,
+   818,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.47,
+   0.31
+  ]
+ },
+ {
+  "arquivo": "recorte-31.png",
+  "origem": "IMG_9786.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   89,
+   190,
+   860,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "esquerda",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.53,
+   0.3
+  ]
+ },
+ {
+  "arquivo": "recorte-33.png",
+  "origem": "IMG_9789.JPG",
+  "expressao": "seria",
+  "enquadramento": "peito",
+  "bbox": [
+   0,
+   27,
+   934,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.57,
+   0.3
+  ]
+ },
+ {
+  "arquivo": "recorte-34.png",
+  "origem": "IMG_9793.JPG",
+  "expressao": "seria",
+  "enquadramento": "cintura",
+  "bbox": [
+   78,
+   143,
+   869,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "esquerda",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.37,
+   0.27
+  ]
+ },
+ {
+  "arquivo": "recorte-36.png",
+  "origem": "IMG_9795.JPG",
+  "expressao": "feliz",
+  "enquadramento": "cintura",
+  "bbox": [
+   13,
+   167,
+   925,
+   1399
+  ],
+  "largura": 935,
+  "altura": 1400,
+  "olhando": "esquerda",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.53,
+   0.3
+  ]
+ },
+ {
+  "arquivo": "recorte-39.png",
+  "origem": "IMG_9791.JPG",
+  "expressao": "seria",
+  "enquadramento": "peito",
+  "bbox": [
+   7,
+   6,
+   933,
+   1091
+  ],
+  "largura": 934,
+  "altura": 1092,
+  "olhando": "frente",
+  "roupa": "blazer preto, top preto",
+  "ponto_rosto": [
+   0.48,
+   0.423
+  ]
+ }
+]

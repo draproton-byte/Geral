@@ -1,0 +1,1031 @@
+{
+ "meta": {
+  "fonte": "prompt_criativo.txt (Prompt Mestre BPV + KIT DE MARCA OFICIAL + Prompts 1A, 2-8, 7B, 8B + complementares + checklist), cruzado com src/copy.json (docs atuais, 10/10)",
+  "gerado_em": "2026-10-10",
+  "mapeamento_ids": "CAP 01-08 -> C01-C08 · AQ/ANT/RMK/ESC/LEM/VEN/RV mantêm a sigla · AD01-AD18 sem direção no prompt",
+  "chaves_por_peca": "composicao, elementos[], foto, usa_foto (true/false/null=sem direção), destaques[], observacoes, divergencias[] (opcional), placeholders[], publicos[], variante_teste_ab, origem, copy_prompt"
+ },
+ "regras": [
+  "FORMATOS: feed 1080x1350 (4:5) e stories 1080x1920 (9:16); carrossel = slides 1080x1350. Versões escuro e claro (o prompt só define o escuro; ver avisos). Arquivos: BPV_[FASE]_[CÓDIGO]_[FORMATO] (ex. BPV_CAP_01_4x5, BPV_CAP_01_9x16), PNG.",
+  "MARGEM: 80px de segurança em todas as bordas.",
+  "STORIES 9:16: 250px livres no topo (y<250) e 340px livres na base (y>1580). Nada de texto, CTA ou logo nessas faixas (só fundo/foto/brilho). Todo conteúdo útil entre y=250 e y=1580.",
+  "TIPOGRAFIA: só Montserrat (Google Fonts). Headline, números-herói e destaques em ExtraBold (800) ou Black (900); itálico só para destaque. Apoio, listas, botões e selos em Regular/SemiBold/Bold. PROIBIDO Playfair Display e qualquer serifada ou outra família.",
+  "MAPA DE FONTES: Anton/Bebas/Oswald/condensadas -> Montserrat ExtraBold/Black; Sora/Gilroy/Poppins/Inter/Outfit/Bricolage -> Montserrat no peso equivalente. Manter tamanhos, posições, caixa alta e a MESMA quebra de linha; se ficar mais largo, reduzir o corpo até caber (nunca mudar texto/quebra).",
+  "HEADLINE: elemento maior da peça, Montserrat Black/ExtraBold, estilo de referência em CAIXA ALTA, palavras de destaque em dourado degradê; mínimo 64px de ALTURA DE LETRA em 1080px de largura (ver aviso: altura de letra != font-size); máximo 3 linhas. Apoio mínimo 34px. Hierarquia fixa: HEADLINE > APOIO > SELO > CTA em botão.",
+  "ALTURA/CONTRASTE: contraste mínimo 4.5:1 entre texto e fundo; nunca texto sobre área movimentada da foto (nem sobre o rosto); um único ponto focal por peça, respiro generoso, menos elementos.",
+  "CORES (paleta oficial): Noite Black #150808 (fundo base) · Fundo Absoluto #0A0607 · Ouro Velho #A37A27 (sombra/contorno) · Ouro Próton #D4A84E (destaque principal) · Ouro Luz #F0CD7A (brilho/realce) · Creme Próton #F9F3EA (texto/fundo claro) · Texto sobre escuro #E9DCC9 · Texto sobre claro #1D1110. Preto/grafite dos prompts -> Noite Black ou Fundo Absoluto; dourado/âmbar/laranja -> Ouro Próton/Luz/Velho; branco/off-white -> Creme Próton ou Texto sobre escuro.",
+  "UMA ÚNICA COR DE DESTAQUE por peça (família dourada: Ouro Velho/Próton/Luz como tons da mesma cor). Exceções explícitas: amarelo #FFD400/#FFF200 das camadas PENDENTE continua amarelo; selo AO VIVO vermelho em LEM07 (único vermelho permitido).",
+  "ESTILO DE REFERÊNCIA (Manual A Nova Realidade / LP onboarding-clube-secreto-v2): fundo marrom-escuro com brilho dourado radial e círculos concêntricos sutis; Dra. recortada grande fundindo no escuro pela base; linha-guia dourada antes do rótulo (— LIVE DE REVELAÇÃO); cards translúcidos com contorno dourado fino; barra dourada degradê para a frase-chave; botão pílula dourado com círculo escuro e seta; rodapé com linha dourada e losango no centro.",
+  "CLIMA: Black Friday premium, elegante, íntimo e confiável. PROIBIDO estética de varejo: vermelho promocional, explosões, 'OFERTA!!!', etiqueta de preço riscado (exceção só em VENC 07, fora deste escopo), sirene, urgência gritada.",
+  "FOTO DA DRA.: recortada e SOLTA no fundo, olhando para a câmera, iluminação quente, ocupando 35% a 50% da peça quando usada, enquadramento do tronco para cima (cabeça, ombros e tronco até a cintura), grande. PROIBIDO moldura/círculo/arco/qualquer enquadramento; PROIBIDO só rosto ou rosto+pescoço; nunca distorcer nem aplicar filtro que altere o rosto. Fundir no escuro pela base. Foto diferente em cada peça do mesmo lote.",
+  "FOTOS PROIBIDAS: mão no queixo ou perto do rosto (inclui o recorte 'FOTO DRA PROTON.png' e as artes PROTON-HIGH), mãos na gola/pescoço (DSC_8754, DSC_8756), blazer com logo Gucci/Adidas (DSC_8695, 8714, 8716, 8718, 8719). Aprovadas (14): DSC_8668, 8680, 8804, 8805, 8834 (veludo); DSC_8740, 8764, 8778 (terno branco); DSC_8645, 8646, 8647, 8648 (blazer preto); IMG_9789, IMG_9791. Qualquer outra só se seguir as mesmas regras de pose. Não gerar nem editar corpo/rosto com IA.",
+  "TEXTO x FOTO: texto nunca cobre o rosto; texto não deve passar de ~25-30% da área quando houver foto (prompt mestre BF26, secundário).",
+  "LOGO: sempre presente, pequeno, no topo ou no rodapé (dentro da área segura e fora das faixas 250/340 no 9:16). Usar o arquivo oficial como imagem (assets/logo-dourado.png): nunca redesenhar, redigitar, recolorir ou distorcer; PROIBIDO colocar o logo dentro de bloco/caixa/faixa/selo/card/retângulo: fica solto sobre o fundo, no máximo com sombra suave. Grafia oficial do logo: BLACK PROTON VITALÍCIO (imagem, não texto).",
+  "DATA E HORÁRIO SEMPRE GRANDES (peças pré-live com data): card dourado degradê com ícone de calendário, rótulo LIVE DE REVELAÇÃO e QUARTA · 04 DE NOVEMBRO em Montserrat Black caixa alta; abaixo, separados por fios finos: ícone relógio + ÀS 20H, ícone transmissão + AO VIVO, ícone play + NO YOUTUBE. Live: 04/11 (quarta) às 20h, YouTube. Selo padrão (CAP) quando a copy não trouxer outro: 'Live de revelação · 04/11 às 20h'.",
+  "VENDAS E REMARKETING DE VENDAS (pós-live): sem bloco de data da live; prazo do lote visível apenas via placeholder {{DATA/HORA DA VIRADA}}.",
+  "CTA: botão desenhado, pílula/cantos arredondados, cor de destaque (Ouro Próton), texto em caixa alta exatamente como no copy.json, maior contraste da peça. O botão real do anúncio é 'Saiba mais'; o CTA da arte é reforço visual. CTAs por fase: QUERO PARTICIPAR (CAP/AQ/ANT/RMK/ESC) · ENTRAR NO GRUPO / ATIVAR LEMBRETE / QUERO ASSISTIR / ASSISTIR AGORA (LEM, por peça) · QUERO MINHA VITALÍCIA (VEN/RV) · FINALIZAR MINHA INSCRIÇÃO (RV02) · FALE CONOSCO! (RV06).",
+  "COPY: usar EXATAMENTE a copy (docs atuais = src/copy.json): mesmas palavras, pontuação e 'pra'. Não reescrever, resumir, acrescentar, traduzir ou 'melhorar'. Se não couber, reduzir o corpo ou reorganizar o layout, nunca o texto. Nunca repetir a mesma palavra, item ou elemento só para preencher a peça.",
+  "PRÉ-LIVE (CAP, AQ, ANT, RMK, ESC, LEM): ZERO preço, valor (R$), lote ou % de desconto em qualquer elemento visual. Permitido: 'pagamento único' e 'parcelado no cartão' SEM valor. (Palavras como 'valor' e 'lotes' em frases de curiosidade do copy.json ANT03/ANT07/C08 são texto aprovado; a trava é sobre números/R$.)",
+  "FRASES PROIBIDAS em qualquer fase: 'última chance de ter acesso vitalício', 'o vitalício nunca mais vai existir', 'a porta fecha pra sempre', promessa de cura ou de fim da autossabotagem. Escassez só pelas formas aprovadas: 'essa oferta não se repete'; 'nessas condições, é a primeira e a última vez'; 'o que vier depois vai ser outra oferta, com outro preço'.",
+  "GARANTIA e BÔNUS: não aparecem em nenhuma peça (nem espaço reservado).",
+  "PLACEHOLDERS (VEN/RV): {{VALOR DO LOTE}}, {{LOTE ATUAL}}, {{DATA/HORA DA VIRADA}}, {{VALOR DO LOTE ALUNAS}} ficam como camada de texto editável, destacada em amarelo (#FFF200/#FFD400), nomeada com o próprio placeholder; etiqueta 'PENDENTE' no canto superior; reservar espaço para o maior valor (R$ 4.997) e para data '00/11 às 00h' sem quebrar linha; sufixo _PENDENTE no arquivo; nunca inventar valor/data. Valores de referência para diagramar (NÃO escrever): alunas R$ 1.997 / 2.997 / 3.997; não-alunas R$ 2.997 / 3.997 / 4.997. Não inventar parcela, % de desconto ou preço riscado.",
+  "PÚBLICO (VEN/RV): cada peça em 2 versões, NAOALUNA e ALUNA (BPV_VEN_01_NAOALUNA_4x5 / _ALUNA_). VEN08 só ALUNA. RV06 peça única (sem preço). O copy.json atual traz um único texto por peça: a variação por público não está nos docs.",
+  "CAPAS DE PRODUTO: em mosaico/vitrine/lista, cada produto aparece UMA vez com a capa real; produto sem capa vira card tipográfico do mesmo tamanho e cantos (fundo Noite Black, contorno 1px Ouro Velho, logo do produto centralizado ou nome em Montserrat Bold Ouro Próton, até 3 linhas). Proibido repetir capa para preencher espaço e proibido inventar capa; se a grade tiver mais espaços que produtos (12 = Clube Secreto + 11), reduzir a grade. Só têm capa: Fórmula da Riqueza, Workshop Terapeuta de Elite, Os 3 Áudios de Reprogramação, Imersão Desbloqueie o Poder da Sua Mente, Sequências Numéricas de Grabovoi, Código de Ativação Próton, Desafio A Nova Realidade (vertical). Só logo (card tipográfico): Clube Secreto, Cura da Criança Interior, Destrave o Dinheiro, Cura da Escassez Financeira, Instagram Profissional.",
+  "INTERFACES E TERCEIROS: sem logos de terceiros; para YouTube/ao vivo usar ícone genérico de play + selo 'AO VIVO', sem imitar interface do YouTube/Instagram/WhatsApp (Meta reprova); ícone de WhatsApp/balão sempre genérico, sem logo oficial.",
+  "CHECKLIST FINAL (10 itens, rodar em toda peça): 1 copy idêntica (palavra, pontuação, 'pra'); 2 hierarquia headline>apoio>selo>CTA botão; 3 fases pré-04/11 sem preço/valor/lote/desconto; 4 sem frase proibida e sem promessa de fim da autossabotagem; 5 garantia e bônus ausentes; 6 campos [ ]/{{ }} mantidos como texto editável sem valor inventado; 7 headline >=64px, <=3 linhas e contraste >=4.5:1; 8 9:16 com 250px livres no topo e 340px na base; 9 logo presente; 10 entregue em 4:5 e 9:16 com a nomenclatura BPV_[FASE]_[CÓDIGO]_[FORMATO]."
+ ],
+ "familias": {
+  "CAP": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote.",
+  "AQ": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR.",
+  "ANT": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26).",
+  "RMK": "Remarketing de captação: conversa direta e gentil, recado pessoal; elementos de 'quase lá' (barra de progresso perto do fim, campo de formulário a preencher, ícone de WhatsApp genérico); simples, POUCOS elementos. Sem preço/lote. Escassez só sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR.",
+  "ESC": "Escassez: urgência premium. O NÚMERO/TEMPO é o herói e ocupa 40% a 60% da área. MESMA família visual nas 4 peças, mudando só o número (para a contagem 'andar'). Sem vermelho de varejo, sem sirene. Sem preço/lote. Escassez é sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR.",
+  "AD": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+  "LEM": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão.",
+  "VEN": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA.",
+  "RV": "Remarketing de vendas: direto, pessoal, decisão. MENOS elementos que Vendas: headline forte, prazo do lote visível, mockup pequeno do produto. Mesma família visual de VEN (reconhecimento). Estética de carrinho/checkout (botão finalizar, ícone de carrinho, barra de progresso de compra) e de prazo (lote virando). Mesmas regras de Vendas: placeholders amarelos, PENDENTE, 2 versões de público, sem garantia/bônus.",
+  "nota_destaques": "O prompt NÃO indica palavras a destacar em dourado nas peças principais; usar os [colchetes] do copy.json (docs atuais valem). 'destaques' aqui só lista placeholders de valor/prazo (VEN/RV) e 'finalizar' (RV06).",
+  "nota_bloco_data": "Bloco de data padrão do kit (card dourado degradê: ícone calendário + rótulo LIVE DE REVELAÇÃO + 'QUARTA · 04 DE NOVEMBRO'; fios finos; relógio ÀS 20H, transmissão AO VIVO, play NO YOUTUBE) quando a peça tiver data=true no copy.json"
+ },
+ "pecas": {
+  "C01": {
+   "composicao": "Layout hero com 'fim de ciclo': headline dominante, apoio, selo e CTA; Dra. grande com a headline sem cobrir o rosto.",
+   "elementos": [
+    "Visual de 'fim de ciclo': calendário mensal se encerrando (folha/mês sendo fechado) como ornamento gráfico",
+    "Selo: Live de revelação · 04/11 às 20h (selo padrão do prompt)",
+    "CTA botão pílula QUERO PARTICIPAR"
+   ],
+   "foto": "Foto da Dra. (obrigatória): recortada e solta, tronco para cima, olhando para a câmera, 35-50% da peça.",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote.",
+   "divergencias": [
+    "Prompt traz Selo 'Live de revelação . 04/11 às 20h'; docs atuais: selo=null e data=true (bloco de data). Vale o doc atual; o bloco de data do kit cobre a informação."
+   ]
+  },
+  "C02": {
+   "composicao": "Peça tipográfica de repetição: padrão visual de recomeços riscados atrás/ao redor da headline.",
+   "elementos": [
+    "Marcas de 'recomeço' riscadas repetidas (riscos/rabiscos, ex.: 'dessa vez vai' riscado várias vezes) como padrão de repetição - risco é só ornamento, nunca preço riscado",
+    "Selo: Black Próton Vitalícia · 04/11",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "SEM foto.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote."
+  },
+  "C03": {
+   "composicao": "Grade/mosaico elegante sugerindo o catálogo (sem preço) com a Dra. na composição.",
+   "elementos": [
+    "Grade/mosaico elegante das capas dos produtos (Clube Secreto + 11): cada produto UMA vez, capa real; sem capa -> card tipográfico; reduzir a grade se houver menos produtos que espaços (nunca duplicar)",
+    "Selo: 04/11 às 20h · YouTube",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto da Dra. (obrigatória) junto ao mosaico, sem moldura, sem cobrir capas essenciais.",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote. Sem preço; 'a condição completa só é revelada na live'.",
+   "divergencias": [
+    "Prompt traz Selo '04/11 às 20h . YouTube'; docs atuais: selo=null e data=true."
+   ]
+  },
+  "C04": {
+   "composicao": "Peça de leveza/respiro com símbolo de tempo sem pressão.",
+   "elementos": [
+    "Ampulheta OU relógio sem ponteiros (o tempo deixa de ser problema) como elemento gráfico",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "SEM foto.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote. Prompt não define selo para esta peça; docs atuais data=false (sem bloco de data)."
+  },
+  "C05": {
+   "composicao": "'04/11' gigante como elemento gráfico principal (numeral dourado), com a Dra. ao lado.",
+   "elementos": [
+    "Numeral '04/11' gigante em Montserrat Black dourado como elemento gráfico",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto da Dra. (obrigatória), sem texto/numeral sobre o rosto.",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote. A headline já contém 'Dia 04/11' e o numeral repete a data: tratar numeral gigante como a própria data (não duplicar com o bloco de data). Docs atuais data=false."
+  },
+  "C06": {
+   "composicao": "Headline como frase interna/pensamento, estilo balão íntimo, tipografia protagonista.",
+   "elementos": [
+    "Headline dentro de balão/forma de pensamento íntimo (genérico, sem imitar app), aspas na frase",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "SEM foto.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote. Foco no sentimento ('Isso não é pra mim'); sem promessa de fim da autossabotagem."
+  },
+  "C07": {
+   "composicao": "Os 3 perfis em lista vertical, cada perfil como uma 'etiqueta'; Dra. ao lado.",
+   "elementos": [
+    "3 etiquetas/tags empilhadas na vertical: Termostato Invisível · Autossabotagem · Culpa de Querer Mais (a headline É a lista; não repetir os nomes em outro elemento)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto da Dra. (obrigatória).",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote. Docs atuais marcam as 3 frases como destaque [ ]; manter uma única cor (dourado)."
+  },
+  "C08": {
+   "composicao": "Minimalista, foco na frase de pagamento; ícone de cartão sem número.",
+   "elementos": [
+    "Ícone de cartão minimalista (sem número, sem valor, sem bandeira)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "SEM foto.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Captação: identificação imediata com a dor + promessa da condição; público frio. Selo padrão 'Live de revelação · 04/11 às 20h' quando a copy não trouxer outro; CTA QUERO PARTICIPAR; sem preço, sem lote. Sem número/valor em nenhum lugar; 'parcelado no cartão' só como texto."
+  },
+  "AQ01": {
+   "composicao": "CARROSSEL de 5 slides 1080x1350 (stories: sequência equivalente 1080x1920).",
+   "elementos": [
+    "Slide 1 (capa): gancho forte '3 sinais de que a autossabotagem está decidindo por você' + indicador de 'arraste'",
+    "Slides 2 a 4: um sinal por slide com NUMERAÇÃO GRANDE (1., 2., 3.)",
+    "Slide 5 (fechamento): 'Em 04/11 a Dra. Próton abre a Black Próton Vitalícia. Live às 20h.' + CTA QUERO PARTICIPAR (oferta discreta)",
+    "Mesmo template de slide em toda a sequência"
+   ],
+   "foto": "Foto da Dra. SÓ no slide 5 (fechamento).",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR. Slides: 1 capa (headline), 2-4 itens do apoio, 5 fechamento + CTA (campo 'fechamento' do copy.json). Indicador de arraste só nos slides 1-4."
+  },
+  "AQ02": {
+   "composicao": "Editorial tipográfico, headline protagonista.",
+   "elementos": [
+    "Tipografia protagonista, fundo limpo",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica (editorial; foto opcional, só se couber sem poluir).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR."
+  },
+  "AQ03": {
+   "composicao": "Três 'Depois...' empilhados, cada um mais apagado que o anterior.",
+   "elementos": [
+    "Pilha de 3 linhas: 'Depois eu começo.' / 'Depois eu uso.' / 'Depois eu volto.' com intensidade decrescente (cada uma mais apagada)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica (tipográfica).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR. O 'apagado' não pode violar contraste 4.5:1: reduzir luminância mantendo >=4.5:1 na linha mais fraca (ver avisos). As 3 linhas são o apoio do copy.json ('Depois eu começo. Depois eu uso. Depois eu volto. Reconhece?'): 'Reconhece?' permanece como última linha."
+  },
+  "AQ04": {
+   "composicao": "CARROSSEL de 7 slides, estilo 'carta de perfil'.",
+   "elementos": [
+    "Slide 1 (capa): 'Qual desses perfis é o seu?'",
+    "Slides 2 a 6: UM perfil por slide (Termostato Invisível / Autossabotagem / Cobrança Que Você Só Faz Com Você / Traumas Que Ainda Decidem / Culpa de Querer Mais), mesmo layout 'carta de perfil'",
+    "Cada perfil com ícone/símbolo PRÓPRIO (sugestão do motor: termostato, espiral/ciclo, lupa/régua, estilhaço/âncora, balança/coração), mesmo layout nos 5",
+    "Slide 7 (fechamento): 'Na live de 04/11 a Dra. Próton apresenta tudo o que construiu pra trabalhar esses padrões.' + CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada (foto opcional só no fechamento, se couber).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR. Usar SÓ o nome do perfil, sem textos extras (nada de descrição inventada). Numeração dos perfis não está no prompt: não acrescentar."
+  },
+  "AQ05": {
+   "composicao": "Editorial: título + duas crenças entre aspas.",
+   "elementos": [
+    "As duas crenças como citações entre aspas destacadas",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR."
+  },
+  "AQ06": {
+   "composicao": "Editorial: pergunta de espelho, tipografia protagonista.",
+   "elementos": [
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR."
+  },
+  "AQ07": {
+   "composicao": "Editorial tipográfico.",
+   "elementos": [
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR. Texto sobre rosto/cabelo foi problema nas artes antigas: se houver foto, headline fora do rosto."
+  },
+  "AQ08": {
+   "composicao": "Editorial tipográfico.",
+   "elementos": [
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Aquecimento: post de CONTEÚDO, não anúncio; estética editorial, tipografia protagonista, sensação de 'isso é sobre mim'; oferta só no fechamento, discreta; falar de padrão e reconhecimento, não de diagnóstico; sem preço/lote; sem promessa de cura. CTA QUERO PARTICIPAR."
+  },
+  "ANT01": {
+   "composicao": "Suspense: luz vazando por uma fresta/cortina entreaberta.",
+   "elementos": [
+    "Luz vazando pela fresta (cortina/porta entreaberta)",
+    "Data 04/11 às 20h em destaque",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto recomendada (cota mínima de 3 fotos nas 8 peças).",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26)."
+  },
+  "ANT02": {
+   "composicao": "Contagem regressiva estilizada.",
+   "elementos": [
+    "Contador/contagem regressiva estilizada apontando para 04/11 (sem inventar nº de dias)",
+    "Data 04/11 às 20h em destaque",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26)."
+  },
+  "ANT03": {
+   "composicao": "Algo fechado/coberto a ser revelado.",
+   "elementos": [
+    "Envelope lacrado ou elemento parcialmente coberto (mistério)",
+    "Data 04/11 em destaque",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26). Copy cita 'valor, lotes e como parcelar' só como texto de curiosidade; nenhum número."
+  },
+  "ANT04": {
+   "composicao": "Card de agenda/calendário com 04/11 marcado.",
+   "elementos": [
+    "Card de agenda/calendário com 04/11 marcado (destaque no dia)",
+    "Bloco de data (QUARTA · 04 DE NOVEMBRO, ÀS 20H, NO YOUTUBE)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26)."
+  },
+  "ANT05": {
+   "composicao": "Cortina/convite elegante.",
+   "elementos": [
+    "Cortina (aberta ou entreaberta) ou luz de palco",
+    "Data 04/11 em destaque",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto recomendada (cota mínima de 3 fotos).",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26)."
+  },
+  "ANT06": {
+   "composicao": "Suspense com contagem/data.",
+   "elementos": [
+    "Elemento de contagem (poucos dias) sem número inventado",
+    "Data 04/11 em destaque",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26)."
+  },
+  "ANT07": {
+   "composicao": "Revelação ao vivo / exclusividade.",
+   "elementos": [
+    "Envelope lacrado ou elemento coberto",
+    "Data 04/11 em destaque",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção específica.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26). Copy cita 'Valor e lotes' só como texto; nenhum número."
+  },
+  "ANT08": {
+   "composicao": "Convite pessoal: foto da Dra. em destaque.",
+   "elementos": [
+    "Foto grande em destaque (convite pessoal)",
+    "Data 04/11 às 20h",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto da Dra. EM DESTAQUE (obrigatória, explícita no prompt): olhando para a câmera, convite pessoal.",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Antecipação: suspense e revelação, 'algo vai ser aberto': cortina, envelope lacrado, luz vazando por uma fresta, contagem regressiva, data 04/11 em destaque; elegante, nunca sensacionalista. Foto da Dra. em PELO MENOS 3 das 8 peças. Sem preço/lote/promessa de fim da autossabotagem; só as formas aprovadas de 'última vez'. CTA QUERO PARTICIPAR. Data 04/11 · 20h como elemento gráfico forte em todas (prompt mestre BF26)."
+  },
+  "RMK01": {
+   "composicao": "'Quase lá': barra de progresso em 90%.",
+   "elementos": [
+    "Barra de progresso preenchida em 90%",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de captação: conversa direta e gentil, recado pessoal; elementos de 'quase lá' (barra de progresso perto do fim, campo de formulário a preencher, ícone de WhatsApp genérico); simples, POUCOS elementos. Sem preço/lote. Escassez só sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR."
+  },
+  "RMK02": {
+   "composicao": "Recado simples e tranquilizador.",
+   "elementos": [
+    "Campo de formulário a preencher (opcional, genérico)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de captação: conversa direta e gentil, recado pessoal; elementos de 'quase lá' (barra de progresso perto do fim, campo de formulário a preencher, ícone de WhatsApp genérico); simples, POUCOS elementos. Sem preço/lote. Escassez só sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR. Ressalta que a live é gratuita."
+  },
+  "RMK03": {
+   "composicao": "Recado curto e pessoal.",
+   "elementos": [
+    "Elemento 'quase lá' simples (campo de formulário/barra)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de captação: conversa direta e gentil, recado pessoal; elementos de 'quase lá' (barra de progresso perto do fim, campo de formulário a preencher, ícone de WhatsApp genérico); simples, POUCOS elementos. Sem preço/lote. Escassez só sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR."
+  },
+  "RMK04": {
+   "composicao": "Foto da Dra. + visual de 'assento reservado'.",
+   "elementos": [
+    "Visual de assento/lugar reservado (poltrona/ingresso genérico com 'reservado')",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Foto da Dra. (obrigatória).",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Remarketing de captação: conversa direta e gentil, recado pessoal; elementos de 'quase lá' (barra de progresso perto do fim, campo de formulário a preencher, ícone de WhatsApp genérico); simples, POUCOS elementos. Sem preço/lote. Escassez só sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR. Apoio já traz data; evitar duplicar com bloco de data (docs atuais data=false)."
+  },
+  "RMK05": {
+   "composicao": "Recado pessoal com link no WhatsApp.",
+   "elementos": [
+    "Ícone de WhatsApp/balão GENÉRICO (sem logo oficial) para o link",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de captação: conversa direta e gentil, recado pessoal; elementos de 'quase lá' (barra de progresso perto do fim, campo de formulário a preencher, ícone de WhatsApp genérico); simples, POUCOS elementos. Sem preço/lote. Escassez só sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR."
+  },
+  "ESC01": {
+   "composicao": "Número gigante '7' como herói.",
+   "elementos": [
+    "Destaque gráfico: numeral '7' (40-60% da área)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Escassez: urgência premium. O NÚMERO/TEMPO é o herói e ocupa 40% a 60% da área. MESMA família visual nas 4 peças, mudando só o número (para a contagem 'andar'). Sem vermelho de varejo, sem sirene. Sem preço/lote. Escassez é sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR."
+  },
+  "ESC02": {
+   "composicao": "Número gigante '3' como herói (mesma família).",
+   "elementos": [
+    "Destaque gráfico: numeral '3' (40-60% da área)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Escassez: urgência premium. O NÚMERO/TEMPO é o herói e ocupa 40% a 60% da área. MESMA família visual nas 4 peças, mudando só o número (para a contagem 'andar'). Sem vermelho de varejo, sem sirene. Sem preço/lote. Escassez é sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR."
+  },
+  "ESC03": {
+   "composicao": "Palavra-herói 'AMANHÃ' (mesma família).",
+   "elementos": [
+    "Destaque gráfico: 'AMANHÃ' (40-60% da área)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Escassez: urgência premium. O NÚMERO/TEMPO é o herói e ocupa 40% a 60% da área. MESMA família visual nas 4 peças, mudando só o número (para a contagem 'andar'). Sem vermelho de varejo, sem sirene. Sem preço/lote. Escassez é sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR. A headline 'É amanhã' e o herói 'AMANHÃ' coincidem: renderizar uma vez só em tamanho herói + a headline exata do copy.json, sem duplicar visualmente."
+  },
+  "ESC04": {
+   "composicao": "Relógio / '20h' como herói (mesma família).",
+   "elementos": [
+    "Destaque gráfico: relógio ou '20h' (40-60% da área)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": false,
+   "destaques": [],
+   "observacoes": "Escassez: urgência premium. O NÚMERO/TEMPO é o herói e ocupa 40% a 60% da área. MESMA família visual nas 4 peças, mudando só o número (para a contagem 'andar'). Sem vermelho de varejo, sem sirene. Sem preço/lote. Escassez é sobre a data da live e sobre esta condição. CTA QUERO PARTICIPAR."
+  },
+  "AD01": {
+   "composicao": "Tempo se esgotando (família ESC).",
+   "elementos": [
+    "Relógio/barra de tempo se esgotando",
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD02": {
+   "composicao": "Tipográfica de urgência.",
+   "elementos": [
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD03": {
+   "composicao": "Tripé tipográfico 'Uma live. Uma noite. Uma oferta.' (sem apoio).",
+   "elementos": [
+    "Três frases curtas empilhadas, ritmo de contagem 1-2-3",
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt. Sem apoio no copy.json.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD04": {
+   "composicao": "Headline longa (74 caracteres) com selo longo.",
+   "elementos": [
+    "Selo em pílula: 'Nessas condições, é a primeira e a última vez'",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt. Atenção: headline muito longa para 3 linhas com >=64px (ver avisos). Sem apoio.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD05": {
+   "composicao": "Tipográfica 'Últimos dias'.",
+   "elementos": [
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD06": {
+   "composicao": "Tipográfica 'Primeira e última vez'.",
+   "elementos": [
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt. Cuidado com leitura como 'última chance' (copy já aprovada nos docs).",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD07": {
+   "composicao": "Convite pessoal com selo de data/noite única.",
+   "elementos": [
+    "Selo em pílula: '04/11 às 20h · Uma única noite'",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD08": {
+   "composicao": "Tipográfica com selo de escassez aprovada.",
+   "elementos": [
+    "Selo em pílula: 'Essa oferta não se repete'",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt. Headline 'A última vez que você compra.' pode ser lida como promessa de fim; validar com copy (não resolver aqui).",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD09": {
+   "composicao": "Contador regressivo estilizado.",
+   "elementos": [
+    "Contador regressivo estilizado até 04/11 às 20h (sem inventar números)",
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD12": {
+   "composicao": "Tipográfica de reflexão.",
+   "elementos": [
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD13": {
+   "composicao": "Tipográfica de exclusividade.",
+   "elementos": [
+    "Bloco de data (data=true)",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD14": {
+   "composicao": "Relógio correndo.",
+   "elementos": [
+    "Relógio como símbolo gráfico",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD15": {
+   "composicao": "Numeral '2' como herói (mesma família ESC).",
+   "elementos": [
+    "Numeral '2' (dias) como herói 40-60% da área",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD16": {
+   "composicao": "Data/hora como herói.",
+   "elementos": [
+    "'04/11, 20h' como herói tipográfico",
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD17": {
+   "composicao": "Tipográfica de proximidade.",
+   "elementos": [
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "AD18": {
+   "composicao": "Tipográfica de exclusividade da condição.",
+   "elementos": [
+    "CTA QUERO PARTICIPAR"
+   ],
+   "foto": "Sem direção no prompt (herdar ESC: sem foto por padrão; foto opcional).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "AD (escassez, anúncios extras): NÃO existem no prompt de criativos (nenhuma direção de arte específica). Herdam a família ESC (Prompt 5 e Fase 5 do mestre BF26): urgência elegante, número/tempo como herói quando houver, relógio/contador/barra de tempo se esgotando, mesma família visual, sem vermelho de varejo, sem preço/lote. Dicas abaixo são inferidas da headline do copy.json, não do prompt. Copy próxima das frases proibidas ('única vez que essa oferta existe'); validar com copy.",
+   "origem": "herdado da família ESC; sem direção de arte no prompt"
+  },
+  "LEM01": {
+   "composicao": "7 dias antes (veiculação 28/10): template da série.",
+   "elementos": [
+    "Tempo gigante '1 semana'",
+    "Bloco de data gigante",
+    "CTA ENTRAR NO GRUPO"
+   ],
+   "foto": "Layout único da série (foto da Dra. se a série adotar foto; mesma posição em todas).",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "LEM02": {
+   "composicao": "3 dias antes (01/11): mesmo template.",
+   "elementos": [
+    "Tempo gigante '3 dias'",
+    "Bloco de data gigante",
+    "CTA ENTRAR NO GRUPO"
+   ],
+   "foto": "Idem série.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "LEM03": {
+   "composicao": "1 dia antes (03/11): mesmo template.",
+   "elementos": [
+    "Tempo gigante 'amanhã'",
+    "Bloco de data gigante",
+    "CTA ATIVAR LEMBRETE"
+   ],
+   "foto": "Idem série.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "LEM04": {
+   "composicao": "Dia da live, manhã: mesmo template, com selo AO VIVO/play do dia.",
+   "elementos": [
+    "Selo AO VIVO (peça do dia)",
+    "Ícone de play genérico",
+    "Hora gigante '20h'",
+    "CTA QUERO ASSISTIR"
+   ],
+   "foto": "Idem série.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "LEM05": {
+   "composicao": "Dia da live, tarde: mesmo template.",
+   "elementos": [
+    "Selo AO VIVO (peça do dia)",
+    "Ícone de play genérico",
+    "Hora gigante",
+    "CTA QUERO ASSISTIR"
+   ],
+   "foto": "Idem série.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "LEM06": {
+   "composicao": "Dia da live, 19h: mesmo template.",
+   "elementos": [
+    "Selo AO VIVO (peça do dia)",
+    "Ícone de play genérico",
+    "Hora gigante",
+    "CTA QUERO ASSISTIR"
+   ],
+   "foto": "Idem série.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "LEM07": {
+   "composicao": "AO VIVO (20h): mesmo template; selo AO VIVO vermelho em destaque.",
+   "elementos": [
+    "Selo 'AO VIVO' VERMELHO em destaque (único vermelho permitido), estático",
+    "Ícone de play genérico",
+    "Sem imitar interface do YouTube/qualquer app (Meta reprova)",
+    "CTA ASSISTIR AGORA"
+   ],
+   "foto": "Foto da Dra. FALANDO (obrigatória, explícita no prompt): boca levemente aberta, olhar para fora/câmera; só fotos aprovadas.",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão. Docs atuais data=false: no lugar do bloco de data entra o chip/selo AO VIVO."
+  },
+  "LEM08": {
+   "composicao": "Genérico (cadastradas): mesmo template.",
+   "elementos": [
+    "Bloco de data gigante",
+    "CTA ATIVAR LEMBRETE"
+   ],
+   "foto": "Idem série.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Lembrete: convite e evento. DATA E HORA GIGANTES, selo 'AO VIVO' nas peças do dia da live, ícone de play genérico. SEQUÊNCIA VISUAL ÚNICA (mesmo layout/template em todas, mudando só o tempo) para criar sensação de contagem. PRIORIDADE de formato: 9:16 (stories); entregar também 4:5. Sem preço/lote. Referência estrutural (template LEM 09-12): coluna de texto à esquerda + Dra. recortada à direita (~45% da largura, tronco para cima, falando), fundo preto quente com vazamento de luz âmbar no canto inferior esquerdo, logo no topo esquerdo, selo de transmissão 'AO VIVO NO YOUTUBE' com ponto, headline 'FALTAM' + número em dourado, tarja e botão."
+  },
+  "VEN01": {
+   "composicao": "Oferta aberta com mockup do pacote vitalício como herói.",
+   "elementos": [
+    "Mockup do Clube Secreto + capas dos produtos (cada uma 1 vez)",
+    "Símbolo de infinito/selo VITALÍCIA",
+    "Valor do lote em destaque com 'parcelado no cartão' logo abaixo",
+    "Etiqueta PENDENTE; CTA QUERO MINHA VITALÍCIA"
+   ],
+   "foto": "Sem foto indicada (opcional).",
+   "usa_foto": null,
+   "destaques": [
+    "{{VALOR DO LOTE}}"
+   ],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA.",
+   "placeholders": [
+    "{{VALOR DO LOTE}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ],
+   "variante_teste_ab": "VENB 01 (conceito 'A Revelação', mesma copy): envelope aberto com o mockup do Clube Secreto e as capas saindo dele; luz total sobre o pacote; bloco de oferta = pílula [LOTE ATUAL] > [VALOR DO LOTE] em destaque + linha menor 'pagamento único · parcelado no cartão'."
+  },
+  "VEN02": {
+   "composicao": "Oferta com lote e valor.",
+   "elementos": [
+    "Pílula {{LOTE ATUAL}} + {{VALOR DO LOTE}} em destaque",
+    "'parcelado no cartão' logo abaixo",
+    "Mockup/capas ou infinito",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [
+    "{{LOTE ATUAL}}",
+    "{{VALOR DO LOTE}}"
+   ],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA.",
+   "placeholders": [
+    "{{LOTE ATUAL}}",
+    "{{VALOR DO LOTE}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "VEN03": {
+   "composicao": "Tipográfica de decisão.",
+   "elementos": [
+    "Selo VITALÍCIA/infinito",
+    "CTA QUERO MINHA VITALÍCIA"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA. Sem placeholders nesta peça.",
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "VEN04": {
+   "composicao": "Data/hora da virada como HERÓI da peça.",
+   "elementos": [
+    "{{DATA/HORA DA VIRADA}} gigante como herói (reservar espaço '00/11 às 00h')",
+    "{{LOTE ATUAL}} na headline",
+    "Elemento de lote virando (contagem/prazo)",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [
+    "{{DATA/HORA DA VIRADA}}"
+   ],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA. Apoio traz 'R$ 1.000' literal (texto do doc atual; é pós-live).",
+   "placeholders": [
+    "{{LOTE ATUAL}}",
+    "{{DATA/HORA DA VIRADA}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "VEN05": {
+   "composicao": "Mosaico das capas dos produtos + foto da Dra.",
+   "elementos": [
+    "Mosaico das capas (cada produto 1 vez, capa real; sem capa -> card tipográfico; nunca duplicar)",
+    "Mockup do Clube Secreto",
+    "CTA QUERO MINHA VITALÍCIA"
+   ],
+   "foto": "Foto da Dra. (obrigatória) ao lado do mosaico, solta, sem moldura.",
+   "usa_foto": true,
+   "destaques": [],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA. Sem placeholders de valor nesta peça.",
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ],
+   "variante_teste_ab": "VENB 05: cortina ABERTA revelando o mosaico das capas, foto da Dra. ao lado; mesma copy."
+  },
+  "VEN06": {
+   "composicao": "Pagamento único com valor em destaque.",
+   "elementos": [
+    "Valor {{VALOR DO LOTE}} grande com 'parcelado no cartão' logo abaixo",
+    "Símbolo de infinito / selo VITALÍCIA",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [
+    "{{VALOR DO LOTE}}"
+   ],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA.",
+   "placeholders": [
+    "{{VALOR DO LOTE}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ],
+   "variante_teste_ab": "VENB 06: SÓ tipografia + símbolo de infinito dourado sobre fundo preto, bloco de oferta centralizado (pílula [LOTE ATUAL] > [VALOR] + 'pagamento único · parcelado no cartão')."
+  },
+  "VEN07": {
+   "composicao": "Escassez aprovada, tipográfica.",
+   "elementos": [
+    "Selo VITALÍCIA/infinito",
+    "CTA QUERO MINHA VITALÍCIA"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA. Sem placeholders.",
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "VEN08": {
+   "composicao": "Exclusiva para ALUNAS: condição especial / área de aluna, tom de reconhecimento e pertencimento.",
+   "elementos": [
+    "Selo/etiqueta 'SÓ PARA ALUNAS' (eyebrow do doc)",
+    "{{VALOR DO LOTE ALUNAS}} em destaque",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [
+    "{{VALOR DO LOTE ALUNAS}}"
+   ],
+   "observacoes": "Vendas (pós-live, carrinho aberto): oferta premium aberta; mockup elegante do Clube Secreto + capas dos produtos; valor do lote em destaque quando a copy pedir; sensação de 'acervo completo, pra sempre'; selo 'VITALÍCIA' ou símbolo de infinito; preço (placeholder) grande com 'parcelado no cartão' logo abaixo; espaço para a data de virada. TEMPLATE EDITÁVEL: placeholders em camada nomeada amarela (#FFF200), etiqueta 'PENDENTE' no canto, sufixo _PENDENTE; reservar espaço para 'R$ 4.997' e '00/11 às 00h'; sem garantia/bônus. 2 versões de público (NAOALUNA/ALUNA). CTA QUERO MINHA VITALÍCIA. Só versão ALUNA (não gerar NAOALUNA).",
+   "placeholders": [
+    "{{VALOR DO LOTE ALUNAS}}"
+   ],
+   "publicos": [
+    "ALUNA"
+   ]
+  },
+  "RV01": {
+   "composicao": "Headline forte + prazo do lote.",
+   "elementos": [
+    "Mockup pequeno do produto",
+    "{{LOTE ATUAL}} visível",
+    "Etiqueta PENDENTE",
+    "CTA QUERO MINHA VITALÍCIA"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de vendas: direto, pessoal, decisão. MENOS elementos que Vendas: headline forte, prazo do lote visível, mockup pequeno do produto. Mesma família visual de VEN (reconhecimento). Estética de carrinho/checkout (botão finalizar, ícone de carrinho, barra de progresso de compra) e de prazo (lote virando). Mesmas regras de Vendas: placeholders amarelos, PENDENTE, 2 versões de público, sem garantia/bônus.",
+   "placeholders": [
+    "{{LOTE ATUAL}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "RV02": {
+   "composicao": "Visual de carrinho/checkout minimalista.",
+   "elementos": [
+    "Carrinho/checkout minimalista (ícone de carrinho, botão finalizar, barra de progresso de compra)",
+    "CTA FINALIZAR MINHA INSCRIÇÃO"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de vendas: direto, pessoal, decisão. MENOS elementos que Vendas: headline forte, prazo do lote visível, mockup pequeno do produto. Mesma família visual de VEN (reconhecimento). Estética de carrinho/checkout (botão finalizar, ícone de carrinho, barra de progresso de compra) e de prazo (lote virando). Mesmas regras de Vendas: placeholders amarelos, PENDENTE, 2 versões de público, sem garantia/bônus. Sem placeholders.",
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "RV03": {
+   "composicao": "Frase entre aspas como protagonista + prazo do lote.",
+   "elementos": [
+    "'Depois eu decido' entre aspas como protagonista",
+    "{{LOTE ATUAL}} até {{DATA/HORA DA VIRADA}} visível",
+    "Mockup pequeno",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de vendas: direto, pessoal, decisão. MENOS elementos que Vendas: headline forte, prazo do lote visível, mockup pequeno do produto. Mesma família visual de VEN (reconhecimento). Estética de carrinho/checkout (botão finalizar, ícone de carrinho, barra de progresso de compra) e de prazo (lote virando). Mesmas regras de Vendas: placeholders amarelos, PENDENTE, 2 versões de público, sem garantia/bônus.",
+   "placeholders": [
+    "{{LOTE ATUAL}}",
+    "{{DATA/HORA DA VIRADA}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ],
+   "variante_teste_ab": "VENB RV03: frase entre aspas como protagonista (mesma linguagem do ângulo Autossabotagem da captação), foto da Dra. olhando para a câmera, envelope aberto discreto ao fundo."
+  },
+  "RV04": {
+   "composicao": "Prazo/virada como foco.",
+   "elementos": [
+    "{{DATA/HORA DA VIRADA}} em destaque (reservar '00/11 às 00h')",
+    "{{VALOR DO LOTE}} (reservar 'R$ 4.997')",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [
+    "{{DATA/HORA DA VIRADA}}"
+   ],
+   "observacoes": "Remarketing de vendas: direto, pessoal, decisão. MENOS elementos que Vendas: headline forte, prazo do lote visível, mockup pequeno do produto. Mesma família visual de VEN (reconhecimento). Estética de carrinho/checkout (botão finalizar, ícone de carrinho, barra de progresso de compra) e de prazo (lote virando). Mesmas regras de Vendas: placeholders amarelos, PENDENTE, 2 versões de público, sem garantia/bônus.",
+   "placeholders": [
+    "{{DATA/HORA DA VIRADA}}",
+    "{{VALOR DO LOTE}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "RV05": {
+   "composicao": "Escassez aprovada + últimas horas do lote.",
+   "elementos": [
+    "{{LOTE ATUAL}} visível",
+    "Mockup pequeno",
+    "Etiqueta PENDENTE"
+   ],
+   "foto": "Sem foto indicada.",
+   "usa_foto": null,
+   "destaques": [],
+   "observacoes": "Remarketing de vendas: direto, pessoal, decisão. MENOS elementos que Vendas: headline forte, prazo do lote visível, mockup pequeno do produto. Mesma família visual de VEN (reconhecimento). Estética de carrinho/checkout (botão finalizar, ícone de carrinho, barra de progresso de compra) e de prazo (lote virando). Mesmas regras de Vendas: placeholders amarelos, PENDENTE, 2 versões de público, sem garantia/bônus.",
+   "placeholders": [
+    "{{LOTE ATUAL}}"
+   ],
+   "publicos": [
+    "NAOALUNA",
+    "ALUNA"
+   ]
+  },
+  "RV06": {
+   "composicao": "Suporte no WhatsApp: atendimento próximo e acolhedor, sem pressão (peça de suporte, não de urgência). 4:5 em DUAS COLUNAS; 9:16 empilhado.",
+   "elementos": [
+    "4:5: texto à esquerda, Dra. recortada à direita (expressão acolhedora, gesto de conversa); fundo escuro com desfoque suave de palco ou luz âmbar; logo no topo ESQUERDO",
+    "9:16: foto da Dra. no terço superior (respeitando os 250px livres do topo), texto empilhado abaixo, botão ACIMA dos 340px livres da base",
+    "Hierarquia: 1) headline em 4 linhas curtas com 'finalizar' em destaque; 2) 'CHAME NO WHATSAPP' em caixa alta, bold, SEGUNDO maior texto; 3) apoio em peso regular; 4) botão COM CONTORNO na cor de destaque (outline) + ícone genérico de balão de conversa/WhatsApp, sem logo oficial",
+    "Referência de estrutura/hierarquia (não de identidade): 'Ads 16 Feed/Story - BFV' (BFV 2025)"
+   ],
+   "foto": "Foto da Dra. (obrigatória): recortada, solta, expressão acolhedora, gesto de conversa; coluna direita (4:5) / terço superior (9:16).",
+   "usa_foto": true,
+   "destaques": [
+    "finalizar"
+   ],
+   "observacoes": "Peça única para ALUNAS e NÃO-ALUNAS (sem preço). Sem preço, lote, valor, data de virada, garantia ou bônus; SEM placeholders e SEM etiqueta PENDENTE; nada de 'última chance' nem contagem regressiva. Nome: BPV_RV_06_4x5 / BPV_RV_06_9x16.",
+   "divergencias": [
+    "RV06 NÃO consta nos docs atuais (copy.json). Texto do prompt: Headline 'Ainda não conseguiu finalizar a sua compra?' · Destaque 'CHAME NO WHATSAPP' · Apoio 'O meu time está disponível para auxiliar e tirar todas as suas dúvidas.' · CTA 'FALE CONOSCO!'"
+   ],
+   "copy_prompt": {
+    "headline": "Ainda não conseguiu finalizar a sua compra?",
+    "destaque": "CHAME NO WHATSAPP",
+    "apoio": "O meu time está disponível para auxiliar e tirar todas as suas dúvidas.",
+    "cta": "FALE CONOSCO!"
+   }
+  }
+ },
+ "avisos": [
+  "ESCOPO: lido o documento inteiro (2.636 linhas). Extraído: CAP 01-08 (=C01-C08), AQ 01-08, ANT 01-08, RMK 01-05, ESC 01-04, LEM 01-08, VEN 01-08 (+ conceito VENB como variante A/B), RV 01-05 e RV 06 (Prompt 8B). Fora do escopo e NÃO extraídos (têm refs 1:1 de outros lançamentos e fontes fora do kit): CAPX 1-50, capas de vídeo CAP VID, CAPN 01-07, AQN 01-03, LEM 09-12 (só o template foi resumido em familias/LEM), ALU 01-03, VENC 01-10, FIM 01-05, LOT 01-02, LIV 01-03, REA 01.",
+  "AD01-AD18 (docs atuais) NÃO existem no prompt: sem direção de arte própria. Entradas AD herdam a família ESC (Prompt 5) e as dicas são inferidas das headlines (marcadas com 'origem'). AD10/AD11 são vídeo e não entram. Decisão de design fica com quem monta o motor.",
+  "COMPARAÇÃO DE COPY (automática, headline/apoio/fechamento/selo, prompt x src/copy.json): texto IDÊNTICO em todas as peças C01-C08, RMK, AQ, ANT, ESC01-04, LEM, VEN, RV01-05. Únicas diferenças: selo do prompt em C01 e C03 (docs atuais sem selo, com bloco de data), AD01-AD18 (ausentes no prompt) e RV06 (ausente nos docs). O prompt usa ' . ' como separador de selo; os docs usam ' · ' (vale o doc).",
+  "FOTO SEM MOLDURA: o prompt PROÍBE enquadrar a foto em círculo, arco ou moldura/borda/cartão (versões antigas do motor tinham layouts 'arco'/'cartao': não podem voltar). A foto é recorte SEM fundo do estúdio, solto, fundindo no escuro pela base; no tema claro (fundo creme) o mesmo recorte precisa de borda limpa (sem halo escuro/branco).",
+  "CONFLITO uma só cor de destaque x exceções: (a) LEM07 pede selo AO VIVO VERMELHO (e a ref. do template LEM 09-12 usa ponto vermelho #BC2F35 no selo de transmissão): único vermelho permitido, restrito ao selo AO VIVO (LEM07; nas LEM04-06 só se o motor aplicar o selo do dia); (b) PENDENTE amarelo #FFF200/#FFD400; (c) qualquer vinho/vermelho fora desses (tema claro, riscos, tachados) é proibido: vermelho promocional não existe na paleta.",
+  "TEMA CLARO NÃO DEFINIDO no prompt (só há menção a fundo creme em 'escuro ou creme' do logo e peças de print branco fora do escopo). Mapeamento sugerido: fundo Creme Próton #F9F3EA, texto #1D1110, destaque Ouro Velho #A37A27, botão Ouro Próton #D4A84E com texto #1D1110. Contraste medido: Ouro Próton sobre Creme = 2.0:1 (reprova 4.5); Ouro Velho sobre Creme = 3.54:1 (reprova 4.5, passa 3:1 de texto grande); #1D1110 sobre Creme = 16.7:1; Ouro Próton sobre Noite Black = 8.89:1; Ouro Velho sobre Noite Black = 5.02:1. No claro, destaque dourado em texto exige tom mais escuro (fora da paleta) ou marca-texto/barra dourada com texto #1D1110 por cima. Decidir antes de gerar o claro. Também só existe assets/logo-dourado.png: no claro o logo dourado perde contraste; o prompt proíbe recolorir o logo -> precisa da versão oficial para fundo claro.",
+  "AMBIGUIDADE 'altura de letra': o prompt exige headline >=64px de ALTURA DE LETRA em 1080px de largura. Lido como cap-height, equivale a font-size de ~90px em Montserrat (cap-height ~0.70em); lido como font-size, 64px. O motor deve fixar uma leitura e testá-la (a mais segura é cap-height >=64px = font-size >=~91px, o que agrava o limite de 3 linhas).",
+  "CONFLITO apoio >=34px x apoio <=40% da headline (prompt mestre BF26, secundário): só compatíveis se a headline tiver >=85px. Prevalece o mestre BPV (apoio >=34px).",
+  "HEADLINE LONGA: limite de 3 linhas a >=64px de altura de letra não cabe em todas as peças (largura útil ~920px). Candidatas a estourar: AD04 (74 caracteres), AQ01 (58), AD18, AD07, AD12, VEN02 (apoio longo) e headlines com caixa alta (mais larga). O motor deve falhar o teste (ou sinalizar) em vez de reduzir abaixo de 64px ou cortar texto. RV06 pede explicitamente 4 linhas curtas para a headline (exceção local à regra de 3 linhas).",
+  "9:16: src/render.js (versão atual) posiciona #logo em top:130px no story, DENTRO da faixa proibida (y<250). Logo e qualquer texto/CTA devem ficar entre y=250 e y=1580 (e a 80px das laterais).",
+  "DATA GIGANTE x copy.json: o kit exige data/horário grandes no card dourado, mas várias peças têm data=false e o apoio/headline já traz a data (C05 tem 'Dia 04/11' na headline + numeral gigante; RMK04 repete '04/11 às 20h' no apoio; AQ/ANT/ESC/LEM idem). Regra 'nunca repetir a mesma palavra/item/elemento' conflita com 'data sempre grande': usar bloco de data só onde data=true e não duplicar a data já destacada em headline/numeral herói. Semana da data: 04/11/2026 é quarta-feira (QUARTA · 04 DE NOVEMBRO confere).",
+  "ESC: prompt BPV (mesma família, muda só o número, SEM vermelho) x mestre BF26 (aumentar progressivamente a intensidade das cores de acento de ESC01 a ESC04) são inconciliáveis com 'uma única cor de destaque'. Prevalece o prompt BPV; se quiser crescendo, só variar intensidade do brilho dourado, nunca a cor.",
+  "AQ03: 'cada um mais apagado' conflita com contraste >=4.5:1 se feito por opacidade; reduzir luminância/saturação mantendo >=4.5:1 na linha mais fraca. Texto de apoio do copy.json inclui 'Reconhece?' fora das 3 linhas.",
+  "Variação A/B do mestre BF26 (A foto + texto, B só tipografia), nomenclatura BF26_... e RMK 'notificação de celular/balão de mensagem' pertencem a um segundo prompt mestre anexado ao fim do documento (mais antigo); o mestre BPV + KIT DE MARCA OFICIAL prevalece (nomenclatura BPV_, fotos, fontes, cores, RMK = barra de progresso/formulário/ícone WhatsApp genérico). Balão/notificação, se usados, devem ser genéricos (a Meta reprova simular interface).",
+  "FOTOS: o prompt lista 14 fotos aprovadas por nome DSC_xxxx/IMG_9789/IMG_9791; fotos/fotos.json usa nomes originais IMG_xxxx e fotos/descartadas.txt marca IMG_9791 e IMG_9789 como descartadas por qualidade (recorte/cabelo cortado, flare). Não há mapeamento DSC->foto-NN/recorte-NN: é preciso uma whitelist manual (conferir pose: sem mão no queixo/rosto/gola, sem blazer Gucci/Adidas, tronco para cima). Cota: CAP >=4 fotos nas 8 principais (C01, C03, C05, C07 = exatamente 4, as demais SEM foto); ANT >=3 de 8 (ANT08 explícita; ANT01/ANT05 sugeridas); foto diferente por peça no mesmo lote.",
+  "PEÇAS SEM FOTO são explícitas no prompt para C02, C04, C06, C08 (as artes antigas tinham foto). Para AQ, RMK (exceto RMK04), ESC, VEN (exceto VEN05), RV (exceto RV06) o prompt não exige foto.",
+  "CAPAS: lista do prompt (com capa: Fórmula da Riqueza, Workshop Terapeuta de Elite, 3 Áudios, Imersão, Grabovoi, Código de Ativação, Desafio A Nova Realidade; só logo: Clube Secreto, Cura da Criança Interior, Destrave o Dinheiro, Cura da Escassez Financeira, Instagram Profissional) NÃO coincide com capas-cursos/: lá existem clube-secreto, crianca-interior e cura-escassez-financeira (que o prompt trata como card tipográfico) e faltam Fórmula da Riqueza, Código de Ativação Próton, Destrave o Dinheiro e Instagram Profissional. Nunca inventar capa; faltantes viram card tipográfico.",
+  "VEN/RV: dimensão total = peça x público (NAOALUNA/ALUNA; VEN08 só ALUNA, RV06 único) x tema x formato. O copy.json atual tem um texto único por peça: variação por público (ex.: 'você, aluna') só existe nos prompts VENC fora do escopo. PENDENTE/_PENDENTE vale para VEN/RV com placeholder (VEN03, VEN05, VEN07, RV02 não têm placeholder: dispensam etiqueta, mas o prompt da fase pede a etiqueta nas peças-template; decidir). Placeholders do copy.json usam {{ }}; o prompt usa [ ].",
+  "VEN04/VEN08 trazem 'R$ 1.000' literal (doc atual, pós-live). O motor deve bloquear qualquer 'R$' nas fases pré-live (CAP, AQ, ANT, RMK, ESC, LEM) mas liberar nessas duas peças.",
+  "Palavras 'valor'/'lotes' em ANT03, ANT07, C08 e 'tira o prazo da equação' etc. são texto aprovado de curiosidade: o validador de pré-live não deve reprovar por palavra, só por R$/dígitos de preço/% e pela palavra 'lote' com número.",
+  "ESC03 'Última chance de se cadastrar...' é cadastro, não 'última chance de ter acesso vitalício' (não proibido); AD06/AD08/AD13/AD18 ficam perto das frases proibidas e precisam de validação da copy (o próprio prompt já sinaliza risco similar na CAPX 19). Não resolvido aqui.",
+  "ATUALIZAÇÕES posteriores no prompt (peças fora do escopo): 'Últimas vagas'/'restam poucas vagas' liberados pela Keila; preço riscado e 'de/por' liberados SÓ em VENC 07; garantia (VENC 05) e reabertura (REA 01) dependem de aprovação. Fora disso a regra geral de nenhum preço riscado/garantia/bônus vale.",
+  "CAIXA ALTA: o estilo de referência pede headline em caixa alta; implementar por text-transform: uppercase (sem alterar o texto) e verificar quebra/largura (caixa alta alarga ~10-15% e pode estourar 3 linhas). Apoio, selo de copy e itens mantêm a caixa original do doc.",
+  "Faixa do mestre sobre logo: 'solto, sem bloco/caixa/faixa/selo'; mas o kit usa 'rodapé com linha dourada e losango no centro' e 'botão pílula com círculo escuro e seta': são elementos gráficos permitidos, não substituem o logo."
+ ]
+}

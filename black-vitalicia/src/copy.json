@@ -1,2817 +1,702 @@
-{
- "meta": {
-  "gerado_em": "2026-10-10",
-  "data_live": "04/11 às 20h (YouTube) — é o que está nas ARTES e no doc de captação de 10/10. Docs de aquecimento/antecipação/lembrete/escassez/rmkt/vendas (versão 08/10) ainda dizem 03/11: copy.json já usa 04/11.",
-  "regra_destaque": "[colchetes] = trecho em cor de destaque (dourado no escuro / dourado ou vinho no claro); ~~tachado~~ = texto riscado na arte; {CHAVES} = placeholder que na arte original aparece como [COLCHETES] literais.",
-  "formatos": "Cada ID existe em 4 arquivos: FEED 1080x1350 e STORIES 1080x1920, cada um em versão escura (sem sufixo) e CLARO. Confirmado em listagem para C01-C16, RMK01-05, AQ01-03/AQ05-08 parcial, ANT01-08, LEM01-08, VEN01-08, RV01-05, ESC01-04 (padrão visto em todas as pastas; nem toda combinação foi aberta).",
-  "textos_stories": "Texto de stories = texto do feed (conferido em C16, ANT04, LEM02, LEM03, LEM08, VEN02)."
+[
+ {
+  "id": "C01",
+  "etapa": "captacao",
+  "headline": "A [última mensalidade] que você talvez precise pagar",
+  "apoio": "Dia 04/11 a Dra. Próton abre o Clube Secreto e todas as imersões com acesso vitalício, por um pagamento único.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
  },
- "criativos": [
-  {
-   "id": "C01",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "A [última mensalidade] que você talvez precise pagar",
-   "subtexto": "Dia 04/11 a Dra. Próton abre o Clube Secreto e todas as imersões com acesso vitalício, por um pagamento único.",
-   "destaques": [
-    "Clube Secreto",
-    "todas as imersões"
-   ],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1X4zLBeFhvSry_hFPGCeaOtmhAl4s9VCA",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Headline encosta no cabelo/rosto ('que você talvez')."
-  },
-  {
-   "id": "C02",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Quantas vezes você já [recomeçou] este ano?",
-   "subtexto": "Dessa vez você entra com tudo na mão e sem prazo pra dar conta.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": null,
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Ornamento: símbolo do infinito (contorno dourado) acima do bloco de data",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1s1jxaaaF1-xKelpRgSIwtF4zPGDqjJ-e",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc tem selo 'Black Próton Vitalícia . 04/11'; a arte usa só a pílula '04/11 às 20h'. Blazer com patch 'GUCCI' bem visível (marca de terceiros)."
-  },
-  {
-   "id": "C03",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Clube Secreto [+11] produtos. [Acesso pra sempre.]",
-   "subtexto": "Tudo o que a Dra. Próton construiu até hoje, por um pagamento único. A condição completa só é revelada na live.",
-   "destaques": [
-    "pagamento único"
-   ],
-   "bloco_data": {
-    "rotulo": null,
-    "valor": "04/11 às 20h · YouTube",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Tipografia: 'Clube Secreto' pequeno, '+11' gigante dourado, 'produtos.' médio; infinito dourado atrás da foto",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1tEBSgcNLV84lutzYT7WtKyZ9YCldsM7R",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "C04",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Pare de comprar curso [com medo de deixar de lado]",
-   "itens": [
-    "Sem prazo pra usar.",
-    "Sem pressão de “preciso aproveitar logo”."
-   ],
-   "subtexto": "Acesso vitalício [ao Clube Secreto e às imersões.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1bc8RLrr-o9Q3QpfcVQYbp58ie5yhcFT5",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Lista com ✦. Bullets e headline passam por cima do blazer/cabelo; patch GUCCI cortado na borda direita."
-  },
-  {
-   "id": "C05",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": "DIA",
-   "headline": "a ~~mensalidade~~ do Clube Secreto [vira passado]",
-   "subtexto": "Nessas condições, é a [primeira e a última vez.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "às 20h.",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Numeral gigante dourado '04/11' como elemento principal, 'mensalidade' riscada",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1CUICPtTpkCweS80q_-3oSCwlnQf9n8tk",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Numeral '04/11' invade cabelo/ombro. Pílula só mostra 'às 20h.' (data fica no numeral)."
-  },
-  {
-   "id": "C06",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "“Isso não é pra mim” [sempre aparece na hora de agir]",
-   "subtexto": "A autossabotagem venceu outras vezes porque sempre teve um “depois” pra se esconder. Em 04/11 a Dra. Próton [tira o prazo da equação.]",
-   "destaques": [
-    "depois"
-   ],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1DCbvG92lXg2bEoC0Tgi48SU0vIHrWsNl",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Aspas grandes douradas em volta de 'Isso não é pra mim'."
-  },
-  {
-   "id": "C07",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Termostato Invisível. Autossabotagem. Culpa de Querer Mais.",
-   "itens": [
-    "01 Termostato Invisível.",
-    "02 Autossabotagem.",
-    "03 Culpa de Querer Mais."
-   ],
-   "subtexto": "Se você já se reconheceu em algum desses perfis, a live de 04/11 é pra você.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO ·",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1jX-nJgKj8qMH4Mduf0iN-_f0QF2oBEuL",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Headline vira 3 pílulas numeradas. Chips invadem a foto."
-  },
-  {
-   "id": "C08",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Um pagamento único. [Parcelado no cartão.]",
-   "subtexto": "Acesso vitalício ao Clube Secreto e a todas as imersões da Dra. Próton. O valor é revelado na live de",
-   "destaques": [
-    "Clube Secreto",
-    "imersões"
-   ],
-   "bloco_data": {
-    "rotulo": null,
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Infinito dourado decorativo; a frase do subtexto termina ('...na live de') e continua na pílula '04/11 às 20h'",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1LsLBV6VMz5IXZrv7-a96iEDvV6BkmzEq",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1Xl8Ab49jXQmdYK6Dx2-lKIvI39OnO1RXTgHPEhzbk1o",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Frase quebrada entre subtexto e pílula (doc: '...na live de 04/11 às 20h.'). Texto original diz 'Clube Secreto e a todas as imersões' (sem crase/artigo)."
-  },
-  {
-   "id": "C09",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faça uma pergunta (caixinha do Instagram)",
-   "subtexto": "Pergunta: Já entrei e saí do Clube Secreto três vezes. Por que eu sempre paro? / Resposta 1: Não é falta de disciplina. É o “depois” que a sua mente usa pra adiar. / Resposta 2: Quando o acesso tem prazo, a autossabotagem ganha um motivo pra desistir. / Resposta 3 (destaque dourado): Na live de revelação eu abro o Clube Secreto e as imersões com acesso vitalício, num pagamento único. / Fechamento: Toque em “Quero participar” e garanta seu lugar",
-   "destaques": [
-    "Clube Secreto",
-    "acesso vitalício",
-    "“depois”",
-    "“Quero participar”"
-   ],
-   "bloco_data": {
-    "rotulo": null,
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1QEyKlB_MePPj9iyGaA6K0Xgp64j7dCz8",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Formato 'Faça uma pergunta'. Doc tem 'abro o Clube Secreto e todas as imersões'; a ARTE diz 'abro o Clube Secreto e as imersões' (sem 'todas'). Logo fica à direita, foto à esquerda (layout invertido)."
-  },
-  {
-   "id": "C10",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Eu prefiro que você não entre do que entre e [abandone na segunda semana.]",
-   "subtexto": "Por isso, dessa vez, o acesso é vitalício: Clube Secreto e todas as imersões, sem prazo pra dar conta.",
-   "destaques": [
-    "Clube Secreto e todas as imersões"
-   ],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "11-khWErNAZiNQwMoYYRYHxTff6Ha3WqG",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Bloco de data fica no topo-esquerda. Headline em itálico."
-  },
-  {
-   "id": "C11",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "TUDO O QUE EU CRIEI. [ACESSO PRA SEMPRE.]",
-   "subtexto": "Clube Secreto + todas as imersões, num pagamento único. [A condição completa só na live.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": null,
-    "valor": "04/11 às 20h",
-    "extras": "AO VIVO NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1a17yTWMvTS7VSH2pyhMFDU1uH-rGhpie",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Headline em caixa alta. Foto centralizada com halo claro no contorno do cabelo (recorte ruim)."
-  },
-  {
-   "id": "C12",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "[SEM] mensalidade. [SEM] prazo. [SEM] recomeçar a compra.",
-   "itens": [
-    "SEM ~~mensalidade.~~",
-    "SEM ~~prazo.~~",
-    "SEM ~~recomeçar a compra.~~"
-   ],
-   "subtexto": "Acesso vitalício ao [Clube Secreto] e às [imersões] da Dra. Próton, num [pagamento único.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1LFkZTaHv2DnrDXZv1sw3YbRK_VaC59eK",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Cada item com ícone ✕ e palavra riscada. Foto à esquerda, logo à direita."
-  },
-  {
-   "id": "C13",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faz essa conta comigo: quanto você já pagou de mensalidade?",
-   "subtexto": "Agora imagina parar de pagar todo mês e ter [acesso vitalício] ao [Clube Secreto] e a [todas as imersões].",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "REVELAÇÃO AO VIVO NO YOUTUBE",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Ilustração de cartão/planilha inclinada: MÊS 1 ... MÊS 5 riscados + símbolo ∞",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1-qmwQEdEdM4QsieAHJCUVVVvXLIzYjzr",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "'Faz essa conta comigo:' em dourado itálico, o resto em preto. Ilustração dos meses sobrepõe a foto."
-  },
-  {
-   "id": "C14",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Você vai começar [segunda?]",
-   "subtexto": "Depois do feriado. Quando sobrar tempo. Esse [“depois”] é onde a autossabotagem se esconde.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Faixa de dias da semana SEG TER QUA QUI SEX SÁB DOM (SEG destacada) + linha final em itálico: 'Nessas condições, é a primeira e a última vez.'",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1XodhzwAQZJsjxaHbggjyn0PHC13xw4sm",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "'segunda?' em dourado gigante estoura a margem direita (o '?' encosta/corta na borda) e cobre a cabeça."
-  },
-  {
-   "id": "C15",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Uma condição que o Clube Secreto [nunca fez antes.]",
-   "subtexto": "[Acesso vitalício a tudo, num pagamento único.] Essa oferta não se repete: o que vier depois vai ser outra oferta, com outro preço.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1VDCghvlGB7VobKzSQedKYpE_PSZ-Jtnu",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Foto dentro de um infinito dourado com brilhos ✦ (recorte da foto roça nas bordas do anel)."
-  },
-  {
-   "id": "C16",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Quantas vezes você já se prometeu que [seria diferente?]",
-   "subtexto": "Na live de revelação eu vou te mostrar uma condição que eu nunca fiz antes: [acesso pra sempre ao Clube Secreto e às imersões], num pagamento único.",
-   "destaques": [
-    "acesso pra sempre ao Clube Secreto e às imersões"
-   ],
-   "bloco_data": {
-    "rotulo": null,
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Elemento: balão de mensagem '~~Dessa vez vai.~~' (riscado, com check ✓✓) acima da headline",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1KvrdwMVMkL5WwCWZMdf__NmBifCaIptx",
-    "arte_vista_variante": "feed claro (stories escuro: 1MfsYsNekUEfWysYbWsBgzzX0v3MgK6ms)",
-    "doc_copy_id": "13sU93bc4Ui3-PABVJejYpFSiEMb3wrpDsUjpC-uXuus",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Recorte serrilhado no cabelo/ombro; foto cortada abruptamente na base (linha reta atrás da headline)."
-  },
-  {
-   "id": "CAPX01",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "escuro"
-   ],
-   "eyebrow": null,
-   "headline": "A [ÚLTIMA MENSALIDADE] QUE VOCÊ TALVEZ PRECISE PAGAR",
-   "subtexto": "Dia 04/11 a Dra. Próton abre o Clube Secreto e todas as imersões com acesso vitalício, num pagamento único.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1temSMH5NfAAP1e1zwcyebmG61vBIBn-z",
-    "arte_vista_variante": "4x5 DARK",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 01 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (escuro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX02",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "DIA [04/11] A MENSALIDADE DO CLUBE SECRETO [VIRA PASSADO]",
-   "subtexto": "Live de revelação às 20h, no YouTube.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1a4o5rdJ3cZ6x1cViEQHM5GYmbZDCQVig",
-    "arte_vista_variante": "4x5 LIGHT",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 02 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (claro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'. Sem bloco de data; só CTA."
-  },
-  {
-   "id": "CAPX10",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "QUANTAS VEZES VOCÊ [JÁ RECOMEÇOU ESTE ANO?]",
-   "subtexto": "Dessa vez você entra com tudo na mão e sem prazo pra dar conta.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1guid0wv4z0-eoMreDbqLtd5HLG_Layzc",
-    "arte_vista_variante": "4x5 LIGHT",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 10 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (claro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX17",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "escuro"
-   ],
-   "eyebrow": null,
-   "headline": "“ISSO NÃO É PRA MIM” SEMPRE APARECE NA HORA DE AGIR",
-   "subtexto": "Em 04/11 a Dra. Próton abre tudo o que construiu pra trabalhar esse padrão.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1QM08ZbIoZ7JSXXfwv18_OJBvC9CVTxGZ",
-    "arte_vista_variante": "4x5 DARK",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 17 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (escuro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX20",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "VOCÊ NÃO É PREGUIÇOSA. [VOCÊ ESTÁ PRESA NUM PADRÃO.]",
-   "subtexto": "Na live de 04/11 a Dra. Próton mostra como entrar de vez no Clube Secreto, com acesso pra sempre.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "158lio75aDVYcR29ZU1GHsn1BtrMVOsUc",
-    "arte_vista_variante": "4x5 LIGHT",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 20 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (claro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX25",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "PARE DE COMPRAR CURSO [COM MEDO DE DEIXAR DE LADO]",
-   "subtexto": "Sem prazo pra usar. Acesso vitalício ao Clube Secreto e às imersões.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "15nOyhVzkb5iQ10ZQQdid_he7uvDWX_rh",
-    "arte_vista_variante": "4x5 LIGHT",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 25 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (claro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'. Foto mostra só o topo da cabeça (rosto cortado)."
-  },
-  {
-   "id": "CAPX26",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "escuro"
-   ],
-   "eyebrow": null,
-   "headline": "SEM PRAZO. SEM PRESSA. [SEM CULPA.]",
-   "subtexto": "Black Próton Vitalícia. Tudo na mão, pelo resto da vida.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "13B_kVM1-ObcIl66FeyVafqiZGgvE60EF",
-    "arte_vista_variante": "4x5 DARK",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 26 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (escuro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX31",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "escuro"
-   ],
-   "eyebrow": null,
-   "headline": "CLUBE SECRETO + 11 PRODUTOS. [ACESSO PRA SEMPRE.]",
-   "subtexto": "Tudo o que a Dra. Próton construiu até hoje, num pagamento único.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1Nw8znjt3I3H3LOadwwm6uF_7pGkVc18W",
-    "arte_vista_variante": "4x5 DARK",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 31 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (escuro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX39",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "escuro"
-   ],
-   "eyebrow": null,
-   "headline": "[04/11, ÀS 20H.] ANOTA.",
-   "subtexto": "A Dra. Próton revela a Black Próton Vitalícia ao vivo no YouTube.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1d_a5lWon9wDVz9vGYhRHB1Pq1f3Z_MZv",
-    "arte_vista_variante": "4x5 DARK",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 39 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (escuro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "CAPX48",
-   "etapa": "captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "4x5 (1080x1350)",
-    "9x16 (1080x1920)"
-   ],
-   "versoes": [
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "UM PAGAMENTO ÚNICO. [PARCELADO NO CARTÃO.]",
-   "subtexto": "Acesso vitalício ao Clube Secreto e a todas as imersões. Valor revelado em 04/11, às 20h.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04 DE NOVEMBRO",
-    "extras": "ÀS 20H | AO VIVO | NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1HGYa2n4EwtmEEiNEg5YTnuAQGiAvAJiV",
-    "arte_vista_variante": "4x5 LIGHT",
-    "doc_copy_id": "1njMIs3g6cjU4oGC0hE7-gXTA_m9QDdLzYvRauvrWB04",
-    "pasta_drive_id": "1mCpbJXbF1Ko--fOhfMBUWw16d7k8mZDc",
-    "observacao_fonte": "Geração anterior (arquivos BPV_CAPX_NN_*). Texto da arte conferido visualmente; destaques por cor aproximados."
-   },
-   "observacoes": "LEGADO: criativo nº 48 do doc de 50 estáticos (doc diz 03/11; a arte mostra 04/11). Só existe 1 tema (claro) e 2 formatos. Layout com foto em faixa superior/tarja, caixa alta, bloco de data dourado 'QUARTA · 04 DE NOVEMBRO'."
-  },
-  {
-   "id": "RMK01",
-   "etapa": "rmkt-captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Você [quase] garantiu seu lugar",
-   "subtexto": "Falta só o cadastro pra [receber o link da live] de 04/11, às 20h.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1cNk7qo3sHXak-9Enjkab3INABsWZc31g",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1TlftyMcgSJk5C98EbG8FSTKHnoINd4NFgldfxKJsy0c",
-    "pasta_drive_id": "1m3WE-Ht_XR6Yt7KGnGSTI_IK-2BSuTG3",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc diz 03/11; arte 04/11. Pílula de data quebra em 2 linhas ('04/11 às / 20h'). Bloco de data não existe no doc (acrescentado na arte)."
-  },
-  {
-   "id": "RMK02",
-   "etapa": "rmkt-captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Ficou alguma [dúvida?]",
-   "subtexto": "[A live é gratuita.] Você só precisa se cadastrar pra receber o link.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1JX9b_spdypZmhDvSa6QV0sWG9DoohltK",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1TlftyMcgSJk5C98EbG8FSTKHnoINd4NFgldfxKJsy0c",
-    "pasta_drive_id": "1m3WE-Ht_XR6Yt7KGnGSTI_IK-2BSuTG3",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc diz 03/11. Pílula quebra em 2 linhas. Bloco de data acrescentado na arte."
-  },
-  {
-   "id": "RMK03",
-   "etapa": "rmkt-captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Ainda [pensando?]",
-   "subtexto": "A autossabotagem adora um \"depois\". [Garanta seu lugar agora, leva 30 segundos.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1jO85EOFiOj4fOadEDSS4Vxuk8Z2gT85y",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1TlftyMcgSJk5C98EbG8FSTKHnoINd4NFgldfxKJsy0c",
-    "pasta_drive_id": "1m3WE-Ht_XR6Yt7KGnGSTI_IK-2BSuTG3",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Rosto grande cortado pela borda direita. Pílula quebra em 2 linhas."
-  },
-  {
-   "id": "RMK04",
-   "etapa": "rmkt-captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Seu lugar na live [ainda está disponível]",
-   "subtexto": "[Black Próton Vitalícia] . 04/11 às 20h",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 | 20H | YOUTUBE",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1UjDk5A-DxQvvwqgMjGna1O8Z62rQhm5T",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1TlftyMcgSJk5C98EbG8FSTKHnoINd4NFgldfxKJsy0c",
-    "pasta_drive_id": "1m3WE-Ht_XR6Yt7KGnGSTI_IK-2BSuTG3",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Subtexto repete a data do bloco (duplicado na arte). Contorno do cabelo cortado na borda direita; texto '04/11 às' encosta no blazer."
-  },
-  {
-   "id": "RMK05",
-   "etapa": "rmkt-captacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Não deixa [pra depois de novo]",
-   "subtexto": "Cadastro rápido. [Link da live direto no seu WhatsApp.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1idGdMsCgbCuRGIhQ1lHJTuZM5mJSiDvY",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1TlftyMcgSJk5C98EbG8FSTKHnoINd4NFgldfxKJsy0c",
-    "pasta_drive_id": "1m3WE-Ht_XR6Yt7KGnGSTI_IK-2BSuTG3",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Metade do rosto cortada pela borda direita."
-  },
-  {
-   "id": "AQ01",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "3 sinais de que a [autossabotagem] está decidindo por você",
-   "itens": [
-    "1. Você começa empolgada e para no meio.",
-    "2. \"Isso não é pra mim\" aparece bem na hora de agir.",
-    "3. Sempre existe um \"depois\"."
-   ],
-   "subtexto": "Em 04/11 a Dra. Próton abre a [Black Próton Vitalícia]. Live às 20h.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1kk284XVxlrL1Z1gVwlYRQracorpqnOGq",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Carrossel/arte única; itens em cartões numerados. Sem bloco de data (data só no fechamento). Doc diz 03/11."
-  },
-  {
-   "id": "AQ02",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Por que você [começa e não termina?]",
-   "subtexto": "Não é falta de força de vontade. [É um padrão.] E padrão se trabalha com método e acompanhamento.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1fTkjOomr8_z42ONH6iIam3tEmxzmIH1J",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Bloco de data acrescentado na arte; pílula quebra em 2 linhas."
-  },
-  {
-   "id": "AQ03",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "O [“depois”] é o esconderijo favorito da procrastinação",
-   "itens": [
-    "Depois eu começo.",
-    "Depois eu uso.",
-    "Depois eu volto."
-   ],
-   "subtexto": "Reconhece?",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "10DZjK2AM1Kod6OLvZyML4nld3uDCknjo",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Itens em itálico com barra dourada à esquerda. Headline passa por cima do cabelo."
-  },
-  {
-   "id": "AQ04",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Qual desses [perfis] é o seu?",
-   "itens": [
-    "Termostato Invisível",
-    "Autossabotagem",
-    "Cobrança Que Você Só Faz Com Você",
-    "Traumas Que Ainda Decidem",
-    "Culpa de Querer Mais"
-   ],
-   "subtexto": "Na live de 04/11 a Dra. Próton apresenta tudo o que construiu pra trabalhar esses padrões.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "10UoB3vPYnexdGouM7GHXd-WE249xo6tB",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "5 pílulas contornadas. Pílula 'Cobrança Que Você Só Faz Com Você' invade o rosto/cabelo. Sem bloco de data. Doc diz 03/11."
-  },
-  {
-   "id": "AQ05",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Crenças sobre [dinheiro] que você aprendeu sem perceber",
-   "itens": [
-    "\"Dinheiro não é pra mim.\"",
-    "\"Quem tem muito é porque tirou de alguém.\""
-   ],
-   "subtexto": "[Elas também sabotam.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1Nm20BmtltJ6LWMXEpM6RKuO9AmO4TdBt",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Frases em itálico com barra dourada."
-  },
-  {
-   "id": "AQ06",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Você se [cobra mais do que] cobraria qualquer outra pessoa?",
-   "subtexto": "A [cobrança que você só faz com você] é um dos perfis mais comuns entre as alunas da Dra. Próton.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1FO7gG4edR-cn2LlbkThw8Vk7pNGQwVs7",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "AQ07",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Comprar curso e não usar também é [autossabotagem]",
-   "subtexto": "O medo de não dar conta faz você nem começar. Em 04/11 a Dra. Próton [tira o prazo da equação.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1HmdOD7OCNb03r6EQp72k-wxfdcUY-f5_",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "'autossabotagem' encosta no cabelo/rosto."
-  },
-  {
-   "id": "AQ08",
-   "etapa": "aquecimento",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Querer mais [não deveria vir com culpa]",
-   "subtexto": "[Culpa de Querer Mais] é um dos 5 perfis da Imersão. Live de revelação 04/11, às 20h.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1bLQqB7sdDEAS_WEi8_ExcZbq0KWykt65",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1BkuripicuQc2_QgjWZwjvv716rzs6t_JGivhJiQWlK0",
-    "pasta_drive_id": "1R1Lafp3yFghLqiXTCn8OrNveL4F3jW0t",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Data só no texto (sem bloco). Topo do cabelo cortado/serrilhado."
-  },
-  {
-   "id": "ANT01",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": "BLACK PRÓTON VITALÍCIA",
-   "headline": "Algo que a Dra. Próton [nunca fez] está chegando",
-   "subtexto": "04/11, às 20h. [Live de revelação] da Black Próton Vitalícia.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": "AO VIVO · NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": "Infinito dourado atrás da foto",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1EfXJR8CoaxTisP2h3fPmJQ83g8GWjjrM",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "ANT02",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Contagem regressiva [pra 04/11]",
-   "subtexto": "O [Clube Secreto e todas as imersões] vão abrir com acesso vitalício. Garanta seu lugar na live.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1_f2qaj4Yj7A3MyeG4dvvcV8v9g6J7VYj",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Contorno do cabelo estourado/branco (luz de fundo sem tratamento)."
-  },
-  {
-   "id": "ANT03",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "O que vai ser [revelado] em 04/11?",
-   "subtexto": "A condição completa da Black Próton Vitalícia: [valor, lotes e como parcelar.] Só ao vivo.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1bKsaIuoVKKWfzxY1jjaNfFp0BehdSLYI",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "PIOR recorte: sobra um bloco escuro/rasgado do fundo original atrás da foto na versão clara."
-  },
-  {
-   "id": "ANT04",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Marque na agenda: [04/11, às 20h]",
-   "subtexto": "Live de revelação no YouTube. Quem estiver cadastrada [recebe o link no grupo.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "QUARTA · 04/11 | ÀS 20H | YOUTUBE",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1kTTUl12ZvJHNumqOnzjETcrvfmen_qLC",
-    "arte_vista_variante": "stories escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Só vi a versão stories; feed não visualizado (texto do doc igual)."
-  },
-  {
-   "id": "ANT05",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Uma condição pensada pra quem [cansou de recomeçar]",
-   "subtexto": "[Black Próton Vitalícia.] Revelação ao vivo em 04/11.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1WJ8ksu2e94c5QG_aN1q91s_qblagabi6",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Rosto muito grande, recorte do cabelo à esquerda irregular."
-  },
-  {
-   "id": "ANT06",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faltam poucos dias pra [mensalidade virar passado]",
-   "subtexto": "[Clube Secreto com acesso vitalício,] num pagamento único. Live de revelação 04/11.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1HQ4bwb1u6MI-jlOIjW6Bz3Ng8y7nvP0Y",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "ANT07",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Quem estiver na live vai [saber primeiro]",
-   "subtexto": "[Valor e lotes] da Black Próton Vitalícia só são mostrados ao vivo, em 04/11.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1wyxNgz6mJNa0dFw2PWizePufYkQJQll9",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Topo do cabelo cortado; mão aparece fantasma junto à pílula."
-  },
-  {
-   "id": "ANT08",
-   "etapa": "antecipacao",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Você vai querer [estar lá]",
-   "subtexto": "04/11, às 20h. A Dra. Próton abre [tudo o que construiu, de uma vez só.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": "AO VIVO · NO YOUTUBE"
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1uvCQh_1ugHVgH76zaeellSRCxPRhR-oj",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1lT6VTYSjiNgbLqNB7_83HTJQD4FrhLtir4-y-kmcBrA",
-    "pasta_drive_id": "1rfyjvGuFXditllx1-5CoECBGt0417mgb",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "LEM01",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Falta [1 semana]",
-   "subtexto": "04/11, às 20h. [Live de revelação] da Black Próton Vitalícia.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "ENTRAR NO GRUPO",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "18bGNJzwAoVFjUPQXkq3rYE-_mPRLC726",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc rotula o dia de cada lembrete (7 dias antes 27/10 · 3 dias antes 31/10 · 1 dia antes 02/11 — calculados para live em 03/11; revisar para 04/11). Esses rótulos não aparecem na arte."
-  },
-  {
-   "id": "LEM02",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faltam [3 dias]",
-   "subtexto": "Já está no grupo? [É lá que sai o link da live.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "ENTRAR NO GRUPO",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1kWd6wkri4Qjy4MHlpPlh1-G5pf7ZS5HC",
-    "arte_vista_variante": "stories claro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc rotula o dia de cada lembrete (7 dias antes 27/10 · 3 dias antes 31/10 · 1 dia antes 02/11 — calculados para live em 03/11; revisar para 04/11). Esses rótulos não aparecem na arte. Só vi stories claro."
-  },
-  {
-   "id": "LEM03",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "É [amanhã]",
-   "subtexto": "04/11, às 20h, no YouTube. [A condição completa só é revelada ao vivo.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 | 20H | YOUTUBE",
-    "extras": null
-   },
-   "cta": "ATIVAR LEMBRETE",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1f8uNL3Po2CpZS3_0DiTNwfkNFarLjSlD",
-    "arte_vista_variante": "stories escuro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc rotula o dia de cada lembrete (7 dias antes 27/10 · 3 dias antes 31/10 · 1 dia antes 02/11 — calculados para live em 03/11; revisar para 04/11). Esses rótulos não aparecem na arte."
-  },
-  {
-   "id": "LEM04",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "É hoje, [às 20h]",
-   "subtexto": "A Dra. Próton abre o [Clube Secreto e todas as imersões] com acesso vitalício.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "20H | AO VIVO | YOUTUBE",
-    "extras": null
-   },
-   "cta": "QUERO ASSISTIR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1RX87OKhVTZoOEsE-9it8BccvtvI38mz2",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc: 'É hoje, às 20h'. Halo branco no cabelo."
-  },
-  {
-   "id": "LEM05",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faltam [poucas horas]",
-   "subtexto": "Live de revelação da Black Próton Vitalícia, [hoje às 20h.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "HOJE",
-    "valor": "às 20h",
-    "extras": "AO VIVO · NO YOUTUBE"
-   },
-   "cta": "QUERO ASSISTIR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1fUOH2Txn_JVLJ8GHj3czzxrfqspF0vDz",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Rosto cortado pela borda direita."
-  },
-  {
-   "id": "LEM06",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Começa em [1 hora]",
-   "subtexto": "Separe um tempo só pra você. [Às 20h, ao vivo no YouTube.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "HOJE",
-    "valor": "20H | AO VIVO | YOUTUBE",
-    "extras": null
-   },
-   "cta": "QUERO ASSISTIR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1W-E676Zq4jFL8sKS3bx6azOou6n_fCfF",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc: 'Começa em 1 hora'. Rosto cortado pela borda; pílula sobre a jaqueta."
-  },
-  {
-   "id": "LEM07",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Estamos [ao vivo]",
-   "subtexto": "A Dra. Próton [já está revelando] a condição da Black Próton Vitalícia.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "ASSISTIR AGORA",
-   "selo_extra": "Chip 'AO VIVO · NO YOUTUBE' (contorno) no lugar do bloco de data",
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1eUS-pHdh4kdMmi4w3eK8c5U-J5gZeQQb",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "LEM08",
-   "etapa": "lembrete",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Você se cadastrou. [Agora não falta.]",
-   "subtexto": "04/11, às 20h. [Nessas condições, é a primeira e a última vez.]",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "ATIVAR LEMBRETE",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1T3Uo8XRaDwUx5LlSDPQY9nI0YJMc36v-",
-    "arte_vista_variante": "stories claro",
-    "doc_copy_id": "1HqcDS4xdX5zSi2FOU7bleA56WcuMveTGnS1Y8ZPJWvM",
-    "pasta_drive_id": "1aWsRdCZ2uI78C7cSYd4J2ojGgdv4uMsx",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Só vi stories claro."
-  },
-  {
-   "id": "VEN01",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Está aberta: [Black Próton Vitalícia]",
-   "subtexto": "[Clube Secreto + 11 produtos] com acesso vitalício, num pagamento único de {VALOR DO LOTE}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1V2MUV7eNRBh347pIejFsBnF9VvQXDgkH",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar.",
-   "placeholders": [
-    "{VALOR DO LOTE}"
-   ]
-  },
-  {
-   "id": "VEN02",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "A [última] mensalidade que você precisa pagar",
-   "subtexto": "Acesso pra sempre ao [Clube Secreto e a todas as imersões.] {LOTE ATUAL} por {VALOR DO LOTE}, parcelado no cartão.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1Tx0ACw1On7kCWupv07oVvmAnCa5ebOCa",
-    "arte_vista_variante": "stories escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar. Só vi stories.",
-   "placeholders": [
-    "{LOTE ATUAL}",
-    "{VALOR DO LOTE}"
-   ]
-  },
-  {
-   "id": "VEN03",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "A última vez que você vai precisar [recomeçar]",
-   "subtexto": "Entre de vez, [com tudo na mão e sem prazo pra dar conta.]",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1ZTnxHgQrniBzC6JyCKLAYEaJbtqW8GML",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "VEN04",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "{LOTE ATUAL} termina em {DATA/HORA DA VIRADA}",
-   "subtexto": "Depois disso [o valor sobe R$ 1.000.]",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "16rt0RZC0Aopx4mz8P6mcYz51mEYyjKzN",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar. Foto olhando para baixo, mão cortada.",
-   "placeholders": [
-    "{LOTE ATUAL}",
-    "{DATA/HORA DA VIRADA}"
-   ]
-  },
-  {
-   "id": "VEN05",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Tudo o que a Dra. Próton construiu. [Pra sempre.]",
-   "subtexto": "[Clube Secreto, Fórmula da Riqueza, Imersão Desbloqueie o Poder da Sua Mente] e mais 9 produtos.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [
-     "Clube Secreto",
-     "Fórmula da Riqueza",
-     "Desbloqueie o Poder da Sua Mente"
-    ],
-    "nota": "Arte original NÃO mostra capas; cursos só citados no texto. Candidato natural a mostrar capas na refação."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1f3gbnHhoXvCP676zrBcsmH8l0j2oM3-6",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Cita 3 produtos pelo nome (candidato a usar capas dos cursos: Clube Secreto, Fórmula da Riqueza, Desbloqueie o Poder da Sua Mente), mas a arte original não mostra capas."
-  },
-  {
-   "id": "VEN06",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Um pagamento. Acesso vitalício. Parcelado no cartão.",
-   "subtexto": "Black Próton Vitalícia por {VALOR DO LOTE}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1ubRfOhxuMDPuHH6zKGEKNX3GI0fGchD9",
-    "arte_vista_variante": "stories escuro (NÃO visualizada)",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto copiado do DOC (arte não foi aberta); conferir contra o arquivo."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar.",
-   "placeholders": [
-    "{VALOR DO LOTE}"
-   ]
-  },
-  {
-   "id": "VEN07",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Nessas condições, é a [primeira e a última vez]",
-   "subtexto": "O que vier depois vai ser [outra oferta, com outro preço.]",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1yXXJP-6qBPsfvVYi4JbByjc3WtvoF7oy",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "VEN08",
-   "etapa": "vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": "SÓ PARA ALUNAS",
-   "headline": "Aluna do Clube Secreto paga [R$ 1.000 a menos]",
-   "subtexto": "Em todos os lotes da Black Próton Vitalícia. [Seu valor agora:] {VALOR DO LOTE ALUNAS}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1PsTj8jZAyhTGuNzPxq03t0A1VVIZev52",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1eHA-fo_46d6SCwBF4617bxSj8RMHdhol",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar. Público separado (alunas). Rosto cortado pela borda direita.",
-   "placeholders": [
-    "{VALOR DO LOTE ALUNAS}"
-   ]
-  },
-  {
-   "id": "RV01",
-   "etapa": "rmkt-vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Você assistiu. [Agora decide.]",
-   "subtexto": "A Black Próton Vitalícia [segue aberta] no {LOTE ATUAL}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1IjkHNGXLu9kLpflV0dROnejMOav11IJd",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1j0DEaFn512dgcvPrDnt14mCBJam9NiQn",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar.",
-   "placeholders": [
-    "{LOTE ATUAL}"
-   ]
-  },
-  {
-   "id": "RV02",
-   "etapa": "rmkt-vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Ficou no [carrinho?]",
-   "subtexto": "Seu [acesso vitalício] ao Clube Secreto e às imersões [está a um clique.]",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "FINALIZAR MINHA INSCRIÇÃO",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "15j3vl7PPvq_XTfLLHgChRIV1vjCiph4e",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1j0DEaFn512dgcvPrDnt14mCBJam9NiQn",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": ""
-  },
-  {
-   "id": "RV03",
-   "etapa": "rmkt-vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "[“Depois eu decido”]",
-   "subtexto": "É exatamente esse \"depois\" que [a Vitalícia tira do caminho.] {LOTE ATUAL} até {DATA/HORA DA VIRADA}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1-EYG0KSkdfnC_HEjbj-_miGemVq1ORiD",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1j0DEaFn512dgcvPrDnt14mCBJam9NiQn",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar. Halo branco no contorno do cabelo.",
-   "placeholders": [
-    "{LOTE ATUAL}",
-    "{DATA/HORA DA VIRADA}"
-   ]
-  },
-  {
-   "id": "RV04",
-   "etapa": "rmkt-vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "O valor sobe em {DATA/HORA DA VIRADA}",
-   "subtexto": "Garanta agora a Black Próton Vitalícia por {VALOR DO LOTE}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1lgrFcRdWMXHuHMLgUzp2nQzaRgndPQKG",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1j0DEaFn512dgcvPrDnt14mCBJam9NiQn",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar.",
-   "placeholders": [
-    "{DATA/HORA DA VIRADA}",
-    "{VALOR DO LOTE}"
-   ]
-  },
-  {
-   "id": "RV05",
-   "etapa": "rmkt-vendas",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Essa oferta [não se repete]",
-   "subtexto": "[Clube Secreto + 11 produtos] com acesso pra sempre. Últimas horas do {LOTE ATUAL}.",
-   "destaques": [],
-   "bloco_data": null,
-   "cta": "QUERO MINHA VITALÍCIA",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1SHKR38I_IKxg7_OIn-QtBIDBH9TD1f4p",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1hA6j9XW_Hs2Jl-iGaNLCuWd_O5lqwrQdL4Mviq9Cvo4",
-    "pasta_drive_id": "1j0DEaFn512dgcvPrDnt14mCBJam9NiQn",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Arte publicada com placeholders literais (campos [VALOR DO LOTE] etc. em marca-texto amarelo). Valores de lote vêm do briefing do doc (alunas: Especial R$1.997 / Primeiro R$2.997 / Último R$3.997; não-alunas: R$2.997 / R$3.997 / R$4.997); datas de virada pendentes; garantia e bônus NÃO citar.",
-   "placeholders": [
-    "{LOTE ATUAL}"
-   ]
-  },
-  {
-   "id": "ESC01",
-   "etapa": "escassez",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faltam [7 dias] pra live",
-   "subtexto": "Quem não se cadastrar [não recebe o link nem a condição] de 04/11.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "11szRRVT_NftdcHL3xvGZbFCbMWolgjWF",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1S2MSnGS9gbFiGaxOXBKUSMsjnk-4NJ7cpRLGJshs9SA",
-    "pasta_drive_id": "14lXefFBE6VxW88BMhCdGJq1AwIZlXHM_",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Doc diz 03/11."
-  },
-  {
-   "id": "ESC02",
-   "etapa": "escassez",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Faltam [3 dias]",
-   "subtexto": "[Nessas condições, é a primeira e a última vez.] Garanta seu lugar.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1mG1LFegckp-0xntHb1FkFtBQ1AgAtmcN",
-    "arte_vista_variante": "feed claro",
-    "doc_copy_id": "1S2MSnGS9gbFiGaxOXBKUSMsjnk-4NJ7cpRLGJshs9SA",
-    "pasta_drive_id": "14lXefFBE6VxW88BMhCdGJq1AwIZlXHM_",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Cabelo com halo/fringe branco no recorte."
-  },
-  {
-   "id": "ESC03",
-   "etapa": "escassez",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "É [amanhã]",
-   "subtexto": "[Última chance de se cadastrar] antes da live de revelação.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "LIVE DE REVELAÇÃO",
-    "valor": "04/11 às 20h",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1vStUk4dhfSYLqZx4KsW613n_FlrNFniC",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1S2MSnGS9gbFiGaxOXBKUSMsjnk-4NJ7cpRLGJshs9SA",
-    "pasta_drive_id": "14lXefFBE6VxW88BMhCdGJq1AwIZlXHM_",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Quebra de linha feia: 'É' sozinho acima de 'amanhã'."
-  },
-  {
-   "id": "ESC04",
-   "etapa": "escassez",
-   "tipo": "estatico",
-   "formatos": [
-    "feed 1080x1350",
-    "stories 1080x1920"
-   ],
-   "versoes": [
-    "escuro",
-    "claro"
-   ],
-   "eyebrow": null,
-   "headline": "Últimas horas [de cadastro]",
-   "subtexto": "[Hoje, às 20h,] a Dra. Próton revela a Black Próton Vitalícia.",
-   "destaques": [],
-   "bloco_data": {
-    "rotulo": "HOJE",
-    "valor": "ÀS 20H | AO VIVO | YOUTUBE",
-    "extras": null
-   },
-   "cta": "QUERO PARTICIPAR",
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": [],
-    "nota": "A arte original não mostra capas de curso (só cita nomes no texto)."
-   },
-   "fonte": {
-    "arte_vista_drive_id": "1HkTym2NYjjcypogQf2cHlMZdbHOaHnJi",
-    "arte_vista_variante": "feed escuro",
-    "doc_copy_id": "1S2MSnGS9gbFiGaxOXBKUSMsjnk-4NJ7cpRLGJshs9SA",
-    "pasta_drive_id": "14lXefFBE6VxW88BMhCdGJq1AwIZlXHM_",
-    "observacao_fonte": "Texto transcrito da arte vista; doc usado só para conferência."
-   },
-   "observacoes": "Headline passa por cima do cabelo; pílula 'HOJE' sobre a jaqueta."
-  },
-  {
-   "id": "SS01",
-   "etapa": "single-shot",
-   "tipo": "video",
-   "formatos": [
-    "vídeo mp4"
-   ],
-   "versoes": [],
-   "eyebrow": null,
-   "headline": null,
-   "subtexto": null,
-   "destaques": [],
-   "bloco_data": null,
-   "cta": null,
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": []
-   },
-   "fonte": {
-    "arquivo_drive_id": "1xEiZSxjl9Haq88lF08_yfhHRmRluR-KT",
-    "arquivo": "single shots-1(1).mp4",
-    "pasta_drive_id": "1e4X1bkLk02QwH1kYQTst8nY1i-lw7MSr",
-    "observacao_fonte": "Pasta 'Single shot' só tem vídeos; não há arte estática nem copy."
-   },
-   "observacoes": "Não é estático; sem texto de copy encontrado (nenhum doc 'single shot' no Drive). Cópias extras em pasta 1UCCxdFQHIi--SPbm3__fQ2Gt2PC89Tmr ('Single shot 2/3/4.MP4' e 'Single shot imersão-3.mp4')."
-  },
-  {
-   "id": "SS02",
-   "etapa": "single-shot",
-   "tipo": "video",
-   "formatos": [
-    "vídeo mp4"
-   ],
-   "versoes": [],
-   "eyebrow": null,
-   "headline": null,
-   "subtexto": null,
-   "destaques": [],
-   "bloco_data": null,
-   "cta": null,
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": []
-   },
-   "fonte": {
-    "arquivo_drive_id": "1tyY0Uzh42Q0sImEeiC6p6miEuSPTgX_Q",
-    "arquivo": "single shots-2(1).mp4",
-    "pasta_drive_id": "1e4X1bkLk02QwH1kYQTst8nY1i-lw7MSr",
-    "observacao_fonte": "Pasta 'Single shot' só tem vídeos; não há arte estática nem copy."
-   },
-   "observacoes": "Não é estático; sem texto de copy encontrado (nenhum doc 'single shot' no Drive). Cópias extras em pasta 1UCCxdFQHIi--SPbm3__fQ2Gt2PC89Tmr ('Single shot 2/3/4.MP4' e 'Single shot imersão-3.mp4')."
-  },
-  {
-   "id": "SS03",
-   "etapa": "single-shot",
-   "tipo": "video",
-   "formatos": [
-    "vídeo mp4"
-   ],
-   "versoes": [],
-   "eyebrow": null,
-   "headline": null,
-   "subtexto": null,
-   "destaques": [],
-   "bloco_data": null,
-   "cta": null,
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": []
-   },
-   "fonte": {
-    "arquivo_drive_id": "1aQELEW1Omtec4HZz9m-5Zj5Y6rB96A8f",
-    "arquivo": "single shots-3(1).mp4",
-    "pasta_drive_id": "1e4X1bkLk02QwH1kYQTst8nY1i-lw7MSr",
-    "observacao_fonte": "Pasta 'Single shot' só tem vídeos; não há arte estática nem copy."
-   },
-   "observacoes": "Não é estático; sem texto de copy encontrado (nenhum doc 'single shot' no Drive). Cópias extras em pasta 1UCCxdFQHIi--SPbm3__fQ2Gt2PC89Tmr ('Single shot 2/3/4.MP4' e 'Single shot imersão-3.mp4')."
-  },
-  {
-   "id": "SS04",
-   "etapa": "single-shot",
-   "tipo": "video",
-   "formatos": [
-    "vídeo mp4"
-   ],
-   "versoes": [],
-   "eyebrow": null,
-   "headline": null,
-   "subtexto": null,
-   "destaques": [],
-   "bloco_data": null,
-   "cta": null,
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": []
-   },
-   "fonte": {
-    "arquivo_drive_id": "1slXkGHNu_Z1ZIE0LReqe-yAjHg_OhsrL",
-    "arquivo": "single shots-4(1).mp4",
-    "pasta_drive_id": "1e4X1bkLk02QwH1kYQTst8nY1i-lw7MSr",
-    "observacao_fonte": "Pasta 'Single shot' só tem vídeos; não há arte estática nem copy."
-   },
-   "observacoes": "Não é estático; sem texto de copy encontrado (nenhum doc 'single shot' no Drive). Cópias extras em pasta 1UCCxdFQHIi--SPbm3__fQ2Gt2PC89Tmr ('Single shot 2/3/4.MP4' e 'Single shot imersão-3.mp4')."
-  },
-  {
-   "id": "SS05",
-   "etapa": "single-shot",
-   "tipo": "video",
-   "formatos": [
-    "vídeo mp4"
-   ],
-   "versoes": [],
-   "eyebrow": null,
-   "headline": null,
-   "subtexto": null,
-   "destaques": [],
-   "bloco_data": null,
-   "cta": null,
-   "selo_extra": null,
-   "usa_capas_cursos": {
-    "usa": false,
-    "cursos": []
-   },
-   "fonte": {
-    "arquivo_drive_id": "1T75YCTCwhIMu2cyyMCp7jOmuxUyjwps8",
-    "arquivo": "single shots-6(1).mp4",
-    "pasta_drive_id": "1e4X1bkLk02QwH1kYQTst8nY1i-lw7MSr",
-    "observacao_fonte": "Pasta 'Single shot' só tem vídeos; não há arte estática nem copy."
-   },
-   "observacoes": "Não é estático; sem texto de copy encontrado (nenhum doc 'single shot' no Drive). Cópias extras em pasta 1UCCxdFQHIi--SPbm3__fQ2Gt2PC89Tmr ('Single shot 2/3/4.MP4' e 'Single shot imersão-3.mp4')."
-  }
- ]
-}
+ {
+  "id": "C02",
+  "etapa": "captacao",
+  "headline": "Quantas vezes você já [recomeçou] este ano?",
+  "apoio": "Dessa vez você entra com tudo na mão e sem prazo pra dar conta.",
+  "fechamento": null,
+  "selo": "Black Próton Vitalícia · 04/11",
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "C03",
+  "etapa": "captacao",
+  "headline": "Clube Secreto + 11 produtos. [Acesso pra sempre.]",
+  "apoio": "Tudo o que a Dra. Próton construiu até hoje, por um pagamento único. A condição completa só é revelada na live.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "C04",
+  "etapa": "captacao",
+  "headline": "Pare de comprar curso com [medo de deixar de lado]",
+  "apoio": "Sem prazo pra usar. Sem pressão de \"preciso aproveitar logo\". Acesso vitalício ao Clube Secreto e às imersões.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "C05",
+  "etapa": "captacao",
+  "headline": "Dia 04/11 a [mensalidade] do Clube Secreto vira passado",
+  "apoio": "Live de revelação às 20h. Nessas condições, é a primeira e a última vez.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "C06",
+  "etapa": "captacao",
+  "headline": "\"Isso não é pra mim\" sempre aparece [na hora de agir]",
+  "apoio": "A autossabotagem venceu outras vezes porque sempre teve um \"depois\" pra se esconder. Em 04/11 a Dra. Próton tira o prazo da equação.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "C07",
+  "etapa": "captacao",
+  "headline": "[Termostato Invisível.] [Autossabotagem.] [Culpa de Querer Mais.]",
+  "apoio": "Se você já se reconheceu em algum desses perfis, a live de 04/11 é pra você.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "C08",
+  "etapa": "captacao",
+  "headline": "Um [pagamento único.] Parcelado no cartão.",
+  "apoio": "Acesso vitalício ao Clube Secreto e a todas as imersões da Dra. Próton. O valor é revelado na live de 04/11 às 20h.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "RMK01",
+  "etapa": "rmkt-captacao",
+  "headline": "Você [quase] garantiu seu lugar",
+  "apoio": "Falta só o cadastro pra receber o link da live de 04/11, às 20h.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "RMK02",
+  "etapa": "rmkt-captacao",
+  "headline": "Ficou alguma [dúvida?]",
+  "apoio": "A live é gratuita. Você só precisa se cadastrar pra receber o link.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "RMK03",
+  "etapa": "rmkt-captacao",
+  "headline": "Ainda [pensando?]",
+  "apoio": "A autossabotagem adora um \"depois\". Garanta seu lugar agora, leva 30 segundos.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "RMK04",
+  "etapa": "rmkt-captacao",
+  "headline": "Seu lugar na live [ainda está disponível]",
+  "apoio": "Black Próton Vitalícia · 04/11 às 20h",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "RMK05",
+  "etapa": "rmkt-captacao",
+  "headline": "Não deixa pra [depois] de novo",
+  "apoio": "Cadastro rápido. Link da live direto no seu WhatsApp.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ01",
+  "etapa": "aquecimento",
+  "headline": "[3 sinais] de que a autossabotagem está decidindo por você",
+  "apoio": "1. Você começa empolgada e para no meio.\n2. \"Isso não é pra mim\" aparece bem na hora de agir.\n3. Sempre existe um \"depois\".",
+  "fechamento": "Em 04/11 a Dra. Próton abre a Black Próton Vitalícia. Live às 20h.",
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ02",
+  "etapa": "aquecimento",
+  "headline": "Por que você [começa e não termina?]",
+  "apoio": "Não é falta de força de vontade. É um padrão. E padrão se trabalha com método e acompanhamento.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ03",
+  "etapa": "aquecimento",
+  "headline": "O \"depois\" é o [esconderijo favorito] da procrastinação",
+  "apoio": "Depois eu começo. Depois eu uso. Depois eu volto. Reconhece?",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ04",
+  "etapa": "aquecimento",
+  "headline": "Qual desses [perfis] é o seu?",
+  "apoio": "Termostato Invisível\nAutossabotagem\nCobrança Que Você Só Faz Com Você\nTraumas Que Ainda Decidem\nCulpa de Querer Mais",
+  "fechamento": "Na live de 04/11 a Dra. Próton apresenta tudo o que construiu pra trabalhar esses padrões.",
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ05",
+  "etapa": "aquecimento",
+  "headline": "[Crenças sobre dinheiro] que você aprendeu sem perceber",
+  "apoio": "\"Dinheiro não é pra mim.\" \"Quem tem muito é porque tirou de alguém.\" Elas também sabotam.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ06",
+  "etapa": "aquecimento",
+  "headline": "Você se cobra [mais do que cobraria] qualquer outra pessoa?",
+  "apoio": "A cobrança que você só faz com você é um dos perfis mais comuns entre as alunas da Dra. Próton.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ07",
+  "etapa": "aquecimento",
+  "headline": "Comprar curso e não usar também é [autossabotagem]",
+  "apoio": "O medo de não dar conta faz você nem começar. Em 04/11 a Dra. Próton tira o prazo da equação.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AQ08",
+  "etapa": "aquecimento",
+  "headline": "Querer mais não deveria vir com [culpa]",
+  "apoio": "Culpa de Querer Mais é um dos 5 perfis da Imersão. Live de revelação 04/11, às 20h.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT01",
+  "etapa": "antecipacao",
+  "headline": "Algo que a Dra. Próton [nunca fez] está chegando",
+  "apoio": "04/11, às 20h. Live de revelação da Black Próton Vitalícia.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT02",
+  "etapa": "antecipacao",
+  "headline": "[Contagem regressiva] pra 04/11",
+  "apoio": "O Clube Secreto e todas as imersões vão abrir com acesso vitalício. Garanta seu lugar na live.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT03",
+  "etapa": "antecipacao",
+  "headline": "O que vai ser [revelado] em 04/11?",
+  "apoio": "A condição completa da Black Próton Vitalícia: valor, lotes e como parcelar. Só ao vivo.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT04",
+  "etapa": "antecipacao",
+  "headline": "Marque na agenda: [04/11, às 20h]",
+  "apoio": "Live de revelação no YouTube. Quem estiver cadastrada recebe o link no grupo.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT05",
+  "etapa": "antecipacao",
+  "headline": "Uma condição pensada pra quem [cansou de recomeçar]",
+  "apoio": "Black Próton Vitalícia. Revelação ao vivo em 04/11.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT06",
+  "etapa": "antecipacao",
+  "headline": "Faltam poucos dias pra [mensalidade virar passado]",
+  "apoio": "Clube Secreto com acesso vitalício, num pagamento único. Live de revelação 04/11.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT07",
+  "etapa": "antecipacao",
+  "headline": "Quem estiver na live vai [saber primeiro]",
+  "apoio": "Valor e lotes da Black Próton Vitalícia só são mostrados ao vivo, em 04/11.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ANT08",
+  "etapa": "antecipacao",
+  "headline": "Você vai [querer estar lá]",
+  "apoio": "04/11, às 20h. A Dra. Próton abre tudo o que construiu, de uma vez só.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ESC01",
+  "etapa": "escassez",
+  "headline": "Faltam [7 dias] pra live",
+  "apoio": "Quem não se cadastrar não recebe o link nem a condição de 04/11.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ESC02",
+  "etapa": "escassez",
+  "headline": "Faltam [3 dias]",
+  "apoio": "Nessas condições, é a primeira e a última vez. Garanta seu lugar.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ESC03",
+  "etapa": "escassez",
+  "headline": "É [amanhã]",
+  "apoio": "Última chance de se cadastrar antes da live de revelação.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "ESC04",
+  "etapa": "escassez",
+  "headline": "Últimas [horas] de cadastro",
+  "apoio": "Hoje, às 20h, a Dra. Próton revela a Black Próton Vitalícia.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD01",
+  "etapa": "escassez",
+  "headline": "O tempo está [acabando]",
+  "apoio": "A oferta é única e vai ser revelada AO VIVO uma única vez!",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD02",
+  "etapa": "escassez",
+  "headline": "Você vai mesmo [deixar pra depois?!]",
+  "apoio": "Essa oferta não vai se repetir.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD03",
+  "etapa": "escassez",
+  "headline": "Uma live. Uma noite. [Uma oferta.]",
+  "apoio": null,
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD04",
+  "etapa": "escassez",
+  "headline": "Você está a um cadastro de ver, ao vivo, a oferta que [eu nunca fiz antes.]",
+  "apoio": null,
+  "fechamento": null,
+  "selo": "Nessas condições, é a primeira e a última vez",
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD05",
+  "etapa": "escassez",
+  "headline": "[Últimos dias]",
+  "apoio": "Para garantir seu lugar na live de revelação da Black Próton Vitalícia. O que vier depois vai ser outra oferta, com outro preço.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD06",
+  "etapa": "escassez",
+  "headline": "[Primeira e última vez]",
+  "apoio": "Nessas condições, essa oferta não volta. Cadastre-se e receba o link da live.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD07",
+  "etapa": "escassez",
+  "headline": "Você tá cansada de [recomeçar todo ano,] né?!",
+  "apoio": "Eu preparei algo que nunca fiz, mas você precisa estar ao vivo comigo… Topa?",
+  "fechamento": null,
+  "selo": "04/11 às 20h · Uma única noite",
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD08",
+  "etapa": "escassez",
+  "headline": "A [última vez] que você compra.",
+  "apoio": "Pagamento único ou parcelado no cartão. As condições só serão reveladas ao vivo.",
+  "fechamento": null,
+  "selo": "Essa oferta não se repete",
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD09",
+  "etapa": "escassez",
+  "headline": "[Contagem regressiva] até 04/11 às 20h",
+  "apoio": "Quando zerar, a oferta é revelada. Nessas condições, é a primeira e a última vez.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD12",
+  "etapa": "escassez",
+  "headline": "Você já viu [oportunidade passar] por deixar para depois?",
+  "apoio": "Essa tem dia e hora: 04/11, às 20h. E não se repete.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD13",
+  "etapa": "escassez",
+  "headline": "A Dra. Próton [nunca fez] essa oferta.",
+  "apoio": "E nessas condições, é a primeira e a última vez.",
+  "fechamento": null,
+  "selo": null,
+  "data": true,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD14",
+  "etapa": "escassez",
+  "headline": "O relógio da Black Próton Vitalícia está [correndo.]",
+  "apoio": "04/11, às 20h. Quem não estiver cadastrada não recebe o link.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD15",
+  "etapa": "escassez",
+  "headline": "Faltam [2 dias] para a revelação.",
+  "apoio": "Uma noite, ao vivo. Essa oferta não se repete.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD16",
+  "etapa": "escassez",
+  "headline": "04/11, 20h, [ao vivo no YouTube.]",
+  "apoio": "O que vier depois vai ser outra oferta, com outro preço.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD17",
+  "etapa": "escassez",
+  "headline": "A live está [mais perto] do que você imagina.",
+  "apoio": "Garanta seu lugar antes que a noite passe.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "AD18",
+  "etapa": "escassez",
+  "headline": "Essa é a [única vez] que essa oferta existe nessas condições.",
+  "apoio": "Pagamento único ou parcelado no cartão. Detalhes só ao vivo.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO PARTICIPAR"
+ },
+ {
+  "id": "LEM01",
+  "etapa": "lembrete",
+  "headline": "Falta [1 semana]",
+  "apoio": "04/11, às 20h. Live de revelação da Black Próton Vitalícia.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "ENTRAR NO GRUPO"
+ },
+ {
+  "id": "LEM02",
+  "etapa": "lembrete",
+  "headline": "Faltam [3 dias]",
+  "apoio": "Já está no grupo? É lá que sai o link da live.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "ENTRAR NO GRUPO"
+ },
+ {
+  "id": "LEM03",
+  "etapa": "lembrete",
+  "headline": "É [amanhã]",
+  "apoio": "04/11, às 20h, no YouTube. A condição completa só é revelada ao vivo.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "ATIVAR LEMBRETE"
+ },
+ {
+  "id": "LEM04",
+  "etapa": "lembrete",
+  "headline": "É [hoje,] às 20h",
+  "apoio": "A Dra. Próton abre o Clube Secreto e todas as imersões com acesso vitalício.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO ASSISTIR"
+ },
+ {
+  "id": "LEM05",
+  "etapa": "lembrete",
+  "headline": "Faltam [poucas horas]",
+  "apoio": "Live de revelação da Black Próton Vitalícia, hoje às 20h.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO ASSISTIR"
+ },
+ {
+  "id": "LEM06",
+  "etapa": "lembrete",
+  "headline": "Começa em [1 hora]",
+  "apoio": "Separe um tempo só pra você. Às 20h, ao vivo no YouTube.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO ASSISTIR"
+ },
+ {
+  "id": "LEM07",
+  "etapa": "lembrete",
+  "headline": "Estamos [ao vivo]",
+  "apoio": "A Dra. Próton já está revelando a condição da Black Próton Vitalícia.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "ASSISTIR AGORA"
+ },
+ {
+  "id": "LEM08",
+  "etapa": "lembrete",
+  "headline": "Você se cadastrou. [Agora não falta.]",
+  "apoio": "04/11, às 20h. Nessas condições, é a primeira e a última vez.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "ATIVAR LEMBRETE"
+ },
+ {
+  "id": "VEN01",
+  "etapa": "vendas",
+  "headline": "Está aberta: [Black Próton Vitalícia]",
+  "apoio": "Clube Secreto + 11 produtos com acesso vitalício, num pagamento único de {{VALOR DO LOTE}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN02",
+  "etapa": "vendas",
+  "headline": "A [última mensalidade] que você precisa pagar",
+  "apoio": "Acesso pra sempre ao Clube Secreto e a todas as imersões. {{LOTE ATUAL}} por {{VALOR DO LOTE}}, parcelado no cartão.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN03",
+  "etapa": "vendas",
+  "headline": "A [última vez] que você vai precisar recomeçar",
+  "apoio": "Entre de vez, com tudo na mão e sem prazo pra dar conta.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN04",
+  "etapa": "vendas",
+  "headline": "{{LOTE ATUAL}} termina em {{DATA/HORA DA VIRADA}}",
+  "apoio": "Depois disso o valor sobe R$ 1.000.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN05",
+  "etapa": "vendas",
+  "headline": "Tudo o que a Dra. Próton construiu. [Pra sempre.]",
+  "apoio": "Clube Secreto, Fórmula da Riqueza, Imersão Desbloqueie o Poder da Sua Mente e mais 9 produtos.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN06",
+  "etapa": "vendas",
+  "headline": "Um pagamento. [Acesso vitalício.] Parcelado no cartão.",
+  "apoio": "Black Próton Vitalícia por {{VALOR DO LOTE}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN07",
+  "etapa": "vendas",
+  "headline": "Nessas condições, é a [primeira e a última vez]",
+  "apoio": "O que vier depois vai ser outra oferta, com outro preço.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "VEN08",
+  "etapa": "vendas",
+  "headline": "Aluna do Clube Secreto paga [R$ 1.000 a menos]",
+  "apoio": "Em todos os lotes da Black Próton Vitalícia. Seu valor agora: {{VALOR DO LOTE ALUNAS}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "RV01",
+  "etapa": "rmkt-vendas",
+  "headline": "Você assistiu. [Agora decide.]",
+  "apoio": "A Black Próton Vitalícia segue aberta no {{LOTE ATUAL}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "RV02",
+  "etapa": "rmkt-vendas",
+  "headline": "Ficou no [carrinho?]",
+  "apoio": "Seu acesso vitalício ao Clube Secreto e às imersões está a um clique.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "FINALIZAR MINHA INSCRIÇÃO"
+ },
+ {
+  "id": "RV03",
+  "etapa": "rmkt-vendas",
+  "headline": "\"Depois eu [decido]\"",
+  "apoio": "É exatamente esse \"depois\" que a Vitalícia tira do caminho. {{LOTE ATUAL}} até {{DATA/HORA DA VIRADA}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "RV04",
+  "etapa": "rmkt-vendas",
+  "headline": "O valor sobe em {{DATA/HORA DA VIRADA}}",
+  "apoio": "Garanta agora a Black Próton Vitalícia por {{VALOR DO LOTE}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ },
+ {
+  "id": "RV05",
+  "etapa": "rmkt-vendas",
+  "headline": "Essa oferta [não se repete]",
+  "apoio": "Clube Secreto + 11 produtos com acesso pra sempre. Últimas horas do {{LOTE ATUAL}}.",
+  "fechamento": null,
+  "selo": null,
+  "data": false,
+  "cta": "QUERO MINHA VITALÍCIA"
+ }
+]

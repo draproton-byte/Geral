@@ -1,2 +1,1 @@
-{ "name": "black-vitalicia", "private": true, "scripts": { "render": "node src/render.js" },
-  "dependencies": { "@fontsource/montserrat": "^5.2.0", "playwright-core": "^1.50.0" } }
+{"name":"black-vitalicia","private":true,"scripts":{"render":"node src/render.js"},"dependencies":{"@fontsource/montserrat":"^5.2.0","playwright-core":"^1.50.0","pngjs":"^7.0.0"}}

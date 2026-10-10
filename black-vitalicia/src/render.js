@@ -67,7 +67,7 @@ function html(it) {
   const fecho = it.fechamento ? `<div class="fecho">${hl(it.fechamento)}</div>` : '';
   const extraCapas = (it.capasExtra || []).map(c => `<img src="${U('capas-cursos/' + c + '.jpg')}">`).join('');
   const capasBoxHtml = extraCapas ? `<div id="capasbox">${extraCapas}</div>` : '';
-  const capasHtml = capas.length ? `<div id="capas">${capas.map(c => `<img src="${c}">`).join('')}</div>` : '';
+  const capasHtml = capas.length ? `<div id="capas"${capas.length > 6 ? ' class="mosaico"' : ''}>${capas.map(c => `<img src="${c}">`).join('')}</div>` : '';
 
   const css = `${FONTS}*{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${W}px;height:${H}px}
@@ -107,6 +107,8 @@ h1{font-weight:900;text-transform:uppercase;line-height:1.04;letter-spacing:-.01
 #capasbox{position:absolute;left:80px;display:none;flex-wrap:wrap;gap:14px;align-content:flex-start}
 #capasbox img{display:block;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,.4);border:1.5px solid ${t.cardLine};object-fit:cover}
 #capas{position:absolute;left:80px;right:80px;display:flex;gap:22px;align-items:center;justify-content:center}
+#capas.mosaico{flex-wrap:wrap;gap:12px;align-content:flex-start}
+#capas.mosaico img{flex:none;width:calc((100% - 60px)/6);height:auto;aspect-ratio:720/1040;max-height:none}
 #capas img{flex:1 1 0;min-width:0;max-height:100%;border-radius:16px;box-shadow:0 18px 40px rgba(0,0,0,.4);border:1.5px solid ${t.cardLine};object-fit:cover}
 `;
 
@@ -184,7 +186,7 @@ function run(){
     txt.style.width=(C.W-160)+'px'; txt.style.top=C.topY+'px';
     const caps=$('#capas');
     for(let fs=C.fsStart;fs>=C.fsMin;fs-=2){setFs(fs); setSub(Math.max(fs*0.46,C.story?27:23)); const free=actTop-14-(C.topY+txt.offsetHeight+24); if(free>=(caps?(C.story?640:470):(C.capasBox?(C.story?420:300):0))&&h1.scrollWidth<=txt.clientWidth+1) break;}
-    if(caps){caps.style.top=(C.topY+txt.offsetHeight+30)+'px';caps.style.height=(actTop-14-(C.topY+txt.offsetHeight+30))+'px';}
+    if(caps){caps.style.top=(C.topY+txt.offsetHeight+30)+'px'; if(!caps.classList.contains('mosaico')) caps.style.height=(actTop-14-(C.topY+txt.offsetHeight+30))+'px';}
     if(!caps){ if(C.capasBox){ placeCapas(C.W-160, C.topY+txt.offsetHeight+34, actTop-26, true); } else { const avail=actTop-14-C.topY; txt.style.top=(C.topY+Math.max(0,(avail-txt.offsetHeight)/2))+'px'; } }
     window.__txt=[80,txt.offsetTop,C.W-80,txt.offsetTop+txt.offsetHeight]; window.__act=[80,act.offsetTop,C.W-80,act.offsetTop+act.offsetHeight];
     window.__fig=null;
@@ -263,7 +265,7 @@ body{font-family:Montserrat;background:${t.bg};color:${t.txt};position:relative;
   } else if (layout === 'capasfaixa') {
     body = `${logo}<div class="c" style="top:${story ? 480 : 170}px"><div style="font-weight:900;font-size:${story ? 104 : 80}px;line-height:1.04;text-transform:uppercase">${hl(e.headline)}</div>
     <div style="font-weight:500;font-size:${story ? 42 : 35}px;line-height:1.4;margin-top:${story ? 40 : 28}px;color:${t.txt2}">${hl(e.apoio)}</div></div>
-    <div style="position:absolute;left:24px;right:24px;top:${story ? 1130 : 760}px;display:flex;gap:12px;justify-content:center;align-items:flex-start">${(e.capas || []).map((c, i) => `<img src="${U('capas-cursos/' + c + '.jpg')}" style="width:${Math.floor((W - 48 - 12 * ((e.capas || []).length - 1)) / (e.capas || []).length)}px;height:${Math.floor((W - 48 - 12 * ((e.capas || []).length - 1)) / (e.capas || []).length * 1.25)}px;border-radius:12px;box-shadow:0 18px 40px rgba(0,0,0,.45);border:1.5px solid ${t.cardLine};object-fit:cover;margin-top:${i % 2 ? 26 : 0}px">`).join('')}</div>
+    <div style="position:absolute;left:60px;right:60px;top:${story ? 1080 : 700}px;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-content:flex-start">${(e.capas || []).map((c, i) => { const per = Math.min((e.capas || []).length, 6), tw = Math.floor((W - 120 - 12 * (per - 1)) / per); return `<img src="${U('capas-cursos/' + c + '.jpg')}" style="width:${tw}px;height:${Math.round(tw * 1.444)}px;border-radius:12px;box-shadow:0 18px 40px rgba(0,0,0,.45);border:1.5px solid ${t.cardLine};object-fit:cover">`; }).join('')}</div>
     <div class="c" style="bottom:${story ? 420 : 110}px">${cta}</div>`;
   } else if (layout === 'savedate') {
     const bw = bb.x1 - bb.x0, figW = story ? 880 : 640, s = figW / bw, figH = bb.h * s;

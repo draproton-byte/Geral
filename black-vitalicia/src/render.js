@@ -54,7 +54,7 @@ function html(it) {
   const rec = it.recorte && layout !== 'capas' && layout !== 'texto' ? it.recorte : null;
   const bb = rec ? bboxDe(rec) : null;
   const capas = (it.capas || []).map(c => U('capas-cursos/' + c + '.jpg'));
-  const cfg = { W, H, story, layout, bb, hasCut: !!rec, padBottom: story ? 380 : 74, topY: story ? 450 : 190, fsStart: it.fs || (layout === 'texto' ? (story ? 120 : 92) : story ? 84 : 70), fsMin: story ? 40 : 34, bleed: it.bleed ?? 40, figW: it.figW || (story ? 1060 : 860), maxFigH: story ? 0.74 : 0.86, capasBox: (it.capasExtra || []).length, subStart: story ? 36 : 30, subMin: story ? 24 : 21 };
+  const cfg = { W, H, story, layout, bb, hasCut: !!rec, padBottom: story ? 380 : 74, topY: story ? 450 : 190, fsStart: it.fs || (layout === 'texto' ? (story ? 120 : 92) : story ? 84 : 70), fsMin: story ? 40 : 34, bleed: it.bleed ?? 40, figW: it.figW || (story ? 1060 : 860), maxFigH: story ? 0.74 : 0.86, capasBox: (it.capasExtra || []).length, minTile: story ? 96 : 78, subStart: story ? 36 : 30, subMin: story ? 24 : 21 };
 
   const dataCard = it.data ? `
     <div class="date" id="date">
@@ -119,14 +119,21 @@ const act=$('#actions'),txt=$('#txt'),h1=$('h1'),foot=$('#foot');
 document.fonts.ready.then(()=>{ run(); document.title='ok'; });
 function setFs(fs){h1.style.fontSize=fs+'px';}
 function setSub(fs){['.apoio','.fecho','.selo'].forEach((q,i)=>{const e=$(q); if(e) e.style.fontSize=Math.round(fs*[1,0.92,0.78][i])+'px';});}
+// melhor grade para as 12 capas (todas obrigatórias, cada uma uma vez) numa área colW x free
+function capasGrid(colW,free,wide){
+  const n=C.capasBox, gap=wide?12:10; let best=null;
+  for(const cols of (wide?[6,4,3]:[3,4,6,2])){
+    const tw=Math.floor((colW-gap*(cols-1))/cols), th=Math.round(tw*1.444), rows=Math.ceil(n/cols), need=rows*th+(rows-1)*gap;
+    if(need<=free && (!best||tw>best.tw)) best={cols,tw,th,rows,gap};
+  }
+  return best;
+}
 function placeCapas(colW,top,bottom,wide){
-  const box=$('#capasbox'); if(!box||!C.capasBox) return;
-  const imgs=[...box.querySelectorAll('img')]; const free=bottom-top; if(free<150) return;
-  let cols=wide?4:2, gap=14, tw=Math.floor((colW-gap*(cols-1))/cols), th=Math.round(tw*1.25);
-  if(wide&&th>free){ th=Math.floor(free); tw=Math.round(th/1.25); }
-  const rows=wide?1:Math.max(0,Math.floor((free+gap)/(th+gap))); if(!rows) return;
-  const n=Math.min(imgs.length,cols*rows); imgs.forEach((im,i)=>{im.style.display=i<n?'block':'none'; im.style.width=tw+'px'; im.style.height=th+'px';});
-  const used=Math.ceil(n/cols); box.style.display='flex'; box.style.top=top+'px'; box.style.width=(wide?cols*tw+gap*(cols-1):colW)+'px'; box.style.left=(wide?Math.round((C.W-(cols*tw+gap*(cols-1)))/2):80)+'px';
+  const box=$('#capasbox'); if(!box||!C.capasBox) return false;
+  const g=capasGrid(colW,bottom-top,wide); if(!g||g.tw<C.minTile) return false;
+  [...box.querySelectorAll('img')].forEach(im=>{im.style.display='block';im.style.width=g.tw+'px';im.style.height=g.th+'px';});
+  const w=g.cols*g.tw+g.gap*(g.cols-1); box.style.display='flex'; box.style.gap=g.gap+'px'; box.style.top=top+'px'; box.style.width=w+'px';
+  box.style.left=(wide?Math.round((C.W-w)/2):80)+'px'; return true;
 }
 function run(){
   const cw=$('#cutwrap'),cut=$('#cut');
@@ -166,7 +173,33 @@ function run(){
           if(cta){cta.style.fontSize='';cta.style.letterSpacing='';let cf=parseFloat(getComputedStyle(cta).fontSize);while(cta.scrollWidth>cta.clientWidth+1&&cf>20){cf-=1;cta.style.fontSize=cf+'px';}}
           const actH=act.offsetHeight, actTop=C.H-C.padBottom-actH; act.style.top=actTop+'px';
           const okW = t2W>=340 && aW>=340;
-          if(okW && t2top+t2.offsetHeight<=actTop-18){placed=true;geo={s,left,top,bleft,figTop,t2W:Math.max(340,t2W),aW:Math.max(340,aW)};}
+          const capsOk = !C.capasBox || (()=>{const g=capasGrid(Math.min(Math.max(340,t2W),Math.max(340,aW)),actTop-18-(t2top+t2.offsetHeight+26),false); return g&&g.tw>=C.minTile;})();
+          if(okW && capsOk && t2top+t2.offsetHeight<=actTop-18){placed=true;geo={s,left,top,bleft,figTop,t2W:Math.max(340,t2W),aW:Math.max(340,aW)};}
+        }
+      }
+    }
+    let stacked=false;
+    if(!placed){
+      // modo empilhado: título + apoio + todas as capas em largura total; figura grande abaixo; data/botão ao lado da figura
+      const bwv=bb.x1-bb.x0;
+      for(let fs=C.fsStart; fs>=C.fsMin && !placed; fs-=2){
+        setFs(fs); if(h1.scrollWidth>txt.clientWidth+1) continue;
+        t2.style.width=(C.W-160)+'px';
+        for(let sf=C.subStart-4; sf>=C.subMin && !placed; sf-=2){
+          setSub(sf); let y=C.topY+txt.offsetHeight+20; t2.style.top=y+'px'; y+=t2.offsetHeight+22;
+          const box=$('#capasbox'); const gd=C.capasBox?capasGrid(C.W-160,C.H*0.30,true):null; let capH=0;
+          if(C.capasBox){ if(!gd||gd.tw<C.minTile) continue; capH=gd.rows*gd.th+(gd.rows-1)*gd.gap; }
+          const figTop=y+(C.capasBox?capH+24:0);
+          const figHmin=C.H*(C.story?0.36:0.36); if(C.H-figTop<figHmin) continue;
+          const s=(C.H-figTop)/(bb.h-bb.y0), left=C.W+C.bleed-bb.x1*s, top=C.H-bb.h*s, bleft=left+bb.x0*s;
+          const leftAt=(ya,yb)=>{let m=C.W; for(let yy=Math.max(0,Math.floor((ya-top)/s));yy<=Math.min(bb.P.length*8-1,Math.ceil((yb-top)/s));yy+=8){const v=bb.P[Math.min(bb.P.length-1,yy>>3)]; if(v<bb.w) m=Math.min(m,left+v*s);} return m;};
+          let aW=Math.max(340,leftAt(C.H-C.padBottom-300,C.H-C.padBottom)-108);
+          for(let k=0;k<3;k++){ act.style.width=aW+'px'; if(date) date.classList.toggle('compact',aW<700); const aH=act.offsetHeight; aW=Math.max(340,leftAt(C.H-C.padBottom-aH,C.H-C.padBottom)-108); }
+          act.style.width=aW+'px'; if(date) date.classList.toggle('compact',aW<700);
+          const actH=act.offsetHeight, actTop=C.H-C.padBottom-actH; act.style.top=actTop+'px';
+          if(actTop<figTop+10) continue;
+          if(box&&gd){ [...box.querySelectorAll('img')].forEach(im=>{im.style.display='block';im.style.width=gd.tw+'px';im.style.height=gd.th+'px';}); const w=gd.cols*gd.tw+gd.gap*(gd.cols-1); box.style.display='flex'; box.style.gap=gd.gap+'px'; box.style.top=y+'px'; box.style.width=w+'px'; box.style.left=Math.round((C.W-w)/2)+'px'; }
+          placed=true; stacked=true; geo={s,left,top,bleft,figTop,t2W:C.W-160,aW};
         }
       }
     }
@@ -175,7 +208,7 @@ function run(){
     cut.src=cut.dataset.src; cut.style.width=(bb.w*s)+'px'; cut.style.left=left+'px'; cut.style.top=top+'px';
     document.documentElement.style.setProperty('--gx',Math.min(92,((left+((bb.x0+bb.x1)/2)*s)/C.W*100))+'%');
     document.documentElement.style.setProperty('--gy',((figTop+(bb.y1-bb.y0)*s*0.18)/C.H*100)+'%');
-    placeCapas(Math.min(geo.t2W,geo.aW), t2.offsetTop+t2.offsetHeight+26, act.offsetTop-26, false);
+    if(!stacked) placeCapas(Math.min(geo.t2W,geo.aW), t2.offsetTop+t2.offsetHeight+26, act.offsetTop-26, false);
     window.__txt=[80,C.topY,C.W-80,C.topY+txt.offsetHeight];
     window.__txt2=[80,t2.offsetTop,80+geo.t2W,t2.offsetTop+t2.offsetHeight];
     window.__act=[80,act.offsetTop,80+geo.aW,act.offsetTop+act.offsetHeight];
@@ -185,7 +218,7 @@ function run(){
     const actTop=C.H-C.padBottom-act.offsetHeight;
     txt.style.width=(C.W-160)+'px'; txt.style.top=C.topY+'px';
     const caps=$('#capas');
-    for(let fs=C.fsStart;fs>=C.fsMin;fs-=2){setFs(fs); setSub(Math.max(fs*0.46,C.story?27:23)); const free=actTop-14-(C.topY+txt.offsetHeight+24); if(free>=(caps?(C.story?640:470):(C.capasBox?(C.story?420:300):0))&&h1.scrollWidth<=txt.clientWidth+1) break;}
+    for(let fs=C.fsStart;fs>=C.fsMin;fs-=2){setFs(fs); setSub(Math.max(fs*0.46,C.story?27:23)); const free=actTop-14-(C.topY+txt.offsetHeight+24); if(free>=(caps?(C.story?640:470):(C.capasBox?(C.story?460:400):0))&&h1.scrollWidth<=txt.clientWidth+1) break;}
     if(caps){caps.style.top=(C.topY+txt.offsetHeight+30)+'px'; if(!caps.classList.contains('mosaico')) caps.style.height=(actTop-14-(C.topY+txt.offsetHeight+30))+'px';}
     if(!caps){ if(C.capasBox){ placeCapas(C.W-160, C.topY+txt.offsetHeight+34, actTop-26, true); } else { const avail=actTop-14-C.topY; txt.style.top=(C.topY+Math.max(0,(avail-txt.offsetHeight)/2))+'px'; } }
     window.__txt=[80,txt.offsetTop,C.W-80,txt.offsetTop+txt.offsetHeight]; window.__act=[80,act.offsetTop,C.W-80,act.offsetTop+act.offsetHeight];

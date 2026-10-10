@@ -25,6 +25,7 @@ const rodizio = []; { let a = 0, b = 0; while (rodizio.length < 60) { if (rodizi
 
 const SEM_FOTO = new Set(['C02', 'C04', 'C06', 'C08', 'ESC01', 'ESC02', 'ESC03', 'ESC04', 'AD02', 'AD03', 'AD08', 'AD09', 'AD13', 'AD14', 'AD15', 'AD16', 'AD17', 'AD18']);
 const HERO = new Set(['ESC01', 'ESC02', 'ESC03', 'ESC04']);
+// todas as 12 capas (Clube Secreto + 11 produtos) entram em toda peça: obrigatório
 const CAPAS_LISTA = ['clube-secreto', 'formula-da-riqueza', 'desbloqueie-o-poder-da-sua-mente', 'a-nova-realidade', 'audios-poderosos', 'terapeuta-de-elite', 'crianca-interior', 'cura-escassez-financeira', 'sequencias-numericas', 'destrave-o-dinheiro', 'codigos-de-ativacao', 'instagram-profissional']; // 12 = Clube Secreto + 11 produtos
 const itens = [];
 let ultimo = '';
@@ -39,7 +40,7 @@ copy.forEach((c, i) => {
   for (const formato of ['feed', 'story']) for (const versao of versoes) {
     const v = aj[formato + '-' + versao] || {};
     itens.push({ id: c.id, etapa: pasta, formato, versao, recorte: rec, headline: c.headline, apoio: c.apoio, fechamento: c.fechamento, selo: c.selo, data: c.data, cta: c.cta,
-      capasExtra: c.id === 'VEN05' ? undefined : [0, 1, 2, 3].map(k => CAPAS_LISTA[(i * 3 + k) % CAPAS_LISTA.length]), layout: c.id === 'VEN05' ? 'capas' : SEM_FOTO.has(c.id) ? 'texto' : undefined, hero: HERO.has(c.id), capas: c.id === 'VEN05' ? CAPAS_LISTA : undefined,
+      capasExtra: c.id === 'VEN05' ? undefined : CAPAS_LISTA, layout: c.id === 'VEN05' ? 'capas' : SEM_FOTO.has(c.id) ? 'texto' : undefined, hero: HERO.has(c.id), capas: c.id === 'VEN05' ? CAPAS_LISTA : undefined,
       nome: `${pasta}/BLACK PROTON VITALICIA - ${pasta} ${c.id} - ${formato === 'feed' ? 'FEED' : 'STORIES'}${versao === 'claro' ? ' - CLARO' : versao === 'vinho' ? ' - VINHO' : versao === 'ambar' ? ' - AMBAR' : ''}`, ...aj, ...v });
   }
 });
@@ -51,7 +52,7 @@ if (!filtro.length || filtro.includes('LEMA01')) for (const formato of ['feed', 
 // formatos extras no padrão das referências do cliente (copy aproveitada dos docs)
 const EXTRAS = [
   { id: 'EXT01', layout: 'notificacao', recorte: null, extra: { titulo: 'Lembrete', texto: 'A live de revelação da Black Próton Vitalícia é dia [04/11, às 20h]. Quem estiver cadastrada recebe o link no grupo.', cta: 'SAIBA MAIS' } },
-  { id: 'EXT02', layout: 'datahero', extra: { topo: 'Live de revelação da Black Próton Vitalícia', linha: 'Começa dia', numero: '04/11', rodape: 'Ao vivo às 20h no YouTube', cta: 'ATIVE O LEMBRETE', capas: ['clube-secreto', 'a-nova-realidade', 'audios-poderosos', 'sequencias-numericas', 'terapeuta-de-elite', 'crianca-interior'] } },
+  { id: 'EXT02', layout: 'datahero', extra: { topo: 'Live de revelação da Black Próton Vitalícia', linha: 'Começa dia', numero: '04/11', rodape: 'Ao vivo às 20h no YouTube', cta: 'ATIVE O LEMBRETE', capas: CAPAS_LISTA } },
   { id: 'EXT03', layout: 'capasfaixa', extra: { headline: 'Clube Secreto + 11 produtos. [Acesso pra sempre.]', apoio: 'Tudo o que a Dra. Próton construiu até hoje, por um pagamento único. A condição completa só é revelada na live.', cta: 'QUERO PARTICIPAR', capas: CAPAS_LISTA } },
   { id: 'EXT04', layout: 'savedate', recorte: 'recorte-36.png', extra: { titulo: 'Black Próton Vitalícia', linha: 'Save the date: [04/11]', apoio: 'Clube Secreto e todas as imersões com acesso vitalício, por um pagamento único. Live de revelação às 20h, ao vivo no YouTube.', cta: 'TOQUE EM "SAIBA MAIS"' } },
 ];
